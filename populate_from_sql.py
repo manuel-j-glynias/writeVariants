@@ -11,7 +11,6 @@ def write_authors(my_cursor, server_write):
     m = ''
     counter = 0
     for author in authors:
-        print(author)
         s = create_author_mutation(author[2], author[0], author[1])
         m += s
         counter += 1
@@ -249,11 +248,74 @@ def write_omnigene(my_cursor, server_write):
 
 def write_jax_variants(my_cursor, server_write):
     print('write_jax_variants')
+    query = 'SELECT * FROM OmniSeqKnowledgebase.jax_variant;'
+    my_cursor.execute(query)
+    variants = my_cursor.fetchall()
+    m = ''
+    counter = 0
+    for jv in variants:
+        s = f'{jv[10]}: createJaxVariant(cDot: \\"{jv[5]}\\", gDot: \\"{jv[6]}\\",id: \\"{jv[10]}\\",jaxId: \\"{jv[2]}\\",' \
+            f'name: \\"{jv[0]}\\",pDot: \\"{jv[4]}\\",proteinEffect: \\"{jv[9]}\\",transcript: \\"{jv[7]}\\",variantType: \\"{jv[8]}\\", ),'
+        jvd_id = 'jvd_' + jv[10] + '_' + jv[1]
+        s += f'{jvd_id}: addJaxVariantDescription(description:[\\"{jv[1]}\\"], id:\\"{jv[10]}\\"),'
+        m += s
+        counter += 1
+        if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
+            print(counter)
+    if m != '':
+        send_mutation(m, server_write)
 
 
 def write_hot_spot_variants(my_cursor, server_write):
     print('write_hot_spot_variants')
+    query = 'SELECT * FROM OmniSeqKnowledgebase.hot_spot;'
+    my_cursor.execute(query)
+    rows = my_cursor.fetchall()
+    m = ''
+    counter = 0
+    for row in rows:
+        s = f'{row[7]}: createHotSpotVariant(begin: \\"{row[4]}\\", end: \\"{row[5]}\\", gene: \\"{row[1]}\\", id: \\"{row[7]}\\", name: \\"{row[0]}\\", position: {row[6]}, referenceAminoAcid: \\"{row[2]}\\", variantAminoAcid: \\"{row[3]}\\", ),'
+        #
+        # createOncoTreeOccurrence(disease: String!id: ID!occurences: Int! oncoTreeCode: String!percentOccurence: String!totalSamples: Int!): String
+        occurrences = '['
+        occurrences_query = f'SELECT * FROM OmniSeqKnowledgebase.hot_spot_occurrences where hot_spot_id="{row[7]}";'
+        my_cursor.execute(occurrences_query)
+        # id, es_id, ref_id
+        for otc in my_cursor.fetchall():
+            hso_id = 'hso_' + str(otc[0])
+            s += f'{hso_id}: createOncoTreeOccurrence(disease: \\"{otc[1]}\\", id: \\"{otc[7]}\\", occurrences: {otc[5]}, oncoTreeCode: \\"{otc[2]}\\", percentOccurrence: \\"{otc[3]}\\", totalSamples: {otc[6]}, perThousandOccurrence: {otc[4]}, ),'
+            occurrences += '\\"' + str(otc[7]) + '\\",'
+        occurrences += ']'
+        # addHotSpotVariantOccurrences(id: ID!occurrences: [ID!]!): String
+        jvd_id = 'hsvo_' + row[7]
+        s += f'{jvd_id}: addHotSpotVariantOccurrences(id:\\"{row[7]}\\", occurrences: {occurrences} ),'
+        m += s
+        counter += 1
+        if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
+            print(counter)
+    if m != '':
+        send_mutation(m, server_write)
 
 
 def write_clinvar_variants(my_cursor, server_write):
     print('write_clinvar_variants')
+    query = 'SELECT * FROM OmniSeqKnowledgebase.clinvar;'
+    my_cursor.execute(query)
+    rows = my_cursor.fetchall()
+    m = ''
+    counter = 0
+    for row in rows:
+        s = f'{row[9]}: createClinVarVariant(cDot: \\"{row[4]}\\", gene: \\"{row[2]}\\", id: \\"{row[9]}\\", pDot: \\"{row[3]}\\", signficanceExplanation: \\"{row[6]}\\", significance: \\"{row[5]}\\", variantID: \\"{row[1]}\\",),'
+        m += s
+        counter += 1
+        if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
+            print(counter)
+    if m != '':
+        send_mutation(m, server_write)
+

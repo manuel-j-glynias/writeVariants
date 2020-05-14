@@ -326,9 +326,10 @@ type OncoTreeOccurrence {
     id: ID!
     disease: String!
     oncoTreeCode: String!
-    percentOccurence: String!
-    occurences: Int!
+    percentOccurrence: String!
+    occurrences: Int!
     totalSamples: Int!
+    perThousandOccurrence: Int!
 }
 
 type HotSpotVariant {

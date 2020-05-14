@@ -15,7 +15,7 @@ def read_snv_hotspot(onco_dict):
             variantAminoAcid = row['Variant_Amino_Acid'].split(':')[0]
             begin = row['Amino_Acid_Position']
             if not begin.isnumeric():
-                position = -1
+                position = 0
             else:
                 position = int(begin)
             if referenceAminoAcid == 'splice':
@@ -45,7 +45,7 @@ def read_indel_hotspot(onco_dict):
             variant = row['Variant_Amino_Acid'].split(':')[0]
             name = gene + ' ' + variant
             referenceAminoAcid = variant[:1]
-            variantAminoAcid = '-'
+            variantAminoAcid = ''
             if '_' in variant:
                 variantAminoAcid = variant.split('_')[1][:1]
             if '-' in row['Amino_Acid_Position']:
@@ -56,6 +56,8 @@ def read_indel_hotspot(onco_dict):
                 begin = row['Amino_Acid_Position']
                 end = begin
             position = int(begin)
+            if position < 0:
+                position = 0
 
             occurrences = handle_occurrences(row['Detailed_Cancer_Types'],onco_dict)
             hot_spot = {'name':name, 'gene':gene,
@@ -86,6 +88,7 @@ def create_hot_spot_table(my_cursor):
         print(f'{table_name} Table created successfully')
 
 def insert_hotspot(my_cursor,hot_spot,graph_id):
+
     mySql_insert_query = "INSERT INTO hot_spot (hs_name,gene,referenceAminoAcid,variantAminoAcid,hs_begin,hs_end,hs_position,graph_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
     result = my_cursor.execute(mySql_insert_query,(hot_spot['name'],hot_spot['gene'],hot_spot['referenceAminoAcid'],hot_spot['variantAminoAcid'],
                                                    hot_spot['begin'],hot_spot['end'],str(hot_spot['position']),graph_id))
@@ -99,7 +102,7 @@ def create_hot_spot_occurrences_table(my_cursor):
                                    'oncoTreeCode varchar(20) NOT NULL, ' \
                                    'percentOccurrence varchar(10) NOT NULL, ' \
                                    'perThousandOccurrence MEDIUMINT NOT NULL, ' \
-                                   'occurences MEDIUMINT NOT NULL, ' \
+                                   'occurrences MEDIUMINT NOT NULL, ' \
                                    'totalSamples MEDIUMINT NOT NULL, ' \
                                    'hot_spot_id varchar(100), ' \
                                   'PRIMARY KEY (id),' \
@@ -109,7 +112,7 @@ def create_hot_spot_occurrences_table(my_cursor):
         print(f'{table_name} Table created successfully')
 
 def insert_hotspot_occurrence(my_cursor,hot_spot_occurrence,hot_spot_id):
-    mySql_insert_query = "INSERT INTO hot_spot_occurrences (disease,oncoTreeCode,percentOccurrence,perThousandOccurrence,occurences, totalSamples,hot_spot_id) VALUES (%s,%s,%s,%s,%s,%s,%s)"
+    mySql_insert_query = "INSERT INTO hot_spot_occurrences (disease,oncoTreeCode,percentOccurrence,perThousandOccurrence,occurrences, totalSamples,hot_spot_id) VALUES (%s,%s,%s,%s,%s,%s,%s)"
     result = my_cursor.execute(mySql_insert_query,(hot_spot_occurrence['disease'],hot_spot_occurrence['oncoTreeCode'],hot_spot_occurrence['percentOccurrence'],
                                                    str(hot_spot_occurrence['perThousand']),str(hot_spot_occurrence['occurences']),str(hot_spot_occurrence['totalSamples']),hot_spot_id))
 
@@ -168,7 +171,7 @@ def main():
         create_hot_spot_table(my_cursor)
         create_hot_spot_occurrences_table(my_cursor)
         for hot_spot in hot_spots:
-            graph_id = 'hot_spot_' + hot_spot['name'].replace(' ','_')
+            graph_id = 'hot_spot_' + hot_spot['name'].replace(' ','_').replace('-','_').replace('*','')
             insert_hotspot(my_cursor, hot_spot, graph_id)
             for occurrence in hot_spot['occurrences']:
                 insert_hotspot_occurrence(my_cursor,occurrence,graph_id)

@@ -1,3 +1,5 @@
+import datetime
+
 import mysql.connector
 from sql_utils import does_table_exist, get_local_db_connection, drop_table_if_exists, maybe_create_and_select_database
 import xml.etree.ElementTree as ET
@@ -71,6 +73,7 @@ def getOneVariant(variationArchive):
     for simpleAllele in variationArchive.iter('SimpleAllele'):
         if 'VariationID' in simpleAllele.attrib:
             clinvar['variantID'] = simpleAllele.attrib['VariationID']
+
     for gene in variationArchive.iter('Gene'):
         clinvar['gene'] = gene.attrib['Symbol']
     for name in variationArchive.iter('Name'):
@@ -124,11 +127,17 @@ def insert_clinvar(my_cursor,clinvar,graph_id):
 
 def parse_xml_file(my_db,my_cursor,path):
     counter = 0
+    id_dict = {}
     for event, elem in ET.iterparse(path):
         if event == 'end':
             if elem.tag == 'VariationArchive':
                 clinvar = getOneVariant(elem)
-                graphql = 'clinvar_variant_' + clinvar['variantID']
+                id = clinvar['variantID']
+                if id in id_dict:
+                    now = datetime.datetime.now()
+                    id = id +  now.strftime("%Y%m%d%H%M%S%f")
+                id_dict[id] = id
+                graphql = 'clinvar_variant_' + id
                 # print(clinvar)
                 if not 'HAPLOTYPE' in clinvar['cDot'] and len(clinvar['cDot'])<100:
                     insert_clinvar(my_cursor,clinvar,graphql)
