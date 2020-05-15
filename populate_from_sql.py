@@ -14,7 +14,7 @@ def write_authors(my_cursor, server_write):
         s = create_author_mutation(author[2], author[0], author[1])
         m += s
         counter += 1
-        if (counter % 10 == 0):
+        if (counter % 1000 == 0):
             send_mutation(m, server_write)
             m = ''
             print(counter)
@@ -94,12 +94,6 @@ def write_users(my_cursor, server_write):
         m += s
     send_mutation(m, server_write)
 
-
-#         journal_id = ref[3]
-#         j_query = f'select name from OmniSeqKnowledgebase.journals where graph_id="{journal_id}";'
-#         my_cursor.execute(j_query)
-#         journal_name = my_cursor.fetchone()[0]
-#         print(journal_name)
 
 def return_graphql_boolean_from_sql(bool_as_sql_string:str):
     return bool_as_sql_string.lower()
@@ -259,6 +253,10 @@ def write_jax_variants(my_cursor, server_write):
         jvd_id = 'jvd_' + jv[10] + '_' + jv[1]
         s += f'{jvd_id}: addJaxVariantDescription(description:[\\"{jv[1]}\\"], id:\\"{jv[10]}\\"),'
         m += s
+        # addJaxVariantGene(gene: [ID!]!id: ID!): String
+        jvg_id = 'jvg_' + jv[10] + '_' + jv[3]
+        s += f'{jvg_id}: addJaxVariantGene(gene:[\\"{jv[3]}\\"], id:\\"{jv[10]}\\"),'
+        m += s
         counter += 1
         if (counter % 100 == 0):
             send_mutation(m, server_write)
@@ -310,6 +308,27 @@ def write_clinvar_variants(my_cursor, server_write):
     counter = 0
     for row in rows:
         s = f'{row[9]}: createClinVarVariant(cDot: \\"{row[4]}\\", gene: \\"{row[2]}\\", id: \\"{row[9]}\\", pDot: \\"{row[3]}\\", signficanceExplanation: \\"{row[6]}\\", significance: \\"{row[5]}\\", variantID: \\"{row[1]}\\",),'
+        m += s
+        counter += 1
+        if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
+            print(counter)
+    if m != '':
+        send_mutation(m, server_write)
+
+def write_go_variants(my_cursor, server_write):
+    print('write_go_variants')
+    query = 'SELECT * FROM OmniSeqKnowledgebase.go_variant;'
+    my_cursor.execute(query)
+    rows = my_cursor.fetchall()
+    m = ''
+    counter = 0
+    for row in rows:
+        s = f'{row[5]}: createGOVariant(gene: \\"{row[1]}\\", goID: \\"{row[2]}\\", id: \\"{row[5]}\\", mutationType: \\"{row[3]}\\", name: \\"{row[0]}\\", ),'
+        m += s
+        go_jax_id = 'gojaxv_' + row[5]
+        s = f'{go_jax_id}: addGOVariantJaxVariant(id:\\"{row[5]}\\", jaxVariant: [\\"{row[4]}\\"]),'
         m += s
         counter += 1
         if (counter % 100 == 0):

@@ -56,6 +56,17 @@ perThousandOccurrence: Int!
 ): String'''
     create_mutation(mutation, rows, 'otc')
 
+def create_go_variant():
+    rows = 'name, gene, goID, mutationType, jaxVariant_Id, id'
+    mutation = '''createGOVariant(
+gene: String!
+goID: String!
+id: ID!
+mutationType: String!
+name: String!
+): String'''
+    create_mutation(mutation, rows, 'row')
+
 
 def create_mutation(mutation, rows, row_name):
     columns = rows.split(',')
@@ -94,7 +105,8 @@ def main():
     # create_jax_variant()
     # create_hotspot_variant()
     # create_clinvar_variant()
-    create_oncotree_occurrence()
+    # create_oncotree_occurrence()
+    create_go_variant()
 
 if __name__ == "__main__":
     main()

@@ -310,6 +310,7 @@ type JaxVariant  {
     transcript: String!
     variantType: String!
     proteinEffect: String!
+    goVariant: GOVariant  @relation(name: "GO_VARIANT", direction: "IN")
 }
 
 type ClinVarVariant {
@@ -342,6 +343,15 @@ type HotSpotVariant {
     end: String!
     position: Int!
     occurrences: [OncoTreeOccurrence]!
+}
+
+type GOVariant {
+    id: ID!
+    name: String!
+    gene: String!
+    goID: String!
+    mutationType: String!
+    jaxVariant: JaxVariant! @relation(name: "GO_VARIANT", direction: "OUT")
 }
 
 enum VariantType {
