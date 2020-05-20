@@ -14,7 +14,7 @@ def write_authors(my_cursor, server_write):
         s = create_author_mutation(author[2], author[0], author[1])
         m += s
         counter += 1
-        if (counter % 1000 == 0):
+        if (counter % 100 == 0):
             send_mutation(m, server_write)
             m = ''
             print(counter)
@@ -156,14 +156,16 @@ def write_jax_genes(my_cursor, server_write):
         synonyms += ']'
         # name, canonicalTranscript, chromosome, entrezId, jaxId, description_Id, graph_id
         s = f'''{gene[6]} : createJaxGene(canonicalTranscript: \\"{gene[1]}\\", chromosome: \\"{gene[2]}\\",entrezId: \\"{gene[3]}\\", id: \\"{gene[6]}\\", jaxId: \\"{gene[4]}\\", name: \\"{gene[0]}\\", synonyms: {synonyms}),'''
-        s += f'addJaxGeneDescription(description:[\\"{gene[5]}\\"], id:\\"{gene[6]}\\"),'
+        jvd_id = 'jvd_' + str(counter)
+        s += f'{jvd_id}: addJaxGeneDescription(description:[\\"{gene[5]}\\"], id:\\"{gene[6]}\\"),'
         m += s
         counter += 1
-
-        send_mutation(m, server_write)
-        m = ''
         if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
             print(counter)
+    if m != '':
+        send_mutation(m, server_write)
 
 
 def write_mygene_genes(my_cursor, server_write):
@@ -180,14 +182,16 @@ def write_mygene_genes(my_cursor, server_write):
         if gene[2]=='REVERSE' or gene[2]=='Reverse':
             strand = 'Reverse'
         s = f'{gene[7]}: createMyGeneInfoGene(chromosome: \\"{gene[1]}\\", end: {gene[4]}, entrezId: \\"{gene[5]}\\", id: \\"{gene[7]}\\", name: \\"{gene[0]}\\" start: {gene[3]},  strand:{strand},synonyms: {synonyms}),'
-        s += f'addMyGeneInfoGeneDescription(description:[\\"{gene[6]}\\"], id:\\"{gene[7]}\\"),'
+        jvd_id = 'jvd_' + str(counter)
+        s += f'{jvd_id}: addMyGeneInfoGeneDescription(description:[\\"{gene[6]}\\"], id:\\"{gene[7]}\\"),'
         m += s
         counter += 1
-
-        send_mutation(m, server_write)
-        m = ''
         if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
             print(counter)
+    if m != '':
+        send_mutation(m, server_write)
 
 
 def write_uniprot(my_cursor, server_write):
@@ -201,15 +205,20 @@ def write_uniprot(my_cursor, server_write):
         # 0     1                 2            3           4        5
         # name, accessionNumber, uniprot_id, function_Id, gene_Id, graph_id
         s = f'{prot[5]}: createUniprotEntry(accessionNumber: \\"{prot[1]}\\", id: \\"{prot[5]}\\", name: \\"{prot[0]}\\",  uniprotID:\\"{prot[2]}\\"),'
-        s += f'addUniprotEntryGene(gene:[\\"{prot[4]}\\"], id:\\"{prot[5]}\\" ),'
-        s += f'addUniprotEntryFunction(function:[\\"{prot[3]}\\"], id:\\"{prot[5]}\\" ),'
+        jvd_id = 'upg_' + str(counter)
+        s += f'{jvd_id}:addUniprotEntryGene(gene:[\\"{prot[4]}\\"], id:\\"{prot[5]}\\" ),'
+        jvd_id = 'upf_' + str(counter)
+        s += f'{jvd_id}:addUniprotEntryFunction(function:[\\"{prot[3]}\\"], id:\\"{prot[5]}\\" ),'
         m += s
         counter += 1
 
-        send_mutation(m, server_write)
-        m = ''
+        # send_mutation(m, server_write)
         if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
             print(counter)
+    if m != '':
+        send_mutation(m, server_write)
 
 
 def write_omnigene(my_cursor, server_write):
@@ -223,21 +232,29 @@ def write_omnigene(my_cursor, server_write):
         #          0     1          2                   3                    4                   5                  6                7                  8
         #         name, panelName, geneDescription_id, oncogenicCategory_Id, synonymsString_Id, myGeneInfo_gene_Id, jaxGene_gene_Id, uniprot_entry_Id, graph_id
         s = f'{gene[8]}: createOmniGene(id: \\"{gene[8]}\\", name: \\"{gene[0]}\\", panelName:\\"{gene[1]}\\" ),'
-        s += f'addOmniGeneGeneDescription(geneDescription:[\\"{gene[2]}\\"], id:\\"{gene[8]}\\" ),'
-        s += f'addOmniGeneOncogenicCategory(id:\\"{gene[8]}\\", oncogenicCategory:[\\"{gene[3]}\\"] ),'
-        s += f'addOmniGeneSynonymsString(id:\\"{gene[8]}\\", synonymsString:[\\"{gene[4]}\\"] ),'
+        jvd_id = 'omni_des_' + str(counter)
+        s += f'{jvd_id}:addOmniGeneGeneDescription(geneDescription:[\\"{gene[2]}\\"], id:\\"{gene[8]}\\" ),'
+        jvd_id = 'omni_cat_' + str(counter)
+        s += f'{jvd_id}:addOmniGeneOncogenicCategory(id:\\"{gene[8]}\\", oncogenicCategory:[\\"{gene[3]}\\"] ),'
+        jvd_id = 'omni_syn_' + str(counter)
+        s += f'{jvd_id}:addOmniGeneSynonymsString(id:\\"{gene[8]}\\", synonymsString:[\\"{gene[4]}\\"] ),'
         if gene[6] != None:
-            s += f'addOmniGeneJaxGene(id:\\"{gene[8]}\\", jaxGene:[\\"{gene[6]}\\"] ),'
+            jvd_id = 'omni_jaxg_' + str(counter)
+            s += f'{jvd_id}:addOmniGeneJaxGene(id:\\"{gene[8]}\\", jaxGene:[\\"{gene[6]}\\"] ),'
         if gene[5] != None:
-            s += f'addOmniGeneMyGeneInfoGene(id:\\"{gene[8]}\\", myGeneInfoGene:[\\"{gene[5]}\\"] ),'
+            jvd_id = 'omni_myg_' + str(counter)
+            s += f'{jvd_id}:addOmniGeneMyGeneInfoGene(id:\\"{gene[8]}\\", myGeneInfoGene:[\\"{gene[5]}\\"] ),'
         if gene[7] != None:
-            s += f'addOmniGeneUniprotEntry(id:\\"{gene[8]}\\", uniprotEntry:[\\"{gene[7]}\\"] ),'
+            jvd_id = 'omni_uni_' + str(counter)
+            s += f'{jvd_id}:addOmniGeneUniprotEntry(id:\\"{gene[8]}\\", uniprotEntry:[\\"{gene[7]}\\"] ),'
         m += s
         counter += 1
-        send_mutation(m, server_write)
-        m = ''
         if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
             print(counter)
+    if m != '':
+        send_mutation(m, server_write)
 
 
 def write_jax_variants(my_cursor, server_write):
@@ -307,7 +324,7 @@ def write_clinvar_variants(my_cursor, server_write):
     m = ''
     counter = 0
     for row in rows:
-        s = f'{row[9]}: createClinVarVariant(cDot: \\"{row[4]}\\", gene: \\"{row[2]}\\", id: \\"{row[9]}\\", pDot: \\"{row[3]}\\", signficanceExplanation: \\"{row[6]}\\", significance: \\"{row[5]}\\", variantID: \\"{row[1]}\\",),'
+        s = f'{row[8]}: createClinVarVariant(cDot: \\"{row[3]}\\", gene: \\"{row[1]}\\", id: \\"{row[8]}\\", pDot: \\"{row[2]}\\", signficanceExplanation: \\"{row[5]}\\", significance: \\"{row[4]}\\", variantID: \\"{row[0]}\\",),'
         m += s
         counter += 1
         if (counter % 100 == 0):
@@ -337,4 +354,193 @@ def write_go_variants(my_cursor, server_write):
             print(counter)
     if m != '':
         send_mutation(m, server_write)
+
+
+def write_snv(my_cursor, server_write):
+    query = 'SELECT * FROM OmniSeqKnowledgebase.ocp_variant where variantType="SNV";'
+    my_cursor.execute(query)
+    rows = my_cursor.fetchall()
+    m = ''
+    counter = 0
+    for row in rows:
+        indel_type = 'SNV'
+        non_canonical_transcript = ''
+        variant_type = 'SNV'
+        protein_effect = get_protein_effect(row)
+        s = f'{row[14]}: createVariantSNVIndel(cDot: \\"{row[4]}\\", gDot: \\"{row[5]}\\", id: \\"{row[14]}\\", indelType: {indel_type}, name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\", pDot: \\"{row[3]}\\", proteinEffect: {protein_effect}, variantType: {variant_type}, ),'
+        m += s
+        m_id = 'snv_g_' + row[14]
+        s = f'{m_id}: addVariantSNVIndelGene(id:\\"{row[14]}\\", gene: [\\"{row[1]}\\"]),'
+        m += s
+        m_id = 'snv_d_' + row[14]
+        s = f'{m_id}: addVariantSNVIndelDescription(id:\\"{row[14]}\\", description: [\\"{row[2]}\\"]),'
+        m += s
+        jax_variant_id = row[10]
+        # addVariantSNVIndelJaxVariant(id: ID!jaxVariant: [ID!]!): String
+        if jax_variant_id != None:
+            m_id = 'snv_jax_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelJaxVariant(id:\\"{row[14]}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
+            m += s
+        go_variant_id = row[11]
+        # addVariantSNVIndelGoVariant(goVariant: [ID!]!id: ID!): String
+        if go_variant_id != None:
+            m_id = 'snv_go_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelGoVariant(id:\\"{row[14]}\\", goVariant: [\\"{go_variant_id}\\"]),'
+            m += s
+        clinVarVariant = row[12]
+        # addVariantSNVIndelClinVarVariant(clinVarVariant: [ID!]!id: ID!): String
+        if clinVarVariant != None:
+            m_id = 'snv_cv_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelClinVarVariant(id:\\"{row[14]}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
+            m += s
+        hot_spot_variant_id = row[13]
+        # addVariantSNVIndelHotSpotVariant(hotSpotVariant: [ID!]!id: ID!): String
+        if hot_spot_variant_id != None:
+            m_id = 'snv_hot_spot_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelHotSpotVariant(id:\\"{row[14]}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
+            m += s
+        counter += 1
+        if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
+            print(counter)
+    if m != '':
+        send_mutation(m, server_write)
+
+
+def get_protein_effect(row):
+    protein_effect_dict = {
+                            'gain of function':'GainOfFunction','gain of function - predicted':'GainOfFunctionPredicted',
+                            'loss of function':'LossOfFunction','loss of function - predicted':'LossOfFunctionPredicted','no effect'  :'NoEffect','unkown':'Unknown'}
+
+    _protein_effect = row[9]
+    if _protein_effect in protein_effect_dict:
+        protein_effect = protein_effect_dict[_protein_effect]
+    else:
+        protein_effect = 'Unknown'
+    return protein_effect
+
+
+def write_indels(my_cursor, server_write):
+    indel_dict = { 'ins':'Insertion', 'del':'Deletion','dup':'Duplication'}
+    query = 'SELECT * FROM OmniSeqKnowledgebase.ocp_variant where variantType="Indel";'
+    my_cursor.execute(query)
+    rows = my_cursor.fetchall()
+    m = ''
+    counter = 0
+    for row in rows:
+        pre_indel_type = row[7]
+        if pre_indel_type in indel_dict:
+            indel_type = indel_dict[pre_indel_type]
+        else:
+            indel_type = ''
+        non_canonical_transcript = ''
+        variant_type = 'Indel'
+        protein_effect = get_protein_effect(row)
+        s = f'{row[14]}: createVariantSNVIndel(cDot: \\"{row[4]}\\", gDot: \\"{row[5]}\\", id: \\"{row[14]}\\", indelType: {indel_type}, name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\", pDot: \\"{row[3]}\\", proteinEffect: {protein_effect}, variantType: {variant_type}, ),'
+        m += s
+        m_id = 'snv_g_' + row[14]
+        s = f'{m_id}: addVariantSNVIndelGene(id:\\"{row[14]}\\", gene: [\\"{row[1]}\\"]),'
+        m += s
+        m_id = 'snv_d_' + row[14]
+        s = f'{m_id}: addVariantSNVIndelDescription(id:\\"{row[14]}\\", description: [\\"{row[2]}\\"]),'
+        m += s
+        jax_variant_id = row[10]
+        # addVariantSNVIndelJaxVariant(id: ID!jaxVariant: [ID!]!): String
+        if jax_variant_id != None:
+            m_id = 'snv_jax_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelJaxVariant(id:\\"{row[14]}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
+            m += s
+        go_variant_id = row[11]
+        # addVariantSNVIndelGoVariant(goVariant: [ID!]!id: ID!): String
+        if go_variant_id != None:
+            m_id = 'snv_go_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelGoVariant(id:\\"{row[14]}\\", goVariant: [\\"{go_variant_id}\\"]),'
+            m += s
+        clinVarVariant = row[12]
+        # addVariantSNVIndelClinVarVariant(clinVarVariant: [ID!]!id: ID!): String
+        if clinVarVariant != None:
+            m_id = 'snv_cv_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelClinVarVariant(id:\\"{row[14]}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
+            m += s
+        hot_spot_variant_id = row[13]
+        # addVariantSNVIndelHotSpotVariant(hotSpotVariant: [ID!]!id: ID!): String
+        if hot_spot_variant_id != None:
+            m_id = 'snv_hot_spot_' + row[14]
+            s = f'{m_id}: addVariantSNVIndelHotSpotVariant(id:\\"{row[14]}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
+            m += s
+        counter += 1
+        if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
+            print(counter)
+    if m != '':
+        send_mutation(m, server_write)
+
+
+def write_cnv(my_cursor, server_write):
+    query = 'SELECT * FROM OmniSeqKnowledgebase.ocp_variant where variantType="CNV";'
+    my_cursor.execute(query)
+    rows = my_cursor.fetchall()
+    m = ''
+    counter = 0
+    for row in rows:
+        non_canonical_transcript = ''
+        copy_change = 'Indeterminate'
+        if row[3] == 'gain':
+            copy_change = 'Gain'
+        elif row[3] == 'loss':
+            copy_change = 'Loss'
+        s = f'{row[14]}: createVariantCNV(copyChange: {copy_change}, id: \\"{row[14]}\\", name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\",  ),'
+        m += s
+        m_id = 'cnv_g_' + row[14]
+        s = f'{m_id}: addVariantCNVGene(id:\\"{row[14]}\\", gene: [\\"{row[1]}\\"]),'
+        m += s
+        m_id = 'cnv_d_' + row[14]
+        s = f'{m_id}: addVariantCNVDescription(id:\\"{row[14]}\\", description: [\\"{row[2]}\\"]),'
+        m += s
+        jax_variant_id = row[10]
+        # addVariantSNVIndelJaxVariant(id: ID!jaxVariant: [ID!]!): String
+        if jax_variant_id != None:
+            m_id = 'cnv_jax_' + row[14]
+            s = f'{m_id}: addVariantCNVJaxVariant(id:\\"{row[14]}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
+            m += s
+        go_variant_id = row[11]
+        # addVariantSNVIndelGoVariant(goVariant: [ID!]!id: ID!): String
+        if go_variant_id != None:
+            m_id = 'cnv_go_' + row[14]
+            s = f'{m_id}: addVariantCNVGoVariant(id:\\"{row[14]}\\", goVariant: [\\"{go_variant_id}\\"]),'
+            m += s
+        clinVarVariant = row[12]
+        # addVariantSNVIndelClinVarVariant(clinVarVariant: [ID!]!id: ID!): String
+        if clinVarVariant != None:
+            m_id = 'cnv_cv_' + row[14]
+            s = f'{m_id}: addVariantCNVClinVarVariant(id:\\"{row[14]}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
+            m += s
+        hot_spot_variant_id = row[13]
+        # addVariantSNVIndelHotSpotVariant(hotSpotVariant: [ID!]!id: ID!): String
+        if hot_spot_variant_id != None:
+            m_id = 'cnv_hot_spot_' + row[14]
+            s = f'{m_id}: addVariantCNVHotSpotVariant(id:\\"{row[14]}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
+            m += s
+        counter += 1
+        if (counter % 100 == 0):
+            send_mutation(m, server_write)
+            m = ''
+            print(counter)
+    if m != '':
+        send_mutation(m, server_write)
+
+
+def write_fusions(my_cursor, server_write):
+    pass
+
+
+def write_ocp_variants(my_cursor, server_write):
+    print('write_ocp_variants')
+    write_snv(my_cursor, server_write)
+    write_indels(my_cursor, server_write)
+    write_cnv(my_cursor, server_write)
+    # write_fusions(my_cursor, server_write)
+
 

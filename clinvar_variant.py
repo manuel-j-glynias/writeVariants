@@ -1,5 +1,8 @@
 import datetime
-
+import os
+from ftplib import FTP
+import shutil
+import gzip
 import mysql.connector
 from sql_utils import does_table_exist, get_local_db_connection, drop_table_if_exists, maybe_create_and_select_database
 import xml.etree.ElementTree as ET
@@ -104,20 +107,19 @@ def create_clinvar_table(my_cursor):
     table_name = 'clinvar'
     if not does_table_exist(my_cursor, table_name):
         mySql_Create_Table_Query = 'CREATE TABLE clinvar ( ' \
-                                   'id MEDIUMINT NOT NULL AUTO_INCREMENT PRIMARY KEY , ' \
-                                   'variantID varchar(100), ' \
-                                   'gene varchar(100), ' \
-                                    'pDot varchar(100), ' \
-                                   'cDot varchar(100), ' \
-                                   'significance varchar(100), ' \
-                                   'signficanceExplanation varchar(200), ' \
-                                   'cdot_pos BIGINT, ' \
-                                   'pdot_pos BIGINT, ' \
-                                    'graph_id varchar(100) ' \
-                                  ')'
-        print(mySql_Create_Table_Query)
-        result = my_cursor.execute(mySql_Create_Table_Query)
-        print(f'{table_name} Table created successfully')
+        'variantID varchar(100), ' \
+        'gene varchar(100), ' \
+        'pDot varchar(100), ' \
+        'cDot varchar(100), ' \
+        'significance varchar(100), ' \
+        'signficanceExplanation varchar(200), ' \
+        'cdot_pos BIGINT, ' \
+        'pdot_pos BIGINT, ' \
+        'graph_id varchar(100) PRIMARY KEY' \
+        ')'
+    print(mySql_Create_Table_Query)
+    result = my_cursor.execute(mySql_Create_Table_Query)
+    print(f'{table_name} Table created successfully')
 
 def insert_clinvar(my_cursor,clinvar,graph_id):
     mySql_insert_query = "INSERT INTO clinvar (variantID,gene,pDot,cDot,significance,signficanceExplanation,cdot_pos,pdot_pos,graph_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)"
@@ -149,10 +151,66 @@ def parse_xml_file(my_db,my_cursor,path):
 
     my_db.commit()
 
-def main():
+def clinvar_fetcher(filename):
+    ftp = FTP('ftp.ncbi.nlm.nih.gov')
+    ftp.login()
+    ftp.cwd('pub/clinvar/xml/clinvar_variation')
+    localfile = open('data/' + filename, 'wb')
+    ftp.retrbinary('RETR ' + filename, localfile.write, 1024)
+    ftp.quit()
+    localfile.close()
+
+def uncompress_clinvar(filename,outfilename):
+    with gzip.open(filename, 'rb') as f_in:
+        with open(outfilename, 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)
+
+
+def get_name_of_latest():
+    filename = ''
+    ftp = FTP('ftp.ncbi.nlm.nih.gov')
+    ftp.login()
+    ftp.cwd('pub/clinvar/xml/clinvar_variation')
+    ls = []
+    ftp.retrlines('MLSD', ls.append)
+    ftp.quit()
+    latest = 0
+    for entry in ls:
+        if (entry.endswith('gz')):
+            strArray = entry.split(';')
+            timestamp = int(strArray[:1][0][7:])
+            name = strArray[-1:][0]
+            if timestamp>latest and 'latest' not in name:
+                filename = name.strip()
+                latest = timestamp
+    return filename
+
+
+def get_unzipped_name(name):
+    if name.endswith('.gz'):
+        name = name[:-3]
+    return name
+
+def clinvar_is_current():
+    latest_file_name = get_name_of_latest()
+    unzipped = get_unzipped_name(latest_file_name)
+    found = False
+    for entry in os.scandir('data/'):
+        if entry.is_file():
+            if entry.name == unzipped:
+                found = True
+                break
+    if not found:
+        clinvar_fetcher(latest_file_name)
+        uncompress_clinvar('data/' +latest_file_name,'data/' +unzipped)
+    return unzipped
+
+
+def create_clinvar_db():
     my_db = None
     my_cursor = None
-    filename = 'data/ClinVarVariationRelease_2020-05.xml'
+    # filename = 'data/xClinVarVariationRelease_2020-05.xml'
+    filename = clinvar_is_current()
     try:
         my_db = get_local_db_connection()
         my_cursor = my_db.cursor(buffered=True)
@@ -170,5 +228,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    clinvar_is_current()
+    # create_clinvar_db()
 

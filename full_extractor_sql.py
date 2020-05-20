@@ -412,7 +412,7 @@ def get_id_helper(obj,key):
     return val
 
 
-def main():
+def extract():
     server_read: str = '165.227.89.140'
     my_db = None
     my_cursor = None
@@ -528,7 +528,8 @@ def main():
         if (my_db.is_connected()):
             my_cursor.close()
 
-
+def main():
+    extract()
 
 
 if __name__ == "__main__":

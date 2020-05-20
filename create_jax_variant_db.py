@@ -1,9 +1,8 @@
 import os
 import mysql.connector
 import datetime
-from graphql_utils import replace_characters, send_mutation, send_query, get_reference_from_pmid_by_metapub, \
-    get_authors_names, fix_author_id, ref_name_from_authors_pmid_and_year
-from sql_helpers import get_one_jax_gene
+from graphql_utils import replace_characters
+from sql_helpers import get_one_jax_gene, preflight_ref, insert_editable_statement, insert_es_ref, get_loader_user_id
 from sql_utils import get_local_db_connection, maybe_create_and_select_database, does_table_exist, drop_table_if_exists
 import json
 
@@ -133,83 +132,6 @@ def insert_jax_variant(my_cursor,name,description_id,jax_id,jax_gene_id,pdot,cdo
     result = my_cursor.execute(mySql_insert_query,(name,description_id,jax_id,jax_gene_id,pdot,cdot,gdot,transcript,variant_type,protein_effect,graph_id))
 
 
-def is_author_db(my_cursor,author_id):
-    query = f'SELECT * FROM OmniSeqKnowledgebase.authors where graph_id="{author_id}";'
-    my_cursor.execute(query)
-    row = my_cursor.fetchone()
-    return row != None
-
-def insert_author(my_cursor,surname,first_initial,graph_id):
-    mySql_insert_query = "INSERT IGNORE INTO authors (surname, first_initial, graph_id) VALUES (%s, %s, %s)"
-    result = my_cursor.execute(mySql_insert_query, (surname,first_initial,graph_id))
-
-def insert_author_ref(my_cursor,author_id,ref_id):
-    mySql_insert_query = f"INSERT INTO author_ref (author_id,ref_id) " \
-                         f"VALUES ('{author_id}', '{ref_id}') "
-    result = my_cursor.execute(mySql_insert_query)
-
-def insert_journal(my_cursor,name,graph_id):
-    mySql_insert_query = "INSERT INTO journals (name, graph_id) VALUES (%s, %s)"
-    result = my_cursor.execute(mySql_insert_query,(name,graph_id))
-
-
-def create_journal_if_not_exists(my_cursor,journal_id, journal):
-    query = f'SELECT * FROM OmniSeqKnowledgebase.journals where graph_id="{journal_id}";'
-    my_cursor.execute(query)
-    row = my_cursor.fetchone()
-    if row == None:
-        insert_journal(my_cursor,journal,journal_id)
-
-def insert_reference(my_cursor,PMID,DOI,title,journal_graph_id,volume,first_page,last_page,publication_Year,short_reference,abstract,graph_id):
-    mySql_insert_query = "INSERT INTO refs (PMID,DOI,title,journal_graph_id,volume,first_page,last_page,publication_Year,short_reference,abstract,graph_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
-    result = my_cursor.execute(mySql_insert_query,(PMID,DOI,title,journal_graph_id,volume,first_page,last_page,publication_Year,short_reference,abstract,graph_id))
-
-
-def preflight_ref(pmid:str,my_cursor):
-    graph_id = None
-    query = f'SELECT * FROM OmniSeqKnowledgebase.refs where PMID="{pmid}";'
-    my_cursor.execute(query)
-    row = my_cursor.fetchone()
-    if row==None:
-        reference = get_reference_from_pmid_by_metapub(pmid)
-        if reference != None:
-            graph_id = 'ref_' + str(pmid)
-            journal = reference['journal']
-            journal_id = 'journal_' + fix_author_id(journal)
-            create_journal_if_not_exists(my_cursor,journal_id,journal)
-            short_ref = ref_name_from_authors_pmid_and_year(reference['authors'], reference['pmid'], reference['year'])
-            insert_reference(my_cursor,reference['pmid'],reference['doi'],reference['title'],journal_id,reference['volume'],reference['first_page'],
-                             reference['last_page'],reference['year'],short_ref,reference['abstract'],graph_id)
-            for author in reference['authors']:
-                first, surname = get_authors_names(author)
-                author_id = fix_author_id('author_' + surname + '_' + first)
-                if not is_author_db(my_cursor,author_id):
-                    # print(author_id)
-                    insert_author(my_cursor,surname,first,author_id)
-                insert_author_ref(my_cursor,author_id,graph_id)
-    else:
-        graph_id = row[10]
-    return graph_id
-
-
-def insert_editable_statement(my_cursor,field, statement, edit_date,editor_id,deleted,graph_id):
-    mySql_insert_query = "INSERT INTO editable_statements (field,statement,edit_date,editor_id,deleted,graph_id) VALUES (%s,%s,%s,%s,%s,%s)"
-    result = my_cursor.execute(mySql_insert_query,(field, statement, edit_date,editor_id,deleted,graph_id))
-
-
-def insert_es_ref(my_cursor,es_id,ref_id):
-
-    mySql_insert_query = f"INSERT INTO es_ref (es_id,ref_id) " \
-                         f"VALUES ('{es_id}', '{ref_id}') "
-    result = my_cursor.execute(mySql_insert_query)
-
-def get_loader_user_id(my_cursor):
-    query = 'SELECT graph_id FROM OmniSeqKnowledgebase.users where name="loader";'
-    my_cursor.execute(query)
-    row = my_cursor.fetchone()
-    return row[0]
-
-
 def write_variants(my_db,my_cursor) -> None:
     json_files = get_list_of_files(JAX_PATH + 'variants')
     print("num variants=",len(json_files))
@@ -240,13 +162,13 @@ def write_variants(my_db,my_cursor) -> None:
                 for ref in variant['references']:
                     pmid = ref['pubMedId']
                     if pmid != None:
-                        ref_id = preflight_ref(pmid,my_cursor)
+                        ref_id = preflight_ref(pmid, my_cursor)
                         if ref_id!=None:
-                            insert_es_ref(my_cursor,es_id,ref_id)
+                            insert_es_ref(my_cursor, es_id, ref_id)
                 my_db.commit()
 
 
-def main():
+def create_jax_variant_db():
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     server_read:str = 'localhost'
 
@@ -266,6 +188,10 @@ def main():
             my_cursor.close()
     print(datetime.datetime.now().strftime("%H:%M:%S"))
 
+
+
+def main():
+    create_jax_variant_db()
 
 if __name__ == "__main__":
     main()

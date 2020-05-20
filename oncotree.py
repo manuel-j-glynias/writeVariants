@@ -155,7 +155,7 @@ def get_oncotree_dict():
             onco_dict[p.lower()] = item
     return onco_dict
 
-def main():
+def create_hot_spot_variants():
     onco_dict = get_oncotree_dict()
     hot_spots = read_snv_hotspot(onco_dict)
     hot_spots.extend(read_indel_hotspot(onco_dict))
@@ -184,5 +184,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    create_hot_spot_variants()
 

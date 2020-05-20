@@ -311,6 +311,7 @@ type JaxVariant  {
     variantType: String!
     proteinEffect: String!
     goVariant: GOVariant  @relation(name: "GO_VARIANT", direction: "IN")
+    genomicVariant: GenomicVariant @relation(name: "G_J_VARIANT", direction: "IN")
 }
 
 type ClinVarVariant {
@@ -321,6 +322,7 @@ type ClinVarVariant {
     cDot: String!
     significance: String!
     signficanceExplanation:  String!
+    genomicVariant: GenomicVariant @relation(name: "G_CV_VARIANT", direction: "IN")
 }
 
 type OncoTreeOccurrence {
@@ -343,6 +345,7 @@ type HotSpotVariant {
     end: String!
     position: Int!
     occurrences: [OncoTreeOccurrence]!
+    genomicVariant: GenomicVariant @relation(name: "G_HS_VARIANT", direction: "IN")
 }
 
 type GOVariant {
@@ -352,6 +355,7 @@ type GOVariant {
     goID: String!
     mutationType: String!
     jaxVariant: JaxVariant! @relation(name: "GO_VARIANT", direction: "OUT")
+    genomicVariant: GenomicVariant @relation(name: "G_GO_VARIANT", direction: "IN")
 }
 
 enum VariantType {
@@ -380,9 +384,9 @@ enum RegionType {
 
 enum VariantProteinEffect {
     GainOfFunction
-    gainOfFunctionPredicted
-    lossOfFunction
-    lossOfFunctionPredicted
+    GainOfFunctionPredicted
+    LossOfFunction
+    LossOfFunctionPredicted
     NoEffect
     Unknown
 }
@@ -396,14 +400,24 @@ enum CNVType {
 interface GenomicVariant {
     id: ID!
     name: String!
+    description: EditableStatement!
     nonCanonicalTranscript: String
+    jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
+    clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
+    hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
+    goVariant: GOVariant @relation(name: "G_GO_VARIANT", direction: "OUT")
 }
 #    nonCanonicalTranscript: String is empty unless a non-canonical transcript defines this variant
 
 type VariantSNVIndel implements GenomicVariant {
     id: ID!
     name: String!
+    description: EditableStatement!
     nonCanonicalTranscript: String
+    jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
+    clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
+    hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
+    goVariant: GOVariant @relation(name: "G_GO_VARIANT", direction: "OUT")
     gene: OmniGene! @relation(name: "CODED_BY", direction: "OUT")
     variantType: VariantType!
     indelType: IndelType!
@@ -421,7 +435,12 @@ type VariantSNVIndel implements GenomicVariant {
 type VariantRegion implements GenomicVariant {
     id: ID!
     name: String!
+    description: EditableStatement!
     nonCanonicalTranscript: String
+     jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
+    clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
+    hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
+    goVariant: GOVariant @relation(name: "G_GO_VARIANT", direction: "OUT")
     gene: OmniGene! @relation(name: "CODED_BY", direction: "OUT")
     regionType: RegionType!
     regionValue: Int!
@@ -437,7 +456,12 @@ type VariantRegion implements GenomicVariant {
 type VariantCNV implements GenomicVariant {
     id: ID!
     name: String!
+    description: EditableStatement!
     nonCanonicalTranscript: String
+    jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
+    clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
+    hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
+    goVariant: GOVariant @relation(name: "G_GO_VARIANT", direction: "OUT")
     gene: OmniGene! @relation(name: "CODED_BY", direction: "OUT")
     copyChange: CNVType!
 }
@@ -445,7 +469,12 @@ type VariantCNV implements GenomicVariant {
 type VariantFusion implements GenomicVariant {
     id: ID!
     name: String!
+    description: EditableStatement!
     nonCanonicalTranscript: String
+    jaxVariant: JaxVariant @relation(name: "G_J_VARIANT", direction: "OUT")
+    clinVarVariant: ClinVarVariant @relation(name: "G_CV_VARIANT", direction: "OUT")
+    hotSpotVariant: HotSpotVariant @relation(name: "G_HS_VARIANT", direction: "OUT")
+    goVariant: GOVariant @relation(name: "G_GO_VARIANT", direction: "OUT")
     # targetGene is for general fusion like NTRK fusion
     targetGene: OmniGene @relation(name: "CODED_BY", direction: "OUT")
     # 5prime/3prime are for specific fusions like FGFR3 - TACC3 fusion
@@ -470,7 +499,7 @@ type MarkerProfile implements MarkerComponent {
     conjunction: OmniConjunction!
     components: [MarkerComponent]!
     evidenceAssociations: [EvidenceAssociation] @relation(name: "MARKER_FOR", direction: "OUT")
-    RNASeqSignatureMarker: RNASeqSignatureMarker @relation(name:"IS_RNASEQ_SIGNATURE", direction: "OUT")
+    rnaSeqSignatureMarker: RNASeqSignatureMarker @relation(name:"IS_RNASEQ_SIGNATURE", direction: "OUT")
 }
 
 type JaxDrugClass  {

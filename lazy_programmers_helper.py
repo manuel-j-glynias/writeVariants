@@ -67,6 +67,21 @@ name: String!
 ): String'''
     create_mutation(mutation, rows, 'row')
 
+def create_snv_variant():
+    rows = 'name, omniGene_gene_Id, description_id, pDot, cDot, gDot, regionType, indelType, variantType, proteinEffect, jax_variant_Id, go_variant_Id, clinvar_variant_Id, hot_spot_variant_Id, id'
+    mutation = f'''createVariantSNVIndel(
+cDot: String!
+gDot: String!
+id: ID!
+indelType: IndelType!
+name: String!
+nonCanonicalTranscript: String
+pDot: String!
+proteinEffect: VariantProteinEffect!
+variantType: VariantType!
+): String'''
+    create_mutation(mutation, rows, 'row')
+
 
 def create_mutation(mutation, rows, row_name):
     columns = rows.split(',')
@@ -106,7 +121,8 @@ def main():
     # create_hotspot_variant()
     # create_clinvar_variant()
     # create_oncotree_occurrence()
-    create_go_variant()
+    # create_go_variant()
+    create_snv_variant()
 
 if __name__ == "__main__":
     main()

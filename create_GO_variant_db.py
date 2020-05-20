@@ -19,6 +19,16 @@ def read_one_go_json(path:str)->dict:
         results = go_data['results']
         return results
 
+def get_all_jax_ids(my_cursor):
+    query = 'SELECT jax_id,graph_id FROM OmniSeqKnowledgebase.jax_variant;'
+    my_cursor.execute(query)
+    rows = my_cursor.fetchall()
+    jax_dict = {}
+    for row in rows:
+        jax_dict[row[0]] = row[1]
+    return jax_dict
+
+
 def create_go_variant_table(my_cursor):
     table_name = 'go_variant'
     if not does_table_exist(my_cursor, table_name):
@@ -27,7 +37,7 @@ def create_go_variant_table(my_cursor):
                                    'geneName varchar(100), ' \
                                    'go_Id varchar(100), ' \
                                    'mutationType varchar(100), ' \
-                                   'jaxVariant_Id varchar(100), ' \
+                                   'jaxVariant_Id varchar(100) DEFAULT NULL, ' \
                                 'graph_id varchar(100) PRIMARY KEY, ' \
                                      'CONSTRAINT go_variant_fk_jax_variant FOREIGN KEY (jaxVariant_Id) REFERENCES jax_variant (graph_id) ' \
                                   ')'
@@ -41,39 +51,50 @@ def insert_go_variant(my_cursor,variant_name,gene_name,go_id,mutationType,jax_va
     result = my_cursor.execute(mySql_insert_query,(variant_name,gene_name,go_id,mutationType,jax_variant_id,graph_id))
 
 
-def write_go_variants(my_db,my_cursor) -> None:
+def write_go_variants(my_db, my_cursor) -> None:
     json_files = get_list_of_files(GO_PATH)
-    print("num files=",len(json_files))
+    print("num files=", len(json_files))
     # loader_id = get_loader_user_id(my_cursor)
     counter = 0
+    jax_dict = get_all_jax_ids(my_cursor)
+    go_dict = {}
     for json_file in json_files:
         print(json_file)
         alteration_array = read_one_go_json(json_file)
         for alteration in alteration_array:
-            if 'gene' in alteration and 'codes' in alteration:
+            if 'gene' in alteration:
                 go_id = alteration['id']
-                if 'mutation_type' in alteration:
-                    mutation_type = alteration['mutation_type']
-                else:
-                    mutation_type = ''
-                for code in alteration['codes']:
-                    if code.startswith('JAX'):
-                        jax_variant_id = 'jaxVariant_' + code[12:]
-                        # variant_name,gene_name,go_id,mutationType,jax_variant_id,graph_id
-                        graph_id = 'go_variant_' + go_id
-                        variant_name = alteration['name']
-                        gene_name = alteration['gene']
-                        print(variant_name, gene_name, go_id, mutation_type, jax_variant_id, graph_id)
-                        insert_go_variant(my_cursor, variant_name, gene_name, go_id, mutation_type, jax_variant_id,
-                                          graph_id)
-                        counter += 1
-                        if (counter % 100 == 0):
-                            my_db.commit()
-                            print(counter)
-                        break
+                if not go_id in go_dict:
+                    if 'mutation_type' in alteration:
+                        mutation_type = alteration['mutation_type']
+                    else:
+                        mutation_type = ''
+                    graph_id = 'go_variant_' + go_id
+                    variant_name = alteration['name']
+                    gene_name = alteration['gene']
+                    jax_variant_id = None
+                    if 'codes' in alteration:
+                        for code in alteration['codes']:
+                            print(code)
+                            if code.startswith('JAX'):
+                                jax_id = code[12:]
+                                if jax_id in jax_dict:
+                                    jax_variant_id = jax_dict[jax_id]
+                                # variant_name,gene_name,go_id,mutationType,jax_variant_id,graph_id
+                                break
+                    print(variant_name, go_id, mutation_type, jax_variant_id, graph_id)
+                    insert_go_variant(my_cursor, variant_name, gene_name, go_id, mutation_type, jax_variant_id,
+                                      graph_id)
+                    go_dict[go_id] = graph_id
+                    counter += 1
+                    if (counter % 100 == 0):
+                        my_db.commit()
+                        print(counter)
     my_db.commit()
 
-def main():
+
+
+def create_go_variant_db():
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     my_db = None
     my_cursor = None
@@ -91,6 +112,7 @@ def main():
             my_cursor.close()
     print(datetime.datetime.now().strftime("%H:%M:%S"))
 
+
 if __name__ == "__main__":
-    main()
+    create_go_variant_db()
 
