@@ -35,9 +35,9 @@ def build_graphql_from_sql():
 
         populate_from_sql.write_jax_variants(my_cursor, server_write)
         populate_from_sql.write_hot_spot_variants(my_cursor, server_write)
-        # populate_from_sql.write_clinvar_variants(my_cursor, server_write)
-        # populate_from_sql.write_go_variants(my_cursor, server_write)
-        # populate_from_sql.write_ocp_variants(my_cursor, server_write)
+        populate_from_sql.write_clinvar_variants(my_cursor, server_write)
+        populate_from_sql.write_go_variants(my_cursor, server_write)
+        populate_from_sql.write_ocp_variants(my_cursor, server_write)
     except mysql.connector.Error as error:
         print("Failed in MySQL: {}".format(error))
     finally:
