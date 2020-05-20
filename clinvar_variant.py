@@ -205,7 +205,7 @@ def clinvar_is_current():
     if not found:
         clinvar_fetcher(latest_file_name)
         uncompress_clinvar('data/' +latest_file_name,'data/' +unzipped)
-    return unzipped
+    return 'data/' + unzipped
 
 
 def create_clinvar_db():
