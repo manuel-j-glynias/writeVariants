@@ -1,0 +1,443 @@
+{
+    "id": 10886,
+    "fullName": "KIT A502_Y503dup",
+    "impact": "duplication",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT A502_Y503dup (also referred to as Y503_F504insAY) indicates the insertion of 2 duplicate amino acids, alanine (A)-502 through tyrosine (Y)-503, in the Ig-like C2-type domain 5 (exon 9) of the Kit protein (UniProt.org). A502_Y503dup results in constitutive phosphorylation of Kit and is transforming in cell culture (PMID: 15790786, PMID: 19865100).",
+            "references": [
+                {
+                    "id": 425,
+                    "pubMedId": 15790786,
+                    "title": "Activation mutations of human c-KIT resistant to imatinib mesylate are sensitive to the tyrosine kinase inhibitor PKC412.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15790786"
+                },
+                {
+                    "id": 646,
+                    "pubMedId": 19865100,
+                    "title": "Pediatric mastocytosis is a clonal disease associated with D816V and other activating c-KIT mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19865100"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "A502_Y503dup",
+    "createDate": "08/23/2015",
+    "updateDate": "05/15/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135997,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54726014_54726019",
+        "cDna": "c.1504_1509",
+        "protein": "p.A502_Y503",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14325,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT A502_Y503dup (Y503_F504insAY) were sensitive to Gleevec (imatinib) in culture, demonstrating decreased cell proliferation (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 10919,
+                "profileName": "KIT A502_Y503dup"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14326,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT A502_Y503dup (Y503_F504insAY) were sensitive to Flumatinib in culture, demonstrating decreased cell proliferation (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 10919,
+                "profileName": "KIT A502_Y503dup"
+            },
+            "therapy": {
+                "id": 3169,
+                "therapyName": "Flumatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9592,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastrointestinal stromal tumor patient derived xenograft (PDX) model harboring KIT A502_Y503dup demonstrated resistance to treatment with Gleevec (imatinib), resulting in increased tumor volume (PMID: 27777285).",
+            "molecularProfile": {
+                "id": 10919,
+                "profileName": "KIT A502_Y503dup"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7300,
+                    "pubMedId": 27777285,
+                    "title": "Cabozantinib Is Active against Human Gastrointestinal Stromal Tumor Xenografts Carrying Different KIT Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27777285"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14380,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Stivarga (regorafenib) did not significantly inhibit Kit, Erk, or Mtor signaling, but resulted in tumor growth inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT A502_Y503dup and KIT D820E, which was established from a patient who did not respond to Gleevec (imatinib mesylate) and Sutent (sunitinib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 10919,
+                "profileName": "KIT A502_Y503dup"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9595,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (Cabometyx, cabozantinib) resulted in decreased tumor volume and reduced mitotic activity in a gastrointestinal stromal tumor patient derived xenograft (PDX) model harboring KIT A502_Y503dup (PMID: 27777285).",
+            "molecularProfile": {
+                "id": 10919,
+                "profileName": "KIT A502_Y503dup"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7300,
+                    "pubMedId": 27777285,
+                    "title": "Cabozantinib Is Active against Human Gastrointestinal Stromal Tumor Xenografts Carrying Different KIT Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27777285"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14327,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT A502_Y503dup (Y503_F504insAY) were sensitive to Sutent (sunitinib) in culture, demonstrating decreased cell proliferation (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 10919,
+                "profileName": "KIT A502_Y503dup"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14377,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) did not inhibit Kit, Erk, or Mtor signaling and resulted in minimal (7.4%) tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT A502_Y503dup and KIT D820E, which was established from a patient who did not respond to Gleevec (imatinib mesylate) and Sutent (sunitinib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29992,
+                "profileName": "KIT A502_Y503dup KIT D820E"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14379,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) did not inhibit Kit, Erk, or Mtor signaling and resulted in minimal (26.2%) tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT A502_Y503dup and KIT D820E, which was established from a patient who did not respond to Gleevec (imatinib mesylate) and Sutent (sunitinib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29992,
+                "profileName": "KIT A502_Y503dup KIT D820E"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14619,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KIT N822K was identified as a secondary mutation in a patient with gastrointestinal stromal tumor harboring a primary KIT A502_Y503dup mutation, who developed resistance to Gleevec (imatinib) (PMID: 18488160).",
+            "molecularProfile": {
+                "id": 30370,
+                "profileName": "KIT A502_Y503dup KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14625,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, PDGFRA H687Y was identified as a secondary mutation in a patient with gastrointestinal stromal tumor harboring primary KIT A502_Y503dup mutation, who developed resistance to Gleevec (imatinib mesylate) (PMID: 18488160).",
+            "molecularProfile": {
+                "id": 30375,
+                "profileName": "KIT A502_Y503dup PDGFRA H687Y"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10919,
+            "profileName": "KIT A502_Y503dup",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6413,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT A502_Y503dup"
+                }
+            ]
+        },
+        {
+            "id": 29992,
+            "profileName": "KIT A502_Y503dup KIT D820E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30370,
+            "profileName": "KIT A502_Y503dup KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30375,
+            "profileName": "KIT A502_Y503dup PDGFRA H687Y",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135999,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54726014_54726019",
+            "cDna": "c.1504_1509",
+            "protein": "p.A502_Y503",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135997,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54726014_54726019",
+            "cDna": "c.1504_1509",
+            "protein": "p.A502_Y503",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135998,
+            "transcript": "NM_001093772",
+            "gDna": "chr4:g.54726014_54726019",
+            "cDna": "c.1504_1509",
+            "protein": "p.A502_Y503",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136000,
+            "transcript": "XM_017008180",
+            "gDna": "chr4:g.54726014_54726019",
+            "cDna": "c.1504_1509",
+            "protein": "p.A502_Y503",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

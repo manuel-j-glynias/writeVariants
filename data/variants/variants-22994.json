@@ -1,0 +1,225 @@
+{
+    "id": 22994,
+    "fullName": "EGFR G465E",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR G465E lies within the extracellular domain of the Egfr protein (UniProt.org). G465E results in increased Egfr and Erk phosphorylation and confers resistance to Erbitux (cetuximab) and Vectibix (panitumumab) in cell culture (PMID: 26416732).",
+            "references": [
+                {
+                    "id": 5717,
+                    "pubMedId": 26416732,
+                    "title": "The genomic landscape of response to EGFR blockade in colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26416732"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "G465E",
+    "createDate": "06/01/2016",
+    "updateDate": "06/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135635,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55160234G>A",
+        "cDna": "c.1394G>A",
+        "protein": "p.G465E",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6634,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines over expressing EGFR G465E were resistant to Erbitux (cetuximab)-induced growth inhibition in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23653,
+                "profileName": "EGFR G465E"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6633,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines over expressing EGFR G465E were resistant to Vectibix (panitumumab)-induced growth inhibition in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23653,
+                "profileName": "EGFR G465E"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6632,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MM-151 inhibited survival of colorectal cancer cell lines over expressing EGFR G465E in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23653,
+                "profileName": "EGFR G465E"
+            },
+            "therapy": {
+                "id": 821,
+                "therapyName": "MM-151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6647,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, MM-151 treatment resulted in marked reduction of EGFR G465E in circulating cell-free tumor DNA and reduced tumor size in a colorectal cancer patient harboring both EGFR G465E and EGFR G465R (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23660,
+                "profileName": "EGFR G465E EGFR G465R"
+            },
+            "therapy": {
+                "id": 821,
+                "therapyName": "MM-151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23653,
+            "profileName": "EGFR G465E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23660,
+            "profileName": "EGFR G465E EGFR G465R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135635,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55160234G>A",
+            "cDna": "c.1394G>A",
+            "protein": "p.G465E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135637,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55160234G>A",
+            "cDna": "c.1394G>A",
+            "protein": "p.G465E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135636,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55160234G>A",
+            "cDna": "c.1394G>A",
+            "protein": "p.G465E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

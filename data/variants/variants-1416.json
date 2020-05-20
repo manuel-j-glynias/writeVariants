@@ -1,0 +1,588 @@
+{
+    "id": 1416,
+    "fullName": "KRAS A146T",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS A146T does not lie within any known functional domains of the Kras protein (UniProt.org). A146T results in impaired GTPase activity, increased intrinsic and GEF-mediated nucleotide exchange rate, leads to accumulation of GTP-bound Kras, increased phosphorylation of Mek, Erk, and Akt, is transforming in cell culture and promotes tumor formation in mouse models (PMID: 30952657, PMID: 19075190, PMID: 20570890, PMID: 32079091).",
+            "references": [
+                {
+                    "id": 547,
+                    "pubMedId": 19075190,
+                    "title": "High-throughput sequencing screen reveals novel, transforming RAS mutations in myeloid leukemia patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19075190"
+                },
+                {
+                    "id": 843,
+                    "pubMedId": 20570890,
+                    "title": "Genomic and biological characterization of exon 4 KRAS mutations in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20570890"
+                },
+                {
+                    "id": 15680,
+                    "pubMedId": 30952657,
+                    "title": "Tissue-Specific Oncogenic Activity of KRASA146T.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30952657"
+                },
+                {
+                    "id": 18061,
+                    "pubMedId": 32079091,
+                    "title": "Exon-4 Mutations in KRAS Affect MEK/ERK and PI3K/AKT Signaling in Human Multiple Myeloma Cell Lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32079091"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "A146T",
+    "createDate": "08/14/2014",
+    "updateDate": "03/09/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 156923,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25225628C>T",
+        "cDna": "c.436G>A",
+        "protein": "p.A146T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1708,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD-0325901 inhibited growth of colorectal cancer cell lines harboring KRAS A146T in culture and in cell line xenograft models (PMID: 20570890).",
+            "molecularProfile": {
+                "id": 1441,
+                "profileName": "KRAS A146T"
+            },
+            "therapy": {
+                "id": 849,
+                "therapyName": "PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 843,
+                    "pubMedId": 20570890,
+                    "title": "Genomic and biological characterization of exon 4 KRAS mutations in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20570890"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1709,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring KRAS A146T demonstrated resistance to tumor growth inhibition by Erbitux (cetuximab) in xenograft models (PMID: 20570890).",
+            "molecularProfile": {
+                "id": 1441,
+                "profileName": "KRAS A146T"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 843,
+                    "pubMedId": 20570890,
+                    "title": "Genomic and biological characterization of exon 4 KRAS mutations in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20570890"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17584,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colon cancer cell lines harboring KRAS A146T demonstrated growth rates similar to cells expressing wild-type KRAS when treated with SHP099 in culture (PMID: 30952657).",
+            "molecularProfile": {
+                "id": 1441,
+                "profileName": "KRAS A146T"
+            },
+            "therapy": {
+                "id": 4504,
+                "therapyName": "SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15680,
+                    "pubMedId": 30952657,
+                    "title": "Tissue-Specific Oncogenic Activity of KRASA146T.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30952657"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7687,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS A146T mutation and subsequent resistance to Erbitux (cetuximab) and Tafinlar (dabrafenib) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab), Encorafenib (LGX818), and Alpelisib (BYL719) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25924,
+                "profileName": "BRAF V600E KRAS A146T"
+            },
+            "therapy": {
+                "id": 1917,
+                "therapyName": "Alpelisib + Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7682,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination therapy consisting of Erbitux (cetuximab), Tafinlar (dabrafenib), and Mekinist (trametinib) inhibited survival of colorectal cancer cell lines harboring BRAF V600E that acquired a KRAS A146T mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25924,
+                "profileName": "BRAF V600E KRAS A146T"
+            },
+            "therapy": {
+                "id": 4541,
+                "therapyName": "Cetuximab + Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7623,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E developed sustained activation of Mapk signaling and resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment in culture, likely due to the acquired secondary resistance mutation KRAS A146T (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25924,
+                "profileName": "BRAF V600E KRAS A146T"
+            },
+            "therapy": {
+                "id": 1916,
+                "therapyName": "Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7680,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS A146T mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Zelboraf (vemurafenib) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25924,
+                "profileName": "BRAF V600E KRAS A146T"
+            },
+            "therapy": {
+                "id": 1711,
+                "therapyName": "Cetuximab + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7624,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E developed sustained activation of Mapk signaling and resistance to Erbitux (cetuximab) and Tafinlar (dabrafenib) combination treatment in culture, likely due to the acquired secondary resistance mutation KRAS A146T (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25924,
+                "profileName": "BRAF V600E KRAS A146T"
+            },
+            "therapy": {
+                "id": 4525,
+                "therapyName": "Cetuximab + Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7697,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired KRAS A146V and A146T mutations and subsequent resistance to Erbitux (cetuximab), Encorafenib (LGX818), and Alpelisib (BYL719) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Tafinlar (dabrafenib) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25927,
+                "profileName": "BRAF V600E KRAS A146T KRAS A146V"
+            },
+            "therapy": {
+                "id": 4525,
+                "therapyName": "Cetuximab + Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7628,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E developed sustained activation of Mapk signaling and resistance to combination treatment consisting of Erbitux (cetuximab), Encorafenib (LGX818), and Alpelisib (BYL719) in culture, likely due to the acquisition of KRAS A146V and A146T secondary resistance mutations (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25927,
+                "profileName": "BRAF V600E KRAS A146T KRAS A146V"
+            },
+            "therapy": {
+                "id": 1917,
+                "therapyName": "Alpelisib + Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7695,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired KRAS A146V and A146T mutations and subsequent resistance to Erbitux (cetuximab), Encorafenib (LGX818), and Alpelisib (BYL719) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Encorafenib (LGX818) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25927,
+                "profileName": "BRAF V600E KRAS A146T KRAS A146V"
+            },
+            "therapy": {
+                "id": 1916,
+                "therapyName": "Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7699,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired KRAS A146V and A146T mutations and subsequent resistance to Erbitux (cetuximab), Encorafenib (LGX818), and Alpelisib (BYL719) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Selumetinib (AZD6244) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25927,
+                "profileName": "BRAF V600E KRAS A146T KRAS A146V"
+            },
+            "therapy": {
+                "id": 4536,
+                "therapyName": "Cetuximab + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7698,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired KRAS A146V and A146T mutations and subsequent resistance to Erbitux (cetuximab), Encorafenib (LGX818), and Alpelisib (BYL719) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Zelboraf (vemurafenib) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25927,
+                "profileName": "BRAF V600E KRAS A146T KRAS A146V"
+            },
+            "therapy": {
+                "id": 1711,
+                "therapyName": "Cetuximab + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1441,
+            "profileName": "KRAS A146T",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 15863,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "KRAS A146T"
+                },
+                {
+                    "id": 15864,
+                    "name": "AZD4785",
+                    "profileName": "KRAS A146T"
+                },
+                {
+                    "id": 15867,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "KRAS A146T"
+                },
+                {
+                    "id": 15865,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "KRAS A146T"
+                },
+                {
+                    "id": 15868,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "KRAS A146T"
+                },
+                {
+                    "id": 15862,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "KRAS A146T"
+                },
+                {
+                    "id": 15866,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "KRAS A146T"
+                }
+            ]
+        },
+        {
+            "id": 25924,
+            "profileName": "BRAF V600E KRAS A146T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25927,
+            "profileName": "BRAF V600E KRAS A146T KRAS A146V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 156924,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25225628C>T",
+            "cDna": "c.436G>A",
+            "protein": "p.A146T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156926,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25225628C>T",
+            "cDna": "c.436G>A",
+            "protein": "p.A146T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156922,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25225628C>T",
+            "cDna": "c.436G>A",
+            "protein": "p.A146T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156923,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25225628C>T",
+            "cDna": "c.436G>A",
+            "protein": "p.A146T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156925,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25225628C>T",
+            "cDna": "c.436G>A",
+            "protein": "p.A146T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

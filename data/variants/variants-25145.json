@@ -1,0 +1,151 @@
+{
+    "id": 25145,
+    "fullName": "EGFR I941R",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR I941R lies within the protein kinase domain of the Egfr protein (UniProt.org). I941R confers a loss of function on the Egfr protein as indicated by disruption of dimerization in culture (PMID: 24063894, PMID: 24894453).",
+            "references": [
+                {
+                    "id": 1846,
+                    "pubMedId": 24063894,
+                    "title": "Cetuximab response of lung cancer-derived EGF receptor mutants is associated with asymmetric dimerization.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24063894"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1125,
+                    "pubMedId": 24894453,
+                    "title": "Colon cancer-derived oncogenic EGFR G724S mutant identified by whole genome sequence analysis is dependent on asymmetric dimerization and sensitive to cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24894453"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "I941R",
+    "createDate": "08/04/2016",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135707,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55198837_55198838delTCinsGG",
+        "cDna": "c.2822_2823delTCinsGG",
+        "protein": "p.I941R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7589,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing EGFR that harbors concomitant L858R, T790M and I941R mutations demonstrated increased sensitivity to EAI045 induced growth inhibition in culture (PMID: 27251290).",
+            "molecularProfile": {
+                "id": 25912,
+                "profileName": "EGFR T790M EGFR L858R EGFR I941R"
+            },
+            "therapy": {
+                "id": 4520,
+                "therapyName": "EAI045",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6436,
+                    "pubMedId": 27251290,
+                    "title": "Overcoming EGFR(T790M) and EGFR(C797S) resistance with mutant-selective allosteric inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27251290"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18679,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JBJ-04-125-02 02 inhibited Egfr activation in a transformed mouse cell line expressing EGFR L858R and T790M in culture (PMID: 31092401).",
+            "molecularProfile": {
+                "id": 25912,
+                "profileName": "EGFR T790M EGFR L858R EGFR I941R"
+            },
+            "therapy": {
+                "id": 8684,
+                "therapyName": "JBJ-04-125-02",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16071,
+                    "pubMedId": 31092401,
+                    "title": "Single and Dual Targeting of Mutant EGFR with an Allosteric Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31092401"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25910,
+            "profileName": "EGFR I941R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25912,
+            "profileName": "EGFR T790M EGFR L858R EGFR I941R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135707,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55198837_55198838delTCinsGG",
+            "cDna": "c.2822_2823delTCinsGG",
+            "protein": "p.I941R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

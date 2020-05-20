@@ -1,0 +1,254 @@
+{
+    "id": 23601,
+    "fullName": "MAP2K2 C125S",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K2 C125S lies within the protein kinase domain of the Map2k2 protein (UniProt.org). C125S leads to increased Map2k2 kinase activity in cell culture and is associated with resistance to RAF and MEK inhibitors (PMID: 25452114, PMID: 24265153, PMID: 28263969).",
+            "references": [
+                {
+                    "id": 6034,
+                    "pubMedId": 25452114,
+                    "title": "Increased MAPK reactivation in early resistance to dabrafenib/trametinib combination therapy of BRAF-mutant metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25452114"
+                },
+                {
+                    "id": 8508,
+                    "pubMedId": 28263969,
+                    "title": "Activated MEK cooperates with Cdkn2a and Pten loss to promote the development and maintenance of melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28263969"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5605,
+        "geneSymbol": "MAP2K2",
+        "terms": [
+            "MAP2K2",
+            "CFC4",
+            "MAPKK2",
+            "MEK2",
+            "MKK2",
+            "PRKMK2"
+        ]
+    },
+    "variant": "C125S",
+    "createDate": "06/23/2016",
+    "updateDate": "07/01/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 158717,
+        "transcript": "NM_030662",
+        "gDna": "chr19:g.4110586A>T",
+        "cDna": "c.373T>A",
+        "protein": "p.C125S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10469,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MAP2K2 C125S conferred resistance to Tafinlar (dabrafenib) in BRAF V600E-mutant melanoma cells in culture (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24308,
+                "profileName": "BRAF V600E MAP2K2 C125S"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7006,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K2 C125S demonstrated sensitivity to treatment with VRT11E, resulting in decreased cell growth in culture (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24308,
+                "profileName": "BRAF V600E MAP2K2 C125S"
+            },
+            "therapy": {
+                "id": 4351,
+                "therapyName": "VRT11E",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10468,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MAP2K2 C125S conferred resistance to Mekinist (trametinib) in BRAF V600E-mutant melanoma cells in culture (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24308,
+                "profileName": "BRAF V600E MAP2K2 C125S"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7031,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MAP2K2 C125S conferred resistance to the combination of Tafinlar (dabrafenib) and Mekinist (trametinib) in BRAF V600E-mutant melanoma cells in culture (PMID: 24265154).",
+            "molecularProfile": {
+                "id": 24308,
+                "profileName": "BRAF V600E MAP2K2 C125S"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6036,
+                    "pubMedId": 24265154,
+                    "title": "MAP kinase pathway alterations in BRAF-mutant melanoma patients with acquired resistance to combined RAF/MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 24306,
+            "profileName": "MAP2K2 C125S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24308,
+            "profileName": "BRAF V600E MAP2K2 C125S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 158716,
+            "transcript": "XM_006722799",
+            "gDna": "chr19:g.4110586A>T",
+            "cDna": "c.373T>A",
+            "protein": "p.C125S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 158717,
+            "transcript": "NM_030662",
+            "gDna": "chr19:g.4110586A>T",
+            "cDna": "c.373T>A",
+            "protein": "p.C125S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 158720,
+            "transcript": "XM_017026991",
+            "gDna": "chr19:g.4110586A>T",
+            "cDna": "c.373T>A",
+            "protein": "p.C125S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 158719,
+            "transcript": "XM_017026989",
+            "gDna": "chr19:g.4110586A>T",
+            "cDna": "c.373T>A",
+            "protein": "p.C125S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 158718,
+            "transcript": "XM_017026990",
+            "gDna": "chr19:g.4110586A>T",
+            "cDna": "c.373T>A",
+            "protein": "p.C125S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

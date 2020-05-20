@@ -1,0 +1,130 @@
+{
+    "id": 24779,
+    "fullName": "MTOR T1977K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR T1977K lies within TPR repeat 16 of the Mtor protein (UniProt.org). T1977K results in activation of Mtor signaling and is transforming in cell culture (PMID: 26432419).",
+            "references": [
+                {
+                    "id": 6364,
+                    "pubMedId": 26432419,
+                    "title": "Transforming somatic mutations of mammalian target of rapamycin kinase in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26432419"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "T1977K",
+    "createDate": "07/26/2016",
+    "updateDate": "02/27/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 145513,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11128107G>T",
+        "cDna": "c.5930C>A",
+        "protein": "p.T1977K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8827,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing MTOR T1977K treated with Rapamune (sirolimus) in culture demonstrated decreased phosphorylation of S6k, suggesting sensitivity (PMID: 27482884).",
+            "molecularProfile": {
+                "id": 25536,
+                "profileName": "MTOR T1977K"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6761,
+                    "pubMedId": 27482884,
+                    "title": "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27482884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25536,
+            "profileName": "MTOR T1977K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10456,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR T1977K"
+                },
+                {
+                    "id": 10458,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR T1977K"
+                },
+                {
+                    "id": 10457,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR T1977K"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145513,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11128107G>T",
+            "cDna": "c.5930C>A",
+            "protein": "p.T1977K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145514,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11128107G>T",
+            "cDna": "c.5930C>A",
+            "protein": "p.T1977K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

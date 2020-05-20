@@ -1,0 +1,663 @@
+{
+    "id": 470,
+    "fullName": "BRAF G466V",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G466V lies within the protein kinase domain of the Braf protein (UniProt.org). G466V results in impaired Braf kinase activity, but paradoxically activates MEK and ERK through transactivation of CRAF in cell culture (PMID: 22649091, PMID: 28783719), and in one of two cell lines, G466V decreased cell proliferation and cell viability as compared to wild-type Braf (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 423,
+                    "pubMedId": 22649091,
+                    "title": "Kinase-impaired BRAF mutations in lung cancer confer sensitivity to dasatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22649091"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G466V",
+    "createDate": "05/02/2014",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109130,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781611C>A",
+        "cDna": "c.1397G>T",
+        "protein": "p.G466V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3934,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAE226 treatment inhibited proliferation of non-small cell lung carcinoma cell lines harboring BRAF G466V mutation in culture (PMID: 26090892).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 2086,
+                "therapyName": "TAE226",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4301,
+                    "pubMedId": 26090892,
+                    "title": "TAE226, a Bis-Anilino Pyrimidine Compound, Inhibits the EGFR-Mutant Kinase Including T790M Mutant to Show Anti-Tumor Effect on EGFR-Mutant Non-Small Cell Lung Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26090892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7942,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-632 inhibited proliferation of non-small cell lung cancer cells harboring BRAF G466V in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 3300,
+                "therapyName": "TAK-632",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16114,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Zelboraf (vemurafenib) treatment resulted in an objective response in only 4% (1/23) of patient with advanced solid tumors harboring non-V600 BRAF mutations, 1 of the non-responding patients harbored BRAF G466V (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 691,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) induced apoptosis in non-small cell lung cancer cells expressing BRAF G466V in culture (PMID: 22649091).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 423,
+                    "pubMedId": 22649091,
+                    "title": "Kinase-impaired BRAF mutations in lung cancer confer sensitivity to dasatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22649091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11653,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) reduced ERK signaling and inhibited proliferation of non-small cell lung cancer cell lines harboring BRAF G466V in culture (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11736,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Mekinist (trametinib) and Tafinlar (dabrafenib) resulted in decreased proliferation and increased apoptosis, and enhanced ERK inhibition compared to either agent alone in a non-small cell lung cancer cell line harboring BRAF G466V in culture (PMID: 28947956).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12147,
+                    "pubMedId": 28947956,
+                    "title": "Non-V600 BRAF mutations recurrently found in lung cancer predict sensitivity to the combination of Trametinib and Dabrafenib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28947956"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11659,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit ERK signaling or tumor growth in a colorectal cancer patient-derived xenograft (PDX) model harboring BRAF G466V, and wild-type RAS and NF1 (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11658,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Mekinist (trametinib) delayed tumor growth in a colorectal cancer patient-derived xenograft (PDX) model harboring BRAF G466V, and wild-type RAS and NF1 (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11657,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Erbitux (cetuximab) reduced ERK signaling and resulted in tumor regression in a colorectal cancer patient-derived xenograft (PDX) model harboring BRAF G466V, and wild-type RAS and NF1 (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12073,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX8394 decreased growth of lung adenocarcinoma cell lines harboring BRAF G466V in culture (PMID: 27834212).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 1041,
+                "therapyName": "PLX8394",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10006,
+                    "pubMedId": 27834212,
+                    "title": "Preclinical efficacy of a RAF inhibitor that evades paradoxical MAPK pathway activation in protein kinase BRAF-mutant lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27834212"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11663,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic colorectal cancer harboring BRAF G466V, and with wild-type RAS and NF1, demonstrated tumor regression following treatment with Vectibix (panitumumab) plus Camptosar (irinotecan) (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 4138,
+                "therapyName": "Irinotecan + Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15985,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 inhibited Erk phosphorylation and proliferation of lung cancer cells harboring BRAF G466V in culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7958,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring BRAF G466V demonstrated decreased sensitivity to Zelboraf (vemurafenib) in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20144,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment did not result in response in the cohort of 15 non-small cell lung cancer patients with non-V600 BRAF mutations, which included 3 patients harboring BRAF G466V, and enrollment in this cohort was discontinued (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 669,
+                "profileName": "BRAF G466V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4515,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YAP1 knockdown enhanced sensitivity of human non-small cell lung cancer cell lines harboring BRAF G466V to Zelboraf (vemurafenib) inhibition in culture (PMID: 25665005).",
+            "molecularProfile": {
+                "id": 18269,
+                "profileName": "BRAF G466V YAP1 dec exp"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4582,
+                    "pubMedId": 25665005,
+                    "title": "The Hippo effector YAP promotes resistance to RAF- and MEK-targeted cancer therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25665005"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8231,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib treatment resulted in decreased activation of MEK, AKT, and ERK and inhibited growth of a non-small cell lung cancer cell line with wild-type EGFR and BRAF G466V in culture, and inhibited tumor growth in xenograft models (PMID: 25077897).",
+            "molecularProfile": {
+                "id": 26202,
+                "profileName": "BRAF G466V EGFR wild-type"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2971,
+                    "pubMedId": 25077897,
+                    "title": "The HSP90 inhibitor ganetespib potentiates the antitumor activity of EGFR tyrosine kinase inhibition in mutant and wild-type non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25077897"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11667,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) growth of a non-small cell lung cancer cell line harboring BRAF G466V and expressing NRAS Q61K in culture (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28181,
+                "profileName": "BRAF G466V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 669,
+            "profileName": "BRAF G466V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14316,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G466V"
+                },
+                {
+                    "id": 14317,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G466V"
+                },
+                {
+                    "id": 14315,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G466V"
+                },
+                {
+                    "id": 14318,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G466V"
+                }
+            ]
+        },
+        {
+            "id": 18269,
+            "profileName": "BRAF G466V YAP1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26202,
+            "profileName": "BRAF G466V EGFR wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28181,
+            "profileName": "BRAF G466V NRAS Q61K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109130,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781611C>A",
+            "cDna": "c.1397G>T",
+            "protein": "p.G466V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109129,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781611C>A",
+            "cDna": "c.1397G>T",
+            "protein": "p.G466V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

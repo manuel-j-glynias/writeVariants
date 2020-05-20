@@ -424,6 +424,7 @@ type VariantSNVIndel implements GenomicVariant {
     pDot: String!
     cDot: String!
     gDot: String!
+    exon: String
     proteinEffect: VariantProteinEffect!
 }
 
@@ -588,12 +589,22 @@ type JaxDisease  {
     children: [JaxDisease]! @relation(name: "PARENT", direction: "IN")
 }
 
+type OncoTreeDisease  {
+    id: ID!
+    code: String!
+    name: String!
+    parent: OncoTreeDisease @relation(name: "PARENT", direction: "OUT")
+    children: [OncoTreeDisease]! @relation(name: "PARENT", direction: "IN")
+}
+
 type OntologicalDisease  {
     id: ID!
     name: String!
     omniDisease: String!
     mCode: String!
+    goCode: String!
     jaxDisease: JaxDisease
+    oncoTreeDisease: OncoTreeDisease
     parent: OntologicalDisease @relation(name: "PARENT", direction: "OUT")
     children: [OntologicalDisease]! @relation(name: "PARENT", direction: "IN")
     evidenceAssociations: [EvidenceAssociation] @relation(name: "DISEASE_FOR", direction: "OUT")

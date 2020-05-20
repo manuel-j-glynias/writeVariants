@@ -1,0 +1,542 @@
+{
+    "id": 3848,
+    "fullName": "PIK3CA K111N",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA K111N lies within the region linking the PI3K-ABD and PI3K-RBD domains of the Pik3ca protein (UniProt.org). K111N results in increased phosphorylation of Akt, activation of downstream signaling, and is transforming in cell culture (PMID: 17376864, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 101,
+                    "pubMedId": 17376864,
+                    "title": "Rare cancer-specific mutations in PIK3CA show gain of function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17376864"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "K111N",
+    "createDate": "03/18/2015",
+    "updateDate": "04/29/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 171924,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179199158G>C",
+        "cDna": "c.333G>C",
+        "protein": "p.K111N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10270,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, hormone receptor positive breast cancer cells harboring PIK3CA K111N were sensitive to Miransertib (ARQ092) in culture, demonstrating inhibition of cell growth (PMID: 26469692).",
+            "molecularProfile": {
+                "id": 3658,
+                "profileName": "PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 635,
+                "therapyName": "Miransertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8234,
+                    "pubMedId": 26469692,
+                    "title": "Targeting AKT1-E17K and the PI3K/AKT Pathway with an Allosteric AKT Inhibitor, ARQ 092.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26469692"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8813,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY1125976 inhibited proliferation of a breast cancer cell line harboring PIK3CA K111N in culture (PMID: 27699769).",
+            "molecularProfile": {
+                "id": 3658,
+                "profileName": "PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 994,
+                "therapyName": "BAY1125976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6757,
+                    "pubMedId": 27699769,
+                    "title": "BAY 1125976, a selective allosteric AKT1/2 inhibitor, exhibits high efficacy on AKT signaling-dependent tumor growth in mouse models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27699769"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5110,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD8835 inhibited proliferation of estrogen receptor (ER)-positive breast cancer cells harboring PIK3CA K111N in culture and induced tumor regression in xenograft models (PMID: 26839307).",
+            "molecularProfile": {
+                "id": 3658,
+                "profileName": "PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 2013,
+                "therapyName": "AZD8835",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4877,
+                    "pubMedId": 26839307,
+                    "title": "Intermittent High-Dose Scheduling of AZD8835, a Novel Selective Inhibitor of PI3K\u03b1 and PI3K\u03b4, Demonstrates Treatment Strategies for PIK3CA-Dependent Breast Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26839307"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10275,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line harboring PIK3CA K111N was sensitive to ARQ 751 in culture, demonstrating inhibition of cell growth (PMID: 26469692).",
+            "molecularProfile": {
+                "id": 3658,
+                "profileName": "PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 4331,
+                "therapyName": "ARQ 751",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8234,
+                    "pubMedId": 26469692,
+                    "title": "Targeting AKT1-E17K and the PI3K/AKT Pathway with an Allosteric AKT Inhibitor, ARQ 092.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26469692"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10362,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DHM25 increased cell death in a breast cancer cell line harboring PIK3CA K111N in culture (PMID: 26237138).",
+            "molecularProfile": {
+                "id": 3658,
+                "profileName": "PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 5494,
+                "therapyName": "DHM25",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8367,
+                    "pubMedId": 26237138,
+                    "title": "A Novel Covalent mTOR Inhibitor, DHM25, Shows in Vivo Antitumor Activity against Triple-Negative Breast Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26237138"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19931,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, borussertib inhibited proliferation of a breast cancer cell line harboring PIK3CA K111N in culture (PMID: 30858154).",
+            "molecularProfile": {
+                "id": 3658,
+                "profileName": "PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 9256,
+                "therapyName": "Borussertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17595,
+                    "pubMedId": 30858154,
+                    "title": "Preclinical Efficacy of Covalent-Allosteric AKT Inhibitor Borussertib in Combination with Trametinib in KRAS-Mutant Pancreatic and Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30858154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2969,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH5132799 inhibited cell growth and Akt phosphorylation, and promoted apoptosis in a human breast cancer cell line harboring PIK3CA K111N and ERBB2 (HER2) amplification, and inhibited tumor growth in xenograft models (PMID: 21558396).",
+            "molecularProfile": {
+                "id": 10753,
+                "profileName": "ERBB2 amp PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 2152,
+                "therapyName": "CH5132799",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1985,
+                    "pubMedId": 21558396,
+                    "title": "The selective class I PI3K inhibitor CH5132799 targets human cancers harboring oncogenic PIK3CA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21558396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18944,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CYH33 inhibited proliferation of a breast cancer cell line harboring PIK3CA K111N and ERBB2 (HER2) amplification in culture (PMID: 30003928).",
+            "molecularProfile": {
+                "id": 10753,
+                "profileName": "ERBB2 amp PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 8687,
+                "therapyName": "CYH33",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16074,
+                    "pubMedId": 30003928,
+                    "title": "Decrease in phosphorylated ERK indicates the therapeutic efficacy of a clinical PI3K\u03b1-selective inhibitor CYH33 in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30003928"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5113,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD8835 and Falsodex (fulvestrant) worked synergistically to inhibit proliferation of estrogen receptor (ER)-positive breast cancer cells harboring PIK3CA K111N in culture and to induce tumor regression in xenograft models (PMID: 26839307).",
+            "molecularProfile": {
+                "id": 20268,
+                "profileName": "ESR1 pos PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 3753,
+                "therapyName": "AZD8835 + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4877,
+                    "pubMedId": 26839307,
+                    "title": "Intermittent High-Dose Scheduling of AZD8835, a Novel Selective Inhibitor of PI3K\u03b1 and PI3K\u03b4, Demonstrates Treatment Strategies for PIK3CA-Dependent Breast Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26839307"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5120,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD8835 and Ibrance (palbociclib) worked synergistically to inhibit proliferation of estrogen receptor (ER)-positive breast cancer cells harboring PIK3CA K111N in culture and to induce tumor regression in xenograft models (PMID: 26839307).",
+            "molecularProfile": {
+                "id": 20268,
+                "profileName": "ESR1 pos PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 3755,
+                "therapyName": "AZD8835 + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4877,
+                    "pubMedId": 26839307,
+                    "title": "Intermittent High-Dose Scheduling of AZD8835, a Novel Selective Inhibitor of PI3K\u03b1 and PI3K\u03b4, Demonstrates Treatment Strategies for PIK3CA-Dependent Breast Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26839307"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7745,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Kadcyla (trastuzumab emtansine) inhibited survival of ERBB2 (HER2) positive breast cancer cells harboring PIK3CA K111N in culture, and induced tumor regression in cell line xenograft models (PMID: 26920887).",
+            "molecularProfile": {
+                "id": 25948,
+                "profileName": "ERBB2 pos PIK3CA K111N"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6466,
+                    "pubMedId": 26920887,
+                    "title": "Relationship between Tumor Biomarkers and Efficacy in EMILIA, a Phase III Study of Trastuzumab Emtansine in HER2-Positive Metastatic Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26920887"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8901,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pim1 over expression in breast cancer cells harboring PIK3CA K111N resulted in resistance to Alpelisib (BYL719) in culture (PMID: 27604488).",
+            "molecularProfile": {
+                "id": 26529,
+                "profileName": "PIK3CA K111N PIM1 over exp"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6782,
+                    "pubMedId": 27604488,
+                    "title": "Systematic Functional Characterization of Resistance to PI3K Inhibition in Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27604488"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3658,
+            "profileName": "PIK3CA K111N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17253,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA K111N"
+                },
+                {
+                    "id": 17249,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA K111N"
+                },
+                {
+                    "id": 17254,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA K111N"
+                },
+                {
+                    "id": 17252,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA K111N"
+                },
+                {
+                    "id": 17251,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA K111N"
+                },
+                {
+                    "id": 17250,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA K111N"
+                },
+                {
+                    "id": 17247,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA K111N"
+                },
+                {
+                    "id": 17248,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA K111N"
+                }
+            ]
+        },
+        {
+            "id": 10753,
+            "profileName": "ERBB2 amp PIK3CA K111N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20268,
+            "profileName": "ESR1 pos PIK3CA K111N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25948,
+            "profileName": "ERBB2 pos PIK3CA K111N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26529,
+            "profileName": "PIK3CA K111N PIM1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171924,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179199158G>C",
+            "cDna": "c.333G>C",
+            "protein": "p.K111N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171925,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179199158G>C",
+            "cDna": "c.333G>C",
+            "protein": "p.K111N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171923,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179199158G>C",
+            "cDna": "c.333G>C",
+            "protein": "p.K111N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "id": 16552,
+    "fullName": "TP53 S241F",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 S241F lies within the DNA-binding domain of the Tp53 protein (PMID: 22713868). S241F results in a decreased in Tp53 transcriptional activity (PMID: 19225112, PMID: 26585234), and interferes with formation of the Tp53/Bard1/CstF complex in cell culture (PMID: 21383700).",
+            "references": [
+                {
+                    "id": 4333,
+                    "pubMedId": 19225112,
+                    "title": "A panel of isogenic human cancer cells suggests a therapeutic approach for cancers with inactivated p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19225112"
+                },
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 4334,
+                    "pubMedId": 21383700,
+                    "title": "p53 inhibits mRNA 3' processing through its interaction with the CstF/BARD1 complex.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21383700"
+                },
+                {
+                    "id": 7588,
+                    "pubMedId": 26585234,
+                    "title": "Specific TP53 Mutants Overrepresented in Ovarian Cancer Impact CNV, TP53 Activity, Responses to Nutlin-3a, and Cell Survival.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26585234"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "S241F",
+    "createDate": "01/14/2016",
+    "updateDate": "09/19/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 95670,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7674241G>A",
+        "cDna": "c.722C>T",
+        "protein": "p.S241F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5015,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib inhibited growth of human ovarian cancer cells harboring TP53 S241F in culture (PMID: 26009011).",
+            "molecularProfile": {
+                "id": 16831,
+                "profileName": "TP53 S241F"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4831,
+                    "pubMedId": 26009011,
+                    "title": "Improving survival by exploiting tumour dependence on stabilized mutant p53 for treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26009011"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10547,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring TP53 S241F demonstrated reduced sensitivity to DS-7423 in culture (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 16831,
+                "profileName": "TP53 S241F"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8283,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, APR-246 demonstrated efficacy in xenograft models of small cell lung cancer harboring TP53 S241F (PMID: 21415220).",
+            "molecularProfile": {
+                "id": 16831,
+                "profileName": "TP53 S241F"
+            },
+            "therapy": {
+                "id": 1946,
+                "therapyName": "APR-246",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5409,
+                "name": "lung small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2429,
+                    "pubMedId": 21415220,
+                    "title": "PRIMA-1Met/APR-246 induces apoptosis and tumor growth delay in small cell lung cancer expressing mutant p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21415220"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8266,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NSC59984 induced Tp53 pathway signaling, degradation of mutant Tp53, and cell death in a colorectal cancer (CRC) cell line harboring TP53 S241F, and inhibited tumor growth in TP53 S241F-mutant CRC cell line xenograft models, in a TP73 dependent manner (PMID: 26294215).",
+            "molecularProfile": {
+                "id": 26214,
+                "profileName": "TP53 S241F TP73 pos"
+            },
+            "therapy": {
+                "id": 3402,
+                "therapyName": "NSC59984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4303,
+                    "pubMedId": 26294215,
+                    "title": "Small-Molecule NSC59984 Restores p53 Pathway Signaling and Antitumor Effects against Colorectal Cancer via p73 Activation and Degradation of Mutant p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26294215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8564,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 synergistically inhibited Erk and PI3K signaling and proliferation, but did not induce apoptosis in colorectal cancer cells harboring KRAS G13D, PIK3CA E545K, and TP53 S241F in culture (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26357,
+                "profileName": "KRAS G13D PIK3CA E545K TP53 S241F"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 16831,
+            "profileName": "TP53 S241F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7394,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 S241F"
+                },
+                {
+                    "id": 7393,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 S241F"
+                }
+            ]
+        },
+        {
+            "id": 26214,
+            "profileName": "TP53 S241F TP73 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26357,
+            "profileName": "KRAS G13D PIK3CA E545K TP53 S241F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95671,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7674241G>A",
+            "cDna": "c.722C>T",
+            "protein": "p.S241F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95672,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7674241G>A",
+            "cDna": "c.722C>T",
+            "protein": "p.S241F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95669,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7674241G>A",
+            "cDna": "c.722C>T",
+            "protein": "p.S241F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95670,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7674241G>A",
+            "cDna": "c.722C>T",
+            "protein": "p.S241F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

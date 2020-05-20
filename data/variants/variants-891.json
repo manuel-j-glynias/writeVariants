@@ -1,0 +1,183 @@
+{
+    "id": 891,
+    "fullName": "RAF1 E478K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "RAF1 E478K lies within the protein kinase domain of the Raf1 protein (UniProt.org). E478K is not transforming in cell culture on its own (PMID: 16266992), but confers a gain of function to the Raf1 protein as demonstrated by increased Raf kinase activity (PMID: 23737487, PMID: 27273450) and is further increased in the context of oncogenic Ras (PMID: 16266992).",
+            "references": [
+                {
+                    "id": 3186,
+                    "pubMedId": 23737487,
+                    "title": "C-RAF mutations confer resistance to RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23737487"
+                },
+                {
+                    "id": 9188,
+                    "pubMedId": 27273450,
+                    "title": "CRAF R391W is a melanoma driver oncogene.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27273450"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3188,
+                    "pubMedId": 16266992,
+                    "title": "Mutations of C-RAF are rare in human cancer because C-RAF has a low basal kinase activity compared with B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16266992"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5894,
+        "geneSymbol": "RAF1",
+        "terms": [
+            "RAF1",
+            "c-Raf",
+            "CMD1NN",
+            "CRAF",
+            "NS5",
+            "Raf-1"
+        ]
+    },
+    "variant": "E478K",
+    "createDate": "07/03/2014",
+    "updateDate": "02/20/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 161723,
+        "transcript": "NM_002880",
+        "gDna": "chr3:g.12585785C>T",
+        "cDna": "c.1432G>A",
+        "protein": "p.E478K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6598,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3009120 inhibited Raf dimer formation and downstream MAPK signaling in transformed cells expressing BRAF E586K and RAF1 E478K in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23643,
+                "profileName": "BRAF E586K RAF1 E478K"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6599,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing BRAF E586K and RAF1 E478K in culture were insensitive to Zelboraf (vemurafenib) mediated inhibition of Raf signaling in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23643,
+                "profileName": "BRAF E586K RAF1 E478K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 8542,
+            "profileName": "RAF1 E478K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5998,
+                    "name": "Trametinib",
+                    "profileName": "RAF1 E478K"
+                },
+                {
+                    "id": 5927,
+                    "name": "RAF Inhibitor (Pan)",
+                    "profileName": "RAF1 E478K"
+                }
+            ]
+        },
+        {
+            "id": 23643,
+            "profileName": "BRAF E586K RAF1 E478K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 161723,
+            "transcript": "NM_002880",
+            "gDna": "chr3:g.12585785C>T",
+            "cDna": "c.1432G>A",
+            "protein": "p.E478K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161724,
+            "transcript": "XM_011533974",
+            "gDna": "chr3:g.12585785C>T",
+            "cDna": "c.1432G>A",
+            "protein": "p.E478K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161725,
+            "transcript": "XM_005265355",
+            "gDna": "chr3:g.12585785C>T",
+            "cDna": "c.1432G>A",
+            "protein": "p.E478K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

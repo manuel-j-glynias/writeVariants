@@ -1,0 +1,234 @@
+{
+    "id": 20810,
+    "fullName": "AGAP3 - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "AGAP3-BRAF results from the fusion of AGAP3 and BRAF, which leads to activation of MAPK signaling and transformation of cultured cells (PMID: 30279230, PMID: 28539463), and has been demonstrated to confer resistance to Braf inhibitors (PMID: 28539463). AGAP3-BRAF has been identified in MSI-high colorectal cancer (PMID: 30279230) and melanoma (PMID: 28539463).",
+            "references": [
+                {
+                    "id": 13140,
+                    "pubMedId": 30279230,
+                    "title": "Fusion Kinases Identified by Genomic Analyses of Sporadic Microsatellite Instability-High Colorectal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30279230"
+                },
+                {
+                    "id": 9931,
+                    "pubMedId": 28539463,
+                    "title": "BRAF Fusion as a Novel Mechanism of Acquired Resistance to Vemurafenib in BRAFV600E Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539463"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 116988,
+        "geneSymbol": "AGAP3",
+        "terms": [
+            "AGAP3",
+            "AGAP-3",
+            "CENTG3",
+            "cnt-g3",
+            "CRAG",
+            "MRIP-1"
+        ]
+    },
+    "variant": "AGAP3 - BRAF",
+    "createDate": "04/07/2016",
+    "updateDate": "10/17/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 18851,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of AGAP3-BRAF in melanoma cells harboring BRAF V600E conferred resistance to PLX4720-induced inhibition of MAPK signaling and growth in culture (PMID: 28539463).",
+            "molecularProfile": {
+                "id": 28367,
+                "profileName": "AGAP3 - BRAF BRAF V600E"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9931,
+                    "pubMedId": 28539463,
+                    "title": "BRAF Fusion as a Novel Mechanism of Acquired Resistance to Vemurafenib in BRAFV600E Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539463"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18854,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited MAPK signaling and growth of melanoma cells harboring BRAF V600E and expressing AGAP3-BRAF in culture (PMID: 28539463).",
+            "molecularProfile": {
+                "id": 28367,
+                "profileName": "AGAP3 - BRAF BRAF V600E"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9931,
+                    "pubMedId": 28539463,
+                    "title": "BRAF Fusion as a Novel Mechanism of Acquired Resistance to Vemurafenib in BRAFV600E Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539463"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18847,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Mekinist (trametinib) and Tafinlar (dabrafenib) combination treatment resulted in disease progression within 2 months in a patient with melanoma harboring BRAF V600E and an acquired AGAP3-BRAF fusion (PMID: 28539463).",
+            "molecularProfile": {
+                "id": 28367,
+                "profileName": "AGAP3 - BRAF BRAF V600E"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9931,
+                    "pubMedId": 28539463,
+                    "title": "BRAF Fusion as a Novel Mechanism of Acquired Resistance to Vemurafenib in BRAFV600E Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539463"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11958,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of AGAP3-BRAF in melanoma cells harboring BRAF V600E resulted in reduced response to Mekinist (trametinib) at high concentration compared to cells harboring V600E alone in culture (PMID: 28539463).",
+            "molecularProfile": {
+                "id": 28367,
+                "profileName": "AGAP3 - BRAF BRAF V600E"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9931,
+                    "pubMedId": 28539463,
+                    "title": "BRAF Fusion as a Novel Mechanism of Acquired Resistance to Vemurafenib in BRAFV600E Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539463"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11955,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, acquisition of an AGAP3-BRAF fusion was identified in a melanoma patient harboring BRAF V600E who developed resistance to Zelboraf (vemurafenib), and expression of AGAP3-BRAF in melanoma cells harboring BRAF V600E conferred resistance to Zelboraf (vemurafenib) in culture (PMID: 28539463).",
+            "molecularProfile": {
+                "id": 28367,
+                "profileName": "AGAP3 - BRAF BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9931,
+                    "pubMedId": 28539463,
+                    "title": "BRAF Fusion as a Novel Mechanism of Acquired Resistance to Vemurafenib in BRAFV600E Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539463"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 21309,
+            "profileName": "AGAP3 - BRAF",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28367,
+            "profileName": "AGAP3 - BRAF BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "id": 25920,
+    "fullName": "BCAN - NTRK1",
+    "impact": "fusion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BCAN-NTRK1 results from the fusion of BCAN and NTRK1, and has not been biochemically characterized, but leads to transformation of p53-null cells in culture and tumor formation in mouse models (PMID: 24647444, PMID: 29532792), and therefore, is predicted to result in a gain of function. BCAN-NTRK1 has been identified in glioblastoma multiforme (PMID: 24647444).",
+            "references": [
+                {
+                    "id": 7533,
+                    "pubMedId": 24647444,
+                    "title": "NTRK1 fusion in glioblastoma multiforme.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24647444"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 14730,
+                    "pubMedId": 29532792,
+                    "title": "Author Correction: Somatic chromosomal engineering identifies BCAN-NTRK1 as a potent glioma driver and therapeutic target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29532792"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 63827,
+        "geneSymbol": "BCAN",
+        "terms": [
+            "BCAN",
+            "BEHAB",
+            "CSPG7"
+        ]
+    },
+    "variant": "BCAN - NTRK1",
+    "createDate": "01/12/2017",
+    "updateDate": "04/10/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 4914,
+                "geneSymbol": "NTRK1",
+                "terms": [
+                    "NTRK1",
+                    "MTC",
+                    "p140-TrkA",
+                    "TRK",
+                    "Trk-A",
+                    "TRK1",
+                    "TRKA"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 10490,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Rozlytrek (entrectinib) resulted in stable disease and 60% reduction of tumor burden in a patient with glioneuronal tumor harboring BCAN-NTRK1 fusion (PMID: 28183697).",
+            "molecularProfile": {
+                "id": 27053,
+                "profileName": "BCAN - NTRK1"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3620,
+                "name": "central nervous system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8566,
+                    "pubMedId": 28183697,
+                    "title": "Safety and Antitumor Activity of the Multitargeted Pan-TRK, ROS1, and ALK Inhibitor Entrectinib: Combined Results from Two Phase I Trials (ALKA-372-001 and STARTRK-1).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28183697"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16312,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rozlytrek (entrectinib) treatment reduced viability of TP53-null mouse adult neuronal stem cells harboring BCAN-NTRK1 in culture, and improved survival and decreased tumor cell proliferation in xenograft models (PMID: 28695888).",
+            "molecularProfile": {
+                "id": 31590,
+                "profileName": "BCAN - NTRK1 TP53 del"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3620,
+                "name": "central nervous system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14433,
+                    "pubMedId": 28695888,
+                    "title": "Somatic chromosomal engineering identifies BCAN-NTRK1 as a potent glioma driver and therapeutic target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28695888"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27053,
+            "profileName": "BCAN - NTRK1",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19332,
+                    "name": "Larotrectinib",
+                    "profileName": "BCAN - NTRK1"
+                }
+            ]
+        },
+        {
+            "id": 31590,
+            "profileName": "BCAN - NTRK1 TP53 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

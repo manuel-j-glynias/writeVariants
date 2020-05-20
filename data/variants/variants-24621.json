@@ -1,0 +1,181 @@
+{
+    "id": 24621,
+    "fullName": "JAK3 Y100A",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "JAK3 Y100A lies within the FERM domain of the Jak3 protein (UniProt.org). Y100A confers a loss of function to the Jak3 protein, as demonstrated by a loss of Jak3 kinase activity in cell culture (PMID: 11741532), and the inability to bind the cytokine receptor common gamma-c chains (PMID: 10075926).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 6344,
+                    "pubMedId": 11741532,
+                    "title": "Unexpected effects of FERM domain mutations on catalytic activity of Jak3: structural implication for Janus kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11741532"
+                },
+                {
+                    "id": 3054,
+                    "pubMedId": 10075926,
+                    "title": "Autosomal SCID caused by a point mutation in the N-terminus of Jak3: mapping of the Jak3-receptor interaction domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10075926"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3718,
+        "geneSymbol": "JAK3",
+        "terms": [
+            "JAK3",
+            "JAK-3",
+            "JAK3_HUMAN",
+            "JAKL",
+            "L-JAK",
+            "LJAK"
+        ]
+    },
+    "variant": "Y100A",
+    "createDate": "07/20/2016",
+    "updateDate": "10/18/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 93695,
+        "transcript": "NM_000215",
+        "gDna": "chr19:g.17843786_17843787delTAinsGC",
+        "cDna": "c.298_299delTAinsGC",
+        "protein": "p.Y100A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7405,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NIBR3049 inhibited Jak3-Stat signaling and cell proliferation in transformed cells over expressing both JAK3 L857P and Y100A in culture (PMID: 26446793).",
+            "molecularProfile": {
+                "id": 25374,
+                "profileName": "JAK3 Y100A JAK3 L857P"
+            },
+            "therapy": {
+                "id": 2809,
+                "therapyName": "NIBR3049",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6343,
+                    "pubMedId": 26446793,
+                    "title": "Distinct Acute Lymphoblastic Leukemia (ALL)-associated Janus Kinase 3 (JAK3) Mutants Exhibit Different Cytokine-Receptor Requirements and JAK Inhibitor Specificities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26446793"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7403,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing both JAK3 L857P and JAK3 Y100A demonstrated reduced sensitivity to Jakafi (ruxolitinib) in culture (PMID: 26446793).",
+            "molecularProfile": {
+                "id": 25374,
+                "profileName": "JAK3 Y100A JAK3 L857P"
+            },
+            "therapy": {
+                "id": 907,
+                "therapyName": "Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6343,
+                    "pubMedId": 26446793,
+                    "title": "Distinct Acute Lymphoblastic Leukemia (ALL)-associated Janus Kinase 3 (JAK3) Mutants Exhibit Different Cytokine-Receptor Requirements and JAK Inhibitor Specificities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26446793"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7409,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xeljanz (tofacitinib) inhibited Jak3-Stat signaling and cell proliferation in transformed cells over expressing both JAK3 L857P and Y100A in culture (PMID: 26446793).",
+            "molecularProfile": {
+                "id": 25374,
+                "profileName": "JAK3 Y100A JAK3 L857P"
+            },
+            "therapy": {
+                "id": 941,
+                "therapyName": "Tofacitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6343,
+                    "pubMedId": 26446793,
+                    "title": "Distinct Acute Lymphoblastic Leukemia (ALL)-associated Janus Kinase 3 (JAK3) Mutants Exhibit Different Cytokine-Receptor Requirements and JAK Inhibitor Specificities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26446793"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25369,
+            "profileName": "JAK3 Y100A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25374,
+            "profileName": "JAK3 Y100A JAK3 L857P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 93695,
+            "transcript": "NM_000215",
+            "gDna": "chr19:g.17843786_17843787delTAinsGC",
+            "cDna": "c.298_299delTAinsGC",
+            "protein": "p.Y100A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

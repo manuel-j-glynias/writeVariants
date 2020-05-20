@@ -1,0 +1,177 @@
+{
+    "id": 3264,
+    "fullName": "MTOR S2215F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR S2215F lies within the PI3K/PI4K domain of the Mtor protein (UniProt.org). S2215F confers a gain of function to the Mtor protein resulting in activation of signaling and phosphorylation of downstream targets (PMID: 24631838).",
+            "references": [
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "S2215F",
+    "createDate": "02/20/2015",
+    "updateDate": "02/20/2015",
+    "referenceTranscriptCoordinates": {
+        "id": 145485,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11124516G>A",
+        "cDna": "c.6644C>T",
+        "protein": "p.S2215F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8828,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing MTOR S2215F treated with Rapamune (sirolimus) in culture demonstrated decreased phosphorylation of S6k, suggesting sensitivity (PMID: 27482884).",
+            "molecularProfile": {
+                "id": 3082,
+                "profileName": "MTOR S2215F"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6761,
+                    "pubMedId": 27482884,
+                    "title": "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27482884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8824,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing MTOR S2215F and negative for VHL in xenograft models demonstrated sensitivity to treatment with Rapamune (sirolimus), resulting in decreased tumor volume (PMID: 27482884).",
+            "molecularProfile": {
+                "id": 26459,
+                "profileName": "MTOR S2215F VHL neg"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6761,
+                    "pubMedId": 27482884,
+                    "title": "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27482884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3082,
+            "profileName": "MTOR S2215F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2846,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR S2215F"
+                },
+                {
+                    "id": 440,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR S2215F"
+                },
+                {
+                    "id": 2845,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR S2215F"
+                }
+            ]
+        },
+        {
+            "id": 26459,
+            "profileName": "MTOR S2215F VHL neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145486,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11124516G>A",
+            "cDna": "c.6644C>T",
+            "protein": "p.S2215F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145485,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11124516G>A",
+            "cDna": "c.6644C>T",
+            "protein": "p.S2215F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145487,
+            "transcript": "XM_017000900",
+            "gDna": "chr1:g.11112893G>A",
+            "cDna": "c.6644C>T",
+            "protein": "p.S2215F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

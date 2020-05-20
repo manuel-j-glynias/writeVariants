@@ -1,0 +1,3092 @@
+{
+    "id": 1425,
+    "fullName": "KRAS G13D",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS G13D is a hotspot mutation that lies within a GTP-binding region of the Kras protein (UniProt.org). G13D results in increased Kras GTP/GDP exchange and decreased Kras GTPase activity, and leads to increased activation of downstream signaling in cell culture (PMID: 23455880, PMID: 26037647).",
+            "references": [
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3052,
+                    "pubMedId": 26037647,
+                    "title": "Biochemical and Structural Analysis of Common Cancer-Associated KRAS Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26037647"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "G13D",
+    "createDate": "08/14/2014",
+    "updateDate": "10/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 157150,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25245347C>T",
+        "cDna": "c.38G>A",
+        "protein": "p.G13D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8463,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RO4987655 inhibited proliferation of colorectal adenocarcinoma cells harboring KRAS G13D in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 903,
+                "therapyName": "RO4987655",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18523,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with the combination of Gedatolisib (PF-05212384) and PD-0325901 resulted in an overall response rate of 11.1% (4/44) and clinical benefit rate of 16.3% (7/44) in patients with a variety of solid tumors, with three ovarian cancer patients harboring KRAS mutations (G12A, G12V, G13D, respectively) and one endometrial cancer patient harboring KRAS G12D achieved partial responses (PMID: 29067643; NCT01347866).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 3025,
+                "therapyName": "Gedatolisib + PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10357,
+                    "pubMedId": 29067643,
+                    "title": "A Multi-Arm Phase I Study of the PI3K/mTOR Inhibitors PF-04691502 and Gedatolisib (PF-05212384) plus Irinotecan or the MEK Inhibitor PD-0325901 in Advanced Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29067643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18139,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring KRAS G13D were resistant to Vectibix (panitumumab) in culture (PMID: 30962319).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16007,
+                    "pubMedId": 30962319,
+                    "title": "Discovery of A Novel EGFR-Targeting Antibody-Drug Conjugate, SHR-A1307, for the Treatment of Solid Tumors Resistant or Refractory to Anti-EGFR Therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30962319"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19325,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colon cancer cell line harboring KRAS G13D did not demonstrate sensitivity to MRTX849 treatment in culture (PMID: 31658955).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 7769,
+                "therapyName": "MRTX849",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16927,
+                    "pubMedId": 31658955,
+                    "title": "The KRASG12C Inhibitor MRTX849 Provides Insight toward Therapeutic Susceptibility of KRAS-Mutant Cancers in Mouse Models and Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31658955"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5519,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colon cancer cell line harboring KRAS G13D demonstrated increased sensitivity to Luminespib (AUY922) compared to cell lines with wild-type KRAS, resulting in decreased viability and increased apoptosis in culture and reduced tumor growth in xenograft models (PMID: 26832792).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 647,
+                "therapyName": "Luminespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5083,
+                    "pubMedId": 26832792,
+                    "title": "Inhibition of HSP90 by AUY922 Preferentially Kills Mutant KRAS Colon Cancer Cells by Activating Bim through ER Stress.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26832792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8493,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD-6244) inhibited proliferation of colorectal adenocarcinoma cells harboring KRAS G13D in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16007,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of colorectal cancer cell lines harboring KRAS G13D in 3D culture, and did not inhibit tumor growth in cell line xenograft models (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16009,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of cancer cell lines harboring KRAS G13D in 3D culture, and did not inhibit tumor growth in cell line xenograft models (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8480,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RO5126766 inhibited proliferation of colorectal adenocarcinoma cells harboring KRAS G13D in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 2011,
+                "therapyName": "RO5126766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8205,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Stivarga (regorafenib) synergistically inhibited proliferation of colorectal cancer cells harboring KRAS G13D in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 4657,
+                "therapyName": "Pimasertib + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18645,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of AZD8055 and Linsitinib (OSI-906) inhibited PI3K/AKT and mTOR signaling, resulted in synergistic growth inhibition in non-small cell lung cancer cells harboring KRAS G13D in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 8787,
+                "therapyName": "AZD8055 + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8190,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring KRAS G13D demonstrated decreased response to Pimasertib (MSC1936369B) in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 871,
+                "therapyName": "Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8014,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APS-2-49 and Mekinist (trametinib) worked synergistically to decrease viability of a colon cancer cell line harboring KRAS G13D in culture (PMID: 27556948).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 4620,
+                "therapyName": "APS-2-79 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6534,
+                    "pubMedId": 27556948,
+                    "title": "Small molecule stabilization of the KSR inactive state antagonizes oncogenic Ras signalling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27556948"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 684,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical studu, BKM120 alone failed to induce tumor regression in mouse xenograft models of Kras G13D mutant colorectal cancer (PMID: 24576621).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 362,
+                    "pubMedId": 24576621,
+                    "title": "Combination PI3K/MEK inhibition promotes tumor apoptosis and regression in PIK3CA wild-type, KRAS mutant colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24576621"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11326,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4785 inhibited Kras expression, resulted in growth inhibition in 3-D cultures of non-small cell lung carcinoma cells harboring KRAS G13D, and anti-tumor activity in cell line xenograft models (PMID: 28615361).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 5914,
+                "therapyName": "AZD4785",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9180,
+                    "pubMedId": 28615361,
+                    "title": "Targeting KRAS-dependent tumors with AZD4785, a high-affinity therapeutic antisense oligonucleotide inhibitor of KRAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615361"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1437,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, sensitivity to Eloxatin (oxaliplatin) was increased in colon tumor cell lines carrying KRAS G13D (PMID: 23209813).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 1104,
+                "therapyName": "Oxaliplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1282,
+                    "pubMedId": 23209813,
+                    "title": "KRAS mutation is a predictor of oxaliplatin sensitivity in colon cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23209813"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18644,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Afinitor (everolimus) and Linsitinib (OSI-906) inhibited PI3K/AKT and mTOR signaling, resulted in synergistic growth inhibition in non-small cell lung cancer cells harboring KRAS G13D in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 8785,
+                "therapyName": "Everolimus + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 805,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring the KRAS G13D mutation showed resistance to Sutent (sunitinib) treatment (PMID: 23455880).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8560,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rigosertib (ON 01910.Na) inhibited Mek/Erk signaling and tumor growth in cell line xenograft models of colorectal cancer harboring KRAS G13D (PMID: 27104980).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 1046,
+                "therapyName": "Rigosertib Sodium",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6686,
+                    "pubMedId": 27104980,
+                    "title": "A Small Molecule RAS-Mimetic Disrupts RAS Association with Effector Proteins to Block Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27104980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8195,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Afinitor (everolimus) synergistically inhibited proliferation of colorectal cancer cells harboring KRAS G13D in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 4656,
+                "therapyName": "Everolimus + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4938,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human colorectal cancer cells harboring KRAS G13D were resistant to Stivarga (regorafenib) in culture (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4952,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Erbitux (cetuximab) and Stivarga (regorafenib) inhibited growth, reduced Akt and Mapk phosphorylation, and induced apoptosis in human colorectal cancer cell lines harboring KRAS G13D in culture (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 1305,
+                "therapyName": "Cetuximab + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 574,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KRAS mutations in codon 12 or 13 were associated with resistance to Erbitux (cetuximab) in colorectal cancer patients (PMID: 18202412).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 339,
+                    "pubMedId": 18202412,
+                    "title": "KRAS mutations as an independent prognostic factor in patients with advanced colorectal cancer treated with cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18202412"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8200,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Nexavar (sorafenib) synergistically inhibited proliferation of colorectal cancer cells harboring KRAS G13D in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 1659,
+                "therapyName": "Pimasertib + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18138,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring KRAS G13D demonstrated inhibition of cell growth in culture, and dose-dependent reduction of tumor volume and remission in xenograft models following treatment with SHR-A1307 (PMID: 30962319).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 8671,
+                "therapyName": "SHR-A1307",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16007,
+                    "pubMedId": 30962319,
+                    "title": "Discovery of A Novel EGFR-Targeting Antibody-Drug Conjugate, SHR-A1307, for the Treatment of Solid Tumors Resistant or Refractory to Anti-EGFR Therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30962319"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19958,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGTI-2734 inhibited viability of pancreatic adenocarcinoma patient cells harboring KRAS G13D in culture (PMID: 31227505).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 9260,
+                "therapyName": "FGTI-2734",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4074,
+                "name": "pancreatic adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17639,
+                    "pubMedId": 31227505,
+                    "title": "Dual Farnesyl and Geranylgeranyl Transferase Inhibitor Thwarts Mutant KRAS-Driven Patient-Derived Pancreatic Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31227505"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 565,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GDC-0623 demonstrated efficacy against both KRAS-mutant and BRAF-mutant cancer models in cell based assays and cell line xenografts (PMID: 23934108).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 748,
+                "therapyName": "GDC-0623",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 187,
+                    "pubMedId": 23934108,
+                    "title": "Mechanism of MEK inhibition determines efficacy in mutant KRAS- versus BRAF-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23934108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16008,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of colorectal cancer cells harboring KRAS G13D in 3D culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7116,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring KRAS G13D were less sensitive to Nerlynx (neratinib) induced growth inhibition in culture (PMID: 26243863).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6069,
+                    "pubMedId": 26243863,
+                    "title": "HER2 activating mutations are targets for colorectal cancer treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26243863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17374,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3214996 and LY3009120 synergistically inhibited phosphorylation of Erk, Rb, S6, and H3, resulted in enhanced cell death in colorectal cancer cells harboring KRAS G13D in culture, and 94% tumor growth inhibition in cell line xenograft models (AACR Annual Meeting 2019, Abstract LB-083).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 8468,
+                "therapyName": "LY3009120 + LY3214996",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15395,
+                    "pubMedId": null,
+                    "title": "Combination of an ERK1/2 inhibitor (LY3214996) with pan-RAF inhibitor enhances anti-tumor activity in KRAS mutant colorectal cancer (CRC) and non-small cell lung cancer (NSCLC)",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/9241"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18653,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, addition of low dose Mekinist (trametinib) to AZD8055 and Linsitinib (OSI-906) combination treatment enhanced growth inhibition by 75% or more in non-small cell lung cancer cells harboring KRAS G13D in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 8788,
+                "therapyName": "AZD8055 + Linsitinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1342,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cobimetinib (GDC-0973) inhibited tumor growth in xenograft models of human colorectal cancer cell lines harboring KRAS G13D (PMID: 23934108).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 187,
+                    "pubMedId": 23934108,
+                    "title": "Mechanism of MEK inhibition determines efficacy in mutant KRAS- versus BRAF-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23934108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6590,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3009120 inhibited growth of, and blocked MAPK signaling in human colorectal cancer cells harboring KRAS G13D in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5615,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) and Ibrance (palbociclib) synergistically inhibited growth of colorectal cancer cells harboring KRAS G13D in culture and resulted in partial tumor regression in patient-derived xenograft models (PMID: 26369631).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 1368,
+                "therapyName": "Palbociclib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5128,
+                    "pubMedId": 26369631,
+                    "title": "Sensitivity of KRAS-Mutant Colorectal Cancers to Combination Therapy That Cotargets MEK and CDK4/6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26369631"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10840,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, 3144 inhibited growth of a breast cancer cell line harboring KRAS G13D in culture and reduced tumor growth in xenograft models (PMID: 28235199).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 5658,
+                "therapyName": "3144",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8866,
+                    "pubMedId": 28235199,
+                    "title": "Multivalent Small-Molecule Pan-RAS Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28235199"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14048,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RAF709 inhibited Erk signaling and proliferation of colorectal cancer cells harboring KRAS G13D in culture (PMID: 29343524).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 6995,
+                "therapyName": "RAF709",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11434,
+                    "pubMedId": 29343524,
+                    "title": "Antitumor Properties of RAF709, a Highly Selective and Potent Inhibitor of RAF Kinase Dimers, in Tumors Driven by Mutant RAS or BRAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29343524"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18649,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, addition of low dose Mekinist (trametinib) to Afinitor (everolimus) and Linsitinib (OSI-906) combination treatment enhanced growth inhibition by 75% or more in non-small cell lung cancer cells harboring KRAS G13D in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 811,
+                "profileName": "KRAS G13D"
+            },
+            "therapy": {
+                "id": 8786,
+                "therapyName": "Everolimus + Linsitinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12024,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) decreased viability of a colorectal cancer cell line harboring KRAS G13D and PIK3CA H1047R in culture (PMID: 27602501).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9976,
+                    "pubMedId": 27602501,
+                    "title": "Specific inhibition of p110\u03b1 subunit of PI3K: putative therapeutic strategy for KRAS mutant colorectal cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27602501"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3010,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CUDC-907 induced caspase activation in a human colon cancer cell line harboring KRAS G13D and PIK3CA H1047R in culture (PMID: 20570890, PMID: 22693356).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 709,
+                "therapyName": "CUDC-907",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 843,
+                    "pubMedId": 20570890,
+                    "title": "Genomic and biological characterization of exon 4 KRAS mutations in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20570890"
+                },
+                {
+                    "id": 1018,
+                    "pubMedId": 22693356,
+                    "title": "Cancer network disruption by a single molecule inhibitor targeting both histone deacetylase activity and phosphatidylinositol 3-kinase signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22693356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3901,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) and Camptostar (irinotecan) synergistically suppressed the growth of a human colon cancer cell line harboring KRAS G13D and PIK3CA H1047R (PMID: 24042735) in xenograft models (PMID: 21325073).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 3396,
+                "therapyName": "Gedatolisib + Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3639,
+                    "pubMedId": 24042735,
+                    "title": "Epigenetic and genetic features of 24 colon cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24042735"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2856,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Gedatolisib (PF-05212384) and PD-0325901 inhibited tumor growth in colon cancer cell line xenograft models harboring KRAS G13D and PIK3CA H1047R (PMID: 21325073).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 3025,
+                "therapyName": "Gedatolisib + PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2876,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CC-223 inhibited proliferation of HCT-116 colon cancer cells, which have been reported to harbor KRAS G13D and PIK3CA H1047R mutations, in culture (PMID: 25855786, PMID: 24978597).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 693,
+                "therapyName": "CC-223",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 962,
+                    "pubMedId": 24978597,
+                    "title": "Discovery of novel AKT inhibitors with enhanced anti-tumor effects in combination with the MEK inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24978597"
+                },
+                {
+                    "id": 3513,
+                    "pubMedId": 25855786,
+                    "title": "CC-223, a Potent and Selective Inhibitor of mTOR Kinase: In Vitro and In Vivo Characterization.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25855786"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4942,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human colorectal cancer cells harboring KRAS G13D and PIK3CA H1047R were resistant to Stivarga (regorafenib) in culture (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3902,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Camptostar (irinotecan) suppressed the growth of a human colon cancer cell line harboring KRAS G13D and PIK3CA H1047R in xenograft models (PMID: 21325073, PMID: 16707468).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 1074,
+                "therapyName": "Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 4272,
+                    "pubMedId": 16707468,
+                    "title": "KRAS(D13) Promotes apoptosis of human colorectal tumor cells by ReovirusT3D and oxaliplatin but not by tumor necrosis factor-related apoptosis-inducing ligand.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16707468"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2836,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH5132799 inhibited tumor growth in xenograft models of a human colon cancer cell line harboring KRAS G13D and PIK3CA H1047R mutations (PMID: 21558396).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 2152,
+                "therapyName": "CH5132799",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1985,
+                    "pubMedId": 21558396,
+                    "title": "The selective class I PI3K inhibitor CH5132799 targets human cancers harboring oncogenic PIK3CA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21558396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3131,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) inhibited growth of human colon cancer cells harboring KRAS G13D and PIK3CA H1047R in culture (PMID: 21325073).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2859,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AT-7867 inhibited proliferation of cultured HCT-116 colon cancer cells, which have been reported to harbor KRAS G13D and PIK3CA H1047R mutations (PMID: 20423992, PMID: 24978597).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 2447,
+                "therapyName": "AT-7867",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 962,
+                    "pubMedId": 24978597,
+                    "title": "Discovery of novel AKT inhibitors with enhanced anti-tumor effects in combination with the MEK inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24978597"
+                },
+                {
+                    "id": 2290,
+                    "pubMedId": 20423992,
+                    "title": "AT7867 is a potent and oral inhibitor of AKT and p70 S6 kinase that induces pharmacodynamic changes and inhibits human tumor xenograft growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20423992"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3903,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) and Camptothecin in combination synergistically enhanced Parp cleavage in a human colon cancer cell line harboring KRAS G13D and PIK3CA H1047R in culture (PMID: 21325073).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 3398,
+                "therapyName": "Camptothecin + Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4947,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Erbitux (cetuximab) and Stivarga (regorafenib) inhibited growth, reduced Akt and Mapk phosphorylation, and induced apoptosis of human colorectal cancer cell lines harboring KRAS G13D and PIK3CA H1047R in culture, and reduced tumor growth in cell line xenograft models (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 10711,
+                "profileName": "KRAS G13D PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 1305,
+                "therapyName": "Cetuximab + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2854,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Pictilisib (GDC-0941) and Cobimetinib (GDC-0973) inhibited tumor growth in a colorectal adenocarcinoma xenograft model harboring KRAS G13D and PIK3CA E545K mutations, and demonstrated improved efficacy over either agent alone (PMID: 22084396).",
+            "molecularProfile": {
+                "id": 10712,
+                "profileName": "KRAS G13D PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 1702,
+                "therapyName": "Cobimetinib + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 353,
+                    "pubMedId": 22084396,
+                    "title": "Intermittent administration of MEK inhibitor GDC-0973 plus PI3K inhibitor GDC-0941 triggers robust apoptosis and tumor growth inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22084396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9329,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of KRAS G13D in an endometrial cancer cell line harboring PIK3CA E545K conferred resistance to Afinitor (everolimus) in xenograft models (PMID: 20664172).",
+            "molecularProfile": {
+                "id": 10712,
+                "profileName": "KRAS G13D PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1067,
+                    "pubMedId": 20664172,
+                    "title": "Deregulation of the PI3K and KRAS signaling pathways in human cancer cells determines their response to everolimus.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20664172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10363,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DHM25 increased cell death and decreased migration of a triple-negative breast cancer cell line harboring KRAS G13D and BRAF G464V in culture, and reduced tumor growth and lung metastasis in xenograft models (PMID: 26237138).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 5494,
+                "therapyName": "DHM25",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8367,
+                    "pubMedId": 26237138,
+                    "title": "A Novel Covalent mTOR Inhibitor, DHM25, Shows in Vivo Antitumor Activity against Triple-Negative Breast Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26237138"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15520,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Braftovi (encorafenib) to treatment with Mekinist (trametinib) resulted in increased growth inhibition in a breast cancer cell line harboring BRAF G464V and KRAS G13D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 7661,
+                "therapyName": "Encorafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3129,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) inhibited growth of human breast cancer cells harboring BRAF G464V and KRAS G13D in culture (PMID: 21325073, PMID: 17314276).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3636,
+                    "pubMedId": 17314276,
+                    "title": "Phosphatidylinositol-3-OH kinase or RAS pathway mutations in human breast cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17314276"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15545,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Zelboraf (vemurafenib) to treatment with Mekinist (trametinib) resulted in increased proliferation compared to Mekinist (trametinib) alone in a breast cancer cell line harboring BRAF G464V and KRAS G13D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 4234,
+                "therapyName": "Trametinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15565,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) treatment did not result in significant growth inhibition in a breast cancer cell line harboring BRAF G464V and KRAS G13D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2973,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH5132799 demonstrated decreased response to tumor growth inhibition in xenograft models of human breast cancer cell lines harboring KRAS G13D and BRAF G464V (PMID: 21558396).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 2152,
+                "therapyName": "CH5132799",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 1985,
+                    "pubMedId": 21558396,
+                    "title": "The selective class I PI3K inhibitor CH5132799 targets human cancers harboring oncogenic PIK3CA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21558396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1075,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Stivarga (regorafenib) inhibited proliferation of breast cancer cells harboring BRAF G464V and KRAS G13D in culture and inhibited angiogenesis and tumor growth in cell line xenograft models (PMID: 21170960).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 318,
+                    "pubMedId": 21170960,
+                    "title": "Regorafenib (BAY 73-4506): a new oral multikinase inhibitor of angiogenic, stromal and oncogenic receptor tyrosine kinases with potent preclinical antitumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21170960"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5467,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY5 and Mekinist (trametinib) synergistically inhibited growth of Stat3-positive colorectal cancer cells harboring KRAS G13D in culture (PMID: 25961376).",
+            "molecularProfile": {
+                "id": 20931,
+                "profileName": "KRAS G13D STAT3 pos"
+            },
+            "therapy": {
+                "id": 3863,
+                "therapyName": "LY5 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5070,
+                    "pubMedId": 25961376,
+                    "title": "Rational combination of MEK inhibitor and the STAT3 pathway modulator for the therapy in K-Ras mutated pancreatic and colon cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25961376"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6201,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a colorectal adenocarcinoma patient harboring a STRN-ALK fusion demonstrated initial benefit with Zykadia (ceritinib) treatment, but became resistant after 9 months following the appearance of a KRAS G13D mutation (PMID: 26933125).",
+            "molecularProfile": {
+                "id": 22831,
+                "profileName": "STRN - ALK KRAS G13D"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5443,
+                    "pubMedId": 26933125,
+                    "title": "Oncogenic ALK Fusion in Rare and Aggressive Subtype of Colorectal Adenocarcinoma as a Potential Therapeutic Target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26933125"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7668,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Tafinlar (dabrafenib) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 4525,
+                "therapyName": "Cetuximab + Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7676,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Tafinlar (dabrafenib) and Mekinist (trametinib) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7673,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Zelboraf (vemurafenib) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 1711,
+                "therapyName": "Cetuximab + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7678,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to SCH772984 in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 2618,
+                "therapyName": "SCH772984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7677,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab), Tafinlar (dabrafenib), and Mekinist (trametinib) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 4541,
+                "therapyName": "Cetuximab + Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7679,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and SCH772984 in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 4543,
+                "therapyName": "Cetuximab + SCH772984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7674,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab), Encorafenib (LGX818), and Alpelisib (BYL719) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 1917,
+                "therapyName": "Alpelisib + Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7622,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E developed sustained activation of Mapk signaling and resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment in culture, likely due to the acquisition of KRAS G13D (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 1916,
+                "therapyName": "Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7675,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring BRAF V600E that acquired a KRAS G13D mutation and subsequent resistance to Erbitux (cetuximab) and Encorafenib (LGX818) combination treatment were resistant to combination therapy consisting of Erbitux (cetuximab) and Selumetinib (AZD6244) in culture (PMID: 27312529).",
+            "molecularProfile": {
+                "id": 25923,
+                "profileName": "BRAF V600E KRAS G13D"
+            },
+            "therapy": {
+                "id": 4536,
+                "therapyName": "Cetuximab + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6445,
+                    "pubMedId": 27312529,
+                    "title": "Molecular Landscape of Acquired Resistance to Targeted Therapy Combinations in BRAF-Mutant Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7883,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GDC0879 failed to inhibit growth of BRAF wild-type colon cancer cells harboring KRAS G13D in culture ann in cell line xenograft models (PMID: 19276360).",
+            "molecularProfile": {
+                "id": 26083,
+                "profileName": "BRAF wild-type KRAS G13D"
+            },
+            "therapy": {
+                "id": 1095,
+                "therapyName": "GDC0879",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6516,
+                    "pubMedId": 19276360,
+                    "title": "Antitumor efficacy of the novel RAF inhibitor GDC-0879 is predicted by BRAFV600E mutational status and sustained extracellular signal-regulated kinase/mitogen-activated protein kinase pathway suppression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19276360"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4946,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Erbitux (cetuximab) and Stivarga (regorafenib) inhibited growth, reduced Akt and Mapk phosphorylation, and induced apoptosis of human colorectal cancer cell lines harboring KRAS G13D, PIK3CA E545K, and PIK3CA D549N in culture and reduced tumor growth in cell line xenograft models (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1305,
+                "therapyName": "Cetuximab + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8208,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and BEZ235 combination treatment inhibited tumor growth in colorectal cancer cell line xenograft models harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1660,
+                "therapyName": "BEZ235 + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8197,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Afinitor (everolimus) synergistically inhibited proliferation of colorectal cancer cells harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 4656,
+                "therapyName": "Everolimus + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8207,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Stivarga (regorafenib) synergistically inhibited proliferation of colorectal cancer cells harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 4657,
+                "therapyName": "Pimasertib + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3132,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human colon cancer cells harboring KRAS G13D, PIK3CA E545K, and PIK3CA D549N had a decreased response to Gedatolisib (PKI-587) in culture (PMID: 21325073, PMID: 24042735).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3639,
+                    "pubMedId": 24042735,
+                    "title": "Epigenetic and genetic features of 24 colon cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24042735"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4943,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human colorectal cancer cell lines harboring KRAS G13D, PIK3CA E545K and PIK3CA D549N were resistant to Stivarga (regorafenib) in culture (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8201,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Nexavar (sorafenib) synergistically inhibited Mapk and Akt signaling, resulted in growth inhibition of colorectal cancer cells harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K in culture and in cell line xenograft models (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1659,
+                "therapyName": "Pimasertib + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8192,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring KRAS G13D, PIK3CA D549N and PIK3CA E545K demonstrated decreased response to Pimasertib (MSC1936369B) in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 871,
+                "therapyName": "Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8564,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 synergistically inhibited Erk and PI3K signaling and proliferation, but did not induce apoptosis in colorectal cancer cells harboring KRAS G13D, PIK3CA E545K, and TP53 S241F in culture (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26357,
+                "profileName": "KRAS G13D PIK3CA E545K TP53 S241F"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8567,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 synergistically inhibited Erk and PI3K signaling and proliferation, induced apoptosis in TP53-wild-type colorectal cancer cells harboring KRAS G13D and PIK3CA H1047R in culture and in cell line xenograft models (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26360,
+                "profileName": "KRAS G13D PIK3CA H1047R TP53 wild-type"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20317,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination treatment of JQ1 and Mekinist (trametinib) resulted in a response greater than either therapy alone in colorectal cancer cells expressing Myc and harboring KRAS G13D, demonstrating decreased cell viability (PMID: 27678457).",
+            "molecularProfile": {
+                "id": 27727,
+                "profileName": "KRAS G13D MYC pos"
+            },
+            "therapy": {
+                "id": 5582,
+                "therapyName": "JQ1 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8742,
+                    "pubMedId": 27678457,
+                    "title": "The MAPK Pathway Regulates Intrinsic Resistance to BET Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27678457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13083,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study (AMNESIA-1), assessment of pre-treatment tumor samples from ERBB2 (HER2)-positive gastric or gastroesophageal cancer patients (defined as HER2 IHC 3+ or HER2 IHC 2+/ISH+) identified KRAS G13D in 1 patient demonstrating primary resistance to Herceptin (trastuzumab) (PMID: 29208673).",
+            "molecularProfile": {
+                "id": 28999,
+                "profileName": "ERBB2 over exp KRAS G13D"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10846,
+                    "pubMedId": 29208673,
+                    "title": "Biomarkers of Primary Resistance to Trastuzumab in HER2-Positive Metastatic Gastric Cancer Patients: the AMNESIA Case-Control Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29208673"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14587,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung carcinoma patient harboring EML4-ALK eventually progressed while on treatment with Xalkori (crizotinib) and was subsequently found to harbor a presumed resistance mutation, KRAS G13D (PMID: 29636358).",
+            "molecularProfile": {
+                "id": 30254,
+                "profileName": "EML4 - ALK KRAS G13D"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11739,
+                    "pubMedId": 29636358,
+                    "title": "Resistance Mechanisms to Targeted Therapies in ROS1+ and ALK+ Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29636358"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17279,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Navitoclax (ABT-263) and YM-155 synergistically inhibited growth of colorectal cancer patient-derived xenografts with BCL2L1 amp (3 copies) and KRAS G13D (PMID: 28611106).",
+            "molecularProfile": {
+                "id": 32466,
+                "profileName": "BCL2L1 amp KRAS G13D"
+            },
+            "therapy": {
+                "id": 8445,
+                "therapyName": "Navitoclax + YM155",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15327,
+                    "pubMedId": 28611106,
+                    "title": "A Novel Combination Treatment Targeting BCL-XL and MCL1 for KRAS/BRAF-mutated and BCL2L1-amplified Colorectal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28611106"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17336,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NRAS-mutant melanoma cell lines expressing KRAS G13D were resistant to the combination treatment of Mekinist (trametinib) and Ibrance (palbociclib) in culture (PMID: 30819666).",
+            "molecularProfile": {
+                "id": 32505,
+                "profileName": "KRAS G13D NRAS mut"
+            },
+            "therapy": {
+                "id": 1368,
+                "therapyName": "Palbociclib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15157,
+                    "pubMedId": 30819666,
+                    "title": "A Functional Landscape of Resistance to MEK1/2 and CDK4/6 Inhibition in NRAS-Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30819666"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17337,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NRAS-mutant melanoma cells expressing KRAS G13D demonstrated a decreased response to treatment with Ibrance (palbociclib) in culture when compared to control (PMID: 30819666).",
+            "molecularProfile": {
+                "id": 32505,
+                "profileName": "KRAS G13D NRAS mut"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15157,
+                    "pubMedId": 30819666,
+                    "title": "A Functional Landscape of Resistance to MEK1/2 and CDK4/6 Inhibition in NRAS-Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30819666"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17335,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, four of four NRAS-mutant melanoma cell lines expressing KRAS G13D were resistant to treatment with Mekinist (trametinib) in culture (PMID: 30819666).",
+            "molecularProfile": {
+                "id": 32505,
+                "profileName": "KRAS G13D NRAS mut"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15157,
+                    "pubMedId": 30819666,
+                    "title": "A Functional Landscape of Resistance to MEK1/2 and CDK4/6 Inhibition in NRAS-Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30819666"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19757,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (METROS), Xalkori (crizotinib) treatment resulted in a partial response in a patient with pre-treated non-small cell lung cancer harboring MET amplification and KRAS G13D (PMID: 31416808; NCT02499614).",
+            "molecularProfile": {
+                "id": 34500,
+                "profileName": "KRAS G13D MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17527,
+                    "pubMedId": 31416808,
+                    "title": "Crizotinib in MET-Deregulated or ROS1-Rearranged Pretreated Non-Small Cell Lung Cancer (METROS): A Phase II, Prospective, Multicenter, Two-Arms Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31416808"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20474,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a colon cancer patient harboring KRAS G13D and TP53 C242fs demonstrated a partial response with a 30% decrease in lesions by RECIST when treated with the combination therapy of Kineret (anakinra), Avastin (bevacizumab), Mekinist (trametinib), Eloxatin (oxaliplatin), and Adrucil (fluorouracil) (PMID: 31782524).",
+            "molecularProfile": {
+                "id": 35185,
+                "profileName": "KRAS G13D TP53 C242fs"
+            },
+            "therapy": {
+                "id": 9365,
+                "therapyName": "Anakinra + Bevacizumab + Fluorouracil + Oxaliplatin + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17853,
+                    "pubMedId": 31782524,
+                    "title": "Prognostic implications of RAS alterations in diverse malignancies and impact of targeted therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31782524"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 811,
+            "profileName": "KRAS G13D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 15769,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "KRAS G13D"
+                },
+                {
+                    "id": 15767,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "KRAS G13D"
+                },
+                {
+                    "id": 15766,
+                    "name": "AZD4785",
+                    "profileName": "KRAS G13D"
+                },
+                {
+                    "id": 15765,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "KRAS G13D"
+                },
+                {
+                    "id": 15768,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "KRAS G13D"
+                },
+                {
+                    "id": 15770,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "KRAS G13D"
+                },
+                {
+                    "id": 15764,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "KRAS G13D"
+                }
+            ]
+        },
+        {
+            "id": 10711,
+            "profileName": "KRAS G13D PIK3CA H1047R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10712,
+            "profileName": "KRAS G13D PIK3CA E545K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10754,
+            "profileName": "BRAF G464V KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20931,
+            "profileName": "KRAS G13D STAT3 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22831,
+            "profileName": "STRN - ALK KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25923,
+            "profileName": "BRAF V600E KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26083,
+            "profileName": "BRAF wild-type KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26186,
+            "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26357,
+            "profileName": "KRAS G13D PIK3CA E545K TP53 S241F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26360,
+            "profileName": "KRAS G13D PIK3CA H1047R TP53 wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27727,
+            "profileName": "KRAS G13D MYC pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28956,
+            "profileName": "ERBB2 pos KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28999,
+            "profileName": "ERBB2 over exp KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30254,
+            "profileName": "EML4 - ALK KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32466,
+            "profileName": "BCL2L1 amp KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32505,
+            "profileName": "KRAS G13D NRAS mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34500,
+            "profileName": "KRAS G13D MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35185,
+            "profileName": "KRAS G13D TP53 C242fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157149,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25245347C>T",
+            "cDna": "c.38G>A",
+            "protein": "p.G13D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157152,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25245347C>T",
+            "cDna": "c.38G>A",
+            "protein": "p.G13D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157153,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25245347C>T",
+            "cDna": "c.38G>A",
+            "protein": "p.G13D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157150,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25245347C>T",
+            "cDna": "c.38G>A",
+            "protein": "p.G13D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157151,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25245347C>T",
+            "cDna": "c.38G>A",
+            "protein": "p.G13D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

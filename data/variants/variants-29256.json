@@ -1,0 +1,214 @@
+{
+    "id": 29256,
+    "fullName": "PCBP2 - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PCBP2-BRAF results from the fusion of PCBP2 and BRAF (PMID: 30257958), and has not been biochemically characterized, however, due to the effects of other BRAF fusions that result in loss of the BRAF CR1 domain and retention of the protein kinase domain (PMID: 23890088, PMID: 12781369), is predicted to result in a gain of function. PCBP2-BRAF has been identified in non-small cell lung cancer (PMID: 30257958).",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                },
+                {
+                    "id": 3413,
+                    "pubMedId": 23890088,
+                    "title": "Recurrent BRAF kinase fusions in melanocytic tumors offer an opportunity for targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23890088"
+                },
+                {
+                    "id": 14743,
+                    "pubMedId": 12781369,
+                    "title": "Raf proteins and cancer: B-Raf is identified as a mutational target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12781369"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5094,
+        "geneSymbol": "PCBP2",
+        "terms": [
+            "PCBP2",
+            "hnRNP-E2",
+            "HNRNPE2",
+            "HNRPE2"
+        ]
+    },
+    "variant": "PCBP2 - BRAF",
+    "createDate": "01/28/2019",
+    "updateDate": "10/17/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15844,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient-derived non-small cell lung carcinoma cell line harboring an EGFR exon 19 deletion, and a PCBP2-BRAF fusion was sensitive to Mekinist (trametinib) treatment in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31501,
+                "profileName": "PCBP2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15839,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion and an EGFR T790M mutation, treated with Tagrisso (osimertinib), was found to have lost the EGFR T790M mutation and acquired a PCBP2-BRAF fusion in liver metastases, and subsequently progressed (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31501,
+                "profileName": "PCBP2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15841,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient-derived non-small cell lung carcinoma cell line harboring an EGFR exon 19 deletion and a PCBP2-BRAF fusion was resistant to Tafinlar (dabrafenib) in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31501,
+                "profileName": "PCBP2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15842,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient-derived non-small cell lung carcinoma cell line harboring an EGFR exon 19 deletion, and a PCBP2-BRAF fusion was resistant to LXH254 treatment in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31501,
+                "profileName": "PCBP2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 4442,
+                "therapyName": "LXH 254",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31238,
+            "profileName": "PCBP2 - BRAF",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31253,
+            "profileName": "PCBP2 - BRAF EGFR exon 19 del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31501,
+            "profileName": "PCBP2 - BRAF EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

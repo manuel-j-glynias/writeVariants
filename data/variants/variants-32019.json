@@ -1,0 +1,168 @@
+{
+    "id": 32019,
+    "fullName": "PALB2 R37H",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PALB2 R37H lies within the DNA-binding, and BRCA1 and RAD51-interacting regions of the Palb2 protein (UniProt.org). R37H has been reported to result in decreased Brca1 binding and recruitment to DNA damage sites (PMID: 31757951), but in other studies demonstrates Brca1 binding and recruitment to DNA damage sites similar to wild-type Palb2 (PMID: 28319063, PMID: 31586400), however, R37H also results in reduced Rad51 foci formation and intensity (PMID: 31586400), and impaired homology-directed DNA repair activity compared to wild-type Palb2 in cultured cells (PMID: 28319063, PMID: 31586400, PMID: 31757951), and therefore, is predicted to lead to a loss of Palb2 protein function.",
+            "references": [
+                {
+                    "id": 17535,
+                    "pubMedId": 31757951,
+                    "title": "Functional analysis of genetic variants in the high-risk breast cancer susceptibility gene PALB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31757951"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 17539,
+                    "pubMedId": 28319063,
+                    "title": "Compromised BRCA1-PALB2 interaction is associated with breast cancer risk.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28319063"
+                },
+                {
+                    "id": 17558,
+                    "pubMedId": 31586400,
+                    "title": "A global functional analysis of missense mutations reveals two major hotspots in the PALB2 tumor suppressor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31586400"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 79728,
+        "geneSymbol": "PALB2",
+        "terms": [
+            "PALB2",
+            "FANCN",
+            "PNCA3"
+        ]
+    },
+    "variant": "R37H",
+    "createDate": "01/10/2020",
+    "updateDate": "01/28/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 186422,
+        "transcript": "NM_024675",
+        "gDna": "chr16:g.23637951C>T",
+        "cDna": "c.110G>A",
+        "protein": "p.R37H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20281,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, osteosarcoma cells expressing PALB2 R37H were sensitive to treatment with Lynparza (olaparib), demonstrating decreased cell growth in culture (PMID: 31586400).",
+            "molecularProfile": {
+                "id": 34480,
+                "profileName": "PALB2 R37H"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3347,
+                "name": "osteosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17558,
+                    "pubMedId": 31586400,
+                    "title": "A global functional analysis of missense mutations reveals two major hotspots in the PALB2 tumor suppressor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31586400"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20282,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing PALB2 R37H were sensitive to treatment with Lynparza (olaparib), demonstrating decreased cell growth in culture (PMID: 31586400).",
+            "molecularProfile": {
+                "id": 34480,
+                "profileName": "PALB2 R37H"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17558,
+                    "pubMedId": 31586400,
+                    "title": "A global functional analysis of missense mutations reveals two major hotspots in the PALB2 tumor suppressor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31586400"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 34480,
+            "profileName": "PALB2 R37H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19922,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "PALB2 R37H"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 186420,
+            "transcript": "XM_017023672",
+            "gDna": "chr16:g.23637951C>T",
+            "cDna": "c.110G>A",
+            "protein": "p.R37H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 186422,
+            "transcript": "NM_024675",
+            "gDna": "chr16:g.23637951C>T",
+            "cDna": "c.110G>A",
+            "protein": "p.R37H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 186421,
+            "transcript": "XM_017023673",
+            "gDna": "chr16:g.23637951C>T",
+            "cDna": "c.110G>A",
+            "protein": "p.R37H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

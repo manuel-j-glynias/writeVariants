@@ -1,0 +1,150 @@
+{
+    "id": 30546,
+    "fullName": "EGFR L747_S752delinsQH",
+    "impact": "indel",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR L747_S752delinsQH results in a deletion of six amino acids in the protein kinase domain of the EGFR protein from aa 747 to aa 752, combined with the insertion of two amino acids at the same site (UniProt.org). L747_S752delinsQH has not been biochemically characterized, but is predicted to result in a gain of function based on the effect of other EGFR exon 19 deletion and deletion-insertion mutations (PMID: 19147750, PMID: 22190593, PMID: 23387505).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 439,
+                    "pubMedId": 22190593,
+                    "title": "EGFR exon 19 insertions: a new family of sensitizing EGFR mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22190593"
+                },
+                {
+                    "id": 1890,
+                    "pubMedId": 19147750,
+                    "title": "Functional analysis of epidermal growth factor receptor (EGFR) mutations and potential implications for EGFR targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19147750"
+                },
+                {
+                    "id": 441,
+                    "pubMedId": 23387505,
+                    "title": "Sensitivity and kinase activity of epidermal growth factor receptor (EGFR) exon 19 and others to EGFR-tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23387505"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "L747_S752delinsQH",
+    "createDate": "07/22/2019",
+    "updateDate": "07/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 181231,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174776_55174793delinsCAACAT",
+        "cDna": "c.2239_2256delinsCAACAT",
+        "protein": "p.L747_S752delinsQH",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17721,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung cancer co-harboring EGFR L747_S752delinsQH and EGFR T790M demonstrated a partial response when treated with Tarceva (erlotinib) (PMID: 31043566).",
+            "molecularProfile": {
+                "id": 32752,
+                "profileName": "EGFR L747_S752delinsQH EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15696,
+                    "pubMedId": 31043566,
+                    "title": "Molecular dynamics simulation-guided drug sensitivity prediction for lung cancer with rare EGFR mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31043566"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32751,
+            "profileName": "EGFR L747_S752delinsQH",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19650,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR L747_S752delinsQH"
+                },
+                {
+                    "id": 19651,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR L747_S752delinsQH"
+                },
+                {
+                    "id": 19653,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR L747_S752delinsQH"
+                },
+                {
+                    "id": 19649,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR L747_S752delinsQH"
+                },
+                {
+                    "id": 19652,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR L747_S752delinsQH"
+                }
+            ]
+        },
+        {
+            "id": 32752,
+            "profileName": "EGFR L747_S752delinsQH EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 181231,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174776_55174793delinsCAACAT",
+            "cDna": "c.2239_2256delinsCAACAT",
+            "protein": "p.L747_S752delinsQH",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

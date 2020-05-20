@@ -1,0 +1,235 @@
+{
+    "id": 19455,
+    "fullName": "SMO E518K",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "SMO E518K lies within an extracellular domain of the Smo protein (UniProt.org). E518K has been described as a resistance mutation (PMID: 21123452), but has not been biochemically characterized and therefore, its effect on Smo protein function is unknown (PubMed, Apr 2020).",
+            "references": [
+                {
+                    "id": 6139,
+                    "pubMedId": 21123452,
+                    "title": "Small molecule inhibition of GDC-0449 refractory smoothened mutants and downstream mechanisms of drug resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21123452"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6608,
+        "geneSymbol": "SMO",
+        "terms": [
+            "SMO",
+            "CRJS",
+            "FZD11",
+            "Gx",
+            "SMOH"
+        ]
+    },
+    "variant": "E518K",
+    "createDate": "03/11/2016",
+    "updateDate": "04/02/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 123181,
+        "transcript": "NM_005631",
+        "gDna": "chr7:g.129210448G>A",
+        "cDna": "c.1552G>A",
+        "protein": "p.E518K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5020,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human cells expressing SMO E518K displayed reduced binding to MRT-92 (PMID: 25636740).",
+            "molecularProfile": {
+                "id": 19866,
+                "profileName": "SMO E518K"
+            },
+            "therapy": {
+                "id": 2418,
+                "therapyName": "MRT-92",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 2240,
+                    "pubMedId": 25636740,
+                    "title": "MRT-92 inhibits Hedgehog signaling by blocking overlapping binding sites in the transmembrane domain of the Smoothened receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25636740"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6334,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Posaconazole and Trisenox (Arsenic trioxide) demonstrated enhanced inhibition of Hedghog signaling in mouse fibroblasts over expressing murine SMO E522K (corresponding to human SMO E518K) in culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 19866,
+                "profileName": "SMO E518K"
+            },
+            "therapy": {
+                "id": 4117,
+                "therapyName": "Arsenic trioxide + Posaconazole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6308,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed mouse fibroblast cells over expressing murine SMO E522K (corresponding to human SMO E518K) were resistant to Erivedge (vismodegib) induced Hedgehog pathway inhibition in cell culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 19866,
+                "profileName": "SMO E518K"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6316,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed mouse fibroblast cells over expressing murine SMO E522K (corresponding to human SMO E518K) demonstrated decreased response to Odomzo (sonidegib) induced Hedgehog pathway inhibition in cell culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 19866,
+                "profileName": "SMO E518K"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6326,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Posaconazole inhibited Hedghog signaling in mouse fibroblasts over expressing murine SMO E522K (corresponding to human SMO E518K) in culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 19866,
+                "profileName": "SMO E518K"
+            },
+            "therapy": {
+                "id": 4108,
+                "therapyName": "Posaconazole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 19866,
+            "profileName": "SMO E518K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 123181,
+            "transcript": "NM_005631",
+            "gDna": "chr7:g.129210448G>A",
+            "cDna": "c.1552G>A",
+            "protein": "p.E518K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

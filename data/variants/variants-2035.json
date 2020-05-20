@@ -1,0 +1,211 @@
+{
+    "id": 2035,
+    "fullName": "SMO D473H",
+    "impact": "missense",
+    "proteinEffect": "no effect - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "SMO D473H lies within the ligand-binding pocket of the Smo protein (PMID: 25759020). D473H shows similar activity to wild-type Smo in cell culture, and therefore, is predicted to have no effect on Smo protein function, but has been demonstrated to confer resistance to Hedgehog pathway inhibitors (PMID: 19726788, PMID: 29175550).",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                },
+                {
+                    "id": 885,
+                    "pubMedId": 19726788,
+                    "title": "Smoothened mutation confers resistance to a Hedgehog pathway inhibitor in medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19726788"
+                },
+                {
+                    "id": 12486,
+                    "pubMedId": 29175550,
+                    "title": "Molecular modeling study on resistance of WT/D473H SMO to antagonists LDE-225 and LEQ-506.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29175550"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6608,
+        "geneSymbol": "SMO",
+        "terms": [
+            "SMO",
+            "CRJS",
+            "FZD11",
+            "Gx",
+            "SMOH"
+        ]
+    },
+    "variant": "D473H",
+    "createDate": "10/02/2014",
+    "updateDate": "09/24/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 123175,
+        "transcript": "NM_005631",
+        "gDna": "chr7:g.129209348G>C",
+        "cDna": "c.1417G>C",
+        "protein": "p.D473H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6074,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-441 inhibited Gli-reporter activation in cells transfected with SMO D473H in culture (PMID: 24291104).",
+            "molecularProfile": {
+                "id": 1973,
+                "profileName": "SMO D473H"
+            },
+            "therapy": {
+                "id": 2425,
+                "therapyName": "TAK-441",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5273,
+                    "pubMedId": 24291104,
+                    "title": "Inhibition mechanism exploration of investigational drug TAK-441 as inhibitor against Vismodegib-resistant Smoothened mutant.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24291104"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4279,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in progressive disease in a basal cell carcinoma patient harboring SMO D473H with resistance to Erivedge (vismodegib) (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 1973,
+                "profileName": "SMO D473H"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1141,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY2940680, inhibited the activity of SMO D473H, which is a mutant that confers resistance to the treatment of vismodegib (Cancer Research: April 15, 2011; Volume 71, Issue 8, Supplement 1, Abstract #2819).",
+            "molecularProfile": {
+                "id": 1973,
+                "profileName": "SMO D473H"
+            },
+            "therapy": {
+                "id": 1587,
+                "therapyName": "Taladegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 883,
+                    "pubMedId": null,
+                    "title": "Abstract 2819: Identification and characterization of a novel smoothened antagonist for the treatment of cancer with deregulated hedgehog signaling",
+                    "url": "https://cancerres.aacrjournals.org/content/71/8_Supplement/2819"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1142,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, SMO D473H was identified in a medulloblastoma patient harboring PTCH1 W844C with secondary resistance to Erivedge (vismodegib) (PMID: 19726788).",
+            "molecularProfile": {
+                "id": 31759,
+                "profileName": "PTCH1 W844C SMO D473H"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 885,
+                    "pubMedId": 19726788,
+                    "title": "Smoothened mutation confers resistance to a Hedgehog pathway inhibitor in medulloblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19726788"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1973,
+            "profileName": "SMO D473H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31759,
+            "profileName": "PTCH1 W844C SMO D473H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 123175,
+            "transcript": "NM_005631",
+            "gDna": "chr7:g.129209348G>C",
+            "cDna": "c.1417G>C",
+            "protein": "p.D473H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

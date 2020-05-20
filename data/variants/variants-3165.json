@@ -1,0 +1,261 @@
+{
+    "id": 3165,
+    "fullName": "AKT1 Q79K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "AKT1 Q79K lies within the PH domain of the Akt1 protein (UniProt.org). Q79K results in increased Akt1 kinase activity, downstream signaling (PMID: 27232857), and is transforming in cell culture (PMID: 23134728, PMID: 23237847).",
+            "references": [
+                {
+                    "id": 1909,
+                    "pubMedId": 23237847,
+                    "title": "Functional analysis of non-hotspot AKT1 mutants found in human breast cancers identifies novel driver mutations: implications for personalized medicine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23237847"
+                },
+                {
+                    "id": 11970,
+                    "pubMedId": 27232857,
+                    "title": "AKT in cancer: new molecular insights and advances in drug development.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27232857"
+                },
+                {
+                    "id": 103,
+                    "pubMedId": 23134728,
+                    "title": "Disruption of PH-kinase domain interactions leads to oncogenic activation of AKT in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23134728"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 207,
+        "geneSymbol": "AKT1",
+        "terms": [
+            "AKT1",
+            "AKT",
+            "CWS6",
+            "PKB",
+            "PKB-ALPHA",
+            "PRKBA",
+            "RAC",
+            "RAC-ALPHA"
+        ]
+    },
+    "variant": "Q79K",
+    "createDate": "02/17/2015",
+    "updateDate": "08/23/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 167060,
+        "transcript": "NM_001014432",
+        "gDna": "chr14:g.104776711G>T",
+        "cDna": "c.235C>A",
+        "protein": "p.Q79K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11437,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, an ovarian cancer patient harboring AKT1 Q79K demonstrated tumor regression that lasted 14 months when treated with Capivasertib (AZD5363) (PMID: 28489509; NCT01226316).",
+            "molecularProfile": {
+                "id": 2989,
+                "profileName": "AKT1 Q79K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9361,
+                    "pubMedId": 28489509,
+                    "title": "AKT Inhibition in Solid Tumors With AKT1 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28489509"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8125,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of MK2206 and Zelboraf (vemurafenib) inhibited AKT activation and growth of PTEN-expressing BRAF V600-mutant melanoma cells expressing AKT1 Q79K in culture, with increased efficacy over either agent alone (PMID: 24265152).",
+            "molecularProfile": {
+                "id": 26173,
+                "profileName": "AKT1 Q79K BRAF V600X PTEN pos"
+            },
+            "therapy": {
+                "id": 4635,
+                "therapyName": "MK2206 + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6551,
+                    "pubMedId": 24265152,
+                    "title": "A novel AKT1 mutant amplifies an adaptive melanoma response to BRAF inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265152"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8106,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of AKT1 Q79K in a wild-type PTEN-expressing BRAF V600-mutant melanoma cell line conferred resistance to Zelboraf (vemurafenib) in culture (PMID: 24265152).",
+            "molecularProfile": {
+                "id": 26173,
+                "profileName": "AKT1 Q79K BRAF V600X PTEN pos"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6551,
+                    "pubMedId": 24265152,
+                    "title": "A novel AKT1 mutant amplifies an adaptive melanoma response to BRAF inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265152"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2989,
+            "profileName": "AKT1 Q79K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11439,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "AKT1 Q79K"
+                },
+                {
+                    "id": 11440,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "AKT1 Q79K"
+                }
+            ]
+        },
+        {
+            "id": 26173,
+            "profileName": "AKT1 Q79K BRAF V600X PTEN pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 167061,
+            "transcript": "XM_005267401",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 167063,
+            "transcript": "XM_017021078",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 167062,
+            "transcript": "NM_005163",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 167064,
+            "transcript": "XM_017021077",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 167065,
+            "transcript": "XM_017021076",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 167060,
+            "transcript": "NM_001014432",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 167066,
+            "transcript": "XM_017021075",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 167059,
+            "transcript": "NM_001014431",
+            "gDna": "chr14:g.104776711G>T",
+            "cDna": "c.235C>A",
+            "protein": "p.Q79K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

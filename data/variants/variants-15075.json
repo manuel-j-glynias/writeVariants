@@ -1,0 +1,120 @@
+{
+    "id": 15075,
+    "fullName": "IRS2 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "IRS2 amplification indicates an increased number of copies of the IRS2 gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 8660,
+        "geneSymbol": "IRS2",
+        "terms": [
+            "IRS2",
+            "IRS-2"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "12/09/2015",
+    "updateDate": "05/23/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3746,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, solid tumor cell lines with IRS2 amplification demonstrated increased sensitivity to treatment with Figitumumab in culture (PMID: 24107449).",
+            "molecularProfile": {
+                "id": 15331,
+                "profileName": "IRS2 amp"
+            },
+            "therapy": {
+                "id": 741,
+                "therapyName": "Figitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4073,
+                    "pubMedId": 24107449,
+                    "title": "Molecular predictors of sensitivity to the insulin-like growth factor 1 receptor inhibitor Figitumumab (CP-751,871).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24107449"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3747,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines with IRS amplification demonstrated increased sensitivity to BMS-754807 in culture (PMID: 25527633).",
+            "molecularProfile": {
+                "id": 15331,
+                "profileName": "IRS2 amp"
+            },
+            "therapy": {
+                "id": 686,
+                "therapyName": "BMS-754807",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4074,
+                    "pubMedId": 25527633,
+                    "title": "IRS2 copy number gain, KRAS and BRAF mutation status as predictive biomarkers for response to the IGF-1R/IR inhibitor BMS-754807 in colorectal cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25527633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 15331,
+            "profileName": "IRS2 amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7204,
+                    "name": "BMS-754807",
+                    "profileName": "IRS2 amp"
+                },
+                {
+                    "id": 7205,
+                    "name": "Figitumumab",
+                    "profileName": "IRS2 amp"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "id": 1791,
+    "fullName": "BRAF G464E",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G464E (also reported as G463E) lies within the protein kinase domain of the Braf protein (UniProt.org). G464E results in increased Braf kinase activity and activation of MEK and ERK (PMID: 15035987, PMID: 23680146), and in one of two cell lines, increased cell proliferation and cell viability compared to wild-type Braf in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 146,
+                    "pubMedId": 15035987,
+                    "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15035987"
+                },
+                {
+                    "id": 5858,
+                    "pubMedId": 23680146,
+                    "title": "RAF inhibitors activate the MAPK pathway by relieving inhibitory autophosphorylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680146"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G464E",
+    "createDate": "09/18/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109118,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781617C>T",
+        "cDna": "c.1391G>A",
+        "protein": "p.G464E",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9410,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF G464E (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 1779,
+                "profileName": "BRAF G464E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15523,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Braftovi (encorafenib) to treatment with Mekinist (trametinib) resulted in increased growth inhibition in a melanoma cell line harboring BRAF G464E and KRAS G12D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 31087,
+                "profileName": "BRAF G464E KRAS G12D"
+            },
+            "therapy": {
+                "id": 7661,
+                "therapyName": "Encorafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15541,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Zelboraf (vemurafenib) to treatment with Mekinist (trametinib) resulted in increased proliferation compared to Mekinist (trametinib) alone in a melanoma cell line harboring BRAF G464E and KRAS G12D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 31087,
+                "profileName": "BRAF G464E KRAS G12D"
+            },
+            "therapy": {
+                "id": 4234,
+                "therapyName": "Trametinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1779,
+            "profileName": "BRAF G464E",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2040,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G464E"
+                },
+                {
+                    "id": 2042,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G464E"
+                },
+                {
+                    "id": 2041,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G464E"
+                },
+                {
+                    "id": 14294,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G464E"
+                }
+            ]
+        },
+        {
+            "id": 31087,
+            "profileName": "BRAF G464E KRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109117,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781617C>T",
+            "cDna": "c.1391G>A",
+            "protein": "p.G464E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109118,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781617C>T",
+            "cDna": "c.1391G>A",
+            "protein": "p.G464E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "id": 3231,
+    "fullName": "TP53 R249S",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R249S is a hotspot mutation within the DNA-binding domain of the Tp53 protein (PMID: 22713868). R249S results in decreased DNA binding and transactivation activity of Tp53, and confers context-dependent transforming ability in cell culture (PMID: 20212049, PMID: 20538734).",
+            "references": [
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 1936,
+                    "pubMedId": 20538734,
+                    "title": "Effects of the TP53 p.R249S mutant on proliferation and clonogenic properties in human hepatocellular carcinoma cell lines: interaction with hepatitis B virus X protein.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20538734"
+                },
+                {
+                    "id": 1297,
+                    "pubMedId": 20212049,
+                    "title": "Characterization of functional domains necessary for mutant p53 gain of function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20212049"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R249S",
+    "createDate": "02/19/2015",
+    "updateDate": "01/22/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 95411,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7674216C>G",
+        "cDna": "c.747G>C",
+        "protein": "p.R249S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8985,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with CP-31398 resulted in decreased proliferation, increased apoptosis, and cell-cycle arrest in a hepatocellular carcinoma cell line harboring TP53 R249S in culture, and inhibited tumor growth in xenograft models (PMID: 26250460).",
+            "molecularProfile": {
+                "id": 3052,
+                "profileName": "TP53 R249S"
+            },
+            "therapy": {
+                "id": 3404,
+                "therapyName": "CP-31398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6838,
+                    "pubMedId": 26250460,
+                    "title": "CP-31398 inhibits the growth of p53-mutated liver cancer cells in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26250460"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3052,
+            "profileName": "TP53 R249S",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 729,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 R249S"
+                },
+                {
+                    "id": 730,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R249S"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95410,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7674216C>G",
+            "cDna": "c.747G>C",
+            "protein": "p.R249S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95411,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7674216C>G",
+            "cDna": "c.747G>C",
+            "protein": "p.R249S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95413,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7674216C>G",
+            "cDna": "c.747G>C",
+            "protein": "p.R249S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95412,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7674216C>G",
+            "cDna": "c.747G>C",
+            "protein": "p.R249S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

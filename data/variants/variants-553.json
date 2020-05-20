@@ -1,0 +1,160 @@
+{
+    "id": 553,
+    "fullName": "AURKB W221L",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "AURKB W221L lies within the protein kinase domain of the Aurkb protein (UniProt.org). W221L has been demonstrated to confer Barasertib (AZD1152)-resistance in culture (PMID: 20935223), but has not been biochemically characterized and therefore, its effect on Aurkb protein function is unknown (PubMed, May 2018).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 46,
+                    "pubMedId": 20935223,
+                    "title": "Preclinical evaluation of AMG 900, a novel potent and highly selective pan-aurora kinase inhibitor with activity in taxane-resistant tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20935223"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 9212,
+        "geneSymbol": "AURKB",
+        "terms": [
+            "AURKB",
+            "AIK2",
+            "AIM-1",
+            "AIM1",
+            "ARK-2",
+            "ARK2",
+            "AurB",
+            "aurkb-sv1",
+            "aurkb-sv2",
+            "IPL1",
+            "PPP1R48",
+            "STK-1",
+            "STK12",
+            "STK5"
+        ]
+    },
+    "variant": "W221L",
+    "createDate": "05/14/2014",
+    "updateDate": "05/25/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 112714,
+        "transcript": "NM_004217",
+        "gDna": "chr17:g.8206515C>A",
+        "cDna": "c.662G>T",
+        "protein": "p.W221L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7934,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AURKB W221L was detected as a secondary mutation in colon carcinoma cells with acquired resistance to Barasertib (AZD1152) in culture (PMID: 20935223).",
+            "molecularProfile": {
+                "id": 612,
+                "profileName": "AURKB W221L"
+            },
+            "therapy": {
+                "id": 662,
+                "therapyName": "Barasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 46,
+                    "pubMedId": 20935223,
+                    "title": "Preclinical evaluation of AMG 900, a novel potent and highly selective pan-aurora kinase inhibitor with activity in taxane-resistant tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20935223"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 242,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AMG 900 inhibited growth of an AZD1152-resistant colon carcinoma cell line harboring AURKB W221L in culture (PMID: 20935223).",
+            "molecularProfile": {
+                "id": 612,
+                "profileName": "AURKB W221L"
+            },
+            "therapy": {
+                "id": 983,
+                "therapyName": "AMG 900",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 46,
+                    "pubMedId": 20935223,
+                    "title": "Preclinical evaluation of AMG 900, a novel potent and highly selective pan-aurora kinase inhibitor with activity in taxane-resistant tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20935223"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 612,
+            "profileName": "AURKB W221L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 112714,
+            "transcript": "NM_004217",
+            "gDna": "chr17:g.8206515C>A",
+            "cDna": "c.662G>T",
+            "protein": "p.W221L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112713,
+            "transcript": "NM_001313950",
+            "gDna": "chr17:g.8206515C>A",
+            "cDna": "c.662G>T",
+            "protein": "p.W221L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

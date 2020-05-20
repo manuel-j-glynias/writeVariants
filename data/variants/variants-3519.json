@@ -1,0 +1,227 @@
+{
+    "id": 3519,
+    "fullName": "BRAF N581S",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF N581S lies within the protein kinase domain of the Braf protein (UniProt.org). The functional effect of N581S is unclear as it has been demonstrated to result in intermediate Braf kinase activity (PMID: 15035987), as well as low Braf kinase activity (PMID: 28783719), and results in Ras-dependent activation of ERK signaling in cell culture (PMID: 28783719), however in another study, N581S demonstrated increased transformation ability in one of two different cell lines as compared to wild-type Braf (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 146,
+                    "pubMedId": 15035987,
+                    "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15035987"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "N581S",
+    "createDate": "03/05/2015",
+    "updateDate": "09/17/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 109258,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753393T>C",
+        "cDna": "c.1742A>G",
+        "protein": "p.N581S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16113,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Zelboraf (vemurafenib) treatment resulted in an objective response in only 4% (1/23) of patient with advanced solid tumors harboring non-V600 BRAF mutations, 2 of the non-responding patients harbored BRAF N581S (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 3326,
+                "profileName": "BRAF N581S"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20145,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment did not result in response in the cohort of 15 non-small cell lung cancer patients with non-V600 BRAF mutations, which included 3 patients harboring BRAF N581S, and enrollment in this cohort was discontinued (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 3326,
+                "profileName": "BRAF N581S"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10261,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Chk1 inhibitor PF-477736 and MK2 inhibitor PF3644022 combination treatment resulted in significant apoptosis in primary tumor cells isolated from a lung adenocarcinoma patient harboring BRAF N581S in culture (PMID: 26140595).",
+            "molecularProfile": {
+                "id": 3326,
+                "profileName": "BRAF N581S"
+            },
+            "therapy": {
+                "id": 5443,
+                "therapyName": "PF-00477736 + PF3644022",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8232,
+                    "pubMedId": 26140595,
+                    "title": "A Synergistic Interaction between Chk1- and MK2 Inhibitors in KRAS-Mutant Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26140595"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9333,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a rectal adenocarcinoma patient harboring APC Q1429fs, BRAF N581S, and ERBB2 L755S did not respond to Herceptin (trastuzumab) treatment in combination with Fluorouracil and Wellcovorin (leucovorin) (PMID: 27626067).",
+            "molecularProfile": {
+                "id": 26822,
+                "profileName": "APC Q1429fs BRAF N581S ERBB2 L755S"
+            },
+            "therapy": {
+                "id": 4970,
+                "therapyName": "Fluorouracil + Leucovorin + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1996,
+                "name": "rectum adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7088,
+                    "pubMedId": 27626067,
+                    "title": "Testing ERBB2 p.L755S kinase domain mutation as a druggable target in a patient with advanced colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27626067"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3326,
+            "profileName": "BRAF N581S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26822,
+            "profileName": "APC Q1429fs BRAF N581S ERBB2 L755S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109257,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753393T>C",
+            "cDna": "c.1742A>G",
+            "protein": "p.N581S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109258,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753393T>C",
+            "cDna": "c.1742A>G",
+            "protein": "p.N581S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

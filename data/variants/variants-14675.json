@@ -1,0 +1,648 @@
+{
+    "id": 14675,
+    "fullName": "EGFR E709_T710delinsD",
+    "impact": "indel",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR E709_T710delinsD results in a deletion of two amino acids in the cytoplasmic domain of the Egfr protein from aa 709 to aa 710, combined with the insertion of an aspartic acid (D) at the same location (UniProt.org). E709_T710delinsD confers a gain of function to Egfr, resulting in phosphorylation of the Egfr protein and transformation of cultured cells (PMID: 26206867, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "E709_T710delinsD",
+    "createDate": "12/03/2015",
+    "updateDate": "10/06/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135602,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55173986_55173988delAAC",
+        "cDna": "c.2127_2129delAAC",
+        "protein": "p.E709_T710delinsD",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3722,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD demonstrated increased sensitivity to second-generation EGFR inhibitors including Vizimpro (dacomitinib) in culture, when compared to first and third-generation inhibitors (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12442,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD were resistant to treatment with Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20103,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in progressive disease in two patient with non-small cell lung cancer harboring EGFR E709_T710delinsD, with progression-free survival of 3 and 4 months, respectively (PMID: 31715539).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17697,
+                    "pubMedId": 31715539,
+                    "title": "Detection of rare and novel EGFR mutations in NSCLC patients: Implications for treatment-decision.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31715539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17658,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Tarceva (erlotinib) treatment resulted in disease progression in a patient with non-small cell lung cancer harboring EGFR E709_T710delinsD (PMID: 31175009).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15702,
+                    "pubMedId": 31175009,
+                    "title": "Clinical Impact of Rare and Compound Mutations of Epidermal Growth Factor Receptor in Patients With Non-Small-Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31175009"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3723,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD demonstrated increased sensitivity to second-generation EGFR inhibitors including Gilotrif (afatinib) in culture, when compared to first and third-generation inhibitors (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20088,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Iressa (gefitinib) treatment resulted in progressive disease with a progression-free survival of 3 months in a patient with non-small cell lung cancer harboring EGFR E709_T710delinsD (PMID: 31715539).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17697,
+                    "pubMedId": 31715539,
+                    "title": "Detection of rare and novel EGFR mutations in NSCLC patients: Implications for treatment-decision.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31715539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19652,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, patients with non-small cell lung cancer harboring EGFR E709_T710delinsD (n=5) did not respond to treatment with Iressa (gefitinib) (PMID: 27785061).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17447,
+                    "pubMedId": 27785061,
+                    "title": "Effectiveness of tyrosine kinase inhibitors on uncommon E709X epidermal growth factor receptor mutations in non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27785061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3721,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD demonstrated increased sensitivity to second-generation EGFR inhibitors including Nerlynx (neratinib) in culture, when compared to first and third-generation inhibitors (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3724,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD demonstrated decreased sensitivity to first-generation EGFR inhibitors including Tarceva (erlotinib) in culture, when compared to second-generation inhibitors (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3727,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD demonstrated decreased sensitivity to the first-generation EGFR inhibitor Iressa (gefitinib) in culture, when compared to second-generation inhibitors, with an IC90 concentration approximately two-times the estimated trough concentration at the recommended dose (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3725,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD demonstrated decreased sensitivity to third-generation EGFR inhibitors including Rociletinib (CO-1686) in culture, when compared to second-generation inhibitors (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3728,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, treatment with Gilotrif (afatinib) in a lung adenocarcinoma patient harboring EGFR E709_T710delinsD resulted in tumor shrinkage, while prior treatment with Tarceva (erlotinib) had achieved stable disease (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16365,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, treatment with Gilotrif (afatinib) resulted in a partial response lasting 1 year in a patient with lung adenocarcinoma harboring EGFR E709_T710delinsD who had progressed on first line Platinol (cisplatin) plus Navelbine (vinorelbine) with radiotherapy (PMID: 30413663).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14466,
+                    "pubMedId": 30413663,
+                    "title": "SMAD4 Mutation in Small Cell Transformation of Epidermal Growth Factor Receptor Mutated Lung Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30413663"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3726,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709_T710delinsD demonstrated decreased sensitivity to third-generation EGFR inhibitors including Tagrisso (AZD9291) in culture, when compared to second-generation inhibitors (PMID: 26206867).",
+            "molecularProfile": {
+                "id": 14932,
+                "profileName": "EGFR E709_T710delinsD"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4031,
+                    "pubMedId": 26206867,
+                    "title": "EGFR Exon 18 Mutations in Lung Cancer: Molecular Predictors of Augmented Sensitivity to Afatinib or Neratinib as Compared with First- or Third-Generation TKIs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26206867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9925,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquisition of EGFR L792F was associated with resistance to Gilotrif in transformed cells expressing EGFR E709_T710delinsD in culture (PMID: 27913578).",
+            "molecularProfile": {
+                "id": 27167,
+                "profileName": "EGFR E709_T710delinsD EGFR L792F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9926,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited growth of transformed cells expressing EGFR E709_T710delinsD and EGFR L792F in culture (PMID: 27913578).",
+            "molecularProfile": {
+                "id": 27167,
+                "profileName": "EGFR E709_T710delinsD EGFR L792F"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16378,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung adenocarcinoma harboring EGFR E709_T710delinsD who progressed after a 1 year partial response to Gilotrif (afatinib) was found to have disease that transformed to small cell lung cancer and had acquired a SMAD4 R361C mutation and did not express Tp53 protein (PMID: 30413663).",
+            "molecularProfile": {
+                "id": 31618,
+                "profileName": "EGFR E709_T710delinsD SMAD4 R361C TP53 loss"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5409,
+                "name": "lung small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 14466,
+                    "pubMedId": 30413663,
+                    "title": "SMAD4 Mutation in Small Cell Transformation of Epidermal Growth Factor Receptor Mutated Lung Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30413663"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 14932,
+            "profileName": "EGFR E709_T710delinsD",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17946,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR E709_T710delinsD"
+                },
+                {
+                    "id": 17943,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR E709_T710delinsD"
+                },
+                {
+                    "id": 17942,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR E709_T710delinsD"
+                },
+                {
+                    "id": 17945,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR E709_T710delinsD"
+                },
+                {
+                    "id": 17944,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR E709_T710delinsD"
+                }
+            ]
+        },
+        {
+            "id": 27167,
+            "profileName": "EGFR E709_T710delinsD EGFR L792F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31611,
+            "profileName": "EGFR E709_T710delinsD SMAD4 R361C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31618,
+            "profileName": "EGFR E709_T710delinsD SMAD4 R361C TP53 loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135602,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55173986_55173988delAAC",
+            "cDna": "c.2127_2129delAAC",
+            "protein": "p.E709_T710delinsD",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

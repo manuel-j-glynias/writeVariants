@@ -1,0 +1,225 @@
+{
+    "id": 22999,
+    "fullName": "EGFR S464L",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR S464L lies within the extracellular domain of the Egfr protein (UniProt.org). S464L results in increased Egfr and Erk phosphorylation and confers resistance to Erbitux (cetuximab) and Vectibix (panitumumab) in cell culture (PMID: 26843189).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "S464L",
+    "createDate": "06/01/2016",
+    "updateDate": "06/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135892,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55160231C>T",
+        "cDna": "c.1391C>T",
+        "protein": "p.S464L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6631,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines over expressing EGFR S464L were resistant to Erbitux (cetuximab)-induced growth inhibition in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23658,
+                "profileName": "EGFR S464L"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6630,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines over expressing EGFR S464L were resistant to Vectibix (panitumumab)-induced growth inhibition in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23658,
+                "profileName": "EGFR S464L"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6629,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MM-151 inhibited survival of colorectal cancer cell lines over expressing EGFR S464L in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23658,
+                "profileName": "EGFR S464L"
+            },
+            "therapy": {
+                "id": 821,
+                "therapyName": "MM-151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6648,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, MM-151 treatment resulted in reduction of EGFR S464L and stabilization of EGFR G465R in circulating cell-free tumor DNA and prolonged stable disease in a colorectal cancer patient harboring both EGFR G465R and EGFR S464L (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23659,
+                "profileName": "EGFR S464L EGFR G465R"
+            },
+            "therapy": {
+                "id": 821,
+                "therapyName": "MM-151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23658,
+            "profileName": "EGFR S464L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23659,
+            "profileName": "EGFR S464L EGFR G465R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135892,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55160231C>T",
+            "cDna": "c.1391C>T",
+            "protein": "p.S464L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135893,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55160231C>T",
+            "cDna": "c.1391C>T",
+            "protein": "p.S464L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135894,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55160231C>T",
+            "cDna": "c.1391C>T",
+            "protein": "p.S464L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

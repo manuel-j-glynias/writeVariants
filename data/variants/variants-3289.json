@@ -1,0 +1,361 @@
+{
+    "id": 3289,
+    "fullName": "EGFR L861R",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR L861R lies within the protein kinase domain of the Egfr protein (UniProt.org). L861R results in increased Egfr autophosphorylation and downstream signaling in cell culture (PMID: 24743239) and induces cell proliferation and cell viability in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3812,
+                    "pubMedId": 24743239,
+                    "title": "Prediction and prioritization of rare oncogenic mutations in the cancer Kinome using novel features and multiple classifiers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24743239"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "L861R",
+    "createDate": "02/21/2015",
+    "updateDate": "04/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135773,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55191831T>G",
+        "cDna": "c.2582T>G",
+        "protein": "p.L861R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19055,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in disease progression after 2 months of treatment in a patient with metastatic lung adenocarcinoma harboring EGFR L861R (PMID: 21841502).",
+            "molecularProfile": {
+                "id": 3105,
+                "profileName": "EGFR L861R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16690,
+                    "pubMedId": 21841502,
+                    "title": "Activity of epidermal growth factor receptor-tyrosine kinase inhibitors in patients with non-small cell lung cancer harboring rare epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21841502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16727,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L861R were sensitive to treatment with Gilotrif (afatinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3105,
+                "profileName": "EGFR L861R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16728,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L861R were resistant to treatment with Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3105,
+                "profileName": "EGFR L861R"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18974,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR C797S and EGFR T790M in cis and trans were resistant to Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32732,
+                "profileName": "EGFR G719A EGFR L861R"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18972,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR G719A and EGFR L861R in cis demonstrated resistance to treatment with Tarceva (erlotinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32732,
+                "profileName": "EGFR G719A EGFR L861R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18973,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) resulted in decreased growth of transformed cells expressing EGFR G719A and EGFR L861R in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32732,
+                "profileName": "EGFR G719A EGFR L861R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18971,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR G719A and EGFR L861R in cis demonstrated resistance to treatment with Iressa (gefitinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32732,
+                "profileName": "EGFR G719A EGFR L861R"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17651,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Tarceva (erlotinib) treatment resulted in a partial response with a progression-free survival of 6 months in a patient with non-small cell lung cancer harboring both EGFR G719A and EGFR L861R (PMID: 31175009).",
+            "molecularProfile": {
+                "id": 32732,
+                "profileName": "EGFR G719A EGFR L861R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15702,
+                    "pubMedId": 31175009,
+                    "title": "Clinical Impact of Rare and Compound Mutations of Epidermal Growth Factor Receptor in Patients With Non-Small-Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31175009"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3105,
+            "profileName": "EGFR L861R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4709,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR L861R"
+                },
+                {
+                    "id": 4710,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR L861R"
+                },
+                {
+                    "id": 4712,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR L861R"
+                },
+                {
+                    "id": 4711,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR L861R"
+                },
+                {
+                    "id": 4708,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR L861R"
+                }
+            ]
+        },
+        {
+            "id": 32732,
+            "profileName": "EGFR G719A EGFR L861R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135773,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55191831T>G",
+            "cDna": "c.2582T>G",
+            "protein": "p.L861R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

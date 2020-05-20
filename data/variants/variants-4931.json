@@ -1,0 +1,122 @@
+{
+    "id": 4931,
+    "fullName": "VEGFA over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "VEGFA over exp indicates an over expression of the Vegfa protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 7422,
+        "geneSymbol": "VEGFA",
+        "terms": [
+            "VEGFA",
+            "MVCD1",
+            "VEGF",
+            "VPF"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "04/16/2015",
+    "updateDate": "08/29/2017",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3858,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, advanced medullary thyroid cancer patients with high baseline Vegfa expression were more likely to display tumor reduction when treated with Lenvima (lenvatinib) (PMID: 26311725).",
+            "molecularProfile": {
+                "id": 4724,
+                "profileName": "VEGFA over exp"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4237,
+                    "pubMedId": 26311725,
+                    "title": "A Phase II Trial of the Multitargeted Tyrosine Kinase Inhibitor Lenvatinib (E7080) in Advanced Medullary Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26311725"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8010,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Avastin (bevacizumab) and Tarceva (erlotinib) in patient derived xenograft (PDX) models of non-small cell lung carcinoma with VEGFA over expression resulted in tumor growth inhibition and a decrease in the number of blood vessels (PMID: 26817645).",
+            "molecularProfile": {
+                "id": 4724,
+                "profileName": "VEGFA over exp"
+            },
+            "therapy": {
+                "id": 1146,
+                "therapyName": "Bevacizumab + Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6532,
+                    "pubMedId": 26817645,
+                    "title": "Preclinical Study of a Combination of Erlotinib and Bevacizumab in Early Stages of Unselected Non-Small Cell Lung Cancer Patient-Derived Xenografts.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26817645"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4724,
+            "profileName": "VEGFA over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 3507,
+                    "name": "VEGFR Inhibitor (Pan)",
+                    "profileName": "VEGFA over exp"
+                },
+                {
+                    "id": 3506,
+                    "name": "VEGF Antibody",
+                    "profileName": "VEGFA over exp"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

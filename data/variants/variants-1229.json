@@ -1,0 +1,563 @@
+{
+    "id": 1229,
+    "fullName": "IDH1 R132C",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "IDH1 R132C lies within the active site of the Idh1 protein (PMID: 19228619). R132C confers a gain of function to Idh1 as indicated by conversion of alpha-ketoglutarate to the onco-metabolite 2HG (R(-)-2-hydroxyglutarate in culture (PMID: 19935646, PMID: 26161668, PMID: 22885298).",
+            "references": [
+                {
+                    "id": 12571,
+                    "pubMedId": 22885298,
+                    "title": "Mutant IDH1 is required for IDH1 mutated tumor cell growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22885298"
+                },
+                {
+                    "id": 486,
+                    "pubMedId": 19228619,
+                    "title": "IDH1 and IDH2 mutations in gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19228619"
+                },
+                {
+                    "id": 12570,
+                    "pubMedId": 26161668,
+                    "title": "Mutant IDH1 Dysregulates the Differentiation of Mesenchymal Stem Cells in Association with Gene-Specific Histone Modifications to Cartilage- and Bone-Related Genes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26161668"
+                },
+                {
+                    "id": 487,
+                    "pubMedId": 19935646,
+                    "title": "Cancer-associated IDH1 mutations produce 2-hydroxyglutarate.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19935646"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3417,
+        "geneSymbol": "IDH1",
+        "terms": [
+            "IDH1",
+            "HEL-216",
+            "HEL-S-26",
+            "IDCD",
+            "IDH",
+            "IDP",
+            "IDPC",
+            "PICD"
+        ]
+    },
+    "variant": "R132C",
+    "createDate": "07/31/2014",
+    "updateDate": "10/12/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 143847,
+        "transcript": "NM_005896",
+        "gDna": "chr2:g.208248389G>A",
+        "cDna": "c.394C>T",
+        "protein": "p.R132C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9952,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-5198 reverted the sensitivity of sarcoma cells harboring IDH1 R132C to Lynparza (olaparib)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 5326,
+                "therapyName": "AGI-5198 + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2070,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-5198 inhibited growth and promoted differentiation in glioma cells expressing IDH1 R132C (PMID: 23558169).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 2569,
+                "therapyName": "AGI-5198",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2552,
+                    "pubMedId": 23558169,
+                    "title": "An inhibitor of mutant IDH1 delays growth and promotes differentiation of glioma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23558169"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9940,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived glioma cells harboring IDH1 R132C demonstrated increased sensitivity to Talazoparib (BMN-673)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7349,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH1 R132C demonstrated increased sensitivity to Saracatinib (AZD0530) induced growth inhibition compared to IDH1 wild-type cells in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 912,
+                "therapyName": "Saracatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13379,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial that supported FDA approval, Tibsovo (ivosidenib) treatment resulted in complete remission (CR) in 21.6% (27/125), CR with partial hematological recovery (CRh) in 8.8% (11/125), and overall response (OR) in 41.6% (52/125) of patients with relapsed or refractory acute myeloid leukemia harboring a susceptible IDH1 mutation (R132C/G/H/L/S) as detected by an FDA-approved test (PMID: 29860938; NCT02074839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 1491,
+                "therapyName": "Ivosidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11091,
+                    "pubMedId": null,
+                    "title": "Ivosidenib (AG-120) in Mutant IDH1 AML and Advanced Hematologic Malignancies: Results of a Phase 1 Dose Escalation and Expansion Study",
+                    "url": "http://www.bloodjournal.org/content/130/Suppl_1/725"
+                },
+                {
+                    "id": 11753,
+                    "pubMedId": 29860938,
+                    "title": "Durable Remissions with Ivosidenib in IDH1-Mutated Relapsed or Refractory AML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29860938"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15476,
+                    "pubMedId": null,
+                    "title": "Tibsovo (ivosidenib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211192"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16892,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial that supported FDA approval, Tibsovo (ivosidenib) treatment resulted in complete remission (CR) in 28.6% (8/28), CR with partial hematological recovery (CRh) in 14.3% (4/28) of patients age 75 or older with untreated acute myeloid leukemia harboring a susceptible IDH1 mutation (R132C/G/H/L/S) as detected by an FDA-approved test, with a median treatment duration of 4.3 months (PMID: 29860938; NCT02074839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 1491,
+                "therapyName": "Ivosidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11753,
+                    "pubMedId": 29860938,
+                    "title": "Durable Remissions with Ivosidenib in IDH1-Mutated Relapsed or Refractory AML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29860938"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15476,
+                    "pubMedId": null,
+                    "title": "Tibsovo (ivosidenib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211192"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 7350,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) inhibited growth of intrahepatic cholangiocarcinoma cells harboring IDH1 R132C in culture, and suppressed tumor growth in PDX models (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9945,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lynparza (olaparib) treatment delayed tumor growth in cell line xenograft models of sarcoma harboring IDH1 R132C (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9951,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AGI-5198 reverted the sensitivity of sarcoma cells harboring IDH1 R132C to Talazoparib (BMN-673)-induced growth inhibition in culture (PMID: 28148839).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 5325,
+                "therapyName": "AGI-5198 + Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7797,
+                    "pubMedId": 28148839,
+                    "title": "2-Hydroxyglutarate produced by neomorphic IDH mutations suppresses homologous recombination and induces PARP inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28148839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13073,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AG-881 treatment decreased tumor 2HG levels in a fibrosarcoma cell line xenograft model harboring IDH1 R132C (Mol Cancer Ther Jan 1 2018 (17) (1 Supp) B126).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 2995,
+                "therapyName": "AG-881",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3355,
+                "name": "fibrosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10950,
+                    "pubMedId": null,
+                    "title": "Abstract B126: AG-881, a brain penetrant, potent, pan-mutant IDH (mIDH) inhibitor for use in mIDH solid and hematologic malignancies",
+                    "url": "http://mct.aacrjournals.org/content/17/1_Supplement/B126"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10939,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY1436032 decreased R-2HG levels and inhibited growth of primary acute myeloid leukemia (AML) cells harboring IDH1 R132C in culture, and decreased blast number and increased survival of two AML patient-derived xenograft (PDX) models, one which harbored additional alterations in FLT3, NPM1, and NRAS and one which harbored a KMT2A (MLL) alteration (PMID: 28232670).",
+            "molecularProfile": {
+                "id": 1252,
+                "profileName": "IDH1 R132C"
+            },
+            "therapy": {
+                "id": 5698,
+                "therapyName": "BAY1436032",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8943,
+                    "pubMedId": 28232670,
+                    "title": "Pan-mutant-IDH1 inhibitor BAY1436032 is highly effective against human IDH1 mutant acute myeloid leukemia in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28232670"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7355,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH1 R132S acquired resistance to Sprycel (dasatinib) after over expressing SRC T341I in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 25297,
+                "profileName": "IDH1 R132C SRC T341I"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14496,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, IDH1 S280F was identified as an acquired mutation in cis with the original IDH1 R132C in a patient with acute myeloid leukemia (AML), who developed resistance to Tibsovo (ivosidenib) after initial response (PMID: 29950729).",
+            "molecularProfile": {
+                "id": 30029,
+                "profileName": "IDH1 R132C IDH1 S280F"
+            },
+            "therapy": {
+                "id": 1491,
+                "therapyName": "Ivosidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11648,
+                    "pubMedId": 29950729,
+                    "title": "Acquired resistance to IDH inhibition through trans or cis dimer-interface mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29950729"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1252,
+            "profileName": "IDH1 R132C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17008,
+                    "name": "IDH Inhibitor (Pan)",
+                    "profileName": "IDH1 R132C"
+                },
+                {
+                    "id": 17009,
+                    "name": "IDH1 Inhibitor",
+                    "profileName": "IDH1 R132C"
+                }
+            ]
+        },
+        {
+            "id": 25297,
+            "profileName": "IDH1 R132C SRC T341I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30029,
+            "profileName": "IDH1 R132C IDH1 S280F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 143847,
+            "transcript": "NM_005896",
+            "gDna": "chr2:g.208248389G>A",
+            "cDna": "c.394C>T",
+            "protein": "p.R132C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 143848,
+            "transcript": "NM_001282386",
+            "gDna": "chr2:g.208248389G>A",
+            "cDna": "c.394C>T",
+            "protein": "p.R132C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 143849,
+            "transcript": "NM_001282387",
+            "gDna": "chr2:g.208248389G>A",
+            "cDna": "c.394C>T",
+            "protein": "p.R132C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

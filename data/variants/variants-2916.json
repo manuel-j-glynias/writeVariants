@@ -1,0 +1,163 @@
+{
+    "id": 2916,
+    "fullName": "PDGFB over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "PDGFB over exp indicates an over expression of the Pdgfb protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 5155,
+        "geneSymbol": "PDGFB",
+        "terms": [
+            "PDGFB",
+            "c-sis",
+            "IBGC5",
+            "PDGF-2",
+            "PDGF2",
+            "SIS",
+            "SSV"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "01/08/2015",
+    "updateDate": "08/28/2017",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1602,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) treatment in a rat model of cholangiocarcinoma, which overexpressed the PDGF-BB homodimer, resulted in increased tumor cell apoptosis, and decreased tumor growth and metastasis (PMID: 22133064).",
+            "molecularProfile": {
+                "id": 2739,
+                "profileName": "PDGFB over exp"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1622,
+                    "pubMedId": 22133064,
+                    "title": "Targeting PDGFR-\u03b2 in Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22133064"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3855,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, advanced medullary thyroid cancer patients with high baseline Pdgfb expersssion were more likely to display tumor reduction when treated with Lenvima (lenvatinib) (PMID: 26311725).",
+            "molecularProfile": {
+                "id": 2739,
+                "profileName": "PDGFB over exp"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4237,
+                    "pubMedId": 26311725,
+                    "title": "A Phase II Trial of the Multitargeted Tyrosine Kinase Inhibitor Lenvatinib (E7080) in Advanced Medullary Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26311725"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 7044,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Adavosertib (MK-1775) induced apoptosis of mouse proneural glioblastoma cells lacking TP53 and PTEN and over expressing PDGFB in cell culture (PMID: 27196784).",
+            "molecularProfile": {
+                "id": 24369,
+                "profileName": "PDGFB over exp PTEN del TP53 del"
+            },
+            "therapy": {
+                "id": 822,
+                "therapyName": "Adavosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50804,
+                "name": "glioblastoma proneural subtype",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6050,
+                    "pubMedId": 27196784,
+                    "title": "Quantitative Phosphoproteomics Reveals Wee1 Kinase as a Therapeutic Target in a Model of Proneural Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196784"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2739,
+            "profileName": "PDGFB over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 3406,
+                    "name": "PDGFR-beta Inhibitor",
+                    "profileName": "PDGFB over exp"
+                },
+                {
+                    "id": 3407,
+                    "name": "PDGFR Inhibitor (Pan)",
+                    "profileName": "PDGFB over exp"
+                }
+            ]
+        },
+        {
+            "id": 24369,
+            "profileName": "PDGFB over exp PTEN del TP53 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "id": 444,
+    "fullName": "DNMT3A R882H",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "DNMT3A R882H lies within the SAM-dependent MTase C5-type domain of the Dnmt3a protein (UniProt.org). R882H disrupts the tetramerization ability of the Dnmt3a protein, resulting in reduced DNA binding affinity and altered catalytic activity in in vitro assays (PMID: 22722925), and results in hypomethylation, cytokine-independent growth, and impaired differentiation in cultured cells (PMID: 31164355).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2887,
+                    "pubMedId": 22722925,
+                    "title": "Mutations in DNA methyltransferase (DNMT3A) observed in acute myeloid leukemia patients disrupt processive methylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22722925"
+                },
+                {
+                    "id": 16011,
+                    "pubMedId": 31164355,
+                    "title": "A Model System for Studying the DNMT3A Hotspot Mutation (DNMT3AR882) Demonstrates a Causal Relationship between Its Dominant-Negative Effect and Leukemogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31164355"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1788,
+        "geneSymbol": "DNMT3A",
+        "terms": [
+            "DNMT3A",
+            "DNMT3A2",
+            "HESJAS",
+            "M.HsaIIIA",
+            "TBRS"
+        ]
+    },
+    "variant": "R882H",
+    "createDate": "05/02/2014",
+    "updateDate": "08/19/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 126296,
+        "transcript": "NM_022552",
+        "gDna": "chr2:g.25234373C>T",
+        "cDna": "c.2645G>A",
+        "protein": "p.R882H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18145,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line harboring DNMT3A R882H and NRAS G12D mutations demonstrated reduced proliferation and downregulation of a DNMT3A R882H associated gene expression profile upon I-BET151 treatment in culture, and I-BET151 treatment delayed the onset of leukemia symptoms and improved survival in xenograft mouse models derived from these cells (PMID: 31164355).",
+            "molecularProfile": {
+                "id": 32978,
+                "profileName": "DNMT3A R882H NRAS G12D"
+            },
+            "therapy": {
+                "id": 5953,
+                "therapyName": "I-BET151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16011,
+                    "pubMedId": 31164355,
+                    "title": "A Model System for Studying the DNMT3A Hotspot Mutation (DNMT3AR882) Demonstrates a Causal Relationship between Its Dominant-Negative Effect and Leukemogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31164355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18146,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line xenograft model harboring DNMT3A R882H and NRAS G12D was sensitive to Mekinist (trametinib), demonstrating impaired disease progression and improved survival (PMID: 31164355).",
+            "molecularProfile": {
+                "id": 32978,
+                "profileName": "DNMT3A R882H NRAS G12D"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16011,
+                    "pubMedId": 31164355,
+                    "title": "A Model System for Studying the DNMT3A Hotspot Mutation (DNMT3AR882) Demonstrates a Causal Relationship between Its Dominant-Negative Effect and Leukemogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31164355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18147,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line xenograft model harboring DNMT3A R882H and NRAS G12D treated with combined I-BET151 and Mekinist (trametinib) demonstrated impaired disease progression and improved survival superior to either therapy alone (PMID: 31164355).",
+            "molecularProfile": {
+                "id": 32978,
+                "profileName": "DNMT3A R882H NRAS G12D"
+            },
+            "therapy": {
+                "id": 8680,
+                "therapyName": "I-BET151 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16011,
+                    "pubMedId": 31164355,
+                    "title": "A Model System for Studying the DNMT3A Hotspot Mutation (DNMT3AR882) Demonstrates a Causal Relationship between Its Dominant-Negative Effect and Leukemogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31164355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 528,
+            "profileName": "DNMT3A R882H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 13674,
+            "profileName": "DNMT3A R882H FLT3 Y599_D600insSTDNEYFYVDFREYEY NPM1 W288fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32978,
+            "profileName": "DNMT3A R882H NRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 126298,
+            "transcript": "XM_005264175",
+            "gDna": "chr2:g.25234373C>T",
+            "cDna": "c.2645G>A",
+            "protein": "p.R882H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 126295,
+            "transcript": "NM_175629",
+            "gDna": "chr2:g.25234373C>T",
+            "cDna": "c.2645G>A",
+            "protein": "p.R882H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 126296,
+            "transcript": "NM_022552",
+            "gDna": "chr2:g.25234373C>T",
+            "cDna": "c.2645G>A",
+            "protein": "p.R882H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 126297,
+            "transcript": "XM_017003526",
+            "gDna": "chr2:g.25234373C>T",
+            "cDna": "c.2645G>A",
+            "protein": "p.R882H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

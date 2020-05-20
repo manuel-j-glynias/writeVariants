@@ -1,0 +1,144 @@
+{
+    "id": 17837,
+    "fullName": "STK11 E223*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "STK11 E223* results in a premature truncation of the Stk11 protein at amino acid 223 of 433 (UniProt.org). E223* has been identified in the scientific literature (PMID: 25376516), but has not been characterized, however due to the effects of truncation mutations downstream of E223 (PMID: 23612973), E223* is predicted to lead to a loss of Stk11 protein function.",
+            "references": [
+                {
+                    "id": 16023,
+                    "pubMedId": 23612973,
+                    "title": "Phosphorylation of serine 399 in LKB1 protein short form by protein kinase C\u03b6 is required for its nucleocytoplasmic transport and consequent AMP-activated protein kinase (AMPK) activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23612973"
+                },
+                {
+                    "id": 14577,
+                    "pubMedId": 25376516,
+                    "title": "Racial diversity of actionable mutations in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25376516"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6794,
+        "geneSymbol": "STK11",
+        "terms": [
+            "STK11",
+            "hLKB1",
+            "LKB1",
+            "PJS"
+        ]
+    },
+    "variant": "E223*",
+    "createDate": "02/10/2016",
+    "updateDate": "08/21/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 100394,
+        "transcript": "NM_000455",
+        "gDna": "chr19:g.1220650G>T",
+        "cDna": "c.667G>T",
+        "protein": "p.E223*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19326,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, MRTX849 treatment resulted in a partial response after 3 cycles of treatment in a patient with metastatic lung adenocarcinoma harboring KRAS G12C, KEAP1 K97M, and STK11 E223* (PMID: 31658955).",
+            "molecularProfile": {
+                "id": 34653,
+                "profileName": "KEAP1 K97M KRAS G12C STK11 E223*"
+            },
+            "therapy": {
+                "id": 7769,
+                "therapyName": "MRTX849",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16927,
+                    "pubMedId": 31658955,
+                    "title": "The KRASG12C Inhibitor MRTX849 Provides Insight toward Therapeutic Susceptibility of KRAS-Mutant Cancers in Mouse Models and Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31658955"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 18142,
+            "profileName": "STK11 E223*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19233,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "STK11 E223*"
+                },
+                {
+                    "id": 19232,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "STK11 E223*"
+                }
+            ]
+        },
+        {
+            "id": 34653,
+            "profileName": "KEAP1 K97M KRAS G12C STK11 E223*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 100395,
+            "transcript": "XM_005259617",
+            "gDna": "chr19:g.1220650G>T",
+            "cDna": "c.667G>T",
+            "protein": "p.E223*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 100394,
+            "transcript": "NM_000455",
+            "gDna": "chr19:g.1220650G>T",
+            "cDna": "c.667G>T",
+            "protein": "p.E223*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 100396,
+            "transcript": "XM_005259618",
+            "gDna": "chr19:g.1220650G>T",
+            "cDna": "c.667G>T",
+            "protein": "p.E223*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

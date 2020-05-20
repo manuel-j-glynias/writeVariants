@@ -1,0 +1,158 @@
+{
+    "id": 6786,
+    "fullName": "FLT3 I836del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 I836del results in the deletion of an amino acid in the protein kinase domain activation loop of the Flt3 protein at amino acid 836 (PMID: 12663439). I836del results in constitutive phosphorylation of Flt3 and activation of Stat5, Erk signaling, leading to transformation of cultured cells (PMID: 15256420).",
+            "references": [
+                {
+                    "id": 2706,
+                    "pubMedId": 15256420,
+                    "title": "Variable sensitivity of FLT3 activation loop mutations to the small molecule tyrosine kinase inhibitor MLN518.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15256420"
+                },
+                {
+                    "id": 2863,
+                    "pubMedId": 12663439,
+                    "title": "Sensitivity toward tyrosine kinase inhibitors varies between different activating mutations of the FLT3 receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12663439"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "I836del",
+    "createDate": "05/29/2015",
+    "updateDate": "10/04/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 144515,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018500_28018502delGAT",
+        "cDna": "c.2508_2510delCAT",
+        "protein": "p.I836delI",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12171,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tandutinib (CT53518) inhibited phosphorylation of FLT3 and activation of ERK and STAT5, and reduced growth of transformed cells expressing FLT3 I836del in culture (PMID: 15256420).",
+            "molecularProfile": {
+                "id": 6640,
+                "profileName": "FLT3 I836del"
+            },
+            "therapy": {
+                "id": 933,
+                "therapyName": "Tandutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 162,
+                "name": "cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2706,
+                    "pubMedId": 15256420,
+                    "title": "Variable sensitivity of FLT3 activation loop mutations to the small molecule tyrosine kinase inhibitor MLN518.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15256420"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12172,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rydapt (midostaurin) inhibited phosphorylation of FLT3, ERK, and STAT5, and growth of transformed cells expressing FLT3 I836del in culture (PMID: 17827387).",
+            "molecularProfile": {
+                "id": 6640,
+                "profileName": "FLT3 I836del"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 162,
+                "name": "cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10126,
+                    "pubMedId": 17827387,
+                    "title": "Uniform sensitivity of FLT3 activation loop mutants to the tyrosine kinase inhibitor midostaurin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17827387"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6640,
+            "profileName": "FLT3 I836del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5002,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 I836del"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144516,
+            "transcript": "XM_017020486",
+            "gDna": "chr13:g.28015186_28015188delCAT",
+            "cDna": "c.2506_2508delATG",
+            "protein": "p.M836delM",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144515,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018500_28018502delGAT",
+            "cDna": "c.2508_2510delCAT",
+            "protein": "p.I836delI",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144517,
+            "transcript": "XM_011535015",
+            "gDna": "chr13:g.28015679_28015681delATC",
+            "cDna": "c.2506_2508delATG",
+            "protein": "p.M836delM",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

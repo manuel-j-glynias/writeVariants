@@ -1,0 +1,188 @@
+{
+    "id": 26358,
+    "fullName": "APC S811*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "APC S811* results in a premature truncation of the Apc protein at amino acid 811 of 2843 (UniProt.org). S811* results in loss of the 20-amino acid repeats of Apc involved in degradation of Beta-catenin and leads to TCF/LEF activity in culture (PMID: 28179481), and thus is predicted to result in a loss of Apc function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 324,
+        "geneSymbol": "APC",
+        "terms": [
+            "APC",
+            "BTPS2",
+            "DESMD",
+            "DP2",
+            "DP2.5",
+            "DP3",
+            "GS",
+            "PPP1R46"
+        ]
+    },
+    "variant": "S811*",
+    "createDate": "04/18/2017",
+    "updateDate": "04/18/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 142678,
+        "transcript": "NM_000038",
+        "gDna": "chr5:g.112838026C>A",
+        "cDna": "c.2432C>A",
+        "protein": "p.S811*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10562,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XAV939 inhibited growth of a colorectal cancer cell line harboring APC S811* in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27569,
+                "profileName": "APC S811*"
+            },
+            "therapy": {
+                "id": 1732,
+                "therapyName": "XAV939",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10543,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with G007-LK decreased active beta-catenin levels and Tcf/LEF activity, and reduced growth of a colorectal cancer cell line harboring APC S811* in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27569,
+                "profileName": "APC S811*"
+            },
+            "therapy": {
+                "id": 2991,
+                "therapyName": "G007-LK",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10553,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with IWR-1 decreased active beta-catenin levels and reduced growth of a colorectal cancer cell line harboring APC S811* in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27569,
+                "profileName": "APC S811*"
+            },
+            "therapy": {
+                "id": 2455,
+                "therapyName": "IWR-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27569,
+            "profileName": "APC S811*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11204,
+                    "name": "Tankyrase Inhibitor",
+                    "profileName": "APC S811*"
+                },
+                {
+                    "id": 11203,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "APC S811*"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 142677,
+            "transcript": "NM_001127510",
+            "gDna": "chr5:g.112838026C>A",
+            "cDna": "c.2432C>A",
+            "protein": "p.S811*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 142678,
+            "transcript": "NM_000038",
+            "gDna": "chr5:g.112838026C>A",
+            "cDna": "c.2432C>A",
+            "protein": "p.S811*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "id": 3356,
+    "fullName": "MET N375S",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET N375S lies within the extracellular Sema ligand-binding domain of the Met protein (UniProt.org). N375S is predicted to confer a loss of function to the Met protein, as demonstrated by decreased Met binding affinity for Hgf in cell culture (PMID: 19723643).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2020,
+                    "pubMedId": 19723643,
+                    "title": "Ethnic differences and functional analysis of MET mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19723643"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "N375S",
+    "createDate": "02/25/2015",
+    "updateDate": "09/17/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 144817,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116700208A>G",
+        "cDna": "c.1124A>G",
+        "protein": "p.N375S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2622,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing MET N375S had decreased sensitivity to SU11274 in culture compared to cells expressing wild-type MET (PMID: 19723643).",
+            "molecularProfile": {
+                "id": 3165,
+                "profileName": "MET N375S"
+            },
+            "therapy": {
+                "id": 1089,
+                "therapyName": "SU11274",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2020,
+                    "pubMedId": 19723643,
+                    "title": "Ethnic differences and functional analysis of MET mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19723643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11049,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with oral cavity cancer harboring MET N375S demonstrated progressive disease and overall survival of five weeks when treated with Xalkori (crizotinib) (PMID: 28514312).",
+            "molecularProfile": {
+                "id": 3165,
+                "profileName": "MET N375S"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8618,
+                "name": "oral cavity cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9046,
+                    "pubMedId": 28514312,
+                    "title": "Treatment inferred from mutations identified using massive parallel sequencing leads to clinical benefit in some heavily pretreated cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28514312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7769,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with ovarian cancer harboring MET N375S demonstrated sensitivity to the combination treatment, Nexavar (sorafenib) and Avastin (bevacizumab), resulting in stable disease for greater than six months (PMID: 25363205).",
+            "molecularProfile": {
+                "id": 3165,
+                "profileName": "MET N375S"
+            },
+            "therapy": {
+                "id": 4517,
+                "therapyName": "Bevacizumab + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6478,
+                    "pubMedId": 25363205,
+                    "title": "Dual antiangiogenic inhibition: a phase I dose escalation and expansion trial targeting VEGF-A and VEGFR in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25363205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3165,
+            "profileName": "MET N375S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28958,
+            "profileName": "ERBB2 pos KRAS amp MET N375S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144816,
+            "transcript": "NM_001127500",
+            "gDna": "chr7:g.116700208A>G",
+            "cDna": "c.1124A>G",
+            "protein": "p.N375S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144817,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116700208A>G",
+            "cDna": "c.1124A>G",
+            "protein": "p.N375S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144818,
+            "transcript": "NM_001324401",
+            "gDna": "chr7:g.116700208A>G",
+            "cDna": "c.1124A>G",
+            "protein": "p.N375S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

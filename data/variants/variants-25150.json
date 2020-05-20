@@ -1,0 +1,119 @@
+{
+    "id": 25150,
+    "fullName": "EGF over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGF over exp indicates an over expression of the Egf protein and/or mRNA. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 1950,
+        "geneSymbol": "EGF",
+        "terms": [
+            "EGF",
+            "HOMG4",
+            "URG"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "08/10/2016",
+    "updateDate": "08/17/2017",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7718,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III clinical trial, vaccination with CIMAvax-EGF resulted in improved survival in non-small cell lung cancer patients with high serum EGF levels compared to nonvaccinated patients (HR, 0.41; 95% CI, 0.25-0.67; P = 0.0001), with a 5-year survival rate of 23% in vaccinated patients and 0% for nonvaccinated patients (PMID: 26927662).",
+            "molecularProfile": {
+                "id": 25931,
+                "profileName": "EGF over exp"
+            },
+            "therapy": {
+                "id": 4551,
+                "therapyName": "CIMAvax-EGF",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6453,
+                    "pubMedId": 26927662,
+                    "title": "A Phase III Clinical Trial of the Epidermal Growth Factor Vaccine CIMAvax-EGF as Switch Maintenance Therapy in Advanced Non-Small Cell Lung Cancer Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26927662"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 9076,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring EML4-ALK fusion acquired resistance to Alecensa (alectinib) through up-regulating Egf and Tgfa expression, therefore activated Egfr signaling in culture (PMID: 26682573).",
+            "molecularProfile": {
+                "id": 26714,
+                "profileName": "EML4 - ALK EGF over exp TGFA over exp"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6894,
+                    "pubMedId": 26682573,
+                    "title": "Activation of EGFR Bypass Signaling by TGF\u03b1 Overexpression Induces Acquired Resistance to Alectinib in ALK-Translocated Lung Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26682573"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25931,
+            "profileName": "EGF over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26714,
+            "profileName": "EML4 - ALK EGF over exp TGFA over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

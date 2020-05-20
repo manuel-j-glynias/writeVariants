@@ -1,0 +1,125 @@
+{
+    "id": 26143,
+    "fullName": "ARID1A E1776*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "ARID1A E1776* results in a premature truncation of the Arid1a protein at amino acid 1776 of 2285 (UniProt.org). E1776* has not been characterized, however, due to the effects of truncation mutations downstream of E1776 (PMID: 29736026), E1776* is predicted to lead to a loss of Arid1a protein function.",
+            "references": [
+                {
+                    "id": 11347,
+                    "pubMedId": 29736026,
+                    "title": "ARID1A deficiency promotes mutability and potentiates therapeutic antitumor immunity unleashed by immune checkpoint blockade.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29736026"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8289,
+        "geneSymbol": "ARID1A",
+        "terms": [
+            "ARID1A",
+            "B120",
+            "BAF250",
+            "BAF250a",
+            "BM029",
+            "C1orf4",
+            "CSS2",
+            "ELD",
+            "hELD",
+            "hOSA1",
+            "MRD14",
+            "OSA1",
+            "P270",
+            "SMARCF1"
+        ]
+    },
+    "variant": "E1776*",
+    "createDate": "03/09/2017",
+    "updateDate": "01/06/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 140816,
+        "transcript": "NM_006015",
+        "gDna": "chr1:g.26779224G>T",
+        "cDna": "c.5326G>T",
+        "protein": "p.E1776*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10236,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9496 reduced tumor growth in a breast cancer patient-derived xenograft (PDX) model harboring ESR1 D538G, which also harbored PIK3CA N345K, ARID1A E1776*, and ARID1A S705fs (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 27322,
+                "profileName": "ARID1A S705fs ARID1A E1776* ESR1 D538G PIK3CA N345K"
+            },
+            "therapy": {
+                "id": 2997,
+                "therapyName": "AZD9496",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27322,
+            "profileName": "ARID1A S705fs ARID1A E1776* ESR1 D538G PIK3CA N345K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27324,
+            "profileName": "ARID1A E1776*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19491,
+                    "name": "EZH2 inhibitor",
+                    "profileName": "ARID1A E1776*"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 140816,
+            "transcript": "NM_006015",
+            "gDna": "chr1:g.26779224G>T",
+            "cDna": "c.5326G>T",
+            "protein": "p.E1776*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

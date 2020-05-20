@@ -1,0 +1,215 @@
+{
+    "id": 1601,
+    "fullName": "BRAF G469R",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G469R is a hotspot mutation within the protein kinase domain of the Braf protein (UniProt.org). G469R demonstrates intermediate BRAF kinase activity (PMID: 28783719) and results in constitutive ERK activation in cell culture (PMID: 24920063), and in one of two cell lines leads to increased cell proliferation and cell viability compared to wild-type Braf (PMID: 29533785), and is therefore predicted to confer a gain of function to the Braf protein.",
+            "references": [
+                {
+                    "id": 4372,
+                    "pubMedId": 24920063,
+                    "title": "Acquired initiating mutations in early hematopoietic cells of CLL patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24920063"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G469R",
+    "createDate": "09/04/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109138,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781603C>T",
+        "cDna": "c.1405G>A",
+        "protein": "p.G469R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6603,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) modestly inhibited proliferation of human melanoma cells harboring BRAF G469R and NRAS Q61K in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23638,
+                "profileName": "BRAF G469R NRAS Q61K"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6612,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cells harboring BRAF G469R and NRAS G61K were insensitive to Zelboraf (vemurafenib) in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23638,
+                "profileName": "BRAF G469R NRAS Q61K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6592,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3009120 inhibited soft agar growth of human melanoma cancer cells harboring BRAF G469R and NRAS Q61K in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23638,
+                "profileName": "BRAF G469R NRAS Q61K"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3646,
+            "profileName": "BRAF G469R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14497,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G469R"
+                },
+                {
+                    "id": 14498,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G469R"
+                },
+                {
+                    "id": 14496,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G469R"
+                },
+                {
+                    "id": 14495,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G469R"
+                }
+            ]
+        },
+        {
+            "id": 23638,
+            "profileName": "BRAF G469R NRAS Q61K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109138,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781603C>T",
+            "cDna": "c.1405G>A",
+            "protein": "p.G469R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109137,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781603C>T",
+            "cDna": "c.1405G>A",
+            "protein": "p.G469R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "id": 23858,
+    "fullName": "ERBB2 D277H",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) D277H lies within the extracellular domain of the Erbb2 (Her2) protein (UniProt.org). D277H results in minor changes in Erbb2 (Her2) activity alone, but enhanced phosphorylation of Erbb2 (Her2), Shc and Erk when in combination with S310F in cell culture (PMID: 24971884), and therefore, its effect on Erbb2 (Her2) protein function is unknown.",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "D277H",
+    "createDate": "06/28/2016",
+    "updateDate": "10/21/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 170424,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39710409G>C",
+        "cDna": "c.829G>C",
+        "protein": "p.D277H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7178,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited foci formation of bladder cancer cells over expressing both ERBB2 (HER2) D277H and S310F in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 24585,
+                "profileName": "ERBB2 D277H ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7179,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) inhibited foci formation of bladder cancer cells over expressing both ERBB2 (HER2) D277H and S310F in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 24585,
+                "profileName": "ERBB2 D277H ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7180,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bladder cancer cells over expressing both ERBB2 (HER2) D277H and S310F demonstrated reduced sensitivity to Selumetinib (AZD6244) in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 24585,
+                "profileName": "ERBB2 D277H ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 24582,
+            "profileName": "ERBB2 D277H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24585,
+            "profileName": "ERBB2 D277H ERBB2 S310F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170422,
+            "transcript": "NM_001005862",
+            "gDna": "chr17:g.39711945G>C",
+            "cDna": "c.829G>C",
+            "protein": "p.D277H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170423,
+            "transcript": "NM_001289938",
+            "gDna": "chr17:g.39711945G>C",
+            "cDna": "c.829G>C",
+            "protein": "p.D277H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170424,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39710409G>C",
+            "cDna": "c.829G>C",
+            "protein": "p.D277H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170425,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39710409G>C",
+            "cDna": "c.829G>C",
+            "protein": "p.D277H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

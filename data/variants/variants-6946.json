@@ -1,0 +1,216 @@
+{
+    "id": 6946,
+    "fullName": "FLT3 R834Q",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 R834Q lies within the protein kinase domain of the Flt3 protein (UniProt.org). R834Q results in constitutive phosphorylation of Flt3, activation of Erk signaling, and is transforming in culture (PMID: 18068628).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2803,
+                    "pubMedId": 18068628,
+                    "title": "Identification of driver and passenger mutations of FLT3 by high-throughput DNA sequence analysis and functional assessment of candidate alleles.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18068628"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "R834Q",
+    "createDate": "06/02/2015",
+    "updateDate": "10/04/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 144563,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018507C>T",
+        "cDna": "c.2501G>A",
+        "protein": "p.R834Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2285,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rydapt (midostaurin) inhibited FLT3-induced phosphorylation of ERK1/2 and reduced growth of transformed cells expressing FLT3 R834Q in culture (PMID: 18068628).",
+            "molecularProfile": {
+                "id": 6799,
+                "profileName": "FLT3 R834Q"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2803,
+                    "pubMedId": 18068628,
+                    "title": "Identification of driver and passenger mutations of FLT3 by high-throughput DNA sequence analysis and functional assessment of candidate alleles.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18068628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2286,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PD98059 inhibited ERK1/2 phosphorylation and reduced cell growth in transformed cells expressing FLT3 R834Q (PMID: 18068628).",
+            "molecularProfile": {
+                "id": 6799,
+                "profileName": "FLT3 R834Q"
+            },
+            "therapy": {
+                "id": 2617,
+                "therapyName": "PD98059",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2803,
+                    "pubMedId": 18068628,
+                    "title": "Identification of driver and passenger mutations of FLT3 by high-throughput DNA sequence analysis and functional assessment of candidate alleles.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18068628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4807,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing FLT3-ITD with FLT3 R834Q were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19275,
+                "profileName": "FLT3 exon 14 ins FLT3 R834Q"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4808,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a compound FLT3-ITD/F691Q/R834Q mutation were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19276,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 R834Q"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6799,
+            "profileName": "FLT3 R834Q",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5025,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 R834Q"
+                }
+            ]
+        },
+        {
+            "id": 19275,
+            "profileName": "FLT3 exon 14 ins FLT3 R834Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19276,
+            "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 R834Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144563,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018507C>T",
+            "cDna": "c.2501G>A",
+            "protein": "p.R834Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

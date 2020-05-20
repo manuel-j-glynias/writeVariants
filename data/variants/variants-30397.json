@@ -1,0 +1,232 @@
+{
+    "id": 30397,
+    "fullName": "MET D1010N",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET D1010N lies within the juxtamembrane domain of the Met protein (PMID: 19096300). D1010N has been identified in the scientific literature (PMID: 27022036, PMID: 28779874), but has not been biochemically characterized and therefore, its effect on Met protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 15438,
+                    "pubMedId": 27022036,
+                    "title": "MET Exon 14 Skipping in Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27022036"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 15439,
+                    "pubMedId": 28779874,
+                    "title": "MET Exon 14 Alterations and New Resistance Mutations to Tyrosine Kinase Inhibitors: Risk of Inadequate Detection with Current Amplicon-Based NGS Panels.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28779874"
+                },
+                {
+                    "id": 15740,
+                    "pubMedId": 19096300,
+                    "title": "Activation of MET by gene amplification or by splice mutations deleting the juxtamembrane domain in primary resected lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19096300"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "D1010N",
+    "createDate": "06/26/2019",
+    "updateDate": "03/07/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 181225,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116771989G>A",
+        "cDna": "c.3028G>A",
+        "protein": "p.D1010N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20357,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient harboring MET D1010N demonstrated stable disease as a best objective response for 28.7 months when treated with Merestinib (LY2801653) (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 32563,
+                "profileName": "MET D1010N"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20351,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient with ERBB3 (HER3) amplification, MET amplification, and MET D1010N demonstrated a partial response for 13.3 months when treated with Xalkori (crizotinib) (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35147,
+                "profileName": "ERBB3 amp MET D1010N MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20354,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient with MET D1010N, MET amplification, and ERBB3 (HER3) amplification initially responded to Xalkori (crizotinib), but then progressed, and was found via tissue testing and plasma testing to have acquired CCND1 amplification (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35150,
+                "profileName": "CCND1 amp ERBB3 amp MET D1010N MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20356,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient harboring CCDN1 amplification, KRAS G60D, and MET D1010N via plasma testing demonstrated stable disease for 3.8 months when treated with Glesatinib (MGCD265), but then progressed, and plasma testing revealed acquisition of ERBB3 (HER3) amplification (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35153,
+                "profileName": "CCND1 amp ERBB3 amp KRAS G60D MET D1010N"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32563,
+            "profileName": "MET D1010N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35147,
+            "profileName": "ERBB3 amp MET D1010N MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35150,
+            "profileName": "CCND1 amp ERBB3 amp MET D1010N MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35153,
+            "profileName": "CCND1 amp ERBB3 amp KRAS G60D MET D1010N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 181225,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116771989G>A",
+            "cDna": "c.3028G>A",
+            "protein": "p.D1010N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,260 @@
+{
+    "id": 22154,
+    "fullName": "NRG1 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRG1 over exp indicates an over expression of the NRG1 protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 3084,
+        "geneSymbol": "NRG1",
+        "terms": [
+            "NRG1",
+            "ARIA",
+            "GGF",
+            "GGF2",
+            "HGL",
+            "HRG",
+            "HRG1",
+            "HRGA",
+            "MST131",
+            "MSTP131",
+            "NDF",
+            "NRG1-IT2",
+            "SMDF"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "05/03/2016",
+    "updateDate": "05/03/2016",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6095,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Linsitinib (OSI-906) and Tarceva (erlotinib) combination treatment inhibited growth of non-small cell lung carcinoma cell lines that acquired Alecensa (alectinib)-resistance through over-expression of IGF1R and NRG1 in culture (PMID: 26719536).",
+            "molecularProfile": {
+                "id": 22703,
+                "profileName": "IGF1R over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4041,
+                "therapyName": "Erlotinib + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5313,
+                    "pubMedId": 26719536,
+                    "title": "Non-Small Cell Lung Cancer Cells Acquire Resistance to the ALK Inhibitor Alectinib by Activating Alternative Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26719536"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6093,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, prolonged exposure to Alecensa (alectinib) resulted in acquired resistance through over-expression of IGF1R and NRG1, and loss of EML4-ALK in a non-small cell lung carcinoma cell line originally harboring EML4-ALK in culture (PMID: 26719536).",
+            "molecularProfile": {
+                "id": 22703,
+                "profileName": "IGF1R over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5313,
+                    "pubMedId": 26719536,
+                    "title": "Non-Small Cell Lung Cancer Cells Acquire Resistance to the ALK Inhibitor Alectinib by Activating Alternative Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26719536"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8238,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uveal melanoma cells cultured in a condition medium that over expresses HGF and NRG1 resulted in resistance to Mekinist (trametinib) in culture, however, the addition of Xalkori (crizotinib) led to restored sensitivity (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4480,
+                "therapyName": "Crizotinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8236,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of NRG1 and HGF in uveal melanoma cells treated with Mekinist (trametinib) led to increased Akt activity, which was reduced when additionally treated with MK2206 in culture (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4653,
+                "therapyName": "MK2206 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8234,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment of uveal melanoma cells with Mekinist (trametinib) in culture resulted in resistance, which was mediated by the over expression of HGF and NRG1 (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8237,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, uveal melanoma cells cultured in a condition medium that over expresses HGF and NRG1 resulted in resistance to Mekinist (trametinib) in culture, however, the addition of Tykerb (lapatinib) led to restored sensitivity (PMID: 25952648).",
+            "molecularProfile": {
+                "id": 26204,
+                "profileName": "HGF over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4668,
+                "therapyName": "Lapatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6039,
+                "name": "uveal melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6584,
+                    "pubMedId": 25952648,
+                    "title": "Paracrine Effect of NRG1 and HGF Drives Resistance to MEK Inhibitors in Metastatic Uveal Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25952648"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 22702,
+            "profileName": "NRG1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22703,
+            "profileName": "IGF1R over exp NRG1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26204,
+            "profileName": "HGF over exp NRG1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

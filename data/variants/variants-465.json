@@ -1,0 +1,407 @@
+{
+    "id": 465,
+    "fullName": "BRAF G464V",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G464V (also reported as G463V) lies within the protein kinase domain of the Braf protein (UniProt.org). G464V results in increased Braf kinase activity and increased downstream Mek and Erk activation (PMID: 12068308, PMID: 26343582), and in one of two cell lines, increased cell proliferation and viability compared to wild-type Braf in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 637,
+                    "pubMedId": 12068308,
+                    "title": "Mutations of the BRAF gene in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12068308"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G464V",
+    "createDate": "05/02/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109122,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781617C>A",
+        "cDna": "c.1391G>T",
+        "protein": "p.G464V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9411,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF G464V (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 664,
+                "profileName": "BRAF G464V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16110,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Zelboraf (vemurafenib) treatment resulted in an objective response in only 4% (1/23) of patient with advanced solid tumors harboring non-V600 BRAF mutations, 2 of the non-responding patients harbored BRAF G464V (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 664,
+                "profileName": "BRAF G464V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15565,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) treatment did not result in significant growth inhibition in a breast cancer cell line harboring BRAF G464V and KRAS G13D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1075,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Stivarga (regorafenib) inhibited proliferation of breast cancer cells harboring BRAF G464V and KRAS G13D in culture and inhibited angiogenesis and tumor growth in cell line xenograft models (PMID: 21170960).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 318,
+                    "pubMedId": 21170960,
+                    "title": "Regorafenib (BAY 73-4506): a new oral multikinase inhibitor of angiogenic, stromal and oncogenic receptor tyrosine kinases with potent preclinical antitumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21170960"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15520,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Braftovi (encorafenib) to treatment with Mekinist (trametinib) resulted in increased growth inhibition in a breast cancer cell line harboring BRAF G464V and KRAS G13D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 7661,
+                "therapyName": "Encorafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3129,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) inhibited growth of human breast cancer cells harboring BRAF G464V and KRAS G13D in culture (PMID: 21325073, PMID: 17314276).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3636,
+                    "pubMedId": 17314276,
+                    "title": "Phosphatidylinositol-3-OH kinase or RAS pathway mutations in human breast cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17314276"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2973,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH5132799 demonstrated decreased response to tumor growth inhibition in xenograft models of human breast cancer cell lines harboring KRAS G13D and BRAF G464V (PMID: 21558396).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 2152,
+                "therapyName": "CH5132799",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 1985,
+                    "pubMedId": 21558396,
+                    "title": "The selective class I PI3K inhibitor CH5132799 targets human cancers harboring oncogenic PIK3CA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21558396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10363,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DHM25 increased cell death and decreased migration of a triple-negative breast cancer cell line harboring KRAS G13D and BRAF G464V in culture, and reduced tumor growth and lung metastasis in xenograft models (PMID: 26237138).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 5494,
+                "therapyName": "DHM25",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8367,
+                    "pubMedId": 26237138,
+                    "title": "A Novel Covalent mTOR Inhibitor, DHM25, Shows in Vivo Antitumor Activity against Triple-Negative Breast Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26237138"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15545,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Zelboraf (vemurafenib) to treatment with Mekinist (trametinib) resulted in increased proliferation compared to Mekinist (trametinib) alone in a breast cancer cell line harboring BRAF G464V and KRAS G13D in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 10754,
+                "profileName": "BRAF G464V KRAS G13D"
+            },
+            "therapy": {
+                "id": 4234,
+                "therapyName": "Trametinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 664,
+            "profileName": "BRAF G464V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14310,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G464V"
+                },
+                {
+                    "id": 14308,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G464V"
+                },
+                {
+                    "id": 14309,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G464V"
+                },
+                {
+                    "id": 14307,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G464V"
+                }
+            ]
+        },
+        {
+            "id": 10754,
+            "profileName": "BRAF G464V KRAS G13D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109121,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781617C>A",
+            "cDna": "c.1391G>T",
+            "protein": "p.G464V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109122,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781617C>A",
+            "cDna": "c.1391G>T",
+            "protein": "p.G464V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "id": 30941,
+    "fullName": "KIT T670A",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT T670A lies within the protein kinase domains of the Kit protein (UniProt.org). T670A results in weak phosphorylation of the Kit protein when present with KIT V559del in cultured cells (PMID: 19176456), but has not been individually characterized and therefore, its effect on Kit protein function is unknown.",
+            "references": [
+                {
+                    "id": 16208,
+                    "pubMedId": 19176456,
+                    "title": "T670X KIT mutations in gastrointestinal stromal tumors: making sense of missense.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19176456"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "T670A",
+    "createDate": "09/11/2019",
+    "updateDate": "04/02/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 182552,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54729352A>G",
+        "cDna": "c.2008A>G",
+        "protein": "p.T670A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18473,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT D816V and KIT T670A were sensitive to treatment with Rydapt (midostaurin) in culture, demonstrating decreased cell proliferation (PMID: 31270078).",
+            "molecularProfile": {
+                "id": 33241,
+                "profileName": "KIT T670A KIT D816V"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18471,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT D816V and KIT T670A demonstrated sensitivity to treatment with Ayvakit (avapritinib) in culture (PMID: 31270078).",
+            "molecularProfile": {
+                "id": 33241,
+                "profileName": "KIT T670A KIT D816V"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 33237,
+            "profileName": "KIT T670A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33241,
+            "profileName": "KIT T670A KIT D816V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 182553,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54729352A>G",
+            "cDna": "c.2008A>G",
+            "protein": "p.T670A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 182552,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54729352A>G",
+            "cDna": "c.2008A>G",
+            "protein": "p.T670A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

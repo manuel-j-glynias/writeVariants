@@ -1,0 +1,206 @@
+{
+    "id": 5860,
+    "fullName": "PIK3R1 R348*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3R1 R348* results in a premature truncation of the Pik3r1 protein at amino acid 348 of 724 (UniProt.org). R348* confers confers a loss of function to the Pik3r1 function, as demonstrated by the inability to inhibit p110alpha (Pik3ca) kinase activity, leading to constitutive activation of PI3K signaling as indicated by increased phosphorylation of Erk and Jnk in culture (PMID: 25284480) and is transforming in cell culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 2662,
+                    "pubMedId": 25284480,
+                    "title": "Naturally occurring neomorphic PIK3R1 mutations activate the MAPK pathway, dictating therapeutic response to MAPK pathway inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25284480"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5295,
+        "geneSymbol": "PIK3R1",
+        "terms": [
+            "PIK3R1",
+            "AGM7",
+            "GRB1",
+            "IMD36",
+            "p85",
+            "p85-ALPHA"
+        ]
+    },
+    "variant": "R348*",
+    "createDate": "05/07/2015",
+    "updateDate": "12/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 157896,
+        "transcript": "NM_181523",
+        "gDna": "chr5:g.68293123C>T",
+        "cDna": "c.1042C>T",
+        "protein": "p.R348*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2150,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines expressing PIK3R1 R348* were sensitive to MK2206 (PMID: 25284480).",
+            "molecularProfile": {
+                "id": 5691,
+                "profileName": "PIK3R1 R348*"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2662,
+                    "pubMedId": 25284480,
+                    "title": "Naturally occurring neomorphic PIK3R1 mutations activate the MAPK pathway, dictating therapeutic response to MAPK pathway inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25284480"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2153,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines expressing PIK3R1 R348* were sensitive to Selumetinib (AZD6244) (PMID: 25284480).",
+            "molecularProfile": {
+                "id": 5691,
+                "profileName": "PIK3R1 R348*"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2662,
+                    "pubMedId": 25284480,
+                    "title": "Naturally occurring neomorphic PIK3R1 mutations activate the MAPK pathway, dictating therapeutic response to MAPK pathway inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25284480"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2154,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines expressing PIK3R1 R348* demonstrated resistance to GDC-0941 (PMID: 25284480).",
+            "molecularProfile": {
+                "id": 5691,
+                "profileName": "PIK3R1 R348*"
+            },
+            "therapy": {
+                "id": 749,
+                "therapyName": "Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2662,
+                    "pubMedId": 25284480,
+                    "title": "Naturally occurring neomorphic PIK3R1 mutations activate the MAPK pathway, dictating therapeutic response to MAPK pathway inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25284480"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5691,
+            "profileName": "PIK3R1 R348*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11314,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3R1 R348*"
+                },
+                {
+                    "id": 11313,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3R1 R348*"
+                },
+                {
+                    "id": 11315,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3R1 R348*"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157897,
+            "transcript": "XM_017009585",
+            "gDna": "chr5:g.68293123C>T",
+            "cDna": "c.1042C>T",
+            "protein": "p.R348*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157896,
+            "transcript": "NM_181523",
+            "gDna": "chr5:g.68293123C>T",
+            "cDna": "c.1042C>T",
+            "protein": "p.R348*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157895,
+            "transcript": "XM_005248542",
+            "gDna": "chr5:g.68293123C>T",
+            "cDna": "c.1042C>T",
+            "protein": "p.R348*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,440 @@
+{
+    "id": 3220,
+    "fullName": "NRAS Q61R",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS Q61R is a hotspot mutation that lies within a GTP-binding region of the Nras protein (UniProt.org). Q61R results in a loss of Nras GTPase function as indicated by increased GTP-bound Nras, which leads to activation of Mapk signaling in culture (PMID: 16818621).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 12302,
+                    "pubMedId": 16818621,
+                    "title": "Coexpression of NRASQ61R and BRAFV600E in human melanoma cells activates senescence and increases susceptibility to cell-mediated cytotoxicity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16818621"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "Q61R",
+    "createDate": "02/19/2015",
+    "updateDate": "09/20/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162462,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114713908T>C",
+        "cDna": "c.182A>G",
+        "protein": "p.Q61R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8218,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK2206 inhibited AKT activation, proliferation, and growth of thyroid cancer cell lines with PI3K/AKT pathway alterations in culture, including an anaplastic thyroid cancer cell line harboring NRAS Q61R (PMID: 21289267).",
+            "molecularProfile": {
+                "id": 3043,
+                "profileName": "NRAS Q61R"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6573,
+                    "pubMedId": 21289267,
+                    "title": "The Akt-specific inhibitor MK2206 selectively inhibits thyroid cancer cells harboring mutations that can activate the PI3K/Akt pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21289267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10898,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Binimetinib (MEK162) treatment resulted in partial response in 20% (6/30), and stable disease in 43% (13/30) of melanoma patients harboring NRAS mutations, including Q61L (1/30), Q61K (9/30), and Q61R (15/30) (PMID: 23414587).",
+            "molecularProfile": {
+                "id": 3043,
+                "profileName": "NRAS Q61R"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 180,
+                    "pubMedId": 23414587,
+                    "title": "MEK162 for patients with advanced melanoma harbouring NRAS or Val600 BRAF mutations: a non-randomised, open-label phase 2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23414587"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3830,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY1125976 inhibited Akt activation and downstream signaling in bladder cancer cell lines carrying both Akt1 E17K and Nras Q61R mutations (AACR; Cancer Res 2014;74(19 Suppl):Abstract nr 3685).",
+            "molecularProfile": {
+                "id": 16525,
+                "profileName": "AKT1 E17K NRAS Q61R"
+            },
+            "therapy": {
+                "id": 994,
+                "therapyName": "BAY1125976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2275,
+                    "pubMedId": null,
+                    "title": "Abstract 3685: BAY 1125976, is a selective allosteric AKT1/2 inhibitor with high efficacy in AKT1-mutated cancers",
+                    "url": "http://cancerres.aacrjournals.org/content/74/19_Supplement/3685"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4518,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YAP1 knockdown enhanced sensitivity of human melanoma cell lines harboring NRAS Q61R to Mekinist (trametinib) in culture (PMID: 25665005).",
+            "molecularProfile": {
+                "id": 18274,
+                "profileName": "NRAS Q61R YAP1 dec exp"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4582,
+                    "pubMedId": 25665005,
+                    "title": "The Hippo effector YAP promotes resistance to RAF- and MEK-targeted cancer therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25665005"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7068,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a melanoma patient harboring a BRAF V600 mutation developed resistance-associated mutations, MAP2K1 V60E, NRAS T58I, and NRAS Q61R, after 18 weeks of treatment with Zelboraf (vemurafenib) (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24385,
+                "profileName": "BRAF V600X MAP2K1 V60E NRAS T58I NRAS Q61R"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11050,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a melanoma patient harboring KIT D816V and NRAS Q61R demonstrated progressive disease when treated with a combination of Mekinist (trametinib) and Keytruda (pembrolizumab) (PMID: 28514312).",
+            "molecularProfile": {
+                "id": 27900,
+                "profileName": "KIT D816V NRAS Q61R"
+            },
+            "therapy": {
+                "id": 1450,
+                "therapyName": "Pembrolizumab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 9046,
+                    "pubMedId": 28514312,
+                    "title": "Treatment inferred from mutations identified using massive parallel sequencing leads to clinical benefit in some heavily pretreated cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28514312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11054,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a melanoma patient harboring an ATM mutation and NRAS Q61R demonstrated a partial response and 16 month progression free survival when treated with Binimetinib (MEK162) (PMID: 28514312).",
+            "molecularProfile": {
+                "id": 27905,
+                "profileName": "ATM mut NRAS Q61R"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9046,
+                    "pubMedId": 28514312,
+                    "title": "Treatment inferred from mutations identified using massive parallel sequencing leads to clinical benefit in some heavily pretreated cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28514312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18486,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ZT-12-037-01 treatment inhibited cell proliferation and colony formation in human melanoma cells expressing NRAS Q61R and STK19 D89N, and reduced tumor growth in a cell line xenograft model (PMID: 30712867).",
+            "molecularProfile": {
+                "id": 33327,
+                "profileName": "NRAS Q61R STK19 D89N"
+            },
+            "therapy": {
+                "id": 8729,
+                "therapyName": "ZT-12-037-01",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15787,
+                    "pubMedId": 30712867,
+                    "title": "Pharmacological Targeting of STK19 Inhibits Oncogenic NRAS-Driven Melanomagenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30712867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18487,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ZT-12-037-01 treatment induced apoptosis and inhibited cell proliferation and colony formation in culture and reduced tumor growth and increased survival in cell line xenograft models of melanoma harboring wild-type STK19 and NRAS Q61R (PMID: 30712867).",
+            "molecularProfile": {
+                "id": 33400,
+                "profileName": "NRAS Q61R STK19 wild-type"
+            },
+            "therapy": {
+                "id": 8729,
+                "therapyName": "ZT-12-037-01",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15787,
+                    "pubMedId": 30712867,
+                    "title": "Pharmacological Targeting of STK19 Inhibits Oncogenic NRAS-Driven Melanomagenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30712867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3043,
+            "profileName": "NRAS Q61R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16403,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS Q61R"
+                },
+                {
+                    "id": 16407,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS Q61R"
+                },
+                {
+                    "id": 16408,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS Q61R"
+                },
+                {
+                    "id": 16405,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS Q61R"
+                },
+                {
+                    "id": 16404,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS Q61R"
+                },
+                {
+                    "id": 16406,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS Q61R"
+                }
+            ]
+        },
+        {
+            "id": 16525,
+            "profileName": "AKT1 E17K NRAS Q61R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 18274,
+            "profileName": "NRAS Q61R YAP1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24385,
+            "profileName": "BRAF V600X MAP2K1 V60E NRAS T58I NRAS Q61R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27900,
+            "profileName": "KIT D816V NRAS Q61R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27905,
+            "profileName": "ATM mut NRAS Q61R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33327,
+            "profileName": "NRAS Q61R STK19 D89N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33328,
+            "profileName": "NRAS Q61R STK19 V134Y",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33400,
+            "profileName": "NRAS Q61R STK19 wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162462,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114713908T>C",
+            "cDna": "c.182A>G",
+            "protein": "p.Q61R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

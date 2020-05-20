@@ -1,0 +1,148 @@
+{
+    "id": 1634,
+    "fullName": "KIT D816F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT D816F lies within the tyrosine kinase domain 2 of the Kit protein (PMID: 17555444). D816F results in constitutive phosphorylation of Kit and activation of Stat3, Mapk, and Akt signaling in cultured cells (PMID: 9990072, PMID: 16397263), and also confers resistance to imatinib in culture (PMID: 16397263).",
+            "references": [
+                {
+                    "id": 657,
+                    "pubMedId": 16397263,
+                    "title": "Dasatinib (BMS-354825), a dual SRC/ABL kinase inhibitor, inhibits the kinase activity of wild-type, juxtamembrane, and activation loop mutant KIT isoforms associated with human malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16397263"
+                },
+                {
+                    "id": 667,
+                    "pubMedId": 9990072,
+                    "title": "Activating and dominant inactivating c-KIT catalytic domain mutations in distinct clinical forms of human mastocytosis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9990072"
+                },
+                {
+                    "id": 9818,
+                    "pubMedId": 17555444,
+                    "title": "Recent advances in the understanding of mastocytosis: the role of KIT mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17555444"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "D816F",
+    "createDate": "09/09/2014",
+    "updateDate": "09/14/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 136066,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54733154_54733155delGAinsTT",
+        "cDna": "c.2446_2447delGAinsTT",
+        "protein": "p.D816F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15025,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT D816F were resistant to Gleevec (imatinib mesylate) in culture (PMID: 16397263).",
+            "molecularProfile": {
+                "id": 1648,
+                "profileName": "KIT D816F"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 657,
+                    "pubMedId": 16397263,
+                    "title": "Dasatinib (BMS-354825), a dual SRC/ABL kinase inhibitor, inhibits the kinase activity of wild-type, juxtamembrane, and activation loop mutant KIT isoforms associated with human malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16397263"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1648,
+            "profileName": "KIT D816F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1234,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT D816F"
+                },
+                {
+                    "id": 6125,
+                    "name": "Avapritinib",
+                    "profileName": "KIT D816F"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136069,
+            "transcript": "XM_017008179",
+            "gDna": "chr4:g.54733166_54733167delGAinsTT",
+            "cDna": "c.2446_2447delGAinsTT",
+            "protein": "p.D816F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136066,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54733154_54733155delGAinsTT",
+            "cDna": "c.2446_2447delGAinsTT",
+            "protein": "p.D816F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136068,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54733154_54733155delGAinsTT",
+            "cDna": "c.2446_2447delGAinsTT",
+            "protein": "p.D816F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136067,
+            "transcript": "NM_001093772",
+            "gDna": "chr4:g.54733166_54733167delGAinsTT",
+            "cDna": "c.2446_2447delGAinsTT",
+            "protein": "p.D816F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

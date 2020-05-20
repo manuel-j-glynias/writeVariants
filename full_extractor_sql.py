@@ -5,7 +5,7 @@ from graphql_utils import send_query
 from sql_utils import get_cloud_db_connection, drop_database, maybe_create_and_select_database, does_table_exist, \
     get_local_db_connection
 
-
+# need to change these when updating to new schema on production server
 def get_current_author_data(server:str)->list:
     query = '{Author { id, surname, first_initial } }'
 

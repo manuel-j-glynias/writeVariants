@@ -1,0 +1,373 @@
+{
+    "id": 4449,
+    "fullName": "PTEN T321fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PTEN T321fs results in a change in the amino acid sequence of the PTEN protein beginning at aa 321 of 403, likely resulting in premature truncation of the functional protein (UniProt.org). T321fs has not been characterized, however other C-terminal deletion mutants downstream of T321 are inactivating (PMID: 10468583), thus T321fs is predicted to lead to a loss of Pten protein function.",
+            "references": [
+                {
+                    "id": 2371,
+                    "pubMedId": 10468583,
+                    "title": "The tumor-suppressor activity of PTEN is regulated by its carboxyl-terminal region.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10468583"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5728,
+        "geneSymbol": "PTEN",
+        "terms": [
+            "PTEN",
+            "10q23del",
+            "BZS",
+            "CWS1",
+            "DEC",
+            "GLM2",
+            "MHAM",
+            "MMAC1",
+            "PTEN1",
+            "PTENbeta",
+            "TEP1"
+        ]
+    },
+    "variant": "T321fs",
+    "createDate": "04/04/2015",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 169615,
+        "transcript": "NM_000314",
+        "gDna": "chr10:g.(87961052_87961053)",
+        "cDna": "c.(961_960)",
+        "protein": "p.T321fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8927,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LGH447 sensitized breast cancer cells harboring PIK3CA E542K, PTEN E288fs, PTEN T321fs, and with elevated Pim1 protein levels to Alpelisib (BYL719) in culture (PMID: 27604488).",
+            "molecularProfile": {
+                "id": 26540,
+                "profileName": "PIK3CA E542K PIM1 over exp PTEN E288fs PTEN T321fs"
+            },
+            "therapy": {
+                "id": 2419,
+                "therapyName": "Alpelisib + LGH447",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6782,
+                    "pubMedId": 27604488,
+                    "title": "Systematic Functional Characterization of Resistance to PI3K Inhibition in Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27604488"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10777,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Pictilisib (GDC-0941) resulted in a synergistic effect, demonstrating inhibition of cell proliferation, decreased colony formation, and cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 5613,
+                "therapyName": "BGJ398 + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10778,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Buparlisib (BKM120) resulted in a synergistic effect, demonstrating inhibition of cell proliferation, decreased colony formation, and cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 5612,
+                "therapyName": "BGJ398 + Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10780,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Alpelisib (BYL719) resulted in a synergistic effect, demonstrating inhibition of cell proliferation and induced cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 1293,
+                "therapyName": "Alpelisib + BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14382,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) in combination with LY394002 resulted in enhanced tumor growth inhibition compared to monotherapy in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 7087,
+                "therapyName": "Imatinib + LY294002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14373,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Stivarga (regorafenib) inhibited Kit, Erk, and Mtor signaling, resulted in tumor growth inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14371,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) did not inhibit Kit, Erk, or Mtor signaling and resulted in minimal tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14372,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) demonstrated limited inhibition of Kit, Erk, and Mtor signaling and resulted in minimal (22.9%) tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4337,
+            "profileName": "PTEN T321fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 13134,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PTEN T321fs"
+                },
+                {
+                    "id": 13136,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PTEN T321fs"
+                },
+                {
+                    "id": 13135,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PTEN T321fs"
+                },
+                {
+                    "id": 13133,
+                    "name": "PIK3CB inhibitor",
+                    "profileName": "PTEN T321fs"
+                },
+                {
+                    "id": 13137,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PTEN T321fs"
+                }
+            ]
+        },
+        {
+            "id": 26540,
+            "profileName": "PIK3CA E542K PIM1 over exp PTEN E288fs PTEN T321fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27771,
+            "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29990,
+            "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 169615,
+            "transcript": "NM_000314",
+            "gDna": "chr10:g.(87961052_87961053)",
+            "cDna": "c.(961_960)",
+            "protein": "p.T321fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

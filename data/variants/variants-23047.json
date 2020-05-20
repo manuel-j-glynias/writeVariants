@@ -1,0 +1,136 @@
+{
+    "id": 23047,
+    "fullName": "MAP2K1 F53S",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 F53S does not lie within any known functional domains of the Map2k1 protein (UniProt.org). F53S demonstrates phosphorylation profile similar to wild-type Map2k1 (PMID: 29753091), and results in increased Erk phosphorylation in cell culture (PMID: 16439621, PMID: 12370306).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5839,
+                    "pubMedId": 16439621,
+                    "title": "Germline mutations in genes within the MAPK pathway cause cardio-facio-cutaneous syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16439621"
+                },
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                },
+                {
+                    "id": 5157,
+                    "pubMedId": 12370306,
+                    "title": "Identification of a novel mitogen-activated protein kinase kinase activation domain recognized by the inhibitor PD 184352.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12370306"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "F53S",
+    "createDate": "06/09/2016",
+    "updateDate": "10/25/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 173372,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66435104T>C",
+        "cDna": "c.158T>C",
+        "protein": "p.F53S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10424,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CI-1040 (PD184352) inhibited kinase activity of Map2k1 F53S expressed in transformed human kidney cells (PMID: 12370306).",
+            "molecularProfile": {
+                "id": 23728,
+                "profileName": "MAP2K1 F53S"
+            },
+            "therapy": {
+                "id": 699,
+                "therapyName": "CI-1040",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5157,
+                    "pubMedId": 12370306,
+                    "title": "Identification of a novel mitogen-activated protein kinase kinase activation domain recognized by the inhibitor PD 184352.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12370306"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23728,
+            "profileName": "MAP2K1 F53S",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 8992,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "MAP2K1 F53S"
+                },
+                {
+                    "id": 8991,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "MAP2K1 F53S"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173372,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66435104T>C",
+            "cDna": "c.158T>C",
+            "protein": "p.F53S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173373,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66435104T>C",
+            "cDna": "c.158T>C",
+            "protein": "p.F53S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

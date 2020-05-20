@@ -1,0 +1,254 @@
+{
+    "id": 4531,
+    "fullName": "FGFR4 V550E",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR4 V550E lies within the protein kinase domain of the Fgfr4 protein (PMID: 19809159). V550E has been demonstrated to confer resistance to Fgfr4 inhibitors as a secondary resistance mutation (PMID: 31575540), and confers a gain of function to the Fgfr4 protein as demonstrated by increased autophosphorylation and Stat3 signaling in cultured cells and tumor proliferation in mouse models (PMID: 19809159).",
+            "references": [
+                {
+                    "id": 1834,
+                    "pubMedId": 19809159,
+                    "title": "Identification of FGFR4-activating mutations in human rhabdomyosarcomas that promote metastasis in xenotransplanted models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19809159"
+                },
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2264,
+        "geneSymbol": "FGFR4",
+        "terms": [
+            "FGFR4",
+            "CD334",
+            "JTK2",
+            "TKF"
+        ]
+    },
+    "variant": "V550E",
+    "createDate": "04/06/2015",
+    "updateDate": "12/19/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 164672,
+        "transcript": "NM_213647",
+        "gDna": "chr5:g.177095551T>A",
+        "cDna": "c.1649T>A",
+        "protein": "p.V550E",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19462,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGF401 inhibited tumor growth in a transgenic mouse model constitutively expressing FGFR4 V550E (PMID: 31409633).",
+            "molecularProfile": {
+                "id": 4323,
+                "profileName": "FGFR4 V550E"
+            },
+            "therapy": {
+                "id": 2031,
+                "therapyName": "FGF401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17101,
+                    "pubMedId": 31409633,
+                    "title": "FGF401, A First-In-Class Highly Selective and Potent FGFR4 Inhibitor for the Treatment of FGF19-Driven Hepatocellular Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31409633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8393,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, rhabdomyosarcoma cells over expressing FGFR4 V550E demonstrated increased sensitivity to Iclusig (ponatinib), resulting in decreased tumor cell growth in culture and in cell line xenograft models (PMID: 24124571).",
+            "molecularProfile": {
+                "id": 4323,
+                "profileName": "FGFR4 V550E"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3247,
+                "name": "rhabdomyosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 88,
+                    "pubMedId": 24124571,
+                    "title": "Targeting wild-type and mutationally activated FGFR4 in rhabdomyosarcoma with the inhibitor ponatinib (AP24534).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24124571"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19590,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing ETV6-FGFR4 and FGFR4 V550E demonstrated resistance to treatment with Fisogatinib (BLU-554) in culture (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34267,
+                "profileName": "ETV6 - FGFR4 FGFR4 V550E"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19603,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY2874455 treatment inhibited proliferation of cells co-expressing ETV6-FGFR4 and FGFR4 V550E in culture (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34267,
+                "profileName": "ETV6 - FGFR4 FGFR4 V550E"
+            },
+            "therapy": {
+                "id": 2032,
+                "therapyName": "LY2874455",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4323,
+            "profileName": "FGFR4 V550E",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 9748,
+                    "name": "FGFR4 Inhibitor",
+                    "profileName": "FGFR4 V550E"
+                },
+                {
+                    "id": 9749,
+                    "name": "FGFR Inhibitor (Pan)",
+                    "profileName": "FGFR4 V550E"
+                },
+                {
+                    "id": 9747,
+                    "name": "STAT3 Inhibitor",
+                    "profileName": "FGFR4 V550E"
+                }
+            ]
+        },
+        {
+            "id": 34267,
+            "profileName": "ETV6 - FGFR4 FGFR4 V550E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 164672,
+            "transcript": "NM_213647",
+            "gDna": "chr5:g.177095551T>A",
+            "cDna": "c.1649T>A",
+            "protein": "p.V550E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164676,
+            "transcript": "NM_022963",
+            "gDna": "chr5:g.177095671_177095672delTCinsAG",
+            "cDna": "c.1649_1650delTCinsAG",
+            "protein": "p.V550E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164674,
+            "transcript": "NM_001291980",
+            "gDna": "chr5:g.177096088T>A",
+            "cDna": "c.1649T>A",
+            "protein": "p.V550E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164675,
+            "transcript": "XM_005265838",
+            "gDna": "chr5:g.177095551T>A",
+            "cDna": "c.1649T>A",
+            "protein": "p.V550E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164673,
+            "transcript": "NM_002011",
+            "gDna": "chr5:g.177095551T>A",
+            "cDna": "c.1649T>A",
+            "protein": "p.V550E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

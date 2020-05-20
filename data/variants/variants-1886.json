@@ -1,0 +1,255 @@
+{
+    "id": 1886,
+    "fullName": "CDK4 R24C",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CDK4 R24C lies within the p16INK4 binding domain of the Cdk4 protein (PMID: 7652577). R24C results in a loss of binding to p16ink4, leading to reduced Cdk4 inhibition, increased Cdk4 activity, and promotes tumor formation in mouse models (PMID: 11726500, PMID: 7652577).",
+            "references": [
+                {
+                    "id": 2889,
+                    "pubMedId": 7652577,
+                    "title": "A p16INK4a-insensitive CDK4 mutant targeted by cytolytic T lymphocytes in a human melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7652577"
+                },
+                {
+                    "id": 811,
+                    "pubMedId": 11726500,
+                    "title": "Wide spectrum of tumors in knock-in mice carrying a Cdk4 protein insensitive to INK4 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11726500"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1019,
+        "geneSymbol": "CDK4",
+        "terms": [
+            "CDK4",
+            "CMM3",
+            "PSK-J3"
+        ]
+    },
+    "variant": "R24C",
+    "createDate": "09/24/2014",
+    "updateDate": "10/16/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 117537,
+        "transcript": "NM_000075",
+        "gDna": "chr12:g.57751648G>A",
+        "cDna": "c.70C>T",
+        "protein": "p.R24C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6495,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) treatment resulted in apoptosis in melanoma cell lines harboring BRAF V600E and CDK4 R24C in culture (PMID: 26988987).",
+            "molecularProfile": {
+                "id": 1853,
+                "profileName": "CDK4 R24C"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5666,
+                    "pubMedId": 26988987,
+                    "title": "Induction of Therapeutic Senescence in Vemurafenib-Resistant Melanoma by Extended Inhibition of CDK4/6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26988987"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6494,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) treatment resulted in senescence in melanoma cell lines harboring BRAF V600E and CDK4 R24C in culture (PMID: 26988987).",
+            "molecularProfile": {
+                "id": 23598,
+                "profileName": "BRAF V600E CDK4 R24C"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5666,
+                    "pubMedId": 26988987,
+                    "title": "Induction of Therapeutic Senescence in Vemurafenib-Resistant Melanoma by Extended Inhibition of CDK4/6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26988987"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6497,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Ibrance (palbociclib) and Zelboraf (vemurafenib) treatment resulted in reduced cytotoxicity of Zelboraf (vemurafenib) in melanoma cell lines harboring BRAF V600E and CDK4 R24C in culture (PMID: 26988987).",
+            "molecularProfile": {
+                "id": 23598,
+                "profileName": "BRAF V600E CDK4 R24C"
+            },
+            "therapy": {
+                "id": 4129,
+                "therapyName": "Palbociclib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5666,
+                    "pubMedId": 26988987,
+                    "title": "Induction of Therapeutic Senescence in Vemurafenib-Resistant Melanoma by Extended Inhibition of CDK4/6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26988987"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6503,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) and Rapamune (sirolimus) synergistically inhibited colony formation in melanoma cell lines harboring BRAF V600E and CDK4 R24C in culture (PMID: 26988987).",
+            "molecularProfile": {
+                "id": 23598,
+                "profileName": "BRAF V600E CDK4 R24C"
+            },
+            "therapy": {
+                "id": 4130,
+                "therapyName": "Palbociclib + Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5666,
+                    "pubMedId": 26988987,
+                    "title": "Induction of Therapeutic Senescence in Vemurafenib-Resistant Melanoma by Extended Inhibition of CDK4/6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26988987"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2291,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alvocidib (flavopiridol) improved survival in mouse pituitary tumor models harboring CDK4 R24C with monoallelic or biallelic inactivation of CDKN1B (p27), and resulted in reduced tumor growth in models harboring CDK4 R24C with inactivation of one CDKN1B (p27) allele (PMID: 15867383).",
+            "molecularProfile": {
+                "id": 26178,
+                "profileName": "CDK4 R24C CDKN1B inact mut"
+            },
+            "therapy": {
+                "id": 628,
+                "therapyName": "Alvocidib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1785,
+                "name": "pituitary cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2970,
+                    "pubMedId": 15867383,
+                    "title": "Cooperation between Cdk4 and p27kip1 in tumor development: a preclinical model to evaluate cell cycle inhibitors with therapeutic activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15867383"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1853,
+            "profileName": "CDK4 R24C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5024,
+                    "name": "CDK4/6 Inhibitor",
+                    "profileName": "CDK4 R24C"
+                },
+                {
+                    "id": 5022,
+                    "name": "CDK Inhibitor (Pan)",
+                    "profileName": "CDK4 R24C"
+                },
+                {
+                    "id": 5023,
+                    "name": "CDK4 Inhibitor",
+                    "profileName": "CDK4 R24C"
+                }
+            ]
+        },
+        {
+            "id": 23598,
+            "profileName": "BRAF V600E CDK4 R24C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26178,
+            "profileName": "CDK4 R24C CDKN1B inact mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 117537,
+            "transcript": "NM_000075",
+            "gDna": "chr12:g.57751648G>A",
+            "cDna": "c.70C>T",
+            "protein": "p.R24C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

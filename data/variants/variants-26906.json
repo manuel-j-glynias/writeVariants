@@ -1,0 +1,423 @@
+{
+    "id": 26906,
+    "fullName": "MET F1200L",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET F1200L lies within the protein kinase domain of the Met protein (UniProt.org). F1200L has been described as a secondary drug resistance mutation (PMID: 28765324), but has not been biochemically characterized and therefore, its effect on Met protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 9757,
+                    "pubMedId": 28765324,
+                    "title": "Glesatinib Exhibits Antitumor Activity in Lung Cancer Models and Patients Harboring MET Exon 14 Mutations and Overcomes Mutation-mediated Resistance to Type I MET Inhibitors in Nonclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765324"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "F1200L",
+    "createDate": "08/23/2017",
+    "updateDate": "03/12/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 144685,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116782063T>C",
+        "cDna": "c.3598T>C",
+        "protein": "p.F1200L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11771,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastric adenocarcinoma cell line (PMID: 15494073) co-harboring MET Y1230H and MET F1200L was sensitive to treatment with Glesatinib (MGCD265), demonstrating cell growth inhibition in culture (PMID: 28765324).",
+            "molecularProfile": {
+                "id": 28234,
+                "profileName": "MET F1200L MET Y1230H"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9757,
+                    "pubMedId": 28765324,
+                    "title": "Glesatinib Exhibits Antitumor Activity in Lung Cancer Models and Patients Harboring MET Exon 14 Mutations and Overcomes Mutation-mediated Resistance to Type I MET Inhibitors in Nonclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765324"
+                },
+                {
+                    "id": 9765,
+                    "pubMedId": 15494073,
+                    "title": "Molecular mechanisms of heptaplatin effective against cisplatin-resistant cancer cell lines: less involvement of metallothionein.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15494073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11769,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastric adenocarcinoma cell line (PMID: 15494073) co-harboring MET Y1230H and MET F1200L demonstrated resistance when treated with Capmatinib (INC280) in culture (PMID: 28765324).",
+            "molecularProfile": {
+                "id": 28234,
+                "profileName": "MET F1200L MET Y1230H"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9757,
+                    "pubMedId": 28765324,
+                    "title": "Glesatinib Exhibits Antitumor Activity in Lung Cancer Models and Patients Harboring MET Exon 14 Mutations and Overcomes Mutation-mediated Resistance to Type I MET Inhibitors in Nonclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765324"
+                },
+                {
+                    "id": 9765,
+                    "pubMedId": 15494073,
+                    "title": "Molecular mechanisms of heptaplatin effective against cisplatin-resistant cancer cell lines: less involvement of metallothionein.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15494073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11768,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastric adenocarcinoma cell line (PMID: 15494073) treated with Xalkori (crizotinib) in culture for several months developed resistance and was found to co-harbor MET Y1230H and MET F1200L(PMID: 28765324).",
+            "molecularProfile": {
+                "id": 28234,
+                "profileName": "MET F1200L MET Y1230H"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9757,
+                    "pubMedId": 28765324,
+                    "title": "Glesatinib Exhibits Antitumor Activity in Lung Cancer Models and Patients Harboring MET Exon 14 Mutations and Overcomes Mutation-mediated Resistance to Type I MET Inhibitors in Nonclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765324"
+                },
+                {
+                    "id": 9765,
+                    "pubMedId": 15494073,
+                    "title": "Molecular mechanisms of heptaplatin effective against cisplatin-resistant cancer cell lines: less involvement of metallothionein.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15494073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18242,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET F1200L secondary to a MET exon 14 skipping mutation in transformed cells resulted in decreased response to Merestinib (LY2801653) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33014,
+                "profileName": "MET del exon14 MET F1200L"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18241,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET F1200L secondary to a MET exon 14 skipping mutation in transformed cells resulted in decreased response to Merestinib (LY2801653) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33014,
+                "profileName": "MET del exon14 MET F1200L"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18237,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Capmatinib (INC280) inhibited growth of transformed cells expressing MET F1200L secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33014,
+                "profileName": "MET del exon14 MET F1200L"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18238,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tepotinib (MSC2156119J) inhibited growth of transformed cells expressing MET F1200L secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33014,
+                "profileName": "MET del exon14 MET F1200L"
+            },
+            "therapy": {
+                "id": 1398,
+                "therapyName": "Tepotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18239,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Savolitinib (AZD6094) inhibited growth of transformed cells expressing MET F1200L secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33014,
+                "profileName": "MET del exon14 MET F1200L"
+            },
+            "therapy": {
+                "id": 2161,
+                "therapyName": "Savolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18236,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited growth of transformed cells expressing MET F1200L secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33014,
+                "profileName": "MET del exon14 MET F1200L"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18240,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET F1200L secondary to a MET exon 14 skipping mutation in transformed cells conferred resistant to Cometriq (Cabometyx, cabozantinib) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33014,
+                "profileName": "MET del exon14 MET F1200L"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28233,
+            "profileName": "MET F1200L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28234,
+            "profileName": "MET F1200L MET Y1230H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33014,
+            "profileName": "MET del exon14 MET F1200L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144685,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116782063T>C",
+            "cDna": "c.3598T>C",
+            "protein": "p.F1200L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

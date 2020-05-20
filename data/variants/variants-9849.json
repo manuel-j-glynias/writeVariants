@@ -1,0 +1,592 @@
+{
+    "id": 9849,
+    "fullName": "ROS1 L2026M",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 L2026M lies within the protein kinase domain of the Ros1 protein (UniProt.org). L2060M has been demonstrated to confer resistance to Ros1 tyrosine kinase inhibitors in the context of a Ros1 fusion in culture (PMID: 25351743), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "L2026M",
+    "createDate": "07/31/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102379,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117317202G>T",
+        "cDna": "c.6076C>A",
+        "protein": "p.L2026M",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9715,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (cabozantinib) inhibited ROS1 phosphorylation and downstream ERK activation and growth of transformed cells expressing CD74-ROS1 L2026M in culture (PMID: 27370605).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7489,
+                    "pubMedId": 27370605,
+                    "title": "Identification of Existing Drugs That Effectively Target NTRK1 and ROS1 Rearrangements in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27370605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9728,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lorlatinib (PF-06463922) inhibited ROS1 phosphorylation, downstream ERK activation, and growth of transformed cells expressing ROS1 L2026M in the context of CD74-ROS1 in culture (PMID: 27370605, PMID: 25733882).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7489,
+                    "pubMedId": 27370605,
+                    "title": "Identification of Existing Drugs That Effectively Target NTRK1 and ROS1 Rearrangements in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27370605"
+                },
+                {
+                    "id": 13198,
+                    "pubMedId": 25733882,
+                    "title": "PF-06463922 is a potent and selective next-generation ROS1/ALK inhibitor capable of blocking crizotinib-resistant ROS1 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25733882"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2667,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing ROS1 L2026M in the context of CD74-ROS1 were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 25351743).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3884,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) suppressed the growth of transformed cells expressing ROS1 L2026M in the context of CD74-ROS1 in culture (PMID: 25688157).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4265,
+                    "pubMedId": 25688157,
+                    "title": "Molecular Changes Associated with Acquired Resistance to Crizotinib in ROS1-Rearranged Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25688157"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2669,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited Ros1 kinase activity and suppressed the growth of transformed cells expressing ROS1 L2026M in the context of CD74-ROS1 in culture (PMID: 25351743).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3889,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAE684 suppressed the growth of cells expressing CD74-ROS1 L2026M in culture (PMID: 25688157).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 2386,
+                "therapyName": "TAE684",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4265,
+                    "pubMedId": 25688157,
+                    "title": "Molecular Changes Associated with Acquired Resistance to Crizotinib in ROS1-Rearranged Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25688157"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20647,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing CD74-ROS1 and ROS1 L2026M were sensitive to treatment with DS6051b in culture, demonstrating cell growth inhibition (PMID: 31399568).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 4343,
+                "therapyName": "DS6051b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17972,
+                    "pubMedId": 31399568,
+                    "title": "The new-generation selective ROS1/NTRK inhibitor DS-6051b overcomes crizotinib resistant ROS1-G2032R mutation in preclinical models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31399568"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2668,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zykadia (ceritinib) inhibited Ros1 kinase activity and suppressed the growth of cells expressing ROS1 L2026M in the context of CD74-ROS1 in culture (PMID: 25351743).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9733,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing CD74-ROS1 with a ROS1 L2026M mutation demonstrated a decreased response to Rozlytrek (entrectinib) in culture compared to cells expressing wild-type CD74-ROS1 (PMID: 27370605).",
+            "molecularProfile": {
+                "id": 9846,
+                "profileName": "CD74 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7489,
+                    "pubMedId": 27370605,
+                    "title": "Identification of Existing Drugs That Effectively Target NTRK1 and ROS1 Rearrangements in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27370605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14546,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung carcinoma patient harboring a ROS1 fusion progressed after 17 months of treatment with Xalkori (crizotinib), and was found to have acquired two additional mutations in trans, ROS1 L2026M and ROS1 L1951R, and cells derived from this patient showed partially decreased SHP2 and ERK1/2 signaling and ROS1 activation (PMID: 29636358).",
+            "molecularProfile": {
+                "id": 30190,
+                "profileName": "ROS1 fusion ROS1 L1951R ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11739,
+                    "pubMedId": 29636358,
+                    "title": "Resistance Mechanisms to Targeted Therapies in ROS1+ and ALK+ Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29636358"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14547,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung carcinoma patient co-harboring a ROS1 fusion, and two other mutations in trans, ROS1 L2026M, and ROS1 L1951R demonstrated resistance to treatment with Zykadia (ceritinib), and cells derived from this patient showed partially decreased SHP2 and ERK1/2 signaling and ROS1 activation (PMID: 29636358).",
+            "molecularProfile": {
+                "id": 30190,
+                "profileName": "ROS1 fusion ROS1 L1951R ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11739,
+                    "pubMedId": 29636358,
+                    "title": "Resistance Mechanisms to Targeted Therapies in ROS1+ and ALK+ Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29636358"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16884,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) demonstrated superior activity against transformed cells expressing ROS1 L2026M in the context of EZR-ROS1 in culture compared to other inhibitors targeting Ros1 (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1319).",
+            "molecularProfile": {
+                "id": 32096,
+                "profileName": "EZR - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14995,
+                    "pubMedId": null,
+                    "title": "Repotrectinib, a new generation ROS1 inhibitor, is highly potent against fusion ROS1s and emerging resistance mutations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16885,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) demonstrated superior activity against transformed cells expressing ROS1 L2026M in the context of TPM3-ROS1 in culture compared to other inhibitors targeting Ros1 (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1319).",
+            "molecularProfile": {
+                "id": 32097,
+                "profileName": "TPM3 - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14995,
+                    "pubMedId": null,
+                    "title": "Repotrectinib, a new generation ROS1 inhibitor, is highly potent against fusion ROS1s and emerging resistance mutations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17689,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, a patient with non-small cell lung cancer harboring a ROS1 rearrangement demonstrated progression while being treated with Xalkori (crizotinib), and was found to have acquired two mutations, ROS1 L2026M and TP53 P278H (PMID: 30978502; NCT02183870).",
+            "molecularProfile": {
+                "id": 32740,
+                "profileName": "TP53 P278H ROS1 L2026M ROS1 rearrange"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15732,
+                    "pubMedId": 30978502,
+                    "title": "Safety and Efficacy of Crizotinib in Patients With Advanced or Metastatic ROS1-Rearranged Lung Cancer (EUCROSS): A European Phase II Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30978502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 9843,
+            "profileName": "ROS1 L2026M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 9846,
+            "profileName": "CD74 - ROS1 ROS1 L2026M",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16950,
+                    "name": "Cabozantinib",
+                    "profileName": "CD74 - ROS1 ROS1 L2026M"
+                },
+                {
+                    "id": 16954,
+                    "name": "TAE684",
+                    "profileName": "CD74 - ROS1 ROS1 L2026M"
+                },
+                {
+                    "id": 16955,
+                    "name": "Lorlatinib",
+                    "profileName": "CD74 - ROS1 ROS1 L2026M"
+                },
+                {
+                    "id": 16951,
+                    "name": "Foretinib",
+                    "profileName": "CD74 - ROS1 ROS1 L2026M"
+                },
+                {
+                    "id": 16952,
+                    "name": "Ceritinib",
+                    "profileName": "CD74 - ROS1 ROS1 L2026M"
+                },
+                {
+                    "id": 16953,
+                    "name": "Brigatinib",
+                    "profileName": "CD74 - ROS1 ROS1 L2026M"
+                }
+            ]
+        },
+        {
+            "id": 30190,
+            "profileName": "ROS1 fusion ROS1 L1951R ROS1 L2026M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32096,
+            "profileName": "EZR - ROS1 ROS1 L2026M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32097,
+            "profileName": "TPM3 - ROS1 ROS1 L2026M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32740,
+            "profileName": "TP53 P278H ROS1 L2026M ROS1 rearrange",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102379,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117317202G>T",
+            "cDna": "c.6076C>A",
+            "protein": "p.L2026M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 102378,
+            "transcript": "XM_011536050",
+            "gDna": "chr6:g.117317229G>T",
+            "cDna": "c.6076C>A",
+            "protein": "p.L2026M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

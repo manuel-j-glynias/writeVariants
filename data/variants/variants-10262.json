@@ -1,0 +1,222 @@
+{
+    "id": 10262,
+    "fullName": "ASPSCR1 - TFE3",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ASPSCR1-TFE3 results from the fusion of ASPSCR1 and TFE3, which demonstrates oncogenic activity including autophosphorylation of Met and activation of the Erk and Pi3k/Akt signaling pathways (PMID: 17283122), increased expression of p21 and proinflammatory cytokines (PMID: 27673450), and is tumorigenic in mouse models (PMID: 25453902).  ASPSCR1-TFE3 (ASPL-TFE3) has been associated with alveolar soft part sarcomas PMID: 17283122, PMID: 25453902, PMID: 27673450).",
+            "references": [
+                {
+                    "id": 3414,
+                    "pubMedId": 17283122,
+                    "title": "TFE3 fusions activate MET signaling by transcriptional up-regulation, defining another class of tumors as candidates for therapeutic MET inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17283122"
+                },
+                {
+                    "id": 18421,
+                    "pubMedId": 27673450,
+                    "title": "ASPL-TFE3 Oncoprotein Regulates Cell Cycle Progression and Induces Cellular Senescence by Up-Regulating p21.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27673450"
+                },
+                {
+                    "id": 18422,
+                    "pubMedId": 25453902,
+                    "title": "Modeling alveolar soft part sarcomagenesis in the mouse: a role for lactate in the tumor microenvironment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25453902"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 79058,
+        "geneSymbol": "ASPSCR1",
+        "terms": [
+            "ASPSCR1",
+            "ASPCR1",
+            "ASPL",
+            "ASPS",
+            "RCC17",
+            "TUG",
+            "UBXD9",
+            "UBXN9"
+        ]
+    },
+    "variant": "ASPSCR1 - TFE3",
+    "createDate": "08/06/2015",
+    "updateDate": "03/27/2020",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 7030,
+                "geneSymbol": "TFE3",
+                "terms": [
+                    "TFE3",
+                    "bHLHe33",
+                    "RCCP2",
+                    "RCCX1",
+                    "TFEA"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 12944,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "ASPSCR1-TFE3 fusions aid the diagnosis of synovial sarcoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 10292,
+                "profileName": "ASPSCR1 - TFE3"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3117,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PHA-665752 inhibited growth and HGF-dependent MET phosphorylation of a human renal cell carcinoma cell line harboring ASPSCR1-TFE3 in culture (PMID: 17283122).",
+            "molecularProfile": {
+                "id": 10292,
+                "profileName": "ASPSCR1 - TFE3"
+            },
+            "therapy": {
+                "id": 2162,
+                "therapyName": "PHA-665752",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4450,
+                "name": "renal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3414,
+                    "pubMedId": 17283122,
+                    "title": "TFE3 fusions activate MET signaling by transcriptional up-regulation, defining another class of tumors as candidates for therapeutic MET inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17283122"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3175,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical study, cediranib resulted in an objective response rate of 35% and a disease control rate of 84% at 24 weeks in 43 patients with metastatic alveolar soft part sarcoma, which is primarily driven by ASPSCR1-TFE3 fusion (PMID: 23630200).",
+            "molecularProfile": {
+                "id": 10292,
+                "profileName": "ASPSCR1 - TFE3"
+            },
+            "therapy": {
+                "id": 1001,
+                "therapyName": "Cediranib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3627,
+                    "pubMedId": 23630200,
+                    "title": "Cediranib for metastatic alveolar soft part sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23630200"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3123,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Sutent (sunitinib) resulted in a RECIST partial response in 2 of 4 patients and RECIST stable disease in 1 patient with ASPSCR1-TFE3 fusion alveolar soft part sarcoma after 3 months of therapy (PMID: 19188185).",
+            "molecularProfile": {
+                "id": 10292,
+                "profileName": "ASPSCR1 - TFE3"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4239,
+                "name": "alveolar soft part sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3628,
+                    "pubMedId": 19188185,
+                    "title": "Response to sunitinib malate in advanced alveolar soft part sarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19188185"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10292,
+            "profileName": "ASPSCR1 - TFE3",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6457,
+                    "name": "VEGFR3 Inhibitor",
+                    "profileName": "ASPSCR1 - TFE3"
+                },
+                {
+                    "id": 6458,
+                    "name": "VEGFR2 Inhibitor",
+                    "profileName": "ASPSCR1 - TFE3"
+                },
+                {
+                    "id": 6459,
+                    "name": "VEGFR1 Inhibitor",
+                    "profileName": "ASPSCR1 - TFE3"
+                },
+                {
+                    "id": 6456,
+                    "name": "MET Inhibitor",
+                    "profileName": "ASPSCR1 - TFE3"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

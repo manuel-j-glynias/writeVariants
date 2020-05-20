@@ -1,0 +1,386 @@
+{
+    "id": 31981,
+    "fullName": "PJA2 - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "PJA2-BRAF results from the fusion of PJA2 and BRAF (PMID: 30831205). PJA2-BRAF has been identified in lung cancer, and is a associated with EGFR and BRAF inhibitor resistance in the context of an EGFR exon 19 deletion, but has not been individually characterized, and therefore the effect on protein function is unknown (PubMed, Jan 2020).",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 9867,
+        "geneSymbol": "PJA2",
+        "terms": [
+            "PJA2",
+            "Neurodap1",
+            "RNF131"
+        ]
+    },
+    "variant": "PJA2 - BRAF",
+    "createDate": "01/07/2020",
+    "updateDate": "01/07/2020",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 19711,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition and induction of apoptotic signaling by Tafinlar (dabrafenib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19713,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with LY3009120 inhibited growth and resulted in increased apoptotic signaling and decreased MEK and ERK phosphorylation in a lung cancer patient-derived xenograft (PDX) cell line harboring an EGFR exon 19 deletion and a PJAR-BRAF fusion in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19700,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) and Mekinist (trametinib) worked synergistically to inhibit growth of a lung cancer patient-derived xenograft (PDX) cell line harboring an EGFR exon 19 deletion and a PJAR-BRAF fusion in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 8996,
+                "therapyName": "Osimertinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19709,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition by Iressa (gefitinib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19706,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition and induction of apoptotic signaling by Tagrisso (osimertinib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19712,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition and induction of apoptotic signaling by Nexavar (sorafenib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19710,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition and induction of apoptotic signaling by RXDX-105 (CEP-32496) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 1002,
+                "therapyName": "RXDX-105",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19707,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition by Gilotrif (afatinib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19705,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition and induction of apoptotic signaling by Tarceva (erlotinib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19708,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer patient-derived xenograft (PDX) cell line harboring and EGFR exon 19 deletion and a PJA2-BRAF fusion demonstrated resistance to growth inhibition and induction of apoptotic signaling by Zelboraf (vemurafenib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34438,
+                "profileName": "PJA2 - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 34437,
+            "profileName": "PJA2 - BRAF",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34438,
+            "profileName": "PJA2 - BRAF EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

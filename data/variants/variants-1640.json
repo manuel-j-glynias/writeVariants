@@ -1,0 +1,1096 @@
+{
+    "id": 1640,
+    "fullName": "KIT N822K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT N822K lies within the activation loop in the protein kinase domain of the Kit protein (PMID: 24205792). N822K results in constitutive activation of Kit, increased Erk1/2 and Stat3 phosphorylation, is transforming in culture (PMID: 24205792), and has been identified as a secondary mutation associated with imatinib-resistance (PMID: 18488160).",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                },
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "N822K",
+    "createDate": "09/09/2014",
+    "updateDate": "09/14/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 136506,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54733174T>G",
+        "cDna": "c.2466T>G",
+        "protein": "p.N822K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14355,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT N822K were more sensitive to treatment with Sutent (sunitinib) in culture compared to Gleevec (imatinib), demonstrating decreased cell proliferation (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14353,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT N822K were resistant to treatment with Gleevec (imatinib) in culture (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12303,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ayvakit (avapritinib) inhibited Kit phosphorylation and proliferation of acute myeloid leukemia cells harboring KIT N822K in culture (PMID: 29093181).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10301,
+                    "pubMedId": 29093181,
+                    "title": "A precision therapy against cancers driven by KIT/PDGFRA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29093181"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8003,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited Kit signaling and viability in leukemia cells harboring KIT N822K in culture (PMID: 21482694).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3255,
+                    "pubMedId": 21482694,
+                    "title": "Potent activity of ponatinib (AP24534) in models of FLT3-driven acute myeloid leukemia and other hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21482694"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21185,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT N822K were sensitive to treatment with Sprycel (dasatinib) in culture, demonstrating reduced cell survival (PMID: 31182436).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18452,
+                    "pubMedId": 31182436,
+                    "title": "Functional Properties of KIT Mutations Are Associated with Differential Clinical Outcomes and Response to Targeted Therapeutics in CBF Acute Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31182436"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21184,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT N822K were sensitive to treatment with Crenolanib in culture, demonstrating reduced cell survival (PMID: 31182436).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 705,
+                "therapyName": "Crenolanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18452,
+                    "pubMedId": 31182436,
+                    "title": "Functional Properties of KIT Mutations Are Associated with Differential Clinical Outcomes and Response to Targeted Therapeutics in CBF Acute Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31182436"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18578,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rydapt (midostaurin) inhibited proliferation of acute myeloid leukemia cells harboring KIT N822K in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14354,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT N822K were more sensitive to treatment with Flumatinib in culture compared to Gleevec (imatinib), demonstrating decreased cell proliferation (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 3169,
+                "therapyName": "Flumatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8606,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DCC-2618 induced tumor regression in a patient-derived xenograft (PDX) model of acute myeloid leukemia harboring KIT N822K (Cancer Res 2015;75(15 Suppl):Abstract nr 2690).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6694,
+                    "pubMedId": null,
+                    "title": "Abstract 2690: DCC-2618 is a potent inhibitor of wild-type and mutant KIT, including refractory Exon 17 D816 KIT mutations, and exhibits efficacy in refractory GIST and AML xenograft models",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/2690"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18574,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ripretinib (DCC-2618) inhibited proliferation of acute myeloid leukemia cells harboring KIT N822K in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18577,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Stivarga (regorafenib) inhibited proliferation of acute myeloid leukemia cells harboring KIT N822K in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8696,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line harboring KIT N822K demonstrated sensitivity to treatment with BPR1J373, showing inhibition of Kit phosphorylation and apoptotic induction in culture, and tumor regression in xenograft models (PMID: 27512117).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 4798,
+                "therapyName": "BPR1J373",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6711,
+                    "pubMedId": 27512117,
+                    "title": "BPR1J373, an Oral Multiple Tyrosine Kinase Inhibitor, Targets c-KIT for the Treatment of c-KIT-Driven Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27512117"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6806,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, KIT N822K was identified in the tumor of a gastrointestinal stromal tumor patient who was resistant to Gleevec (imatinib) treatment (PMID: 26316776).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5823,
+                    "pubMedId": 26316776,
+                    "title": "Inactivity of imatinib in gastrointestinal stromal tumors (GISTs) harboring a KIT activation-loop domain mutation (exon 17 mutation pN822K).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26316776"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18575,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cells harboring KIT N822K demonstrated reduced response to growth inhibition by Gleevec (imatinib) compared to GIST cells harboring KIT exon 11 deletion in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17504,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line harboring KIT N822K demonstrated increased sensitivity to Sutent (sunitinib) compared to cells with wild-type KIT, resulting in increased inhibition of colony formation, and induction of cell-cycle arrest, apoptosis, and autophagy in culture (PMID: 31217744).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15518,
+                    "pubMedId": 31217744,
+                    "title": "Inhibition of N822K T>A mutation-induced constitutive c-KIT activation in AML cells triggers apoptotic and autophagic pathways leading to death.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31217744"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18576,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) inhibited proliferation of acute myeloid leukemia cells harboring KIT N822K in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 3607,
+                "profileName": "KIT N822K"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6899,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT N822K were sensitive to Iclusig (ponatinib) in an in vitro kinase assay (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 24010,
+                "profileName": "KIT W557_K558del KIT N822K"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6904,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT N822K were resistant to Sutent (sunitinb) in an in vitro kinase assay (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 24010,
+                "profileName": "KIT W557_K558del KIT N822K"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6909,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT N822K were resistant to Gleevec (imatinib) in an in vitro kinase assay (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 24010,
+                "profileName": "KIT W557_K558del KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6914,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT N822K were resistant to Stivarga (regorafenib) in an in vitro kinase assay (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 24010,
+                "profileName": "KIT W557_K558del KIT N822K"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14330,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT N822K and KIT V559D were insensitive to Sutent (sunitinib) in culture (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 29985,
+                "profileName": "KIT V559D KIT N822K"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14336,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT N822K and KIT V559D were sensitive to Flumatinib in culture, demonstrating decreased cell proliferation and inhibition of Kit, Erk 1/2, and Stat3 phosphorylation (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 29985,
+                "profileName": "KIT V559D KIT N822K"
+            },
+            "therapy": {
+                "id": 3169,
+                "therapyName": "Flumatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14619,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KIT N822K was identified as a secondary mutation in a patient with gastrointestinal stromal tumor harboring a primary KIT A502_Y503dup mutation, who developed resistance to Gleevec (imatinib) (PMID: 18488160).",
+            "molecularProfile": {
+                "id": 30370,
+                "profileName": "KIT A502_Y503dup KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14621,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KIT N822K was identified as a secondary mutation in a patient with gastrointestinal stromal tumor harboring a primary KIT W557_K558delinsCE mutation, who developed resistance to Gleevec (imatinib mesylate) (PMID: 18488160).",
+            "molecularProfile": {
+                "id": 30372,
+                "profileName": "KIT W557_K558delinsCE KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14623,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KIT V654A and KIT N822K were identified as secondary mutations in a patient with gastrointestinal stromal tumor harboring a primary KIT V569_L576del mutation, who developed resistance to Gleevec (imatinib) (PMID: 18488160).",
+            "molecularProfile": {
+                "id": 30373,
+                "profileName": "KIT V569_L576del KIT V654A KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18021,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Quizartinib (AC220) inhibited Kit phosphorylation and growth of acute myeloid leukemia cell lines harboring KIT N822K and RUNX1-RUNX1T1 in culture (PMID: 31309543).",
+            "molecularProfile": {
+                "id": 32936,
+                "profileName": "RUNX1 - RUNX1T1 KIT N822K"
+            },
+            "therapy": {
+                "id": 882,
+                "therapyName": "Quizartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15938,
+                    "pubMedId": 31309543,
+                    "title": "Comparison of effects of midostaurin, crenolanib, quizartinib, gilteritinib, sorafenib and BLU-285 on oncogenic mutants of KIT, CBL and FLT3 in haematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31309543"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18023,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ayvakit (avapritinib) inhibited Kit phosphorylation and growth of acute myeloid leukemia cell lines harboring KIT N822K and RUNX1-RUNX1T1 in culture (PMID: 31309543).",
+            "molecularProfile": {
+                "id": 32936,
+                "profileName": "RUNX1 - RUNX1T1 KIT N822K"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15938,
+                    "pubMedId": 31309543,
+                    "title": "Comparison of effects of midostaurin, crenolanib, quizartinib, gilteritinib, sorafenib and BLU-285 on oncogenic mutants of KIT, CBL and FLT3 in haematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31309543"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18024,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xospata (gilteritinib) demonstrated reduced ability to inhibit Kit phosphorylation and growth of acute myeloid leukemia cell lines harboring KIT N822K and RUNX1-RUNX1T1 in culture compared to other kinase inhibitors (PMID: 31309543).",
+            "molecularProfile": {
+                "id": 32936,
+                "profileName": "RUNX1 - RUNX1T1 KIT N822K"
+            },
+            "therapy": {
+                "id": 2865,
+                "therapyName": "Gilteritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15938,
+                    "pubMedId": 31309543,
+                    "title": "Comparison of effects of midostaurin, crenolanib, quizartinib, gilteritinib, sorafenib and BLU-285 on oncogenic mutants of KIT, CBL and FLT3 in haematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31309543"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18022,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited Kit phosphorylation and growth of acute myeloid leukemia cell lines harboring KIT N822K and RUNX1-RUNX1T1 in culture (PMID: 31309543).",
+            "molecularProfile": {
+                "id": 32936,
+                "profileName": "RUNX1 - RUNX1T1 KIT N822K"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15938,
+                    "pubMedId": 31309543,
+                    "title": "Comparison of effects of midostaurin, crenolanib, quizartinib, gilteritinib, sorafenib and BLU-285 on oncogenic mutants of KIT, CBL and FLT3 in haematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31309543"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18025,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rydapt (midostaurin) demonstrated reduced ability to inhibit Kit phosphorylation and growth of acute myeloid leukemia cell lines harboring KIT N822K and RUNX1-RUNX1T1 in culture compared to other kinase inhibitors (PMID: 31309543).",
+            "molecularProfile": {
+                "id": 32936,
+                "profileName": "RUNX1 - RUNX1T1 KIT N822K"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 15938,
+                    "pubMedId": 31309543,
+                    "title": "Comparison of effects of midostaurin, crenolanib, quizartinib, gilteritinib, sorafenib and BLU-285 on oncogenic mutants of KIT, CBL and FLT3 in haematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31309543"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18020,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Crenolanib inhibited Kit phosphorylation and growth of acute myeloid leukemia cell lines harboring KIT N822K and RUNX1-RUNX1T1 in culture (PMID: 31309543).",
+            "molecularProfile": {
+                "id": 32936,
+                "profileName": "RUNX1 - RUNX1T1 KIT N822K"
+            },
+            "therapy": {
+                "id": 705,
+                "therapyName": "Crenolanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15938,
+                    "pubMedId": 31309543,
+                    "title": "Comparison of effects of midostaurin, crenolanib, quizartinib, gilteritinib, sorafenib and BLU-285 on oncogenic mutants of KIT, CBL and FLT3 in haematological malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31309543"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3607,
+            "profileName": "KIT N822K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6132,
+                    "name": "Avapritinib",
+                    "profileName": "KIT N822K"
+                },
+                {
+                    "id": 1897,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT N822K"
+                }
+            ]
+        },
+        {
+            "id": 24010,
+            "profileName": "KIT W557_K558del KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29985,
+            "profileName": "KIT V559D KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30370,
+            "profileName": "KIT A502_Y503dup KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30372,
+            "profileName": "KIT W557_K558delinsCE KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30373,
+            "profileName": "KIT V569_L576del KIT V654A KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32936,
+            "profileName": "RUNX1 - RUNX1T1 KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136507,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54733174T>G",
+            "cDna": "c.2466T>G",
+            "protein": "p.N822K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136506,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54733174T>G",
+            "cDna": "c.2466T>G",
+            "protein": "p.N822K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

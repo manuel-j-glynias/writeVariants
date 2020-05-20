@@ -1,0 +1,141 @@
+{
+    "id": 2560,
+    "fullName": "BRAF F595L",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF F595L lies within the protein kinase domain of the Braf protein (UniProt.org). F595L results in reduced Braf kinase activity (PMID: 28783719, PMID: 15035987), but works cooperatively with oncogenic Ras to activate MEK/ERK signaling, and is transforming in cell culture (PMID: 15035987, PMID: 26582644, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 146,
+                    "pubMedId": 15035987,
+                    "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15035987"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 9695,
+                    "pubMedId": 26582644,
+                    "title": "Cooperation of BRAF(F595L) and mutant HRAS in histiocytic sarcoma provides new insights into oncogenic BRAF signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582644"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "F595L",
+    "createDate": "11/11/2014",
+    "updateDate": "11/05/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 109108,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753352A>G",
+        "cDna": "c.1783T>C",
+        "protein": "p.F595L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11664,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Zelboraf (vemurafenib) did not reduce activation of Mek and Erk by BRAF F595L in transformed cells in culture (PMID: 26582644).",
+            "molecularProfile": {
+                "id": 2417,
+                "profileName": "BRAF F595L"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9695,
+                    "pubMedId": 26582644,
+                    "title": "Cooperation of BRAF(F595L) and mutant HRAS in histiocytic sarcoma provides new insights into oncogenic BRAF signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582644"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2417,
+            "profileName": "BRAF F595L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14751,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF F595L"
+                },
+                {
+                    "id": 14753,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF F595L"
+                },
+                {
+                    "id": 14752,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF F595L"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109108,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753352A>G",
+            "cDna": "c.1783T>C",
+            "protein": "p.F595L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109107,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753352A>G",
+            "cDna": "c.1783T>C",
+            "protein": "p.F595L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

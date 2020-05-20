@@ -1,0 +1,171 @@
+{
+    "id": 8869,
+    "fullName": "RAF1 G361A",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "RAF1 G361A lies within the protein kinase domain of the Raf1 protein (UniProt.org). G361A results in increased Raf kinase activity, downstream Mek and Erk phosphorylation and has been demonstrated to occur as a resistance mutation (PMID: 23737487).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3186,
+                    "pubMedId": 23737487,
+                    "title": "C-RAF mutations confer resistance to RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23737487"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5894,
+        "geneSymbol": "RAF1",
+        "terms": [
+            "RAF1",
+            "c-Raf",
+            "CMD1NN",
+            "CRAF",
+            "NS5",
+            "Raf-1"
+        ]
+    },
+    "variant": "G361A",
+    "createDate": "07/07/2015",
+    "updateDate": "05/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 161742,
+        "transcript": "NM_002880",
+        "gDna": "chr3:g.12599717C>G",
+        "cDna": "c.1082G>C",
+        "protein": "p.G361A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2513,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of RAF1 G361A conferred resistance to PLX4720 in human melanoma cells harboring BRAF V600E in culture (PMID: 23737487).",
+            "molecularProfile": {
+                "id": 8790,
+                "profileName": "BRAF V600E RAF1 G361A"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3186,
+                    "pubMedId": 23737487,
+                    "title": "C-RAF mutations confer resistance to RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23737487"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2512,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of RAF1 G361A conferred resistance to Zelboraf (vemurafenib) in human melanoma cells harboring BRAF V600E in culture (PMID: 23737487).",
+            "molecularProfile": {
+                "id": 8790,
+                "profileName": "BRAF V600E RAF1 G361A"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3186,
+                    "pubMedId": 23737487,
+                    "title": "C-RAF mutations confer resistance to RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23737487"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 8762,
+            "profileName": "RAF1 G361A",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 18432,
+                    "name": "RAF Inhibitor (Pan)",
+                    "profileName": "RAF1 G361A"
+                },
+                {
+                    "id": 18431,
+                    "name": "Trametinib",
+                    "profileName": "RAF1 G361A"
+                }
+            ]
+        },
+        {
+            "id": 8790,
+            "profileName": "BRAF V600E RAF1 G361A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 161742,
+            "transcript": "NM_002880",
+            "gDna": "chr3:g.12599717C>G",
+            "cDna": "c.1082G>C",
+            "protein": "p.G361A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161743,
+            "transcript": "XM_011533974",
+            "gDna": "chr3:g.12599717C>G",
+            "cDna": "c.1082G>C",
+            "protein": "p.G361A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161744,
+            "transcript": "XM_005265355",
+            "gDna": "chr3:g.12599717C>G",
+            "cDna": "c.1082G>C",
+            "protein": "p.G361A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

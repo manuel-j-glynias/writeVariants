@@ -1,0 +1,223 @@
+{
+    "id": 27176,
+    "fullName": "NRAS over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS over exp indicates an over expression of the Nras protein and/or mRNA. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "10/26/2017",
+    "updateDate": "07/30/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16230,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mektovi (binimetinib) treatment in melanoma cell lines with NRAS overexpression, but without NRAS or BRAF mutations, resulted in reduced downstream signaling and proliferation in cultured cells (PMID: 29245078).",
+            "molecularProfile": {
+                "id": 28584,
+                "profileName": "NRAS over exp"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14368,
+                    "pubMedId": 29245078,
+                    "title": "Analysis of NRAS gain in 657 patients with melanoma and evaluation of its sensitivity to a MEK inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29245078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12236,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGJ398 and Mekinist (trametinib) combination treatment inhibited Erk signaling, resulting in growth inhibition in FGFR1-amplified non-small cell lung carcinoma cells overexpressing Nras in culture (PMID: 28630215).",
+            "molecularProfile": {
+                "id": 28585,
+                "profileName": "FGFR1 amp NRAS over exp"
+            },
+            "therapy": {
+                "id": 4479,
+                "therapyName": "BGJ398 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10196,
+                    "pubMedId": 28630215,
+                    "title": "Mechanisms of Primary Drug Resistance in FGFR1-Amplified Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28630215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12235,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of Nras in FGFR1-amplified non-small cell lung carcinoma cells resulted in decreased response to BGJ398 in culture (PMID: 28630215).",
+            "molecularProfile": {
+                "id": 28585,
+                "profileName": "FGFR1 amp NRAS over exp"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 10196,
+                    "pubMedId": 28630215,
+                    "title": "Mechanisms of Primary Drug Resistance in FGFR1-Amplified Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28630215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16594,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of wild-type NRAS in colorectal cancer cell lines harboring BRAF V600E induced Ras activation and Braf/Craf dimerization, conferred resistance to Erbitux (cetuximab) and Zelboraf (vemurafenib) combination treatment in culture and in cell line xenograft models (PMID: 28951457).",
+            "molecularProfile": {
+                "id": 31710,
+                "profileName": "BRAF V600E NRAS over exp"
+            },
+            "therapy": {
+                "id": 1711,
+                "therapyName": "Cetuximab + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14634,
+                    "pubMedId": 28951457,
+                    "title": "Mechanisms of Acquired Resistance to BRAF V600E Inhibition in Colon Cancers Converge on RAF Dimerization and Are Sensitive to Its Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28951457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16597,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGB659 and Erbitux (cetuximab) combination treatment demonstrated enhanced inhibition of Erk phosphorylation and growth in BRAF V600E colorectal cancer cell lines overexpressing Nras in culture (PMID: 28951457).",
+            "molecularProfile": {
+                "id": 31710,
+                "profileName": "BRAF V600E NRAS over exp"
+            },
+            "therapy": {
+                "id": 8106,
+                "therapyName": "BGB659 + Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14634,
+                    "pubMedId": 28951457,
+                    "title": "Mechanisms of Acquired Resistance to BRAF V600E Inhibition in Colon Cancers Converge on RAF Dimerization and Are Sensitive to Its Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28951457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28584,
+            "profileName": "NRAS over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28585,
+            "profileName": "FGFR1 amp NRAS over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31710,
+            "profileName": "BRAF V600E NRAS over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "id": 5287,
+    "fullName": "BRCA1 R1443*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRCA1 R1443* results in a premature truncation of the Brca1 protein at amino acid 1443 of 1863 (UniProt.org). R1443* has not been characterized, however, other C-terminal deletion mutants downstream of R1443 are inactivating (PMID: 16618730), thus R1443* is predicted to lead to a loss of Brca1 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2575,
+                    "pubMedId": 16618730,
+                    "title": "Identification of domains of BRCA1 critical for the ubiquitin-dependent inhibition of centrosome function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16618730"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 672,
+        "geneSymbol": "BRCA1",
+        "terms": [
+            "BRCA1",
+            "BRCAI",
+            "BRCC1",
+            "BROVCA1",
+            "FANCS",
+            "IRIS",
+            "PNCA4",
+            "PPP1R53",
+            "PSCP",
+            "RNF53"
+        ]
+    },
+    "variant": "R1443*",
+    "createDate": "04/26/2015",
+    "updateDate": "04/26/2015",
+    "referenceTranscriptCoordinates": {
+        "id": 156035,
+        "transcript": "NM_007294",
+        "gDna": "chr17:g.43082434G>A",
+        "cDna": "c.4327C>T",
+        "protein": "p.R1443*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15877,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Veliparib (ABT-888) and Dinaciclib (SCH 727965) resulted in durable tumor regression in patient-derived xenograft (PDX) models of triple-receptor negative breast cancer harboring a somatic BRCA1 R1443* mutation (PMID: 27880910).",
+            "molecularProfile": {
+                "id": 5101,
+                "profileName": "BRCA1 R1443*"
+            },
+            "therapy": {
+                "id": 1277,
+                "therapyName": "Dinaciclib + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13882,
+                    "pubMedId": 27880910,
+                    "title": "CDK12 Inhibition Reverses De Novo and Acquired PARP Inhibitor Resistance in BRCA Wild-Type and Mutated Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27880910"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5101,
+            "profileName": "BRCA1 R1443*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17608,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "BRCA1 R1443*"
+                },
+                {
+                    "id": 17609,
+                    "name": "PARP-1 Inhibitor",
+                    "profileName": "BRCA1 R1443*"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 156035,
+            "transcript": "NM_007294",
+            "gDna": "chr17:g.43082434G>A",
+            "cDna": "c.4327C>T",
+            "protein": "p.R1443*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156036,
+            "transcript": "NM_007300",
+            "gDna": "chr17:g.43082434G>A",
+            "cDna": "c.4327C>T",
+            "protein": "p.R1443*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

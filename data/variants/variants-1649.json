@@ -1,0 +1,966 @@
+{
+    "id": 1649,
+    "fullName": "KIT V654A",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT V654A lies within the protein kinase domain (exon 13) of the Kit protein (UniProt.org). V654A has been described as a secondary drug resistance mutation (PMID: 17363509, PMID: 16751810) and results in increased proliferation of cultured cells, but is not transforming and does not result in constitutive kinase activation (PMID: 17363509), and therefore, its effect on Kit protein function is unknown.",
+            "references": [
+                {
+                    "id": 678,
+                    "pubMedId": 17363509,
+                    "title": "Resistance to c-KIT kinase inhibitors conferred by V654A mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17363509"
+                },
+                {
+                    "id": 5804,
+                    "pubMedId": 16751810,
+                    "title": "Functional analyses and molecular modeling of two c-Kit mutations responsible for imatinib secondary resistance in GIST patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16751810"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "V654A",
+    "createDate": "09/09/2014",
+    "updateDate": "11/21/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136888,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54728092T>C",
+        "cDna": "c.1961T>C",
+        "protein": "p.V654A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6757,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing KIT V654A demonstrated some sensitivity to Iclusig (ponatinib) in an in vitro kinase assay (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 1659,
+                "profileName": "KIT V654A"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17527,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Inlyta (axitinib) inhibited KIT phosphorylation and proliferation of transformed cells expressing KIT V654A in culture, and inhibited tumor growth in xenograft models (PMID: 31205508).",
+            "molecularProfile": {
+                "id": 1659,
+                "profileName": "KIT V654A"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15597,
+                    "pubMedId": 31205508,
+                    "title": "Axitinib overcomes multiple imatinib resistant cKIT mutations including the gatekeeper mutation T670I in gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31205508"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16866,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3229 inhibited Kit signaling, resulted in tumor regression in patient-derived xenograft (PDX) models of gastrointestinal stromal tumor harboring KIT V654A (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1328).",
+            "molecularProfile": {
+                "id": 1659,
+                "profileName": "KIT V654A"
+            },
+            "therapy": {
+                "id": 8213,
+                "therapyName": "AZD3229",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14986,
+                    "pubMedId": null,
+                    "title": "Exploring the pharmacokinetic-pharmacodynamic relationships of AZD3229, a novel and selective inhibitor of cKIT, in a range of mouse xenograft models of gastrointestinal stromal tumors.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6742,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing KIT V654A demonstrated resistance to Gleevec (imatinib) in culture (PMID: 16751810).",
+            "molecularProfile": {
+                "id": 1659,
+                "profileName": "KIT V654A"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5804,
+                    "pubMedId": 16751810,
+                    "title": "Functional analyses and molecular modeling of two c-Kit mutations responsible for imatinib secondary resistance in GIST patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16751810"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17551,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) inhibited proliferation of transformed cells expressing KIT V654A in culture (PMID: 31205508).",
+            "molecularProfile": {
+                "id": 1659,
+                "profileName": "KIT V654A"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15597,
+                    "pubMedId": 31205508,
+                    "title": "Axitinib overcomes multiple imatinib resistant cKIT mutations including the gatekeeper mutation T670I in gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31205508"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18477,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, patients with gastrointestinal stromal tumors harboring either KIT V654A or KIT T670I demonstrated decreased overall response rate (0%, 0/25 vs. 26%, 22/84) and increased progressive disease rate (72% vs 23%) compared to those without either KIT mutation when treated with Ayvakit (avapritinib) (PMID: 31270078; NCT02508532).",
+            "molecularProfile": {
+                "id": 1659,
+                "profileName": "KIT V654A"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6786,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT V654A demonstrated resistance to treatment with Stivarga (regorafenib) in culture (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23688,
+                "profileName": "KIT W557_K558del KIT V654A"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6785,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT V654A demonstrated no response to treatment with Gleevec (imatinib) in both culture and xenograft models (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23688,
+                "profileName": "KIT W557_K558del KIT V654A"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6783,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT V654A demonstrated sensitivity to treatment with Iclusig (ponatinib) in both culture and cell line xenograft models, resulting in reduced cell viability and decreased tumor volume (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23688,
+                "profileName": "KIT W557_K558del KIT V654A"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6784,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT V654A demonstrated sensitivity to treatment with Sutent (sunitinib) in both culture and cell line xenograft models, resulting in reduced cell viability, decreased tumor volume, and tumor regression (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23688,
+                "profileName": "KIT W557_K558del KIT V654A"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12311,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ayvakit (avapritinib) inhibited Kit phosphorylation and resulted in tumor regression in patient-derived xenograft models of Gleevec (imatinib)-resistant gastrointestinal stromal tumor harboring KIT W557_K558del and V654A (PMID: 29093181).",
+            "molecularProfile": {
+                "id": 23688,
+                "profileName": "KIT W557_K558del KIT V654A"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10301,
+                    "pubMedId": 29093181,
+                    "title": "A precision therapy against cancers driven by KIT/PDGFRA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29093181"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20383,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, HQP1351 treatment inhibited Kit downstream signalling, resulted in cell cycle arrest and apoptosis in a Gleevec (imatinib)-resistant gastrointestinal stromal tumor (GIST) cell line harboring KIT V560_L576del and V654A in culture, and inhibited tumor growth in a cell line xenograft model (PMID: 31673329).",
+            "molecularProfile": {
+                "id": 23691,
+                "profileName": "KIT V560_L576del KIT V654A"
+            },
+            "therapy": {
+                "id": 8237,
+                "therapyName": "HQP1351",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17819,
+                    "pubMedId": 31673329,
+                    "title": "Preclinical development of HQP1351, a multikinase inhibitor targeting a broad spectrum of mutant KIT kinases, for the treatment of imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31673329"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6800,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient derived GIST cell line co-harboring KIT V560_L576del and KIT V654A demonstrated sensitivity to treatment with Sutent (sunitinib) (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23691,
+                "profileName": "KIT V560_L576del KIT V654A"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9690,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Gleevec (imatinib) and MK2206 demonstrated synergy in inhibiting growth of a Gleevec (imatinib)-resistant gastrointestinal stromal tumor cell line harboring a KIT exon 11 deletion mutation and KIT V654A in culture (PMID: 27370604).",
+            "molecularProfile": {
+                "id": 26979,
+                "profileName": "KIT exon11 KIT V654A"
+            },
+            "therapy": {
+                "id": 5163,
+                "therapyName": "Imatinib + MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7483,
+                    "pubMedId": 27370604,
+                    "title": "Combination of Imatinib Mesylate and AKT Inhibitor Provides Synergistic Effects in Preclinical Study of Gastrointestinal Stromal Tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27370604"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18480,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT V560D and KIT V654A demonstrated a decreased response to treatment with Ayvakit (avapritinib) compared to cells expressing KIT V560D alone in culture (PMID: 31270078).",
+            "molecularProfile": {
+                "id": 28309,
+                "profileName": "KIT V560D KIT V654A"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14333,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT V560D and KIT V654A were resistant to Flumatinib in culture (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 28309,
+                "profileName": "KIT V560D KIT V654A"
+            },
+            "therapy": {
+                "id": 3169,
+                "therapyName": "Flumatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11833,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Motesanib (AMG 706) inhibited KIT phosphorylation and growth of cells expressing a KIT V560D/V654A double mutation in culture (PMID: 20633291).",
+            "molecularProfile": {
+                "id": 28309,
+                "profileName": "KIT V560D KIT V654A"
+            },
+            "therapy": {
+                "id": 824,
+                "therapyName": "Motesanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9827,
+                    "pubMedId": 20633291,
+                    "title": "Motesanib inhibits Kit mutations associated with gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20633291"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11842,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tasigna (nilotinib) inhibited proliferation of transformed cells expressing a KIT V560del/V654A double mutation in culture (PMID: 17699867).",
+            "molecularProfile": {
+                "id": 28310,
+                "profileName": "KIT V560del KIT V654A"
+            },
+            "therapy": {
+                "id": 829,
+                "therapyName": "Nilotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 676,
+                    "pubMedId": 17699867,
+                    "title": "Sorafenib inhibits the imatinib-resistant KITT670I gatekeeper mutation in gastrointestinal stromal tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17699867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17528,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Inlyta (axitinib) inhibited KIT phosphorylation and proliferation of transformed cells expressing KIT V654A and KIT V559D in culture (PMID: 31205508).",
+            "molecularProfile": {
+                "id": 29983,
+                "profileName": "KIT V559D KIT V654A"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15597,
+                    "pubMedId": 31205508,
+                    "title": "Axitinib overcomes multiple imatinib resistant cKIT mutations including the gatekeeper mutation T670I in gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31205508"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14328,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT V559D and KIT V654A were sensitive to treatment with Sutent (sunitinib) in culture, demonstrating decreased cell proliferation (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 29983,
+                "profileName": "KIT V559D KIT V654A"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17553,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) inhibited proliferation of transformed cells expressing KIT V654A and KIT V559D in culture (PMID: 31205508).",
+            "molecularProfile": {
+                "id": 29983,
+                "profileName": "KIT V559D KIT V654A"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15597,
+                    "pubMedId": 31205508,
+                    "title": "Axitinib overcomes multiple imatinib resistant cKIT mutations including the gatekeeper mutation T670I in gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31205508"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14620,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KIT V654A was identified as a secondary mutation in a patient with gastrointestinal stromal tumor harboring a primary KIT K558_V560del mutation, who developed resistance to Gleevec (imatinib) (PMID: 18488160).",
+            "molecularProfile": {
+                "id": 30371,
+                "profileName": "KIT K558_V560del KIT V654A"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14623,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KIT V654A and KIT N822K were identified as secondary mutations in a patient with gastrointestinal stromal tumor harboring a primary KIT V569_L576del mutation, who developed resistance to Gleevec (imatinib) (PMID: 18488160).",
+            "molecularProfile": {
+                "id": 30373,
+                "profileName": "KIT V569_L576del KIT V654A KIT N822K"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7082,
+                    "pubMedId": 18488160,
+                    "title": "Molecular analysis of secondary kinase mutations in imatinib-resistant gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18488160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18452,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT D816V and KIT V654A demonstrated resistance to treatment with Rydapt (midostaurin) in culture compared to cells expressing KIT D816V alone (PMID: 31270078).",
+            "molecularProfile": {
+                "id": 33234,
+                "profileName": "KIT V654A KIT D816V"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18466,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT D816V and KIT V654A demonstrated some sensitivity to treatment with Ayvakit (avapritinib) in culture (PMID: 31270078).",
+            "molecularProfile": {
+                "id": 33234,
+                "profileName": "KIT V654A KIT D816V"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18611,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Ripretinib (DCC-2618) decreased circulating tumor DNA, resulted in stable disease lasting over 26 months in a patient with gastrointestinal stromal tumor harboring a primary KIT V559_G565del mutation and two acquired resistance mutations, KIT V654A and KIT A829P (PMID: 31085175; NCT02571036).",
+            "molecularProfile": {
+                "id": 33460,
+                "profileName": "KIT V559_G565del KIT V654A KIT A829P"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1659,
+            "profileName": "KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23688,
+            "profileName": "KIT W557_K558del KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23691,
+            "profileName": "KIT V560_L576del KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26979,
+            "profileName": "KIT exon11 KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28309,
+            "profileName": "KIT V560D KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28310,
+            "profileName": "KIT V560del KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29983,
+            "profileName": "KIT V559D KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30371,
+            "profileName": "KIT K558_V560del KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30373,
+            "profileName": "KIT V569_L576del KIT V654A KIT N822K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33234,
+            "profileName": "KIT V654A KIT D816V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33460,
+            "profileName": "KIT V559_G565del KIT V654A KIT A829P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136888,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54728092T>C",
+            "cDna": "c.1961T>C",
+            "protein": "p.V654A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136889,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54728092T>C",
+            "cDna": "c.1961T>C",
+            "protein": "p.V654A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

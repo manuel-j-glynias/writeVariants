@@ -1,0 +1,174 @@
+{
+    "id": 27293,
+    "fullName": "EGFR R222C",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR R222C lies within the extracellular domain of the Egfr protein (UniProt.org). R222C results in increased transformation ability in two different cell lines in one study (PMID: 29533785) and therefore, is predicted to lead to a gain of Egfr protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "R222C",
+    "createDate": "11/28/2017",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135836,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55152581C>T",
+        "cDna": "c.664C>T",
+        "protein": "p.R222C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12398,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R222C were sensitive to treatment with Gilotrif (afatinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 28718,
+                "profileName": "EGFR R222C"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12399,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R222C were sensitive to treatment with Tagrisso (osimertinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 28718,
+                "profileName": "EGFR R222C"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28718,
+            "profileName": "EGFR R222C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 18626,
+                    "name": "Osimertinib",
+                    "profileName": "EGFR R222C"
+                },
+                {
+                    "id": 18625,
+                    "name": "Afatinib",
+                    "profileName": "EGFR R222C"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135838,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55152581C>T",
+            "cDna": "c.664C>T",
+            "protein": "p.R222C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135839,
+            "transcript": "NM_201283",
+            "gDna": "chr7:g.55152581C>T",
+            "cDna": "c.664C>T",
+            "protein": "p.R222C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135837,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55152581C>T",
+            "cDna": "c.664C>T",
+            "protein": "p.R222C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135836,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55152581C>T",
+            "cDna": "c.664C>T",
+            "protein": "p.R222C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

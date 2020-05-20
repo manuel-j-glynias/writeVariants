@@ -1,0 +1,251 @@
+{
+    "id": 25254,
+    "fullName": "EGFR T34_A289del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR T34_A289del results in the deletion of 256 amino acids in the extracellular domain of the Egfr protein from amino acids 34 to 289 (UniProt.org). T34_A289del results in ligand independent constitutive phosphorylation of Egfr, increased proliferation, and invasion of cells in culture (PMID: 27216155).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 6503,
+                    "pubMedId": 27216155,
+                    "title": "A Novel EGFR Extracellular Domain Mutant, EGFR\u0394768, Possesses Distinct Biological and Biochemical Properties in Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27216155"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "T34_A289del",
+    "createDate": "08/18/2016",
+    "updateDate": "09/03/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135919,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55142299_55154132del11834",
+        "cDna": "c.102_869del11834",
+        "protein": "p.S35_T290del256",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7812,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, neuroblastoma cells over expressing EGFR T34_A289del were resistant to Eposin (etoposide) in culture (PMID: 27216155).",
+            "molecularProfile": {
+                "id": 26048,
+                "profileName": "EGFR T34_A289del"
+            },
+            "therapy": {
+                "id": 1136,
+                "therapyName": "Etoposide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6503,
+                    "pubMedId": 27216155,
+                    "title": "A Novel EGFR Extracellular Domain Mutant, EGFR\u0394768, Possesses Distinct Biological and Biochemical Properties in Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27216155"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7810,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) inhibited Egfr phosphorylation and cell proliferation in neuroblastoma cells over expressing EGFR T34_A289del in culture (PMID: 27216155).",
+            "molecularProfile": {
+                "id": 26048,
+                "profileName": "EGFR T34_A289del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6503,
+                    "pubMedId": 27216155,
+                    "title": "A Novel EGFR Extracellular Domain Mutant, EGFR\u0394768, Possesses Distinct Biological and Biochemical Properties in Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27216155"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7811,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) inhibited Egfr phosphorylation and cell proliferation in transformed cells over expressing EGFR T34_A289del in culture (PMID: 27216155).",
+            "molecularProfile": {
+                "id": 26048,
+                "profileName": "EGFR T34_A289del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6503,
+                    "pubMedId": 27216155,
+                    "title": "A Novel EGFR Extracellular Domain Mutant, EGFR\u0394768, Possesses Distinct Biological and Biochemical Properties in Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27216155"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7813,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) did not efficiently inhibit Egfr phosphorylation in transformed cells over expressing T34_A289del in culture (PMID: 27216155).",
+            "molecularProfile": {
+                "id": 26048,
+                "profileName": "EGFR T34_A289del"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6503,
+                    "pubMedId": 27216155,
+                    "title": "A Novel EGFR Extracellular Domain Mutant, EGFR\u0394768, Possesses Distinct Biological and Biochemical Properties in Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27216155"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26048,
+            "profileName": "EGFR T34_A289del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10587,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR T34_A289del"
+                },
+                {
+                    "id": 10588,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR T34_A289del"
+                },
+                {
+                    "id": 10584,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR T34_A289del"
+                },
+                {
+                    "id": 10586,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR T34_A289del"
+                },
+                {
+                    "id": 10585,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR T34_A289del"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135920,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55142299_55154132del11834",
+            "cDna": "c.102_869del11834",
+            "protein": "p.S35_T290del256",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135921,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55142299_55154132del11834",
+            "cDna": "c.102_869del11834",
+            "protein": "p.S35_T290del256",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135919,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55142299_55154132del11834",
+            "cDna": "c.102_869del11834",
+            "protein": "p.S35_T290del256",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135922,
+            "transcript": "NM_201283",
+            "gDna": "chr7:g.55142299_55154132del11834",
+            "cDna": "c.102_869del11834",
+            "protein": "p.S35_T290del256",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

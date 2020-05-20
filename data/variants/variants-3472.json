@@ -1,0 +1,1380 @@
+{
+    "id": 3472,
+    "fullName": "ERBB2 G778_P780dup",
+    "impact": "duplication",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) G778_P780dup (also referred to as P780_Y781insGSP and V777_G778insGSP) indicates the insertion of 3 duplicate amino acids, glycine (G)-778 through proline (P)-781, in the protein kinase domain of the Erbb2 (Her2) protein (UniProt.org). G778_P780dup results in constitutive activation of Erbb2 (Her2), increased downstream signaling, is transforming in cell culture (PMID: 23220880, PMID: 31588020), and confers resistance to selected tyrosine kinase inhibitors (PMID: 31588020).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                },
+                {
+                    "id": 1980,
+                    "pubMedId": 23220880,
+                    "title": "Activating HER2 mutations in HER2 gene amplification negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23220880"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "G778_P780dup",
+    "createDate": "03/03/2015",
+    "updateDate": "03/18/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 188564,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724750_39724758",
+        "cDna": "c.2332_2340",
+        "protein": "p.G778_P780",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11645,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Nerlynx (neratinib) demonstrated activity in metastatic breast cancer patients harboring ERBB2 (HER2) mutations, resulting in a clinical benefit rate of 31% (5/16), which included patients with ERBB2 G778_P780dup (1 complete response (referred to as V777_G778insGSP) and 1 patient with stable disease for more than 24 weeks (referred to as P780_Y781insGSP) (PMID: 28679771).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9679,
+                    "pubMedId": 28679771,
+                    "title": "Neratinib Efficacy and Circulating Tumor DNA Detection of HER2 Mutations in HER2 Nonamplified Metastatic Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28679771"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 2039,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human breast cell lines expressing ERBB2 (HER2) P780_Y781insGSP reverted to normal morphology in culture upon Nerlynx (neratinib) treatment (PMID: 23220880).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1980,
+                    "pubMedId": 23220880,
+                    "title": "Activating HER2 mutations in HER2 gene amplification negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23220880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20417,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup were resistant to Imbruvica (ibrutinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13253,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival over 17 months in 2 patient with non-small cell lung cancer harboring ERBB2 (HER2) G778_P780dup (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20408,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup were resistant to Nazartinib (EGF816) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 1309,
+                "therapyName": "Nazartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2040,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human breast cell lines expressing ERBB2 P780_Y781insGSP demonstrated resistance when treated with Herceptin (trastuzumab) (PMID: 23220880).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1980,
+                    "pubMedId": 23220880,
+                    "title": "Activating HER2 mutations in HER2 gene amplification negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23220880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15546,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) were resistant to AZ5104 in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 5901,
+                "therapyName": "AZ5104",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20545,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarloxotinib (TRLX) inhibited survival of transformed cells expressing ERBB2 (HER2) G778_P780dup in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 6986,
+                "therapyName": "Tarloxotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8055,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a lung adenocarcinoma patient harboring ERBB2 (HER2) G778_P780dup (also referred to as V747_G748insGSP and G748_P750dup), demonstrated a 13% regression of target lesions and stable disease for 11 months following treatment with pulse Gilotrif (afatinib) (PMID: 26964772).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6345,
+                    "pubMedId": 26964772,
+                    "title": "Pulse Afatinib for ERBB2 Exon 20 Insertion-Mutated Lung Adenocarcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26964772"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10523,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic lung adenocarcinoma harboring ERBB2 (HER2) G778_P780dup (also referred to as V777_G778insGSP) demonstrated tumor shrinkage and clinical response for 7 months following treatment with Gilotrif (afatinib) (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15537,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) demonstrated decreased response to Tagrisso (osimertinib) compared to Poziotinib (HM781-36B) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 21001,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) P780_Y781insGSP were resistant to Tagrisso (osimertinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6959,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited Erbb2 (Her2) phosphorylation and downstream signaling in bronchial epithelial cells expressing ERBB2 (HER2) G778_P780dup (also referred to as P780_Y781insGSP) in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20860,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited viability of breast cancer cells expressing ERBB2 (HER2) G778_P780dup in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19642,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Poziotinib (HM781-36B) treatment resulted in a confirmed objective response rate of 42% (5/12) in patients with non-small cell lung cancer harboring ERBB2 (HER2) Y772_A775dup (n=9) or ERBB2 (HER2) G778_P780dup (n=3), with a median progression-free survival of 5.6 months (PMID: 31588020; NCT03066206).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15533,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) were resistant to Tarceva (erlotinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19153,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup were resistant to Sapitinib (AZD8931) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 910,
+                "therapyName": "Sapitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13219,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in partial response with a progression-free survival of 3.5 months in one patient, and stable disease with a progression-free survival of 20.0 months in another patient with Erbb2 (Her2) receptor negative (non-amplified) breast cancer harboring ERBB2 (HER2) G778_P780dup (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6967,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bronchial epithelial cells expressing ERBB2 (HER2) G778_P780dup (also referred to as P780_Y781insGSP) did not demonstrate sensitivity to Iressa (gefitinib) in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10525,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited growth of transformed cells expressing ERBB2 (HER2) G778_P780dup (also referred to as P780_Y781insGSP) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20674,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup were resistant to Vizimpro (dacomitinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15544,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) demonstrated decreased response to Tucatinib (ARRY-380) compared to Poziotinib (HM781-36B) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 639,
+                "therapyName": "Tucatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 21015,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast epithelial cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) were resistant to Tykerb (lapatinib) treatment in cell culture (PMID: 31980423).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18263,
+                    "pubMedId": 31980423,
+                    "title": "An insertion mutation of ERBB2 enhances breast cancer cell growth and confers resistance to lapatinib through AKT signaling pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31980423"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2038,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human breast cell lines expressing ERBB2 P780_Y781insGSP demonstrated resistance when treated with Tykerb (lapatinib) (PMID: 23220880).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1980,
+                    "pubMedId": 23220880,
+                    "title": "Activating HER2 mutations in HER2 gene amplification negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23220880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14719,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited growth of a transformed cell line expressing ERBB2 (HER2) G778_P780dup (reported P780insGSP) in culture (PMID: 29686424).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21002,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited survival of transformed cells expressing ERBB2 (HER2) P780_Y781insGSP in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21016,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, addition of Perifosine restored sensitivity to Tykerb (lapatinib) in breast epithelial cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP in culture (PMID: 31980423).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 9532,
+                "therapyName": "Lapatinib + Perifosine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18263,
+                    "pubMedId": 31980423,
+                    "title": "An insertion mutation of ERBB2 enhances breast cancer cell growth and confers resistance to lapatinib through AKT signaling pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31980423"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10501,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, two lung adenocarcinoma patients harboring ERBB2 (HER2) G778_780dup (reported as P780_Y781insGSP) demonstrated partial response to treatment with Vizimpro (dacomitinib) (PMID: 25899785; NCT00818441).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8574,
+                    "pubMedId": 25899785,
+                    "title": "Targeting HER2 aberrations as actionable drivers in lung cancers: phase II trial of the pan-HER tyrosine kinase inhibitor dacomitinib in patients with HER2-mutant or amplified tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25899785"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15606,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Gilotrif (afatinib) treatment resulted in an objective response rate of 25% (1/4) in non-small cell lung cancer patients harboring ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10527,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) inhibited growth of transformed cells expressing ERBB2 (HER2) G778_P780dup (also referred to as P780_Y781insGSP) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15594,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) P780_Y781insGSP demonstrated decreased response to Nerlynx (neratinib) compared to Poziotinib (HM781-36B) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20679,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup were resistant to Nerlynx (neratinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20531,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pyrotinib inhibited survival of transformed cells expressing ERBB2 (HER2) G778_P780dup in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19638,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, addition of Poziotinib (HM781-36B) enhanced growth inhibition by Kadcyla (ado-trastuzumab emtansine) treatment in breast cancer cells expressing ERBB2 (HER2) G778_P780dup in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 6799,
+                "therapyName": "Ado-trastuzumab emtansine + Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15530,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) demonstrated decreased response to Gilotrif (afatinib) compared to Poziotinib (HM781-36B) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20378,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup were resistant to Gilotrif (afatinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21014,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) was identified in a patient with ERBB2 (HER2)-positive breast cancer at the time of disease progression while on Tykerb (lapatinib) treatment (PMID: 31980423).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18263,
+                    "pubMedId": 31980423,
+                    "title": "An insertion mutation of ERBB2 enhances breast cancer cell growth and confers resistance to lapatinib through AKT signaling pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31980423"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15931,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Kadcyla (trastuzumab emtansine) resulted in best overall responses of partial response in 44% (8/18) and stable disease in 39% (7/18), and median progression-free survival of 5 months in patients with lung adenocarcinoma harboring ERBB2 (HER2) activating mutations, and a subset of patients specifically harboring ERBB2 (HER2) G778_P780dup (also referred to as P780_Y781insGSP) had a 33% (1/3) partial response rate (PMID: 29989854; NCT02675829).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12393,
+                    "pubMedId": 29989854,
+                    "title": "Ado-Trastuzumab Emtansine for Patients With HER2-Mutant Lung Cancers: Results From a Phase II Basket Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29989854"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19186,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P80dup were resistant to Tykerb (lapatinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15539,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G778_P780dup (reported as P780_Y781insGSP) were resistant to Tykerb (lapatinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 3278,
+                "profileName": "ERBB2 G778_P780dup"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20340,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) resulted in a moderate delay of tumor growth in a breast cancer patient-derived xenograft model harboring ERBB2 (HER2) G778_P780dup and PIK3CA H1074R (PMID: 31978326).",
+            "molecularProfile": {
+                "id": 35134,
+                "profileName": "ERBB2 G778_P780dup PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 17814,
+                    "pubMedId": 31978326,
+                    "title": "Hyperactivation of TORC1 Drives Resistance to the Pan-HER Tyrosine Kinase Inhibitor Neratinib in HER2-Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31978326"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3278,
+            "profileName": "ERBB2 G778_P780dup",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4483,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 G778_P780dup"
+                },
+                {
+                    "id": 4484,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 G778_P780dup"
+                }
+            ]
+        },
+        {
+            "id": 35134,
+            "profileName": "ERBB2 G778_P780dup PIK3CA H1047R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 188564,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724750_39724758",
+            "cDna": "c.2332_2340",
+            "protein": "p.G778_P780",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 188565,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724750_39724758",
+            "cDna": "c.2332_2340",
+            "protein": "p.G778_P780",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

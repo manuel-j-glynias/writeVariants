@@ -1,0 +1,131 @@
+{
+    "id": 17157,
+    "fullName": "POLR2A loss",
+    "impact": "unknown",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "POLR2A loss indicates loss of the POLR2A gene, mRNA, and protein.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 5430,
+        "geneSymbol": "POLR2A",
+        "terms": [
+            "POLR2A",
+            "hRPB220",
+            "hsRPB1",
+            "NEDHIB",
+            "POLR2",
+            "POLRA",
+            "RPB1",
+            "RPBh1",
+            "RpIILS",
+            "RPO2",
+            "RPOL2"
+        ]
+    },
+    "variant": "loss",
+    "createDate": "01/25/2016",
+    "updateDate": "09/19/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4398,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ama-HEA125 inhibited tumor growth and induced tumor regression in colorectal cancer cell line xenograft models with hemizygous loss and decreased expression of POLR2A (PMID: 25901683).",
+            "molecularProfile": {
+                "id": 17444,
+                "profileName": "POLR2A loss"
+            },
+            "therapy": {
+                "id": 3457,
+                "therapyName": "Ama-HEA125",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4431,
+                    "pubMedId": 25901683,
+                    "title": "TP53 loss creates therapeutic vulnerability in\u00a0colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25901683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7252,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ama-HEA125 inhibited tumor growth in animal models of colorectal cancer harboring concomitant POLR2A and TP53 loss (PMID: 25901683).",
+            "molecularProfile": {
+                "id": 24808,
+                "profileName": "POLR2A loss TP53 loss"
+            },
+            "therapy": {
+                "id": 3457,
+                "therapyName": "Ama-HEA125",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4431,
+                    "pubMedId": 25901683,
+                    "title": "TP53 loss creates therapeutic vulnerability in\u00a0colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25901683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 17444,
+            "profileName": "POLR2A loss",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7586,
+                    "name": "Ama-HEA125",
+                    "profileName": "POLR2A loss"
+                }
+            ]
+        },
+        {
+            "id": 24808,
+            "profileName": "POLR2A loss TP53 loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

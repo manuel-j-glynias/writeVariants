@@ -1,0 +1,397 @@
+{
+    "id": 30396,
+    "fullName": "MET D1010H",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET D1010H lies within the juxtamembrane domain of the Met protein (PMID: 19096300). D1010H has been identified in the scientific literature (PMID: 27343443, PMID: 27666659, PMID: 27343442), but has not been biochemically characterized and therefore, its effect on Met protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 8066,
+                    "pubMedId": 27343442,
+                    "title": "Acquired Resistance to Crizotinib in NSCLC with MET\u00a0Exon 14 Skipping.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27343442"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 15740,
+                    "pubMedId": 19096300,
+                    "title": "Activation of MET by gene amplification or by splice mutations deleting the juxtamembrane domain in primary resected lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19096300"
+                },
+                {
+                    "id": 12228,
+                    "pubMedId": 27666659,
+                    "title": "Emergence of Preexisting MET Y1230C Mutation as a Resistance Mechanism to Crizotinib in NSCLC with MET Exon 14 Skipping.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27666659"
+                },
+                {
+                    "id": 15849,
+                    "pubMedId": 27343443,
+                    "title": "Characterization of 298 Patients with Lung Cancer Harboring MET Exon 14 Skipping Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27343443"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "D1010H",
+    "createDate": "06/26/2019",
+    "updateDate": "03/08/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 180517,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116771989G>C",
+        "cDna": "c.3028G>C",
+        "protein": "p.D1010H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20333,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient harboring MET D1010H demonstrated a partial response that lasted for 10.8 months when treated with Xalkori (crizotinib) (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 32562,
+                "profileName": "MET D1010H"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20334,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer harboring MET D1010H responded to Xalkori (crizotinib) for 10.8 months, but then progressed, and was found to have acquired MET D1228H (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35121,
+                "profileName": "MET D1010H MET D1228H"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20335,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer harboring MET D1010H and EGFR amplification demonstrated a best objective response of stable disease for 21.2 months when treated with Glesatinib (MGCD265) (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35122,
+                "profileName": "EGFR amp MET D1010H"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20337,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer harboring MET D1010H had stable disease for 21.2 months when treated with Glesatinib (MGCD265), but then progressed, and tissue testing revealed acquisition of MET H1112Y (also referred to as H1094Y) and PTEN E106* while plasma testing revealed acquisition of MET H1112Y and MET L1195V (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35127,
+                "profileName": "MET D1010H MET H1112Y MET L1195V PTEN E106*"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20338,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer treated with Xalkori (crizotinib) demonstrated resistance and plasma testing revealed MET D1010H, MET S997*, MET H1094Y (also referred to as H1112Y), and MET L1195V (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35129,
+                "profileName": "MET S997* MET D1010H MET H1112Y MET L1195V"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20339,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer harboring MET D1010H treated with Capmatinib (INC280) demonstrated resistance and was found via tissue testing to have acquired EGFR amplification and ERBB3 (HER3) amplification and via plasma testing to have acquired MET D1228N (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35131,
+                "profileName": "EGFR amp ERBB3 amp MET D1010H MET D1228N"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20349,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient with MET amplification and MET D1010H demonstrated a partial response for 8.8 months when treated with Xalkori (crizotinib) (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35141,
+                "profileName": "MET D1010H MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20350,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient with KRAS amplification and MET D1010H demonstrated a partial response for 3.9 months when treated with Xalkori (crizotinib) (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35146,
+                "profileName": "KRAS amp MET D1010H"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32562,
+            "profileName": "MET D1010H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35121,
+            "profileName": "MET D1010H MET D1228H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35122,
+            "profileName": "EGFR amp MET D1010H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35126,
+            "profileName": "MET D1010H MET H1112Y PTEN E106*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35127,
+            "profileName": "MET D1010H MET H1112Y MET L1195V PTEN E106*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35129,
+            "profileName": "MET S997* MET D1010H MET H1112Y MET L1195V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35131,
+            "profileName": "EGFR amp ERBB3 amp MET D1010H MET D1228N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35141,
+            "profileName": "MET D1010H MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35146,
+            "profileName": "KRAS amp MET D1010H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 180517,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116771989G>C",
+            "cDna": "c.3028G>C",
+            "protein": "p.D1010H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

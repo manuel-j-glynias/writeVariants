@@ -1,0 +1,273 @@
+{
+    "id": 25918,
+    "fullName": "TPR - NTRK1",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TPR-NTRK1 (also known as TRK-T1 or TRK-T2) results from the fusion of TPR and NTRK1, resulting in a fusion protein with an in-frame tyrosine kinase domain (PMID: 9172002, PMID: 27259011, PMID: 11126359) that promotes hyperplasia and tumor formation in transgenic mice (PMID: 11126359). TPR-NTRK1 has been identified in a number of tumor types, including, thyroid carcinoma (PMID: 9172002), soft tissue tumors (PMID: 27259011), and lung cancer (PMID: 29466156).",
+            "references": [
+                {
+                    "id": 12977,
+                    "pubMedId": 11126359,
+                    "title": "The TRK-T1 fusion protein induces neoplastic transformation of thyroid epithelium.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11126359"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 7529,
+                    "pubMedId": 27259011,
+                    "title": "Recurrent NTRK1 Gene Fusions Define a Novel Subset of Locally Aggressive Lipofibromatosis-like Neural Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27259011"
+                },
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                },
+                {
+                    "id": 7528,
+                    "pubMedId": 9172002,
+                    "title": "Chromosome 1 rearrangements involving the genes TPR and NTRK1 produce structurally different thyroid-specific TRK oncogenes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9172002"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7175,
+        "geneSymbol": "TPR",
+        "terms": [
+            "TPR"
+        ]
+    },
+    "variant": "TPR - NTRK1",
+    "createDate": "01/12/2017",
+    "updateDate": "10/15/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 4914,
+                "geneSymbol": "NTRK1",
+                "terms": [
+                    "NTRK1",
+                    "MTC",
+                    "p140-TrkA",
+                    "TRK",
+                    "Trk-A",
+                    "TRK1",
+                    "TRKA"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15294,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Vitrakvi (larotrectinib) treatment resulted in stable disease in a patient with advanced solid tumor harboring a TPR-NTRK1 fusion (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 27051,
+                "profileName": "TPR - NTRK1"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15267,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, NTRK1 G595R and NTRK1 G667S were identified at disease progression in a patient with lung cancer harboring TPR-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 30926,
+                "profileName": "TPR - NTRK1 NTRK1 G595R NTRK1 G667S"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18710,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic cancer cell line harboring TPR-NTRK1 and NTRK1 G595R, and expressing BRAF V600E demonstrated resistance to treatment with LOXO-195 in culture (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33512,
+                "profileName": "TPR - NTRK1 NTRK1 G595R BRAF V600E"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19079,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with pancreatic cancer harboring TPR-NTRK1 responded to treatment with Rozlytrek (entrectinib), but eventually progressed and was found to have acquired NTRK1 G595R (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33928,
+                "profileName": "TPR - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19080,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with pancreatic cancer co-harboring TPR-NTRK1 and NTRK1 G595R progressed on treatment with LOXO-195, and subsequent cell-free DNA testing detected a loss of NTRK1 G595R, but acquisition of ERBB2 S310F (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33929,
+                "profileName": "TPR - NTRK1 ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27051,
+            "profileName": "TPR - NTRK1",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19342,
+                    "name": "Larotrectinib",
+                    "profileName": "TPR - NTRK1"
+                }
+            ]
+        },
+        {
+            "id": 30926,
+            "profileName": "TPR - NTRK1 NTRK1 G595R NTRK1 G667S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33512,
+            "profileName": "TPR - NTRK1 NTRK1 G595R BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33928,
+            "profileName": "TPR - NTRK1 NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33929,
+            "profileName": "TPR - NTRK1 ERBB2 S310F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

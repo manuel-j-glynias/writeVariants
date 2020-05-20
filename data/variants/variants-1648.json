@@ -1,0 +1,157 @@
+{
+    "id": 1648,
+    "fullName": "KIT N655K",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT N655K lies within the tyrosine kinase domain 1 (exon 13) of the Kit protein (PMID: 17555444). N655K results in constitutive phosphorylation of Kit in cell culture in one study (PMID: 17489795) and therefore, is predicted to lead to a gain of Kit protein function.",
+            "references": [
+                {
+                    "id": 9818,
+                    "pubMedId": 17555444,
+                    "title": "Recent advances in the understanding of mastocytosis: the role of KIT mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17555444"
+                },
+                {
+                    "id": 711,
+                    "pubMedId": 17489795,
+                    "title": "Characterization of tyrosine kinase I domain c-kit gene mutation Asn655Lys newly found in primary jejunal gastrointestinal stromal tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17489795"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "N655K",
+    "createDate": "09/09/2014",
+    "updateDate": "05/15/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136492,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54728096T>G",
+        "cDna": "c.1965T>G",
+        "protein": "p.N655K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18467,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT D816V and KIT N655K demonstrated some sensitivity to treatment with Ayvakit (avapritinib) in culture (PMID: 31270078).",
+            "molecularProfile": {
+                "id": 33231,
+                "profileName": "KIT N655K KIT D816V"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18457,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT D816V and KIT N655K demonstrated resistance to treatment with Rydapt (midostaurin) in culture compared to cells expressing KIT D816V alone (PMID: 31270078).",
+            "molecularProfile": {
+                "id": 33231,
+                "profileName": "KIT N655K KIT D816V"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16200,
+                    "pubMedId": 31270078,
+                    "title": "ATP-Competitive Inhibitors Midostaurin and Avapritinib Have Distinct Resistance Profiles in Exon 17-Mutant KIT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31270078"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1658,
+            "profileName": "KIT N655K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1896,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT N655K"
+                }
+            ]
+        },
+        {
+            "id": 33231,
+            "profileName": "KIT N655K KIT D816V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136492,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54728096T>G",
+            "cDna": "c.1965T>G",
+            "protein": "p.N655K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136493,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54728096T>G",
+            "cDna": "c.1965T>G",
+            "protein": "p.N655K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

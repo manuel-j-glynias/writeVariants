@@ -1,0 +1,318 @@
+{
+    "id": 4441,
+    "fullName": "MTOR F2108L",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR F2108L lies within the FKBP1A/rapamycin complex-interacting region of the Mtor protein (UniProt.org). F2108L results in the loss of mTOR's ability to bind rapamycin analogs (PMID: 25295501).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2388,
+                    "pubMedId": 25295501,
+                    "title": "Response and acquired resistance to everolimus in anaplastic thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25295501"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "F2108L",
+    "createDate": "04/03/2015",
+    "updateDate": "02/28/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 145211,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11127039A>G",
+        "cDna": "c.6322T>C",
+        "protein": "p.F2108L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1902,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a thyroid cancer patient became resistant to Afinitor (everolimus) after 18-months and was found to have acquired the mutation, mTOR F2108L (PMID: 25295501; NCT00936858).",
+            "molecularProfile": {
+                "id": 4237,
+                "profileName": "MTOR F2108L"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 2388,
+                    "pubMedId": 25295501,
+                    "title": "Response and acquired resistance to everolimus in anaplastic thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25295501"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3369,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human cells expressing MTOR F2108L were resistant to Rapamune (sirolimus) mediated growth inhibition in culture (PMID: 25295501).",
+            "molecularProfile": {
+                "id": 4237,
+                "profileName": "MTOR F2108L"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2388,
+                    "pubMedId": 25295501,
+                    "title": "Response and acquired resistance to everolimus in anaplastic thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25295501"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3371,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Torin 1 inhibited growth of transformed human cells expressing MTOR F2108L in culture (PMID: 25295501).",
+            "molecularProfile": {
+                "id": 4237,
+                "profileName": "MTOR F2108L"
+            },
+            "therapy": {
+                "id": 2247,
+                "therapyName": "Torin 1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2388,
+                    "pubMedId": 25295501,
+                    "title": "Response and acquired resistance to everolimus in anaplastic thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25295501"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7493,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated sensitivity to treatment with RapaLink-1 in culture, resulting in inhibition of Mtor and downstream signaling (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 4493,
+                "therapyName": "RapaLink-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7494,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated resistance to treatment with Rapamune (sirolimus) in culture (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7495,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated resistance to treatment with Sapanisertib (MLN0128) in culture (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7496,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated resistance to the combination treatment of Rapamune (sirolimus) and Sapanisertib (MLN0128) in culture (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 4497,
+                "therapyName": "Sapanisertib + Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4237,
+            "profileName": "MTOR F2108L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2854,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR F2108L"
+                },
+                {
+                    "id": 2853,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR F2108L"
+                }
+            ]
+        },
+        {
+            "id": 25591,
+            "profileName": "MTOR F2108L MTOR M2327I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145211,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11127039A>G",
+            "cDna": "c.6322T>C",
+            "protein": "p.F2108L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145212,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11127039A>G",
+            "cDna": "c.6322T>C",
+            "protein": "p.F2108L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

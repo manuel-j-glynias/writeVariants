@@ -1,0 +1,143 @@
+{
+    "id": 23671,
+    "fullName": "NRAS T58I",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS T58I lies within the GTP binding pocket of the Nras protein (UniProt.org). T58I has not been characterized, but can be predicted to confer a loss of function on Nras protein based on the effects of KRAS T58I, which results in defective intrinsic GTPase activity and decreased response to GTPase-activating proteins, leading to increased phosphorylation of of Mek and Akt, and transformation in cell culture (PMID: 16474405).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 840,
+                    "pubMedId": 16474405,
+                    "title": "Germline KRAS mutations cause Noonan syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16474405"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "T58I",
+    "createDate": "06/24/2016",
+    "updateDate": "09/19/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162470,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114713917G>A",
+        "cDna": "c.173C>T",
+        "protein": "p.T58I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7068,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a melanoma patient harboring a BRAF V600 mutation developed resistance-associated mutations, MAP2K1 V60E, NRAS T58I, and NRAS Q61R, after 18 weeks of treatment with Zelboraf (vemurafenib) (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24385,
+                "profileName": "BRAF V600X MAP2K1 V60E NRAS T58I NRAS Q61R"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 24384,
+            "profileName": "NRAS T58I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16546,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS T58I"
+                },
+                {
+                    "id": 16542,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS T58I"
+                },
+                {
+                    "id": 16543,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS T58I"
+                },
+                {
+                    "id": 16541,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS T58I"
+                },
+                {
+                    "id": 16545,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS T58I"
+                },
+                {
+                    "id": 16544,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS T58I"
+                }
+            ]
+        },
+        {
+            "id": 24385,
+            "profileName": "BRAF V600X MAP2K1 V60E NRAS T58I NRAS Q61R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162470,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114713917G>A",
+            "cDna": "c.173C>T",
+            "protein": "p.T58I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

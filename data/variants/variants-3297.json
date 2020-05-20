@@ -1,0 +1,188 @@
+{
+    "id": 3297,
+    "fullName": "EGFR E746_S752del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR E746_S752del results in the deletion of seven amino acids in the protein kinase domain of the Egfr protein from amino acids 746 to 752 (UniProt.org). E746_S752del has not been biochemically characterized, but is predicted to result in a gain of function based on the effect of other EGFR exon 19 deletion mutations (PMID: 16373402, PMID: 16912195, PMID: 23387505).",
+            "references": [
+                {
+                    "id": 21,
+                    "pubMedId": 16912195,
+                    "title": "Kinetic analysis of epidermal growth factor receptor somatic mutant proteins shows increased sensitivity to the epidermal growth factor receptor tyrosine kinase inhibitor, erlotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16912195"
+                },
+                {
+                    "id": 441,
+                    "pubMedId": 23387505,
+                    "title": "Sensitivity and kinase activity of epidermal growth factor receptor (EGFR) exon 19 and others to EGFR-tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23387505"
+                },
+                {
+                    "id": 1804,
+                    "pubMedId": 16373402,
+                    "title": "Dimerization and the signal transduction pathway of a small in-frame deletion in the epidermal growth factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16373402"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "E746_S752del",
+    "createDate": "02/22/2015",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135610,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174773_55174793del21",
+        "cDna": "c.2236_2256del21",
+        "protein": "p.E746_S752delELREATS",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13953,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tagrisso (osimertinib) treatment resulted in initial response in a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion (E746_S752del) and T790M, however, the disease progressed 20 months after treatment started, and EGFR P794L was identified by liquid biopsy at the time of progression (PMID: 29704676).",
+            "molecularProfile": {
+                "id": 29894,
+                "profileName": "EGFR E746_S752del EGFR T790M EGFR P794L"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11378,
+                    "pubMedId": 29704676,
+                    "title": "Afatinib in Osimertinib-Resistant EGFR ex19del/T790M/P794L Mutated NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29704676"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13954,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gilotrif (afatinib) treatment resulted in rapid clinical response in a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion (E746_S752del), EGFR T790M and EGFR P794L (PMID: 29704676).",
+            "molecularProfile": {
+                "id": 29894,
+                "profileName": "EGFR E746_S752del EGFR T790M EGFR P794L"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11378,
+                    "pubMedId": 29704676,
+                    "title": "Afatinib in Osimertinib-Resistant EGFR ex19del/T790M/P794L Mutated NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29704676"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3113,
+            "profileName": "EGFR E746_S752del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4656,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR E746_S752del"
+                },
+                {
+                    "id": 4654,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR E746_S752del"
+                },
+                {
+                    "id": 4655,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR E746_S752del"
+                },
+                {
+                    "id": 4653,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR E746_S752del"
+                },
+                {
+                    "id": 4657,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR E746_S752del"
+                }
+            ]
+        },
+        {
+            "id": 29894,
+            "profileName": "EGFR E746_S752del EGFR T790M EGFR P794L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34467,
+            "profileName": "EGFR E746_S752del MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135610,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174773_55174793del21",
+            "cDna": "c.2236_2256del21",
+            "protein": "p.E746_S752delELREATS",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

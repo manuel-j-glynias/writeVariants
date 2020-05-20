@@ -1,0 +1,164 @@
+{
+    "id": 1245,
+    "fullName": "ALK mutant",
+    "impact": "unknown",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ALK mutant indicates an unspecified mutation in the ALK gene.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "category",
+    "gene": {
+        "id": 238,
+        "geneSymbol": "ALK",
+        "terms": [
+            "ALK",
+            "CD246",
+            "NBLST3"
+        ]
+    },
+    "variant": "mutant",
+    "createDate": "08/03/2014",
+    "updateDate": "02/15/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7062,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Onalespib (AT13387) and Xalkori (crizotinib) combination treatment did not significantly improve median progression free survival (269 vs 266 days) or objective response rate (55.4%, 38/68 vs 45.3%, 31/68) compared to Xalkori (crizotinib) single treatment in patients with non-small cell lung carcinoma harboring either an ALK mutation or ALK rearrangement (J Clin Oncol 34, 2016 (suppl; abstr 9059); NCT01712217).",
+            "molecularProfile": {
+                "id": 1267,
+                "profileName": "ALK mutant"
+            },
+            "therapy": {
+                "id": 4355,
+                "therapyName": "Crizotinib + Onalespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6063,
+                    "pubMedId": null,
+                    "title": "Addition of HSP90 inhibitor onalespib to crizotinib prior to progression in patients with ALK-pos NSCLC: Results of a randomized phase 2 study.",
+                    "url": "http://meetinglibrary.asco.org/content/171030-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4736,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) demonstrated synergy with the combination of Topotecan and Cytoxan (cyclophosphamide) in patient-derived neuroblastoma cell lines harboring Alk mutations and functional TP53, resulting in growth inhibition in culture and tumor regression in animal models (PMID: 26438783).",
+            "molecularProfile": {
+                "id": 18888,
+                "profileName": "ALK mut TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3601,
+                "therapyName": "Crizotinib + Cyclophosphamide + Topotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4681,
+                    "pubMedId": 26438783,
+                    "title": "Crizotinib Synergizes with Chemotherapy in Preclinical Models of Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438783"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3297,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with ALK-rearrangement positive non-small cell lung cancer who acquired ALK drug resistance mutations following Xalkori (crizotinib) treatment had a median progression-free survival (mPFS) of 5.4 months on Zykadia (ceritinib), which was not significantly different than the mPFS of 6.5 months for patients without ALK mutations (PMID: 25724526).",
+            "molecularProfile": {
+                "id": 35571,
+                "profileName": "ALK mut ALK rearrange"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3718,
+                    "pubMedId": 25724526,
+                    "title": "Progression-Free and Overall Survival in ALK-Positive NSCLC Patients Treated with Sequential Crizotinib and Ceritinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25724526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1267,
+            "profileName": "ALK mutant",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 13109,
+            "profileName": "ALK rearrange ALK L1198F ALK mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 18888,
+            "profileName": "ALK mut TP53 wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35571,
+            "profileName": "ALK mut ALK rearrange",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

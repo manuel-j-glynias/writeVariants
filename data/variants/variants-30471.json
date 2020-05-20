@@ -1,0 +1,169 @@
+{
+    "id": 30471,
+    "fullName": "EGFR A702V",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR A702V lies within a region of the Egfr protein important for dimerization, phosphorylation, and activation (UniProt.org). A702V is predicted to confer a gain of function to the Egfr protein, as demonstrated by greater than 24.5-fold growth advantage in IL-3-depeleted cells in culture, as compared to wild-type Egfr, and confirmed in additional assays (PMID: 30952700).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 15530,
+                    "pubMedId": 30952700,
+                    "title": "An unbiased in vitro screen for activating epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30952700"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "A702V",
+    "createDate": "07/07/2019",
+    "updateDate": "07/07/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 180839,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55173964C>T",
+        "cDna": "c.2105C>T",
+        "protein": "p.A702V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17510,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) treatment of transformed mouse cells expressing Egfr A702V resulted in decreased cell viability (PMID: 30952700).",
+            "molecularProfile": {
+                "id": 32649,
+                "profileName": "EGFR A702V"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15530,
+                    "pubMedId": 30952700,
+                    "title": "An unbiased in vitro screen for activating epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30952700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17511,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) treatment of transformed mouse cells expressing Egfr A702V did not prevent increased cell viability, indicating resistance of Egfr A702V (PMID: 30952700).",
+            "molecularProfile": {
+                "id": 32649,
+                "profileName": "EGFR A702V"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15530,
+                    "pubMedId": 30952700,
+                    "title": "An unbiased in vitro screen for activating epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30952700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17509,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) treatment of transformed mouse cells expressing Egfr A702V resulted in decreased cell viability (PMID: 30952700).",
+            "molecularProfile": {
+                "id": 32649,
+                "profileName": "EGFR A702V"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15530,
+                    "pubMedId": 30952700,
+                    "title": "An unbiased in vitro screen for activating epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30952700"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32649,
+            "profileName": "EGFR A702V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 180839,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55173964C>T",
+            "cDna": "c.2105C>T",
+            "protein": "p.A702V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

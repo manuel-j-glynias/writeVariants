@@ -1,0 +1,773 @@
+{
+    "id": 1397,
+    "fullName": "CCND1 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "CCND1 amplification indicates an increased number of copies of the CCND1 gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 595,
+        "geneSymbol": "CCND1",
+        "terms": [
+            "CCND1",
+            "BCL1",
+            "D11S287E",
+            "PRAD1",
+            "U21B31"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "08/12/2014",
+    "updateDate": "12/11/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1677,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Kisqali (ribociclib) demonstrated safety and preliminary efficacy in patients with advanced solid tumors, and 3 of 4 patients treated with Kisqali (ribociclib) for the longest duration had amplification of CCND1 (PMID: 27542767).",
+            "molecularProfile": {
+                "id": 1420,
+                "profileName": "CCND1 amp"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 1781,
+                    "pubMedId": null,
+                    "title": "A phase I study of the single-agent CDK4/6 inhibitor LEE011 in pts with advanced solid tumors and lymphomas.",
+                    "url": "http://meeting.ascopubs.org/cgi/content/abstract/32/15_suppl/2528"
+                },
+                {
+                    "id": 7226,
+                    "pubMedId": 27542767,
+                    "title": "A Phase I Study of the Cyclin-Dependent Kinase 4/6 Inhibitor Ribociclib (LEE011) in Patients with Advanced Solid Tumors and Lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27542767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15203,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Verzenio (abemaciclib) treatment inhibited tumor growth in patient-derived xenograft (PDX) models of head and neck squamous cell carcinoma harboring CCND1 amplification (PMID: 30380421).",
+            "molecularProfile": {
+                "id": 1420,
+                "profileName": "CCND1 amp"
+            },
+            "therapy": {
+                "id": 802,
+                "therapyName": "Abemaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12822,
+                    "pubMedId": 30380421,
+                    "title": "Patient-Derived Xenografts for Prognostication and Personalized Treatment for Head and Neck Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30380421"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4088,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In retrospective study of a Phase III trial, melanoma patients harboring CCND1 amplification treated with a combination of Paraplatin (carboplatin), Taxol (paclitaxel), and Nexavar (sorafenib) demonstrated a greater progression free survival when compared to Paraplatin (carboplatin) and Taxol (paclitaxel) without Nexavar (sorafenib) (PMID: 26307133).",
+            "molecularProfile": {
+                "id": 1420,
+                "profileName": "CCND1 amp"
+            },
+            "therapy": {
+                "id": 3428,
+                "therapyName": "Carboplatin + Paclitaxel + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4403,
+                    "pubMedId": 26307133,
+                    "title": "Copy Number Changes Are Associated with Response to Treatment with Carboplatin, Paclitaxel, and Sorafenib in Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26307133"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 1808,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) decreased proliferation in human tumor cell lines with CCND1 amplification (PMID: 22460902).",
+            "molecularProfile": {
+                "id": 1420,
+                "profileName": "CCND1 amp"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2158,
+                    "pubMedId": 22460902,
+                    "title": "Systematic identification of genomic markers of drug sensitivity in cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22460902"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10894,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Kisqali (ribociclib) treatment demonstrated safety and preliminary efficacy in patients with advanced solid tumors, with 2.3% (3/132) of patients demonstrating partial response, including a patient with wild-type BRAF/NRAS melanoma harboring CCND1 amplification (PMID: 27542767).",
+            "molecularProfile": {
+                "id": 1420,
+                "profileName": "CCND1 amp"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7226,
+                    "pubMedId": 27542767,
+                    "title": "A Phase I Study of the Cyclin-Dependent Kinase 4/6 Inhibitor Ribociclib (LEE011) in Patients with Advanced Solid Tumors and Lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27542767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 944,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited proliferation of ovarian cancer cells with CCND1 amplification in culture (PMID: 21278246).",
+            "molecularProfile": {
+                "id": 1420,
+                "profileName": "CCND1 amp"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 615,
+                    "pubMedId": 21278246,
+                    "title": "Expression of p16 and retinoblastoma determines response to CDK4/6 inhibition in ovarian cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21278246"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2274,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with XL888 resulted in increased apoptosis and decreased growth of Zelboraf (vemurafenib)-resistant melanoma cells harboring a BRAF V600E mutation and amplification of CCND1 in culture (PMID: 22351686).",
+            "molecularProfile": {
+                "id": 6907,
+                "profileName": "BRAF V600E CCND1 amp"
+            },
+            "therapy": {
+                "id": 970,
+                "therapyName": "XL888",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2956,
+                    "pubMedId": 22351686,
+                    "title": "The HSP90 inhibitor XL888 overcomes BRAF inhibitor resistance mediated through diverse mechanisms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22351686"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5870,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) and Kisqali (ribociclib) combination treatment resulted in growth inhibition and tumor regression in patient-derived xenograft (PDX) models of ER-positive, CCND1 amplified breast cancer (PMID: 27020857).",
+            "molecularProfile": {
+                "id": 21974,
+                "profileName": "CCND1 amp ESR1 pos"
+            },
+            "therapy": {
+                "id": 3969,
+                "therapyName": "Alpelisib + Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5181,
+                    "pubMedId": 27020857,
+                    "title": "Early Adaptation and Acquired Resistance to CDK4/6 Inhibition in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27020857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18295,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PALOMA-1/TRIO-18), CCND1 amplification and/or CDKN2A loss did not correlate with response to addition of Ibrance (palbociclib) to Femara (letrozole) in patients with estrogen receptor-positive, Erbb2 (Her2)-negative breast cancer, with hazard ratios for progression-free survival of Ibrance (palbociclib) versus placebo of 0.37 and 0.19 (p=0.13) in patients with or without CCND1 amplification and/or CDKN2A loss, respectively (PMID: 25524798; NCT00721409).",
+            "molecularProfile": {
+                "id": 21974,
+                "profileName": "CCND1 amp ESR1 pos"
+            },
+            "therapy": {
+                "id": 2922,
+                "therapyName": "Letrozole + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16122,
+                    "pubMedId": 25524798,
+                    "title": "The cyclin-dependent kinase 4/6 inhibitor palbociclib in combination with letrozole versus letrozole alone as first-line treatment of oestrogen receptor-positive, HER2-negative, advanced breast cancer (PALOMA-1/TRIO-18): a randomised phase 2 study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25524798"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 7836,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with BI-847325 inhibited growth of a BRAF-mutant melanoma cell line with BRAF-inhibitor resistance due to CCND1 amplification in culture (PMID: 25873592).",
+            "molecularProfile": {
+                "id": 26064,
+                "profileName": "BRAF mut CCND1 amp"
+            },
+            "therapy": {
+                "id": 1059,
+                "therapyName": "BI-847325",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6506,
+                    "pubMedId": 25873592,
+                    "title": "The Novel ATP-Competitive MEK/Aurora Kinase Inhibitor BI-847325 Overcomes Acquired BRAF Inhibitor Resistance through Suppression of Mcl-1 and MEK Expression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25873592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15763,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) treatment resulted in cell cycle arrest, leading to tumor growth suppression in patient-derived xenograft (PDX) models of nasopharyngeal carcinoma harboring CCND1 amplification and CDKN2A loss (PMID: 30236142).",
+            "molecularProfile": {
+                "id": 26317,
+                "profileName": "CCND1 amp CDKN2A loss"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9261,
+                "name": "nasopharynx carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13785,
+                    "pubMedId": 30236142,
+                    "title": "Integrated genomic analyses in PDX model reveal a cyclin-dependent kinase inhibitor Palbociclib as a novel candidate drug for nasopharyngeal carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30236142"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8418,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acral lentiginous melanoma cells co-harboring CCND1 amplification and loss of CDKN2A demonstrated inhibition of cell proliferation when treated with AT7519 in culture (J Clin Oncol 34, 2016 (suppl; abstr 9512)).",
+            "molecularProfile": {
+                "id": 26317,
+                "profileName": "CCND1 amp CDKN2A loss"
+            },
+            "therapy": {
+                "id": 2727,
+                "therapyName": "AT7519",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6367,
+                "name": "acral lentiginous melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6643,
+                    "pubMedId": null,
+                    "title": "Prevalent aberrations of CDK4 pathway in acral melanoma and implications for targeted therapy",
+                    "url": "http://meetinglibrary.asco.org/content/167622-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9501,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Kisqali (ribociclib) demonstrated preliminary efficacy in patients with advanced solid tumors and lymphomas, and 2/4 CCND1-amplified patients remaining on treatment for greater than 8 weeks also had co-deletion of CDKN2A and CDKN2B (PMID: 27542767).",
+            "molecularProfile": {
+                "id": 26860,
+                "profileName": "CCND1 amp CDKN2A del CDKN2B del"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7226,
+                    "pubMedId": 27542767,
+                    "title": "A Phase I Study of the Cyclin-Dependent Kinase 4/6 Inhibitor Ribociclib (LEE011) in Patients with Advanced Solid Tumors and Lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27542767"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12617,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Votrient (pazopanib) treatment resulted in a partial response that lasted more than 6 months in a patient with bladder papillary urothelial carcinoma harboring FGFR3 S249C, and amplification of FGFR3, FGF19, and CCND1 (PMID: 25766722).",
+            "molecularProfile": {
+                "id": 28792,
+                "profileName": "CCND1 amp FGF19 amp FGFR3 S249C FGFR3 amp"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5432,
+                "name": "bladder papillary transitional cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10498,
+                    "pubMedId": 25766722,
+                    "title": "Exceptional Response to Pazopanib in a Patient with Urothelial Carcinoma Harboring FGFR3 Activating Mutation and Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25766722"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15200,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Verzenio (abemaciclib) treatment inhibited Rb1 phosphorylation and tumor growth in patient-derived xenograft (PDX) models of head and neck squamous cell carcinoma harboring CCND1 amplification and CDKN2A A68fs (PMID: 30380421).",
+            "molecularProfile": {
+                "id": 30826,
+                "profileName": "CCND1 amp CDKN2A A68fs"
+            },
+            "therapy": {
+                "id": 802,
+                "therapyName": "Abemaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12822,
+                    "pubMedId": 30380421,
+                    "title": "Patient-Derived Xenografts for Prognostication and Personalized Treatment for Head and Neck Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30380421"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15201,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Verzenio (abemaciclib) treatment inhibited tumor growth in patient-derived xenograft (PDX) models of head and neck squamous cell carcinoma harboring CCND1 amplification and CDKN2A D84N (PMID: 30380421).",
+            "molecularProfile": {
+                "id": 30827,
+                "profileName": "CCND1 amp CDKN2A D84N"
+            },
+            "therapy": {
+                "id": 802,
+                "therapyName": "Abemaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12822,
+                    "pubMedId": 30380421,
+                    "title": "Patient-Derived Xenografts for Prognostication and Personalized Treatment for Head and Neck Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30380421"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15202,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Verzenio (abemaciclib) treatment inhibited Rb1 phosphorylation and tumor growth in patient-derived xenograft (PDX) models of head and neck squamous cell carcinoma harboring CCND1 amplification and CDKN2A mutations (PMID: 30380421).",
+            "molecularProfile": {
+                "id": 30828,
+                "profileName": "CCND1 amp CDKN2A mut"
+            },
+            "therapy": {
+                "id": 802,
+                "therapyName": "Abemaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12822,
+                    "pubMedId": 30380421,
+                    "title": "Patient-Derived Xenografts for Prognostication and Personalized Treatment for Head and Neck Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30380421"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20155,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (FINESSE) trial, Lucitanib (E-3810) treatment resulted in an objective response rate (ORR) of 0% (0/18) and a clinical benefit rate of 11% (2/18) in patients with metastatic hormone receptor-positive, Erbb2 (Her2)-negative breast cancer harboring 11q13 (containing FGF3, FGF4, FGF19, and CCND1) amplification but not FGFR1 amplification, 11q13 amplification was associated with poor response (7%, 2/29) in biomarker analysis (PMID: 31619444; NCT02053636).",
+            "molecularProfile": {
+                "id": 34910,
+                "profileName": "CCND1 amp FGF19 amp FGF3 amp FGF4 amp"
+            },
+            "therapy": {
+                "id": 1029,
+                "therapyName": "Lucitanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 17719,
+                    "pubMedId": 31619444,
+                    "title": "Lucitanib for the Treatment of HR+/HER2- Metastatic Breast Cancer: Results from the Multicohort Phase II FINESSE Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31619444"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20354,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient with MET D1010N, MET amplification, and ERBB3 (HER3) amplification initially responded to Xalkori (crizotinib), but then progressed, and was found via tissue testing and plasma testing to have acquired CCND1 amplification (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35150,
+                "profileName": "CCND1 amp ERBB3 amp MET D1010N MET amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20356,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung cancer patient harboring CCDN1 amplification, KRAS G60D, and MET D1010N via plasma testing demonstrated stable disease for 3.8 months when treated with Glesatinib (MGCD265), but then progressed, and plasma testing revealed acquisition of ERBB3 (HER3) amplification (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35153,
+                "profileName": "CCND1 amp ERBB3 amp KRAS G60D MET D1010N"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1420,
+            "profileName": "CCND1 amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4826,
+                    "name": "CDK4/6 Inhibitor",
+                    "profileName": "CCND1 amp"
+                }
+            ]
+        },
+        {
+            "id": 6907,
+            "profileName": "BRAF V600E CCND1 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 21974,
+            "profileName": "CCND1 amp ESR1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26064,
+            "profileName": "BRAF mut CCND1 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26317,
+            "profileName": "CCND1 amp CDKN2A loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26860,
+            "profileName": "CCND1 amp CDKN2A del CDKN2B del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28792,
+            "profileName": "CCND1 amp FGF19 amp FGFR3 S249C FGFR3 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30826,
+            "profileName": "CCND1 amp CDKN2A A68fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30827,
+            "profileName": "CCND1 amp CDKN2A D84N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30828,
+            "profileName": "CCND1 amp CDKN2A mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32262,
+            "profileName": "CCND1 amp RB1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34910,
+            "profileName": "CCND1 amp FGF19 amp FGF3 amp FGF4 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35150,
+            "profileName": "CCND1 amp ERBB3 amp MET D1010N MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35153,
+            "profileName": "CCND1 amp ERBB3 amp KRAS G60D MET D1010N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

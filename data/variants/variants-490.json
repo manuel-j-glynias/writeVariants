@@ -1,0 +1,702 @@
+{
+    "id": 490,
+    "fullName": "FGFR2 N549K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR2 N549K lies within the protein kinase domain of the FGFR2 protein (UniProt.org). N549K confers a gain of function to the Fgfr2 protein, resulting in oncogenic transformation in cell-based studies (PMID: 18552176, PMID: 17803937, PMID: 29533785) and increased MAPK pathway signaling in cultured cells (PMID: 19147536).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 252,
+                    "pubMedId": 18552176,
+                    "title": "Drug-sensitive FGFR2 mutations in endometrial carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18552176"
+                },
+                {
+                    "id": 1037,
+                    "pubMedId": 19147536,
+                    "title": "Loss-of-function fibroblast growth factor receptor-2 mutations in melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19147536"
+                },
+                {
+                    "id": 1905,
+                    "pubMedId": 17803937,
+                    "title": "A molecular brake in the kinase hinge region regulates the activity of receptor tyrosine kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17803937"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2263,
+        "geneSymbol": "FGFR2",
+        "terms": [
+            "FGFR2",
+            "BBDS",
+            "BEK",
+            "BFR-1",
+            "CD332",
+            "CEK3",
+            "CFD1",
+            "ECT1",
+            "JWS",
+            "K-SAM",
+            "KGFR",
+            "TK14",
+            "TK25"
+        ]
+    },
+    "variant": "N549K",
+    "createDate": "05/09/2014",
+    "updateDate": "05/26/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 90262,
+        "transcript": "NM_000141",
+        "gDna": "chr10:g.121498520A>C",
+        "cDna": "c.1647T>G",
+        "protein": "p.N549K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13806,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Derazantinib (ARQ 087) inhibited growth of endometrial cancer cell lines harboring FGFR2 N549K in culture (PMID: 27627808).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11276,
+                    "pubMedId": 27627808,
+                    "title": "Preclinical Activity of ARQ 087, a Novel Inhibitor Targeting FGFR Dysregulation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27627808"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3497,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Dovitinib (TKI258) did not potently inhibit proliferation of endometrial cancer cell lines harboring FGFR2 N549K in cell culture (PMID: 22238366).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 721,
+                "therapyName": "Dovitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 311,
+                    "pubMedId": 22238366,
+                    "title": "Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22238366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3500,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Brivanib (BMS-540215) did not inhibit growth of endometrial cancer cells harboring FGFR2 N549K in cell culture (PMID: 22238366).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 996,
+                "therapyName": "Brivanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 311,
+                    "pubMedId": 22238366,
+                    "title": "Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22238366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4023,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FIIN-01 inhibited proliferation of endometrial carcinoma cell lines harboring FGFR2 N549K mutation in culture (PMID: 20338520).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 2507,
+                "therapyName": "FIIN-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2410,
+                    "pubMedId": 20338520,
+                    "title": "A structure-guided approach to creating covalent FGFR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20338520"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3499,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ofev (Nintedanib) did not inhibit growth of endometrial cancer cells harboring FGFR2 N549K in cell culture (PMID: 22238366).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 831,
+                "therapyName": "Nintedanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 311,
+                    "pubMedId": 22238366,
+                    "title": "Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22238366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12824,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 inhibited proliferation of endometrial adenocarcinoma cells harboring FGFR2 N549K in culture (PMID: 28978721).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10753,
+                    "pubMedId": 28978721,
+                    "title": "The Irreversible Covalent Fibroblast Growth Factor Receptor Inhibitor PRN1371 Exhibits Sustained Inhibition of FGFR after Drug Clearance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8486,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial carcinoma cells harboring FGFR2 N549K were not sensitive to Selumetinib (AZD-6244) in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3498,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cediranib (AZD-2171) inhibited growth of endometrial cancer cells harboring FGFR2 N549K in cell culture (PMID: 22238366).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 1001,
+                "therapyName": "Cediranib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 311,
+                    "pubMedId": 22238366,
+                    "title": "Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22238366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8472,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial carcinoma cells harboring FGFR2 N549K were not sensitive to RO5126766 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 2011,
+                "therapyName": "RO5126766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3496,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited growth of endometrial cancer cells harboring FGFR2 N549K in culture and in cell line xenograft models (PMID: 22238366).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 311,
+                    "pubMedId": 22238366,
+                    "title": "Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22238366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8456,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial carcinoma cells harboring FGFR2 N549K were not sensitive to RO4987655 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 903,
+                "therapyName": "RO4987655",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4054,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 inhibited proliferation of endometrial cancer cells harboring FGFR2 N549K mutation in culture (PMID: 25169980).",
+            "molecularProfile": {
+                "id": 547,
+                "profileName": "FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4388,
+                    "pubMedId": 25169980,
+                    "title": "The fibroblast growth factor receptor genetic status as a potential predictor of the sensitivity to CH5183284/Debio 1347, a novel selective FGFR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25169980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8473,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial carcinoma cells harboring both FGFR2 K310R and N549K were not sensitive to RO5126766 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 17132,
+                "profileName": "FGFR2 K310R FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 2011,
+                "therapyName": "RO5126766",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8457,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial carcinoma cells harboring both FGFR2 K310R and N549K were not sensitive to RO4987655 in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 17132,
+                "profileName": "FGFR2 K310R FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 903,
+                "therapyName": "RO4987655",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8487,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial carcinoma cells harboring both FGFR2 K310R and N549K were not sensitive to Selumetinib (AZD-6244) in culture (PMID: 26438159).",
+            "molecularProfile": {
+                "id": 17132,
+                "profileName": "FGFR2 K310R FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4382,
+                    "pubMedId": 26438159,
+                    "title": "ERK Signal Suppression and Sensitivity to CH5183284/Debio 1347, a Selective FGFR Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4024,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FIIN-01 inhibited proliferation of endometrial carcinoma cell lines harboring FGFR2 N549K and FGFR2 K310R mutations in culture (PMID: 20338520).",
+            "molecularProfile": {
+                "id": 17132,
+                "profileName": "FGFR2 K310R FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 2507,
+                "therapyName": "FIIN-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2410,
+                    "pubMedId": 20338520,
+                    "title": "A structure-guided approach to creating covalent FGFR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20338520"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4057,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Debio 1347 inhibited proliferation of endometrial cancer cells harboring FGFR2 K310R and FGFR2 N549K mutations in culture (PMID: 25169980).",
+            "molecularProfile": {
+                "id": 17132,
+                "profileName": "FGFR2 K310R FGFR2 N549K"
+            },
+            "therapy": {
+                "id": 1014,
+                "therapyName": "Debio 1347",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4388,
+                    "pubMedId": 25169980,
+                    "title": "The fibroblast growth factor receptor genetic status as a potential predictor of the sensitivity to CH5183284/Debio 1347, a novel selective FGFR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25169980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10147,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, FGFR2 mutations E565A, K659M, N549H, N549K and V564F were identified in the cell-free DNA of a cholangiocarcinoma patient harboring FGFR2-ZMYM4 fusion after the patient progressed while on Infigratinib (BGJ398) treatment (PMID: 28034880).",
+            "molecularProfile": {
+                "id": 27311,
+                "profileName": "FGFR2 - ZMYM4 FGFR2 N549H FGFR2 N549K FGFR2 V564F FGFR2 E565A FGFR2 K659M"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8146,
+                    "pubMedId": 28034880,
+                    "title": "Polyclonal Secondary FGFR2 Mutations Drive Acquired Resistance to FGFR Inhibition in Patients with FGFR2 Fusion-Positive Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28034880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 547,
+            "profileName": "FGFR2 N549K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7456,
+                    "name": "FGFR2 Inhibitor",
+                    "profileName": "FGFR2 N549K"
+                },
+                {
+                    "id": 7457,
+                    "name": "FGFR Inhibitor (Pan)",
+                    "profileName": "FGFR2 N549K"
+                }
+            ]
+        },
+        {
+            "id": 17132,
+            "profileName": "FGFR2 K310R FGFR2 N549K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27311,
+            "profileName": "FGFR2 - ZMYM4 FGFR2 N549H FGFR2 N549K FGFR2 V564F FGFR2 E565A FGFR2 K659M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 90265,
+            "transcript": "NM_001144919",
+            "gDna": "chr10:g.121488066G>C",
+            "cDna": "c.1647C>G",
+            "protein": "p.N549K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 90262,
+            "transcript": "NM_000141",
+            "gDna": "chr10:g.121498520A>C",
+            "cDna": "c.1647T>G",
+            "protein": "p.N549K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 90263,
+            "transcript": "NM_001144915",
+            "gDna": "chr10:g.121488063A>C",
+            "cDna": "c.1647T>G",
+            "protein": "p.N549K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 90264,
+            "transcript": "NM_023029",
+            "gDna": "chr10:g.121488063A>C",
+            "cDna": "c.1647T>G",
+            "protein": "p.N549K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "id": 26020,
+    "fullName": "EGFR L792F",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR L792F lies within the protein kinase domain of the Egfr protein (UniProt.org). L792F has been demonstrated to confer resistance to EGFR inhibitors as a secondary resistance mutation (PMID: 27913578, PMID: 28625641, PMID: 29615847), but has not been biochemically characterized and therefore, its effect on Egfr protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 16432,
+                    "pubMedId": 29615847,
+                    "title": "Uncommon EGFR mutations in cytological specimens of 1,874 newly diagnosed Indonesian lung cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29615847"
+                },
+                {
+                    "id": 11554,
+                    "pubMedId": 28625641,
+                    "title": "Emergence of novel and dominant acquired EGFR solvent-front mutations at Gly796 (G796S/R) together with C797S/R and L792F/H mutations in one EGFR (L858R/T790M) NSCLC patient who progressed on osimertinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28625641"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "L792F",
+    "createDate": "02/09/2017",
+    "updateDate": "10/10/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135757,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181383C>T",
+        "cDna": "c.2374C>T",
+        "protein": "p.L792F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9925,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquisition of EGFR L792F was associated with resistance to Gilotrif in transformed cells expressing EGFR E709_T710delinsD in culture (PMID: 27913578).",
+            "molecularProfile": {
+                "id": 27167,
+                "profileName": "EGFR E709_T710delinsD EGFR L792F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9926,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited growth of transformed cells expressing EGFR E709_T710delinsD and EGFR L792F in culture (PMID: 27913578).",
+            "molecularProfile": {
+                "id": 27167,
+                "profileName": "EGFR E709_T710delinsD EGFR L792F"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9990,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E746_A750del and EGFR L792F demonstrated decreased sensitivity to Gilotrif (afatinib) in culture compared to cells expressing E746_A750del alone (PMID: 27913578).",
+            "molecularProfile": {
+                "id": 27220,
+                "profileName": "EGFR E746_A750del EGFR L792F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9991,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L858R and EGFR L792F demonstrated decreased sensitivity to Gilotrif (afatinib) in culture compared to cells expressing EGFR L858R alone (PMID: 27913578).",
+            "molecularProfile": {
+                "id": 27221,
+                "profileName": "EGFR L792F EGFR L858R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27164,
+            "profileName": "EGFR L792F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27167,
+            "profileName": "EGFR E709_T710delinsD EGFR L792F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27220,
+            "profileName": "EGFR E746_A750del EGFR L792F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27221,
+            "profileName": "EGFR L792F EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135757,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181383C>T",
+            "cDna": "c.2374C>T",
+            "protein": "p.L792F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

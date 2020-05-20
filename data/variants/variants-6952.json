@@ -1,0 +1,164 @@
+{
+    "id": 6952,
+    "fullName": "FLT3 Y572C",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 Y572C lies within the cytoplasmic domain of the Flt3 protein (UniProt.org). Y572C results in constitutive phosphorylation of Flt3, activation of Erk, Akt and Stat signaling, and is transforming in cell culture (PMID: 18068628, PMID: 30651561).",
+            "references": [
+                {
+                    "id": 2803,
+                    "pubMedId": 18068628,
+                    "title": "Identification of driver and passenger mutations of FLT3 by high-throughput DNA sequence analysis and functional assessment of candidate alleles.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18068628"
+                },
+                {
+                    "id": 15390,
+                    "pubMedId": 30651561,
+                    "title": "Clinical resistance to crenolanib in acute myeloid leukemia due to diverse molecular mechanisms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30651561"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "Y572C",
+    "createDate": "06/02/2015",
+    "updateDate": "06/18/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 144620,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28034204T>C",
+        "cDna": "c.1715A>G",
+        "protein": "p.Y572C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2282,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rydapt (midostaurin) inhibited FLT3 phosphorylation of ERK1/2 and reduced cell growth in transformed cells expressing FLT3 Y572C in culture (PMID: 18068628).",
+            "molecularProfile": {
+                "id": 6805,
+                "profileName": "FLT3 Y572C"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2803,
+                    "pubMedId": 18068628,
+                    "title": "Identification of driver and passenger mutations of FLT3 by high-throughput DNA sequence analysis and functional assessment of candidate alleles.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18068628"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17355,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Crenolanib decreased cell proliferation of transformed mouse cells expressing Flt3 Y572C (PMID: 30651561).",
+            "molecularProfile": {
+                "id": 6805,
+                "profileName": "FLT3 Y572C"
+            },
+            "therapy": {
+                "id": 705,
+                "therapyName": "Crenolanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15390,
+                    "pubMedId": 30651561,
+                    "title": "Clinical resistance to crenolanib in acute myeloid leukemia due to diverse molecular mechanisms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30651561"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6805,
+            "profileName": "FLT3 Y572C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5029,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 Y572C"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144620,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28034204T>C",
+            "cDna": "c.1715A>G",
+            "protein": "p.Y572C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144622,
+            "transcript": "XM_011535015",
+            "gDna": "chr13:g.28034147T>C",
+            "cDna": "c.1715A>G",
+            "protein": "p.Y572C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144621,
+            "transcript": "XM_017020488",
+            "gDna": "chr13:g.28015649T>C",
+            "cDna": "c.1715A>G",
+            "protein": "p.Y572C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

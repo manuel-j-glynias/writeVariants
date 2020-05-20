@@ -1,0 +1,296 @@
+{
+    "id": 18946,
+    "fullName": "RHEB M184L",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "RHEB M184L does not lie within any known functional domains of the Rheb protein (UniProt.org). M184L demonstrates partial mislocalization (PMID: 19838215), and membrane association of Rheb following geranylgeranylation instead of farnesylation (PMID: 23996484), results in decreased phosphorylation of p70S6K compared to wild-type Rheb in culture (PMID: 16631613), and is associated with farnesyltransferase inhibitor-resistance (PMID: 15956249).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 15516,
+                    "pubMedId": 16631613,
+                    "title": "Localization of Rheb to the endomembrane is critical for its signaling function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16631613"
+                },
+                {
+                    "id": 13238,
+                    "pubMedId": 19838215,
+                    "title": "Differential requirement of CAAX-mediated posttranslational processing for Rheb localization and signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19838215"
+                },
+                {
+                    "id": 4755,
+                    "pubMedId": 23996484,
+                    "title": "Farnesyltransferase inhibitor tipifarnib inhibits Rheb prenylation and stabilizes Bax in acute myelogenous leukemia cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23996484"
+                },
+                {
+                    "id": 10204,
+                    "pubMedId": 15956249,
+                    "title": "Farnesyltransferase inhibitors reverse altered growth and distribution of actin filaments in Tsc-deficient cells via inhibition of both rapamycin-sensitive and -insensitive pathways.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15956249"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6009,
+        "geneSymbol": "RHEB",
+        "terms": [
+            "RHEB",
+            "RHEB2"
+        ]
+    },
+    "variant": "M184L",
+    "createDate": "03/01/2016",
+    "updateDate": "07/03/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 152394,
+        "transcript": "NM_005614",
+        "gDna": "chr7:g.151467124T>G",
+        "cDna": "c.550A>C",
+        "protein": "p.M184L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4874,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cell lines overexpressing Rheb M184L demonstrated reduced sensitivity to Zarnestra (Tipifarnib)-induced growth inhibition and apoptosis in culture (PMID: 23996484).",
+            "molecularProfile": {
+                "id": 19341,
+                "profileName": "RHEB M184L"
+            },
+            "therapy": {
+                "id": 938,
+                "therapyName": "Tipifarnib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4755,
+                    "pubMedId": 23996484,
+                    "title": "Farnesyltransferase inhibitor tipifarnib inhibits Rheb prenylation and stabilizes Bax in acute myelogenous leukemia cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23996484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4873,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lonafarnib (SCH66336) treatment did not enhance Nolvadex (tamoxifen)-induced apoptosis in breast cancer cell lines overexpressing Rheb M184L in culture (PMID: 16006564).",
+            "molecularProfile": {
+                "id": 19341,
+                "profileName": "RHEB M184L"
+            },
+            "therapy": {
+                "id": 3664,
+                "therapyName": "Lonafarnib + Tamoxifen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4762,
+                    "pubMedId": 16006564,
+                    "title": "The farnesyl transferase inhibitor (FTI) SCH66336 (lonafarnib) inhibits Rheb farnesylation and mTOR signaling. Role in FTI enhancement of taxane and tamoxifen anti-tumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16006564"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4872,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lonafarnib (SCH66336) treatment did not enhance Taxotere (docetaxel)-induced caspase activation in ovarian cancer cell lines overexpressing Rheb M184L in culture (PMID: 16006564).",
+            "molecularProfile": {
+                "id": 19341,
+                "profileName": "RHEB M184L"
+            },
+            "therapy": {
+                "id": 3665,
+                "therapyName": "Docetaxel + Lonafarnib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4762,
+                    "pubMedId": 16006564,
+                    "title": "The farnesyl transferase inhibitor (FTI) SCH66336 (lonafarnib) inhibits Rheb farnesylation and mTOR signaling. Role in FTI enhancement of taxane and tamoxifen anti-tumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16006564"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4858,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FTI-277 treatment did not inhibit mTORC1 activation in lymphoma cell lines overexpressing RHEB Q64L and RHEB M184L (PMID: 18708578).",
+            "molecularProfile": {
+                "id": 19342,
+                "profileName": "RHEB Q64L RHEB M184L"
+            },
+            "therapy": {
+                "id": 1683,
+                "therapyName": "FTI-277",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4758,
+                    "pubMedId": 18708578,
+                    "title": "Tumorigenic activity and therapeutic inhibition of Rheb GTPase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18708578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4862,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FTI-277 treatment did not inhibit proliferation of lymphoma cell lines harboring MYC amplification, PTEN deficiency, and overexpressing RHEB Q64L and RHEB M184L in culture (PMID: 18708578).",
+            "molecularProfile": {
+                "id": 19401,
+                "profileName": "MYC amp PTEN dec exp RHEB Q64L RHEB M184L"
+            },
+            "therapy": {
+                "id": 1683,
+                "therapyName": "FTI-277",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4758,
+                    "pubMedId": 18708578,
+                    "title": "Tumorigenic activity and therapeutic inhibition of Rheb GTPase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18708578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4864,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FTI-277 treatment inhibited proliferation of lymphoma cell lines harboring MYC amplification, ARF deletion, and overexpressing RHEB Q64L and RHEB M184L in culture (PMID: 18708578).",
+            "molecularProfile": {
+                "id": 19403,
+                "profileName": "ARF1 del MYC amp RHEB Q64L RHEB M184L"
+            },
+            "therapy": {
+                "id": 1683,
+                "therapyName": "FTI-277",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4758,
+                    "pubMedId": 18708578,
+                    "title": "Tumorigenic activity and therapeutic inhibition of Rheb GTPase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18708578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 19341,
+            "profileName": "RHEB M184L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19342,
+            "profileName": "RHEB Q64L RHEB M184L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19401,
+            "profileName": "MYC amp PTEN dec exp RHEB Q64L RHEB M184L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19403,
+            "profileName": "ARF1 del MYC amp RHEB Q64L RHEB M184L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 152394,
+            "transcript": "NM_005614",
+            "gDna": "chr7:g.151467124T>G",
+            "cDna": "c.550A>C",
+            "protein": "p.M184L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

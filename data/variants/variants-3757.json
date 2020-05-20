@@ -1,0 +1,488 @@
+{
+    "id": 3757,
+    "fullName": "HRAS Q61L",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "HRAS Q61L is hotspot mutation that lies within the GTP binding domain of the Hras protein (UniProt.org). Q61L results in decreased Hras GTPase activity and leads to transformation of cells in culture (PMID: 23487764, PMID: 3510078).",
+            "references": [
+                {
+                    "id": 10249,
+                    "pubMedId": 23487764,
+                    "title": "NMR-based functional profiling of RASopathies and oncogenic RAS mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23487764"
+                },
+                {
+                    "id": 2204,
+                    "pubMedId": 3510078,
+                    "title": "Biological and biochemical properties of human rasH genes mutated at codon 61.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/3510078"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3265,
+        "geneSymbol": "HRAS",
+        "terms": [
+            "HRAS",
+            "C-BAS/HAS",
+            "C-H-RAS",
+            "C-HA-RAS1",
+            "CTLO",
+            "H-RASIDX",
+            "HAMSV",
+            "HRAS1",
+            "p21ras",
+            "RASH1"
+        ]
+    },
+    "variant": "Q61L",
+    "createDate": "03/15/2015",
+    "updateDate": "10/04/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 132187,
+        "transcript": "NM_001130442",
+        "gDna": "chr11:g.533874T>A",
+        "cDna": "c.182A>T",
+        "protein": "p.Q61L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9780,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bladder carcinoma cells expressing HRAS Q61L demonstrated sensitivity to NS1, resulting in inhibition of Mapk signaling and cell proliferation in culture (PMID: 27820802).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 5228,
+                "therapyName": "NS1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4007,
+                "name": "bladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7600,
+                    "pubMedId": 27820802,
+                    "title": "Inhibition of RAS function through targeting an allosteric regulatory site.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27820802"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9462,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Selumetinib (AZD6244) and Afinitor (everolimus) inhibited growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture, and inhibited tumor growth in xenograft models, with increased efficacy compared to either agent alone (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 4901,
+                "therapyName": "Everolimus + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9463,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and Afinitor (everolimus) reduced phosphorylation of ERK and S6 and worked synergistically to inhibit growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 5022,
+                "therapyName": "Binimetinib + Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7902,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX7904 did not stimulate growth of Zelboraf (vemurafenib)-induced cutaneous squamous cell carcinoma cells harboring HRAS Q61L in culture or in cell line xenograft models (PMID: 26466569).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 4606,
+                "therapyName": "PLX7904",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3151,
+                "name": "skin squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6521,
+                    "pubMedId": 26466569,
+                    "title": "RAF inhibitors that evade paradoxical MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26466569"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9481,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and Afinitor (everolimus) worked synergistically to inhibit growth of transformed cells expressing HRAS Q61L in culture (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 5022,
+                "therapyName": "Binimetinib + Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9467,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and AZD8055 reduced phosphorylation of ERK and S6 and worked synergistically to inhibit growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 5023,
+                "therapyName": "AZD8055 + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9474,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing HRAS Q61L demonstrated sensitivity to growth inhibition by Afinitor (everolimus) in culture (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9458,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture, and inhibited tumor growth in xenograft models (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9478,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing HRAS Q61L demonstrated sensitivity to growth inhibition by Binimetinib (MEK162) in culture (PMID: 26544513).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9459,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BKM120 did not inhibit growth of a lung squamous cell carcinoma cell line harboring HRAS Q61L in culture (PMID: 26544513)",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7197,
+                    "pubMedId": 26544513,
+                    "title": "Mutant HRAS as novel target for MEK and mTOR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26544513"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4687,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rapamune (sirolimus) worked synergistically with Mekinist (trametinib) to inhibit proliferation of head and neck squamous carcinoma cell lines harboring HRAS Q61L in culture and to reduce tumor growth in cell line xenograft models (PMID: 26882569).",
+            "molecularProfile": {
+                "id": 3563,
+                "profileName": "HRAS Q61L"
+            },
+            "therapy": {
+                "id": 3596,
+                "therapyName": "Sirolimus + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4668,
+                    "pubMedId": 26882569,
+                    "title": "A synthetic-lethality RNAi screen reveals an ERK-mTOR co-targeting pro-apoptotic switch in PIK3CA+ oral cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26882569"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3563,
+            "profileName": "HRAS Q61L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1701,
+                    "name": "PIK3CB inhibitor",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1704,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1697,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1700,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1703,
+                    "name": "PIK3CG inhibitor",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1696,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1699,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1698,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "HRAS Q61L"
+                },
+                {
+                    "id": 1702,
+                    "name": "PIK3CD inhibitor",
+                    "profileName": "HRAS Q61L"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 132187,
+            "transcript": "NM_001130442",
+            "gDna": "chr11:g.533874T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 132188,
+            "transcript": "NM_176795",
+            "gDna": "chr11:g.533874T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 132186,
+            "transcript": "NM_005343",
+            "gDna": "chr11:g.533874T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

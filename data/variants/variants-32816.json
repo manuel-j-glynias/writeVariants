@@ -1,0 +1,161 @@
+{
+    "id": 32816,
+    "fullName": "ABL1 L298V",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ABL1 L298V lies within the protein kinase domain of the Abl1 protein (UniProt.org). ABL1 L298V has been demonstrated to confer drug resistance in the context of BCR-ABL1 (PMID: 27868464), but has not been biochemically characterized and therefore, its effect on Abl1 protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 18218,
+                    "pubMedId": 27868464,
+                    "title": "Imatinib resistance in chronic myeloid leukemia due to a rare mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27868464"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 25,
+        "geneSymbol": "ABL1",
+        "terms": [
+            "ABL1",
+            "ABL",
+            "BCR-ABL",
+            "bcr/abl",
+            "c-ABL",
+            "c-ABL1",
+            "CHDSKM",
+            "JTK7",
+            "p150",
+            "v-abl"
+        ]
+    },
+    "variant": "L298V",
+    "createDate": "03/17/2020",
+    "updateDate": "03/17/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 188522,
+        "transcript": "NM_005157",
+        "gDna": "chr9:g.130872198C>G",
+        "cDna": "c.892C>G",
+        "protein": "p.L298V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20978,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing both ABL1 V299L and L298V in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35471,
+                "profileName": "BCR - ABL1 ABL1 L298V ABL1 V299L"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20973,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, ABL1 L298V was identified in a patient with Ph-positive (BCR-ABL1) chronic myeloid leukemia that was resistant to Gleevec (imatinib) treatment (PMID: 27868464).",
+            "molecularProfile": {
+                "id": 35472,
+                "profileName": "BCR - ABL1 ABL1 L298V"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18218,
+                    "pubMedId": 27868464,
+                    "title": "Imatinib resistance in chronic myeloid leukemia due to a rare mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27868464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 35470,
+            "profileName": "ABL1 L298V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35471,
+            "profileName": "BCR - ABL1 ABL1 L298V ABL1 V299L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35472,
+            "profileName": "BCR - ABL1 ABL1 L298V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 188522,
+            "transcript": "NM_005157",
+            "gDna": "chr9:g.130872198C>G",
+            "cDna": "c.892C>G",
+            "protein": "p.L298V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

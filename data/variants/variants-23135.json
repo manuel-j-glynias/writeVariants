@@ -1,0 +1,246 @@
+{
+    "id": 23135,
+    "fullName": "BRAF T529I",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF T529I is a gatekeeper mutation that lies within the protein kinase domain of the Braf protein (PMID: 20538618). T529I has been demonstrated to confer resistance to Raf inhibitors in the context of BRAF V600E (PMID: 20538618), but has not been biochemically characterized and therefore, its effect on Braf protein function is unknown (PubMed, Nov 2019).",
+            "references": [
+                {
+                    "id": 5859,
+                    "pubMedId": 20538618,
+                    "title": "Gatekeeper mutations mediate resistance to BRAF-targeted therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20538618"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "T529I",
+    "createDate": "06/11/2016",
+    "updateDate": "11/05/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 109376,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140777020G>A",
+        "cDna": "c.1586C>T",
+        "protein": "p.T529I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6843,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CI-1040 (PD184352) inhibited Erk phosphorylation in transformed cells expressing BRAF V600E and the gatekeeper mutation BRAF T529I in culture (PMID: 20538618).",
+            "molecularProfile": {
+                "id": 23818,
+                "profileName": "BRAF T529I BRAF V600E"
+            },
+            "therapy": {
+                "id": 699,
+                "therapyName": "CI-1040",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5859,
+                    "pubMedId": 20538618,
+                    "title": "Gatekeeper mutations mediate resistance to BRAF-targeted therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20538618"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6826,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing BRAF V600E and the gatepkeeper mutation BRAF T529I were insensitive to SB590885-mediated inhibition of ERK signaling in culture (PMID: 20538618).",
+            "molecularProfile": {
+                "id": 23818,
+                "profileName": "BRAF T529I BRAF V600E"
+            },
+            "therapy": {
+                "id": 4281,
+                "therapyName": "SB590885",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5859,
+                    "pubMedId": 20538618,
+                    "title": "Gatekeeper mutations mediate resistance to BRAF-targeted therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20538618"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6840,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited kinase activity in vitro, and downstream Erk phosphorylation in cells expressing BRAF V600E and the gatekeeper mutation BRAF T529I to a similar degree as transformed cells expressing BRAF V600E in culture (PMID: 20538618).",
+            "molecularProfile": {
+                "id": 23818,
+                "profileName": "BRAF T529I BRAF V600E"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5859,
+                    "pubMedId": 20538618,
+                    "title": "Gatekeeper mutations mediate resistance to BRAF-targeted therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20538618"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6830,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RAF265 inhibited kinase activity in vitro, and downstream Erk phosphorylation in cells expressing BRAF V600E and the gatekeeper mutation BRAF T529I to a similar degree as transformed cells expressing BRAF V600E in culture (PMID: 20538618).",
+            "molecularProfile": {
+                "id": 23818,
+                "profileName": "BRAF T529I BRAF V600E"
+            },
+            "therapy": {
+                "id": 884,
+                "therapyName": "RAF265",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5859,
+                    "pubMedId": 20538618,
+                    "title": "Gatekeeper mutations mediate resistance to BRAF-targeted therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20538618"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6835,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing BRAF V600E and the gatepkeeper mutation BRAF T529I were insensitive to PLX4720-mediated inhibition of ERK signaling in culture (PMID: 20538618).",
+            "molecularProfile": {
+                "id": 23818,
+                "profileName": "BRAF T529I BRAF V600E"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5859,
+                    "pubMedId": 20538618,
+                    "title": "Gatekeeper mutations mediate resistance to BRAF-targeted therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20538618"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23810,
+            "profileName": "BRAF T529I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23818,
+            "profileName": "BRAF T529I BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109376,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140777020G>A",
+            "cDna": "c.1586C>T",
+            "protein": "p.T529I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109375,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140777020G>A",
+            "cDna": "c.1586C>T",
+            "protein": "p.T529I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

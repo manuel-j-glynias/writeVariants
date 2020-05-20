@@ -1,0 +1,728 @@
+{
+    "id": 3534,
+    "fullName": "NRAS A146T",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS A146T does not lie within any known functional domains of the Nras protein (UniProt.org). A146T results in increased Nras activity likely due to increased GDP/GTP exchange rate, activation of downstream signaling, and is identified as a secondary mutation conferring resistance to Braf and Mek inhibitors in culture (PMID: 22389471, PMID: 3043178).",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                },
+                {
+                    "id": 12269,
+                    "pubMedId": 3043178,
+                    "title": "Relationship among guanine nucleotide exchange, GTP hydrolysis, and transforming potential of mutated ras proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/3043178"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "A146T",
+    "createDate": "03/05/2015",
+    "updateDate": "09/18/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162417,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114709583C>T",
+        "cDna": "c.436G>A",
+        "protein": "p.A146T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5950,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cell lines harboring BRAF V600E, NRAS A146T and MAP2K1 P387S were resistant to Tafinlar (dabrafenib) mediated growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22037,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS A146T"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5989,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Talfinlar (dabrafenib) in combination with Omipalisib (GSK2126458) did not improve the response to human melanoma cell lines harboring BRAF V600E, NRAS A146T and MAP2K1 P387S in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22037,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS A146T"
+            },
+            "therapy": {
+                "id": 4004,
+                "therapyName": "Dabrafenib + GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5956,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E, NRAS A146T and MAP2K1 P387S were resistant to Zelboraf (vemurafenib) growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22037,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS A146T"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5966,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E, NRAS A146T and MAP2K1 P387S had reduced sensitivity to Omipalisib (GSK2126458) in comparison to parental cell lines harboring BRAF V600E in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22037,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS A146T"
+            },
+            "therapy": {
+                "id": 763,
+                "therapyName": "GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5992,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition in melanoma cell lines harboring BRAF V600E, NRAS A146T and MAP2K1 P387S in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22037,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS A146T"
+            },
+            "therapy": {
+                "id": 3027,
+                "therapyName": "GSK2126458 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5960,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E, NRAS A146T and MAP2K1 P387S were >20-fold less sensitive to growth inhibition by Mekinist (trametinib) than parental cell lines harboring BRAF V600E and also had reduced sensitivity in comparison to cell lines harboring BRAF V600E and NRAS A146T in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22037,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS A146T"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5955,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E and NRAS A146T were resistant to Zelboraf (vemurafenib) growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22042,
+                "profileName": "BRAF V600E NRAS A146T"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5959,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E and NRAS A146T were >10-fold less sensitive to growth inhibition by Mekinist (trametinib) than parental cell lines harboring BRAF V600E in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22042,
+                "profileName": "BRAF V600E NRAS A146T"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5988,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Talfinlar (dabrafenib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition of human melanoma cell lines harboring BRAF V600E and NRAS A146T in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22042,
+                "profileName": "BRAF V600E NRAS A146T"
+            },
+            "therapy": {
+                "id": 4004,
+                "therapyName": "Dabrafenib + GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5977,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) in combination with Mekinist (trametinib) resulted in improved growth inhibition of melanoma cell lines harboring BRAF V600E and NRAS A146T in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22042,
+                "profileName": "BRAF V600E NRAS A146T"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5965,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E and NRAS A146T had reduced sensitivity to Omipalisib (GSK2126458) in comparison to parental cell lines harboring BRAF V600E in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22042,
+                "profileName": "BRAF V600E NRAS A146T"
+            },
+            "therapy": {
+                "id": 763,
+                "therapyName": "GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5991,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition in melanoma cell lines harboring BRAF V600E and NRAS A146T in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22042,
+                "profileName": "BRAF V600E NRAS A146T"
+            },
+            "therapy": {
+                "id": 3027,
+                "therapyName": "GSK2126458 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5951,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cell lines harboring BRAF V600E and NRAS A146T were resistant to Tafinlar (dabrafenib) growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22042,
+                "profileName": "BRAF V600E NRAS A146T"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5968,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E, NRAS Q61K, NRAS A146T and MAP2K1 P387S had reduced sensitivity to Omipalisib (GSK2126458) in comparison to parental cell lines harboring BRAF V600E in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22046,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS Q61K NRAS A146T"
+            },
+            "therapy": {
+                "id": 763,
+                "therapyName": "GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5954,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E, NRAS Q61K, NRAS A146T and MAP2K1 P387S were resistant Tafinlar (dabrafenib) mediated growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22046,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS Q61K NRAS A146T"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5994,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition in melanoma cell lines harboring BRAF V600E, NRAS Q61K, NRAS A146T and MAP2K1 P387S in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22046,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS Q61K NRAS A146T"
+            },
+            "therapy": {
+                "id": 3027,
+                "therapyName": "GSK2126458 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5963,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E, NRAS Q61K, NRAS A146T and MAP2K1 P387S were resistant to growth inhibition by Mekinist (trametinib) in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22046,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS Q61K NRAS A146T"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5958,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600E, NRAS Q61K, A146T and MAP2K1 P387S were resistant to Zelboraf (vemurafenib) growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22046,
+                "profileName": "BRAF V600E MAP2K1 P387S NRAS Q61K NRAS A146T"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5979,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Talfinlar (dabrafenib) in combination with Mekinist (trametinib) resulted in improved growth inhibition of human melanoma cells harboring BRAF V600E and NRAS A146T and NRAS Q61K in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22097,
+                "profileName": "BRAF V600E NRAS Q61K NRAS A146T"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3351,
+            "profileName": "NRAS A146T",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16429,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS A146T"
+                },
+                {
+                    "id": 16432,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS A146T"
+                },
+                {
+                    "id": 16427,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS A146T"
+                },
+                {
+                    "id": 16430,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS A146T"
+                },
+                {
+                    "id": 16431,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS A146T"
+                },
+                {
+                    "id": 16428,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS A146T"
+                }
+            ]
+        },
+        {
+            "id": 22037,
+            "profileName": "BRAF V600E MAP2K1 P387S NRAS A146T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22042,
+            "profileName": "BRAF V600E NRAS A146T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22046,
+            "profileName": "BRAF V600E MAP2K1 P387S NRAS Q61K NRAS A146T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22097,
+            "profileName": "BRAF V600E NRAS Q61K NRAS A146T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162417,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114709583C>T",
+            "cDna": "c.436G>A",
+            "protein": "p.A146T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

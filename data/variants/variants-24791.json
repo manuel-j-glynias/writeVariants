@@ -1,0 +1,323 @@
+{
+    "id": 24791,
+    "fullName": "MTOR M2327I",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR M2327I lies within the PI3K/PI4K domain of the Mtor protein (UniProt.org). M2327I confers a gain of function to the Mtor protein as demonstrated by increased kinase activity compared to wild-type and increased phosphorylation of S6K and AKT (PMID: 27279227).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "M2327I",
+    "createDate": "07/26/2016",
+    "updateDate": "08/02/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 145340,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11117039C>G",
+        "cDna": "c.6981G>C",
+        "protein": "p.M2327I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7499,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing MTOR M2327I demonstrated sensitivity to treatment with Rapamune (sirolimus) in xenograft models, resulting in decreased tumor volume (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25548,
+                "profileName": "MTOR M2327I"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7500,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing MTOR M2327I demonstrated sensitivity to treatment with RapaLink-1 in xenograft models, resulting in decreased tumor volume (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25548,
+                "profileName": "MTOR M2327I"
+            },
+            "therapy": {
+                "id": 4493,
+                "therapyName": "RapaLink-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7489,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells demonstrated resistance to AZD8055 after three months of treatment in culture due to the acquired resistance mutation, MTOR M2327I (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25548,
+                "profileName": "MTOR M2327I"
+            },
+            "therapy": {
+                "id": 1519,
+                "therapyName": "AZD8055",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7494,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated resistance to treatment with Rapamune (sirolimus) in culture (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7493,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated sensitivity to treatment with RapaLink-1 in culture, resulting in inhibition of Mtor and downstream signaling (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 4493,
+                "therapyName": "RapaLink-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7495,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated resistance to treatment with Sapanisertib (MLN0128) in culture (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7496,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line expressing both MTOR F2108L and MTOR M2327I demonstrated resistance to the combination treatment of Rapamune (sirolimus) and Sapanisertib (MLN0128) in culture (PMID: 27279227).",
+            "molecularProfile": {
+                "id": 25591,
+                "profileName": "MTOR F2108L MTOR M2327I"
+            },
+            "therapy": {
+                "id": 4497,
+                "therapyName": "Sapanisertib + Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6367,
+                    "pubMedId": 27279227,
+                    "title": "Overcoming mTOR resistance mutations with a new-generation mTOR inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27279227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25548,
+            "profileName": "MTOR M2327I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10798,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR M2327I"
+                },
+                {
+                    "id": 10797,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR M2327I"
+                },
+                {
+                    "id": 10796,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR M2327I"
+                }
+            ]
+        },
+        {
+            "id": 25591,
+            "profileName": "MTOR F2108L MTOR M2327I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145340,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11117039C>G",
+            "cDna": "c.6981G>C",
+            "protein": "p.M2327I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145341,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11117039C>G",
+            "cDna": "c.6981G>C",
+            "protein": "p.M2327I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

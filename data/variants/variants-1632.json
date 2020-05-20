@@ -1,0 +1,403 @@
+{
+    "id": 1632,
+    "fullName": "KIT D816H",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT D816H lies within the tyrosine kinase domain region 2 (exon 17) of the Kit protein (PMID: 19164557). D816H results in increased kinase activity, constitutive Kit phosphorylation, activation of Stat3 signaling, and transformation of cultured cells (PMID: 10362788, PMID: 11494148).",
+            "references": [
+                {
+                    "id": 654,
+                    "pubMedId": 11494148,
+                    "title": "STAT3 activation is required for Asp(816) mutant c-Kit induced tumorigenicity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11494148"
+                },
+                {
+                    "id": 655,
+                    "pubMedId": 19164557,
+                    "title": "KIT kinase mutants show unique mechanisms of drug resistance to imatinib and sunitinib in gastrointestinal stromal tumor patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19164557"
+                },
+                {
+                    "id": 653,
+                    "pubMedId": 10362788,
+                    "title": "Activating c-kit gene mutations in human germ cell tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10362788"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "D816H",
+    "createDate": "09/09/2014",
+    "updateDate": "05/15/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136074,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54733154G>C",
+        "cDna": "c.2446G>C",
+        "protein": "p.D816H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14351,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT D816H were more sensitive to treatment with Sutent (sunitinib) in culture compared to Gleevec (imatinib) (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 1646,
+                "profileName": "KIT D816H"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3589,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KIT D816H demonstrated resistance to Stivarga (regorafenib) in an in vitro assay, and conferred secondary resistance to Stivarga (regorafenib) in transformed cells expressing other KIT mutations (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 1646,
+                "profileName": "KIT D816H"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6754,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing KIT D816H demonstrated sensitivity to Iclusig (ponatinib) in an in vitro kinase assay (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 1646,
+                "profileName": "KIT D816H"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16868,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3229 inhibited Kit signaling, resulted in tumor regression in cell line xenograft models of transformed cells expressing KIT D816H (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1328).",
+            "molecularProfile": {
+                "id": 1646,
+                "profileName": "KIT D816H"
+            },
+            "therapy": {
+                "id": 8213,
+                "therapyName": "AZD3229",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14986,
+                    "pubMedId": null,
+                    "title": "Exploring the pharmacokinetic-pharmacodynamic relationships of AZD3229, a novel and selective inhibitor of cKIT, in a range of mouse xenograft models of gastrointestinal stromal tumors.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14350,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT D816H were more sensitive to treatment with Flumatinib in culture compared to Gleevec (imatinib) (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 1646,
+                "profileName": "KIT D816H"
+            },
+            "therapy": {
+                "id": 3169,
+                "therapyName": "Flumatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6794,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT D816H demonstrated a decreased response to treatment with Gleevec (imatinib) in both culture and xenograft models, resulting in only a slight decrease in tumor volume (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23690,
+                "profileName": "KIT W557_K558del KIT D816H"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6792,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT D816H demonstrated sensitivity to treatment with Iclusig (ponatinib) in both culture and cell line xenograft models, resulting in reduced cell viability and tumor regression (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23690,
+                "profileName": "KIT W557_K558del KIT D816H"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6793,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT D816H demonstrated a decreased response to treatment with Sutent (sunitinib) in both culture and cell line xenograft models, resulting in only a slight decrease in tumor volume (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23690,
+                "profileName": "KIT W557_K558del KIT D816H"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6795,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT W557_K558del and KIT D816H demonstrated a decreased response to treatment with Stivarga (regorafenib) in culture (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23690,
+                "profileName": "KIT W557_K558del KIT D816H"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1646,
+            "profileName": "KIT D816H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6127,
+                    "name": "Avapritinib",
+                    "profileName": "KIT D816H"
+                },
+                {
+                    "id": 7054,
+                    "name": "Dasatinib",
+                    "profileName": "KIT D816H"
+                }
+            ]
+        },
+        {
+            "id": 23690,
+            "profileName": "KIT W557_K558del KIT D816H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136076,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54733154G>C",
+            "cDna": "c.2446G>C",
+            "protein": "p.D816H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136074,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54733154G>C",
+            "cDna": "c.2446G>C",
+            "protein": "p.D816H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136075,
+            "transcript": "NM_001093772",
+            "gDna": "chr4:g.54733166G>C",
+            "cDna": "c.2446G>C",
+            "protein": "p.D816H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136077,
+            "transcript": "XM_017008179",
+            "gDna": "chr4:g.54733166G>C",
+            "cDna": "c.2446G>C",
+            "protein": "p.D816H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

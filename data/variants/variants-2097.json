@@ -1,0 +1,246 @@
+{
+    "id": 2097,
+    "fullName": "JAK1 V658F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "JAK1 V658F lies within the protein kinase domain 1 of the Jak1 protein (UniProt.org). V658F results in constitutive Jak1 activation, increased phosphorylation of Stat5 and Erk, transformation of cultured cells, and tumor formation in mouse models (PMID: 21393331).",
+            "references": [
+                {
+                    "id": 908,
+                    "pubMedId": 21393331,
+                    "title": "Oncogenic JAK1 and JAK2-activating mutations resistant to ATP-competitive inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21393331"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3716,
+        "geneSymbol": "JAK1",
+        "terms": [
+            "JAK1",
+            "JAK1A",
+            "JAK1B",
+            "JTK3"
+        ]
+    },
+    "variant": "V658F",
+    "createDate": "10/07/2014",
+    "updateDate": "10/23/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 104343,
+        "transcript": "NM_002227",
+        "gDna": "chr1:g.64846664C>A",
+        "cDna": "c.1972G>T",
+        "protein": "p.V658F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7517,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SHP099 inhibited proliferation of a hematopoietic cancer cell line harboring JAK1 V658F in culture (PMID: 27362227).",
+            "molecularProfile": {
+                "id": 2059,
+                "profileName": "JAK1 V658F"
+            },
+            "therapy": {
+                "id": 4504,
+                "therapyName": "SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6394,
+                    "pubMedId": 27362227,
+                    "title": "Allosteric inhibition of SHP2 phosphatase inhibits cancers driven by receptor tyrosine kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27362227"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1205,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing JAK1 V658F were sensitive to ATP-competitive JAK inhibitors, such as Jakafi (Ruxolitinib) (PMID: 21393331).",
+            "molecularProfile": {
+                "id": 2059,
+                "profileName": "JAK1 V658F"
+            },
+            "therapy": {
+                "id": 907,
+                "therapyName": "Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 162,
+                "name": "cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 908,
+                    "pubMedId": 21393331,
+                    "title": "Oncogenic JAK1 and JAK2-activating mutations resistant to ATP-competitive inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21393331"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1163,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells harboring the JAK1 V658F/F958C double mutation displayed resistance to ATP-competetive JAK inhibitors, such as Jakafi (Ruxolitinib) (PMID: 21393331).",
+            "molecularProfile": {
+                "id": 2066,
+                "profileName": "JAK1 V658F JAK1 F958C"
+            },
+            "therapy": {
+                "id": 907,
+                "therapyName": "Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 162,
+                "name": "cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 908,
+                    "pubMedId": 21393331,
+                    "title": "Oncogenic JAK1 and JAK2-activating mutations resistant to ATP-competitive inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21393331"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2059,
+            "profileName": "JAK1 V658F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5129,
+                    "name": "JAK1 Inhibitor",
+                    "profileName": "JAK1 V658F"
+                },
+                {
+                    "id": 5128,
+                    "name": "JAK Inhibitor (Pan) - ATP competitive",
+                    "profileName": "JAK1 V658F"
+                },
+                {
+                    "id": 5127,
+                    "name": "JAK Inhibitor (Pan)",
+                    "profileName": "JAK1 V658F"
+                },
+                {
+                    "id": 5130,
+                    "name": "JAK1 Inhibitor - ATP competitive",
+                    "profileName": "JAK1 V658F"
+                }
+            ]
+        },
+        {
+            "id": 2066,
+            "profileName": "JAK1 V658F JAK1 F958C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 104339,
+            "transcript": "NM_001321854",
+            "gDna": "chr1:g.64846664C>A",
+            "cDna": "c.1972G>T",
+            "protein": "p.V658F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 104342,
+            "transcript": "NM_001320923",
+            "gDna": "chr1:g.64846664C>A",
+            "cDna": "c.1972G>T",
+            "protein": "p.V658F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 104343,
+            "transcript": "NM_002227",
+            "gDna": "chr1:g.64846664C>A",
+            "cDna": "c.1972G>T",
+            "protein": "p.V658F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 104338,
+            "transcript": "NM_001321852",
+            "gDna": "chr1:g.64846664C>A",
+            "cDna": "c.1972G>T",
+            "protein": "p.V658F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 104340,
+            "transcript": "NM_001321853",
+            "gDna": "chr1:g.64846664C>A",
+            "cDna": "c.1972G>T",
+            "protein": "p.V658F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 104341,
+            "transcript": "NM_001321856",
+            "gDna": "chr1:g.64846664C>A",
+            "cDna": "c.1972G>T",
+            "protein": "p.V658F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 104344,
+            "transcript": "NM_001321855",
+            "gDna": "chr1:g.64846664C>A",
+            "cDna": "c.1972G>T",
+            "protein": "p.V658F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

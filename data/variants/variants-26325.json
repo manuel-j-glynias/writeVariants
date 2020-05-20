@@ -1,0 +1,258 @@
+{
+    "id": 26325,
+    "fullName": "ERBB2 M774delinsWLV",
+    "impact": "indel",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) M774delinsWLV results in a deletion of methionine (M) at amino acid 774 within the protein kinase domain of the Erbb2 (Her2) protein, combined with the insertion of a tryptophan (W), lysine (L), and a valine (V) at the same site (UniProt.org). M774delinsWLV results in activation of Erbb2 (Her2) and transformation of cultured cells (PMID: 28363995).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "M774delinsWLV",
+    "createDate": "04/13/2017",
+    "updateDate": "04/13/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 170631,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724738_39724740delinsTGGCTTGTA",
+        "cDna": "c.2320_2322delinsTGGCTTGTA",
+        "protein": "p.M774_774delinsWLV",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10500,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a lung adenocarcinoma patient harboring ERBB2 (HER2) M774delinsWLV demonstrated a partial response to treatment with Vizimpro (dacomitinib) (PMID: 25899785; NCT00818441).",
+            "molecularProfile": {
+                "id": 27530,
+                "profileName": "ERBB2 M774delinsWLV"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8574,
+                    "pubMedId": 25899785,
+                    "title": "Targeting HER2 aberrations as actionable drivers in lung cancers: phase II trial of the pan-HER tyrosine kinase inhibitor dacomitinib in patients with HER2-mutant or amplified tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25899785"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10524,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited growth of transformed cells expressing ERBB2 (HER2) M774delinsWLV in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27530,
+                "profileName": "ERBB2 M774delinsWLV"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10516,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing ERBB2 (HER2) M774delinsWLV and ERBB2 (HER2) C805S demonstrated resistance to Gilotrif (afatinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27538,
+                "profileName": "ERBB2 M774delinsWLV ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10517,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing ERBB2 (HER2) M774delinsWLV and ERBB2 (HER2) C805S demonstrated resistance to Nerlynx (neratinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27538,
+                "profileName": "ERBB2 M774delinsWLV ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10518,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquisition of ERBB2 (HER2) C805S in transformed cells expressing ERBB2 (HER2) M774delinsWLV conferred resistance to Vizimpro (dacomitinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27538,
+                "profileName": "ERBB2 M774delinsWLV ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27530,
+            "profileName": "ERBB2 M774delinsWLV",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 18536,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 M774delinsWLV"
+                },
+                {
+                    "id": 18535,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 M774delinsWLV"
+                }
+            ]
+        },
+        {
+            "id": 27538,
+            "profileName": "ERBB2 M774delinsWLV ERBB2 C805S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170632,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724738_39724740delinsTGGCTTGTA",
+            "cDna": "c.2320_2322delinsTGGCTTGTA",
+            "protein": "p.M774_774delinsWLV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170631,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724738_39724740delinsTGGCTTGTA",
+            "cDna": "c.2320_2322delinsTGGCTTGTA",
+            "protein": "p.M774_774delinsWLV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

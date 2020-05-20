@@ -1,0 +1,305 @@
+{
+    "id": 3692,
+    "fullName": "KRAS G13R",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS G13R is a hotspot mutation that lies within a GTP-binding region of the Kras protein (UniProt.org, PMID: 23455880). G13R has been identified in the scientific literature (PMID: 23196793, PMID: 22753589, PMID: 28508873), but has not been biochemically characterized and therefore, its effect on Kras protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 16544,
+                    "pubMedId": 28508873,
+                    "title": "Mutant KRAS promotes malignant pleural effusion formation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28508873"
+                },
+                {
+                    "id": 12268,
+                    "pubMedId": 23196793,
+                    "title": "Distinct profile of driver mutations and clinical features in immunomarker-defined subsets of pulmonary large-cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23196793"
+                },
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                },
+                {
+                    "id": 8014,
+                    "pubMedId": 22753589,
+                    "title": "Specific mutations in KRAS codons 12 and 13, and patient prognosis in 1075 BRAF wild-type colorectal cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22753589"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "G13R",
+    "createDate": "03/12/2015",
+    "updateDate": "10/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 157160,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25245348C>G",
+        "cDna": "c.37G>C",
+        "protein": "p.G13R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7865,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and Selumetinib (AZD6244) synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R and HRAS G12R in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26080,
+                "profileName": "HRAS G12R KRAS G13R"
+            },
+            "therapy": {
+                "id": 4600,
+                "therapyName": "Dasatinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7854,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of thyroid cancer cell lines harboring KRAS G13R and HRAS G12R in culture and in cell line xenograft models (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26080,
+                "profileName": "HRAS G12R KRAS G13R"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7866,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and SCH772984 synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R and HRAS G12R in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26080,
+                "profileName": "HRAS G12R KRAS G13R"
+            },
+            "therapy": {
+                "id": 4601,
+                "therapyName": "Dasatinib + SCH772984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7858,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited growth of thyroid cancer cell lines harboring KRAS G13R and HRAS G12R in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26080,
+                "profileName": "HRAS G12R KRAS G13R"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7864,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and Mekinist (trametinib) synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R and HRAS G12R in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26080,
+                "profileName": "HRAS G12R KRAS G13R"
+            },
+            "therapy": {
+                "id": 4599,
+                "therapyName": "Dasatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3496,
+            "profileName": "KRAS G13R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26080,
+            "profileName": "HRAS G12R KRAS G13R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157160,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25245348C>G",
+            "cDna": "c.37G>C",
+            "protein": "p.G13R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157159,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25245348C>G",
+            "cDna": "c.37G>C",
+            "protein": "p.G13R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157162,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25245348C>G",
+            "cDna": "c.37G>C",
+            "protein": "p.G13R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157163,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25245348C>G",
+            "cDna": "c.37G>C",
+            "protein": "p.G13R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157161,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25245348C>G",
+            "cDna": "c.37G>C",
+            "protein": "p.G13R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

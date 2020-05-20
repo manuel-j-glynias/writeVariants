@@ -1,0 +1,956 @@
+{
+    "id": 26327,
+    "fullName": "EGFR A767_V769dup",
+    "impact": "duplication",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR A767_V769dup (also referred to as V769_D770insASV) indicates the insertion of 3 duplicate amino acids, alanine (A)-767 through valine (V)-769, in the protein kinase domain of the Egfr protein (UniProt.org). A767_V769dup results in constitutive Egfr phosphorylation, downstream signaling activation, and transformation of cultured cells (PMID: 24353160, PMID: 28363995).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 440,
+                    "pubMedId": 24353160,
+                    "title": "Structural, biochemical, and clinical characterization of epidermal growth factor receptor (EGFR) exon 20 insertion mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24353160"
+                },
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "A767_V769dup",
+    "createDate": "04/13/2017",
+    "updateDate": "09/12/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135537,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181308_55181316",
+        "cDna": "c.2299_2307",
+        "protein": "p.A767_V769",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19047,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Iressa (gefitinib) treatment resulted in disease progression after 3 months of treatment in a patient with metastatic lung adenocarcinoma harboring EGFR A767_V769dup (PMID: 21841502).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16690,
+                    "pubMedId": 21841502,
+                    "title": "Activity of epidermal growth factor receptor-tyrosine kinase inhibitors in patients with non-small cell lung cancer harboring rare epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21841502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13634,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Naquotinib (ASP8273) inhibited EGFR signaling and proliferation of transformed cells expressing EGFR A767_V769dup in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14036,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS6417 inhibited EGFR phosphorylation and proliferation of cells expressing EGFR exon 20 insertion mutations, including EGFR A767_V769dup (reported as V769_D770insASV), in culture (PMID: 29748209).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 6994,
+                "therapyName": "CLN-081",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11432,
+                    "pubMedId": 29748209,
+                    "title": "TAS6417, A Novel EGFR Inhibitor Targeting Exon 20 Insertion Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748209"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5652,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGF816 inhibited growth of transformed cells expressing EGFR A767_V769dup (reported as V769_D770insASV) in culture (PMID: 26825170).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 1309,
+                "therapyName": "Nazartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5135,
+                    "pubMedId": 26825170,
+                    "title": "EGF816 Exerts Anticancer Effects in Non-Small Cell Lung Cancer by Irreversibly and Selectively Targeting Primary and Acquired Activating Mutations in the EGF Receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26825170"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15020,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A767_V769dup (reported as V769_D770insASV) were insensitive to Tarceva (erlotinib)-mediated inhibition of Egfr phosphorylation in culture (PMID: 29483211).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10986,
+                    "pubMedId": 29483211,
+                    "title": "Antitumor Activity of Osimertinib, an Irreversible Mutant-Selective EGFR Tyrosine Kinase Inhibitor, in NSCLC Harboring EGFR Exon 20 Insertions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29483211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15021,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A767_V769dup (reported as V769_D770insASV) were resistant to treatment with Tarceva (erlotinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13637,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A767_V769dup were resistant to Tarceva (erlotinib) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14041,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS6417 inhibited growth and induced apoptotic markers in a lung cancer patient-derived xenograft (PDX) model-derived cell line harboring EGFR A767_V769dup (reported as V769_D770insASV) in culture, and inhibited tumor growth and induced tumor regression in PDX models (PMID: 29748209).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 6994,
+                "therapyName": "CLN-081",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11432,
+                    "pubMedId": 29748209,
+                    "title": "TAS6417, A Novel EGFR Inhibitor Targeting Exon 20 Insertion Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748209"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13636,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited EGFR signaling and proliferation of transformed cells expressing EGFR A767_V769dup in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15018,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR exon 20 insertions, including EGFR A767_V769dup (reported as V769_D770insASV), demonstrated resistance to Gilotrif (afatinib) in cell culture (PMID: 24353160, PMID: 29141884).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 440,
+                    "pubMedId": 24353160,
+                    "title": "Structural, biochemical, and clinical characterization of epidermal growth factor receptor (EGFR) exon 20 insertion mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24353160"
+                },
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15022,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A767_V769dup (reported as V769_D770insASV) were sensitive to treatment with Tagrisso (osimertinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15019,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited Egfr phosphorylation in transformed cells expressing EGFR A767_V769dup (reported as V769_D770insASV) in culture (PMID: 29483211).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10986,
+                    "pubMedId": 29483211,
+                    "title": "Antitumor Activity of Osimertinib, an Irreversible Mutant-Selective EGFR Tyrosine Kinase Inhibitor, in NSCLC Harboring EGFR Exon 20 Insertions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29483211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13635,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited EGFR signaling and proliferation of transformed cells expressing EGFR A767_V769dup in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 792,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, non-small cell lung cancer patients harboring EGFR exon 20 insertions, such as EGFR A767_V769dup (reported as V769_D770insASV), displayed progressive disease following treatment with Iressa (gefitinib), and resistance to Iressa (gefitinib) was replicated in cell culture studies (PMID: 24353160).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 440,
+                    "pubMedId": 24353160,
+                    "title": "Structural, biochemical, and clinical characterization of epidermal growth factor receptor (EGFR) exon 20 insertion mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24353160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14794,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Poziotinib (HM781-36B) resulted in objective partial responses in 64% (7/11) of patients with non-small cell lung cancer harboring EGFR exon 20 mutations, including a patient with EGFR A767_V769dup (PMID: 29686424; NCT03066206).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14710,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited growth of transformed cell lines expressing EGFR A767_V769dup (reported as V769insASV) in culture (PMID: 29686424).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 791,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, non-small cell lung cancer patients harboring EGFR exon 20 insertions, such as EGFR A767_V769dup (reported as V769_D770insASV), displayed progressive disease following treatment with Tarceva (erlotinib), and resistance to Tarceva (erlotinib) was replicated in cell culture studies (PMID: 24353160).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 440,
+                    "pubMedId": 24353160,
+                    "title": "Structural, biochemical, and clinical characterization of epidermal growth factor receptor (EGFR) exon 20 insertion mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24353160"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14730,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited EGFR phosphorylation and growth of a lung adenocarcinoma patient cell line harboring EGFR A767_V769dup in culture (PMID: 29686424).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13995,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) decreased Egfr signaling and proliferation of patient-derived lung cancer cells harboring EGFR A767_V769dup in culture, bud did not affect tumor growth in patient-derived xenograft (PDX) models (Mol Cancer Ther 2018;17(1 Suppl):Abstract nr A157).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11406,
+                    "pubMedId": null,
+                    "title": "Antitumor activity of tarloxotinib, a hypoxia-activated EGFR TKI, in patient-derived lung cancer cell lines harboring EGFR exon 20 insertions",
+                    "url": "http://mct.aacrjournals.org/content/17/1_Supplement/A157"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10507,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A767_V769dup (also referred to as V769_D770insASV) demonstrated resistance to Vizimpro (dacomitinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13991,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, processed Tarloxotinib (TRLX) inhibited Egfr signaling and proliferation of patient-derived lung cancer cells harboring EGFR A767_V769dup in culture, and the prodrug Tarloxotinib (TRLX) resulted in tumor regression in patient-derived xenograft (PDX) models (Mol Cancer Ther 2018;17(1 Suppl):Abstract nr A157).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 6986,
+                "therapyName": "Tarloxotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11406,
+                    "pubMedId": null,
+                    "title": "Antitumor activity of tarloxotinib, a hypoxia-activated EGFR TKI, in patient-derived lung cancer cell lines harboring EGFR exon 20 insertions",
+                    "url": "http://mct.aacrjournals.org/content/17/1_Supplement/A157"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17712,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung cancer harboring EGFR A767_V769dup demonstrated a partial response when treated with Gilotrif (afatinib) (PMID: 31043566).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 15696,
+                    "pubMedId": 31043566,
+                    "title": "Molecular dynamics simulation-guided drug sensitivity prediction for lung cancer with rare EGFR mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31043566"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13111,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells expressing EGFR A767_V769dup (reported as V769_D770insASV) were resistant to Gilotrif (afatinib)-mediated growth inhibition in culture and in cell line xenograft models, and patient-derived xenograft (PDX) models of non-small cell lung cancer harboring EGFR A767_V769dup (reported as M766_A767insASV) were resistant to Gilotrif (afatinib) (PMID: 29483211).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10986,
+                    "pubMedId": 29483211,
+                    "title": "Antitumor Activity of Osimertinib, an Irreversible Mutant-Selective EGFR Tyrosine Kinase Inhibitor, in NSCLC Harboring EGFR Exon 20 Insertions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29483211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15396,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Luminespib (AUY922) treatment demonstrated safety and efficacy in patients with advanced non-small cell lung cancer harboring EGFR exon 20 insertions, with 1 of 3 patient harboring EGFR A767_V769dup achieved stable disease (PMID: 30351341; NCT01854034).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 647,
+                "therapyName": "Luminespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13126,
+                    "pubMedId": 30351341,
+                    "title": "Activity of the Hsp90 inhibitor luminespib among non-small-cell lung cancers harboring EGFR exon 20 insertions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30351341"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13110,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited Egfr phosphorylation and growth of non-small cell lung carcinoma cells expressing EGFR A767_V769dup (reported as V769_D770insASV) in culture, and inhibited tumor growth in cell line xenograft models and inhibited tumor growth in patient-derived xenograft (PDX) models harboring EGFR A767_V769dup (reported as V769_D770insASV or M766_A767insASV) (PMID: 29483211).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10986,
+                    "pubMedId": 29483211,
+                    "title": "Antitumor Activity of Osimertinib, an Irreversible Mutant-Selective EGFR Tyrosine Kinase Inhibitor, in NSCLC Harboring EGFR Exon 20 Insertions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29483211"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17636,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Tagrisso (osimertinib) treatment resulted in a partial response with a progression-free survival of 6.0 months in a patient with non-small cell lung cancer harboring EGFR A767_V769dup (PMID: 31208370).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15706,
+                    "pubMedId": 31208370,
+                    "title": "EGFR exon 20 insertion mutations and response to osimertinib in non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31208370"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14792,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A767_V769dup (reported as V769_D770insASV) were resistant to treatment with Iressa (gefitinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14790,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A767_V769dup (reported as V769_D770insASV) were resistant to treatment with Rociletinib (CO-1686) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 27532,
+                "profileName": "EGFR A767_V769dup"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27532,
+            "profileName": "EGFR A767_V769dup",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135537,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181308_55181316",
+            "cDna": "c.2299_2307",
+            "protein": "p.A767_V769",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

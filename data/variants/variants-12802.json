@@ -1,0 +1,200 @@
+{
+    "id": 12802,
+    "fullName": "RET Y806C",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "RET Y806C lies within the protein kinase domain of the Ret protein (UniProt.org). Y806C is predicted to lead to a gain of Ret protein function as indicated by transformation of cultured cells in one study (PMID:10679286), and has also been demonstrated to occur as a secondary resistance mutation in conjunction with other RET mutations (PMID: 19029224).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 8446,
+                    "pubMedId": 19029224,
+                    "title": "Identification of tyrosine 806 as a molecular determinant of RET kinase sensitivity to ZD6474.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19029224"
+                },
+                {
+                    "id": 11578,
+                    "pubMedId": 10679286,
+                    "title": "A two-hit model for development of multiple endocrine neoplasia type 2B by RET mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10679286"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5979,
+        "geneSymbol": "RET",
+        "terms": [
+            "RET",
+            "CDHF12",
+            "CDHR16",
+            "HSCR1",
+            "MEN2A",
+            "MEN2B",
+            "MTC1",
+            "PTC",
+            "RET-ELE1"
+        ]
+    },
+    "variant": "Y806C",
+    "createDate": "10/05/2015",
+    "updateDate": "10/17/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 125442,
+        "transcript": "NM_020975",
+        "gDna": "chr10:g.43119555A>G",
+        "cDna": "c.2417A>G",
+        "protein": "p.Y806C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3223,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited phosphorylation of Ret in transformed human cells expressing RET Y806C in culture (PMID: 23526464).",
+            "molecularProfile": {
+                "id": 12957,
+                "profileName": "RET Y806C"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 312,
+                    "pubMedId": 23526464,
+                    "title": "Ponatinib (AP24534) is a novel potent inhibitor of oncogenic RET mutants associated with thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23526464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10661,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human cells co-expressing RET C634R and RET Y806C were resistant to treatment with Caprelsa (vandetanib) in culture (PMID: 19029224).",
+            "molecularProfile": {
+                "id": 27717,
+                "profileName": "RET C634R RET Y806C"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8446,
+                    "pubMedId": 19029224,
+                    "title": "Identification of tyrosine 806 as a molecular determinant of RET kinase sensitivity to ZD6474.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19029224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13695,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Risk Factor",
+            "efficacyEvidence": "Compound germline RET V840M and Y806C mutations result in multiple endocrine neoplasia, type 2B (MEN 2B), which is associated with high risk of developing thyroid medullary carcinoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 29379,
+                "profileName": "RET V804M RET Y806C"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 12957,
+            "profileName": "RET Y806C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27717,
+            "profileName": "RET C634R RET Y806C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29379,
+            "profileName": "RET V804M RET Y806C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 125442,
+            "transcript": "NM_020975",
+            "gDna": "chr10:g.43119555A>G",
+            "cDna": "c.2417A>G",
+            "protein": "p.Y806C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 125443,
+            "transcript": "NM_020630",
+            "gDna": "chr10:g.43119555A>G",
+            "cDna": "c.2417A>G",
+            "protein": "p.Y806C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

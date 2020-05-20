@@ -1,0 +1,549 @@
+{
+    "id": 3218,
+    "fullName": "PIK3CA R88Q",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA R88Q lies within the PI3K-ABD domain of the Pik3ca protein (UniProt.org). R88Q confers a gain of function to the Pik3ca protein as indicated by increased phosphorylation of downstream targets Akt and S6 (PMID: 18829572) and demonstrates increased transformation ability in two different cell lines, as compared to wild-type Pik3ca (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 1933,
+                    "pubMedId": 18829572,
+                    "title": "PIK3CA cooperates with other phosphatidylinositol 3'-kinase pathway mutations to effect oncogenic transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18829572"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "R88Q",
+    "createDate": "02/19/2015",
+    "updateDate": "04/29/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 172182,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179199088G>A",
+        "cDna": "c.263G>A",
+        "protein": "p.R88Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20946,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in greater growth inhibition of astrocytoma cells expressing PIK3CA R88Q than cells with wild-type PIK3CA in culture (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 3041,
+                "profileName": "PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6084,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Apitolisib (GDC-0980) resulted in a partial response in a patient with malignant pleural mesothelioma harboring PIK3CA R88Q (PMID: 26787751).",
+            "molecularProfile": {
+                "id": 3041,
+                "profileName": "PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 7474,
+                "name": "malignant pleural mesothelioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4915,
+                    "pubMedId": 26787751,
+                    "title": "Phase I Study of Apitolisib (GDC-0980), Dual Phosphatidylinositol-3-Kinase and Mammalian Target of Rapamycin Kinase Inhibitor, in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26787751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3756,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, treatment with the combination of Erbitux (cetuximab), Adrucil (fluorouracil), Camptosar (irinotecan), and Floxuridine resulted in at least 24 months without evidence of disease in a colorectal carcinoma patient harboring a PIK3CA R88Q mutation (PMID: 25714871).",
+            "molecularProfile": {
+                "id": 3041,
+                "profileName": "PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 3292,
+                "therapyName": "Cetuximab + Floxuridine + Fluorouracil + Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3888,
+                    "pubMedId": 25714871,
+                    "title": "AKT1 E17K in Colorectal Carcinoma Is Associated with BRAF V600E but Not MSI-H Status: A Clinicopathologic Comparison to PIK3CA Helical and Kinase Domain Mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25714871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2110,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Afinitor (everolimus) inhibited proliferation of endometrial cancer cells harboring PIK3CA R88Q and PTEN mutations in culture (PMID: 22662154).",
+            "molecularProfile": {
+                "id": 5393,
+                "profileName": "PIK3CA R88Q PTEN mut"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 348,
+                    "pubMedId": 22662154,
+                    "title": "Genotype-dependent efficacy of a dual PI3K/mTOR inhibitor, NVP-BEZ235, and an mTOR inhibitor, RAD001, in endometrial carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22662154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2109,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 inhibited proliferation of endometrial cancer cells harboring PIK3CA R88Q and PTEN mutations in culture (PMID: 22662154).",
+            "molecularProfile": {
+                "id": 5393,
+                "profileName": "PIK3CA R88Q PTEN mut"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 348,
+                    "pubMedId": 22662154,
+                    "title": "Genotype-dependent efficacy of a dual PI3K/mTOR inhibitor, NVP-BEZ235, and an mTOR inhibitor, RAD001, in endometrial carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22662154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2140,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial cancer cells harboring PIK3CA R88Q. PTEN mutations, and KRAS G12V demonstrated decreased sensitivity to Afinitor (everolimus) compared with cells without KRAS mutations in culture (PMID: 22662154).",
+            "molecularProfile": {
+                "id": 5418,
+                "profileName": "KRAS G12V PIK3CA R88Q PTEN mut"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 348,
+                    "pubMedId": 22662154,
+                    "title": "Genotype-dependent efficacy of a dual PI3K/mTOR inhibitor, NVP-BEZ235, and an mTOR inhibitor, RAD001, in endometrial carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22662154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2141,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, endometrial cancer cells harboring PIK3CA R88Q. PTEN mutations, and KRAS G12V demonstrated decreased sensitivity to BEZ235 compared with cells without KRAS mutations in culture (PMID: 22662154).",
+            "molecularProfile": {
+                "id": 5418,
+                "profileName": "KRAS G12V PIK3CA R88Q PTEN mut"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 348,
+                    "pubMedId": 22662154,
+                    "title": "Genotype-dependent efficacy of a dual PI3K/mTOR inhibitor, NVP-BEZ235, and an mTOR inhibitor, RAD001, in endometrial carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22662154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20965,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in growth inhibition of astrocytoma cells with an HRAS mutation and expressing PIK3CA R88Q in culture, but at a higher drug concentration compared to cells without mutant HRAS (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 35457,
+                "profileName": "HRAS mut PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21230,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) did not inhibit tumor growth in a xenograft (PDX) model of breast cancer harboring PIK3CA E88Q and wild-type ESR1 that was derived from a patient treated with a combination of Femara (letrozole) and Ibrance (palbociclib) (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 35879,
+                "profileName": "ESR1 wild-type PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21232,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Elacestrant (RAD1901) treatment resulted in significant tumor growth inhibition in a xenograft (PDX) model of breast cancer harboring PIK3CA E88Q and wild-type ESR1 that was derived from a patient treated with a combination of Femara (letrozole) and Ibrance (palbociclib) (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 35879,
+                "profileName": "ESR1 wild-type PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 5890,
+                "therapyName": "Elacestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21233,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Piqray (Alpelisib) and Elacestrant (RAD1901) combination treatment resulted in near complete tumor growth inhibition in a xenograft (PDX) model of breast cancer harboring PIK3CA E88Q and wild-type ESR1 that was derived from a patient treated with a combination of Femara (letrozole) and Ibrance (palbociclib) (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 35879,
+                "profileName": "ESR1 wild-type PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 9642,
+                "therapyName": "Alpelisib + Elacestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21231,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Piqray (Alpelisib) treatment resulted in significant tumor growth inhibition in a xenograft (PDX) model of breast cancer harboring PIK3CA E88Q and wild-type ESR1 that was derived from a patient treated with a combination of Femara (letrozole) and Ibrance (palbociclib) (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 35879,
+                "profileName": "ESR1 wild-type PIK3CA R88Q"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3041,
+            "profileName": "PIK3CA R88Q",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17106,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA R88Q"
+                },
+                {
+                    "id": 17103,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA R88Q"
+                },
+                {
+                    "id": 17109,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA R88Q"
+                },
+                {
+                    "id": 17104,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA R88Q"
+                },
+                {
+                    "id": 17105,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA R88Q"
+                },
+                {
+                    "id": 17107,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA R88Q"
+                },
+                {
+                    "id": 17108,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA R88Q"
+                },
+                {
+                    "id": 17110,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA R88Q"
+                }
+            ]
+        },
+        {
+            "id": 5393,
+            "profileName": "PIK3CA R88Q PTEN mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 5418,
+            "profileName": "KRAS G12V PIK3CA R88Q PTEN mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 13842,
+            "profileName": "BRAF wild-type KRAS wild-type PIK3CA R88Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35457,
+            "profileName": "HRAS mut PIK3CA R88Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35879,
+            "profileName": "ESR1 wild-type PIK3CA R88Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 172181,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179199088G>A",
+            "cDna": "c.263G>A",
+            "protein": "p.R88Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 172183,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179199088G>A",
+            "cDna": "c.263G>A",
+            "protein": "p.R88Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 172182,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179199088G>A",
+            "cDna": "c.263G>A",
+            "protein": "p.R88Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

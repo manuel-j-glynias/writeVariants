@@ -1,0 +1,127 @@
+{
+    "id": 33199,
+    "fullName": "ERBB2 G776delinsIC",
+    "impact": "indel",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) G776delinsIC results in a deletion of a glycine (G) at amino acid 776 within the protein kinase domain of the Erbb2 (Her2) protein, combined with the insertion of an isoleucine (I) and a cysteine (C) at the same site (UniProt.org). G776delinsIC has not been characterized, however, because similar exon 20 insertion mutations are activating (PMID: 17311002), G776delinsIC is predicted to lead to a gain of Erbb2 (Her2) protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2002,
+                    "pubMedId": 17311002,
+                    "title": "The major lung cancer-derived mutants of ERBB2 are oncogenic and are associated with sensitivity to the irreversible EGFR/ERBB2 inhibitor HKI-272.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17311002"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "G776delinsIC",
+    "createDate": "03/30/2020",
+    "updateDate": "03/30/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 188666,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724744_39724746delinsATCTGT",
+        "cDna": "c.2326_2328delinsATCTGT",
+        "protein": "p.G776_776delinsIC",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 21253,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with non-small cell lung cancer harboring ERBB2 G776delinsIC did not respond to treatment with Pyrotinib and developed progressive disease (PMID: 30596880; NCT02535507).",
+            "molecularProfile": {
+                "id": 35883,
+                "profileName": "ERBB2 G776delinsIC"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 18195,
+                    "pubMedId": 30596880,
+                    "title": "HER2 exon 20 insertions in non-small-cell lung cancer are sensitive to the irreversible pan-HER receptor tyrosine kinase inhibitor pyrotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30596880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 35883,
+            "profileName": "ERBB2 G776delinsIC",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 20268,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 G776delinsIC"
+                },
+                {
+                    "id": 20269,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 G776delinsIC"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 188666,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724744_39724746delinsATCTGT",
+            "cDna": "c.2326_2328delinsATCTGT",
+            "protein": "p.G776_776delinsIC",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 188667,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724744_39724746delinsATCTGT",
+            "cDna": "c.2326_2328delinsATCTGT",
+            "protein": "p.G776_776delinsIC",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

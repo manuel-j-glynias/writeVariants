@@ -1,0 +1,186 @@
+{
+    "id": 3546,
+    "fullName": "NRAS G12R",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS G12R is a hotspot mutation that lies within a GTP-binding region of the Nras protein (UniProt.org). G12R has not been characterized, but can be predicted to confer a loss of function on Nras protein based on the effects of HRAS G12R and NRAS G12R, which results in decreased GTPase activity, activation of downstream pathways, and transformation of cultured cells (PMID: 6092966, PMID: 26037647, PMID: 23455880).",
+            "references": [
+                {
+                    "id": 2098,
+                    "pubMedId": 6092966,
+                    "title": "Biological properties of human c-Ha-ras1 genes mutated at codon 12.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/6092966"
+                },
+                {
+                    "id": 3052,
+                    "pubMedId": 26037647,
+                    "title": "Biochemical and Structural Analysis of Common Cancer-Associated KRAS Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26037647"
+                },
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "G12R",
+    "createDate": "03/05/2015",
+    "updateDate": "09/20/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162435,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114716127C>G",
+        "cDna": "c.34G>C",
+        "protein": "p.G12R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4491,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring EGFR exon 19 deletion and NRAS G12R were resistant to Tagrisso (osimertinib) in culture (PMID: 25870145).",
+            "molecularProfile": {
+                "id": 18239,
+                "profileName": "EGFR exon 19 del NRAS G12R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4580,
+                    "pubMedId": 25870145,
+                    "title": "Acquired Resistance to the Mutant-Selective EGFR Inhibitor AZD9291 Is Associated with Increased Dependence on RAS Signaling in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25870145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4492,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib inhibited proliferation of non-small cell lung cancer cells harboring EGFR exon 19 deletion and NRAS G12R in culture (PMID: 25870145).",
+            "molecularProfile": {
+                "id": 18239,
+                "profileName": "EGFR exon 19 del NRAS G12R"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4580,
+                    "pubMedId": 25870145,
+                    "title": "Acquired Resistance to the Mutant-Selective EGFR Inhibitor AZD9291 Is Associated with Increased Dependence on RAS Signaling in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25870145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3353,
+            "profileName": "NRAS G12R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16439,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS G12R"
+                },
+                {
+                    "id": 16442,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS G12R"
+                },
+                {
+                    "id": 16440,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS G12R"
+                },
+                {
+                    "id": 16441,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS G12R"
+                },
+                {
+                    "id": 16443,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS G12R"
+                },
+                {
+                    "id": 16444,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS G12R"
+                }
+            ]
+        },
+        {
+            "id": 18239,
+            "profileName": "EGFR exon 19 del NRAS G12R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162435,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114716127C>G",
+            "cDna": "c.34G>C",
+            "protein": "p.G12R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

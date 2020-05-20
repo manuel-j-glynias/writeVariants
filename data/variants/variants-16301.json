@@ -1,0 +1,1290 @@
+{
+    "id": 16301,
+    "fullName": "NTRK1 G595R",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "NTRK1 G595R lies within the protein kinase domain of the Ntrk1 protein (UniProt.org). G595R has been demonstrated to confer resistance to Ntrk inhibitors as a secondary resistance mutation in the context of NTRK1 fusions (PMID: 28751539, PMID: 26546295, PMID: 29568395), but has not been biochemically characterized and therefore, its effect on Ntrk1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 11467,
+                    "pubMedId": 29568395,
+                    "title": "Merestinib (LY2801653) inhibits neurotrophic receptor kinase (NTRK) and suppresses growth of NTRK fusion bearing tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568395"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 4298,
+                    "pubMedId": 26546295,
+                    "title": "Acquired Resistance to the TRK Inhibitor Entrectinib in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546295"
+                },
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4914,
+        "geneSymbol": "NTRK1",
+        "terms": [
+            "NTRK1",
+            "MTC",
+            "p140-TrkA",
+            "TRK",
+            "Trk-A",
+            "TRK1",
+            "TRKA"
+        ]
+    },
+    "variant": "G595R",
+    "createDate": "01/12/2016",
+    "updateDate": "02/13/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 112565,
+        "transcript": "NM_002529",
+        "gDna": "chr1:g.156876550G>A",
+        "cDna": "c.1783G>A",
+        "protein": "p.G595R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3927,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Rozlytrek (entrectinib) treatment resulted in partial response for 4 months in a colorectal cancer patient harboring a LMNA-NTRK1 gene fusion, followed by development of drug resistance that was attributed to acquired NTRK1 G595R and NTRK1 G667C mutations (PMID: 26546295).",
+            "molecularProfile": {
+                "id": 16584,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4298,
+                    "pubMedId": 26546295,
+                    "title": "Acquired Resistance to the TRK Inhibitor Entrectinib in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546295"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11267,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with colorectal cancer harboring LMNA-NTRK1 and NTRK1 G595R demonstrated a partial response and decreased allele fraction of NTRK1 G595R, which was undetectable after two weeks when treated with LOXO-195 (PMID: 28578312).",
+            "molecularProfile": {
+                "id": 27367,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9187,
+                    "pubMedId": 28578312,
+                    "title": "A Next-Generation TRK Kinase Inhibitor Overcomes Acquired Resistance to Prior TRK Kinase Inhibition in Patients with TRK Fusion-Positive Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28578312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10348,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) inhibited proliferation of transformed cells expressing NTRK1 G595R in the context of LMNA-NTRK1 in culture, resulted in tumor growth inhibition in cell line xenograft models (PMID: 30093503).",
+            "molecularProfile": {
+                "id": 27367,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8338,
+                    "pubMedId": null,
+                    "title": "TPX-0005, a novel ALK/ROS1/TRK inhibitor, effectively inhibited a broad spectrum of mutations including solvent front ALK G1202R, ROS1 G2032R and TRKA G595R mutants",
+                    "url": "http://www.ejcancer.com/article/S0959-8049%2816%2932675-2/abstract"
+                },
+                {
+                    "id": 12439,
+                    "pubMedId": 30093503,
+                    "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093503"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11264,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with colorectal cancer harboring LMNA-NTRK1 demonstrated progression after 6 months when treated with Vitrakvi (larotrectinib), and was found to also harbor NTRK1 G595R (PMID: 28578312).",
+            "molecularProfile": {
+                "id": 27367,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9187,
+                    "pubMedId": 28578312,
+                    "title": "A Next-Generation TRK Kinase Inhibitor Overcomes Acquired Resistance to Prior TRK Kinase Inhibition in Patients with TRK Fusion-Positive Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28578312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15306,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, NTRK1 G595R was identified at disease progression in a patient with colon cancer harboring LMNA-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 27367,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11258,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a cell line oncogenic mouse model expressing an NTRK1 activating mutation and a secondary resistance mutation, NTRK1 G595R, demonstrated sensitivity to LOXO-195 (PMID: 28578312).",
+            "molecularProfile": {
+                "id": 27938,
+                "profileName": "NTRK1 G595R NTRK1 act mut"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9187,
+                    "pubMedId": 28578312,
+                    "title": "A Next-Generation TRK Kinase Inhibitor Overcomes Acquired Resistance to Prior TRK Kinase Inhibition in Patients with TRK Fusion-Positive Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28578312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11259,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a cell line oncogenic mouse model expressing an NTRK1 activating mutation and a secondary resistance mutation, NTRK1 G595R, demonstrated a decreased response when treated with Vitrakvi (larotrectinib) (PMID: 28578312).",
+            "molecularProfile": {
+                "id": 27938,
+                "profileName": "NTRK1 G595R NTRK1 act mut"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9187,
+                    "pubMedId": 28578312,
+                    "title": "A Next-Generation TRK Kinase Inhibitor Overcomes Acquired Resistance to Prior TRK Kinase Inhibition in Patients with TRK Fusion-Positive Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28578312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13164,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing TPM3-NTRK1 and NTRK1 G595R were resistant to Cometriq (Cabometyx, cabozantinib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13206,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G595R were resistant to Xalkori (crizotinib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13203,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G595R were resistant to Iclusig (ponatinib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13200,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G595R were resistant to Foretinib (GSK1363089) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13918,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) did not inhibit viability of cells expressing TPM3-NTRK1 with NTRK G595R in culture (PMID: 29463555).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11364,
+                    "pubMedId": 29463555,
+                    "title": "Foretinib Overcomes Entrectinib Resistance Associated with the NTRK1 G667C Mutation in NTRK1 Fusion-Positive Tumor Cells in a Brain Metastasis Model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463555"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13163,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G595R were resistant to Vitrakvi (larotrectinib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20639,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing TPM3-NTRK1 and NTRK1 G595R were sensitive to treatment with DS6051b in culture, demonstrating cell growth inhibition (PMID: 31399568).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 4343,
+                "therapyName": "DS6051b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17972,
+                    "pubMedId": 31399568,
+                    "title": "The new-generation selective ROS1/NTRK inhibitor DS-6051b overcomes crizotinib resistant ROS1-G2032R mutation in preclinical models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31399568"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13201,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G595R were resistant to Ofev (nintedanib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 831,
+                "therapyName": "Nintedanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15273,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, NTRK1 G595R was identified at disease progression in a patient with a soft tissue sarcoma harboring TPM3-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1115,
+                "name": "sarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14123,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a mouse model expressing TPM3-NTRK1 and NTRK1 G595R did not respond to treatment with Merestinib (LY2801653) (PMID: 29568395).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11467,
+                    "pubMedId": 29568395,
+                    "title": "Merestinib (LY2801653) inhibits neurotrophic receptor kinase (NTRK) and suppresses growth of NTRK fusion bearing tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568395"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13919,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rozlytrek (entrectinib) did not inhibit viability of cells expressing TPM3-NTRK1 with NTRK G595R in culture (PMID: 29463555).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11364,
+                    "pubMedId": 29463555,
+                    "title": "Foretinib Overcomes Entrectinib Resistance Associated with the NTRK1 G667C Mutation in NTRK1 Fusion-Positive Tumor Cells in a Brain Metastasis Model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463555"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13217,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G595R were resistant to Rozlytrek (entrectinib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29017,
+                "profileName": "TPM3 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15267,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, NTRK1 G595R and NTRK1 G667S were identified at disease progression in a patient with lung cancer harboring TPR-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 30926,
+                "profileName": "TPR - NTRK1 NTRK1 G595R NTRK1 G667S"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15271,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, NTRK1 G595R was identified at disease progression in a patient with thyroid cancer harboring IRF2BP2-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 30933,
+                "profileName": "IRF2BP2 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15272,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, NTRK1 G595R and NTRK1 F589L were identified at disease progression in a patient with colon cancer harboring TPM3-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 30934,
+                "profileName": "TPM3 - NTRK1 NTRK1 F589L NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16269,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing MPRIP-NTRK1 harboring NTRK1 G595R demonstrated resistance to growth inhibition by Vitrakvi (larotrectinib) in culture and in xenograft models (PMID: 30242093).",
+            "molecularProfile": {
+                "id": 31578,
+                "profileName": "MPRIP - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14399,
+                    "pubMedId": 30242093,
+                    "title": "Selective TRK Inhibitor CH7057288 against TRK Fusion-Driven Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30242093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16270,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing MPRIP-NTRK1 harboring NTRK1 G595R demonstrated resistance to growth inhibition by Rozlytrek (entrectinib) in culture and in xenograft models (PMID: 30242093).",
+            "molecularProfile": {
+                "id": 31578,
+                "profileName": "MPRIP - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14399,
+                    "pubMedId": 30242093,
+                    "title": "Selective TRK Inhibitor CH7057288 against TRK Fusion-Driven Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30242093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16268,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing MPRIP-NTRK1 harboring NTRK1 G595R demonstrated resistance to growth inhibition by CH7057288 in culture and in xenograft models (PMID: 30242093).",
+            "molecularProfile": {
+                "id": 31578,
+                "profileName": "MPRIP - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 7977,
+                "therapyName": "CH7057288",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14399,
+                    "pubMedId": 30242093,
+                    "title": "Selective TRK Inhibitor CH7057288 against TRK Fusion-Driven Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30242093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18710,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a pancreatic cancer cell line harboring TPR-NTRK1 and NTRK1 G595R, and expressing BRAF V600E demonstrated resistance to treatment with LOXO-195 in culture (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33512,
+                "profileName": "TPR - NTRK1 NTRK1 G595R BRAF V600E"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18711,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with colorectal cancer harboring LMNA-NTRK1 and NTRK1 G595R demonstrated liver progression while on treatment with LOXO-195 and was found via cell-free DNA (cfDNA) testing to have acquired KRAS G12A, however, upon liver ablation and further LOXO-195 treatment, subsequent cfDNA testing revealed loss of KRAS G12A, but acquisition of KRAS G12D (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33513,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12A KRAS G12D"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18712,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring LMNA-NTRK1 and NTRK1 G595R underwent prolonged treatment with LOXO-195, developing resistance in culture, and was subsequently found to have acquired KRAS G12D (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33515,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12D"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19121,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of LOXO-195 and Mekinist (trametinib) compared to LOXO-195 treatment alone in colorectal cancer cells harboring LMNA-NTRK1, NTRK1 G595R, and KRAS G12D resulted in decreased cell viability in culture and reduced tumor growth in xenograft models (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33515,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12D"
+            },
+            "therapy": {
+                "id": 8914,
+                "therapyName": "LOXO-195 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18714,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring LMNA-NTRK1 and NTRK1 G595R and expressing KRAS G12A demonstrated resistance to treatment with LOXO-195 in culture (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33523,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12A"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19124,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with colorectal cancer harboring LMNA-NTRK1, NTRK1 G595R, and KRAS G12A demonstrated progression when treated with the combination of LOXO-195 and Mekinist (trametinib), however, a patient-derived xenograft (PDX) model for this patient demonstrated inhibition of tumor growth (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33523,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12A"
+            },
+            "therapy": {
+                "id": 8914,
+                "therapyName": "LOXO-195 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19079,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with pancreatic cancer harboring TPR-NTRK1 responded to treatment with Rozlytrek (entrectinib), but eventually progressed and was found to have acquired NTRK1 G595R (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33928,
+                "profileName": "TPR - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19081,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with colorectal cancer harboring TPM3-NTRK1 developed resistance to treatment with Vitrakvi (larotrectinib), and was found to have acquired NTRK1 G595R, NTRK1 F589L, and KRAS G12D (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33930,
+                "profileName": "TPM3 - NTRK1 NTRK1 F589L NTRK1 G595R KRAS G12D"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19090,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Tafinlar (dabrafenib), Mekinist (trametinib), and Vitrakvi (larotrectinib) in a colorectal cancer cell line harboring LMNA-NTRK1 and expressing BRAF V600E demonstrated tumor growth suppression and inhibition of Akt, Erk, and Mek signaling in culture (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33932,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R BRAF V600E"
+            },
+            "therapy": {
+                "id": 8908,
+                "therapyName": "Dabrafenib + Larotrectinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19089,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Tafinlar (dabrafenib), Mekinist (trametinib), and LOXO-195 in a colorectal cancer cell line harboring LMNA-NTRK1 and NTRK1 G595R and expressing BRAF V600E demonstrated tumor growth suppression and inhibition of Akt, Erk, and Mek signaling in culture (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33932,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R BRAF V600E"
+            },
+            "therapy": {
+                "id": 8909,
+                "therapyName": "Dabrafenib + LOXO-195 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 16582,
+            "profileName": "NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 16584,
+            "profileName": "LMNA - NTRK1 NTRK1 G595R NTRK1 G667C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27367,
+            "profileName": "LMNA - NTRK1 NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27938,
+            "profileName": "NTRK1 G595R NTRK1 act mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29017,
+            "profileName": "TPM3 - NTRK1 NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30926,
+            "profileName": "TPR - NTRK1 NTRK1 G595R NTRK1 G667S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30933,
+            "profileName": "IRF2BP2 - NTRK1 NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30934,
+            "profileName": "TPM3 - NTRK1 NTRK1 F589L NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31578,
+            "profileName": "MPRIP - NTRK1 NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33512,
+            "profileName": "TPR - NTRK1 NTRK1 G595R BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33513,
+            "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12A KRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33515,
+            "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33523,
+            "profileName": "LMNA - NTRK1 NTRK1 G595R KRAS G12A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33928,
+            "profileName": "TPR - NTRK1 NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33930,
+            "profileName": "TPM3 - NTRK1 NTRK1 F589L NTRK1 G595R KRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33932,
+            "profileName": "LMNA - NTRK1 NTRK1 G595R BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 112565,
+            "transcript": "NM_002529",
+            "gDna": "chr1:g.156876550G>A",
+            "cDna": "c.1783G>A",
+            "protein": "p.G595R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

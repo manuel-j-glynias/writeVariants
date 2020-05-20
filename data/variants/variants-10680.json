@@ -1,0 +1,1156 @@
+{
+    "id": 10680,
+    "fullName": "GOPC - ROS1",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "GOPC-ROS1 (also referred to as FIG-ROS1) results from the fusion of GOPC and ROS1, and leads to constitutive Ros1 activation, cell transformation in culture, and tumorigenesis in animal models (PMID: 24218589, PMID: 24154728). GOPC-ROS1 fusion has been identified in lung cancer, cholangiocarcinoma, and glioma (PMID: 22661537, PMID: 24154728, PMID: 26648752).",
+            "references": [
+                {
+                    "id": 10937,
+                    "pubMedId": 22661537,
+                    "title": "Analysis of receptor tyrosine kinase ROS1-positive tumors in non-small cell lung cancer: identification of a FIG-ROS1 fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22661537"
+                },
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                },
+                {
+                    "id": 10936,
+                    "pubMedId": 26648752,
+                    "title": "Synergistic Effects of Crizotinib and Temozolomide in Experimental FIG-ROS1 Fusion-Positive Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26648752"
+                },
+                {
+                    "id": 10935,
+                    "pubMedId": 24154728,
+                    "title": "Mouse model of intrahepatic cholangiocarcinoma validates FIG-ROS as a potent fusion oncogene and therapeutic target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24154728"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 57120,
+        "geneSymbol": "GOPC",
+        "terms": [
+            "GOPC",
+            "CAL",
+            "dJ94G16.2",
+            "FIG",
+            "GOPC1",
+            "PIST"
+        ]
+    },
+    "variant": "GOPC - ROS1",
+    "createDate": "08/16/2015",
+    "updateDate": "03/01/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 6098,
+                "geneSymbol": "ROS1",
+                "terms": [
+                    "ROS1",
+                    "c-ros-1",
+                    "MCF3",
+                    "ROS"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15092,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3463 inhibited survival of transformed cells expressing GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 1586,
+                "therapyName": "AZD3463",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2801,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, Xalkori (crizotinib) inhibited Ros1 phosphorylation and growth of cholangiocarcinoma cells expressing GOPC-ROS1 (referred to as FIG-ROS1) in culture and in xenograft models (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15091,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zykadia (ceritinib) inhibited survival of transformed cells expressing GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15098,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lorlatinib (PF-06463922) inhibited Ros1 signaling, suppressed 3D spheroid formation of glioblastoma cells barboring GOPC-ROS1 in culture, and inhibited tumor growth, prolonged survival in cell line xenograft models (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2783,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAE684 inhibited Ros1 phosphorylation, downstream signaling and growth of transformed cells expressing GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589, PMID: 24999209).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 2386,
+                "therapyName": "TAE684",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                },
+                {
+                    "id": 3477,
+                    "pubMedId": 24999209,
+                    "title": "Lack of GOPC-ROS1 (FIG-ROS1) rearrangement in adult human gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24999209"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9240,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing GOPC-ROS1 in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15095,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited Ros1 signaling, suppressed 3D spheroid formation of glioblastoma cells barboring GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16872,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in imaging response and decreased tumor markers in a patient with ER/PR-positive, Erbbe2 (Her2)-negative breast cancer (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1317).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14988,
+                    "pubMedId": null,
+                    "title": "Exceptional responses to crizotinib in breast cancer patients with somatic MET and ROS1 alterations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13089,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GTx-186 inhibited Ros1 phosphorylation, resulted in growth inhibition of transformed cells overexpressing GOPC-ROS1 in culture and in cell line xenograft models (PMID: 24386191).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 2675,
+                "therapyName": "GTx-186",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2718,
+                    "pubMedId": 24386191,
+                    "title": "Discovery and preclinical characterization of novel small molecule TRK and ROS1 tyrosine kinase inhibitors for the treatment of cancer and inflammation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24386191"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15097,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zykadia (ceritinib) inhibited Ros1 signaling, suppressed 3D spheroid formation of glioblastoma cells barboring GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15090,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (Cabometyx, cabozantinib) inhibited survival of transformed cells expressing GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2781,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited Ros1 phosphorylation, downstream signaling and growth of transformed cells expressing GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16873,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in clinical response in a patient with ER/PR-positive, Erbbe2 (Her2)-negative breast cancer (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1317).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14988,
+                    "pubMedId": null,
+                    "title": "Exceptional responses to crizotinib in breast cancer patients with somatic MET and ROS1 alterations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15093,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lorlatinib (PF-06463922) inhibited survival of transformed cells expressing GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2782,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited Ros1 phosphorylation and downstream signaling, resulted in growth inhibition of transformed cells overexpressing GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10494,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, combined analysis of 2 Phase I trials showed Rozlytrek (entrectinib) treatment to result in a partial response in a patient with melanoma harboring GOPC-ROS1 fusion that was treatment-naive (PMID: 28183697).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8566,
+                    "pubMedId": 28183697,
+                    "title": "Safety and Antitumor Activity of the Multitargeted Pan-TRK, ROS1, and ALK Inhibitor Entrectinib: Combined Results from Two Phase I Trials (ALKA-372-001 and STARTRK-1).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28183697"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2800,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited Ros1 phosphorylation,resulted in growth inhibition in cholangiocarcinoma cell lines expressing GOPC-ROS1 (referred to as FIG-ROS1) in culture and in cell line xenograft models (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15094,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rozlytrek (entrectinib) inhibited survival of transformed cells expressing GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2784,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, G\u00f66976 inhibited Ros1 phosphorylation, downstream signaling and growth of transformed cells expressing GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589, PMID: 24999209).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 2343,
+                "therapyName": "Go6976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                },
+                {
+                    "id": 3477,
+                    "pubMedId": 24999209,
+                    "title": "Lack of GOPC-ROS1 (FIG-ROS1) rearrangement in adult human gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24999209"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15096,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (Cabometyx, cabozantinib) inhibited Ros1 signaling, suppressed 3D spheroid formation of glioblastoma cells barboring GOPC-ROS1 in culture (PMID: 30171048).",
+            "molecularProfile": {
+                "id": 10684,
+                "profileName": "GOPC - ROS1"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12493,
+                    "pubMedId": 30171048,
+                    "title": "Rare but Recurrent ROS1 Fusions Resulting From Chromosome 6q22 Microdeletions are Targetable Oncogenes in Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30171048"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2808,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 V2098I in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10696,
+                "profileName": "GOPC - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2816,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells overexpressing ROS1 V2098I in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10696,
+                "profileName": "GOPC - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2809,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 G1971E in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10698,
+                "profileName": "GOPC - ROS1 ROS1 G1971E"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2815,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 G1971E in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10698,
+                "profileName": "GOPC - ROS1 ROS1 G1971E"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2814,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 L1982F in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10699,
+                "profileName": "GOPC - ROS1 ROS1 L1982F"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2810,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 L1982F in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10699,
+                "profileName": "GOPC - ROS1 ROS1 L1982F"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2806,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 C2060G in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10701,
+                "profileName": "GOPC - ROS1 ROS1 C2060G"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2813,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 C2060G in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10701,
+                "profileName": "GOPC - ROS1 ROS1 C2060G"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2812,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 L1974R in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10703,
+                "profileName": "GOPC - ROS1 ROS1 L1947R"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2807,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 L1947R in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10703,
+                "profileName": "GOPC - ROS1 ROS1 L1947R"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2805,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 E1935G in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10704,
+                "profileName": "GOPC - ROS1 ROS1 E1935G"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2811,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 E1935G in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10704,
+                "profileName": "GOPC - ROS1 ROS1 E1935G"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10684,
+            "profileName": "GOPC - ROS1",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16891,
+                    "name": "ROS1 Inhibitor",
+                    "profileName": "GOPC - ROS1"
+                }
+            ]
+        },
+        {
+            "id": 10696,
+            "profileName": "GOPC - ROS1 ROS1 V2098I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16942,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 V2098I"
+                }
+            ]
+        },
+        {
+            "id": 10698,
+            "profileName": "GOPC - ROS1 ROS1 G1971E",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16945,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 G1971E"
+                }
+            ]
+        },
+        {
+            "id": 10699,
+            "profileName": "GOPC - ROS1 ROS1 L1982F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16943,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 L1982F"
+                }
+            ]
+        },
+        {
+            "id": 10701,
+            "profileName": "GOPC - ROS1 ROS1 C2060G",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16947,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 C2060G"
+                }
+            ]
+        },
+        {
+            "id": 10703,
+            "profileName": "GOPC - ROS1 ROS1 L1947R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16944,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 L1947R"
+                }
+            ]
+        },
+        {
+            "id": 10704,
+            "profileName": "GOPC - ROS1 ROS1 E1935G",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16946,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 E1935G"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

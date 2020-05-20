@@ -1,0 +1,216 @@
+{
+    "id": 2656,
+    "fullName": "BRCA1 dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRCA1 dec exp indicates decreased expression of the Brca1 protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 672,
+        "geneSymbol": "BRCA1",
+        "terms": [
+            "BRCA1",
+            "BRCAI",
+            "BRCC1",
+            "BROVCA1",
+            "FANCS",
+            "IRIS",
+            "PNCA4",
+            "PPP1R53",
+            "PSCP",
+            "RNF53"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "11/30/2014",
+    "updateDate": "07/30/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2878,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BRCA1 knockdown enhanced growth inhibition by Ambochlorin (chlorambucil) in triple-receptor negative breast cancer cell lines in culture (PMID: 25193512).",
+            "molecularProfile": {
+                "id": 2485,
+                "profileName": "BRCA1 dec exp"
+            },
+            "therapy": {
+                "id": 3035,
+                "therapyName": "Chlorambucil",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3461,
+                    "pubMedId": 25193512,
+                    "title": "Dual targeting of hypoxia and homologous recombination repair dysfunction in triple-negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2870,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of BRCA1 increased sensitivity of triple-negative breast cancer cells to Platinol (cisplatin) under hypoxic conditions (PMID: 25193512).",
+            "molecularProfile": {
+                "id": 2485,
+                "profileName": "BRCA1 dec exp"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3461,
+                    "pubMedId": 25193512,
+                    "title": "Dual targeting of hypoxia and homologous recombination repair dysfunction in triple-negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6148,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, decreasing Brca1 expression via shRNA knockdown sensitized triple-receptor negative breast cancer cells with low expression of Met to Rubraca (rucaparib) in culture (PMID: 26779812).",
+            "molecularProfile": {
+                "id": 22726,
+                "profileName": "BRCA1 dec exp MET dec exp"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5319,
+                    "pubMedId": 26779812,
+                    "title": "Blocking c-Met-mediated PARP1 phosphorylation enhances anti-tumor effects of PARP inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26779812"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6150,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, decreasing Brca1 expression via shRNA knockdown did not sensitize triple-receptor negative breast cancer cells with Met over expression to Rubraca (rucaparib) in culture (PMID: 26779812).",
+            "molecularProfile": {
+                "id": 22729,
+                "profileName": "BRCA1 dec exp MET over exp"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5319,
+                    "pubMedId": 26779812,
+                    "title": "Blocking c-Met-mediated PARP1 phosphorylation enhances anti-tumor effects of PARP inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26779812"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2485,
+            "profileName": "BRCA1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 2486,
+            "profileName": "BRCA1 dec exp CDK12 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10714,
+            "profileName": "BRCA1 dec exp ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22726,
+            "profileName": "BRCA1 dec exp MET dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22729,
+            "profileName": "BRCA1 dec exp MET over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29575,
+            "profileName": "BRCA1 dec exp GPBP1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

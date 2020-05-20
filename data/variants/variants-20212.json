@@ -1,0 +1,658 @@
+{
+    "id": 20212,
+    "fullName": "ALK T1151M",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ALK T1151M lies within the protein kinase domain and inhibitor binding region of the Alk protein (UniProt.org). T1151M has been demonstrated to occur as a secondary drug resistance mutation in the context of ALK fusions (PMID: 28676215, PMID: 27009859), but has not been biochemically characterized and therefore, its effect on Alk protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                },
+                {
+                    "id": 16334,
+                    "pubMedId": 28676215,
+                    "title": "Identification of a novel T1151K ALK mutation in a patient with ALK-rearranged NSCLC with prior exposure to crizotinib and ceritinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28676215"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 238,
+        "geneSymbol": "ALK",
+        "terms": [
+            "ALK",
+            "CD246",
+            "NBLST3"
+        ]
+    },
+    "variant": "T1151M",
+    "createDate": "03/26/2016",
+    "updateDate": "10/02/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 102096,
+        "transcript": "NM_004304",
+        "gDna": "chr2:g.29222407G>A",
+        "cDna": "c.3452C>T",
+        "protein": "p.T1151M",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18609,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, ALK T1151M was identified in the post-progression biopsy of a patient with lung adenocarcinoma harboring EML4-ALK after Xalkori (crizotinib) and Zykadia (ceritinib) therapies (PMID: 28676215).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16334,
+                    "pubMedId": 28676215,
+                    "title": "Identification of a novel T1151K ALK mutation in a patient with ALK-rearranged NSCLC with prior exposure to crizotinib and ceritinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28676215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18610,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, ALK T1151M was identified in the post-progression biopsy of a patient with lung adenocarcinoma harboring EML4-ALK after Xalkori (crizotinib) and Zykadia (ceritinib) therapies (PMID: 28676215).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16334,
+                    "pubMedId": 28676215,
+                    "title": "Identification of a novel T1151K ALK mutation in a patient with ALK-rearranged NSCLC with prior exposure to crizotinib and ceritinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28676215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5375,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3463 inhibited the growth of transformed cells expressing EML4-ALK with ALK T1151M in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 1586,
+                "therapyName": "AZD3463",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5374,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited the growth of transformed cells expressing EML4-ALK with ALK T1151M in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5372,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited the growth of transformed cells expressing EML4-ALK with ALK T1151M in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5373,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alecensa (alectinib) inhibited the growth of transformed cells expressing EML4-ALK with ALK T1151M in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5376,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines harboring EML4-ALK with ALK T1151M were resistant to Zykadia (ceritinib) in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5377,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines harboring EML4-ALK with ALK T1151M were resistant to ASP3026 in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20656,
+                "profileName": "EML4 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5369,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing NPM1-ALK with ALK T1151M were resistant to Alunbrig (brigatinib)-mediated growth inhibition in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5370,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing NPM1-ALK with ALK T1151M were resistant to ASP3026 mediated growth inhibition in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5371,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing NPM1-ALK with ALK T1151M were resistant to AZD3463 mediated growth inhibition in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 1586,
+                "therapyName": "AZD3463",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5366,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing NPM1-ALK with ALK T1151M were resistant to Xalkori (crizotinib) mediated growth inhibition in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5367,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing NPM1-ALK with ALK T1151M were resistant to Zykadia (ceritinib) mediated growth inhibition in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5353,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK with ALK T1151M were resistant to Zykadia (ceritinib) in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5368,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing NPM1-ALK with ALK T1151M were resistant to Alecensa (alectinib) mediated growth inhibition in culture (PMID: 27009859).",
+            "molecularProfile": {
+                "id": 20657,
+                "profileName": "NPM1 - ALK ALK T1151M"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5026,
+                    "pubMedId": 27009859,
+                    "title": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19533,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with ALK-rearranged non-small cell lung cancer progressed on treatment with Lorbrena (lorlatinib) and subsequent testing of the tumor biopsy revealed ALK G1202R and ALK F1174L whereas testing of single isolated circulating tumor cells (CTC) revealed ALK G1202R and ALK F1174C in one CTC sample and ALK G1202R and ALK T1151M in the second CTC sample (PMID: 31439588).",
+            "molecularProfile": {
+                "id": 34191,
+                "profileName": "ALK rearrange ALK G1202R ALK T1151M"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17125,
+                    "pubMedId": 31439588,
+                    "title": "Acquired Resistance Mutations to ALK Inhibitors Identified by Single Circulating Tumor Cell Sequencing in ALK-Rearranged Non-Small-Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31439588"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19799,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Lorbrena (lorlatinib) treatment resulted in disease progression after 3.7 months therapy in a patient with lung adenocarcinoma harboring EML4-ALK and ALK G1202R, at disease progression, ALK F1174L in cis wth ALK G1202R was identified in biopsies, and ALK C1156Y, G1269A, S1206F, and T1151M were identified in ctDNA (PMID: 31585938).",
+            "molecularProfile": {
+                "id": 34522,
+                "profileName": "EML4 - ALK ALK T1151M ALK C1156Y ALK F1174L ALK G1202R ALK S1206F ALK G1269A"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17546,
+                    "pubMedId": 31585938,
+                    "title": "Diverse Resistance Mechanisms to the Third-Generation ALK Inhibitor Lorlatinib in ALK-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31585938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 20655,
+            "profileName": "ALK T1151M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20656,
+            "profileName": "EML4 - ALK ALK T1151M",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16829,
+                    "name": "Crizotinib",
+                    "profileName": "EML4 - ALK ALK T1151M"
+                },
+                {
+                    "id": 16830,
+                    "name": "Brigatinib",
+                    "profileName": "EML4 - ALK ALK T1151M"
+                },
+                {
+                    "id": 16832,
+                    "name": "Alectinib",
+                    "profileName": "EML4 - ALK ALK T1151M"
+                },
+                {
+                    "id": 16831,
+                    "name": "AZD3463",
+                    "profileName": "EML4 - ALK ALK T1151M"
+                }
+            ]
+        },
+        {
+            "id": 20657,
+            "profileName": "NPM1 - ALK ALK T1151M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34191,
+            "profileName": "ALK rearrange ALK G1202R ALK T1151M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34522,
+            "profileName": "EML4 - ALK ALK T1151M ALK C1156Y ALK F1174L ALK G1202R ALK S1206F ALK G1269A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102096,
+            "transcript": "NM_004304",
+            "gDna": "chr2:g.29222407G>A",
+            "cDna": "c.3452C>T",
+            "protein": "p.T1151M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

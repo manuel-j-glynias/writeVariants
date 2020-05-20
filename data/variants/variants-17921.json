@@ -1,0 +1,205 @@
+{
+    "id": 17921,
+    "fullName": "NRAS E63K",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS E63K does not lie within any known functional domains of the Nras protein (UniProt.org). E63K confers a loss of function on Nras protein as demonstrated by increased GTP-bound Nras leading to activation of downstream signaling, and is associated with resistance to Egfr inhibitors in culture (PMID: 25870145).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 4580,
+                    "pubMedId": 25870145,
+                    "title": "Acquired Resistance to the Mutant-Selective EGFR Inhibitor AZD9291 Is Associated with Increased Dependence on RAS Signaling in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25870145"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "E63K",
+    "createDate": "02/13/2016",
+    "updateDate": "09/20/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162429,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114713903C>T",
+        "cDna": "c.187G>A",
+        "protein": "p.E63K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4477,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring EGFR exon 19 deletion became resistant to Iressa (gefitinib) after the emergence of NRAS E63K in culture (PMID: 25870145).",
+            "molecularProfile": {
+                "id": 18231,
+                "profileName": "EGFR exon 19 del NRAS E63K"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4580,
+                    "pubMedId": 25870145,
+                    "title": "Acquired Resistance to the Mutant-Selective EGFR Inhibitor AZD9291 Is Associated with Increased Dependence on RAS Signaling in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25870145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4478,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring EGFR exon 19 deletion and NRAS E63K were resistant to Tagrisso (osimertinib) AZD9291 treatment in culture (PMID: 25870145).",
+            "molecularProfile": {
+                "id": 18231,
+                "profileName": "EGFR exon 19 del NRAS E63K"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4580,
+                    "pubMedId": 25870145,
+                    "title": "Acquired Resistance to the Mutant-Selective EGFR Inhibitor AZD9291 Is Associated with Increased Dependence on RAS Signaling in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25870145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4476,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib inhibited proliferation of non-small cell lung cancer cells harboring EGFR exon 19 deletion and NRAS E63K in culture (PMID: 25870145).",
+            "molecularProfile": {
+                "id": 18231,
+                "profileName": "EGFR exon 19 del NRAS E63K"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4580,
+                    "pubMedId": 25870145,
+                    "title": "Acquired Resistance to the Mutant-Selective EGFR Inhibitor AZD9291 Is Associated with Increased Dependence on RAS Signaling in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25870145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 18230,
+            "profileName": "NRAS E63K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16519,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS E63K"
+                },
+                {
+                    "id": 16518,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS E63K"
+                },
+                {
+                    "id": 16520,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS E63K"
+                },
+                {
+                    "id": 16521,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS E63K"
+                },
+                {
+                    "id": 16517,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS E63K"
+                },
+                {
+                    "id": 16522,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS E63K"
+                }
+            ]
+        },
+        {
+            "id": 18231,
+            "profileName": "EGFR exon 19 del NRAS E63K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162429,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114713903C>T",
+            "cDna": "c.187G>A",
+            "protein": "p.E63K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

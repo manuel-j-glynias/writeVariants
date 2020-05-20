@@ -1,0 +1,182 @@
+{
+    "id": 18606,
+    "fullName": "RIT1 M90I",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "RIT1 M90I lies within the switch II domain of the Rit1 protein (PMID: 24469055). M90I is predicted to lead to a loss of Rit1 GTPase activity as indicated by increased GTP-bound Rit1 (PMID: 30872527), leading to enhanced Elk1 transactivation (PMID: 26714497), increased Erk and Akt phosphorylation, transformation of cultured cells, and tumorigenesis in mouse models (PMID: 30872527, PMID: 24469055).",
+            "references": [
+                {
+                    "id": 4469,
+                    "pubMedId": 24469055,
+                    "title": "Oncogenic RIT1 mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24469055"
+                },
+                {
+                    "id": 4840,
+                    "pubMedId": 26714497,
+                    "title": "Spectrum of mutations and genotype-phenotype analysis in Noonan syndrome patients with RIT1 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26714497"
+                },
+                {
+                    "id": 14982,
+                    "pubMedId": 30872527,
+                    "title": "RIT1 oncoproteins escape LZTR1-mediated proteolysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30872527"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6016,
+        "geneSymbol": "RIT1",
+        "terms": [
+            "RIT1",
+            "NS8",
+            "RIBB",
+            "RIT",
+            "ROC1"
+        ]
+    },
+    "variant": "M90I",
+    "createDate": "02/24/2016",
+    "updateDate": "03/08/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 161618,
+        "transcript": "NM_006912",
+        "gDna": "chr1:g.155904470C>G",
+        "cDna": "c.270G>C",
+        "protein": "p.M90I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4747,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD-6244) inhibited transformation of cells expressing RIT1 M90I in culture (PMID: 24469055).",
+            "molecularProfile": {
+                "id": 18958,
+                "profileName": "RIT1 M90I"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4469,
+                    "pubMedId": 24469055,
+                    "title": "Oncogenic RIT1 mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24469055"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4745,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pictilisib (GDC-0941) inhibited transformation of cells expressing RIT1 M90I in culture (PMID: 24469055).",
+            "molecularProfile": {
+                "id": 18958,
+                "profileName": "RIT1 M90I"
+            },
+            "therapy": {
+                "id": 749,
+                "therapyName": "Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4469,
+                    "pubMedId": 24469055,
+                    "title": "Oncogenic RIT1 mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24469055"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4744,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pictilisib (GDC-0941) inhibited tumor growth in a non-small cell lung cancer cell line xenograft model harboring RIT1 M90I (PMID: 24469055).",
+            "molecularProfile": {
+                "id": 18958,
+                "profileName": "RIT1 M90I"
+            },
+            "therapy": {
+                "id": 749,
+                "therapyName": "Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4469,
+                    "pubMedId": 24469055,
+                    "title": "Oncogenic RIT1 mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24469055"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 18958,
+            "profileName": "RIT1 M90I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7889,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "RIT1 M90I"
+                },
+                {
+                    "id": 7890,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "RIT1 M90I"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 161618,
+            "transcript": "NM_006912",
+            "gDna": "chr1:g.155904470C>G",
+            "cDna": "c.270G>C",
+            "protein": "p.M90I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

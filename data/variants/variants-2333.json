@@ -1,0 +1,389 @@
+{
+    "id": 2333,
+    "fullName": "BTK C481S",
+    "impact": "missense",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "BTK C481S lies within the protein kinase domain of the Btk protein (UniProt.org). C481S demonstrates kinase activity similar to wild-type Btk, but confers Imbruvica (ibrutinib) resistance in cell culture (PMID: 27282255, PMID: 28573668) through interference of drug binding (PMID: 25189416, PMID: 23940282).",
+            "references": [
+                {
+                    "id": 946,
+                    "pubMedId": 23940282,
+                    "title": "Egress of CD19(+)CD5(+) cells into peripheral blood following treatment with the Bruton tyrosine kinase inhibitor ibrutinib in mantle cell lymphoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23940282"
+                },
+                {
+                    "id": 11538,
+                    "pubMedId": 28573668,
+                    "title": "Establishing a chemical genetic link between Bruton tyrosine kinase activity in malignant B cells and cell functions involved in the micro-environmental dialogue.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28573668"
+                },
+                {
+                    "id": 7678,
+                    "pubMedId": 27282255,
+                    "title": "Substitution scanning identifies a novel, catalytically active ibrutinib-resistant BTK cysteine 481 to threonine (C481T) variant.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27282255"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 945,
+                    "pubMedId": 25189416,
+                    "title": "Functional characterization of BTK(C481S) mutation that confers ibrutinib resistance: exploration of alternative kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25189416"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 695,
+        "geneSymbol": "BTK",
+        "terms": [
+            "BTK",
+            "AGMX1",
+            "AT",
+            "ATK",
+            "BPK",
+            "IGHD3",
+            "IMD1",
+            "PSCTK1",
+            "XLA"
+        ]
+    },
+    "variant": "C481S",
+    "createDate": "10/20/2014",
+    "updateDate": "06/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 143934,
+        "transcript": "NM_000061",
+        "gDna": "chrX:g.101356177A>T",
+        "cDna": "c.1441T>A",
+        "protein": "p.C481S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18747,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lymphoma cells expressing BTK C481S were resistant to Imbruvica (ibrutinib) in culture (PMID: 27626698)",
+            "molecularProfile": {
+                "id": 2309,
+                "profileName": "BTK C481S"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7677,
+                    "pubMedId": 27626698,
+                    "title": "Identification of a structurally novel BTK mutation that drives ibrutinib resistance in CLL.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27626698"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9922,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, hematological cancer cell lines that are dependent on Btk signaling demonstrated sensitivity to RXC005 in culture (Blood 2016 128:4399).",
+            "molecularProfile": {
+                "id": 2309,
+                "profileName": "BTK C481S"
+            },
+            "therapy": {
+                "id": 5298,
+                "therapyName": "RXC005",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7759,
+                    "pubMedId": null,
+                    "title": "REDX08608, a Novel, Potent and Selective, Reversible BTK Inhibitor with Efficacy and Equivalent Potency Against Wild-Type and Mutant C481S BTK",
+                    "url": "http://www.bloodjournal.org/content/128/22/4399?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9771,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ARQ 531 treatment inhibited activation of BCR signaling, and induced cytotoxicity in Imbruvica (ibrutinib)-resistant patient-derived chronic lymphocytic leukemia cells harboring BTK C481S in culture (PMID: 30093506).",
+            "molecularProfile": {
+                "id": 2309,
+                "profileName": "BTK C481S"
+            },
+            "therapy": {
+                "id": 5224,
+                "therapyName": "ARQ 531",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18173,
+                    "pubMedId": 30093506,
+                    "title": "The BTK Inhibitor ARQ 531 Targets Ibrutinib-Resistant CLL and Richter Transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093506"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12250,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, BTK C418S was identified as an acquired mutation that confers resistance to Imbruvica (ibrutinib) in two patients with mantle cell lymphoma who relapsed after a durable response (PMID: 25082755).",
+            "molecularProfile": {
+                "id": 2309,
+                "profileName": "BTK C481S"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50746,
+                "name": "mantle cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10210,
+                    "pubMedId": 25082755,
+                    "title": "Cell-cycle reprogramming for PI3K inhibition overrides a relapse-specific C481S BTK mutation revealed by longitudinal functional genomics in mantle cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25082755"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11431,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a diffuse large B-cell lymphoma cell line expressing BTK C481S resulting in Imbruvica (ibrutinib) resistance demonstrated increased sensitivity to Imbruvica (ibrutinib) when also treated with Venclexta (venetoclax), demonstrating decreased cell growth in culture (PMID: 28428442).",
+            "molecularProfile": {
+                "id": 2309,
+                "profileName": "BTK C481S"
+            },
+            "therapy": {
+                "id": 3392,
+                "therapyName": "Ibrutinib + Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9292,
+                    "pubMedId": 28428442,
+                    "title": "Combination of Ibrutinib and ABT-199 in Diffuse Large B-Cell Lymphoma and Follicular Lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28428442"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21003,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, primary chronic lymphocytic leukemia cells derived from patients who acquired BTK C481S following Imbruvica (ibrutinib) treatment demonstrated resistance in culture (PMID: 30093506).",
+            "molecularProfile": {
+                "id": 2309,
+                "profileName": "BTK C481S"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18173,
+                    "pubMedId": 30093506,
+                    "title": "The BTK Inhibitor ARQ 531 Targets Ibrutinib-Resistant CLL and Richter Transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093506"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1228,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, BTK C418S was identified as an acquired mutation that confers resistance to Imbruvica by preventing irreversible binding of ibrutinib to BTK in patients with chronic lymphocytic leukemia who relapsed while on Imbruvica (ibrutinib)(PMID: 24869598).",
+            "molecularProfile": {
+                "id": 2309,
+                "profileName": "BTK C481S"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 964,
+                    "pubMedId": 24869598,
+                    "title": "Resistance mechanisms for the Bruton's tyrosine kinase inhibitor ibrutinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24869598"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11550,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with Waldenstr\u00f6m macroglobulinemia, a form of non-Hodgkin lymphoma, harboring BTK C481R, BTK C481S, CXCR4 mutant, and MYD88 L265P, demonstrated resistance to treatment with Imbruvica (ibrutinib) (PMID: 28235842).",
+            "molecularProfile": {
+                "id": 28134,
+                "profileName": "BTK C481R BTK C481S CXCR4 mut MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9635,
+                    "pubMedId": 28235842,
+                    "title": "Acquired mutations associated with ibrutinib resistance in Waldenstr\u00f6m macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28235842"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11551,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with Waldenstr\u00f6m macroglobulinemia, a form of non-Hodgkin lymphoma, harboring BTK C481R, BTK C481S, CARD11 L878F, and MYD88 L265P, demonstrated resistance to treatment with Imbruvica (ibrutinib) (PMID: 28235842).",
+            "molecularProfile": {
+                "id": 28138,
+                "profileName": "BTK C481R BTK C481S CARD11 L878F MYD88 L265P"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60060,
+                "name": "non-Hodgkin lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9635,
+                    "pubMedId": 28235842,
+                    "title": "Acquired mutations associated with ibrutinib resistance in Waldenstr\u00f6m macroglobulinemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28235842"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2309,
+            "profileName": "BTK C481S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28134,
+            "profileName": "BTK C481R BTK C481S CXCR4 mut MYD88 L265P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28138,
+            "profileName": "BTK C481R BTK C481S CARD11 L878F MYD88 L265P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 143934,
+            "transcript": "NM_000061",
+            "gDna": "chrX:g.101356177A>T",
+            "cDna": "c.1441T>A",
+            "protein": "p.C481S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

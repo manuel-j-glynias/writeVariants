@@ -1,0 +1,275 @@
+{
+    "id": 13000,
+    "fullName": "PIK3CA E545X",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA E545X indicates any Pik3ca missense mutation which results in the glutamic acid (E) at amino acid 545 being replaced by a different amino acid. PIK3CA E545X mutations are \"hotspot\" mutations resulting in increased Pik3ca kinase activity (PMID: 15930273).",
+            "references": [
+                {
+                    "id": 2212,
+                    "pubMedId": 15930273,
+                    "title": "Functional analysis of PIK3CA gene mutations in human colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15930273"
+                }
+            ]
+        }
+    ],
+    "type": "category",
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "E545X",
+    "createDate": "10/08/2015",
+    "updateDate": "11/05/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 171759,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179218303_179218305",
+        "cDna": "c.1633_1635",
+        "protein": "p.E545",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20211,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in progressive disease in a patient with endometrioid adenocarcinoma harboring a PIK3CA E545 mutation, and progressive disease in a patient with serous endometrial adenocarcinoma harboring a PIK3CA E545 mutation (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 13162,
+                "profileName": "PIK3CA E545X"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3312,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, two colorectal cancer patients harboring both a PIK3CA E545 and KRAS G12 mutation demonstrated stable disease when treated with Torisel (temsirolimus) (PMID: 21216929).",
+            "molecularProfile": {
+                "id": 13163,
+                "profileName": "KRAS G12X PIK3CA E545X"
+            },
+            "therapy": {
+                "id": 936,
+                "therapyName": "Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3726,
+                    "pubMedId": 21216929,
+                    "title": "PIK3CA mutations in patients with advanced cancers treated with PI3K/AKT/mTOR axis inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21216929"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18719,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the presence of PIK3CA activating mutations including E542X, E545X, and H1047X correlated with shorter progression-free survival (2.66 months) compared to PIK3CA wild-type or other mutations (4.24 month, HR=1.68, p=0.033) in patients with metastatic Erbb2 (Her2)-positive (amplification or overexpression) breast cancer treated with Poziotinib (HM781-36B) (PMID: 30720867, NCT02418689).",
+            "molecularProfile": {
+                "id": 33518,
+                "profileName": "ERBB2 over exp PIK3CA E545X"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16399,
+                    "pubMedId": 30720867,
+                    "title": "Molecular alterations and poziotinib efficacy, a pan-HER inhibitor, in human epidermal growth factor receptor 2 (HER2)-positive breast cancers: Combined exploratory biomarker analysis from a phase II clinical trial of poziotinib for refractory HER2-positive breast cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30720867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18720,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the presence of PIK3CA activating mutations including E542X, E545X, and H1047X correlated with shorter progression-free survival (2.66 months) compared to PIK3CA wild-type or other mutations (4.24 month, HR=1.68, p=0.033) in patients with metastatic Erbb2 (Her2)-positive (amplification or overexpression) breast cancer treated with Poziotinib (HM781-36B) (PMID: 30720867, NCT02418689).",
+            "molecularProfile": {
+                "id": 33525,
+                "profileName": "ERBB2 amp PIK3CA E545X"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16399,
+                    "pubMedId": 30720867,
+                    "title": "Molecular alterations and poziotinib efficacy, a pan-HER inhibitor, in human epidermal growth factor receptor 2 (HER2)-positive breast cancers: Combined exploratory biomarker analysis from a phase II clinical trial of poziotinib for refractory HER2-positive breast cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30720867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 13162,
+            "profileName": "PIK3CA E545X",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17374,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA E545X"
+                },
+                {
+                    "id": 17371,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA E545X"
+                },
+                {
+                    "id": 17372,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA E545X"
+                },
+                {
+                    "id": 17369,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA E545X"
+                },
+                {
+                    "id": 17367,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA E545X"
+                },
+                {
+                    "id": 17370,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA E545X"
+                },
+                {
+                    "id": 17373,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA E545X"
+                },
+                {
+                    "id": 17368,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA E545X"
+                }
+            ]
+        },
+        {
+            "id": 13163,
+            "profileName": "KRAS G12X PIK3CA E545X",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33518,
+            "profileName": "ERBB2 over exp PIK3CA E545X",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33525,
+            "profileName": "ERBB2 amp PIK3CA E545X",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171758,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179218303_179218305",
+            "cDna": "c.1633_1635",
+            "protein": "p.E545",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171760,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179218303_179218305",
+            "cDna": "c.1633_1635",
+            "protein": "p.E545",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171759,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179218303_179218305",
+            "cDna": "c.1633_1635",
+            "protein": "p.E545",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

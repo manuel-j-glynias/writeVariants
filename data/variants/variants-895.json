@@ -1,0 +1,266 @@
+{
+    "id": 895,
+    "fullName": "BRAF D594N",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF D594N lies within the protein kinase domain of the Braf protein (UniProt.org). D594N results in impaired Braf kinase activity, but leads to activation of Erk signaling through CRAF in cell culture (PMID: 28783719), and demonstrates decreased transforming ability compared to wild-type Braf in one of two cell lines in culture (PMID: 29533785), and therefore is predicted to confer a loss of function to the Braf protein.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "D594N",
+    "createDate": "07/07/2014",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109072,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753355C>T",
+        "cDna": "c.1780G>A",
+        "protein": "p.D594N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15998,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 treatment resulted in decreased Erk phosphorylation and dose-dependent tumor growth inhibition in patient-derived xenograft (PDX) models of non-small cell lung cancer harboring BRAF D594N (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 987,
+                "profileName": "BRAF D594N"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11666,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not reduce activation of Mek in transformed cells expressing BRAF D594N in culture (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 987,
+                "profileName": "BRAF D594N"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11662,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Mekinist (trametinib) and Capmatinib (INC280) induced tumor regression in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 6103,
+                "therapyName": "Capmatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11661,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Mekinist (trametinib) inhibited tumor growth and reduced ERK signaling in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11660,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Capmatinib (INC280) inhibited tumor growth and reduced ERK signaling in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 987,
+            "profileName": "BRAF D594N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14738,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF D594N"
+                },
+                {
+                    "id": 14737,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF D594N"
+                },
+                {
+                    "id": 14736,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF D594N"
+                }
+            ]
+        },
+        {
+            "id": 28180,
+            "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109072,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753355C>T",
+            "cDna": "c.1780G>A",
+            "protein": "p.D594N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109071,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753355C>T",
+            "cDna": "c.1780G>A",
+            "protein": "p.D594N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

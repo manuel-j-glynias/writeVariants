@@ -1,0 +1,612 @@
+{
+    "id": 10261,
+    "fullName": "AGK - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "AGK-BRAF results from the fusion of AGK and BRAF, demonstrates constitutive activation of the Mapk signaling pathway, and is transforming in cultured cells (PMID: 24135138, PMID: 30254212). AGK-BRAF has been identified in pediatric thyroid cancer (PMID: 24135138), glioma (PMID: 26314551), and melanoma (PMID: 30254212).",
+            "references": [
+                {
+                    "id": 5129,
+                    "pubMedId": 26314551,
+                    "title": "The distribution of BRAF gene fusions in solid tumors and response to targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26314551"
+                },
+                {
+                    "id": 12368,
+                    "pubMedId": 30254212,
+                    "title": "BRAF fusions identified in melanomas have variable treatment responses and phenotypes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30254212"
+                },
+                {
+                    "id": 3412,
+                    "pubMedId": 24135138,
+                    "title": "Identification of kinase fusion oncogenes in post-Chernobyl radiation-induced thyroid cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24135138"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 55750,
+        "geneSymbol": "AGK",
+        "terms": [
+            "AGK",
+            "CATC5",
+            "CTRCT38",
+            "MTDPS10",
+            "MULK"
+        ]
+    },
+    "variant": "AGK - BRAF",
+    "createDate": "08/06/2015",
+    "updateDate": "10/18/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15100,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma patient-derived xenograft (PDX) model harboring AGK-BRAF showed a response when treated with Mekinist (trametinib), as demonstrated by decreased tumor volume (PMID: 30254212).",
+            "molecularProfile": {
+                "id": 10262,
+                "profileName": "AGK - BRAF"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12368,
+                    "pubMedId": 30254212,
+                    "title": "BRAF fusions identified in melanomas have variable treatment responses and phenotypes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30254212"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2821,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited downstream signaling and growth of a human melanoma cell line harboring AGK-BRAF in culture (PMID: 23890088).",
+            "molecularProfile": {
+                "id": 10262,
+                "profileName": "AGK - BRAF"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3413,
+                    "pubMedId": 23890088,
+                    "title": "Recurrent BRAF kinase fusions in melanocytic tumors offer an opportunity for targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23890088"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2822,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cells harboring AGK-BRAF were resistant to Zelboraf (vemurafenib)-mediated growth inhibition in culture (PMID: 23890088).",
+            "molecularProfile": {
+                "id": 10262,
+                "profileName": "AGK - BRAF"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3413,
+                    "pubMedId": 23890088,
+                    "title": "Recurrent BRAF kinase fusions in melanocytic tumors offer an opportunity for targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23890088"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15099,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma patient-derived xenograft (PDX) model harboring AGK-BRAF showed no response when treated with Zelboraf (vemurafenib), as demonstrated by a lack of decreased tumor volume (PMID: 30254212).",
+            "molecularProfile": {
+                "id": 10262,
+                "profileName": "AGK - BRAF"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12368,
+                    "pubMedId": 30254212,
+                    "title": "BRAF fusions identified in melanomas have variable treatment responses and phenotypes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30254212"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15101,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma patient-derived xenograft (PDX) model harboring AGK-BRAF showed response when treated with SCH772984, as demonstrated by decreased tumor volume (PMID: 30254212).",
+            "molecularProfile": {
+                "id": 10262,
+                "profileName": "AGK - BRAF"
+            },
+            "therapy": {
+                "id": 2618,
+                "therapyName": "SCH772984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12368,
+                    "pubMedId": 30254212,
+                    "title": "BRAF fusions identified in melanomas have variable treatment responses and phenotypes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30254212"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15117,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, AGK-BRAF was identified as an acquired resistance mutation in a patient with non-small cell lung cancer harboring EGFR L747_T751delinsP, whose disease progressed after initial response to Tarceva (erlotinib) followed by Tagrisso (osimertinib) (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30761,
+                "profileName": "AGK - BRAF EGFR L747_T751delinsP"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19692,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, introduction of an AGK-BRAF fusion in lung cancer cell lines harboring an EGFR exon 19 deletion conferred resistance to Tagrisso (osimertinib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 31251,
+                "profileName": "AGK - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15836,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion developed resistance to Tagrisso (osimertinib) treatment and was found to have gained an AGK-BRAF fusion (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31251,
+                "profileName": "AGK - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19714,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with LY3009120 inhibited growth and resulted in increased apoptotic signaling in a lung cancer cell line harboring an EGFR exon 19 deletion and expressing an AGK-BRAF fusion in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 31251,
+                "profileName": "AGK - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19695,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung cancer cell lines harboring an EGFR exon 19 deletion and expressing an AGK-BRAF fusion were resistant to growth inhibition by Tafinlar (dabrafenib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 31251,
+                "profileName": "AGK - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19696,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer cell line harboring an EGFR exon 19 deletion and expressing an AGK-BRAF fusion was resistant to growth inhibition by Zelboraf (vemurafenib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 31251,
+                "profileName": "AGK - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19689,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lung adenocarcinoma patient harboring an EGFR exon 19 deletion demonstrated progression in the mediastinal lymph nodes after 1.5 years of treatment with Tarceva (erlotinib) and was found to have an acquired AGK-BRAF fusion (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 31251,
+                "profileName": "AGK - BRAF EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19690,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic lung adencarcinoma harboring an EGFR exon 19 deletion and EGFR T790M progressed after 9.5 months of Tagrisso (osimertinib) therapy, and was found to have acquired an AGK-BRAF fusion (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34422,
+                "profileName": "AGK - BRAF EGFR exon 19 del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19691,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, introduction of an AGK-BRAF fusion in a lung cancer cell line harboring EGFR L858R and EGFR T790M conferred resistance to Tagrisso (osimertinib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34426,
+                "profileName": "AGK - BRAF EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19693,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer cell line harboring EGFR L858R and T790M and expressing an AGK-BRAF fusion was resistant to growth inhibition by Zelboraf (vemurafenib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34426,
+                "profileName": "AGK - BRAF EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19694,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer cell line harboring EGFR L858R and T790M and expressing an AGK-BRAF fusion was resistant to growth inhibition by Tafinlar (dabrafenib) in culture (PMID: 30831205).",
+            "molecularProfile": {
+                "id": 34426,
+                "profileName": "AGK - BRAF EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17475,
+                    "pubMedId": 30831205,
+                    "title": "Acquired BRAF Rearrangements Induce Secondary Resistance to EGFR therapy in EGFR-Mutated Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30831205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10262,
+            "profileName": "AGK - BRAF",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6371,
+                    "name": "Sorafenib",
+                    "profileName": "AGK - BRAF"
+                }
+            ]
+        },
+        {
+            "id": 30761,
+            "profileName": "AGK - BRAF EGFR L747_T751delinsP",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31251,
+            "profileName": "AGK - BRAF EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34422,
+            "profileName": "AGK - BRAF EGFR exon 19 del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34423,
+            "profileName": "AGK - BRAF EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34426,
+            "profileName": "AGK - BRAF EGFR T790M EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

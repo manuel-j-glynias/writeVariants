@@ -1,0 +1,245 @@
+{
+    "id": 1865,
+    "fullName": "BTK C481F",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BTK C481F lies within the protein kinase domain of the Btk protein (UniProt.org). C481F confers a loss of function on the Btk protein as demonstrated by loss of autophosphorylation and C481F interferes with drug binding, which leads to ibrutinib resistance (PMID: 25189416, PMID: 28178345, PMID: 27282255).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 945,
+                    "pubMedId": 25189416,
+                    "title": "Functional characterization of BTK(C481S) mutation that confers ibrutinib resistance: exploration of alternative kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25189416"
+                },
+                {
+                    "id": 7678,
+                    "pubMedId": 27282255,
+                    "title": "Substitution scanning identifies a novel, catalytically active ibrutinib-resistant BTK cysteine 481 to threonine (C481T) variant.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27282255"
+                },
+                {
+                    "id": 9819,
+                    "pubMedId": 28178345,
+                    "title": "PI3K\u03b4 inhibitor idelalisib in combination with BTK inhibitor ONO/GS-4059 in diffuse large B cell lymphoma with acquired resistance to PI3K\u03b4 and BTK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28178345"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 695,
+        "geneSymbol": "BTK",
+        "terms": [
+            "BTK",
+            "AGMX1",
+            "AT",
+            "ATK",
+            "BPK",
+            "IGHD3",
+            "IMD1",
+            "PSCTK1",
+            "XLA"
+        ]
+    },
+    "variant": "C481F",
+    "createDate": "09/23/2014",
+    "updateDate": "06/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 143932,
+        "transcript": "NM_000061",
+        "gDna": "chrX:g.101356176C>A",
+        "cDna": "c.1442G>T",
+        "protein": "p.C481F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1300,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patients with BTK C481 were predicted to have resistance to Imbruvica (ibrutinib) since C481 is in the covalent binding site of the BTK inhibitor and C481F interferes with drug binding (PMID: 24869597).",
+            "molecularProfile": {
+                "id": 1835,
+                "profileName": "BTK C481F"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 948,
+                    "pubMedId": 24869597,
+                    "title": "Ibrutinib resistance in chronic lymphocytic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24869597"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11872,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, diffuse large B-cell lymphoma cells that acquired resistance to Imbruvica (ibrutinib) harbored the BTK C481F mutation, and was resistant to ONO-4059 in culture (PMID: 28178345).",
+            "molecularProfile": {
+                "id": 1835,
+                "profileName": "BTK C481F"
+            },
+            "therapy": {
+                "id": 2691,
+                "therapyName": "ONO-4059",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9819,
+                    "pubMedId": 28178345,
+                    "title": "PI3K\u03b4 inhibitor idelalisib in combination with BTK inhibitor ONO/GS-4059 in diffuse large B cell lymphoma with acquired resistance to PI3K\u03b4 and BTK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28178345"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11878,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, diffuse large B-cell lymphoma cells that acquired resistance to Imbruvica (ibrutinib) harbored the BTK C481F mutation, and was resistant to Zydelig (idelalisib) and ONO-4059 combination treatment in culture (PMID: 28178345).",
+            "molecularProfile": {
+                "id": 1835,
+                "profileName": "BTK C481F"
+            },
+            "therapy": {
+                "id": 6199,
+                "therapyName": "Idelalisib + ONO-4059",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9819,
+                    "pubMedId": 28178345,
+                    "title": "PI3K\u03b4 inhibitor idelalisib in combination with BTK inhibitor ONO/GS-4059 in diffuse large B cell lymphoma with acquired resistance to PI3K\u03b4 and BTK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28178345"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11870,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the BTK C481F mutation was identified in diffuse large B-cell lymphoma cells that acquired resistance to Imbruvica (ibrutinib) in culture (PMID: 28178345).",
+            "molecularProfile": {
+                "id": 1835,
+                "profileName": "BTK C481F"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9819,
+                    "pubMedId": 28178345,
+                    "title": "PI3K\u03b4 inhibitor idelalisib in combination with BTK inhibitor ONO/GS-4059 in diffuse large B cell lymphoma with acquired resistance to PI3K\u03b4 and BTK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28178345"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11876,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, diffuse large B-cell lymphoma cells that acquired resistance to Imbruvica (ibrutinib) harbored the BTK C481F mutation, and was resistant to Zydelig (idelalisib) in culture (PMID: 28178345).",
+            "molecularProfile": {
+                "id": 1835,
+                "profileName": "BTK C481F"
+            },
+            "therapy": {
+                "id": 1023,
+                "therapyName": "Idelalisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9819,
+                    "pubMedId": 28178345,
+                    "title": "PI3K\u03b4 inhibitor idelalisib in combination with BTK inhibitor ONO/GS-4059 in diffuse large B cell lymphoma with acquired resistance to PI3K\u03b4 and BTK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28178345"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1835,
+            "profileName": "BTK C481F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 143932,
+            "transcript": "NM_000061",
+            "gDna": "chrX:g.101356176C>A",
+            "cDna": "c.1442G>T",
+            "protein": "p.C481F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

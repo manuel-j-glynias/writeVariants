@@ -1,0 +1,155 @@
+{
+    "id": 20476,
+    "fullName": "ALK L1196Q",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "ALK L1196Q lies within the protein kinase domain of the Alk protein (UniProt.org). L1196Q is predicted to confer a gain of function on the Alk protein as indicated by increased phosphorylation of Alk (PMID: 25749034) and has been demonstrated to confer resistance to Alk inhibitors in the context of NPM1-ALK in culture (PMID: 25749034, PMID: 23239810).",
+            "references": [
+                {
+                    "id": 1807,
+                    "pubMedId": 23239810,
+                    "title": "Crizotinib-resistant NPM-ALK mutants confer differential sensitivity to unrelated Alk inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23239810"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 238,
+        "geneSymbol": "ALK",
+        "terms": [
+            "ALK",
+            "CD246",
+            "NBLST3"
+        ]
+    },
+    "variant": "L1196Q",
+    "createDate": "03/29/2016",
+    "updateDate": "09/06/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 102060,
+        "transcript": "NM_004304",
+        "gDna": "chr2:g.29220764A>T",
+        "cDna": "c.3587T>A",
+        "protein": "p.L1196Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5504,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human anaplastic large cell lymphoma cell lines harboring NPM1-ALK containing ALK L1196Q were resistant to Xalkori (crizotinib) in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20952,
+                "profileName": "NPM1 - ALK ALK L1196Q"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5503,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ASP3026 inhibited growth of human anaplastic large cell lymphoma cell lines harboring NPM1-ALK containing the crizotinib-resistant mutation ALK L1196Q in culture (PMID: 25749034).",
+            "molecularProfile": {
+                "id": 20952,
+                "profileName": "NPM1 - ALK ALK L1196Q"
+            },
+            "therapy": {
+                "id": 643,
+                "therapyName": "ASP3026",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50744,
+                "name": "anaplastic large cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5029,
+                    "pubMedId": 25749034,
+                    "title": "NPM/ALK mutants resistant to ASP3026 display variable sensitivity to alternative ALK inhibitors but succumb to the novel compound PF-06463922.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 20951,
+            "profileName": "ALK L1196Q",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 8521,
+                    "name": "ALK Inhibitor",
+                    "profileName": "ALK L1196Q"
+                }
+            ]
+        },
+        {
+            "id": 20952,
+            "profileName": "NPM1 - ALK ALK L1196Q",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16859,
+                    "name": "ASP3026",
+                    "profileName": "NPM1 - ALK ALK L1196Q"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102060,
+            "transcript": "NM_004304",
+            "gDna": "chr2:g.29220764A>T",
+            "cDna": "c.3587T>A",
+            "protein": "p.L1196Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "id": 1888,
+    "fullName": "NTRK1 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "NTRK1 over exp indicates an over expression of the Ntrk1 protein and/or mRNA. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 4914,
+        "geneSymbol": "NTRK1",
+        "terms": [
+            "NTRK1",
+            "MTC",
+            "p140-TrkA",
+            "TRK",
+            "Trk-A",
+            "TRK1",
+            "TRKA"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "09/25/2014",
+    "updateDate": "08/01/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13086,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GTx-186 inhibited Erk signaling, resulted in growth inhibition of neuroblastoma cells overexpressing Ntrk1 in culture and in cell line xenograft models (PMID: 24386191).",
+            "molecularProfile": {
+                "id": 1855,
+                "profileName": "NTRK1 over exp"
+            },
+            "therapy": {
+                "id": 2675,
+                "therapyName": "GTx-186",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2718,
+                    "pubMedId": 24386191,
+                    "title": "Discovery and preclinical characterization of novel small molecule TRK and ROS1 tyrosine kinase inhibitors for the treatment of cancer and inflammation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24386191"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1092,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GW441756, a TrkA inhibitor, blocked tyrosine phosphorylation of ERK and JNK induced by TrkA over expression in neuroblastoma cells (PMID: 23319303).",
+            "molecularProfile": {
+                "id": 1855,
+                "profileName": "NTRK1 over exp"
+            },
+            "therapy": {
+                "id": 1533,
+                "therapyName": "GW441756",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 824,
+                    "pubMedId": 23319303,
+                    "title": "Proteomic analysis of novel targets associated with TrkA-mediated tyrosine phosphorylation signaling pathways in SK-N-MC neuroblastoma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23319303"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1855,
+            "profileName": "NTRK1 over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4530,
+                    "name": "TrkA Receptor Inhibitor",
+                    "profileName": "NTRK1 over exp"
+                },
+                {
+                    "id": 4531,
+                    "name": "Trk Receptor Inhibitor (Pan)",
+                    "profileName": "NTRK1 over exp"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

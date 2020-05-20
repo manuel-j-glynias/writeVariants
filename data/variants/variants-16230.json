@@ -1,0 +1,142 @@
+{
+    "id": 16230,
+    "fullName": "LYN D189Y",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "LYN D189Y lies within the SH2 domain of the Lyn protein (UniProt.com). D189Y results in increased Lyn kinase activity and increased phosphorylation of downstream targets including FAK, IGF-1R, EGFR, HER3, STAT3, MAPK and AKT, and enhanced growth of cells in culture (PMID: 25401474).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 4205,
+                    "pubMedId": 25401474,
+                    "title": "LYN-activating mutations mediate antiestrogen resistance in estrogen receptor-positive breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25401474"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4067,
+        "geneSymbol": "LYN",
+        "terms": [
+            "LYN",
+            "JTK8",
+            "p53Lyn",
+            "p56Lyn"
+        ]
+    },
+    "variant": "D189Y",
+    "createDate": "01/05/2016",
+    "updateDate": "01/20/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 159614,
+        "transcript": "NM_002350",
+        "gDna": "chr8:g.55952043G>T",
+        "cDna": "c.565G>T",
+        "protein": "p.D189Y",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3854,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Sprycel (dasatinib) resensitized ESR1-positive breast cancer cells harboring PIK3CA mutations and expressing LYN D189Y to Falsodex (fulvestrant) in culture (PMID: 25401474).",
+            "molecularProfile": {
+                "id": 16502,
+                "profileName": "ESR1 pos LYN D189Y PIK3CA mut"
+            },
+            "therapy": {
+                "id": 3372,
+                "therapyName": "Dasatinib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4205,
+                    "pubMedId": 25401474,
+                    "title": "LYN-activating mutations mediate antiestrogen resistance in estrogen receptor-positive breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25401474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3821,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of LYN D189Y conferred resistance to Falsodex (fulvestrant)-mediated growth inhibition in ESR1-positive breast cancer cells harboring PIK3CA mutations in culture (PMID: 25401474).",
+            "molecularProfile": {
+                "id": 16502,
+                "profileName": "ESR1 pos LYN D189Y PIK3CA mut"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4205,
+                    "pubMedId": 25401474,
+                    "title": "LYN-activating mutations mediate antiestrogen resistance in estrogen receptor-positive breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25401474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 16501,
+            "profileName": "LYN D189Y",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 16502,
+            "profileName": "ESR1 pos LYN D189Y PIK3CA mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 159614,
+            "transcript": "NM_002350",
+            "gDna": "chr8:g.55952043G>T",
+            "cDna": "c.565G>T",
+            "protein": "p.D189Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

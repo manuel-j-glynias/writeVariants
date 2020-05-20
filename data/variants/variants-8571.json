@@ -1,0 +1,167 @@
+{
+    "id": 8571,
+    "fullName": "HGF amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "HGF amp indicates an increased number of copies of the HGF gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 3082,
+        "geneSymbol": "HGF",
+        "terms": [
+            "HGF",
+            "DFNB39",
+            "F-TCF",
+            "HGFB",
+            "HPTA",
+            "SF"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "07/02/2015",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11442,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Savolitinib (AZD6094) resulted in an overall response rate (ORR) of 18% (8/44, all partial responses) in the subgroup of patients with MET-driven papillary renal cell carcinoma (PRCC), which included patients with HGF amplification, compared to an ORR of 0% (0/46) in patients with MET-independent PRCC (PMID: 28644771; NCT02127710).",
+            "molecularProfile": {
+                "id": 8467,
+                "profileName": "HGF amp"
+            },
+            "therapy": {
+                "id": 2161,
+                "therapyName": "Savolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4465,
+                "name": "papillary renal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9389,
+                    "pubMedId": 28644771,
+                    "title": "Biomarker-Based Phase II Trial of Savolitinib in Patients With Advanced Papillary Renal Cell Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28644771"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6096,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited growth of EML4-ALK positive human non-small cell lung carcinoma cell lines that acquired Alecensa (alectinib)-resistance through amplification of HGF in culture and in xenograft models (PMID: 26719536).",
+            "molecularProfile": {
+                "id": 22704,
+                "profileName": "EML4 - ALK HGF amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5313,
+                    "pubMedId": 26719536,
+                    "title": "Non-Small Cell Lung Cancer Cells Acquire Resistance to the ALK Inhibitor Alectinib by Activating Alternative Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26719536"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6094,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, prolonged exposure to Alecensa (alectinib) resulted in acquired resistance through amplification of HGF in a non-small cell lung carcinoma cell line originally harboring EML4-ALK in culture (PMID: 26719536).",
+            "molecularProfile": {
+                "id": 22704,
+                "profileName": "EML4 - ALK HGF amp"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5313,
+                    "pubMedId": 26719536,
+                    "title": "Non-Small Cell Lung Cancer Cells Acquire Resistance to the ALK Inhibitor Alectinib by Activating Alternative Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26719536"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 8467,
+            "profileName": "HGF amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5910,
+                    "name": "MET Inhibitor",
+                    "profileName": "HGF amp"
+                },
+                {
+                    "id": 14010,
+                    "name": "HGF Antibody",
+                    "profileName": "HGF amp"
+                },
+                {
+                    "id": 5911,
+                    "name": "MET Antibody",
+                    "profileName": "HGF amp"
+                }
+            ]
+        },
+        {
+            "id": 22704,
+            "profileName": "EML4 - ALK HGF amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

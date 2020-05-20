@@ -1,0 +1,582 @@
+{
+    "id": 10514,
+    "fullName": "NCOA4 - RET",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "NCOA4-RET (also referred to as RET/PTC3) results from the fusion of NCOA4 and RET, and leads to constitutive Ret kinase activity and transforming ability in culture (PMID: 9850089, PMID: 23150706, PMID: 30446652). NCOA4-RET fusions have been identified in papillary thyroid carcinoma, non-small cell lung cancre, and colorectaal cancer (PMID: 27849670, PMID: 23150706, PMID: 26078337).",
+            "references": [
+                {
+                    "id": 3440,
+                    "pubMedId": 9850089,
+                    "title": "The RET/PTC3 oncogene: metastatic solid-type papillary carcinomas in murine thyroids.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9850089"
+                },
+                {
+                    "id": 3441,
+                    "pubMedId": 23150706,
+                    "title": "RET fusions define a unique molecular and clinicopathologic subtype of non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23150706"
+                },
+                {
+                    "id": 11213,
+                    "pubMedId": 27849670,
+                    "title": "RET/PTC3 Rearrangement in Papillary Thyroid Carcinoma: Possible Marker of Tumor Progression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27849670"
+                },
+                {
+                    "id": 3842,
+                    "pubMedId": 26078337,
+                    "title": "Identification and characterization of RET fusions in advanced colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26078337"
+                },
+                {
+                    "id": 15326,
+                    "pubMedId": 30446652,
+                    "title": "RET rearrangements are actionable alterations in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30446652"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8031,
+        "geneSymbol": "NCOA4",
+        "terms": [
+            "NCOA4",
+            "ARA70",
+            "ELE1",
+            "PTC3",
+            "RFG"
+        ]
+    },
+    "variant": "NCOA4 - RET",
+    "createDate": "08/13/2015",
+    "updateDate": "03/25/2020",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 5979,
+                "geneSymbol": "RET",
+                "terms": [
+                    "RET",
+                    "CDHF12",
+                    "CDHR16",
+                    "HSCR1",
+                    "MEN2A",
+                    "MEN2B",
+                    "MTC1",
+                    "PTC",
+                    "RET-ELE1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 2729,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lenvima (lenvatinib) inhibited Ret phosphorylation in human thyroid cancer cells expressing NCOA4-RET in culture (PMID: 23856031).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3395,
+                    "pubMedId": 23856031,
+                    "title": "Antitumor activities of the targeted multi-tyrosine kinase inhibitor lenvatinib (E7080) against RET gene fusion-driven tumor models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23856031"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21313,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with colon cancer harboring NCOA4-RET did not respond to treatment with Ibrance (palbociclib) in culture, demonstrating cell viability levels similar to control treatment (PMID: 30210625).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 12496,
+                    "pubMedId": 30210625,
+                    "title": "NCOA4-RET fusion in colorectal cancer: Therapeutic challenge using patient-derived tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30210625"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5159,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ALW-II-41-27 inhibited RET phosphorylation and reduced proliferation of transformed cells expressing NCOA4-RET in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 3274,
+                "therapyName": "ALW-II-41-27",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21318,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DS-5010 (BOS172738) inhibited proliferation of colorectal cancer cells harboring NCOA4-RET in culture, and resulted in durable tumor regression in a patient-derived xenograft (PDX) model (Cancer Res 2019;79(13 Suppl):Abstract nr 2199).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 9591,
+                "therapyName": "DS-5010",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18455,
+                    "pubMedId": null,
+                    "title": "BOS172738: A novel highly potent and selective RET kinase inhibitor in Phase 1 clinical development",
+                    "url": "https://cancerres.aacrjournals.org/content/79/13_Supplement/2199"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16822,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) treatment resulted in 97% tumor growth inhibition in patient-derived xenograft (PDX) models of colorectal cancer harboring NCOA4-RET (PMID: 30038711).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12497,
+                    "pubMedId": 30038711,
+                    "title": "RET fusions observed in lung and colorectal cancers are sensitive to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30038711"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21311,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with colon cancer harboring NCOA4-RET did not respond to treatment with Cometriq (Cabometyx, cabozantinib) in culture, demonstrating cell viability levels similar to control treatment (PMID: 30210625).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 12496,
+                    "pubMedId": 30210625,
+                    "title": "NCOA4-RET fusion in colorectal cancer: Therapeutic challenge using patient-derived tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30210625"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3226,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited phosphorylation of Ret in transformed human cells expressing NCOA4-RET (also referred to as RET-PTC3) in culture (PMID: 23526464).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 312,
+                    "pubMedId": 23526464,
+                    "title": "Ponatinib (AP24534) is a novel potent inhibitor of oncogenic RET mutants associated with thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23526464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11242,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RXDX-105 (CEP-32496) inhibited tumor growth in a patient-derived xenograft (PDX) model of colorectal cancer harboring NCOA4-RET (PMID: 28011461).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 1002,
+                "therapyName": "RXDX-105",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9178,
+                    "pubMedId": 28011461,
+                    "title": "Antitumor Activity of RXDX-105 in Multiple Cancer Types with RET Rearrangements or Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28011461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21312,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with colon cancer harboring NCOA4-RET did not respond to treatment with Nexavar (sorafenib) in culture, demonstrating cell viability levels similar to control treatment (PMID: 30210625).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 12496,
+                    "pubMedId": 30210625,
+                    "title": "NCOA4-RET fusion in colorectal cancer: Therapeutic challenge using patient-derived tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30210625"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21314,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with colon cancer harboring NCOA4-RET were sensitive to treatment with Caprelsa (vandetanib) in culture, demonstrating decreased cell viability and inhibition of Akt and Erk phosphorylation (PMID: 30210625).",
+            "molecularProfile": {
+                "id": 10515,
+                "profileName": "NCOA4 - RET"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12496,
+                    "pubMedId": 30210625,
+                    "title": "NCOA4-RET fusion in colorectal cancer: Therapeutic challenge using patient-derived tumor cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30210625"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9634,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, two patient with salivary duct carcinoma positive for AR and harboring NCOA4-RET demonstrated clinical efficacy when treated with Cometriq (Cabometyx, cabozantinib (PMID: 27334835).",
+            "molecularProfile": {
+                "id": 26940,
+                "profileName": "NCOA4 - RET AR pos"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7355,
+                    "pubMedId": 27334835,
+                    "title": "Profiling of 149 Salivary Duct Carcinomas, Carcinoma Ex Pleomorphic Adenomas, and Adenocarcinomas, Not Otherwise Specified Reveals Actionable Genomic Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27334835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15138,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with lung adenocarcinoma harboring EGFR L858R and an acquired resistance mutation NCOA4-RET demonstrated stable disease for 7 months on Cometriq (Cabometyx, cabozantinib) in combination with Gilotrif (afatinib), whose disease progressed after 20 months of stable disease with Gilotrif (afatinib) alone (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30775,
+                "profileName": "NCOA4 - RET EGFR L858R"
+            },
+            "therapy": {
+                "id": 7420,
+                "therapyName": "Afatinib + Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15130,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer initially responded to Gilotrif (afatinib) treatment with a stable disease of 20 months, EGFR L858R and NCOA4-RET were identified in post-progression tumor samples (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30775,
+                "profileName": "NCOA4 - RET EGFR L858R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19902,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tarceva (erlotinib) and was found via cell free DNA testing to harbor EGFR L858R and NCOA4-RET (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 30775,
+                "profileName": "NCOA4 - RET EGFR L858R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15829,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion and an NCOA4-RET fusion had tumor shrinkage of 78% at 8-weeks and a response lasting more than 3.5 months, when treated with Tagrisso (osimertinib) and BLU-667, in combination (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31250,
+                "profileName": "NCOA4 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 7752,
+                "therapyName": "BLU-667 + Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10515,
+            "profileName": "NCOA4 - RET",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6455,
+                    "name": "RET Inhibitor",
+                    "profileName": "NCOA4 - RET"
+                }
+            ]
+        },
+        {
+            "id": 26940,
+            "profileName": "NCOA4 - RET AR pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30775,
+            "profileName": "NCOA4 - RET EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31250,
+            "profileName": "NCOA4 - RET EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

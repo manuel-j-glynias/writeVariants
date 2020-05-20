@@ -1,0 +1,641 @@
+{
+    "id": 13143,
+    "fullName": "PTEN dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "PTEN dec exp indicates decreased expression of the Pten protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 5728,
+        "geneSymbol": "PTEN",
+        "terms": [
+            "PTEN",
+            "10q23del",
+            "BZS",
+            "CWS1",
+            "DEC",
+            "GLM2",
+            "MHAM",
+            "MMAC1",
+            "PTEN1",
+            "PTENbeta",
+            "TEP1"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "10/20/2015",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7308,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, low Pten expression or lack of Pten expression was associated with better response to treatment with the combination of Alimta (pemetrexed) and Nexavar (sorafenib) in patients with advanced solid tumors (PMID: 27213589).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 1482,
+                "therapyName": "Pemetrexed + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6305,
+                    "pubMedId": 27213589,
+                    "title": "Phase I study of pemetrexed with sorafenib in advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27213589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11167,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Ipatasertib (GDC-0068) in combination with Abraxane (paclitaxel) resulted in improved progression free survival (6.2 vs 4.9 months) compared to placebo in triple-receptor negative breast cancer patients with low Pten expression (J Clin Oncol 35, 2017 (suppl; abstr 1009)).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 1588,
+                "therapyName": "Ipatasertib + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9130,
+                    "pubMedId": null,
+                    "title": "LOTUS (NCT02162719): A double-blind placebo (PBO)-controlled randomized phase II trial of first-line ipatasertib (IPAT) + paclitaxel (P) for metastatic triple-negative breast cancer (TNBC).",
+                    "url": "http://abstracts.asco.org/199/AbstView_199_183382.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4960,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SAR260301 inhibited tumor growth in xenograft models of melanoma cell lines harboring PTEN deficiency (PMID: 24387221).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 1052,
+                "therapyName": "SAR260301",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4811,
+                    "pubMedId": 24387221,
+                    "title": "Discovery and optimization of pyrimidone indoline amide PI3K\u03b2 inhibitors for the treatment of phosphatase and tensin homologue (PTEN)-deficient cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24387221"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4449,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, melanoma patients with PTEN expression in less than 10% of tumor cells demonstrated decreased response to anti-PD-1 antibodies, including Keytruda (pembrolizumab), compared to patients in which PTEN is present in over 10% of tumor cells (PMID: 26645196).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4556,
+                    "pubMedId": 26645196,
+                    "title": "Loss of PTEN Promotes Resistance to T Cell-Mediated Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26645196"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5733,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis from a Phase II clinical trial, patients with metastatic renal cell carcinoma treated with Apitolisib (GDC-0980) had no difference in progression free survival when stratified by high expression (n=17) and low expression (n=19) of Pten (PMID: 26951309).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4450,
+                "name": "renal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4914,
+                    "pubMedId": 26951309,
+                    "title": "Randomized Open-Label Phase II Trial of Apitolisib (GDC-0980), a Novel Inhibitor of the PI3K/Mammalian Target of Rapamycin Pathway, Versus Everolimus in Patients With Metastatic Renal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26951309"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4450,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, melanoma patients with PTEN expression in less than 10% of tumor cells demonstrated decreased response to anti-PD-1 antibodies, including Opdivo (nivolumab), as compared to patients in which PTEN is present in over 10% of tumor cells (PMID: 26645196).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4556,
+                    "pubMedId": 26645196,
+                    "title": "Loss of PTEN Promotes Resistance to T Cell-Mediated Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26645196"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5738,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis from a Phase II clinical trial, patients with metastatic renal cell carcinoma treated with Afinitor (everolimus) had no difference in progression free survival when stratified by high expression (n=17) and low expression (n=21) of Pten (PMID: 26951309).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4450,
+                "name": "renal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4914,
+                    "pubMedId": 26951309,
+                    "title": "Randomized Open-Label Phase II Trial of Apitolisib (GDC-0980), a Novel Inhibitor of the PI3K/Mammalian Target of Rapamycin Pathway, Versus Everolimus in Patients With Metastatic Renal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26951309"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 4965,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, GSK2636771 treatment inhibited Akt signaling, and resulted in partial response in 2% (1/53) and stable disease in 25% (13/53) of patients with PTEN-deficient advanced solid tumors (J Clin Oncol 32:5s, 2014 (suppl; abstr 2514)).",
+            "molecularProfile": {
+                "id": 13314,
+                "profileName": "PTEN dec exp"
+            },
+            "therapy": {
+                "id": 765,
+                "therapyName": "GSK2636771",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4819,
+                    "pubMedId": null,
+                    "title": "A phase I/II, first-in-human dose-escalation study of GSK2636771 in patients (pts) with PTEN-deficient advanced tumors.",
+                    "url": "http://meetinglibrary.asco.org/content/131727-144"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4859,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FTI-277 treatment inhibited Rheb signaling and lead to cell death in lymphoma cell lines in culture, independent of the Myc amplification and Pten-deficiency (PMID: 18708578).",
+            "molecularProfile": {
+                "id": 19397,
+                "profileName": "MYC amp PTEN dec exp"
+            },
+            "therapy": {
+                "id": 1683,
+                "therapyName": "FTI-277",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4758,
+                    "pubMedId": 18708578,
+                    "title": "Tumorigenic activity and therapeutic inhibition of Rheb GTPase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18708578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4861,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FTI-277 treatment inhibited proliferation of lymphoma cell lines harboring MYC amplification, PTEN deficiency, and overexpressing RHEB Q64L in culture (PMID: 18708578).",
+            "molecularProfile": {
+                "id": 19400,
+                "profileName": "MYC amp PTEN dec exp RHEB Q64L"
+            },
+            "therapy": {
+                "id": 1683,
+                "therapyName": "FTI-277",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4758,
+                    "pubMedId": 18708578,
+                    "title": "Tumorigenic activity and therapeutic inhibition of Rheb GTPase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18708578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4862,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FTI-277 treatment did not inhibit proliferation of lymphoma cell lines harboring MYC amplification, PTEN deficiency, and overexpressing RHEB Q64L and RHEB M184L in culture (PMID: 18708578).",
+            "molecularProfile": {
+                "id": 19401,
+                "profileName": "MYC amp PTEN dec exp RHEB Q64L RHEB M184L"
+            },
+            "therapy": {
+                "id": 1683,
+                "therapyName": "FTI-277",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4758,
+                    "pubMedId": 18708578,
+                    "title": "Tumorigenic activity and therapeutic inhibition of Rheb GTPase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18708578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4863,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FTI-277 treatment did not inhibit proliferation of lymphoma cell lines harboring MYC amplification, PTEN deficiency, and overexpressing Mcl1 in culture (PMID: 18708578).",
+            "molecularProfile": {
+                "id": 19402,
+                "profileName": "MCL1 over exp MYC amp PTEN dec exp"
+            },
+            "therapy": {
+                "id": 1683,
+                "therapyName": "FTI-277",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4758,
+                    "pubMedId": 18708578,
+                    "title": "Tumorigenic activity and therapeutic inhibition of Rheb GTPase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18708578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5739,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis from a Phase II clinical trial, patients with metastatic renal cell carcinoma treated with Afinitor (everolimus) had no difference in progression free survival when stratified by the presence (n=21) or absence (n=17) of PIK3CA activating mutations (PMID: 26951309).",
+            "molecularProfile": {
+                "id": 21542,
+                "profileName": "PIK3CA act mut PTEN dec exp"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4450,
+                "name": "renal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4914,
+                    "pubMedId": 26951309,
+                    "title": "Randomized Open-Label Phase II Trial of Apitolisib (GDC-0980), a Novel Inhibitor of the PI3K/Mammalian Target of Rapamycin Pathway, Versus Everolimus in Patients With Metastatic Renal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26951309"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5734,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis from a Phase II clinical trial, patients with metastatic renal cell carcinoma treated with Apitolisib (GDC-0980) had no difference in progression free survival when stratified by the presence (n=21) or absence (n=15) of PIK3CA activating mutation or loss of Pten expression (PMID: 26951309).",
+            "molecularProfile": {
+                "id": 21542,
+                "profileName": "PIK3CA act mut PTEN dec exp"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4450,
+                "name": "renal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4914,
+                    "pubMedId": 26951309,
+                    "title": "Randomized Open-Label Phase II Trial of Apitolisib (GDC-0980), a Novel Inhibitor of the PI3K/Mammalian Target of Rapamycin Pathway, Versus Everolimus in Patients With Metastatic Renal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26951309"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6465,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of PTEN expression resulted in a decreased response to treatment with CDX-3379 (KTN3379) in ERBB2 (HER2)-amplified breast cancer cells in culture (PMID: 26880266).",
+            "molecularProfile": {
+                "id": 23519,
+                "profileName": "ERBB2 amp PTEN dec exp"
+            },
+            "therapy": {
+                "id": 2054,
+                "therapyName": "CDX-3379",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5601,
+                    "pubMedId": 26880266,
+                    "title": "A Potent HER3 Monoclonal Antibody That Blocks Both Ligand-Dependent and -Independent Activities: Differential Impacts of PTEN Status on Tumor Response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26880266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6663,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ERBB2 (HER2)-positive breast cancer patients with PI3K pathway activation resulting from low PTEN expression and/or PIK3CA activating mutations demonstrated decreased progression-free survival following treatment with Herceptin (trastuzumab) compared to patients without PI3K pathway activation (PMID: 17936563).",
+            "molecularProfile": {
+                "id": 23664,
+                "profileName": "ERBB2 pos PTEN dec exp"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 213,
+                    "pubMedId": 17936563,
+                    "title": "A functional genetic approach identifies the PI3K pathway as a major determinant of trastuzumab resistance in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17936563"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8576,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 combination treatment did not result in tumor growth stabilization in patient-derived xenograft models of colorectal cancer harboring KRAS G12D, decreased PTEN expression, and TP53 R306* (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26365,
+                "profileName": "KRAS G12D PTEN dec exp TP53 R306*"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 13314,
+            "profileName": "PTEN dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19397,
+            "profileName": "MYC amp PTEN dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19400,
+            "profileName": "MYC amp PTEN dec exp RHEB Q64L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19401,
+            "profileName": "MYC amp PTEN dec exp RHEB Q64L RHEB M184L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19402,
+            "profileName": "MCL1 over exp MYC amp PTEN dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 21542,
+            "profileName": "PIK3CA act mut PTEN dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23519,
+            "profileName": "ERBB2 amp PTEN dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23664,
+            "profileName": "ERBB2 pos PTEN dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26365,
+            "profileName": "KRAS G12D PTEN dec exp TP53 R306*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

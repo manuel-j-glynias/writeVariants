@@ -1,0 +1,172 @@
+{
+    "id": 2771,
+    "fullName": "BRAF L505H",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF L505H lies within the protein kinase domain of the Braf protein (UniProt.org). L505H confers a gain of function to the Braf protein resulting in MEK/ERK activation and oncogenic transformation in cultured cells, and is associated with resistance to RAF inhibitors (PMID: 24283590).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1371,
+                    "pubMedId": 24283590,
+                    "title": "Identification of PLX4032-resistance mechanisms and implications for novel RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24283590"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "L505H",
+    "createDate": "12/18/2014",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109222,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140777994A>T",
+        "cDna": "c.1514T>A",
+        "protein": "p.L505H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1475,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells expressing BRAF L505H were resistant to Zelboraf (vemurafenib) (PMID: 24283590).",
+            "molecularProfile": {
+                "id": 2594,
+                "profileName": "BRAF L505H"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1371,
+                    "pubMedId": 24283590,
+                    "title": "Identification of PLX4032-resistance mechanisms and implications for novel RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24283590"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3564,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a melanoma patient harboring BRAF V600E treated with Zelboraf (vemurafenib) subsequently demonstrated resistance likely due to the secondary resistance mutation, BRAF L505H (PMID: 25515853).",
+            "molecularProfile": {
+                "id": 13538,
+                "profileName": "BRAF L505H BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3825,
+                    "pubMedId": 25515853,
+                    "title": "Detailed imaging and genetic analysis reveal a secondary BRAF(L505H) resistance mutation and extensive intrapatient heterogeneity in metastatic BRAF mutant melanoma patients treated with vemurafenib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25515853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2594,
+            "profileName": "BRAF L505H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14417,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF L505H"
+                },
+                {
+                    "id": 14418,
+                    "name": "LY3009120",
+                    "profileName": "BRAF L505H"
+                },
+                {
+                    "id": 14416,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF L505H"
+                },
+                {
+                    "id": 14415,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF L505H"
+                }
+            ]
+        },
+        {
+            "id": 13538,
+            "profileName": "BRAF L505H BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109222,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140777994A>T",
+            "cDna": "c.1514T>A",
+            "protein": "p.L505H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109221,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140777994A>T",
+            "cDna": "c.1514T>A",
+            "protein": "p.L505H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,229 @@
+{
+    "id": 24285,
+    "fullName": "FGFR4 V550L",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR4 V550L lies within the protein kinase domain of the Fgfr4 protein (UniProt.org). V550L has been demonstrated to confer resistance to Fgfr4 inhibitors as a secondary resistance mutation (PMID: 31575540), and results in increased Fgfr4 kinase activity in an in vitro assay (PMID: 25317566), and therefore, is predicted to lead to a gain of Fgfr4 protein function.",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11412,
+                    "pubMedId": 25317566,
+                    "title": "DFG-out mode of inhibition by an irreversible type-1 inhibitor capable of overcoming gate-keeper mutations in FGF receptors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25317566"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2264,
+        "geneSymbol": "FGFR4",
+        "terms": [
+            "FGFR4",
+            "CD334",
+            "JTK2",
+            "TKF"
+        ]
+    },
+    "variant": "V550L",
+    "createDate": "07/13/2016",
+    "updateDate": "12/19/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 164677,
+        "transcript": "NM_213647",
+        "gDna": "chr5:g.177095550G>C",
+        "cDna": "c.1648G>C",
+        "protein": "p.V550L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19588,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with hepatocellular carcinoma overexpressing FGF19 initially responded to Fisogatinib (BLU-554) treatment, but progressed at week 32 and was found via circulating tumor DNA testing to have acquired FGFR4 V550M, FGFR4 V550L, and FGFR4 C552R (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34258,
+                "profileName": "FGF19 over exp FGFR4 V550L FGFR4 V550M FGFR4 C552R"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19598,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hepatocellular carcinoma cell line xenograft model with FGF19 amplification, FGFR4 and KLB expression, and FGFR4 V550L demonstrated resistance to treatment with Fisogatinib (BLU-554) (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34275,
+                "profileName": "FGF19 amp FGFR4 V550L FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19604,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY2874455 treatment inhibited proliferation of cells co-expressing ETV6-FGFR4 and FGFR4 V550L in culture (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34278,
+                "profileName": "ETV6 - FGFR4 FGFR4 V550L"
+            },
+            "therapy": {
+                "id": 2032,
+                "therapyName": "LY2874455",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25017,
+            "profileName": "FGFR4 V550L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34258,
+            "profileName": "FGF19 over exp FGFR4 V550L FGFR4 V550M FGFR4 C552R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34275,
+            "profileName": "FGF19 amp FGFR4 V550L FGFR4 pos KLB pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34278,
+            "profileName": "ETV6 - FGFR4 FGFR4 V550L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 164678,
+            "transcript": "NM_002011",
+            "gDna": "chr5:g.177095550G>C",
+            "cDna": "c.1648G>C",
+            "protein": "p.V550L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164677,
+            "transcript": "NM_213647",
+            "gDna": "chr5:g.177095550G>C",
+            "cDna": "c.1648G>C",
+            "protein": "p.V550L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164679,
+            "transcript": "NM_001291980",
+            "gDna": "chr5:g.177096087G>C",
+            "cDna": "c.1648G>C",
+            "protein": "p.V550L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164681,
+            "transcript": "NM_022963",
+            "gDna": "chr5:g.177095670G>C",
+            "cDna": "c.1648G>C",
+            "protein": "p.V550L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164680,
+            "transcript": "XM_005265838",
+            "gDna": "chr5:g.177095550G>C",
+            "cDna": "c.1648G>C",
+            "protein": "p.V550L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

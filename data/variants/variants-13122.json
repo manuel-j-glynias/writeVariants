@@ -1,0 +1,133 @@
+{
+    "id": 13122,
+    "fullName": "SND1 - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "SND1-BRAF results from the fusion of SND1 and BRAF, leads to increased Mek and Erk phosphorylation and cell proliferation, is transforming in culture (PMID: 25985019). SND1-BRAF has been identified in lung adenocarcinoma (PMID: 25985019).",
+            "references": [
+                {
+                    "id": 3750,
+                    "pubMedId": 25985019,
+                    "title": "Common Oncogene Mutations and Novel SND1-BRAF Transcript Fusion in Lung Adenocarcinoma from Never Smokers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25985019"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 27044,
+        "geneSymbol": "SND1",
+        "terms": [
+            "SND1",
+            "p100",
+            "TDRD11",
+            "Tudor-SN"
+        ]
+    },
+    "variant": "SND1 - BRAF",
+    "createDate": "10/13/2015",
+    "updateDate": "10/18/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 3527,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastric cancer cell line harboring MET amplification and SND1-BRAF was sensitive to the combination of PF-04880594 and PF-0461903 in culture (PMID: 22745804).",
+            "molecularProfile": {
+                "id": 13346,
+                "profileName": "SND1 - BRAF MET amp"
+            },
+            "therapy": {
+                "id": 3152,
+                "therapyName": "PF-0461903 + PF-04880594",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5517,
+                "name": "stomach carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3751,
+                    "pubMedId": 22745804,
+                    "title": "A novel SND1-BRAF fusion confers resistance to c-Met inhibitor PF-04217903 in GTL16 cells through [corrected] MAPK activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22745804"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3526,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastric carcinoma cell line harboring MET amplification treated with PF-04217903 eventually developed resistance due to acquisition of the fusion SND1-BRAF, in culture (PMID: 22745804).",
+            "molecularProfile": {
+                "id": 13346,
+                "profileName": "SND1 - BRAF MET amp"
+            },
+            "therapy": {
+                "id": 864,
+                "therapyName": "PF-04217903",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5517,
+                "name": "stomach carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3751,
+                    "pubMedId": 22745804,
+                    "title": "A novel SND1-BRAF fusion confers resistance to c-Met inhibitor PF-04217903 in GTL16 cells through [corrected] MAPK activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22745804"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 13286,
+            "profileName": "SND1 - BRAF",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 13346,
+            "profileName": "SND1 - BRAF MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

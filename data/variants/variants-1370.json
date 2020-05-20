@@ -1,0 +1,198 @@
+{
+    "id": 1370,
+    "fullName": "ATM dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "ATM dec exp indicates decreased expression of the Atm protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 472,
+        "geneSymbol": "ATM",
+        "terms": [
+            "ATM",
+            "AT1",
+            "ATA",
+            "ATC",
+            "ATD",
+            "ATDC",
+            "ATE",
+            "TEL1",
+            "TELO1"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "08/09/2014",
+    "updateDate": "07/30/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8422,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of ATM in a gastric cancer cell line resulted in increased sensitivity to Veliparib (ABT-888) in culture and in xenograft models (PMID: 27638859).",
+            "molecularProfile": {
+                "id": 1391,
+                "profileName": "ATM dec exp"
+            },
+            "therapy": {
+                "id": 954,
+                "therapyName": "Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6647,
+                    "pubMedId": 27638859,
+                    "title": "ATM Expression Predicts Veliparib and Irinotecan Sensitivity in Gastric Cancer by Mediating P53-Independent Regulation of Cell Cycle and Apoptosis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27638859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8766,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, addition of Lynparza (olaparib) to Taxol (paclitaxel) did not significantly improve progression free survival (5.29 vs 3.68 months) compared to Taxol alone, but did significantly prolong overall survival (HR = 0.35) in metastatic gastric cancer patients with decreased Atm expression (PMID: 26282658; NCT01063517).",
+            "molecularProfile": {
+                "id": 1391,
+                "profileName": "ATM dec exp"
+            },
+            "therapy": {
+                "id": 4807,
+                "therapyName": "Olaparib + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6735,
+                    "pubMedId": 26282658,
+                    "title": "Randomized, Double-Blind Phase II Trial With Prospective Classification by ATM Protein Level to Evaluate the Efficacy and Tolerability of Olaparib Plus Paclitaxel in Patients With Recurrent or Metastatic Gastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26282658"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 864,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of ATM expression sensitized breast cancer cells to treatment with Talzenna (talazoparib) in culture (PMID: 23881923).",
+            "molecularProfile": {
+                "id": 1391,
+                "profileName": "ATM dec exp"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 520,
+                    "pubMedId": 23881923,
+                    "title": "BMN 673, a novel and highly potent PARP1/2 inhibitor for the treatment of human cancers with DNA repair deficiency.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23881923"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10604,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastric cancer cell line with decreased expression of HDAC1 and ATM was sensitive to AZD6738, demonstrating inhibition of cell-cycle progression, apoptosis, and DNA damage accumulation in culture, and decreased tumor volume and increased apoptotic activity in xenograft models (PMID: 28138034).",
+            "molecularProfile": {
+                "id": 27649,
+                "profileName": "ATM dec exp HDAC1 dec exp"
+            },
+            "therapy": {
+                "id": 2881,
+                "therapyName": "AZD6738",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8664,
+                    "pubMedId": 28138034,
+                    "title": "AZD6738, A Novel Oral Inhibitor of ATR, Induces Synthetic Lethality with ATM Deficiency in Gastric Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28138034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1391,
+            "profileName": "ATM dec exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 43,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "ATM dec exp"
+                }
+            ]
+        },
+        {
+            "id": 27648,
+            "profileName": "ATM dec exp ATR pos HDAC1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27649,
+            "profileName": "ATM dec exp HDAC1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

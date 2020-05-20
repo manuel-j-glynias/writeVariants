@@ -1,0 +1,356 @@
+{
+    "id": 1641,
+    "fullName": "KIT Y823D",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT Y823D lies within the protein kinase domain of the Kit protein (UniProt.org). Y823D confers a gain of function on Kit, as indicated by constitutive phosphorylation of Kit in cultured cells (PMID: 14695343, PMID: 20633291).",
+            "references": [
+                {
+                    "id": 666,
+                    "pubMedId": 14695343,
+                    "title": "KIT mutations are common in testicular seminomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14695343"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 9827,
+                    "pubMedId": 20633291,
+                    "title": "Motesanib inhibits Kit mutations associated with gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20633291"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "Y823D",
+    "createDate": "09/09/2014",
+    "updateDate": "09/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 137032,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54733175T>G",
+        "cDna": "c.2467T>G",
+        "protein": "p.Y823D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11829,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Motesanib (AMG 706) inhibited KIT phosphorylation and growth of cells expressing KIT Y823D in culture (PMID: 20633291).",
+            "molecularProfile": {
+                "id": 1652,
+                "profileName": "KIT Y823D"
+            },
+            "therapy": {
+                "id": 824,
+                "therapyName": "Motesanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9827,
+                    "pubMedId": 20633291,
+                    "title": "Motesanib inhibits Kit mutations associated with gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20633291"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16867,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3229 inhibited Kit signaling, resulted in tumor regression in patient-derived xenograft (PDX) models of gastrointestinal stromal tumor harboring KIT Y823D (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1328).",
+            "molecularProfile": {
+                "id": 1652,
+                "profileName": "KIT Y823D"
+            },
+            "therapy": {
+                "id": 8213,
+                "therapyName": "AZD3229",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14986,
+                    "pubMedId": null,
+                    "title": "Exploring the pharmacokinetic-pharmacodynamic relationships of AZD3229, a novel and selective inhibitor of cKIT, in a range of mouse xenograft models of gastrointestinal stromal tumors.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8605,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DCC-2618 induced tumor regression in a patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT W557_K558del and KIT Y823D (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 23695,
+                "profileName": "KIT W557_K558del KIT Y823D"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6807,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient derived GIST cell line co-harboring KIT W557_K558del and KIT Y823D demonstrated sensitivity to Iclusig (ponatinib) in a PDX model, resulting in complete tumor regression (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23695,
+                "profileName": "KIT W557_K558del KIT Y823D"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12309,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ayvakit (avapritinib) inhibited Kit phosphorylation and resulted in tumor regression in patient-derived xenograft models of Gleevec (imatinib mesylate)-resistant gastrointestinal stromal tumor harboring KIT W557_K558del and Y823D (PMID: 29093181).",
+            "molecularProfile": {
+                "id": 23695,
+                "profileName": "KIT W557_K558del KIT Y823D"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10301,
+                    "pubMedId": 29093181,
+                    "title": "A precision therapy against cancers driven by KIT/PDGFRA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29093181"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14331,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing KIT Y823D and KIT V559D were insensitive to Sutent (sunitinib) in culture and in mouse models (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 29986,
+                "profileName": "KIT V559D KIT Y823D"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14342,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) treatment in a mouse model with cells expressing KIT V559D and KIT Y823D resulted in shortened survival (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 29986,
+                "profileName": "KIT V559D KIT Y823D"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14337,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Flumatinib treatment in transformed cells co-expressing KIT N822K and KIT V559D demonstrated decreased cell proliferation and inhibition of Kit, Erk 1/2, and Stat3 phosphorylation in culture, and led to improved survival in mouse models (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 29986,
+                "profileName": "KIT V559D KIT Y823D"
+            },
+            "therapy": {
+                "id": 3169,
+                "therapyName": "Flumatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1652,
+            "profileName": "KIT Y823D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1930,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT Y823D"
+                }
+            ]
+        },
+        {
+            "id": 23695,
+            "profileName": "KIT W557_K558del KIT Y823D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29986,
+            "profileName": "KIT V559D KIT Y823D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 137032,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54733175T>G",
+            "cDna": "c.2467T>G",
+            "protein": "p.Y823D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137033,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54733175T>G",
+            "cDna": "c.2467T>G",
+            "protein": "p.Y823D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

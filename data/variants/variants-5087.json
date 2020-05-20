@@ -1,0 +1,221 @@
+{
+    "id": 5087,
+    "fullName": "KIT D820E",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT D820E lies within the protein kinase domain of the Kit protein (UniProt.org). D820E has been associated with secondary drug resistance (PMID: 19861442), but has not been biochemically characterized and therefore, its effect on Kit protein function is unknown (PubMed, Apr 2020).",
+            "references": [
+                {
+                    "id": 4325,
+                    "pubMedId": 19861442,
+                    "title": "Mechanisms of sunitinib resistance in gastrointestinal stromal tumors harboring KITAY502-3ins mutation: an in vitro mutagenesis screen for drug resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19861442"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "D820E",
+    "createDate": "04/20/2015",
+    "updateDate": "04/02/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 136100,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54733168T>G",
+        "cDna": "c.2460T>G",
+        "protein": "p.D820E",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6755,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing KIT D820E demonstrated sensitivity to Iclusig (ponatinib) in an in vitro kinase assay (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 4900,
+                "profileName": "KIT D820E"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6750,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic thymic carcinoma harboring KIT D820E demonstrated a partial response to treatment with Nexavar (sorafenib) (PMID: 19461405).",
+            "molecularProfile": {
+                "id": 4900,
+                "profileName": "KIT D820E"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3284,
+                "name": "thymic carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5817,
+                    "pubMedId": 19461405,
+                    "title": "Long lasting response to the multikinase inhibitor bay 43-9006 (Sorafenib) in a heavily pretreated metastatic thymic carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19461405"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14379,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) did not inhibit Kit, Erk, or Mtor signaling and resulted in minimal (26.2%) tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT A502_Y503dup and KIT D820E, which was established from a patient who did not respond to Gleevec (imatinib mesylate) and Sutent (sunitinib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29992,
+                "profileName": "KIT A502_Y503dup KIT D820E"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14377,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) did not inhibit Kit, Erk, or Mtor signaling and resulted in minimal (7.4%) tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT A502_Y503dup and KIT D820E, which was established from a patient who did not respond to Gleevec (imatinib mesylate) and Sutent (sunitinib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29992,
+                "profileName": "KIT A502_Y503dup KIT D820E"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4900,
+            "profileName": "KIT D820E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29992,
+            "profileName": "KIT A502_Y503dup KIT D820E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136101,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54733168T>G",
+            "cDna": "c.2460T>G",
+            "protein": "p.D820E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136100,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54733168T>G",
+            "cDna": "c.2460T>G",
+            "protein": "p.D820E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

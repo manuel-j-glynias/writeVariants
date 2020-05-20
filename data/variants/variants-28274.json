@@ -1,0 +1,116 @@
+{
+    "id": 28274,
+    "fullName": "PARP1 K119_S120del",
+    "impact": "deletion",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PARP1 K119_S120del results in the deletion of two amino acids in the PARP-type zinc finger domain 2 of the Parp1 protein (UniProt.org). K119_S120del results in a loss of recruitment of Parp1 to DNA damage sites and is associated with resistance to PARP inhibitors in cell culture (PMID: 29748565), and therefore, is predicted to lead to a loss of Parp1 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11365,
+                    "pubMedId": 29748565,
+                    "title": "Genome-wide and high-density CRISPR-Cas9 screens identify point mutations in PARP1 causing PARP inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748565"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 142,
+        "geneSymbol": "PARP1",
+        "terms": [
+            "PARP1",
+            "ADPRT",
+            "ADPRT 1",
+            "ADPRT1",
+            "ARTD1",
+            "pADPRT-1",
+            "PARP",
+            "PARP-1",
+            "PPOL"
+        ]
+    },
+    "variant": "K119_S120del",
+    "createDate": "05/18/2018",
+    "updateDate": "08/07/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 178482,
+        "transcript": "NM_001618",
+        "gDna": "chr1:g.226392243_226392248delACTTGG",
+        "cDna": "c.357_362delGTCCAA",
+        "protein": "p.K119_S120delKS",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13926,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian cancer cells harboring two BRCA1 mutations and expressing PARP1 K119_S120del demonstrated resistance to treatment with Talazoparib (BMN-673) in culture (PMID: 29748565).",
+            "molecularProfile": {
+                "id": 29874,
+                "profileName": "BRCA1 mut PARP1 K119_S120del"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11365,
+                    "pubMedId": 29748565,
+                    "title": "Genome-wide and high-density CRISPR-Cas9 screens identify point mutations in PARP1 causing PARP inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748565"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29867,
+            "profileName": "PARP1 K119_S120del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29874,
+            "profileName": "BRCA1 mut PARP1 K119_S120del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 178482,
+            "transcript": "NM_001618",
+            "gDna": "chr1:g.226392243_226392248delACTTGG",
+            "cDna": "c.357_362delGTCCAA",
+            "protein": "p.K119_S120delKS",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,1648 @@
+{
+    "id": 639,
+    "fullName": "PIK3CA E542K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA E542K is a hotspot mutation that lies within the PIK helical domain of the Pik3ca protein (UniProt.org). E542K results in increased phosphorylation of Akt, growth factor-independent cell survival, and is transforming in cell culture (PMID: 16533766, PMID: 26627007, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 102,
+                    "pubMedId": 16533766,
+                    "title": "PIK3CA mutations in head and neck squamous cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16533766"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "E542K",
+    "createDate": "05/29/2014",
+    "updateDate": "02/07/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 171732,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179218294G>A",
+        "cDna": "c.1624G>A",
+        "protein": "p.E542K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10277,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hormone breast cancer cell line harboring PIK3CA E542K was sensitive to Miransertib (ARQ092) in culture, demonstrating inhibition of cell growth (PMID: 26469692).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 635,
+                "therapyName": "Miransertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8234,
+                    "pubMedId": 26469692,
+                    "title": "Targeting AKT1-E17K and the PI3K/AKT Pathway with an Allosteric AKT Inhibitor, ARQ 092.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26469692"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4233,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK2206 inhibited survival of transformed breast epithelial cell lines overexpressing PIK3CA E542K in culture (PMID: 26627007).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19317,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis of a Phase III trial (BOLERO-2), Afinitor (everolimus) demonstrated comparable progression-free survival benefit in patients with hormone receptor-positive, Erbb2 (Her2)-negative breast cancer harboring wild-type (HR=0.43) or mutant (HR=0.37) PIK3CA, similar benefit was observed in subgroups harboring PIK3CA H1047R (HR=0.37) and PIK3CA E545K/E542K (HR=0.30) (PMID: 28183140; NCT00863655).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10362,
+                    "pubMedId": 28183140,
+                    "title": "Correlation between PIK3CA mutations in cell-free DNA and everolimus efficacy in HR+, HER2- advanced breast cancer: results from BOLERO-2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28183140"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6085,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Apitolisib (GDC-0980) treatment resulted in a partial response in a patient with head and neck squamous cell carcinoma harboring a PIK3CA E542K mutation (PMID: 26787751).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4915,
+                    "pubMedId": 26787751,
+                    "title": "Phase I Study of Apitolisib (GDC-0980), Dual Phosphatidylinositol-3-Kinase and Mammalian Target of Rapamycin Kinase Inhibitor, in Patients with Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26787751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8216,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK2206 inhibited AKT activation, proliferation, and growth of thyroid cancer cell lines with PI3K/AKT pathway alterations in culture, including a papillary thyroid cancer cell line harboring PIK3CA E542K (PMID: 21289267).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6573,
+                    "pubMedId": 21289267,
+                    "title": "The Akt-specific inhibitor MK2206 selectively inhibits thyroid cancer cells harboring mutations that can activate the PI3K/Akt pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21289267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8223,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK2206 suppressed activation of AKT induced by Torisel (temsirolimus), and MK2206 and Torisel (temsirolimus) demonstrated synergy in inhibiting growth of a papillary thyroid cancer cell line harboring PIK3CA E542K in culture (PMID: 21289267).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 4664,
+                "therapyName": "MK2206 + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6573,
+                    "pubMedId": 21289267,
+                    "title": "The Akt-specific inhibitor MK2206 selectively inhibits thyroid cancer cells harboring mutations that can activate the PI3K/Akt pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21289267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4254,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited survival of transformed breast epithelial cell lines overexpressing PIK3CA E542K in culture (PMID: 26627007).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11830,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, a patient with cervical squamous cell carcinoma harboring PIK3CA E542K demonstrated a partial response when treated with a combination of LY2780301 and Gemzar (gemcitabine) (PMID: 28750271).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 6168,
+                "therapyName": "Gemcitabine + LY2780301",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3744,
+                "name": "cervical squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9864,
+                    "pubMedId": 28750271,
+                    "title": "Safety, tolerability\u00a0and antitumour activity of LY2780301 (p70S6K/AKT inhibitor) in combination with gemcitabine in molecularly selected patients with advanced or metastatic cancer: a phase IB dose escalation study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28750271"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21310,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, treatment with Capivasertib (AZD5363) in a patient with gastric cancer harboring PIK3CA E542K resulted in a partial response, and in preclinical studies, led to decreased cell proliferation in a gastric cancer cell line harboring PIK3CA E542K (PMID: 32070411).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18617,
+                    "pubMedId": 32070411,
+                    "title": "Comprehensive pharmacogenomic characterization of gastric cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32070411"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11721,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells over expressing PIK3CA E542K were resistant to Erbitux (cetuximab) and Fluorouracil combination treatment in culture (PMID: 28424201).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 2000,
+                "therapyName": "Cetuximab + Fluorouracil",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9728,
+                    "pubMedId": 28424201,
+                    "title": "PIK3CA Mutations Contribute to Acquired Cetuximab Resistance in Patients with Metastatic Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28424201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4240,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) inhibited survival of transformed breast epithelial cell lines overexpressing PIK3CA E542K in culture (PMID: 26627007).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4247,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) inhibited survival of transformed breast epithelial cell lines overexpressing PIK3CA E542K in culture (PMID: 26627007).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1360,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rapamune (sirolimus) demonstrated efficacy in inhibiting transformation of cultured cells containing PIK3CA E542K mutations (PMID: 15647370).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1077,
+                    "pubMedId": 15647370,
+                    "title": "Phosphatidylinositol 3-kinase mutations identified in human cancer are oncogenic.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15647370"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 640,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, VS-5584 demonstrated efficacy in a variety of cancer cell lines, particularly those harboring PIK3CA mutations (PMID: 23270925).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 960,
+                "therapyName": "VS-5584",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 234,
+                "name": "colon adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 351,
+                    "pubMedId": 23270925,
+                    "title": "VS-5584, a novel and highly selective PI3K/mTOR kinase inhibitor for the treatment of cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23270925"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14000,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells expressing PIK3CA E542K demonstrated resistance to treatment with Buparlisib (BKM120) in culture (PMID: 29636477).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11405,
+                    "pubMedId": 29636477,
+                    "title": "Characterization of PIK3CA and PIK3R1 somatic mutations in Chinese breast cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29636477"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20220,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in stable disease in 2 patients with serous endometrial adenocarcinoma harboring PIK3CA E542K (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17324,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, none of the 6 patients harboring PIK3CA E542K demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3002,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH5132799 inhibited proliferation of a breast cancer cell line harboring PIK3CA E542K in culture (PMID: 21558396).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 2152,
+                "therapyName": "CH5132799",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1985,
+                    "pubMedId": 21558396,
+                    "title": "The selective class I PI3K inhibitor CH5132799 targets human cancers harboring oncogenic PIK3CA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21558396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4219,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 inhibited survival of transformed breast epithelial cell lines overexpressing PIK3CA E542K in culture (PMID: 26627007).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1362,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, gastric cancer cells harboring PI3KCA E542K mutations were sensitive to the AKT inhibitor AZD5363 (PMID: 24088382).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3119,
+                "name": "gastrointestinal system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1081,
+                    "pubMedId": 24088382,
+                    "title": "The AKT inhibitor AZD5363 is selectively active in PI3KCA mutant gastric cancer, and sensitizes a patient-derived gastric cancer xenograft model with PTEN loss to Taxotere.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24088382"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4226,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) inhibited survival of transformed breast epithelial cell lines overexpressing PIK3CA E542K in culture (PMID: 26627007).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20948,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in greater growth inhibition of astrocytoma cells expressing PIK3CA E542K than cells with wild-type PIK3CA in culture (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1298,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, the combination of GDC-0941 and PD-0325901 (PI3K and MEK inhibitors, respectively) inhibited tumor growth in colorectal cancer cell line xenograft models (PMID: 24339963).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1822,
+                "therapyName": "PD-0325901 + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 354,
+                    "pubMedId": 24339963,
+                    "title": "The enhanced in vivo activity of the combination of a MEK and a PI3K inhibitor correlates with [18F]-FLT PET in human colorectal cancer xenograft tumour-bearing mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24339963"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3757,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, treatment with the combination of Erbitux (cetuximab) and Camptosar (irinotecan) resulted in a partial response in 50% (1/2) and stable disease in 50% (1/2) of colorectal carcinoma patients harboring a PIK3CA E542K mutation (PMID: 25714871).",
+            "molecularProfile": {
+                "id": 808,
+                "profileName": "PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1874,
+                "therapyName": "Cetuximab + Irinotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3888,
+                    "pubMedId": 25714871,
+                    "title": "AKT1 E17K in Colorectal Carcinoma Is Associated with BRAF V600E but Not MSI-H Status: A Clinicopathologic Comparison to PIK3CA Helical and Kinase Domain Mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25714871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5620,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) and Ibrance (palbociclib) combination treatment resulted in partial tumor regression in PDX models of colorectal cancer cells harboring KRAS Q61H and PIK3CA E542K (PMID: 26369631).",
+            "molecularProfile": {
+                "id": 21302,
+                "profileName": "KRAS Q61H PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1368,
+                "therapyName": "Palbociclib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5128,
+                    "pubMedId": 26369631,
+                    "title": "Sensitivity of KRAS-Mutant Colorectal Cancers to Combination Therapy That Cotargets MEK and CDK4/6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26369631"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8566,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 synergistically inhibited Erk and PI3K signaling and proliferation, but did not induce apoptosis in colorectal cancer cells harboring KRAS Q61L, PIK3CA E542K, and TP53 T118Qfs*5 in culture (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26412,
+                "profileName": "KRAS Q61L PIK3CA E542K TP53 T118Qfs*5"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8927,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LGH447 sensitized breast cancer cells harboring PIK3CA E542K, PTEN E288fs, PTEN T321fs, and with elevated Pim1 protein levels to Alpelisib (BYL719) in culture (PMID: 27604488).",
+            "molecularProfile": {
+                "id": 26540,
+                "profileName": "PIK3CA E542K PIM1 over exp PTEN E288fs PTEN T321fs"
+            },
+            "therapy": {
+                "id": 2419,
+                "therapyName": "Alpelisib + LGH447",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6782,
+                    "pubMedId": 27604488,
+                    "title": "Systematic Functional Characterization of Resistance to PI3K Inhibition in Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27604488"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17126,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (SOLAR-1) that supported FDA approval, Piqray (Alpelisib) and Faslodex (fulvestrant) combination treatment resulted in improved median progression-free survival (11 vs 5.7 mo, HR=0.65, p<0.001) compared to Faslodex (fulvestrant) plus placebo in patients with advanced hormone-receptor positive, Erbb2 (Her2) negative breast cancer who had prior endocrine therapy and harboring PIK3CA mutations as detected by an FDA-approved test, including PIK3CA E542K (PMID: 31091374; NCT02437318).",
+            "molecularProfile": {
+                "id": 26989,
+                "profileName": "ESR1 pos PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 5929,
+                "therapyName": "Alpelisib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15176,
+                    "pubMedId": 31091374,
+                    "title": "Alpelisib for PIK3CA-Mutated, Hormone Receptor-Positive Advanced Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31091374"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15447,
+                    "pubMedId": null,
+                    "title": "Piqray (alpelisib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 9702,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, an estrogen-receptor positive breast cancer patient harboring PIK3CA E542K demonstrated progressive disease when treated with a combination of Femara (letrozole) and Alpelisib (BYL719) (PMID: 27126994).",
+            "molecularProfile": {
+                "id": 26989,
+                "profileName": "ESR1 pos PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1553,
+                "therapyName": "Alpelisib + Letrozole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7484,
+                    "pubMedId": 27126994,
+                    "title": "A Phase Ib Study of Alpelisib (BYL719), a PI3K\u03b1-Specific Inhibitor, with Letrozole in ER+/HER2- Metastatic Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27126994"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12377,
+            "approvalStatus": "Phase 0",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a pilot clinical trial, Rapamune (sirolimus) demonstrated modest clinical activity in patients with PIK3CA-mutant gastric cancer (n=3) or hilar cholangiocarcinoma (n=1), including a gastric cancer patient harboring PIK3CA E542K and PTEN loss, with a 0% response rate, median progression-free survival of 1.9 months, and median overall survival of 3.6 months (PMID: 28685070).",
+            "molecularProfile": {
+                "id": 27243,
+                "profileName": "PIK3CA E542K PTEN loss"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 10344,
+                    "pubMedId": 28685070,
+                    "title": "Pilot study of sirolimus in patients with PIK3CA mutant/amplified refractory solid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28685070"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15791,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) treatment resulted in response in a lung squamous cell carcinoma patient-derived xenograft (PDX) model harboring PIK3CA E542K and PTEN loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 27243,
+                "profileName": "PIK3CA E542K PTEN loss"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18945,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CYH33 inhibited proliferation of a breast cancer cell line harboring PIK3CA E542K and PTEN loss in culture (PMID: 30003928).",
+            "molecularProfile": {
+                "id": 27243,
+                "profileName": "PIK3CA E542K PTEN loss"
+            },
+            "therapy": {
+                "id": 8687,
+                "therapyName": "CYH33",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16074,
+                    "pubMedId": 30003928,
+                    "title": "Decrease in phosphorylated ERK indicates the therapeutic efficacy of a clinical PI3K\u03b1-selective inhibitor CYH33 in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30003928"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10087,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, inhibition of Pi3k signaling by BEZ235 sensitized breast cancer cell lines harboring PIK3CA E542K and PTEN loss to WEHI-539 in culture (PMID: 27974663).",
+            "molecularProfile": {
+                "id": 27243,
+                "profileName": "PIK3CA E542K PTEN loss"
+            },
+            "therapy": {
+                "id": 5377,
+                "therapyName": "BEZ235 + WEHI-539",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8002,
+                    "pubMedId": 27974663,
+                    "title": "PIK3CA mutations enable targeting of a breast tumor dependency through mTOR-mediated MCL-1 translation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27974663"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13061,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Theliatinib treatment demonstrated decreased efficcacy in patient-derived xenograft (PDX) models of esophageal cancer with Egfr overexpression and PIK3CA E542K compared to models with only Egfr overexpression (PMID: 28881608).",
+            "molecularProfile": {
+                "id": 28989,
+                "profileName": "EGFR over exp PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 3668,
+                "therapyName": "Theliatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5041,
+                "name": "esophageal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10940,
+                    "pubMedId": 28881608,
+                    "title": "Anti-tumor efficacy of theliatinib in esophageal cancer patient-derived xenografts models with epidermal growth factor receptor (EGFR) overexpression and gene amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28881608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15499,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, loss of EGFR T790M and acquired PIK3CA E418K and E542K mutations were identified in a post-treatment sample from a patient harboring an EGFR exon 19 deletion who progressed on Tagrisso (osimertinib) treatment (PMID: 30228210).",
+            "molecularProfile": {
+                "id": 31070,
+                "profileName": "EGFR exon 19 del PIK3CA E418K PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13403,
+                    "pubMedId": 30228210,
+                    "title": "Landscape of EGFR-Dependent and -Independent Resistance Mechanisms to Osimertinib and Continuation Therapy Beyond Progression in EGFR-Mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30228210"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15789,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alpelisib (BYL719) treatment resulted in response in a lung squamous cell carcinoma patient-derived xenograft (PDX) model harboring PIK3CA E542K and PIK3CA amplification (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31218,
+                "profileName": "PIK3CA E542K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15783,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Buparlisib (BKM120) treatment resulted in inhibition of AKT and S6 phosphorylation and durable response in a lung squamous cell carcinoma patient-derived xenograft (PDX) model harboring PIK3CA E542K and PIK3CA amplification (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31218,
+                "profileName": "PIK3CA E542K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15799,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Buparlisib (BYL719) and Ibrance (palbociclib) resulted in increased tumor growth inhibition compared to either agent alone in a patient-derived xenograft (PDX) model of lung squamous cell carcinoma harboring PIK3CA E542K and PTEN loss, with p16 (CDKN2A) loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31222,
+                "profileName": "CDKN2A loss PIK3CA E542K PTEN loss"
+            },
+            "therapy": {
+                "id": 7736,
+                "therapyName": "Buparlisib + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15800,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Buparlisib (BYL719) and Ibrance (palbociclib) resulted in increased tumor growth inhibition compared to either agent alone in a patient-derived xenograft (PDX) model of lung squamous cell carcinoma harboring PIK3CA E542K and PIK3CA amplification, with p16 (CDKN2A) loss (PMID: 30093452).",
+            "molecularProfile": {
+                "id": 31224,
+                "profileName": "CDKN2A loss PIK3CA E542K PIK3CA amp"
+            },
+            "therapy": {
+                "id": 7736,
+                "therapyName": "Buparlisib + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13808,
+                    "pubMedId": 30093452,
+                    "title": "Targeting the CDK4/6-Rb Pathway Enhances Response to PI3K Inhibition in PIK3CA-Mutant Lung Squamous Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15822,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis of a Phase I and a Phase II trial, PIK3CA activating mutations were identified at disease progression in 12% (5/43) of patients with non-small cell lung cancer harboring both EGFR T790M and another EGFR activating mutation (exon 19 deletion, n=3; L858R, n=2) treated with Rociletinib (CO-1686), PIK3CA E542K was identified in 3 of the 5 patients (PMID: 27283993; NCT01526928, NCT02147990).",
+            "molecularProfile": {
+                "id": 31244,
+                "profileName": "EGFR T790M EGFR act mut PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7047,
+                    "pubMedId": 27283993,
+                    "title": "Circulating tumour DNA profiling reveals heterogeneity of EGFR inhibitor resistance mechanisms in lung cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27283993"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17744,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, MK2206 treatment resulted in a partial response in a patient with ER-positive, PR-negative, and ERBB2 (HER2)-negative breast cancer harboring PIK3CA E542K and KRAS G12S, the patient remained on study for 36 weeks (PMID: 31277699; NCT01277757).",
+            "molecularProfile": {
+                "id": 32786,
+                "profileName": "KRAS G12S PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15758,
+                    "pubMedId": 31277699,
+                    "title": "Phase II trial of AKT inhibitor MK-2206 in patients with advanced breast cancer who have tumors with PIK3CA or AKT mutations, and/or PTEN loss/PTEN mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31277699"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17749,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (ExteNET), Nerlynx (neratinib) treatment resulted in improved 5-year invasive disease-free survival (92.4% vs 84.5%, HR=0.41, p=0.028) and clinical benefit (HR=0.40, p=0.041) compared to placebo in patients with ERBB2 (HER2)-positive early breast cancer who completed trastuzumab-based adjuvant therapy, and harbored PIK3CA amplification (n=61) or mutations (n=210), including H1047R (n=110), E542K (n=18), and E545K/D (n=82) (PMID: 30867034; NCT00878709).",
+            "molecularProfile": {
+                "id": 32789,
+                "profileName": "ERBB2 pos PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15759,
+                    "pubMedId": 30867034,
+                    "title": "PIK3CA alterations and benefit with neratinib: analysis from the randomized, double-blind, placebo-controlled, phase III ExteNET trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30867034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19574,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (SOLAR-1) that supported FDA approval, Piqray (Alpelisib) and Faslodex (fulvestrant) combination treatment resulted in improved median progression-free survival (11 vs 5.7 mo, HR=0.65, p<0.001) compared to Faslodex (fulvestrant) plus placebo in patients with advanced hormone-receptor positive, Erbb2 (Her2) negative breast cancer who had prior endocrine therapy and harboring PIK3CA mutations as detected by an FDA-approved test, including PIK3CA E542K (PMID: 31091374; NCT02437318).",
+            "molecularProfile": {
+                "id": 34230,
+                "profileName": "PGR pos PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 5929,
+                "therapyName": "Alpelisib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15176,
+                    "pubMedId": 31091374,
+                    "title": "Alpelisib for PIK3CA-Mutated, Hormone Receptor-Positive Advanced Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31091374"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15447,
+                    "pubMedId": null,
+                    "title": "Piqray (alpelisib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20966,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in growth inhibition of astrocytoma cells with an HRAS mutation expressing PIK3CA E542K in culture, but at a higher drug concentration compared to cells without mutant HRAS (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 35458,
+                "profileName": "HRAS mut PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 808,
+            "profileName": "PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17049,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA E542K"
+                },
+                {
+                    "id": 17047,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA E542K"
+                },
+                {
+                    "id": 17048,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA E542K"
+                },
+                {
+                    "id": 17050,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA E542K"
+                },
+                {
+                    "id": 17054,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA E542K"
+                },
+                {
+                    "id": 17052,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA E542K"
+                },
+                {
+                    "id": 17053,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA E542K"
+                },
+                {
+                    "id": 17051,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA E542K"
+                }
+            ]
+        },
+        {
+            "id": 21302,
+            "profileName": "KRAS Q61H PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26355,
+            "profileName": "KRAS Q61L PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26412,
+            "profileName": "KRAS Q61L PIK3CA E542K TP53 T118Qfs*5",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26540,
+            "profileName": "PIK3CA E542K PIM1 over exp PTEN E288fs PTEN T321fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26989,
+            "profileName": "ESR1 pos PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27243,
+            "profileName": "PIK3CA E542K PTEN loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28989,
+            "profileName": "EGFR over exp PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31070,
+            "profileName": "EGFR exon 19 del PIK3CA E418K PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31218,
+            "profileName": "PIK3CA E542K PIK3CA amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31222,
+            "profileName": "CDKN2A loss PIK3CA E542K PTEN loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31224,
+            "profileName": "CDKN2A loss PIK3CA E542K PIK3CA amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31244,
+            "profileName": "EGFR T790M EGFR act mut PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32786,
+            "profileName": "KRAS G12S PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32789,
+            "profileName": "ERBB2 pos PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34230,
+            "profileName": "PGR pos PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35458,
+            "profileName": "HRAS mut PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171733,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179218294G>A",
+            "cDna": "c.1624G>A",
+            "protein": "p.E542K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171732,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179218294G>A",
+            "cDna": "c.1624G>A",
+            "protein": "p.E542K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171731,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179218294G>A",
+            "cDna": "c.1624G>A",
+            "protein": "p.E542K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "id": 4353,
+    "fullName": "KDR R1032Q",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "KDR (VEGFR2) R1032Q lies within the protein kinase domain of the Kdr (Vegfr2) protein (UniProt.org). R1032Q results in decreased ligand-induced phosphorylation of Kdr (Vegfr2) and Mapk in cell culture (PMID: 28743916), but induces tumor growth in mouse models above wild-type protein (PMID: 29588308), and therefore, its effect on Kdr (Vegfr2) protein function is unknown.",
+            "references": [
+                {
+                    "id": 10127,
+                    "pubMedId": 28743916,
+                    "title": "Analysis of somatic mutations across the kinome reveals loss-of-function mutations in multiple cancer types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28743916"
+                },
+                {
+                    "id": 12199,
+                    "pubMedId": 29588308,
+                    "title": "Exome Sequencing of Plasma DNA Portrays the Mutation Landscape of Colorectal Cancer and Discovers Mutated VEGFR2 Receptors as Modulators of Antiangiogenic Therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29588308"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3791,
+        "geneSymbol": "KDR",
+        "terms": [
+            "KDR",
+            "CD309",
+            "FLK1",
+            "VEGFR",
+            "VEGFR2"
+        ]
+    },
+    "variant": "R1032Q",
+    "createDate": "04/01/2015",
+    "updateDate": "02/03/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102209,
+        "transcript": "NM_002253",
+        "gDna": "chr4:g.55090053C>T",
+        "cDna": "c.3095G>A",
+        "protein": "p.R1032Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15428,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (Cabometyx, cabozantinib) inhibited reduced ERK phosphorylation and inhibited growth of a colorectal cancer cell line harboring KDR (VEGFR2) R1032Q in culture (PMID: 29588308).",
+            "molecularProfile": {
+                "id": 4159,
+                "profileName": "KDR R1032Q"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12199,
+                    "pubMedId": 29588308,
+                    "title": "Exome Sequencing of Plasma DNA Portrays the Mutation Landscape of Colorectal Cancer and Discovers Mutated VEGFR2 Receptors as Modulators of Antiangiogenic Therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29588308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15429,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of KDR (VEGFR2) R1032Q in a colorectal cancer cell line resulted in increased sensitivity to Lenvima (lenvatinib), leading to increased growth inhibition in culture (PMID: 29588308).",
+            "molecularProfile": {
+                "id": 4159,
+                "profileName": "KDR R1032Q"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12199,
+                    "pubMedId": 29588308,
+                    "title": "Exome Sequencing of Plasma DNA Portrays the Mutation Landscape of Colorectal Cancer and Discovers Mutated VEGFR2 Receptors as Modulators of Antiangiogenic Therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29588308"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4159,
+            "profileName": "KDR R1032Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102209,
+            "transcript": "NM_002253",
+            "gDna": "chr4:g.55090053C>T",
+            "cDna": "c.3095G>A",
+            "protein": "p.R1032Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

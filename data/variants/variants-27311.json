@@ -1,0 +1,144 @@
+{
+    "id": 27311,
+    "fullName": "EGFR H773_V774dup",
+    "impact": "duplication",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR H773_V774dup (also referred to as P772_H773insHV) indicates the insertion of 2 duplicate amino acids, histidine (H)-773 through valine (V)-774, in the protein kinase domain of the Egfr protein (UniProt.org). H773_V774dup has not been biochemically characterized, but is predicted to lead to Egfr activation based on the effect of other Egfr exon 20 insertions (PMID: 24353160, PMID: 16187797).",
+            "references": [
+                {
+                    "id": 410,
+                    "pubMedId": 16187797,
+                    "title": "Oncogenic transformation by inhibitor-sensitive and -resistant EGFR mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16187797"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 440,
+                    "pubMedId": 24353160,
+                    "title": "Structural, biochemical, and clinical characterization of epidermal growth factor receptor (EGFR) exon 20 insertion mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24353160"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "H773_V774dup",
+    "createDate": "11/28/2017",
+    "updateDate": "07/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135683,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181326_55181331",
+        "cDna": "c.2317_2322",
+        "protein": "p.H773_V774",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20925,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing the EGFR exon 20 insertion H773_V774dup were resistant to Tagrisso (osimertinib) in culture (PMID: 24893891).",
+            "molecularProfile": {
+                "id": 28734,
+                "profileName": "EGFR H773_V774dup"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 537,
+                    "pubMedId": 24893891,
+                    "title": "AZD9291, an irreversible EGFR TKI, overcomes T790M-mediated resistance to EGFR inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24893891"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20101,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in progressive disease with a progression-free survival of 4 months in a patient with non-small cell lung cancer harboring EGFR H773_V774dup (PMID: 31715539).",
+            "molecularProfile": {
+                "id": 28734,
+                "profileName": "EGFR H773_V774dup"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17697,
+                    "pubMedId": 31715539,
+                    "title": "Detection of rare and novel EGFR mutations in NSCLC patients: Implications for treatment-decision.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31715539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28734,
+            "profileName": "EGFR H773_V774dup",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135683,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181326_55181331",
+            "cDna": "c.2317_2322",
+            "protein": "p.H773_V774",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

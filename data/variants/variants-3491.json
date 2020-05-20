@@ -1,0 +1,156 @@
+{
+    "id": 3491,
+    "fullName": "EGFR G724S",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR G724S lies within the protein kinase domain of the Egfr protein (UniProt.org). G724S results in constitutive phosphorylation of Egfr and is transforming in cell culture (PMID: 24894453).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1125,
+                    "pubMedId": 24894453,
+                    "title": "Colon cancer-derived oncogenic EGFR G724S mutant identified by whole genome sequence analysis is dependent on asymmetric dimerization and sensitive to cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24894453"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "G724S",
+    "createDate": "03/04/2015",
+    "updateDate": "03/04/2015",
+    "referenceTranscriptCoordinates": {
+        "id": 135661,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174029G>A",
+        "cDna": "c.2170G>A",
+        "protein": "p.G724S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15879,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a single patient with lung adenocarcinoma harboring an EGFR exon 19 deletion (E746_S752delinsV) and EGFR T790M was found to have acquired, via cell free DNA testing, an EGFR G724S mutation upon disease progression after 1 year of Tagrisso (osimertinib) therapy (PMID: 30588029).",
+            "molecularProfile": {
+                "id": 31308,
+                "profileName": "EGFR G724S EGFR E746_S752delinsV EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13940,
+                    "pubMedId": 30588029,
+                    "title": "Newly emergent acquired EGFR exon 18 G724S mutation after resistance of a T790M specific EGFR inhibitor osimertinib in non-small-cell lung cancer: a case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30588029"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19908,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tarceva (erlotinib) and was found via cell free DNA testing to harbor EGFR G724S, an EGFR exon 19 deletion, CTNNB1 S45P, and CCDC6-RET (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34665,
+                "profileName": "CCDC6 - RET CTNNB1 S45P EGFR exon 19 del EGFR G724S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3297,
+            "profileName": "EGFR G724S",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 3727,
+                    "name": "Cetuximab",
+                    "profileName": "EGFR G724S"
+                }
+            ]
+        },
+        {
+            "id": 31308,
+            "profileName": "EGFR G724S EGFR E746_S752delinsV EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34665,
+            "profileName": "CCDC6 - RET CTNNB1 S45P EGFR exon 19 del EGFR G724S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135661,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174029G>A",
+            "cDna": "c.2170G>A",
+            "protein": "p.G724S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,299 @@
+{
+    "id": 3277,
+    "fullName": "EGFR L747_T751del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR L747_T751del results in the deletion of five amino acids in the protein kinase domain of the Egfr protein from amino acids 747 to 751 (UniProt.org). L747_T751del results in increased Egfr kinase activity (PMID: 23387505) and and demonstrates increased transformation ability in two different cell lines in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 441,
+                    "pubMedId": 23387505,
+                    "title": "Sensitivity and kinase activity of epidermal growth factor receptor (EGFR) exon 19 and others to EGFR-tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23387505"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "L747_T751del",
+    "createDate": "02/21/2015",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135754,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174777_55174791del15",
+        "cDna": "c.2240_2254del15",
+        "protein": "p.L747_T751delLREAT",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14696,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_T751del were sensitive to treatment with Rociletinib (CO-1686) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3094,
+                "profileName": "EGFR L747_T751del"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14698,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_T751del were resistant to treatment with Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3094,
+                "profileName": "EGFR L747_T751del"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14662,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_T751del were sensitive to treatment with Gilotrif (afatinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3094,
+                "profileName": "EGFR L747_T751del"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14658,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_T751del were sensitive to treatment with Tarceva (erlotinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3094,
+                "profileName": "EGFR L747_T751del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14656,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_T751del were sensitive to treatment with Iressa (gefitinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3094,
+                "profileName": "EGFR L747_T751del"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9057,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Mekinist (trametinib) to WZ4002 treatment did not significantly impact cell viability compared to WZ4002 alone, but delayed onset of drug resistance in a non-small cell lung cancer cell line harboring EGFR L747_T751del and EGFR S752I in culture (PMID: 26036643).",
+            "molecularProfile": {
+                "id": 26703,
+                "profileName": "EGFR L747_T751del EGFR S752I"
+            },
+            "therapy": {
+                "id": 3351,
+                "therapyName": "Trametinib + WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6890,
+                    "pubMedId": 26036643,
+                    "title": "Combined EGFR/MEK Inhibition Prevents the Emergence of Resistance in EGFR-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26036643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3094,
+            "profileName": "EGFR L747_T751del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4639,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR L747_T751del"
+                },
+                {
+                    "id": 4640,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR L747_T751del"
+                },
+                {
+                    "id": 4638,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR L747_T751del"
+                },
+                {
+                    "id": 4641,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR L747_T751del"
+                },
+                {
+                    "id": 4642,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR L747_T751del"
+                }
+            ]
+        },
+        {
+            "id": 26703,
+            "profileName": "EGFR L747_T751del EGFR S752I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135754,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174777_55174791del15",
+            "cDna": "c.2240_2254del15",
+            "protein": "p.L747_T751delLREAT",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,686 @@
+{
+    "id": 3076,
+    "fullName": "NRAS G12D",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS G12D is a hotspot mutation that lies within a GTP-binding region of the Nras protein (UniProt.org). G12D confers a loss of function on Nras protein as indicated by decreased intrinsic GTPase activity, reduced sensitivity to GTPase-activating proteins, leading to accumulation of GTP-bound Nras, activation of downstream signaling, and transformation of cultured cells (PMID: 19075190, PMID: 25252692).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1868,
+                    "pubMedId": 25252692,
+                    "title": "Mutation-specific RAS oncogenicity explains NRAS codon 61 selection in melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25252692"
+                },
+                {
+                    "id": 547,
+                    "pubMedId": 19075190,
+                    "title": "High-throughput sequencing screen reveals novel, transforming RAS mutations in myeloid leukemia patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19075190"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "G12D",
+    "createDate": "02/11/2015",
+    "updateDate": "09/20/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162432,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114716126C>T",
+        "cDna": "c.35G>A",
+        "protein": "p.G12D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9740,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, N-Arachidonoyl Dopamine (NADA) disrupted NRAS protein membrane localization and decreased NRAS downstream signaling, and inhibited proliferation and induced cell death in transformed cells expressing NRAS G12D in culture (PMID: 27760835).",
+            "molecularProfile": {
+                "id": 2899,
+                "profileName": "NRAS G12D"
+            },
+            "therapy": {
+                "id": 5185,
+                "therapyName": "N-Arachidonoyl Dopamine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7517,
+                    "pubMedId": 27760835,
+                    "title": "N-Arachidonoyl Dopamine Inhibits NRAS Neoplastic Transformation by Suppressing Its Plasma Membrane Translocation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27760835"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3595,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Binimetinib (MEK162) inhibited growth of acute myeloid leukemia cells that have been demonstrated to harbor NRAS G12D in culture and decreased disease burden in xenograft models with NRAS G12D (PMID: 24569456, PMID: 11238126).",
+            "molecularProfile": {
+                "id": 2899,
+                "profileName": "NRAS G12D"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3872,
+                    "pubMedId": 24569456,
+                    "title": "Hematopoiesis and RAS-driven myeloid leukemia differentially require PI3K isoform p110\u03b1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569456"
+                },
+                {
+                    "id": 3873,
+                    "pubMedId": 11238126,
+                    "title": "Cell-cycle-dependent activation of mitogen-activated protein kinase kinase (MEK-1/2) in myeloid leukemia cell lines and induction of growth inhibition and apoptosis by inhibitors of RAS signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11238126"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3597,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Binimetinib (MEK162) and Alpelisib (BYL719) inhibited proliferation in a human acute myeloid leukemia (AML) cell line harboring NRAS G12D in culture, and decreased disease burden in xenograft models (PMID: 24569456).",
+            "molecularProfile": {
+                "id": 2899,
+                "profileName": "NRAS G12D"
+            },
+            "therapy": {
+                "id": 1311,
+                "therapyName": "Alpelisib + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3872,
+                    "pubMedId": 24569456,
+                    "title": "Hematopoiesis and RAS-driven myeloid leukemia differentially require PI3K isoform p110\u03b1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569456"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5270,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human melanoma cell line harboring NRAS G12D with PLK1 over expression was sensitive to the combination of Mekinist (trametinib) and Volasertib, which produced a synergistic effect in xenograft models, resulting in decreased cell viability and tumor regression (PMID: 26016894).",
+            "molecularProfile": {
+                "id": 20450,
+                "profileName": "NRAS G12D PLK1 over exp"
+            },
+            "therapy": {
+                "id": 3805,
+                "therapyName": "Trametinib + Volasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4976,
+                    "pubMedId": 26016894,
+                    "title": "Combined Inhibition of MEK and Plk1 Has Synergistic Antitumor Activity in NRAS Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26016894"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12169,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZ20 treatment resulted in growth inhibition of tumor cells and prolonged survival in animal models of acute myeloid leukemia harboring KMT2A-MLLT1 fusion and NRAS G12D (PMID: 27625305).",
+            "molecularProfile": {
+                "id": 20552,
+                "profileName": "KMT2A - MLLT1 NRAS G12D"
+            },
+            "therapy": {
+                "id": 2880,
+                "therapyName": "AZ20",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10122,
+                    "pubMedId": 27625305,
+                    "title": "Targeting the kinase activities of ATR and ATM exhibits antitumoral activity in mouse models of MLL-rearranged AML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27625305"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12168,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD0156 treatment resulted in growth inhibition of tumor cells and prolonged survival in animal models of acute myeloid leukemia harboring KMT2A-MLLT1 fusion and NRAS G12D (PMID: 27625305).",
+            "molecularProfile": {
+                "id": 20552,
+                "profileName": "KMT2A - MLLT1 NRAS G12D"
+            },
+            "therapy": {
+                "id": 3557,
+                "therapyName": "AZD0156",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10122,
+                    "pubMedId": 27625305,
+                    "title": "Targeting the kinase activities of ATR and ATM exhibits antitumoral activity in mouse models of MLL-rearranged AML.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27625305"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5311,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cells co-harboring KMT2A-MLLT1 and NRAS G12D demonstrated a decrease in tumor burden, reduced colony formation, and an increase in cell death when treated with Dinaciclib in both culture and mouse models (PMID: 26627013).",
+            "molecularProfile": {
+                "id": 20552,
+                "profileName": "KMT2A - MLLT1 NRAS G12D"
+            },
+            "therapy": {
+                "id": 719,
+                "therapyName": "Dinaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5010,
+                    "pubMedId": 26627013,
+                    "title": "The CDK9 Inhibitor Dinaciclib Exerts Potent Apoptotic and Antitumor Effects in Preclinical Models of MLL-Rearranged Acute Myeloid Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627013"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7965,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring both BRAF D594G and NRAS G12D demonstrated decreased sensitivity to Tafinlar (dabrafenib) in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26096,
+                "profileName": "BRAF D594G NRAS G12D"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7951,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring both BRAF D594G and NRAS G12D demonstrated decreased sensitivity to PLX7904 in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26096,
+                "profileName": "BRAF D594G NRAS G12D"
+            },
+            "therapy": {
+                "id": 4606,
+                "therapyName": "PLX7904",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7941,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-632 inhibited proliferation of melanoma cell lines harboring both BRAF D594G and NRAS G12D in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26096,
+                "profileName": "BRAF D594G NRAS G12D"
+            },
+            "therapy": {
+                "id": 3300,
+                "therapyName": "TAK-632",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7957,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring both BRAF D594G and NRAS G12D demonstrated decreased sensitivity to Zelboraf (vemurafenib) in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26096,
+                "profileName": "BRAF D594G NRAS G12D"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7911,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZ628 inhibited proliferation of melanoma cell lines harboring both BRAF D594G and NRAS G12D in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26096,
+                "profileName": "BRAF D594G NRAS G12D"
+            },
+            "therapy": {
+                "id": 1093,
+                "therapyName": "AZ628",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8810,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY1125976 inhibited proliferation of a prostate cancer cell line harboring AKT E17K and NRAS G12D in culture, and demonstrated antitumor activity in xenograft models (PMID: 27699769).",
+            "molecularProfile": {
+                "id": 26446,
+                "profileName": "AKT1 E17K NRAS G12D"
+            },
+            "therapy": {
+                "id": 994,
+                "therapyName": "BAY1125976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6757,
+                    "pubMedId": 27699769,
+                    "title": "BAY 1125976, a selective allosteric AKT1/2 inhibitor, exhibits high efficacy on AKT signaling-dependent tumor growth in mouse models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27699769"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16580,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Cotellic (cobimetinib) in patients with histiocytic neoplasms resulted in a PET overall response rate of 89% (16/18), with complete response in 72% (13/18) and partial response in 17% (3/18), and resulted in stable disease in 6% (1/18) of patients, including a complete response in a patient with Langerhans cell histiocytosis harboring BRAF V600E, KRAS G13C, and NRAS G12D (PMID: 30867592; NCT01953926).",
+            "molecularProfile": {
+                "id": 31703,
+                "profileName": "BRAF V600E KRAS G13C NRAS G12D"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60073,
+                "name": "lymphatic system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14632,
+                    "pubMedId": 30867592,
+                    "title": "Efficacy of MEK inhibition in patients with histiocytic neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30867592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18145,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line harboring DNMT3A R882H and NRAS G12D mutations demonstrated reduced proliferation and downregulation of a DNMT3A R882H associated gene expression profile upon I-BET151 treatment in culture, and I-BET151 treatment delayed the onset of leukemia symptoms and improved survival in xenograft mouse models derived from these cells (PMID: 31164355).",
+            "molecularProfile": {
+                "id": 32978,
+                "profileName": "DNMT3A R882H NRAS G12D"
+            },
+            "therapy": {
+                "id": 5953,
+                "therapyName": "I-BET151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16011,
+                    "pubMedId": 31164355,
+                    "title": "A Model System for Studying the DNMT3A Hotspot Mutation (DNMT3AR882) Demonstrates a Causal Relationship between Its Dominant-Negative Effect and Leukemogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31164355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18146,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line xenograft model harboring DNMT3A R882H and NRAS G12D was sensitive to Mekinist (trametinib), demonstrating impaired disease progression and improved survival (PMID: 31164355).",
+            "molecularProfile": {
+                "id": 32978,
+                "profileName": "DNMT3A R882H NRAS G12D"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16011,
+                    "pubMedId": 31164355,
+                    "title": "A Model System for Studying the DNMT3A Hotspot Mutation (DNMT3AR882) Demonstrates a Causal Relationship between Its Dominant-Negative Effect and Leukemogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31164355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18147,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an acute myeloid leukemia cell line xenograft model harboring DNMT3A R882H and NRAS G12D treated with combined I-BET151 and Mekinist (trametinib) demonstrated impaired disease progression and improved survival superior to either therapy alone (PMID: 31164355).",
+            "molecularProfile": {
+                "id": 32978,
+                "profileName": "DNMT3A R882H NRAS G12D"
+            },
+            "therapy": {
+                "id": 8680,
+                "therapyName": "I-BET151 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16011,
+                    "pubMedId": 31164355,
+                    "title": "A Model System for Studying the DNMT3A Hotspot Mutation (DNMT3AR882) Demonstrates a Causal Relationship between Its Dominant-Negative Effect and Leukemogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31164355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2899,
+            "profileName": "NRAS G12D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 902,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS G12D"
+                },
+                {
+                    "id": 900,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS G12D"
+                },
+                {
+                    "id": 908,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS G12D"
+                },
+                {
+                    "id": 904,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS G12D"
+                },
+                {
+                    "id": 901,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS G12D"
+                },
+                {
+                    "id": 903,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS G12D"
+                }
+            ]
+        },
+        {
+            "id": 20450,
+            "profileName": "NRAS G12D PLK1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20552,
+            "profileName": "KMT2A - MLLT1 NRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26096,
+            "profileName": "BRAF D594G NRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26446,
+            "profileName": "AKT1 E17K NRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31703,
+            "profileName": "BRAF V600E KRAS G13C NRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32978,
+            "profileName": "DNMT3A R882H NRAS G12D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162432,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114716126C>T",
+            "cDna": "c.35G>A",
+            "protein": "p.G12D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

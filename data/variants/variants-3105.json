@@ -1,0 +1,189 @@
+{
+    "id": 3105,
+    "fullName": "EGFR A289D",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR A289D lies within the extracellular domain of the Egfr protein (PMID: 22588883). A289D confers a gain of function on Egfr protein, as indicated by increased Egfr phosphorylation (PMID: 22588883) and increased cell proliferation and viability in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 1887,
+                    "pubMedId": 22588883,
+                    "title": "Differential sensitivity of glioma- versus lung cancer-specific EGFR mutations to EGFR kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22588883"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "A289D",
+    "createDate": "02/15/2015",
+    "updateDate": "10/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135511,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55154129C>A",
+        "cDna": "c.866C>A",
+        "protein": "p.A289D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12403,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A289D were sensitive to treatment with Erbitux (cetuximab) in culture, demonstrating decreased cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2928,
+                "profileName": "EGFR A289D"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12401,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A289D were sensitive to treatment with Tagrisso (osimertinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2928,
+                "profileName": "EGFR A289D"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2928,
+            "profileName": "EGFR A289D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17912,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR A289D"
+                },
+                {
+                    "id": 17916,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR A289D"
+                },
+                {
+                    "id": 17915,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR A289D"
+                },
+                {
+                    "id": 17913,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR A289D"
+                },
+                {
+                    "id": 17914,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR A289D"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135514,
+            "transcript": "NM_201283",
+            "gDna": "chr7:g.55154129C>A",
+            "cDna": "c.866C>A",
+            "protein": "p.A289D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135512,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55154129C>A",
+            "cDna": "c.866C>A",
+            "protein": "p.A289D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135513,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55154129C>A",
+            "cDna": "c.866C>A",
+            "protein": "p.A289D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135511,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55154129C>A",
+            "cDna": "c.866C>A",
+            "protein": "p.A289D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

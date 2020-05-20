@@ -1,0 +1,292 @@
+{
+    "id": 3496,
+    "fullName": "EGFR R776H",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR R776H lies within the protein kinase domain of the Egfr protein (UniProt.org). R776H results in constitutive phosphorylation of Egfr, activation of Erk and Stat5 in cell culture (PMID: 23358982) and induces cell proliferation and cell viability in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 2080,
+                    "pubMedId": 23358982,
+                    "title": "Activating germline R776H mutation in the epidermal growth factor receptor associated with lung cancer with squamous differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23358982"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "R776H",
+    "createDate": "03/04/2015",
+    "updateDate": "04/17/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135858,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181336G>A",
+        "cDna": "c.2327G>A",
+        "protein": "p.R776H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16345,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R776H were resistant to treatment with Rociletinib (CO-1686) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3302,
+                "profileName": "EGFR R776H"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16341,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R776H were sensitive to treatment with Tarceva (erlotinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3302,
+                "profileName": "EGFR R776H"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16343,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R776H were sensitive to treatment with Gilotrif (afatinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3302,
+                "profileName": "EGFR R776H"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3327,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Gilotrif (afatinib) treatment resulted in progressive disease in a non-small cell lung carcinoma patient harboring an EGFR R776H mutation (PMID: 26354527).",
+            "molecularProfile": {
+                "id": 3302,
+                "profileName": "EGFR R776H"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 3736,
+                    "pubMedId": 26354527,
+                    "title": "Afatinib in Non-Small Cell Lung Cancer Harboring Uncommon EGFR Mutations Pretreated With Reversible EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26354527"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16344,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R776H were sensitive to treatment with Tagrisso (osimertinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3302,
+                "profileName": "EGFR R776H"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16346,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R776H were sensitive to treatment with Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3302,
+                "profileName": "EGFR R776H"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3302,
+            "profileName": "EGFR R776H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4776,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR R776H"
+                },
+                {
+                    "id": 4774,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR R776H"
+                },
+                {
+                    "id": 4777,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR R776H"
+                },
+                {
+                    "id": 4775,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR R776H"
+                },
+                {
+                    "id": 4778,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR R776H"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135858,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181336G>A",
+            "cDna": "c.2327G>A",
+            "protein": "p.R776H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

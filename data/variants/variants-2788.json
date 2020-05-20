@@ -1,0 +1,330 @@
+{
+    "id": 2788,
+    "fullName": "MTOR E2419K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR E2419K lies near the negative regulatory domain of the Mtor protein (PMID: 24625776). E2419K confers a gain of function to the Mtor protein, resulting in increased downstream signaling in cell culture (PMID: 24625776, PMID: 29530932, PMID: 17360675).",
+            "references": [
+                {
+                    "id": 1381,
+                    "pubMedId": 24625776,
+                    "title": "Activating mTOR mutations in a patient with an extraordinary response on a phase I trial of everolimus and pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24625776"
+                },
+                {
+                    "id": 11632,
+                    "pubMedId": 29530932,
+                    "title": "Concurrent Alterations in EGFR-Mutant Lung Cancers Associated with Resistance to EGFR Kinase Inhibitors and Characterization of MTOR as a Mediator of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29530932"
+                },
+                {
+                    "id": 11229,
+                    "pubMedId": 17360675,
+                    "title": "Point mutations in TOR confer Rheb-independent growth in fission yeast and nutrient-independent mammalian TOR signaling in mammalian cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17360675"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "E2419K",
+    "createDate": "12/18/2014",
+    "updateDate": "07/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 145169,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11114363C>T",
+        "cDna": "c.7255G>A",
+        "protein": "p.E2419K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1485,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, downstream signaling of MTOR E2419K in transfected cells was inhibited by Rapamune (sirolimus) treatment (PMID: 24625776).",
+            "molecularProfile": {
+                "id": 2602,
+                "profileName": "MTOR E2419K"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4006,
+                "name": "bladder urothelial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1381,
+                    "pubMedId": 24625776,
+                    "title": "Activating mTOR mutations in a patient with an extraordinary response on a phase I trial of everolimus and pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24625776"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1486,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with advanced urothelial cancer harboring both MTOR E2014K and MTOR E2419K was exceptionally sensitive to combined treatment with Afinitor (everolimus) and Votrient (pazopanib) and cell based assays suggested Afinitor (everolimus) was responsible for the effect (PMID: 24625776).",
+            "molecularProfile": {
+                "id": 2603,
+                "profileName": "MTOR E2014K MTOR E2419K"
+            },
+            "therapy": {
+                "id": 1806,
+                "therapyName": "Everolimus + Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4006,
+                "name": "bladder urothelial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1381,
+                    "pubMedId": 24625776,
+                    "title": "Activating mTOR mutations in a patient with an extraordinary response on a phase I trial of everolimus and pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24625776"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14392,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lung cancer patient harboring EGFR L858R developed resistance to Tarceva (erlotinib) treatment and was subsequently found to have acquired a secondary resistance mutation, MTOR E2419K (PMID: 29530932).",
+            "molecularProfile": {
+                "id": 30015,
+                "profileName": "EGFR L858R MTOR E2419K"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11632,
+                    "pubMedId": 29530932,
+                    "title": "Concurrent Alterations in EGFR-Mutant Lung Cancers Associated with Resistance to EGFR Kinase Inhibitors and Characterization of MTOR as a Mediator of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29530932"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14431,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung carcinoma cells, known to harbor EGFR exon 19 del (PMID: 26515464), expressing MTOR E2419K were sensitive to the combined therapy of Tarceva (erlotinib) and AZD8055, demonstrating inhibition of EGFR downstream signaling in vitro and tumor shrinkage in cell line xenograft models (PMID: 29530932).",
+            "molecularProfile": {
+                "id": 30016,
+                "profileName": "EGFR exon 19 del MTOR E2419K"
+            },
+            "therapy": {
+                "id": 7089,
+                "therapyName": "AZD8055 + Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11632,
+                    "pubMedId": 29530932,
+                    "title": "Concurrent Alterations in EGFR-Mutant Lung Cancers Associated with Resistance to EGFR Kinase Inhibitors and Characterization of MTOR as a Mediator of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29530932"
+                },
+                {
+                    "id": 11633,
+                    "pubMedId": 26515464,
+                    "title": "In vitro modeling to determine mutation specificity of EGFR tyrosine kinase inhibitors against clinically relevant EGFR mutants in non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26515464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14417,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells, known to harbor EGFR exon 19 del (PMID: 26515464), expressing MTOR E2419K were resistant to treatment with AZD8055 both in culture and in cell line xenograft models (PMID: 29530932).",
+            "molecularProfile": {
+                "id": 30016,
+                "profileName": "EGFR exon 19 del MTOR E2419K"
+            },
+            "therapy": {
+                "id": 1519,
+                "therapyName": "AZD8055",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11632,
+                    "pubMedId": 29530932,
+                    "title": "Concurrent Alterations in EGFR-Mutant Lung Cancers Associated with Resistance to EGFR Kinase Inhibitors and Characterization of MTOR as a Mediator of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29530932"
+                },
+                {
+                    "id": 11633,
+                    "pubMedId": 26515464,
+                    "title": "In vitro modeling to determine mutation specificity of EGFR tyrosine kinase inhibitors against clinically relevant EGFR mutants in non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26515464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14413,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung carcinoma cells, known to harbor EGFR exon 19 del (PMID: 26515464), expressing MTOR E2419K were resistant to treatment with Tarceva (erlotinib), demonstrating enhanced cell survival in culture and in cell line xenograft models (PMID: 29530932).",
+            "molecularProfile": {
+                "id": 30016,
+                "profileName": "EGFR exon 19 del MTOR E2419K"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11632,
+                    "pubMedId": 29530932,
+                    "title": "Concurrent Alterations in EGFR-Mutant Lung Cancers Associated with Resistance to EGFR Kinase Inhibitors and Characterization of MTOR as a Mediator of Resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29530932"
+                },
+                {
+                    "id": 11633,
+                    "pubMedId": 26515464,
+                    "title": "In vitro modeling to determine mutation specificity of EGFR tyrosine kinase inhibitors against clinically relevant EGFR mutants in non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26515464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2602,
+            "profileName": "MTOR E2419K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2830,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR E2419K"
+                },
+                {
+                    "id": 2829,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR E2419K"
+                },
+                {
+                    "id": 175,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR E2419K"
+                }
+            ]
+        },
+        {
+            "id": 2603,
+            "profileName": "MTOR E2014K MTOR E2419K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30015,
+            "profileName": "EGFR L858R MTOR E2419K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30016,
+            "profileName": "EGFR exon 19 del MTOR E2419K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145169,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11114363C>T",
+            "cDna": "c.7255G>A",
+            "protein": "p.E2419K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145170,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11114363C>T",
+            "cDna": "c.7255G>A",
+            "protein": "p.E2419K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

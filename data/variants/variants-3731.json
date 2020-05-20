@@ -1,0 +1,173 @@
+{
+    "id": 3731,
+    "fullName": "CLTC - ALK",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CLTC-ALK results from the fusion of CLTC and ALK, creating an oncogenic protein with constitutive kinase activity and the ability to transform cultured cells (PMID: 11485898, PMID: 12750159). CLTC-ALK fusions have been associated with diffuse large B cell lymphomas (PMID: 21494621).",
+            "references": [
+                {
+                    "id": 2190,
+                    "pubMedId": 21494621,
+                    "title": "Inhibition of anaplastic lymphoma kinase (ALK) activity provides a therapeutic approach for CLTC-ALK-positive human diffuse large B cell lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21494621"
+                },
+                {
+                    "id": 2187,
+                    "pubMedId": 11485898,
+                    "title": "Fusion of the ALK gene to the clathrin heavy chain gene, CLTC, in inflammatory myofibroblastic tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11485898"
+                },
+                {
+                    "id": 2182,
+                    "pubMedId": 12750159,
+                    "title": "ALK activation by the CLTC-ALK fusion is a recurrent event in large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12750159"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1213,
+        "geneSymbol": "CLTC",
+        "terms": [
+            "CLTC",
+            "CHC",
+            "CHC17",
+            "CLH-17",
+            "CLTCL2",
+            "Hc",
+            "MRD56"
+        ]
+    },
+    "variant": "CLTC - ALK",
+    "createDate": "03/12/2015",
+    "updateDate": "04/02/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 238,
+                "geneSymbol": "ALK",
+                "terms": [
+                    "ALK",
+                    "CD246",
+                    "NBLST3"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 1809,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAE684 demonstrated efficacy by repressing Alk signaling, inducing apoptosis in cultured cells, and promoting tumor regression in cell line xenograft models of diffuse large B-cell lymphoma expressing CLTC-ALK fusions (PMID: 21494621).",
+            "molecularProfile": {
+                "id": 3533,
+                "profileName": "CLTC - ALK"
+            },
+            "therapy": {
+                "id": 2386,
+                "therapyName": "TAE684",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2190,
+                    "pubMedId": 21494621,
+                    "title": "Inhibition of anaplastic lymphoma kinase (ALK) activity provides a therapeutic approach for CLTC-ALK-positive human diffuse large B cell lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21494621"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12935,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "CLTC-ALK fusions aid the diagnosis of inflammatory myofibroblastic tumor (NCCN.org).",
+            "molecularProfile": {
+                "id": 3533,
+                "profileName": "CLTC - ALK"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13274,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in stable disease in a patient with inflammatory myofibroblastic tumor harboring CLTC-ALK fusion at 4 months after starting therapy (PMID: 24583837).",
+            "molecularProfile": {
+                "id": 3533,
+                "profileName": "CLTC - ALK"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50905,
+                "name": "inflammatory myofibroblastic tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11040,
+                    "pubMedId": 24583837,
+                    "title": "ALK-positive inflammatory myofibroblastic tumor of the abdomen with widespread microscopic multifocality.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24583837"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3533,
+            "profileName": "CLTC - ALK",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17044,
+                    "name": "ALK Inhibitor",
+                    "profileName": "CLTC - ALK"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

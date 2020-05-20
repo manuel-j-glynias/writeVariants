@@ -25,6 +25,7 @@ def create_ocp_variant_table(my_cursor):
                                    'go_variant_Id varchar(100) DEFAULT NULL, ' \
                                    'clinvar_variant_Id varchar(100) DEFAULT NULL, ' \
                                    'hot_spot_variant_Id varchar(100) DEFAULT NULL, ' \
+                                   'exon varchar(100) , ' \
                                    'graph_id varchar(100) PRIMARY KEY, ' \
                                    'CONSTRAINT ocp_variant_description_fk_es_id FOREIGN KEY (description_id) REFERENCES editable_statements (graph_id), ' \
                                    'CONSTRAINT ocp_variant_fk_omni_gene FOREIGN KEY (omniGene_gene_Id) REFERENCES omnigene (graph_id), ' \
@@ -38,7 +39,7 @@ def create_ocp_variant_table(my_cursor):
         print(f'{table_name} Table created successfully')
 
 def insert_ocp_variant(my_cursor,name,omnigene_id,description_id, pdot,cdot,gdot,regionType,indelType,variantType,variantProteinEffect,
-                       jax_variant_id,go_variant_Id,clinvar_variant_Id, hot_spot_variant_Id, graph_id):
+                       jax_variant_id,go_variant_Id,clinvar_variant_Id, hot_spot_variant_Id, exon,graph_id):
     if jax_variant_id =='':
         jax_variant_id = None
     if go_variant_Id =='':
@@ -48,9 +49,9 @@ def insert_ocp_variant(my_cursor,name,omnigene_id,description_id, pdot,cdot,gdot
     if hot_spot_variant_Id =='':
         hot_spot_variant_Id = None
 
-    mySql_insert_query = "INSERT INTO ocp_variant (variantName,omniGene_gene_Id,description_id,pDot,cDot,gDot,regionType,indelType,variantType,variantProteinEffect,jax_variant_Id,go_variant_Id,clinvar_variant_Id,hot_spot_variant_Id,graph_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+    mySql_insert_query = "INSERT INTO ocp_variant (variantName,omniGene_gene_Id,description_id,pDot,cDot,gDot,regionType,indelType,variantType,variantProteinEffect,jax_variant_Id,go_variant_Id,clinvar_variant_Id,hot_spot_variant_Id,exon,graph_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
     result = my_cursor.execute(mySql_insert_query,(name,omnigene_id,description_id, pdot,cdot,gdot,regionType,indelType,variantType,variantProteinEffect,jax_variant_id,
-                                                   go_variant_Id,clinvar_variant_Id, hot_spot_variant_Id,graph_id))
+                                                   go_variant_Id,clinvar_variant_Id, hot_spot_variant_Id,exon,graph_id))
 
 
 def get_omnigene_id_from_name(my_cursor,gene_name):
@@ -111,7 +112,7 @@ def get_hot_spot_variant_from_variant_name(my_cursor,variant_name):
 
 def write_ocp_variants(my_db, my_cursor):
     loader_id = get_loader_user_id(my_cursor)
-    wb = xlrd.open_workbook(filename='data/OCP_Lev1_2_Variants.xlsx')
+    wb = xlrd.open_workbook(filename='data/OCP_Lev1_2_Variants_w_exon.xlsx')
     sheet = wb.sheet_by_index(0)
     counter = 0
     for row_idx in range(1, sheet.nrows):
@@ -122,6 +123,7 @@ def write_ocp_variants(my_db, my_cursor):
         regionType = sheet.cell_value(row_idx, 9)
         regionAAChange = sheet.cell_value(row_idx, 13)
         regionIndelType= sheet.cell_value(row_idx, 14)
+        exon = sheet.cell_value(row_idx, 18)
         pdot = ''
         if fusionDesc != '':
             variantType = 'Fusion'
@@ -152,8 +154,9 @@ def write_ocp_variants(my_db, my_cursor):
             edit_date: str = now.strftime("%Y-%m-%d-%H-%M-%S-%f")
             es_id: str = 'es_' + now.strftime("%Y%m%d%H%M%S%f")
             insert_editable_statement(my_cursor, field, description, edit_date, loader_id, 'FALSE', es_id)
+
             insert_ocp_variant(my_cursor,gene_plus_pdot,omnigene_id,es_id,pdot,cdot,gdot,regionType,regionIndelType,variantType,protein_effect,
-                               jax_variant_id,go_variant_id,cv_variant_id, hs_variant_id,graph_id)
+                               jax_variant_id,go_variant_id,cv_variant_id, hs_variant_id,exon,graph_id)
             counter += 1
             if (counter % 100 == 0):
                 print(counter)

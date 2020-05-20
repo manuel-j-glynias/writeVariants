@@ -1,0 +1,233 @@
+{
+    "id": 30601,
+    "fullName": "EGFR V30_R297delinsG",
+    "impact": "indel",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR V30_R297delinsG (EGFR vIII) results in a deletion of 268 amino acids in the extracellular domain of the Egfr protein from amino acids 30 to 297, combined with the insertion of a glycine (G) at the same site (PMID: 11087732). V30_R297delinsG (EGFR vIII) results in increased autophosphorylation of Egfr, increased phosphorylation of Erbb2 (Her2) and Met, increased cell proliferation and colony formation in culture, and is tumorigenic in animal models (PMID: 17646646, PMID: 10850460).",
+            "references": [
+                {
+                    "id": 15588,
+                    "pubMedId": 11087732,
+                    "title": "Glycosylation-induced conformational modification positively regulates receptor-receptor association: a study with an aberrant epidermal growth factor receptor (EGFRvIII/DeltaEGFR) expressed in cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11087732"
+                },
+                {
+                    "id": 15589,
+                    "pubMedId": 17646646,
+                    "title": "Quantitative analysis of EGFRvIII cellular signaling networks reveals a combinatorial therapeutic strategy for glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17646646"
+                },
+                {
+                    "id": 15820,
+                    "pubMedId": 10850460,
+                    "title": "Epidermal growth factor receptor vIII enhances tumorigenicity in human breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10850460"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "V30_R297delinsG",
+    "createDate": "07/30/2019",
+    "updateDate": "08/26/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 181562,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55142286_55154152del11867",
+        "cDna": "c.89_889del11867",
+        "protein": ".",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20857,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) treatment did not prolong survival compared to control (84 vs 79.5 days, p=0.63) in an orthotopic brain tumor model of glioma cells expressing EGFR V30_R297delinsG (reported as EGFR vIII) (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 32825,
+                "profileName": "EGFR V30_R297delinsG"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20439,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (ReACT) trial, addition of Rindopepimut (CDX-110) to Avastin (bevacizumab) resulted in a 6-month progression-free survival of 28% (10/36), compared to 16% (6/17) for control (p=0.12) in patients with relapsed glioblastoma multiforme harboring EGFR V30_R297delinsG (EGFRvIII), and conferred survival advantage (HR=0.53, p=0.01), higher objective response rate (30%, 9/30 vs 18%, 6/34, p=0.38), and longer median duration of response (7.8 vs 5.6 mo) (PMID: 32034072; NCT01498328).",
+            "molecularProfile": {
+                "id": 32825,
+                "profileName": "EGFR V30_R297delinsG"
+            },
+            "therapy": {
+                "id": 9362,
+                "therapyName": "Bevacizumab + Rindopepimut",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17842,
+                    "pubMedId": 32034072,
+                    "title": "Rindopepimut with Bevacizumab for Patients with Relapsed EGFRvIII-Expressing Glioblastoma (ReACT): Results of a Double-Blind Randomized Phase II Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034072"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20856,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) treatment prolonged survival in an orthotopic brain tumor model of glioma cells expressing EGFR V30_R297delinsG (reported as EGFR vIII) (PMID: 22001862).",
+            "molecularProfile": {
+                "id": 32825,
+                "profileName": "EGFR V30_R297delinsG"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18090,
+                    "pubMedId": 22001862,
+                    "title": "Glioblastoma-derived epidermal growth factor receptor carboxyl-terminal deletion mutants are transforming and are sensitive to EGFR-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22001862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18741,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, hEGFRvIII-CD3 bi-scFv induced tumor cell lysis in malignant glioma cell lines expressing EGFRvIII, induced cytotoxicity in patient-derived cells harboring EGFRvIII in culture, increased survival in a glioma cell line xenograft model, and decreased tumor burden and increased survival in both syngeneic mouse and patient-derived xenograft (PDX) malignant glioma models (PMID: 29703821).",
+            "molecularProfile": {
+                "id": 32825,
+                "profileName": "EGFR V30_R297delinsG"
+            },
+            "therapy": {
+                "id": 8685,
+                "therapyName": "hEGFRvIII-CD3 bi-scFv",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16072,
+                    "pubMedId": 29703821,
+                    "title": "A Rationally Designed Fully Human EGFRvIII:CD3-Targeted Bispecific Antibody Redirects Human T Cells to Treat Patient-derived Intracerebral Malignant Glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29703821"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32825,
+            "profileName": "EGFR V30_R297delinsG",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 181565,
+            "transcript": "NM_201283",
+            "gDna": "chr7:g.55142286_55154152del11867",
+            "cDna": "c.89_889del11867",
+            "protein": ".",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 181564,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55142286_55154152del11867",
+            "cDna": "c.89_889del11867",
+            "protein": ".",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 181563,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55142286_55154152del11867",
+            "cDna": "c.89_889del11867",
+            "protein": ".",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 181562,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55142286_55154152del11867",
+            "cDna": "c.89_889del11867",
+            "protein": ".",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

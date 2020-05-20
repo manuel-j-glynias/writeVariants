@@ -1,0 +1,168 @@
+{
+    "id": 3499,
+    "fullName": "MTOR F1888L",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR F1888L lies within the central FAT domain of the Mtor protein (PMID: 17684489). F1888L confers a gain of function to the Mtor protein resulting in activation of signaling and phosphorylation of downstream targets (PMID: 24631838).",
+            "references": [
+                {
+                    "id": 2032,
+                    "pubMedId": 17684489,
+                    "title": "Structural characterization of the interaction of mTOR with phosphatidic acid and a novel class of inhibitor: compelling evidence for a central role of the FRB domain in small molecule-mediated regulation of mTOR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17684489"
+                },
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "F1888L",
+    "createDate": "03/04/2015",
+    "updateDate": "03/04/2015",
+    "referenceTranscriptCoordinates": {
+        "id": 145205,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11129790A>G",
+        "cDna": "c.5662T>C",
+        "protein": "p.F1888L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8826,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing MTOR F1888L treated with Rapamune (sirolimus) in culture demonstrated decreased phosphorylation of S6k, suggesting sensitivity (PMID: 27482884).",
+            "molecularProfile": {
+                "id": 3305,
+                "profileName": "MTOR F1888L"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6761,
+                    "pubMedId": 27482884,
+                    "title": "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27482884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8830,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing the double mutant, MTOR F1888L and MTOR L2230V, demonstrated resistance to Rapamune (sirolimus) in culture (PMID: 27482884).",
+            "molecularProfile": {
+                "id": 26458,
+                "profileName": "MTOR F1888L MTOR L2230V"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6761,
+                    "pubMedId": 27482884,
+                    "title": "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27482884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3305,
+            "profileName": "MTOR F1888L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2834,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR F1888L"
+                },
+                {
+                    "id": 2833,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR F1888L"
+                },
+                {
+                    "id": 684,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR F1888L"
+                }
+            ]
+        },
+        {
+            "id": 26458,
+            "profileName": "MTOR F1888L MTOR L2230V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145205,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11129790A>G",
+            "cDna": "c.5662T>C",
+            "protein": "p.F1888L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145206,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11129790A>G",
+            "cDna": "c.5662T>C",
+            "protein": "p.F1888L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

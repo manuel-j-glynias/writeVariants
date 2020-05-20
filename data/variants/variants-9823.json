@@ -1,0 +1,148 @@
+{
+    "id": 9823,
+    "fullName": "ROS1 M2128V",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 M2128V lies within the protein kinase domain of the Ros1 protein (UniProt.org). M2128V has been demonstrated to confer resistance to Ros1 tyrosine kinase inhibitors in the context of a Ros1 fusion in culture (PMID: 25351743), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "M2128V",
+    "createDate": "07/30/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102388,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117310133T>C",
+        "cDna": "c.6382A>G",
+        "protein": "p.M2128V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2663,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing ROS1 E1990G and M2128V in the context of CD74-ROS1 were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 25351743).",
+            "molecularProfile": {
+                "id": 9818,
+                "profileName": "CD74 - ROS1 ROS1 E1990G ROS1 M2128V"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2664,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing CD74-ROS1 with ROS1 E1990G and M2128V were resistant to Zykadia (ceritinib)-mediated growth inhibition in culture (PMID: 25351743).",
+            "molecularProfile": {
+                "id": 9818,
+                "profileName": "CD74 - ROS1 ROS1 E1990G ROS1 M2128V"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 9818,
+            "profileName": "CD74 - ROS1 ROS1 E1990G ROS1 M2128V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 9819,
+            "profileName": "ROS1 M2128V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102388,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117310133T>C",
+            "cDna": "c.6382A>G",
+            "protein": "p.M2128V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

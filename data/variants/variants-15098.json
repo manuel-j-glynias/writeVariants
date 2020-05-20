@@ -1,0 +1,125 @@
+{
+    "id": 15098,
+    "fullName": "EPHA2 G391R",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "EPHA2 G391R lies within the fibronectin type-III domain 1 of the Epha2 protein (UniProt.org). G391R results in constitutive activation of Epha2, increased cell invasion, and transformation in cell culture in one study (PMID: 20360610), however, in another study induced similar cell proliferation and cell viability to wild-type Epha2 (PMID: 29533785), and therefore, its effect on Epha2 protein function is unknown.",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 4083,
+                    "pubMedId": 20360610,
+                    "title": "EphA2 mutation in lung squamous cell carcinoma promotes increased cell survival, cell invasion, focal adhesions, and mammalian target of rapamycin activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20360610"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1969,
+        "geneSymbol": "EPHA2",
+        "terms": [
+            "EPHA2",
+            "ARCC2",
+            "CTPA",
+            "CTPP1",
+            "CTRCT6",
+            "ECK"
+        ]
+    },
+    "variant": "G391R",
+    "createDate": "12/10/2015",
+    "updateDate": "01/29/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 110671,
+        "transcript": "NM_004431",
+        "gDna": "chr1:g.16137994C>T",
+        "cDna": "c.1171G>A",
+        "protein": "p.G391R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3738,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human cells expressing EPHA2 G391R were sensitive to Rapamune (sirolimus) and decreased cell survival in culture (PMID: 20360610).",
+            "molecularProfile": {
+                "id": 15354,
+                "profileName": "EPHA2 G391R"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4083,
+                    "pubMedId": 20360610,
+                    "title": "EphA2 mutation in lung squamous cell carcinoma promotes increased cell survival, cell invasion, focal adhesions, and mammalian target of rapamycin activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20360610"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 15354,
+            "profileName": "EPHA2 G391R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7439,
+                    "name": "Sirolimus",
+                    "profileName": "EPHA2 G391R"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 110672,
+            "transcript": "XM_017000537",
+            "gDna": "chr1:g.16137994C>T",
+            "cDna": "c.1171G>A",
+            "protein": "p.G391R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 110671,
+            "transcript": "NM_004431",
+            "gDna": "chr1:g.16137994C>T",
+            "cDna": "c.1171G>A",
+            "protein": "p.G391R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

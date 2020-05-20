@@ -1,0 +1,158 @@
+{
+    "id": 25748,
+    "fullName": "ALK S1206F",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ALK S1206F lies within the protein kinase domain of the Alk protein (UniProt.org). S1206F has been identified in the scientific literature (PMID: 27565908), but has not been biochemically characterized and therefore, its effect on Alk protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 7055,
+                    "pubMedId": 27565908,
+                    "title": "De novo ALK kinase domain mutations are uncommon in kinase inhibitor-na\u00efve ALK rearranged lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27565908"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 238,
+        "geneSymbol": "ALK",
+        "terms": [
+            "ALK",
+            "CD246",
+            "NBLST3"
+        ]
+    },
+    "variant": "S1206F",
+    "createDate": "11/16/2016",
+    "updateDate": "10/27/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 102091,
+        "transcript": "NM_004304",
+        "gDna": "chr2:g.29220734G>A",
+        "cDna": "c.3617C>T",
+        "protein": "p.S1206F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9262,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing ALK S1206F in the context of EML4-ALK in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 26804,
+                "profileName": "EML4 - ALK ALK S1206F"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19799,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Lorbrena (lorlatinib) treatment resulted in disease progression after 3.7 months therapy in a patient with lung adenocarcinoma harboring EML4-ALK and ALK G1202R, at disease progression, ALK F1174L in cis wth ALK G1202R was identified in biopsies, and ALK C1156Y, G1269A, S1206F, and T1151M were identified in ctDNA (PMID: 31585938).",
+            "molecularProfile": {
+                "id": 34522,
+                "profileName": "EML4 - ALK ALK T1151M ALK C1156Y ALK F1174L ALK G1202R ALK S1206F ALK G1269A"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17546,
+                    "pubMedId": 31585938,
+                    "title": "Diverse Resistance Mechanisms to the Third-Generation ALK Inhibitor Lorlatinib in ALK-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31585938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26803,
+            "profileName": "ALK S1206F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26804,
+            "profileName": "EML4 - ALK ALK S1206F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16824,
+                    "name": "Brigatinib",
+                    "profileName": "EML4 - ALK ALK S1206F"
+                }
+            ]
+        },
+        {
+            "id": 34522,
+            "profileName": "EML4 - ALK ALK T1151M ALK C1156Y ALK F1174L ALK G1202R ALK S1206F ALK G1269A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102091,
+            "transcript": "NM_004304",
+            "gDna": "chr2:g.29220734G>A",
+            "cDna": "c.3617C>T",
+            "protein": "p.S1206F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

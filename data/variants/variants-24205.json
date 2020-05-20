@@ -1,0 +1,241 @@
+{
+    "id": 24205,
+    "fullName": "SPOP E50K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "SPOP E50K lies within the MATH substrate binding domain of the Spop protein (PMID: 25766326). E50K confers a gain of function to the Spop protein, as demonstrated by enhanced degradation of BET proteins, increased Brd3 binding, increased Brd3 ubiquitination, and increased sensitivity to JQ1, as compared to wild-type Spop in in-vitro assays, cell culture, and xenografts (PMID: 28805821), although reduced binding to Esr1 has been observed, Esr1 protein levels are not altered and E50K is non-transforming (PMID: 25766326).",
+            "references": [
+                {
+                    "id": 6287,
+                    "pubMedId": 25766326,
+                    "title": "Endometrial cancer-associated mutants of SPOP are defective in regulating estrogen receptor-\u03b1 protein turnover.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25766326"
+                },
+                {
+                    "id": 13048,
+                    "pubMedId": 28805821,
+                    "title": "Opposing effects of cancer-type-specific SPOP mutants on BET protein degradation and sensitivity to BET inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28805821"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8405,
+        "geneSymbol": "SPOP",
+        "terms": [
+            "SPOP",
+            "BTBD32",
+            "TEF2"
+        ]
+    },
+    "variant": "E50K",
+    "createDate": "07/12/2016",
+    "updateDate": "12/02/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 91715,
+        "transcript": "NM_001007229",
+        "gDna": "chr17:g.49621998C>T",
+        "cDna": "c.148G>A",
+        "protein": "p.E50K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16674,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of SPOP E50K in a colorectal cancer cell line resulted in increased sensitivity to Birabresib (OTX-015), leading to decreased cell viability in culture (PMID: 30674532).",
+            "molecularProfile": {
+                "id": 24935,
+                "profileName": "SPOP E50K"
+            },
+            "therapy": {
+                "id": 2034,
+                "therapyName": "Birabresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14711,
+                    "pubMedId": 30674532,
+                    "title": "BET Inhibitors Potentiate Chemotherapy and Killing of SPOP-Mutant Colon Cancer Cells via Induction of DR5.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30674532"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15312,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQ1 treatment of endometrial cancer cell lines and xenografts, overexpressing Spop E50K, resulted in enhanced inhibition of cell growth, as compared to wild-type SPOP expressing cell lines and xenograft models (PMID: 28805821).",
+            "molecularProfile": {
+                "id": 24935,
+                "profileName": "SPOP E50K"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13048,
+                    "pubMedId": 28805821,
+                    "title": "Opposing effects of cancer-type-specific SPOP mutants on BET protein degradation and sensitivity to BET inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28805821"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16675,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of SPOP E50K in a colorectal cancer cell line resulted in increased sensitivity to JQ1, leading to decreased cell viability in culture (PMID: 30674532).",
+            "molecularProfile": {
+                "id": 24935,
+                "profileName": "SPOP E50K"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14711,
+                    "pubMedId": 30674532,
+                    "title": "BET Inhibitors Potentiate Chemotherapy and Killing of SPOP-Mutant Colon Cancer Cells via Induction of DR5.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30674532"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 24935,
+            "profileName": "SPOP E50K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19154,
+                    "name": "BET  Inhibitor (Pan)",
+                    "profileName": "SPOP E50K"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 91718,
+            "transcript": "NM_003563",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91721,
+            "transcript": "XM_005257724",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91720,
+            "transcript": "XM_005257723",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91717,
+            "transcript": "NM_001007230",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91715,
+            "transcript": "NM_001007229",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91714,
+            "transcript": "NM_001007228",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91719,
+            "transcript": "NM_001007226",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91716,
+            "transcript": "NM_001007227",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 91722,
+            "transcript": "XM_017025204",
+            "gDna": "chr17:g.49621998C>T",
+            "cDna": "c.148G>A",
+            "protein": "p.E50K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

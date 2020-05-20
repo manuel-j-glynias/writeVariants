@@ -1,0 +1,143 @@
+{
+    "id": 7600,
+    "fullName": "JAK3 M511I",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "JAK3 M511I does not lie within any known functional domains of the Jak3 protein (UniProt.org). M511I results in increased phosphorylation of Jak3, activation of Stat5 and Erk signaling, enhanced tumor growth in animal models, and is transforming in cell culture (PMID: 25193870, PMID: 28852199, PMID: 20400977, PMID: 29046866).",
+            "references": [
+                {
+                    "id": 12533,
+                    "pubMedId": 20400977,
+                    "title": "Array-based genomic resequencing of human leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20400977"
+                },
+                {
+                    "id": 12536,
+                    "pubMedId": 29046866,
+                    "title": "Transforming Mutations of Jak3 (A573V and M511I) Show Differential Sensitivity to Selective Jak3 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29046866"
+                },
+                {
+                    "id": 12462,
+                    "pubMedId": 28852199,
+                    "title": "Mutant JAK3 phosphoproteomic profiling predicts synergism between JAK3 inhibitors and MEK/BCL2 inhibitors for the treatment of T-cell acute lymphoblastic leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28852199"
+                },
+                {
+                    "id": 3042,
+                    "pubMedId": 25193870,
+                    "title": "JAK3 mutants transform hematopoietic cells through JAK1 activation, causing T-cell acute lymphoblastic leukemia in a mouse model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193870"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3718,
+        "geneSymbol": "JAK3",
+        "terms": [
+            "JAK3",
+            "JAK-3",
+            "JAK3_HUMAN",
+            "JAKL",
+            "L-JAK",
+            "LJAK"
+        ]
+    },
+    "variant": "M511I",
+    "createDate": "06/14/2015",
+    "updateDate": "10/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 93639,
+        "transcript": "NM_000215",
+        "gDna": "chr19:g.17838299C>G",
+        "cDna": "c.1533G>C",
+        "protein": "p.M511I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15039,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xeljanz (tofacitinib, CP-690,550) decreased cell viability in transformed mouse Ba/F3 cells expressing Jak3 M511I (PMID: 29046866).",
+            "molecularProfile": {
+                "id": 7486,
+                "profileName": "JAK3 M511I"
+            },
+            "therapy": {
+                "id": 941,
+                "therapyName": "Tofacitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12536,
+                    "pubMedId": 29046866,
+                    "title": "Transforming Mutations of Jak3 (A573V and M511I) Show Differential Sensitivity to Selective Jak3 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29046866"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 7486,
+            "profileName": "JAK3 M511I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5337,
+                    "name": "JAK Inhibitor (Pan)",
+                    "profileName": "JAK3 M511I"
+                },
+                {
+                    "id": 5339,
+                    "name": "JAK3 Inhibitor",
+                    "profileName": "JAK3 M511I"
+                },
+                {
+                    "id": 5338,
+                    "name": "JAK Inhibitor (Pan) - ATP competitive",
+                    "profileName": "JAK3 M511I"
+                },
+                {
+                    "id": 5340,
+                    "name": "JAK3 Inhibitor - ATP competitive",
+                    "profileName": "JAK3 M511I"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 93639,
+            "transcript": "NM_000215",
+            "gDna": "chr19:g.17838299C>G",
+            "cDna": "c.1533G>C",
+            "protein": "p.M511I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

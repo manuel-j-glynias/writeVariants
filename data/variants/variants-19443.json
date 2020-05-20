@@ -1,0 +1,146 @@
+{
+    "id": 19443,
+    "fullName": "TP53 P223L",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 P223L lies within the DNA-binding domain of the Tp53 protein (PMID: 21760703). The functional effect of P223L is conflicting, as it results in DNA-binding, cellular senescence, expression of Tp53 targets, and acetylation of Tp53 similar to wild-type Tp53 in culture in one study (PMID: 27911860), however, in another study, demonstrates decreased Tp53 transactivation and reduced expression of the Tp53 target p21 in culture (PMID: 16741917), and therefore, its effect on Tp53 protein function is unknown.",
+            "references": [
+                {
+                    "id": 807,
+                    "pubMedId": 21760703,
+                    "title": "TP53 status and response to treatment in breast cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21760703"
+                },
+                {
+                    "id": 12708,
+                    "pubMedId": 16741917,
+                    "title": "The DU145 human prostate carcinoma cell line harbors a temperature-sensitive allele of p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16741917"
+                },
+                {
+                    "id": 12707,
+                    "pubMedId": 27911860,
+                    "title": "ID4 regulates transcriptional activity of wild type and mutant p53 via K373 acetylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27911860"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "P223L",
+    "createDate": "03/11/2016",
+    "updateDate": "01/23/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 95062,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7674863G>A",
+        "cDna": "c.668C>T",
+        "protein": "p.P223L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5016,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib inhibited growth of human prostate cancer cells harboring TP53 P223L and V274F in culture (PMID: 26009011).",
+            "molecularProfile": {
+                "id": 19855,
+                "profileName": "TP53 P223L TP53 V274F"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4831,
+                    "pubMedId": 26009011,
+                    "title": "Improving survival by exploiting tumour dependence on stabilized mutant p53 for treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26009011"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 19854,
+            "profileName": "TP53 P223L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19855,
+            "profileName": "TP53 P223L TP53 V274F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95062,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7674863G>A",
+            "cDna": "c.668C>T",
+            "protein": "p.P223L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95061,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7674863G>A",
+            "cDna": "c.668C>T",
+            "protein": "p.P223L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95064,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7674863G>A",
+            "cDna": "c.668C>T",
+            "protein": "p.P223L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95063,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7674863G>A",
+            "cDna": "c.668C>T",
+            "protein": "p.P223L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

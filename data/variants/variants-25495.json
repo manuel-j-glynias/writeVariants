@@ -1,0 +1,574 @@
+{
+    "id": 25495,
+    "fullName": "AR F877L",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "AR F877L (also referred to as F876L) lies within the ligand binding site of the Ar protein (UniProt.org). F877L confers a gain of function to the Ar protein as demonstrated by transcriptional activation in the presence of anti-androgens (PMID: 23842682, PMID: 27196756, PMID: 26760770).",
+            "references": [
+                {
+                    "id": 11247,
+                    "pubMedId": 26760770,
+                    "title": "BAY 1024767 blocks androgen receptor mutants found in castration-resistant prostate cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26760770"
+                },
+                {
+                    "id": 763,
+                    "pubMedId": 23842682,
+                    "title": "An F876L mutation in androgen receptor confers genetic and phenotypic resistance to MDV3100 (enzalutamide).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23842682"
+                },
+                {
+                    "id": 6007,
+                    "pubMedId": 27196756,
+                    "title": "The Effect of F877L and T878A Mutations on Androgen Receptor Response to Enzalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196756"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 367,
+        "geneSymbol": "AR",
+        "terms": [
+            "AR",
+            "AIS",
+            "AR8",
+            "DHTR",
+            "HUMARA",
+            "HYSP1",
+            "KD",
+            "NR3C4",
+            "SBMA",
+            "SMAX1",
+            "TFM"
+        ]
+    },
+    "variant": "F877L",
+    "createDate": "10/13/2016",
+    "updateDate": "12/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 146178,
+        "transcript": "NM_000044",
+        "gDna": "chrX:g.67723707T>C",
+        "cDna": "c.2629T>C",
+        "protein": "p.F877L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9698,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mivebresib (ABBV-075) decreased expression of KLK3 and UBE2C and inhibited proliferation of a prostate cancer cell line with acquired resistance to Xtandi (enzalutamide) harboring both AR T878A and AR F877L, in culture (PMID: 27707886).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 4028,
+                "therapyName": "Mivebresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7485,
+                    "pubMedId": 27707886,
+                    "title": "Exploitation of Castration-Resistant Prostate Cancer Transcription Factor Dependencies by the Novel BET Inhibitor ABBV-075.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27707886"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8845,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zytiga (abiratirone) inhibited proliferation of prostate cancer cells expressing the AR T878A/L877L double mutant in culture (PMID: 27196756).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 1805,
+                "therapyName": "Abiraterone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6007,
+                    "pubMedId": 27196756,
+                    "title": "The Effect of F877L and T878A Mutations on Androgen Receptor Response to Enzalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8844,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xtandi (enzalutamide) demonstrated increased binding affinity for the AR T878A/F877L double mutant, acted as a full agonist for androgen-receptor signaling, and did not inhibit proliferation of prostate cancer cells expressing the AR T878A/F877L double mutant in culture (PMID: 27196756).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 1262,
+                "therapyName": "Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6007,
+                    "pubMedId": 27196756,
+                    "title": "The Effect of F877L and T878A Mutations on Androgen Receptor Response to Enzalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8846,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, prostate cancer cells expressing the AR F877L/T878A double mutant were resistant to growth inhibition by hydroxyflutamide in culture (PMID: 27196756).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 742,
+                "therapyName": "Flutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6007,
+                    "pubMedId": 27196756,
+                    "title": "The Effect of F877L and T878A Mutations on Androgen Receptor Response to Enzalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2373,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Casodex (bicalutamide) inhibited growth of prostate cancer cells harboring AR F877L (also reported as F876L) in culture (PMID: 23842682).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 1507,
+                "therapyName": "Bicalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 763,
+                    "pubMedId": 23842682,
+                    "title": "An F876L mutation in androgen receptor confers genetic and phenotypic resistance to MDV3100 (enzalutamide).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23842682"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2372,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Kisqali (ribociclib) decreased E2F1 target gene expression and inhibited growth of prostate cancer cells harboring AR F877L (also reported as F876L) in culture (PMID: 23842682).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 763,
+                    "pubMedId": 23842682,
+                    "title": "An F876L mutation in androgen receptor confers genetic and phenotypic resistance to MDV3100 (enzalutamide).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23842682"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5888,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, G1T38 and Xtandi (enzalutamide) worked synergistically to inhibit growth in prostate cancer cell lines harboring AR F877L (also reported as F876L) in culture (AACR, Cancer Res: April 2016; Volume 57, Abstract #2820).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 3971,
+                "therapyName": "Enzalutamide + G1T38",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5183,
+                    "pubMedId": null,
+                    "title": "Effects of a CDK 4/6 inhibitor, G1T38, in androgen receptor sensitive and resistant models of castrate resistant prostate cancer",
+                    "url": "http://www.abstractsonline.com/Plan/ViewAbstract.aspx?mID=4017&sKey=12eab58f-9b3f-418d-ad0c-e55a553a95b9&cKey=90cf56d3-fe9d-4b4d-8477-6867a79402af&mKey=1d10d749-4b6a-4ab3-bcd4-f80fb1922267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12088,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the AR F877L variant was not associated with de novo or acquired resistance to Erleada (apalutamide) in patients with castration-resistant prostate cancer, based on its low frequency at baseline and progression (PMID: 28633425; NCT01171898).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 1947,
+                "therapyName": "Apalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10026,
+                    "pubMedId": 28633425,
+                    "title": "Androgen receptor mutations in patients with castration-resistant prostate cancer treated with apalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28633425"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 2374,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of AR F877L (also reported as F876L) conferred resistance to Erleada (apalutamide) in a castration-resistant prostate cancer cell line in culture and in xenograft models (PMID: 23779130).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 1947,
+                "therapyName": "Apalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 3006,
+                    "pubMedId": 23779130,
+                    "title": "A clinically relevant androgen receptor mutation confers resistance to second-generation antiandrogens enzalutamide and ARN-509.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23779130"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5884,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, G1T38 treatment resulted in cell cycle arrest and growth inhibition in prostate cancer cell lines harboring AR F877L (also reported as F876L) in culture and tumor suppression in xenograft models (AACR, Cancer Res: April 2016; Volume 57, Abstract #2820).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 3970,
+                "therapyName": "G1T38",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5183,
+                    "pubMedId": null,
+                    "title": "Effects of a CDK 4/6 inhibitor, G1T38, in androgen receptor sensitive and resistant models of castrate resistant prostate cancer",
+                    "url": "http://www.abstractsonline.com/Plan/ViewAbstract.aspx?mID=4017&sKey=12eab58f-9b3f-418d-ad0c-e55a553a95b9&cKey=90cf56d3-fe9d-4b4d-8477-6867a79402af&mKey=1d10d749-4b6a-4ab3-bcd4-f80fb1922267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20302,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KCI807 treatment inhibited growth of an Xtandi (enzalutamide)-resistant prostate cancer cell line expressing AR F877L in culture (PMID: 30185422).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 9310,
+                "therapyName": "KCI807",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17793,
+                    "pubMedId": 30185422,
+                    "title": "Strategy for Tumor-Selective Disruption of Androgen Receptor Function in the Spectrum of Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30185422"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12338,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, UT-155 promoted degradation of AR F877L (F876L) and inhibited proliferation of an Xtandi (enzalutamide)-resistant prostate cancer cell line harboring AR F877L (F876L) in culture (PMID: 28978635).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 6460,
+                "therapyName": "UT-155",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10333,
+                    "pubMedId": 28978635,
+                    "title": "Novel Selective Agents for the Degradation of Androgen Receptor Variants to Treat Castration-Resistant Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9509,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mivebresib (ABBV-075) inhibited proliferation of prostate cancer cells expressing AR F876L (AACR 107th Annual Meeting; April 16-20, 2016, Abstract 4694).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 4028,
+                "therapyName": "Mivebresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7243,
+                    "pubMedId": null,
+                    "title": "ABBV-075, a novel BET family inhibitor, disrupts critical transcription programs that drive prostate cancer growth to induce potent anti-tumor activity in vitro and in vivo",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/4694"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2370,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of AR F877L (also reported as F876L) conferred resistance to Xtandi (enzalutamide) in a prostate cancer cell line in culture and in xenograft models, via a switch of XTANDI (enzalutamide) from androgen receptor antagonist to agonist (PMID: 23842682).",
+            "molecularProfile": {
+                "id": 26465,
+                "profileName": "AR F877L"
+            },
+            "therapy": {
+                "id": 1262,
+                "therapyName": "Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 763,
+                    "pubMedId": 23842682,
+                    "title": "An F876L mutation in androgen receptor confers genetic and phenotypic resistance to MDV3100 (enzalutamide).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23842682"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12230,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with GNE-049 reduced AR target gene expression and decreased proliferation of a prostate cancer cell line overexpressing AR F877L in culture (PMID: 28819026).",
+            "molecularProfile": {
+                "id": 28573,
+                "profileName": "AR F877L AR over exp"
+            },
+            "therapy": {
+                "id": 6371,
+                "therapyName": "GNE-049",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10185,
+                    "pubMedId": 28819026,
+                    "title": "Therapeutic Targeting of the CBP/p300 Bromodomain Blocks the Growth of Castration-Resistant Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28819026"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26464,
+            "profileName": "AR F877L AR T878A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26465,
+            "profileName": "AR F877L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10805,
+                    "name": "CDK4/6 Inhibitor",
+                    "profileName": "AR F877L"
+                },
+                {
+                    "id": 10806,
+                    "name": "Hormone - Anti-androgens",
+                    "profileName": "AR F877L"
+                }
+            ]
+        },
+        {
+            "id": 28573,
+            "profileName": "AR F877L AR over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 146178,
+            "transcript": "NM_000044",
+            "gDna": "chrX:g.67723707T>C",
+            "cDna": "c.2629T>C",
+            "protein": "p.F877L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

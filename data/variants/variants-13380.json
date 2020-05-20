@@ -1,0 +1,330 @@
+{
+    "id": 13380,
+    "fullName": "ABL1 L384M",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ABL1 L384M lies within the protein kinase domain of the Abl1 protein (UniProt.org). L384M has been demonstrated to occur as a secondary resistance mutation in the context of BCR-ABL1 (PMID: 21562040), but has not been biochemically characterized and therefore, its effect on Abl1 protein function is unknown (PubMed, Sep 2019).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3828,
+                    "pubMedId": 21562040,
+                    "title": "BCR-ABL kinase domain mutation analysis in chronic myeloid leukemia patients treated with tyrosine kinase inhibitors: recommendations from an expert panel on behalf of European LeukemiaNet.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21562040"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 25,
+        "geneSymbol": "ABL1",
+        "terms": [
+            "ABL1",
+            "ABL",
+            "BCR-ABL",
+            "bcr/abl",
+            "c-ABL",
+            "c-ABL1",
+            "CHDSKM",
+            "JTK7",
+            "p150",
+            "v-abl"
+        ]
+    },
+    "variant": "L384M",
+    "createDate": "10/29/2015",
+    "updateDate": "10/01/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 119195,
+        "transcript": "NM_005157",
+        "gDna": "chr9:g.130874932C>A",
+        "cDna": "c.1150C>A",
+        "protein": "p.L384M",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20990,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing ABL1 L384M in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 23537,
+                "profileName": "BCR - ABL1 ABL1 L384M"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16824,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, ABL1 L384M in the context of BCR-ABL1 was identified in a BCR-ABL1-positive chronic myeloid leukemia patient who relapsed on Gleevec (imatinib) treatment (PMID: 16461309).",
+            "molecularProfile": {
+                "id": 23537,
+                "profileName": "BCR - ABL1 ABL1 L384M"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14931,
+                    "pubMedId": 16461309,
+                    "title": "The role of serial BCR-ABL transcript monitoring in predicting the emergence of BCR-ABL kinase mutations in imatinib-treated patients with chronic myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16461309"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20959,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 L384M and F317L in the context of BCR-ABL1 were resistant to Iclusig (ponatinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35405,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 L384M"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20918,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 F317L and L384M in the context of BCR-ABL1 were resistant to Inlyta (axitinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35405,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 L384M"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20939,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Inlyta (axitinib) inhibited survival of transformed cells expressing both ABL1 T315I and ABL1 L384M in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35455,
+                "profileName": "BCR - ABL1 ABL1 T315I ABL1 L384M"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20951,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 L384M and T315I in the context of BCR-ABL1 were resistant to Iclusig (ponatinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35455,
+                "profileName": "BCR - ABL1 ABL1 T315I ABL1 L384M"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20976,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing both ABL1 V299L and L384M in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35468,
+                "profileName": "BCR - ABL1 ABL1 V299L ABL1 L384M"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 13566,
+            "profileName": "ABL1 L384M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23537,
+            "profileName": "BCR - ABL1 ABL1 L384M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35405,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 L384M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35455,
+            "profileName": "BCR - ABL1 ABL1 T315I ABL1 L384M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35468,
+            "profileName": "BCR - ABL1 ABL1 V299L ABL1 L384M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 119195,
+            "transcript": "NM_005157",
+            "gDna": "chr9:g.130874932C>A",
+            "cDna": "c.1150C>A",
+            "protein": "p.L384M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

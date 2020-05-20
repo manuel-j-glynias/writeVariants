@@ -1,0 +1,118 @@
+{
+    "id": 26007,
+    "fullName": "COX2 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "COX2 over exp indicates an over expression of the Cox2 protein and/or mRNA. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 4513,
+        "geneSymbol": "COX2",
+        "terms": [
+            "COX2",
+            "COII",
+            "MTCO2"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "02/02/2017",
+    "updateDate": "01/14/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9865,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, high COX2 expression was associated with decreased colorectal adenoma development following chemopreventive treatment with Celebra (celecoxib) in patients at high risk for developing colorectal adenomas (RR, 0.37; 95% CI, 0.22-0.61; p=0.0001) (PMID: 29769213).",
+            "molecularProfile": {
+                "id": 27149,
+                "profileName": "COX2 over exp"
+            },
+            "therapy": {
+                "id": 2124,
+                "therapyName": "Celecoxib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50860,
+                "name": "colorectal adenoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7721,
+                    "pubMedId": null,
+                    "title": "Expression of COX-2 and 15-PGDH in adenomas removed during pretreatment colonoscopy to predict chemopreventive efficacy of the selective COX-2 inhibitor, celecoxib.",
+                    "url": "http://meetinglibrary.asco.org/content/175867-195"
+                },
+                {
+                    "id": 14600,
+                    "pubMedId": 29769213,
+                    "title": "Chemopreventive Efficacy of the Cyclooxygenase-2 (Cox-2) Inhibitor, Celecoxib, Is Predicted by Adenoma Expression of Cox-2 and 15-PGDH.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29769213"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20617,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Clinoril (sulindac) treatment inhibited proliferation of COX2 overexpressing head and neck squamous cell carcinoma cells harboring PIK3CA mutations, including a cell line overxpressing PIK3CA H1047R in culture (PMID: 30683736).",
+            "molecularProfile": {
+                "id": 27149,
+                "profileName": "COX2 over exp"
+            },
+            "therapy": {
+                "id": 2126,
+                "therapyName": "Sulindac",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17965,
+                    "pubMedId": 30683736,
+                    "title": "Use of nonsteroidal anti-inflammatory drugs predicts improved patient survival for PIK3CA-altered head and neck cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30683736"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27149,
+            "profileName": "COX2 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

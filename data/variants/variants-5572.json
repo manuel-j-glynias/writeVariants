@@ -1,0 +1,559 @@
+{
+    "id": 5572,
+    "fullName": "ERBB3 G284R",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB3 (HER3) G284R lies within the extracellular domain of the Erbb3 (Her3) protein (UniProt.org). G284R has not been individually characterized, however, results in increased phosphorylation of Akt and Erk, as well as oncogenic transformation of Erbb2 (Her2) expressing cells relative to wild-type Erbb3 (Her3) (PMID: 23680147) and leads to increased cell proliferation in Erbb2 (Her2)-overexpressing cells in culture (PMID: 29963236), and therefore, its effect on Erbb3 (Her3) protein function is unknown (PubMed, Sep 2019).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                },
+                {
+                    "id": 11673,
+                    "pubMedId": 29963236,
+                    "title": "Activating HER3 mutations in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29963236"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2065,
+        "geneSymbol": "ERBB3",
+        "terms": [
+            "ERBB3",
+            "c-erbB-3",
+            "c-erbB3",
+            "ErbB-3",
+            "erbB3-S",
+            "FERLK",
+            "HER3",
+            "LCCS2",
+            "MDA-BF-1",
+            "p180-ErbB3",
+            "p45-sErbB3",
+            "p85-sErbB3"
+        ]
+    },
+    "variant": "G284R",
+    "createDate": "04/30/2015",
+    "updateDate": "09/28/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 123467,
+        "transcript": "NM_001982",
+        "gDna": "chr12:g.56088138G>A",
+        "cDna": "c.850G>A",
+        "protein": "p.G284R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2162,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the PI3K inhibitor GDC-0941 inhibited proliferation and colony formation in transformed cell lines expressing ERBB3 (HER3) G284R (PMID: 23680147).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 749,
+                "therapyName": "Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2132,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines expressing ERBB3 (HER3) G284R demonstrated resistance to treatment with Erbitux (cetuximab) (PMID: 23680147).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11942,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, the combination treatment of Herceptin (trastuzumab) and Tykerb (lapatinib) in a patient with breast cancer harboring ERBB3 (HER3) G284R resulted in antitumor efficacy, demonstrating a complete metabolic response after day 14 of treatment, a partial response after 8 weeks of treatment, and no clinical evidence of disease after 40 weeks of treatment (PMID: 25953157).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 1414,
+                "therapyName": "Lapatinib + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9927,
+                    "pubMedId": 25953157,
+                    "title": "Response to dual HER2 blockade in a patient with HER3-mutant metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25953157"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2117,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) inhibited proliferation and colony formation in transformed cell lines expressing ERBB3 (HER3) G284R (PMID: 23680147).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2165,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of GDC-0941 and PD-0325901 (PI3K and MEK inhibitors, respectively) inhibited proliferation and colony formation in transformed cell lines expressing ERBB3 (HER3) G284R (PMID: 23680147).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 1822,
+                "therapyName": "PD-0325901 + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2931,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with urothelial carcinioma harboring ERBB3 G284R demonstrated stable disease for 7 months when treated with Gilotrif (afatinib) (J Clin Oncol 33, 2015 (suppl 7; abstr 312)).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3536,
+                    "pubMedId": null,
+                    "title": "Association of HER2 and ErbB3 molecular alterations with afatinib sensitivity in platinum-refractory metastatic urothelial carcinoma (UC) in a phase II trial",
+                    "url": "http://meetinglibrary.asco.org/content/141495-159"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5943,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, a patient with ERBB3 G284R mutant urothelial carcinoma had improved progression free survival when treated with Gilotrif (afatinib), and median PFS was 6.6 months for patients with ERBB2 or ERBB3 alterations relative to 1.4 months for patients lacking alterations (PMID: 27044931).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5203,
+                    "pubMedId": 27044931,
+                    "title": "Afatinib Activity in Platinum-Refractory Metastatic Urothelial Carcinoma in Patients With ERBB Alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27044931"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 2123,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEHD7945A inhibited proliferation and colony formation in transformed cell lines expressing ERBB3 (HER3) G284R (PMID: 23680147).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 806,
+                "therapyName": "Duligotuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2126,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Herceptin (trastuzumab) inhibited proliferation and colony formation in transformed cell lines expressing ERBB3 (HER3) G284R (PMID: 23680147).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2129,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Perjeta (pertuzumab) inhibited proliferation and colony formation in transformed cell lines expressing ERBB3 (HER3) G284R (PMID: 23680147).",
+            "molecularProfile": {
+                "id": 5403,
+                "profileName": "ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 856,
+                "therapyName": "Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 323,
+                    "pubMedId": 23680147,
+                    "title": "Oncogenic ERBB3 mutations in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23680147"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15652,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Tykerb (lapatinib) did not lead to reduced proliferation of ERBB2 (HER2)-overexpressing breast cancer cells expressing ERBB3 (HER3) G284R in culture relative to control treatment (PMID: 29963236).",
+            "molecularProfile": {
+                "id": 31129,
+                "profileName": "ERBB2 over exp ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11673,
+                    "pubMedId": 29963236,
+                    "title": "Activating HER3 mutations in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29963236"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15642,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Perjeta (pertuzumab) resulted in decreased colony formation in ERBB2 (HER2)-overexpressing breast cancer cells expressing ERBB3 (HER3) G284R in culture relative to control treatment (PMID: 29963236).",
+            "molecularProfile": {
+                "id": 31129,
+                "profileName": "ERBB2 over exp ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 856,
+                "therapyName": "Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11673,
+                    "pubMedId": 29963236,
+                    "title": "Activating HER3 mutations in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29963236"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15657,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Nerlynx (neratinib) resulted in reduced colony formation of ERBB2 (HER2)-overexpressing breast cancer cells expressing ERBB3 (HER3) G284R in culture relative to control treatment, however, at a much greater concentration than the minimal concentration required for ERBB2 (HER2) activating mutations (PMID: 29963236).",
+            "molecularProfile": {
+                "id": 31129,
+                "profileName": "ERBB2 over exp ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11673,
+                    "pubMedId": 29963236,
+                    "title": "Activating HER3 mutations in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29963236"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15644,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination treatment with Herceptin (trastuzumab) and Perjeta (trastuzumab) did not result in significantly decreased colony formation of ERBB2 (HER2)-overexpressing breast cancer cells expressing ERBB3 (HER3) G284R in culture relative to control treatment (PMID: 29963236).",
+            "molecularProfile": {
+                "id": 31129,
+                "profileName": "ERBB2 over exp ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11673,
+                    "pubMedId": 29963236,
+                    "title": "Activating HER3 mutations in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29963236"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15643,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Herceptin (trastuzumab) did not result in decreased colony formation of ERBB2 (HER2)-overexpressing breast cancer cells expressing ERBB3 (HER3) G284R in culture relative to control treatment (PMID: 29963236).",
+            "molecularProfile": {
+                "id": 31129,
+                "profileName": "ERBB2 over exp ERBB3 G284R"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11673,
+                    "pubMedId": 29963236,
+                    "title": "Activating HER3 mutations in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29963236"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5403,
+            "profileName": "ERBB3 G284R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31129,
+            "profileName": "ERBB2 over exp ERBB3 G284R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 123467,
+            "transcript": "NM_001982",
+            "gDna": "chr12:g.56088138G>A",
+            "cDna": "c.850G>A",
+            "protein": "p.G284R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

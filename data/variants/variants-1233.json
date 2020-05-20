@@ -1,0 +1,366 @@
+{
+    "id": 1233,
+    "fullName": "IDH2 R140Q",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "IDH2 R140Q lies within the substrate binding region of the Idh2 protein (UniProt.org). R140Q confers a gain of function to Idh2, enabling conversion of alpha-ketoglutarate to the onco-metabolite 2HG (R(-)-2-hydroxyglutarate), results in increased 2HG levels in patient samples, and is transforming in cell culture (PMID: 20171147, PMID: 23558173).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 881,
+                    "pubMedId": 23558173,
+                    "title": "Targeted inhibition of mutant IDH2 in leukemia cells induces cellular differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23558173"
+                },
+                {
+                    "id": 488,
+                    "pubMedId": 20171147,
+                    "title": "The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20171147"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3418,
+        "geneSymbol": "IDH2",
+        "terms": [
+            "IDH2",
+            "D2HGA2",
+            "ICD-M",
+            "IDH",
+            "IDHM",
+            "IDP",
+            "IDPM",
+            "mNADP-IDH"
+        ]
+    },
+    "variant": "R140Q",
+    "createDate": "08/01/2014",
+    "updateDate": "03/07/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 91606,
+        "transcript": "NM_002168",
+        "gDna": "chr15:g.90088702C>T",
+        "cDna": "c.419G>A",
+        "protein": "p.R140Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1138,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with AGI-6780 resulted in the differentiation of erythroleukemia and AML cell lines expressing IDH2 R140Q (PMID: 23558173).",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 1585,
+                "therapyName": "AGI-6780",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 881,
+                    "pubMedId": 23558173,
+                    "title": "Targeted inhibition of mutant IDH2 in leukemia cells induces cellular differentiation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23558173"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17411,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial that supported FDA approval, Idhifa (enasidenib) treatment resulted in an overall response rate of 40.3% (71/176) with a median response duration of 5.8 months, complete remission in 19.3% (34/176), and stable disease in 48.3% (85/176) of acute myeloid leukemia patients harboring IDH2 mutations (PMID: 28588020; NCT01915498) and IDH2 R140Q is on the companion diagnostic.",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 2982,
+                "therapyName": "Enasidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9651,
+                    "pubMedId": 28588020,
+                    "title": "Enasidenib in mutant IDH2 relapsed or refractory acute myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588020"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15478,
+                    "pubMedId": null,
+                    "title": "Idhifa (enasidenib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209606"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10738,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Enasidenib (AG-221) treatment reduced 2-hydroxyglutarate (2HG) levels and induced differentiation of leukemic blasts from acute myeloid leukemia (AML) patients harboring IDH2 R140Q in culture, and decreased 2HG levels and blast percentage and improved survival relative to Cytosar-U (cytarabine) treatment in IDH2 R140Q-mutant primary AML xenograft models (PMID: 28193778).",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 2982,
+                "therapyName": "Enasidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8791,
+                    "pubMedId": 28193778,
+                    "title": "AG-221, a First-in-Class Therapy Targeting Acute Myeloid Leukemia Harboring Oncogenic IDH2 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28193778"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10740,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Enasidenib (AG-221) decreased 2-hydroxyglutarate (2HG) levels in a glioblastoma cell line expressing IDH2 R140Q in culture and in xenograft models (PMID: 28193778).",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 2982,
+                "therapyName": "Enasidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8791,
+                    "pubMedId": 28193778,
+                    "title": "AG-221, a First-in-Class Therapy Targeting Acute Myeloid Leukemia Harboring Oncogenic IDH2 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28193778"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13673,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "IDH2 R140Q is associated with a poor prognosis in patients with myelodysplastic syndrome (NCCN.org).",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50908,
+                "name": "myelodysplastic syndrome",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13074,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AG-881 treatment decreased tumor 2HG levels in a glioma cell line xenograft model harboring IDH2 R140Q (Mol Cancer Ther Jan 1 2018 (17) (1 Supp) B126).",
+            "molecularProfile": {
+                "id": 1254,
+                "profileName": "IDH2 R140Q"
+            },
+            "therapy": {
+                "id": 2995,
+                "therapyName": "AG-881",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10950,
+                    "pubMedId": null,
+                    "title": "Abstract B126: AG-881, a brain penetrant, potent, pan-mutant IDH (mIDH) inhibitor for use in mIDH solid and hematologic malignancies",
+                    "url": "http://mct.aacrjournals.org/content/17/1_Supplement/B126"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14494,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, IDH2 Q316E was identified as an acquired mutation in trans with the original IDH2 R140Q in a patient with acute myeloid leukemia (AML), who developed resistance to Idhifa (enasidenib) after initial response, and coexpression of IDH2 Q316E in trans or in cis with IDH2 R140Q conferred resistance to Idhifa (enasidenib) in culture and in animal models of AML, supporting a mechanism of variants cooperating to confer resistance (PMID: 29950729).",
+            "molecularProfile": {
+                "id": 30030,
+                "profileName": "IDH2 R140Q IDH2 Q316E"
+            },
+            "therapy": {
+                "id": 2982,
+                "therapyName": "Enasidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11648,
+                    "pubMedId": 29950729,
+                    "title": "Acquired resistance to IDH inhibition through trans or cis dimer-interface mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29950729"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14495,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, IDH2 I319M was identified as an acquired mutation in trans with the original IDH2 R140Q in a patient with acute myeloid leukemia (AML), who developed resistance to Idhifa (enasidenib) after initial response, and coexpression of IDH2 I319M in trans or in cis with IDH2 R140Q conferred resistance to Idhifa (enasidenib) in culture, supporting a mechanism of variants cooperating to confer resistance (PMID: 29950729).",
+            "molecularProfile": {
+                "id": 30031,
+                "profileName": "IDH2 R140Q IDH2 I319M"
+            },
+            "therapy": {
+                "id": 2982,
+                "therapyName": "Enasidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11648,
+                    "pubMedId": 29950729,
+                    "title": "Acquired resistance to IDH inhibition through trans or cis dimer-interface mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29950729"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1254,
+            "profileName": "IDH2 R140Q",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16897,
+                    "name": "IDH Inhibitor (Pan)",
+                    "profileName": "IDH2 R140Q"
+                },
+                {
+                    "id": 16898,
+                    "name": "IDH2 Inhibitor",
+                    "profileName": "IDH2 R140Q"
+                }
+            ]
+        },
+        {
+            "id": 30030,
+            "profileName": "IDH2 R140Q IDH2 Q316E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30031,
+            "profileName": "IDH2 R140Q IDH2 I319M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 91606,
+            "transcript": "NM_002168",
+            "gDna": "chr15:g.90088702C>T",
+            "cDna": "c.419G>A",
+            "protein": "p.R140Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

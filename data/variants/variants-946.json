@@ -1,0 +1,241 @@
+{
+    "id": 946,
+    "fullName": "SMO W535L",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "SMO W535L lies within the seventh transmembrane domain of the Smo protein (PMID: 9422511). The functional effect of W535L is conflicting, as it results in constitutive activation of Smo and is transforming in cell culture, and has been demonstrated to confer Hedgehog pathway inhibitor resistance (PMID: 9422511, PMID: 10607393, PMID: 25759020), however in another study, W535L results in similar cell proliferation and viability levels as wild-type Smo (PMID: 29533785), and therefore, its effect on Smo protein function is unknown.",
+            "references": [
+                {
+                    "id": 433,
+                    "pubMedId": 9422511,
+                    "title": "Activating Smoothened mutations in sporadic basal-cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9422511"
+                },
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 4691,
+                    "pubMedId": 10607393,
+                    "title": "The seven-transmembrane receptor smoothened cell-autonomously induces multiple ventral cell types.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10607393"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6608,
+        "geneSymbol": "SMO",
+        "terms": [
+            "SMO",
+            "CRJS",
+            "FZD11",
+            "Gx",
+            "SMOH"
+        ]
+    },
+    "variant": "W535L",
+    "createDate": "07/11/2014",
+    "updateDate": "11/07/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 123244,
+        "transcript": "NM_005631",
+        "gDna": "chr7:g.129210500G>T",
+        "cDna": "c.1604G>T",
+        "protein": "p.W535L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2169,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing SMO W535L demonstrated resistance to Erivedge (vismodegib) (PMID: 25759020).",
+            "molecularProfile": {
+                "id": 3611,
+                "profileName": "SMO W535L"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15692,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse fibroblast cells expressing human SMO W535L were resistant to Hedgehog pathway inhibition by Erivedge (vismodegib) in culture (PMID: 25801792).",
+            "molecularProfile": {
+                "id": 3611,
+                "profileName": "SMO W535L"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13490,
+                    "pubMedId": 25801792,
+                    "title": "Rolling the Genetic Dice: Neutral and Deleterious Smoothened Mutations in Drug-Resistant Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25801792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1466,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with arsenic trioxide resulted in improved survival in a transgenic mouse model of medulloblastoma expressing SMO W535L (PMID: 21183792).",
+            "molecularProfile": {
+                "id": 3611,
+                "profileName": "SMO W535L"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1335,
+                    "pubMedId": 21183792,
+                    "title": "Arsenic trioxide inhibits human cancer cell growth and tumor development in mice by blocking Hedgehog/GLI pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21183792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4277,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in stable disease in a basal cell carcinoma patient harboring SMO W535L with resistance to Erivedge (vismodegib) (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 3611,
+                "profileName": "SMO W535L"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6321,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Posaconazole did not inhibit Hedghog signaling in mouse fibroblasts over expressing murine SMO W539L (corresponding to human SMO W535L) in culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 3611,
+                "profileName": "SMO W535L"
+            },
+            "therapy": {
+                "id": 4108,
+                "therapyName": "Posaconazole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3611,
+            "profileName": "SMO W535L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 123244,
+            "transcript": "NM_005631",
+            "gDna": "chr7:g.129210500G>T",
+            "cDna": "c.1604G>T",
+            "protein": "p.W535L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

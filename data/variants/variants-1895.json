@@ -1,0 +1,702 @@
+{
+    "id": 1895,
+    "fullName": "KRAS Q61H",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS Q61H is a hotspot mutation that lies within a GTP-binding region of the Kras protein (UniProt.org). Q61H results in decreased GTPase activity in the Kras protein, increased downstream signaling, and transformation of cultured cells (PMID: 20147967).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 841,
+                    "pubMedId": 20147967,
+                    "title": "Activating K-Ras mutations outwith 'hotspot' codons in sporadic colorectal tumours - implications for personalised cancer medicine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20147967"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "Q61H",
+    "createDate": "09/25/2014",
+    "updateDate": "10/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 157364,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25227341T>A",
+        "cDna": "c.183A>T",
+        "protein": "p.Q61H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8992,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Binimetinib (MEK162) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS Q61H mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7767,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with ovarian carcinoma harboring KRAS Q61H demonstrated sensitivity to treatment with the combination of Nexavar (sorafenib) and Avastin (bevacizumab), resulting in 62% tumor regression (PMID: 25363205).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 4517,
+                "therapyName": "Bevacizumab + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6478,
+                    "pubMedId": 25363205,
+                    "title": "Dual antiangiogenic inhibition: a phase I dose escalation and expansion trial targeting VEGF-A and VEGFR in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25363205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3008,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human non-small cell lung cancer cell line harboring KRAS Q61H (PMID: 19165201) were insensitive to pictilisib (GDC-0941) growth inhibition in culture (PMID: 22693356).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 749,
+                "therapyName": "Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1018,
+                    "pubMedId": 22693356,
+                    "title": "Cancer network disruption by a single molecule inhibitor targeting both histone deacetylase activity and phosphatidylinositol 3-kinase signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22693356"
+                },
+                {
+                    "id": 3568,
+                    "pubMedId": 19165201,
+                    "title": "LKB1/KRAS mutant lung cancers constitute a genetic subset of NSCLC with increased sensitivity to MAPK and mTOR signalling inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19165201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16627,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Vectibix (panitumumab) and Mekinist (trametinib) combination treatment inhibited growth of liver metastasis harboring MAP2K1 K57T in a patient with colorectal cancer, but the disease progressed due to the outgrowth of a clone of metastatic tumor harboring KRAS Q61H (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 1991,
+                "therapyName": "Panitumumab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3013,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CUDC-907 inhibited growth and repressed RAF-MEK-MAPK signaling as indicated by reduced phosphorylation of Craf, Mek, and Mapk in a human non-small cell lung cancer cell line harboring KRAS Q61H in culture (PMID: 19165201, PMID: 22693356).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 709,
+                "therapyName": "CUDC-907",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1018,
+                    "pubMedId": 22693356,
+                    "title": "Cancer network disruption by a single molecule inhibitor targeting both histone deacetylase activity and phosphatidylinositol 3-kinase signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22693356"
+                },
+                {
+                    "id": 3568,
+                    "pubMedId": 19165201,
+                    "title": "LKB1/KRAS mutant lung cancers constitute a genetic subset of NSCLC with increased sensitivity to MAPK and mTOR signalling inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19165201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9000,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS Q61H mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11324,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4785 inhibited Kras expression, resulted in growth inhibition in 3-D cultures of non-small cell lung carcinoma cell lines harboring KRAS Q61H (PMID: 28615361).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 5914,
+                "therapyName": "AZD4785",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9180,
+                    "pubMedId": 28615361,
+                    "title": "Targeting KRAS-dependent tumors with AZD4785, a high-affinity therapeutic antisense oligonucleotide inhibitor of KRAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615361"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16005,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of lung cancer cell lines harboring KRAS Q61H in 3D culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 1862,
+                "profileName": "KRAS Q61H"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5620,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) and Ibrance (palbociclib) combination treatment resulted in partial tumor regression in PDX models of colorectal cancer cells harboring KRAS Q61H and PIK3CA E542K (PMID: 26369631).",
+            "molecularProfile": {
+                "id": 21302,
+                "profileName": "KRAS Q61H PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 1368,
+                "therapyName": "Palbociclib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5128,
+                    "pubMedId": 26369631,
+                    "title": "Sensitivity of KRAS-Mutant Colorectal Cancers to Combination Therapy That Cotargets MEK and CDK4/6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26369631"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6448,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Mekinist (trametinib) had no effect on a lung adenocarcinoma cell line co-harboring MAP2K1 Y134C and KRAS Q61H in culture (PMID: 26582713).",
+            "molecularProfile": {
+                "id": 23451,
+                "profileName": "KRAS Q61H MAP2K1 Y134C"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5602,
+                    "pubMedId": 26582713,
+                    "title": "Identification of an \"Exceptional Responder\" Cell Line to MEK1 Inhibition: Clinical Implications for MEK-Targeted Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582713"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6449,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Refametanib (BAY86-9766) had no effect on a lung adenocarcinoma cell line co-harboring MAP2K1 Y134C and KRAS Q61H in culture (PMID: 26582713).",
+            "molecularProfile": {
+                "id": 23451,
+                "profileName": "KRAS Q61H MAP2K1 Y134C"
+            },
+            "therapy": {
+                "id": 888,
+                "therapyName": "Refametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5602,
+                    "pubMedId": 26582713,
+                    "title": "Identification of an \"Exceptional Responder\" Cell Line to MEK1 Inhibition: Clinical Implications for MEK-Targeted Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582713"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8171,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring KRAS Q61H and PIK3CA E545K demonstrated decreased response to Pimasertib (MSC1936369B) in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26184,
+                "profileName": "KRAS Q61H PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 871,
+                "therapyName": "Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8180,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Nexavar (sorafenib) synergistically inhibited proliferation of non-small cell lung cancer cells harboring KRAS Q61H and PIK3CA E545K in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26184,
+                "profileName": "KRAS Q61H PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 1659,
+                "therapyName": "Pimasertib + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8185,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Stivarga (regorafenib) synergistically inhibited proliferation of non-small cell lung cancer cells harboring KRAS Q61H and PIK3CA E545K in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26184,
+                "profileName": "KRAS Q61H PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 4657,
+                "therapyName": "Pimasertib + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8176,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Afinitor (everolimus) synergistically inhibited proliferation of non-small cell lung cancer cells harboring KRAS Q61H and PIK3CA E545K in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26184,
+                "profileName": "KRAS Q61H PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 4656,
+                "therapyName": "Everolimus + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20818,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a colorectal cancer patient demonstrated resistance to treatment with Erbitux (cetuximab) and was found to harbor EGFR S492R, KRAS Q61H, and PIK3CA H1047L (PMID: 31924740).",
+            "molecularProfile": {
+                "id": 35350,
+                "profileName": "EGFR S492R KRAS Q61H PIK3CA H1047L"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18062,
+                    "pubMedId": 31924740,
+                    "title": "KLF4 p.A472D Mutation Contributes to Acquired Resistance to Cetuximab in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31924740"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1862,
+            "profileName": "KRAS Q61H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 15917,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "KRAS Q61H"
+                },
+                {
+                    "id": 15912,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "KRAS Q61H"
+                },
+                {
+                    "id": 15911,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "KRAS Q61H"
+                },
+                {
+                    "id": 15916,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "KRAS Q61H"
+                },
+                {
+                    "id": 15914,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "KRAS Q61H"
+                },
+                {
+                    "id": 15913,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "KRAS Q61H"
+                },
+                {
+                    "id": 15915,
+                    "name": "AZD4785",
+                    "profileName": "KRAS Q61H"
+                }
+            ]
+        },
+        {
+            "id": 21302,
+            "profileName": "KRAS Q61H PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23451,
+            "profileName": "KRAS Q61H MAP2K1 Y134C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26036,
+            "profileName": "KRAS Q61H PIK3CA Q546R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26184,
+            "profileName": "KRAS Q61H PIK3CA E545K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35350,
+            "profileName": "EGFR S492R KRAS Q61H PIK3CA H1047L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157365,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25227341T>A",
+            "cDna": "c.183A>T",
+            "protein": "p.Q61H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157367,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25227341T>A",
+            "cDna": "c.183A>T",
+            "protein": "p.Q61H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157363,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25227341T>A",
+            "cDna": "c.183A>T",
+            "protein": "p.Q61H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157366,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25227341T>A",
+            "cDna": "c.183A>T",
+            "protein": "p.Q61H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157364,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25227341T>A",
+            "cDna": "c.183A>T",
+            "protein": "p.Q61H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

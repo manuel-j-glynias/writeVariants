@@ -1,0 +1,205 @@
+{
+    "id": 1004,
+    "fullName": "MET H1112Y",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET H1112Y (corresponds to H1094Y in the canonical isoform) lies within the protein kinase domain of the Met protein (UniProt.org). H1112Y confers a gain of function to Met, resulting in constitutive Met phosphorylation and activation of downstream signaling, and is transforming in cell culture (PMID: 15064724, PMID: 24061647, PMID: 10327054).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2196,
+                    "pubMedId": 24061647,
+                    "title": "The novel ATP-competitive inhibitor of the MET hepatocyte growth factor receptor EMD1214063 displays inhibitory activity against selected MET-mutated variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24061647"
+                },
+                {
+                    "id": 452,
+                    "pubMedId": 15064724,
+                    "title": "The Met kinase inhibitor SU11274 exhibits a selective inhibition pattern toward different receptor mutated variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15064724"
+                },
+                {
+                    "id": 1991,
+                    "pubMedId": 10327054,
+                    "title": "Novel mutations of the MET proto-oncogene in papillary renal carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10327054"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "H1112Y",
+    "createDate": "07/16/2014",
+    "updateDate": "02/12/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 144717,
+        "transcript": "NM_001127500",
+        "gDna": "chr7:g.116777409C>T",
+        "cDna": "c.3334C>T",
+        "protein": "p.H1112Y",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 810,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a cell line expressing MET H1112Y demonstrated sensitivity to SU11274 treatment (PMID: 15064724).",
+            "molecularProfile": {
+                "id": 1120,
+                "profileName": "MET H1112Y"
+            },
+            "therapy": {
+                "id": 1089,
+                "therapyName": "SU11274",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 162,
+                "name": "cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 452,
+                    "pubMedId": 15064724,
+                    "title": "The Met kinase inhibitor SU11274 exhibits a selective inhibition pattern toward different receptor mutated variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15064724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20337,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer harboring MET D1010H had stable disease for 21.2 months when treated with Glesatinib (MGCD265), but then progressed, and tissue testing revealed acquisition of MET H1112Y (also referred to as H1094Y) and PTEN E106* while plasma testing revealed acquisition of MET H1112Y and MET L1195V (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35127,
+                "profileName": "MET D1010H MET H1112Y MET L1195V PTEN E106*"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20338,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer treated with Xalkori (crizotinib) demonstrated resistance and plasma testing revealed MET D1010H, MET S997*, MET H1094Y (also referred to as H1112Y), and MET L1195V (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35129,
+                "profileName": "MET S997* MET D1010H MET H1112Y MET L1195V"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1120,
+            "profileName": "MET H1112Y",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1509,
+                    "name": "MET Inhibitor",
+                    "profileName": "MET H1112Y"
+                }
+            ]
+        },
+        {
+            "id": 35126,
+            "profileName": "MET D1010H MET H1112Y PTEN E106*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35127,
+            "profileName": "MET D1010H MET H1112Y MET L1195V PTEN E106*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35129,
+            "profileName": "MET S997* MET D1010H MET H1112Y MET L1195V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144717,
+            "transcript": "NM_001127500",
+            "gDna": "chr7:g.116777409C>T",
+            "cDna": "c.3334C>T",
+            "protein": "p.H1112Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

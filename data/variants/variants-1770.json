@@ -1,0 +1,109 @@
+{
+    "id": 1770,
+    "fullName": "FLT3 R595_L601dup",
+    "impact": "duplication",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 R595_L601dup (also referred to as FLT3 L601_K602insREYEYDL) indicates the insertion of 7 duplicate amino acids, arginine (R)-595 through leucine(L)-601, in the juxtamembrane region of the Flt3 protein (PMID: 11756186). R595_L601dup results in constitutive phosphorylation of Flt3, activation of Stat5 and Erk signaling, transformation of cells in culture, and induction of myeloproliferative disorder in mouse models (PMID: 18068628, PMID: 11756186).",
+            "references": [
+                {
+                    "id": 2803,
+                    "pubMedId": 18068628,
+                    "title": "Identification of driver and passenger mutations of FLT3 by high-throughput DNA sequence analysis and functional assessment of candidate alleles.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18068628"
+                },
+                {
+                    "id": 705,
+                    "pubMedId": 11756186,
+                    "title": "FLT3 internal tandem duplication mutations associated with human acute myeloid leukemias induce myeloproliferative disease in a murine bone marrow transplant model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11756186"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "R595_L601dup",
+    "createDate": "09/18/2014",
+    "updateDate": "10/05/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 144529,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28034115_28034116insAAGGTCATACTCATACTCCCT",
+        "cDna": "c.1804_1805insGGGAGTATGAGTATGACCTTA",
+        "protein": "p.R595_L601dupREYEYDL",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1039,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tandutinib (CT53518) inhibited cell proliferation in cell culture and in mouse models carrying FLT3 L601_K602insREYEYDL (PMID: 12124172).",
+            "molecularProfile": {
+                "id": 1756,
+                "profileName": "FLT3 R595_L601dup"
+            },
+            "therapy": {
+                "id": 933,
+                "therapyName": "Tandutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 749,
+                    "pubMedId": 12124172,
+                    "title": "CT53518, a novel selective FLT3 antagonist for the treatment of acute myelogenous leukemia (AML).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12124172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1756,
+            "profileName": "FLT3 R595_L601dup",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4006,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 R595_L601dup"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144529,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28034115_28034116insAAGGTCATACTCATACTCCCT",
+            "cDna": "c.1804_1805insGGGAGTATGAGTATGACCTTA",
+            "protein": "p.R595_L601dupREYEYDL",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,400 @@
+{
+    "id": 22986,
+    "fullName": "EGFR P772_H773insGNP",
+    "impact": "insertion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR P772_H773insGNP (also referred to as D770_N771insNPG) results in the insertion of three amino acids in the protein kinase domain of the Egfr protein between amino acids 772 and 773 (UniProt.org). P772_H773insGNP (D770_N771insNPG) results in increased Egfr kinase activity and is transforming in culture (PMID: 24353160).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 440,
+                    "pubMedId": 24353160,
+                    "title": "Structural, biochemical, and clinical characterization of epidermal growth factor receptor (EGFR) exon 20 insertion mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24353160"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "P772_H773insGNP",
+    "createDate": "05/27/2016",
+    "updateDate": "05/13/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135572,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181324_55181325insTGGTAACCC",
+        "cDna": "c.2315_2316insTGGTAACCC",
+        "protein": "p.P772_H773insGNP",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16304,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Luminespib (AUY922) decreased viability of cells expressing EGFR P772_H773insGNP (referred to as D770_N771insNPG) in culture (PMID: 30154228).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 647,
+                "therapyName": "Luminespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14417,
+                    "pubMedId": 30154228,
+                    "title": "EGFR Exon 20 Insertion Mutations Display Sensitivity to Hsp90 Inhibition in Preclinical Models and Lung Adenocarcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30154228"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12363,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Poziotinib (HM781-36B) decreased tumor burden by greater than 85% in a mouse model of non-small cell lung cancer expressing EGFR D770_N771insNPG (WCLC 2017, Abstract OA 12.01).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10341,
+                    "pubMedId": null,
+                    "title": "The Preclinical and Clinical Activity of Poziotinib, a Potent, Selective Inhibitor of EGFR Exon 20 Mutant NSCLC",
+                    "url": "https://library.iaslc.org/conference-program?product_id=7&author=&category=&date=&session_type=&session=&presentation=&keyword=&available=&page=19"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13101,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR P772_H773insGNP (referred to as D770_N771insNPG) were resistant to Tarceva (erlotinib) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13102,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited EGFR signaling and proliferation of transformed cells expressing EGFR P772_H773insGNP (referred to as D770_N771insNPG) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14725,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited EGFR phosphorylation and growth of a transformed cell line expressing EGFR P772_H773insGNP (referred to as D770_N771insNPG) in culture (PMID: 29686424).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14737,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) induced regression of lung tumors in mouse models harboring EGFR P772_H773insGNP (referred to as D770_N771insNPG), with no signs of progression at 12 weeks (PMID: 29686424).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14490,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR P772_H773insGNP (referred to as D770_N771insNPG) did not respond to treatment with OBX1-012 in culture (PMID: 29754184).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 7094,
+                "therapyName": "OBX1-012",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11644,
+                    "pubMedId": 29754184,
+                    "title": "Discovery of a Potent and Mutant-Selective EGFR Inhibitor that Overcomes T790M-Mediated Resistance in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29754184"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13103,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited EGFR signaling and proliferation of transformed cells expressing EGFR P772_H773insGNP (referred to as D770_N771insNPG) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13638,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Naquotinib (ASP8273) inhibited EGFR signaling and proliferation of transformed cells expressing EGFR P772_H773insGNP (referred to as D770_N771insNPG) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 23636,
+                "profileName": "EGFR P772_H773insGNP"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14491,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR C797S, EGFR P772_H773insGNP (referred to as D770_N771insNPG), and EGFR T790M did not respond to treatment with OBX1-012 in culture (PMID: 29754184).",
+            "molecularProfile": {
+                "id": 30023,
+                "profileName": "EGFR P772_H773insGNP EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 7094,
+                "therapyName": "OBX1-012",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11644,
+                    "pubMedId": 29754184,
+                    "title": "Discovery of a Potent and Mutant-Selective EGFR Inhibitor that Overcomes T790M-Mediated Resistance in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29754184"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23636,
+            "profileName": "EGFR P772_H773insGNP",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30023,
+            "profileName": "EGFR P772_H773insGNP EGFR T790M EGFR C797S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30024,
+            "profileName": "EGFR P772_H773insGNP EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135572,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181324_55181325insTGGTAACCC",
+            "cDna": "c.2315_2316insTGGTAACCC",
+            "protein": "p.P772_H773insGNP",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

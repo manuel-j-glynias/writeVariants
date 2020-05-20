@@ -1,0 +1,198 @@
+{
+    "id": 29537,
+    "fullName": "BCL2 G101V",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "BCL2 G101V lies within the BH3 motif of the Bcl2 protein (UniProt.org). G101V has been associated with BCL2 inhibitor resistance (PMID: 30514704, PMID: 31160589), but has not been biochemically characterized and therefore, its effect on Bcl2 protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 14412,
+                    "pubMedId": 30514704,
+                    "title": "Acquisition of the Recurrent Gly101Val Mutation in BCL2 Confers Resistance to Venetoclax in Patients with Progressive Chronic Lymphocytic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30514704"
+                },
+                {
+                    "id": 15287,
+                    "pubMedId": 31160589,
+                    "title": "Structures of BCL-2 in complex with venetoclax reveal the molecular basis of resistance mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31160589"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 596,
+        "geneSymbol": "BCL2",
+        "terms": [
+            "BCL2",
+            "Bcl-2",
+            "PPP1R50"
+        ]
+    },
+    "variant": "G101V",
+    "createDate": "03/07/2019",
+    "updateDate": "03/27/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 178858,
+        "transcript": "NM_000633",
+        "gDna": "chr18:g.63318365C>A",
+        "cDna": "c.302G>T",
+        "protein": "p.G101V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16272,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells collected post-Venclexta (venetoclax) progression from chronic lymphocytic leukemia patients that were found to harbor BCL2 G101V demonstrated decreased sensitivity to ABT-737 in culture compared to cells collected prior to progression (PMID: 30514704).",
+            "molecularProfile": {
+                "id": 31579,
+                "profileName": "BCL2 G101V"
+            },
+            "therapy": {
+                "id": 1772,
+                "therapyName": "ABT-737",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 14412,
+                    "pubMedId": 30514704,
+                    "title": "Acquisition of the Recurrent Gly101Val Mutation in BCL2 Confers Resistance to Venetoclax in Patients with Progressive Chronic Lymphocytic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30514704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17576,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BCL2 G101V conferred resistance to BCL201 (S55746) in cultured B-cells (PMID: 31160589).",
+            "molecularProfile": {
+                "id": 31579,
+                "profileName": "BCL2 G101V"
+            },
+            "therapy": {
+                "id": 6414,
+                "therapyName": "BCL201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 707,
+                "name": "B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15287,
+                    "pubMedId": 31160589,
+                    "title": "Structures of BCL-2 in complex with venetoclax reveal the molecular basis of resistance mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31160589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16271,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, BCL2 G101V was identified as a recurrent mutation in post-progression samples from a cohort of chronic lymphocytic leukemia patients treated with Venclexta (venetoclax), appearing in 7 of 15 patients, and patient cells harboring BCL2 G101V demonstrated decreased sensitivity to Venclexta (venetoclax) in culture (PMID: 30514704).",
+            "molecularProfile": {
+                "id": 31579,
+                "profileName": "BCL2 G101V"
+            },
+            "therapy": {
+                "id": 1562,
+                "therapyName": "Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14412,
+                    "pubMedId": 30514704,
+                    "title": "Acquisition of the Recurrent Gly101Val Mutation in BCL2 Confers Resistance to Venetoclax in Patients with Progressive Chronic Lymphocytic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30514704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31579,
+            "profileName": "BCL2 G101V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 178859,
+            "transcript": "XM_017025917",
+            "gDna": "chr18:g.63318365C>A",
+            "cDna": "c.302G>T",
+            "protein": "p.G101V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 178860,
+            "transcript": "XM_011526135",
+            "gDna": "chr18:g.63318365C>A",
+            "cDna": "c.302G>T",
+            "protein": "p.G101V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 178861,
+            "transcript": "NM_000657",
+            "gDna": "chr18:g.63318365C>A",
+            "cDna": "c.302G>T",
+            "protein": "p.G101V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 178858,
+            "transcript": "NM_000633",
+            "gDna": "chr18:g.63318365C>A",
+            "cDna": "c.302G>T",
+            "protein": "p.G101V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

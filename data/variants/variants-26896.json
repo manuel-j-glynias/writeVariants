@@ -1,0 +1,138 @@
+{
+    "id": 26896,
+    "fullName": "TP53 P98fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 P98fs results in a change in the amino acid sequence of the Tp53 protein beginning at aa 98 of 393, likely resulting in premature truncation of the functional protein. Due to the loss of the DNA binding region (UniProt.org), P98fs is predicted to lead to a loss of Tp53 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "P98fs",
+    "createDate": "08/22/2017",
+    "updateDate": "08/22/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 95189,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.(7676077_7676078)",
+        "cDna": "c.(292_291)",
+        "protein": "p.P98fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11784,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Paraplatin (carboplatin) and Adavosertib (MK-1775) combination treatment resulted in disease progression in an ovarian cancer patient harboring TP53 P98fs, R175C, and S215G (PMID: 27998224).",
+            "molecularProfile": {
+                "id": 28235,
+                "profileName": "TP53 P98fs TP53 R175C TP53 S215G"
+            },
+            "therapy": {
+                "id": 1194,
+                "therapyName": "Adavosertib + Carboplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9762,
+                    "pubMedId": 27998224,
+                    "title": "Phase II Study of WEE1 Inhibitor AZD1775 Plus Carboplatin in Patients With TP53-Mutated Ovarian Cancer Refractory or Resistant to First-Line Therapy Within 3 Months.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27998224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28221,
+            "profileName": "TP53 P98fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14686,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 P98fs"
+                }
+            ]
+        },
+        {
+            "id": 28235,
+            "profileName": "TP53 P98fs TP53 R175C TP53 S215G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95191,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.(7676077_7676078)",
+            "cDna": "c.(292_291)",
+            "protein": "p.P98fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95189,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.(7676077_7676078)",
+            "cDna": "c.(292_291)",
+            "protein": "p.P98fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95188,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.(7676077_7676078)",
+            "cDna": "c.(292_291)",
+            "protein": "p.P98fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95190,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.(7676077_7676078)",
+            "cDna": "c.(292_291)",
+            "protein": "p.P98fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

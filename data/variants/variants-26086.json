@@ -1,0 +1,150 @@
+{
+    "id": 26086,
+    "fullName": "MET V1155L",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET V1155L lies within the protein kinase domain of the Met protein (UniProt.org). V1155L is associated with resistance to some Met inhibitors in the context of TPR-MET (PMID: 21697284), but has not been biochemically characterized and therefore, its effect on Met protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 8018,
+                    "pubMedId": 21697284,
+                    "title": "A drug resistance screen using a selective MET inhibitor reveals a spectrum of mutations that partially overlap with activating mutations found in cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21697284"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "V1155L",
+    "createDate": "02/28/2017",
+    "updateDate": "03/14/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 144937,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116778898G>C",
+        "cDna": "c.3463G>C",
+        "protein": "p.V1155L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10103,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a TPR-MET fusion harboring MET V1155L demonstrated resistance to inhibition by NVP-BVU972 in culture (PMID: 21697284).",
+            "molecularProfile": {
+                "id": 27248,
+                "profileName": "TPR - MET MET V1155L"
+            },
+            "therapy": {
+                "id": 5378,
+                "therapyName": "NVP-BVU972",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8018,
+                    "pubMedId": 21697284,
+                    "title": "A drug resistance screen using a selective MET inhibitor reveals a spectrum of mutations that partially overlap with activating mutations found in cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21697284"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21106,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Capmatinib (INC280) treatment inhibited proliferation of a transformed human cell line expressing a TPR-MET fusion bearing MET V1155L in culture (PMID: 30674502).",
+            "molecularProfile": {
+                "id": 27248,
+                "profileName": "TPR - MET MET V1155L"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18298,
+                    "pubMedId": 30674502,
+                    "title": "Capmatinib (INC280) Is Active Against Models of Non-Small Cell Lung Cancer and Other Cancer Types with Defined Mechanisms of MET Activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30674502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27247,
+            "profileName": "MET V1155L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27248,
+            "profileName": "TPR - MET MET V1155L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144937,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116778898G>C",
+            "cDna": "c.3463G>C",
+            "protein": "p.V1155L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "id": 26344,
+    "fullName": "STK11 K48fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "STK11 K48fs results in a change in the amino acid sequence of the Stk11 protein beginning at aa 48 of 433, likely resulting in premature truncation of the functional protein (UniProt.org). K48fs has not been characterized however, due to the effects of other truncation mutations downstream of K48 (PMID: 23612973), K48fs is predicted to lead to a loss of Stk11 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 16023,
+                    "pubMedId": 23612973,
+                    "title": "Phosphorylation of serine 399 in LKB1 protein short form by protein kinase C\u03b6 is required for its nucleocytoplasmic transport and consequent AMP-activated protein kinase (AMPK) activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23612973"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6794,
+        "geneSymbol": "STK11",
+        "terms": [
+            "STK11",
+            "hLKB1",
+            "LKB1",
+            "PJS"
+        ]
+    },
+    "variant": "K48fs",
+    "createDate": "04/18/2017",
+    "updateDate": "08/21/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 100504,
+        "transcript": "NM_000455",
+        "gDna": "chr19:g.(1207054_1207055)",
+        "cDna": "c.(142_141)",
+        "protein": "p.K48fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9802,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cell lines harboring STK11 inactivating mutations, such as STK11 K48fs, demonstrated increased sensitivity to Mekinist (trametinib) in culture (PMID: 27821489).",
+            "molecularProfile": {
+                "id": 27553,
+                "profileName": "STK11 K48fs"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7607,
+                    "pubMedId": 27821489,
+                    "title": "A Transcriptional Signature Identifies LKB1 Functional Status as a Novel Determinant of MEK Sensitivity in Lung Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27821489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27553,
+            "profileName": "STK11 K48fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11199,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "STK11 K48fs"
+                },
+                {
+                    "id": 11200,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "STK11 K48fs"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 100506,
+            "transcript": "XM_005259617",
+            "gDna": "chr19:g.(1207054_1207055)",
+            "cDna": "c.(142_141)",
+            "protein": "p.K48fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 100507,
+            "transcript": "XM_005259618",
+            "gDna": "chr19:g.(1207054_1207055)",
+            "cDna": "c.(142_141)",
+            "protein": "p.K48fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 100505,
+            "transcript": "XM_011528209",
+            "gDna": "chr19:g.(1218489_1218490)",
+            "cDna": "c.(142_141)",
+            "protein": "p.K48fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 100504,
+            "transcript": "NM_000455",
+            "gDna": "chr19:g.(1207054_1207055)",
+            "cDna": "c.(142_141)",
+            "protein": "p.K48fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

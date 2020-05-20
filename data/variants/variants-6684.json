@@ -1,0 +1,134 @@
+{
+    "id": 6684,
+    "fullName": "CDKN1A loss",
+    "impact": "unknown",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CDKN1A loss indicates loss of the CDKN1A gene, mRNA, and protein.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 1026,
+        "geneSymbol": "CDKN1A",
+        "terms": [
+            "CDKN1A",
+            "CAP20",
+            "CDKN1",
+            "CIP1",
+            "MDA-6",
+            "P21",
+            "p21CIP1",
+            "SDI1",
+            "WAF1"
+        ]
+    },
+    "variant": "loss",
+    "createDate": "05/28/2015",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4552,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD7762 enhanced sensitivity to Gemzar (gemcitabine) in bladder cancer cell lines harboring CDKN1A loss and TP53 loss, resulting in decreased cell growth in culture (PMID: 25349305).",
+            "molecularProfile": {
+                "id": 17584,
+                "profileName": "CDKN1A loss TP53 loss"
+            },
+            "therapy": {
+                "id": 1968,
+                "therapyName": "AZD7762 + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4471,
+                    "pubMedId": 25349305,
+                    "title": "Combined CDKN1A/TP53 mutation in bladder cancer is a therapeutic target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25349305"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4551,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PF-00477736 enhanced sensitivity to Gemzar (gemcitabine) in bladder cancer cell lines harboring CDKN1A loss and TP53 loss, resulting in decreased tumor growth in xenograft models (PMID: 25349305).",
+            "molecularProfile": {
+                "id": 17584,
+                "profileName": "CDKN1A loss TP53 loss"
+            },
+            "therapy": {
+                "id": 3466,
+                "therapyName": "Gemcitabine + PF-00477736",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4471,
+                    "pubMedId": 25349305,
+                    "title": "Combined CDKN1A/TP53 mutation in bladder cancer is a therapeutic target.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25349305"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6536,
+            "profileName": "CDKN1A loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 17584,
+            "profileName": "CDKN1A loss TP53 loss",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7620,
+                    "name": "AZD7762 + Gemcitabine",
+                    "profileName": "CDKN1A loss TP53 loss"
+                },
+                {
+                    "id": 7619,
+                    "name": "Gemcitabine + PF-00477736",
+                    "profileName": "CDKN1A loss TP53 loss"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

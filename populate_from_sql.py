@@ -367,37 +367,38 @@ def write_snv(my_cursor, server_write):
         non_canonical_transcript = ''
         variant_type = 'SNV'
         protein_effect = get_protein_effect(row)
-        s = f'{row[14]}: createVariantSNVIndel(cDot: \\"{row[4]}\\", gDot: \\"{row[5]}\\", id: \\"{row[14]}\\", indelType: {indel_type}, name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\", pDot: \\"{row[3]}\\", proteinEffect: {protein_effect}, variantType: {variant_type}, ),'
+        graph_id = row[15]
+        s = f'{graph_id}: createVariantSNVIndel(cDot: \\"{row[4]}\\", exon: \\"{row[14]}\\", gDot: \\"{row[5]}\\", id: \\"{graph_id}\\", indelType: {indel_type}, name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\", pDot: \\"{row[3]}\\", proteinEffect: {protein_effect}, variantType: {variant_type}, ),'
         m += s
-        m_id = 'snv_g_' + row[14]
-        s = f'{m_id}: addVariantSNVIndelGene(id:\\"{row[14]}\\", gene: [\\"{row[1]}\\"]),'
+        m_id = 'snv_g_' + graph_id
+        s = f'{m_id}: addVariantSNVIndelGene(id:\\"{graph_id}\\", gene: [\\"{row[1]}\\"]),'
         m += s
-        m_id = 'snv_d_' + row[14]
-        s = f'{m_id}: addVariantSNVIndelDescription(id:\\"{row[14]}\\", description: [\\"{row[2]}\\"]),'
+        m_id = 'snv_d_' + graph_id
+        s = f'{m_id}: addVariantSNVIndelDescription(id:\\"{graph_id}\\", description: [\\"{row[2]}\\"]),'
         m += s
         jax_variant_id = row[10]
         # addVariantSNVIndelJaxVariant(id: ID!jaxVariant: [ID!]!): String
         if jax_variant_id != None:
-            m_id = 'snv_jax_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelJaxVariant(id:\\"{row[14]}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
+            m_id = 'snv_jax_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelJaxVariant(id:\\"{graph_id}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
             m += s
         go_variant_id = row[11]
         # addVariantSNVIndelGoVariant(goVariant: [ID!]!id: ID!): String
         if go_variant_id != None:
-            m_id = 'snv_go_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelGoVariant(id:\\"{row[14]}\\", goVariant: [\\"{go_variant_id}\\"]),'
+            m_id = 'snv_go_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelGoVariant(id:\\"{graph_id}\\", goVariant: [\\"{go_variant_id}\\"]),'
             m += s
         clinVarVariant = row[12]
         # addVariantSNVIndelClinVarVariant(clinVarVariant: [ID!]!id: ID!): String
         if clinVarVariant != None:
-            m_id = 'snv_cv_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelClinVarVariant(id:\\"{row[14]}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
+            m_id = 'snv_cv_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelClinVarVariant(id:\\"{graph_id}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
             m += s
         hot_spot_variant_id = row[13]
         # addVariantSNVIndelHotSpotVariant(hotSpotVariant: [ID!]!id: ID!): String
         if hot_spot_variant_id != None:
-            m_id = 'snv_hot_spot_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelHotSpotVariant(id:\\"{row[14]}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
+            m_id = 'snv_hot_spot_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelHotSpotVariant(id:\\"{graph_id}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
             m += s
         counter += 1
         if (counter % 100 == 0):
@@ -437,37 +438,38 @@ def write_indels(my_cursor, server_write):
         non_canonical_transcript = ''
         variant_type = 'Indel'
         protein_effect = get_protein_effect(row)
-        s = f'{row[14]}: createVariantSNVIndel(cDot: \\"{row[4]}\\", gDot: \\"{row[5]}\\", id: \\"{row[14]}\\", indelType: {indel_type}, name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\", pDot: \\"{row[3]}\\", proteinEffect: {protein_effect}, variantType: {variant_type}, ),'
+        graph_id = row[15]
+        s = f'{graph_id}: createVariantSNVIndel(cDot: \\"{row[4]}\\", exon: \\"{row[14]}\\", gDot: \\"{row[5]}\\", id: \\"{graph_id}\\", indelType: {indel_type}, name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\", pDot: \\"{row[3]}\\", proteinEffect: {protein_effect}, variantType: {variant_type}, ),'
         m += s
-        m_id = 'snv_g_' + row[14]
-        s = f'{m_id}: addVariantSNVIndelGene(id:\\"{row[14]}\\", gene: [\\"{row[1]}\\"]),'
+        m_id = 'snv_g_' + graph_id
+        s = f'{m_id}: addVariantSNVIndelGene(id:\\"{graph_id}\\", gene: [\\"{row[1]}\\"]),'
         m += s
-        m_id = 'snv_d_' + row[14]
-        s = f'{m_id}: addVariantSNVIndelDescription(id:\\"{row[14]}\\", description: [\\"{row[2]}\\"]),'
+        m_id = 'snv_d_' + graph_id
+        s = f'{m_id}: addVariantSNVIndelDescription(id:\\"{graph_id}\\", description: [\\"{row[2]}\\"]),'
         m += s
         jax_variant_id = row[10]
         # addVariantSNVIndelJaxVariant(id: ID!jaxVariant: [ID!]!): String
         if jax_variant_id != None:
-            m_id = 'snv_jax_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelJaxVariant(id:\\"{row[14]}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
+            m_id = 'snv_jax_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelJaxVariant(id:\\"{graph_id}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
             m += s
         go_variant_id = row[11]
         # addVariantSNVIndelGoVariant(goVariant: [ID!]!id: ID!): String
         if go_variant_id != None:
-            m_id = 'snv_go_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelGoVariant(id:\\"{row[14]}\\", goVariant: [\\"{go_variant_id}\\"]),'
+            m_id = 'snv_go_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelGoVariant(id:\\"{graph_id}\\", goVariant: [\\"{go_variant_id}\\"]),'
             m += s
         clinVarVariant = row[12]
         # addVariantSNVIndelClinVarVariant(clinVarVariant: [ID!]!id: ID!): String
         if clinVarVariant != None:
-            m_id = 'snv_cv_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelClinVarVariant(id:\\"{row[14]}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
+            m_id = 'snv_cv_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelClinVarVariant(id:\\"{graph_id}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
             m += s
         hot_spot_variant_id = row[13]
         # addVariantSNVIndelHotSpotVariant(hotSpotVariant: [ID!]!id: ID!): String
         if hot_spot_variant_id != None:
-            m_id = 'snv_hot_spot_' + row[14]
-            s = f'{m_id}: addVariantSNVIndelHotSpotVariant(id:\\"{row[14]}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
+            m_id = 'snv_hot_spot_' + graph_id
+            s = f'{m_id}: addVariantSNVIndelHotSpotVariant(id:\\"{graph_id}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
             m += s
         counter += 1
         if (counter % 100 == 0):
@@ -491,37 +493,38 @@ def write_cnv(my_cursor, server_write):
             copy_change = 'Gain'
         elif row[3] == 'loss':
             copy_change = 'Loss'
-        s = f'{row[14]}: createVariantCNV(copyChange: {copy_change}, id: \\"{row[14]}\\", name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\",  ),'
+        graph_id = row[15]
+        s = f'{graph_id}: createVariantCNV(copyChange: {copy_change}, id: \\"{graph_id}\\", name: \\"{row[0]}\\", nonCanonicalTranscript: \\"{non_canonical_transcript}\\",  ),'
         m += s
-        m_id = 'cnv_g_' + row[14]
-        s = f'{m_id}: addVariantCNVGene(id:\\"{row[14]}\\", gene: [\\"{row[1]}\\"]),'
+        m_id = 'cnv_g_' + graph_id
+        s = f'{m_id}: addVariantCNVGene(id:\\"{graph_id}\\", gene: [\\"{row[1]}\\"]),'
         m += s
-        m_id = 'cnv_d_' + row[14]
-        s = f'{m_id}: addVariantCNVDescription(id:\\"{row[14]}\\", description: [\\"{row[2]}\\"]),'
+        m_id = 'cnv_d_' + graph_id
+        s = f'{m_id}: addVariantCNVDescription(id:\\"{graph_id}\\", description: [\\"{row[2]}\\"]),'
         m += s
         jax_variant_id = row[10]
         # addVariantSNVIndelJaxVariant(id: ID!jaxVariant: [ID!]!): String
         if jax_variant_id != None:
-            m_id = 'cnv_jax_' + row[14]
-            s = f'{m_id}: addVariantCNVJaxVariant(id:\\"{row[14]}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
+            m_id = 'cnv_jax_' + graph_id
+            s = f'{m_id}: addVariantCNVJaxVariant(id:\\"{graph_id}\\", jaxVariant: [\\"{jax_variant_id}\\"]),'
             m += s
         go_variant_id = row[11]
         # addVariantSNVIndelGoVariant(goVariant: [ID!]!id: ID!): String
         if go_variant_id != None:
-            m_id = 'cnv_go_' + row[14]
-            s = f'{m_id}: addVariantCNVGoVariant(id:\\"{row[14]}\\", goVariant: [\\"{go_variant_id}\\"]),'
+            m_id = 'cnv_go_' + graph_id
+            s = f'{m_id}: addVariantCNVGoVariant(id:\\"{graph_id}\\", goVariant: [\\"{go_variant_id}\\"]),'
             m += s
         clinVarVariant = row[12]
         # addVariantSNVIndelClinVarVariant(clinVarVariant: [ID!]!id: ID!): String
         if clinVarVariant != None:
-            m_id = 'cnv_cv_' + row[14]
-            s = f'{m_id}: addVariantCNVClinVarVariant(id:\\"{row[14]}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
+            m_id = 'cnv_cv_' + graph_id
+            s = f'{m_id}: addVariantCNVClinVarVariant(id:\\"{graph_id}\\", clinVarVariant: [\\"{clinVarVariant}\\"]),'
             m += s
         hot_spot_variant_id = row[13]
         # addVariantSNVIndelHotSpotVariant(hotSpotVariant: [ID!]!id: ID!): String
         if hot_spot_variant_id != None:
-            m_id = 'cnv_hot_spot_' + row[14]
-            s = f'{m_id}: addVariantCNVHotSpotVariant(id:\\"{row[14]}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
+            m_id = 'cnv_hot_spot_' + graph_id
+            s = f'{m_id}: addVariantCNVHotSpotVariant(id:\\"{graph_id}\\", hotSpotVariant: [\\"{hot_spot_variant_id}\\"]),'
             m += s
         counter += 1
         if (counter % 100 == 0):

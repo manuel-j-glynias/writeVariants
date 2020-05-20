@@ -1,0 +1,1766 @@
+{
+    "id": 1087,
+    "fullName": "KRAS G12S",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS G12S is a hotspot mutation that lies within a GTP-binding region of the Kras protein (UniProt.org). G12S results in decreased Kras GTP-GDP exchange rate and leads to increased Ras-GTP and activation of downstream signaling in cell culture (PMID: 23455880, PMID: 28484014, PMID: 26184075).",
+            "references": [
+                {
+                    "id": 9854,
+                    "pubMedId": 28484014,
+                    "title": "Selective targeting of point-mutated KRAS through artificial microRNAs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28484014"
+                },
+                {
+                    "id": 9853,
+                    "pubMedId": 26184075,
+                    "title": "Interaction of a novel fluorescent GTP analogue with the small G-protein K-Ras.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26184075"
+                },
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "G12S",
+    "createDate": "07/22/2014",
+    "updateDate": "10/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 157090,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25245351C>T",
+        "cDna": "c.34G>A",
+        "protein": "p.G12S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3935,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAE226 treatment inhibited proliferation of non-small cell lung carcinoma cell lines harboring KRAS G12S mutation in culture (PMID: 26090892).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 2086,
+                "therapyName": "TAE226",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4301,
+                    "pubMedId": 26090892,
+                    "title": "TAE226, a Bis-Anilino Pyrimidine Compound, Inhibits the EGFR-Mutant Kinase Including T790M Mutant to Show Anti-Tumor Effect on EGFR-Mutant Non-Small Cell Lung Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26090892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19324,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer cell line harboring KRAS G12S did not demonstrate sensitivity to MRTX849 treatment in culture (PMID: 31658955).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 7769,
+                "therapyName": "MRTX849",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16927,
+                    "pubMedId": 31658955,
+                    "title": "The KRASG12C Inhibitor MRTX849 Provides Insight toward Therapeutic Susceptibility of KRAS-Mutant Cancers in Mouse Models and Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31658955"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16014,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of lung cancer cells harboring KRAS G12S in 3D culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8175,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Afinitor (everolimus) synergistically inhibited proliferation of non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 4656,
+                "therapyName": "Everolimus + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 817,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring the KRAS G12S mutation showed resistance to Sutent (sunitinib) treatment (PMID: 23455880).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4535,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Navitoclax (ABT-263) enhanced the inhibitory effect of Mekinist (trametinib) on human non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 25665005).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 1386,
+                "therapyName": "Navitoclax + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4582,
+                    "pubMedId": 25665005,
+                    "title": "The Hippo effector YAP promotes resistance to RAF- and MEK-targeted cancer therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25665005"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4537,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TW-37 enhanced the inhibitory effect of Mekinist (trametinib) on human non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 25665005).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 3532,
+                "therapyName": "Trametinib + TW-37",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4582,
+                    "pubMedId": 25665005,
+                    "title": "The Hippo effector YAP promotes resistance to RAF- and MEK-targeted cancer therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25665005"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8015,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APS-2-49 and Binimetinib (MEK162) worked synergistically to decrease viability of a lung cancer cell line harboring KRAS G12S in culture (PMID: 27556948).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 4621,
+                "therapyName": "APS-2-79 + Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6534,
+                    "pubMedId": 27556948,
+                    "title": "Small molecule stabilization of the KSR inactive state antagonizes oncogenic Ras signalling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27556948"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8561,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rigosertib (ON 01910.Na) inhibited Mek/Erk signaling and tumor growth in cell line xenograft models of lung cancer harboring KRAS G12S (PMID: 27104980).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 1046,
+                "therapyName": "Rigosertib Sodium",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6686,
+                    "pubMedId": 27104980,
+                    "title": "A Small Molecule RAS-Mimetic Disrupts RAS Association with Effector Proteins to Block Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27104980"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19005,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AMG 510 did not inhibit Erk1/2 phosphorylation and viability of lung cancer cells harboring KRAS G12S in culture (PMID: 31666701).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 8435,
+                "therapyName": "AMG 510",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16672,
+                    "pubMedId": 31666701,
+                    "title": "The clinical KRAS(G12C) inhibitor AMG 510 drives anti-tumour immunity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31666701"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14378,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung adenocarcinoma cells harboring KRAS G12S were sensitive to treatment with Gilotrif (afatinib), demonstrating decreased cell proliferation and reduced Erk, Mek, and Akt activity in culture, and decreased tumor growth in cell-line xenograft models (PMID: 29925635).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11625,
+                    "pubMedId": 29925635,
+                    "title": "Afatinib restrains K-RAS-driven lung tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29925635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18641,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Afinitor (everolimus) and Linsitinib (OSI-906) inhibited PI3K/AKT and mTOR signaling, resulted in synergistic growth inhibition in non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 8785,
+                "therapyName": "Everolimus + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18655,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, addition of low dose Mekinist (trametinib) to AZD8055 and Linsitinib (OSI-906) combination treatment enhanced growth inhibition by 75% or more in non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 8788,
+                "therapyName": "AZD8055 + Linsitinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6450,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung adenocarcinoma cell line harboring KRAS G12S demonstrated a decreased response when treated with Mekinist (trametinib) in culture (PMID: 26582713).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5602,
+                    "pubMedId": 26582713,
+                    "title": "Identification of an \"Exceptional Responder\" Cell Line to MEK1 Inhibition: Clinical Implications for MEK-Targeted Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582713"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6452,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung cancer cell line harboring KRAS G12S demonstrated a decreased response when treated with PD-0325901 in culture (PMID: 26582713).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 849,
+                "therapyName": "PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5602,
+                    "pubMedId": 26582713,
+                    "title": "Identification of an \"Exceptional Responder\" Cell Line to MEK1 Inhibition: Clinical Implications for MEK-Targeted Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582713"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6451,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a lung adenocarcinoma cell line harboring KRAS G12S demonstrated a decreased response when treated with Refametinib (BAY86-9766) in culture (PMID: 26582713).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 888,
+                "therapyName": "Refametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5602,
+                    "pubMedId": 26582713,
+                    "title": "Identification of an \"Exceptional Responder\" Cell Line to MEK1 Inhibition: Clinical Implications for MEK-Targeted Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582713"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8016,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APS-2-49 and PD-0325901 worked synergistically to decrease viability of a lung cancer cell line harboring KRAS G12S in culture (PMID: 27556948).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 4623,
+                "therapyName": "APS-2-79 + PD-0325901",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6534,
+                    "pubMedId": 27556948,
+                    "title": "Small molecule stabilization of the KSR inactive state antagonizes oncogenic Ras signalling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27556948"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8179,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Nexavar (sorafenib) synergistically inhibited proliferation of non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 1659,
+                "therapyName": "Pimasertib + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8184,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Stivarga (regorafenib) synergistically inhibited proliferation of non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 4657,
+                "therapyName": "Pimasertib + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8012,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APS-2-49 and Mekinist (trametinib) worked synergistically to decrease viability of a lung cancer cell line harboring KRAS G12S in culture (PMID: 27556948).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 4620,
+                "therapyName": "APS-2-79 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6534,
+                    "pubMedId": 27556948,
+                    "title": "Small molecule stabilization of the KSR inactive state antagonizes oncogenic Ras signalling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27556948"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14381,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung adenocarcinoma cells harboring KRAS G12S were insensitive to treatment with Tarceva (erlotinib) in culture, demonstrating no change in Erk, Mek, and Akt activity and minimal inhibition of cell growth (PMID: 29925635).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11625,
+                    "pubMedId": 29925635,
+                    "title": "Afatinib restrains K-RAS-driven lung tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29925635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18651,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, addition of low dose Mekinist (trametinib) to Afinitor (everolimus) and Linsitinib (OSI-906) combination treatment enhanced growth inhibition by 75% or more in non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 8786,
+                "therapyName": "Everolimus + Linsitinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18647,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of AZD8055 and Linsitinib (OSI-906) inhibited PI3K/AKT and mTOR signaling, resulted in synergistic growth inhibition in non-small cell lung cancer cells harboring KRAS G12S in culture (PMID: 31534020).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 8787,
+                "therapyName": "AZD8055 + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16366,
+                    "pubMedId": 31534020,
+                    "title": "Development of combination therapies to maximize the impact of KRAS-G12C inhibitors in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31534020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8017,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APS-2-49 and Selumetinib (AZD6244) worked synergistically to decrease viability of a lung cancer cell line harboring KRAS G12S in culture (PMID: 27556948).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 4622,
+                "therapyName": "APS-2-79 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6534,
+                    "pubMedId": 27556948,
+                    "title": "Small molecule stabilization of the KSR inactive state antagonizes oncogenic Ras signalling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27556948"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8995,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS G12S mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11320,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD4785 inhibited Kras expression, resulted in growth inhibition in 3-D cultures of lung carcinoma cells harboring KRAS G12S (PMID: 28615361).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 5914,
+                "therapyName": "AZD4785",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9180,
+                    "pubMedId": 28615361,
+                    "title": "Targeting KRAS-dependent tumors with AZD4785, a high-affinity therapeutic antisense oligonucleotide inhibitor of KRAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615361"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8987,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Binimetinib (MEK162) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS G12S mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17372,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3214996 and LY3009120 synergistically inhibited phosphorylation of Erk, Rb, S6, and H3, resulted in enhanced cell death in non-small cell lung cancer cells harboring KRAS G12S in culture (AACR Annual Meeting 2019, Abstract LB-083).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 8468,
+                "therapyName": "LY3009120 + LY3214996",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15395,
+                    "pubMedId": null,
+                    "title": "Combination of an ERK1/2 inhibitor (LY3214996) with pan-RAF inhibitor enhances anti-tumor activity in KRAS mutant colorectal cancer (CRC) and non-small cell lung cancer (NSCLC)",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/9241"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1445,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, pancreatic cell lines with KRAS codon 12 mutations had increased sensitivity to Binimetinib (MEK162) (PMID: 25167228).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1294,
+                    "pubMedId": 25167228,
+                    "title": "KRAS mutational subtype and copy number predict in vitro response of human pancreatic cancer cell lines to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25167228"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14383,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung adenocarcinoma cells harboring KRAS G12S were insensitive to treatment with Iressa (gefitinib) in culture, demonstrating minimal inhibition of cell growth (PMID: 29925635).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11625,
+                    "pubMedId": 29925635,
+                    "title": "Afatinib restrains K-RAS-driven lung tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29925635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3133,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) inhibited growth of human non-small cell lung carcinoma cells harboring KRAS G12S in culture (PMID: 21325073, PMID: 23012248).",
+            "molecularProfile": {
+                "id": 1128,
+                "profileName": "KRAS G12S"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3640,
+                    "pubMedId": 23012248,
+                    "title": "Targeting KRAS-mutant non-small cell lung cancer with the Hsp90 inhibitor ganetespib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23012248"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4516,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YAP1 knockdown enhanced sensitivity of human non-small cell lung cancer cell lines harboring KRAS G12S to Mekinist (trametinib) inhibition in culture (PMID: 25665005).",
+            "molecularProfile": {
+                "id": 18271,
+                "profileName": "KRAS G12S YAP1 dec exp"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4582,
+                    "pubMedId": 25665005,
+                    "title": "The Hippo effector YAP promotes resistance to RAF- and MEK-targeted cancer therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25665005"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6336,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XL147 inhibited tumor growth in xenograft models of a human non-small cell lung cancer cell line harboring KRAS G12S and an STK11(LKB) inactivating mutation (PMID: 25637314).",
+            "molecularProfile": {
+                "id": 23102,
+                "profileName": "KRAS G12S STK11 inact mut"
+            },
+            "therapy": {
+                "id": 1050,
+                "therapyName": "XL147",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5522,
+                    "pubMedId": 25637314,
+                    "title": "The Selective PI3K Inhibitor XL147 (SAR245408) Inhibits Tumor Growth and Survival and Potentiates the Activity of Chemotherapeutic Agents in Preclinical Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25637314"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8511,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of DZNep increased sensitivity to MK2206 in an EZH2-expressing lung adenocarcinoma cell line harboring KRAS G12S in culture (PMID: 26676756)",
+            "molecularProfile": {
+                "id": 26343,
+                "profileName": "EZH2 pos KRAS G12S"
+            },
+            "therapy": {
+                "id": 4747,
+                "therapyName": "DZNeP + MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6667,
+                    "pubMedId": 26676756,
+                    "title": "Modulation of EZH2 Expression by MEK-ERK or PI3K-AKT Signaling in Lung Cancer Is Dictated by Different KRAS Oncogene Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26676756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8499,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of DZNep increased sensitivity to Selumetinib (AZD6244) in an EZH2-expressing lung adenocarcinoma cell line harboring KRAS G12S in culture (PMID: 26676756).",
+            "molecularProfile": {
+                "id": 26343,
+                "profileName": "EZH2 pos KRAS G12S"
+            },
+            "therapy": {
+                "id": 4746,
+                "therapyName": "DZNeP + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6667,
+                    "pubMedId": 26676756,
+                    "title": "Modulation of EZH2 Expression by MEK-ERK or PI3K-AKT Signaling in Lung Cancer Is Dictated by Different KRAS Oncogene Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26676756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8803,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of KRAS G12S in lung adenocarcinoma cells harboring EGFR exon 19 deletion resulted in resistance to Tagrisso (osimertinib) in culture, consistent with KRAS G12S identified in tumor samples of a lung adenocarcinoma patient harboring EGFR exon 19 deletion who developed resistance to Tagrisso (osimertinib) (PMID: 27252416).",
+            "molecularProfile": {
+                "id": 26445,
+                "profileName": "EGFR exon 19 del KRAS G12S"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6756,
+                    "pubMedId": 27252416,
+                    "title": "Heterogeneous Mechanisms of Primary and Acquired Resistance to Third-Generation EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27252416"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14385,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFR-deficient lung adenocarcinoma cells harboring KRAS G12S were sensitive to treatment with Gilotrif (afatinib), demonstrating decreased cell proliferation and inhibition of Erbb2 (Her2) and Erbb3 (Her3) in culture, and blocked tumor growth in cell line xenograft models (PMID: 29925635).",
+            "molecularProfile": {
+                "id": 29994,
+                "profileName": "EGFR loss KRAS G12S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11625,
+                    "pubMedId": 29925635,
+                    "title": "Afatinib restrains K-RAS-driven lung tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29925635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14386,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFR-deficient lung adenocarcinoma cells harboring KRAS G12S did not respond to treatment with Iressa (gefitinib) in culture and in cell line xenograft models (PMID: 29925635).",
+            "molecularProfile": {
+                "id": 29994,
+                "profileName": "EGFR loss KRAS G12S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11625,
+                    "pubMedId": 29925635,
+                    "title": "Afatinib restrains K-RAS-driven lung tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29925635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17744,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, MK2206 treatment resulted in a partial response in a patient with ER-positive, PR-negative, and ERBB2 (HER2)-negative breast cancer harboring PIK3CA E542K and KRAS G12S, the patient remained on study for 36 weeks (PMID: 31277699; NCT01277757).",
+            "molecularProfile": {
+                "id": 32786,
+                "profileName": "KRAS G12S PIK3CA E542K"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15758,
+                    "pubMedId": 31277699,
+                    "title": "Phase II trial of AKT inhibitor MK-2206 in patients with advanced breast cancer who have tumors with PIK3CA or AKT mutations, and/or PTEN loss/PTEN mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31277699"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20323,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Caprelsa (vandetanib) inhibited tumor growth by 78% in a cell line xenograft model of non-small cell lung cancer harboring KRAS G12S and wild-type EGFR, and inhibited tumor growth by 75% in models developed Tarceva (erlotinib) resistance (PMID: 19447865)",
+            "molecularProfile": {
+                "id": 35102,
+                "profileName": "EGFR wild-type KRAS G12S"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11395,
+                    "pubMedId": 19447865,
+                    "title": "Combined vascular endothelial growth factor receptor and epidermal growth factor receptor (EGFR) blockade inhibits tumor growth in xenograft models of EGFR inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19447865"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20324,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Avastin (bevacizumab) and Tarceva (erlotinib) combination treatment inhibited tumor growth by 85% in a cell line xenograft model of non-small cell lung cancer harboring KRAS G12S and wild-type EGFR, and inhibited tumor growth by 58% in models developed Tarceva (erlotinib) resistance (PMID: 19447865).",
+            "molecularProfile": {
+                "id": 35102,
+                "profileName": "EGFR wild-type KRAS G12S"
+            },
+            "therapy": {
+                "id": 1146,
+                "therapyName": "Bevacizumab + Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11395,
+                    "pubMedId": 19447865,
+                    "title": "Combined vascular endothelial growth factor receptor and epidermal growth factor receptor (EGFR) blockade inhibits tumor growth in xenograft models of EGFR inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19447865"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20904,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the triple combination therapy of Gilotrif (afatinib), Xalkori (crizotinib), and Mekinist (trametinib) resulted in growth inhibition by 97% in cells derived from a patient with lung adenocarcinoma harboring KRAS G12S and MET exon 14 skipping (PMID: 30352902).",
+            "molecularProfile": {
+                "id": 35372,
+                "profileName": "KRAS G12S MET del exon14"
+            },
+            "therapy": {
+                "id": 9501,
+                "therapyName": "Afatinib + Crizotinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18112,
+                    "pubMedId": 30352902,
+                    "title": "Activation of KRAS Mediates Resistance to Targeted Therapy in MET Exon 14-mutant Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30352902"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20864,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lung adenocarcinoma patient with MET exon 14 skipping demonstrated progression after two cycles of treatment with Xalkori (crizotinib), and subsequently revealed acquisition of KRAS G12S, and preclinical analysis of cells from the patient demonstrated resistance to Xalkori (crizotinib) in culture (PMID: 30352902).",
+            "molecularProfile": {
+                "id": 35372,
+                "profileName": "KRAS G12S MET del exon14"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18112,
+                    "pubMedId": 30352902,
+                    "title": "Activation of KRAS Mediates Resistance to Targeted Therapy in MET Exon 14-mutant Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30352902"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20903,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Mekinist (trametinib) and Gilotrif (afatinib) resulted in a synergistic effect in cells derived from a patient with lung adenocarcinoma harboring MET exon 14 skipping and KRAS G12S, demonstrating cell growth inhibition of 94% in culture and reduced tumor growth in cell line xenograft models (PMID: 30352902).",
+            "molecularProfile": {
+                "id": 35372,
+                "profileName": "KRAS G12S MET del exon14"
+            },
+            "therapy": {
+                "id": 4482,
+                "therapyName": "Afatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18112,
+                    "pubMedId": 30352902,
+                    "title": "Activation of KRAS Mediates Resistance to Targeted Therapy in MET Exon 14-mutant Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30352902"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20886,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells co-expressing MET exon 14 skipping and KRAS G12S demonstrated decreased sensitivity to treatment with Cometriq (Cabometyx, cabozantinib) in culture compared to cells only expressing MET exon 14 skipping (PMID: 30352902).",
+            "molecularProfile": {
+                "id": 35372,
+                "profileName": "KRAS G12S MET del exon14"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 18112,
+                    "pubMedId": 30352902,
+                    "title": "Activation of KRAS Mediates Resistance to Targeted Therapy in MET Exon 14-mutant Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30352902"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20894,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells derived from a patient with lung adenocarcinoma harboring MET exon 14 skipping and KRAS G12S were sensitive to treatment with Mekinist (trametinib) in culture and demonstrated a partial reduction in tumor growth in cell line xenograft models (PMID: 30352902).",
+            "molecularProfile": {
+                "id": 35372,
+                "profileName": "KRAS G12S MET del exon14"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18112,
+                    "pubMedId": 30352902,
+                    "title": "Activation of KRAS Mediates Resistance to Targeted Therapy in MET Exon 14-mutant Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30352902"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20902,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Mekinist (trametinib) and Xalkori (crizotinib) versus Xalkori (crizotinib) alone in cells derived from a patient with lung adenocarcinoma harboring MET exon 14 skipping and KRAS G12S resulted in a growth inhibition of 95% in culture and greater reduced tumor volume in cell line xenograft models (PMID: 30352902).",
+            "molecularProfile": {
+                "id": 35372,
+                "profileName": "KRAS G12S MET del exon14"
+            },
+            "therapy": {
+                "id": 4480,
+                "therapyName": "Crizotinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18112,
+                    "pubMedId": 30352902,
+                    "title": "Activation of KRAS Mediates Resistance to Targeted Therapy in MET Exon 14-mutant Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30352902"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21305,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iressa (gefitinib) decreased EGFR phosphorylation levels and inhibited growth of non-small cell lung cancer cells harboring EGFR L858R, KRAS G12S, and KRAS amplification in culture, and cells homozygous for EGFR L858R demonstrated enhanced treatment sensitivity compared to cells with one copy of EGFR L858R (PMID: 32130260).",
+            "molecularProfile": {
+                "id": 36195,
+                "profileName": "EGFR L858R KRAS G12S KRAS amp"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18612,
+                    "pubMedId": 32130260,
+                    "title": "Influence of EGFR-activating mutations on sensitivity to tyrosine kinase inhibitors in a KRAS mutant non-small cell lung cancer cell line.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32130260"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21306,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) decreased EGFR phosphorylation levels and inhibited growth of non-small cell lung cancer cells harboring EGFR L858R, KRAS G12S, and KRAS amplification in culture, and cells homozygous for EGFR L858R demonstrated enhanced treatment sensitivity compared to cells with one copy of EGFR L858R (PMID: 32130260).",
+            "molecularProfile": {
+                "id": 36195,
+                "profileName": "EGFR L858R KRAS G12S KRAS amp"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18612,
+                    "pubMedId": 32130260,
+                    "title": "Influence of EGFR-activating mutations on sensitivity to tyrosine kinase inhibitors in a KRAS mutant non-small cell lung cancer cell line.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32130260"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1128,
+            "profileName": "KRAS G12S",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 15797,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "KRAS G12S"
+                },
+                {
+                    "id": 15796,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "KRAS G12S"
+                },
+                {
+                    "id": 15795,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "KRAS G12S"
+                },
+                {
+                    "id": 15793,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "KRAS G12S"
+                },
+                {
+                    "id": 15798,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "KRAS G12S"
+                },
+                {
+                    "id": 15794,
+                    "name": "AZD4785",
+                    "profileName": "KRAS G12S"
+                },
+                {
+                    "id": 15792,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "KRAS G12S"
+                }
+            ]
+        },
+        {
+            "id": 18271,
+            "profileName": "KRAS G12S YAP1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23102,
+            "profileName": "KRAS G12S STK11 inact mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26343,
+            "profileName": "EZH2 pos KRAS G12S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26445,
+            "profileName": "EGFR exon 19 del KRAS G12S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29994,
+            "profileName": "EGFR loss KRAS G12S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32786,
+            "profileName": "KRAS G12S PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35102,
+            "profileName": "EGFR wild-type KRAS G12S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35372,
+            "profileName": "KRAS G12S MET del exon14",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 36190,
+            "profileName": "EGFR L858R KRAS G12S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 36195,
+            "profileName": "EGFR L858R KRAS G12S KRAS amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157089,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25245351C>T",
+            "cDna": "c.34G>A",
+            "protein": "p.G12S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157090,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25245351C>T",
+            "cDna": "c.34G>A",
+            "protein": "p.G12S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157093,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25245351C>T",
+            "cDna": "c.34G>A",
+            "protein": "p.G12S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157092,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25245351C>T",
+            "cDna": "c.34G>A",
+            "protein": "p.G12S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157091,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25245351C>T",
+            "cDna": "c.34G>A",
+            "protein": "p.G12S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,547 @@
+{
+    "id": 10690,
+    "fullName": "ROS1 V2098I",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 V2098I lies within the protein kinase domain of the Ros1 protein (UniProt.org). V2098I has been demonstrated to confer resistance to Ros1 tyrosine kinase inhibitors in the context of a Ros1 fusion in culture (PMID: 24218589), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "V2098I",
+    "createDate": "08/17/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102510,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117310221_117310223delCACinsGAT",
+        "cDna": "c.6292_6294delGTGinsATC",
+        "protein": "p.V2098I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2808,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 V2098I in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10696,
+                "profileName": "GOPC - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2816,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells overexpressing ROS1 V2098I in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10696,
+                "profileName": "GOPC - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13464,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 V2098I in the context of CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29091,
+                "profileName": "CD74 - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13467,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zykadia (ceritinib) inhibited growth of transformed cells expressing ROS1 V2098I in the context of CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29091,
+                "profileName": "CD74 - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13465,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) inhibited growth of transformed cells expressing ROS1 V2098I in the context of CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29091,
+                "profileName": "CD74 - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13463,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (Cabometyx, cabozantinib) inhibited growth of transformed cells expressing ROS1 V2098I in the context of CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29091,
+                "profileName": "CD74 - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13466,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing ROS1 V2098I in the context of CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29091,
+                "profileName": "CD74 - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13468,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD3463 inhibited growth of transformed cells expressing ROS1 V2098I in the context of CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29091,
+                "profileName": "CD74 - ROS1 ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 1586,
+                "therapyName": "AZD3463",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13337,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ROS1 G2032R and ROS1 V2098I in the context of CD74-ROS1 were resistant to Alunbrig (brigatinib) in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29092,
+                "profileName": "CD74 - ROS1 ROS1 G2032R ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13339,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ROS1 G2032R and ROS1 V2098I in the context of CD74-ROS1 were resistant to AZD3463 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29092,
+                "profileName": "CD74 - ROS1 ROS1 G2032R ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 1586,
+                "therapyName": "AZD3463",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13338,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ROS1 G2032R and ROS1 V2098I in the context of CD74-ROS1 demonstrated decreased response to Zykadia (ceritinib) compared to cells expressing CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29092,
+                "profileName": "CD74 - ROS1 ROS1 G2032R ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13335,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ROS1 G2032R and ROS1 V2098I in the context of CD74-ROS1 demonstrated decreased response to Foretinib (GSK1363089) compared to cells expressing CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29092,
+                "profileName": "CD74 - ROS1 ROS1 G2032R ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13336,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ROS1 G2032R and ROS1 V2098I in the context of CD74-ROS1 were resistant to Xalkori (crizotinib) in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29092,
+                "profileName": "CD74 - ROS1 ROS1 G2032R ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13334,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ROS1 G2032R and ROS1 V2098I in the context of CD74-ROS1 demonstrated decreased response to Cometriq (Cabometyx, cabozantinib) compared to cells expressing CD74-ROS1 in culture (PMID: 26372962).",
+            "molecularProfile": {
+                "id": 29092,
+                "profileName": "CD74 - ROS1 ROS1 G2032R ROS1 V2098I"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4022,
+                    "pubMedId": 26372962,
+                    "title": "Structural insight into selectivity and resistance profiles of ROS1 tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10695,
+            "profileName": "ROS1 V2098I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10696,
+            "profileName": "GOPC - ROS1 ROS1 V2098I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16942,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 V2098I"
+                }
+            ]
+        },
+        {
+            "id": 29091,
+            "profileName": "CD74 - ROS1 ROS1 V2098I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29092,
+            "profileName": "CD74 - ROS1 ROS1 G2032R ROS1 V2098I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102509,
+            "transcript": "XM_011536050",
+            "gDna": "chr6:g.117310248_117310250delCACinsGAT",
+            "cDna": "c.6292_6294delGTGinsATC",
+            "protein": "p.V2098I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 102510,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117310221_117310223delCACinsGAT",
+            "cDna": "c.6292_6294delGTGinsATC",
+            "protein": "p.V2098I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

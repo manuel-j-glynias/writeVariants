@@ -1,0 +1,649 @@
+{
+    "id": 3230,
+    "fullName": "ESR1 Y537N",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ESR1 (ER alpha) Y537N lies within the ligand-binding domain/AF-2 domain of the Esr1 (Er alpha) protein (PMID: 24185512). Y537N results in activation of the Esr1 (Er alpha) protein and downstream signaling (PMID: 24055055, PMID: 24185510), and results in increased cell proliferation and viability levels as compared to wild-type Esr1 (Er alpha) (PMID: 29533785), and is associated with resistance to endocrine therapies (PMID: 24398047).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 1938,
+                    "pubMedId": 24055055,
+                    "title": "Endocrine-therapy-resistant ESR1 variants revealed by genomic characterization of breast-cancer-derived xenografts.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24055055"
+                },
+                {
+                    "id": 2335,
+                    "pubMedId": 24398047,
+                    "title": "Emergence of constitutively active estrogen receptor-\u03b1 mutations in pretreated advanced estrogen receptor-positive breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24398047"
+                },
+                {
+                    "id": 1929,
+                    "pubMedId": 24185512,
+                    "title": "ESR1 ligand-binding domain mutations in hormone-resistant breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24185512"
+                },
+                {
+                    "id": 1930,
+                    "pubMedId": 24185510,
+                    "title": "Activating ESR1 mutations in hormone-resistant metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24185510"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2099,
+        "geneSymbol": "ESR1",
+        "terms": [
+            "ESR1",
+            "ER",
+            "Era",
+            "ESR",
+            "ESRA",
+            "ESTRR",
+            "NR3A1"
+        ]
+    },
+    "variant": "Y537N",
+    "createDate": "02/19/2015",
+    "updateDate": "07/03/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 112504,
+        "transcript": "NM_000125",
+        "gDna": "chr6:g.152098787T>A",
+        "cDna": "c.1609T>A",
+        "protein": "p.Y537N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16410,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, H3B-5942 inhibited ESR1 (ER alpha) target gene expression and proliferation of an ESR1 (ER alpha)-positive breast cancer cell line expressing ESR1 Y537N in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 8021,
+                "therapyName": "H3B-5942",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3649,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, pipendoxifene inhibited cell proliferation of human breast cancer cells expressing ESR1 Y537N, however, exhibited a decreased response when compared to ESR1 wild-type expressing cells in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 3207,
+                "therapyName": "pipendoxifene",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 1853,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines expressing ESR1 Y537N were resistant to Nolvadex (tamoxifen) except at the highest dose (PMID: 24398047).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 1456,
+                "therapyName": "Tamoxifen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2335,
+                    "pubMedId": 24398047,
+                    "title": "Emergence of constitutively active estrogen receptor-\u03b1 mutations in pretreated advanced estrogen receptor-positive breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24398047"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10215,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GDC-0810 inhibited growth of breast cancer cells expressing ESR1 Y537N in culture (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 2150,
+                "therapyName": "GDC-0810",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1856,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines expressing ESR1 Y537N were resistant to Falsodex (fulvestrant) (PMID: 24398047).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2335,
+                    "pubMedId": 24398047,
+                    "title": "Emergence of constitutively active estrogen receptor-\u03b1 mutations in pretreated advanced estrogen receptor-positive breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24398047"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10226,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RU58668 inhibited growth of breast cancer cells expressing ESR1 Y537N in culture (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 5424,
+                "therapyName": "RU58668",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3646,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bazedoxifene inhibited cell proliferation of human breast cancer cells expressing ESR1 Y537N, however, exhibited a decreased response when compared to ESR1 wild-type expressing cells in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 2737,
+                "therapyName": "Bazedoxifene",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16432,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Ibrance (palbociclib) and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer cell line expressing ESR1 Y537N, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 8022,
+                "therapyName": "H3B-5942 + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10207,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9496 inhibited growth of breast cancer cells expressing ESR1 Y537N in culture, and inhibited tumor growth in xenograft models (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 2997,
+                "therapyName": "AZD9496",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10230,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Faslodex (fulvestrant) inhibited ESR1 activity and growth of breast cancer cells expressing ESR1 Y537N in culture, with ESR1 Y537N-expressing cells demonstrating reduced sensitivity compared to cells expressing wild-type ESR1, and inhibited tumor growth in xenograft models (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3643,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Faslodex (fulvestrant) inhibited cell proliferation of human breast cancer cells expressing ESR1 Y537N, however, exhibited a decreased response when compared to ESR1 wild-type expressing cells in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3051,
+                "profileName": "ESR1 Y537N"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3660,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human breast cancer cell lines expressing ESR1 Y537N ESR1 D538G were less sensitive than ESR1 wild-type expressing cells to inhibition by Faslodex (fulvestrant) in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 14081,
+                "profileName": "ESR1 Y537N ESR1 D538G"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3659,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human breast cancer cell lines expressing ESR1 Y537N ESR1 D538G were less sensitive than ESR1 wild-type expressing cells to inhibition by pipendoxifene in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 14081,
+                "profileName": "ESR1 Y537N ESR1 D538G"
+            },
+            "therapy": {
+                "id": 3207,
+                "therapyName": "pipendoxifene",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3661,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human breast cancer cell lines expressing ESR1 Y537N ESR1 D538G were less sensitive than ESR1 wild-type expressing cells to inhibition by bazedoxifene in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 14081,
+                "profileName": "ESR1 Y537N ESR1 D538G"
+            },
+            "therapy": {
+                "id": 2737,
+                "therapyName": "Bazedoxifene",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3051,
+            "profileName": "ESR1 Y537N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 14081,
+            "profileName": "ESR1 Y537N ESR1 D538G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 112492,
+            "transcript": "XM_017010377",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112495,
+            "transcript": "XM_011535543",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112493,
+            "transcript": "XM_017010376",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112496,
+            "transcript": "NM_001122742",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112497,
+            "transcript": "XM_017010378",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112498,
+            "transcript": "XM_017010379",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112502,
+            "transcript": "XM_011535544",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112503,
+            "transcript": "NM_001122740",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112499,
+            "transcript": "XM_011535545",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112494,
+            "transcript": "XM_017010380",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112500,
+            "transcript": "NM_001122741",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112501,
+            "transcript": "XM_017010381",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112504,
+            "transcript": "NM_000125",
+            "gDna": "chr6:g.152098787T>A",
+            "cDna": "c.1609T>A",
+            "protein": "p.Y537N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

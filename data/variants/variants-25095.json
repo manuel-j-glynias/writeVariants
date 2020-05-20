@@ -1,0 +1,295 @@
+{
+    "id": 25095,
+    "fullName": "ERBB2 A775_G776insYVMA",
+    "impact": "insertion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) A775_G776insYVMA results in the insertion of four amino acids in the protein kinase domain of the Erbb2 (Her2) protein between amino acids 775 and 776 (UniProt.org). A775_G776insYVMA results in the same amino acid change as M774_A775insAYVM, which leads to constitutive phosphorylation of Erbb2 (Her2) and is transforming in cell culture (PMID: 17311002, PMID: 29967253).",
+            "references": [
+                {
+                    "id": 11774,
+                    "pubMedId": 29967253,
+                    "title": "High-Throughput Functional Evaluation of Variants of Unknown Significance in ERBB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29967253"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2002,
+                    "pubMedId": 17311002,
+                    "title": "The major lung cancer-derived mutants of ERBB2 are oncogenic and are associated with sensitivity to the irreversible EGFR/ERBB2 inhibitor HKI-272.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17311002"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "A775_G776insYVMA",
+    "createDate": "08/03/2016",
+    "updateDate": "07/23/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 170399,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724743_39724744insTATGTAATGGCA",
+        "cDna": "c.2325_2326insTATGTAATGGCA",
+        "protein": "p.Y772_A775dupYVMA",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15930,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Kadcyla (trastuzumab emtansine) resulted in best overall responses of partial response in 44% (8/18) and stable disease in 39% (7/18), and median progression-free survival of 5 months in patients with lung adenocarcinoma harboring ERBB2 (HER2) activating mutations, and a subset of patients specifically harboring ERBB2 (HER2) A775_G776insYVMA mutation had a 60% (3/5) partial response rate (PMID: 29989854; NCT02675829).",
+            "molecularProfile": {
+                "id": 25861,
+                "profileName": "ERBB2 A775_G776insYVMA"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12393,
+                    "pubMedId": 29989854,
+                    "title": "Ado-Trastuzumab Emtansine for Patients With HER2-Mutant Lung Cancers: Results From a Phase II Basket Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29989854"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21220,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, ten patients with non-small cell lung cancer harboring ERBB2 A775_G776insYVMA demonstrated an objective response rate of 50% (5/10) and a progression-free survival of 4.1 months when treated with Pyrotinib, and preclinical analysis showed Pyrotinib treatment led to reduced cell viability in patient-derived organoids and tumor growth inhibition and regression in patient derived xenograft (PDX) models (PMID: 30596880; NCT02535507).",
+            "molecularProfile": {
+                "id": 25861,
+                "profileName": "ERBB2 A775_G776insYVMA"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18195,
+                    "pubMedId": 30596880,
+                    "title": "HER2 exon 20 insertions in non-small-cell lung cancer are sensitive to the irreversible pan-HER receptor tyrosine kinase inhibitor pyrotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30596880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21234,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) resulted in decreased cell viability of patient-derived non-small cell lung cancer organoids harboring ERBB2 A775_G776insYVMA and tumor growth inhibition and tumor regression in patient derived xenograft (PDX) models, but to a lesser degree than treatment with Pyrotinib (PMID: 30596880; NCT02535507).",
+            "molecularProfile": {
+                "id": 25861,
+                "profileName": "ERBB2 A775_G776insYVMA"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18195,
+                    "pubMedId": 30596880,
+                    "title": "HER2 exon 20 insertions in non-small-cell lung cancer are sensitive to the irreversible pan-HER receptor tyrosine kinase inhibitor pyrotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30596880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21239,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Kadcyla (ado-trastuzumab emtansine) resulted in tumor growth inhibition and tumor regression of patient derived xenograft (PDX) models harboring ERBB2 A775_G776insYVMA, but to a lesser degree than treatment with Pyrotinib (PMID: 30596880; NCT02535507).",
+            "molecularProfile": {
+                "id": 25861,
+                "profileName": "ERBB2 A775_G776insYVMA"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18195,
+                    "pubMedId": 30596880,
+                    "title": "HER2 exon 20 insertions in non-small-cell lung cancer are sensitive to the irreversible pan-HER receptor tyrosine kinase inhibitor pyrotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30596880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14196,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transgenic mouse models expressing ERBB2 (HER2) A775_G776insYVMA demonstrated greater tumor regression when treated with the combination of JQ1 and Tagrisso (osimertinib) compared to treatment with either agent alone, which resulted in little to no regression (PMID: 29298799).",
+            "molecularProfile": {
+                "id": 25861,
+                "profileName": "ERBB2 A775_G776insYVMA"
+            },
+            "therapy": {
+                "id": 7036,
+                "therapyName": "JQ1 + Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11487,
+                    "pubMedId": 29298799,
+                    "title": "Targeting HER2 Aberrations in Non-Small Cell Lung Cancer with Osimertinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29298799"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10134,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, the PIK3CA R425L mutation was identified as a potential resistance mechanism in a non-small cell lung carcinoma patient harboring ERBB2 (HER2) A775_G776insYVMA, that progressed during Herceptin (trastuzumab) treatment (PMID: 28167203).",
+            "molecularProfile": {
+                "id": 27298,
+                "profileName": "ERBB2 A775_G776insYVMA PIK3CA R425L"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8141,
+                    "pubMedId": 28167203,
+                    "title": "ERBB2-Mutated Metastatic Non-Small Cell Lung Cancer: Response and Resistance to Targeted Therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28167203"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25861,
+            "profileName": "ERBB2 A775_G776insYVMA",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10527,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 A775_G776insYVMA"
+                },
+                {
+                    "id": 10528,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 A775_G776insYVMA"
+                }
+            ]
+        },
+        {
+            "id": 27298,
+            "profileName": "ERBB2 A775_G776insYVMA PIK3CA R425L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170399,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724743_39724744insTATGTAATGGCA",
+            "cDna": "c.2325_2326insTATGTAATGGCA",
+            "protein": "p.Y772_A775dupYVMA",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170400,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724743_39724744insTATGTAATGGCA",
+            "cDna": "c.2325_2326insTATGTAATGGCA",
+            "protein": "p.Y772_A775dupYVMA",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

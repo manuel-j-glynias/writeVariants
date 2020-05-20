@@ -1,0 +1,272 @@
+{
+    "id": 20808,
+    "fullName": "ETV6 - NTRK2",
+    "impact": "fusion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "ETV6-NTRK2 results in the fusion of ETV6 and NTRK2 (PMID: 26939704) resulting in cytokine-independent cell growth in culture, increased downstream signaling in vitro, and promotes tumor formation in mice (PMID: 29920189). ETV6-NTRK2 has been identified in acute myeloid leukemia (PMID: 29920189).",
+            "references": [
+                {
+                    "id": 12810,
+                    "pubMedId": 29920189,
+                    "title": "Oncogenic TRK fusions are amenable to inhibition in hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29920189"
+                },
+                {
+                    "id": 5130,
+                    "pubMedId": 26939704,
+                    "title": "Entrectinib, a Pan-TRK, ROS1, and ALK Inhibitor with Activity in Multiple Molecularly Defined Cancer Indications.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26939704"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2120,
+        "geneSymbol": "ETV6",
+        "terms": [
+            "ETV6",
+            "TEL",
+            "TEL/ABL",
+            "THC5"
+        ]
+    },
+    "variant": "ETV6 - NTRK2",
+    "createDate": "04/07/2016",
+    "updateDate": "07/31/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 4915,
+                "geneSymbol": "NTRK2",
+                "terms": [
+                    "NTRK2",
+                    "EIEE58",
+                    "GP145-TrkB",
+                    "OBHD",
+                    "trk-B",
+                    "TRKB"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15197,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with secondary AML achieved a partial remission when treated with Vitrakvi (larotrectinib), showing complete elimination of the cell population harboring ETV6-NTRK2, and the patient-derived xenograft (PDX) model harboring ETV6-NTRK2 showed sensitivity to treatment with Vitrakvi (larotrectinib), demonstrating a decrease in ETV6-NTRK2-expressing cells (PMID: 29920189).",
+            "molecularProfile": {
+                "id": 21305,
+                "profileName": "ETV6 - NTRK2"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12810,
+                    "pubMedId": 29920189,
+                    "title": "Oncogenic TRK fusions are amenable to inhibition in hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29920189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16324,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) inhibited proliferation of transformed cells expressing ETV6-NTRK2 in culture (PMID: 30093503).",
+            "molecularProfile": {
+                "id": 21305,
+                "profileName": "ETV6 - NTRK2"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12439,
+                    "pubMedId": 30093503,
+                    "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093503"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15725,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ETV6-NTRK2 were sensitive to Rozlytrek (entrectinib) as demonstrated by reduced proliferation relative to cells expressing an empty vector in culture (PMID: 26884591).",
+            "molecularProfile": {
+                "id": 21305,
+                "profileName": "ETV6 - NTRK2"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6326,
+                    "pubMedId": 26884591,
+                    "title": "What hides behind the MASC: clinical response and acquired resistance to entrectinib after ETV6-NTRK3 identification in a mammary analogue secretory carcinoma (MASC).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26884591"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5630,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ETV6-NTRK2 were sensitive to Rozlytrek (entrectinib), resulting in inhibition of cell proliferation in culture (PMID: 26939704).",
+            "molecularProfile": {
+                "id": 21305,
+                "profileName": "ETV6 - NTRK2"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5130,
+                    "pubMedId": 26939704,
+                    "title": "Entrectinib, a Pan-TRK, ROS1, and ALK Inhibitor with Activity in Multiple Molecularly Defined Cancer Indications.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26939704"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20636,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ETV6-NTRK2 were sensitive to treatment with DS6051b in culture, demonstrating cell growth inhibition (PMID: 31399568).",
+            "molecularProfile": {
+                "id": 21305,
+                "profileName": "ETV6 - NTRK2"
+            },
+            "therapy": {
+                "id": 4343,
+                "therapyName": "DS6051b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17972,
+                    "pubMedId": 31399568,
+                    "title": "The new-generation selective ROS1/NTRK inhibitor DS-6051b overcomes crizotinib resistant ROS1-G2032R mutation in preclinical models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31399568"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16326,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) inhibited proliferation of transformed cells expressing NTRK2 G623R (reported as G639R) in the context of ETV6-NTRK2 in culture (PMID: 30093503).",
+            "molecularProfile": {
+                "id": 31602,
+                "profileName": "ETV6 - NTRK2 NTRK2 G623R"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12439,
+                    "pubMedId": 30093503,
+                    "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093503"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 21305,
+            "profileName": "ETV6 - NTRK2",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19329,
+                    "name": "Larotrectinib",
+                    "profileName": "ETV6 - NTRK2"
+                },
+                {
+                    "id": 10830,
+                    "name": "Trk Receptor Inhibitor (Pan)",
+                    "profileName": "ETV6 - NTRK2"
+                }
+            ]
+        },
+        {
+            "id": 31602,
+            "profileName": "ETV6 - NTRK2 NTRK2 G623R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "id": 3102,
+    "fullName": "EGFR R108K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR R108K lies within the extracellular domain of the Egfr protein (PMID: 17177598). R108K confers a gain of function on Egfr, as indicated by increased autophosphorylation, is transforming in cell culture, and promotes tumor formation in mouse models (PMID: 17177598).",
+            "references": [
+                {
+                    "id": 1877,
+                    "pubMedId": 17177598,
+                    "title": "Epidermal growth factor receptor activation in glioblastoma through novel missense mutations in the extracellular domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17177598"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "R108K",
+    "createDate": "02/12/2015",
+    "updateDate": "09/12/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135832,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55143387G>A",
+        "cDna": "c.323G>A",
+        "protein": "p.R108K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18475,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) treatment resulted in minimal inhibition of colony formation and Egfr autophosphorylation in transformed cells expressing EGFR R108K in culture (PMID: 18408761).",
+            "molecularProfile": {
+                "id": 2925,
+                "profileName": "EGFR R108K"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16218,
+                    "pubMedId": 18408761,
+                    "title": "BIBW2992, an irreversible EGFR/HER2 inhibitor highly effective in preclinical lung cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18408761"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6919,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) decreased viability of transformed cells expressing EGFR R108K in culture (PMID: 17177598).",
+            "molecularProfile": {
+                "id": 2925,
+                "profileName": "EGFR R108K"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 1877,
+                    "pubMedId": 17177598,
+                    "title": "Epidermal growth factor receptor activation in glioblastoma through novel missense mutations in the extracellular domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17177598"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12391,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R108K were sensitive to treatment with Tagrisso (osimertinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2925,
+                "profileName": "EGFR R108K"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12392,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) treatment resulted in decreased cell viability in transformed cells expressing EGFR R108K in culture and led to tumor growth inhibition in mouse models (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2925,
+                "profileName": "EGFR R108K"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12389,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR R108K were sensitive to treatment with Gilotrif (afatinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2925,
+                "profileName": "EGFR R108K"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16879,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) resulted in decreased growth of transformed cells expressing EGFR L858R and EGFR R108K in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32100,
+                "profileName": "EGFR R108K EGFR L858R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16921,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L858R and EGFR R108K in cis demonstrated sensitivity to treatment with Iressa (gefitinib), but when expressed in trans, demonstrated resistance to treatment in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32100,
+                "profileName": "EGFR R108K EGFR L858R"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16878,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Tarceva (erlotinib) resulted in decreased growth of transformed cells expressing EGFR L858R and EGFR R108K in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32100,
+                "profileName": "EGFR R108K EGFR L858R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16880,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Tagrisso (osimertinib) resulted in decreased growth of transformed cells expressing EGFR L858R and EGFR R108K in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32100,
+                "profileName": "EGFR R108K EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2925,
+            "profileName": "EGFR R108K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4794,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR R108K"
+                },
+                {
+                    "id": 4795,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR R108K"
+                },
+                {
+                    "id": 4797,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR R108K"
+                },
+                {
+                    "id": 4798,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR R108K"
+                },
+                {
+                    "id": 4796,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR R108K"
+                }
+            ]
+        },
+        {
+            "id": 32100,
+            "profileName": "EGFR R108K EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135835,
+            "transcript": "NM_201283",
+            "gDna": "chr7:g.55143387G>A",
+            "cDna": "c.323G>A",
+            "protein": "p.R108K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135832,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55143387G>A",
+            "cDna": "c.323G>A",
+            "protein": "p.R108K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135834,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55143387G>A",
+            "cDna": "c.323G>A",
+            "protein": "p.R108K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135833,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55143387G>A",
+            "cDna": "c.323G>A",
+            "protein": "p.R108K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

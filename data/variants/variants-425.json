@@ -1,0 +1,522 @@
+{
+    "id": 425,
+    "fullName": "MAP2K1 K57N",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 K57N does not lie within any known functional domains of the Map2k1 protein (UniProt.org). K57N confers a gain of function on the Map2k1 protein as demonstrated by increased autophosphorylation (PMID: 29753091), increased Erk phosphorylation (PMID: 18632602, PMID: 29753091), increased cell proliferation and cell viability as compared to wild-type Map2k1, in two different cell lines (PMID: 29533785, PMID: 18632602), and also demonstrates resistance to some Mek and Braf inhibitors (PMID: 29753091).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                },
+                {
+                    "id": 119,
+                    "pubMedId": 18632602,
+                    "title": "Novel MEK1 mutation identified by mutational analysis of epidermal growth factor receptor signaling pathway genes in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18632602"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "K57N",
+    "createDate": "04/25/2014",
+    "updateDate": "07/01/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 173436,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66435117G>C",
+        "cDna": "c.171G>C",
+        "protein": "p.K57N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14268,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 K57N displayed resistance to the Mek inhibitor, PD98059, as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 2617,
+                "therapyName": "PD98059",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4423,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines expressing MAP2K1 K57N were insensitive to Erbitux (cetuximab) in culture (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 182,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, selumetinib (AZD6244) inhibited phosphorylation of ERK in cells expressing MAP2K1 K57N and inhibited MAP2K1 K57N-dependent growth in cell culture (PMID: 18632602).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 119,
+                    "pubMedId": 18632602,
+                    "title": "Novel MEK1 mutation identified by mutational analysis of epidermal growth factor receptor signaling pathway genes in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18632602"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4424,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines expressing MAP2K1 K57N were insensitive to Vectibix (panitumumab) in culture (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14275,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 K57N displayed resistance to Stivarga (regorafenib; BAY 73-4506), as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6025,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with refractory Erdheim-Chester disease harboring a MAP2K1 K57N mutation had a sustained clinical response to Mekinist (trametinib) for over 6 months (PMID: 26566875).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60073,
+                "name": "lymphatic system cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5227,
+                    "pubMedId": 26566875,
+                    "title": "Diverse and Targetable Kinase Alterations Drive Histiocytic Neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26566875"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14261,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 K57N displayed sensitivity to the Braf inhibitor, PLX4720, as demonstrated by reversal of active Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4427,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vectibix (panitumumab) and Mekinist (trametinib) inhibited colorectal cancer cell lines expressing MAP2K1 K57N in culture (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 1991,
+                "therapyName": "Panitumumab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14289,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 K57N displayed resistance to the Mek inhibitor, AZD8330, as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 658,
+                "therapyName": "AZD8330",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14282,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 K57N displayed resistance to the Braf inhibitor, GDC-0879, as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 1095,
+                "therapyName": "GDC0879",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4426,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) and Mekinist (trametinib) inhibited colorectal cancer cell lines expressing MAP2K1 K57N in culture (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 3505,
+                "therapyName": "Cetuximab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14254,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 K57N displayed sensitivity to the Mek inhibitor, Selumetinib (AZD6244), as demonstrated by reversal of active Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 504,
+                "profileName": "MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8661,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NSCLC patient derived cells harboring an ALK rearrangement demonstrated resistance to Zykadia (ceritinib) due to the acquired mutation MAP2K1 K57N, however, sensitivity was restored to Zykadia (ceritinib) with the addition of AZD6244, resulting in decreased cell survival in culture and reduced tumor volume in xenograft models (PMID: 25394791).",
+            "molecularProfile": {
+                "id": 26393,
+                "profileName": "ALK rearrange MAP2K1 K57N"
+            },
+            "therapy": {
+                "id": 4786,
+                "therapyName": "Ceritinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1693,
+                    "pubMedId": 25394791,
+                    "title": "Patient-derived models of acquired resistance can identify effective drug combinations for cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25394791"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 504,
+            "profileName": "MAP2K1 K57N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2245,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "MAP2K1 K57N"
+                },
+                {
+                    "id": 2246,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "MAP2K1 K57N"
+                }
+            ]
+        },
+        {
+            "id": 26393,
+            "profileName": "ALK rearrange MAP2K1 K57N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29720,
+            "profileName": "EML4 - ALK MAP2K1 K57N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173436,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66435117G>C",
+            "cDna": "c.171G>C",
+            "protein": "p.K57N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173437,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66435117G>C",
+            "cDna": "c.171G>C",
+            "protein": "p.K57N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

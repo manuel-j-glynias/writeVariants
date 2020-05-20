@@ -1,0 +1,195 @@
+{
+    "id": 4639,
+    "fullName": "APC T1556fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "APC T1556fs results in a change in the amino acid sequence of the Apc protein beginning at aa 1556 of 2843, likely resulting in premature truncation of the functional protein (UniProt.org). T1556fs has not been characterized, however Apc truncation mutants downstream of T1556 are inactivating (PMID: 18199528) thus, T1556fs is predicted to lead to a loss of Apc protein function.",
+            "references": [
+                {
+                    "id": 2395,
+                    "pubMedId": 18199528,
+                    "title": "Multiple rare nonsynonymous variants in the adenomatous polyposis coli gene predispose to colorectal adenomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18199528"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 324,
+        "geneSymbol": "APC",
+        "terms": [
+            "APC",
+            "BTPS2",
+            "DESMD",
+            "DP2",
+            "DP2.5",
+            "DP3",
+            "GS",
+            "PPP1R46"
+        ]
+    },
+    "variant": "T1556fs",
+    "createDate": "04/10/2015",
+    "updateDate": "09/07/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 142698,
+        "transcript": "NM_000038",
+        "gDna": "chr5:g.(112840259_112840260)",
+        "cDna": "c.(4666_4665)",
+        "protein": "p.T1556fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10567,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring APC E853* and APC T1556fs (reported as APC T1556fs*3) demonstrated low levels of Tcf/LEF activity, and was resistant to treatment with XAV939 in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27597,
+                "profileName": "APC E853* APC T1556fs"
+            },
+            "therapy": {
+                "id": 1732,
+                "therapyName": "XAV939",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10557,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring APC E853* and APC T1556fs (reported as APC T1556fs*3) demonstrated low levels of Tcf/LEF activity, and was resistant to treatment with IWR-1 in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27597,
+                "profileName": "APC E853* APC T1556fs"
+            },
+            "therapy": {
+                "id": 2455,
+                "therapyName": "IWR-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10551,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring APC E853* and APC T1556fs (reported as APC T1556fs*3) demonstrated low levels of Tcf/LEF activity, and was resistant to treatment with G007-LK in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27597,
+                "profileName": "APC E853* APC T1556fs"
+            },
+            "therapy": {
+                "id": 2991,
+                "therapyName": "G007-LK",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4437,
+            "profileName": "APC T1556fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6825,
+                    "name": "Tankyrase Inhibitor",
+                    "profileName": "APC T1556fs"
+                },
+                {
+                    "id": 6824,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "APC T1556fs"
+                }
+            ]
+        },
+        {
+            "id": 27597,
+            "profileName": "APC E853* APC T1556fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 142698,
+            "transcript": "NM_000038",
+            "gDna": "chr5:g.(112840259_112840260)",
+            "cDna": "c.(4666_4665)",
+            "protein": "p.T1556fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 142697,
+            "transcript": "NM_001127510",
+            "gDna": "chr5:g.(112840259_112840260)",
+            "cDna": "c.(4666_4665)",
+            "protein": "p.T1556fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

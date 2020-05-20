@@ -1,0 +1,154 @@
+{
+    "id": 3346,
+    "fullName": "FLT3 D835N",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 D835N lies within the protein kinase domain activation loop of the Flt3 protein (PMID: 11290608). D835N results in constitutive phosphorylation of Flt3 and activation of Stat5, Erk signaling, leading to transformation of cultured cells (PMID: 15256420).",
+            "references": [
+                {
+                    "id": 2011,
+                    "pubMedId": 11290608,
+                    "title": "Activating mutation of D835 within the activation loop of FLT3 in human hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11290608"
+                },
+                {
+                    "id": 2706,
+                    "pubMedId": 15256420,
+                    "title": "Variable sensitivity of FLT3 activation loop mutations to the small molecule tyrosine kinase inhibitor MLN518.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15256420"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "D835N",
+    "createDate": "02/25/2015",
+    "updateDate": "07/31/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 144450,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018505C>T",
+        "cDna": "c.2503G>A",
+        "protein": "p.D835N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4827,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing FLT3-ITD along with FLT3 D835N were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19281,
+                "profileName": "FLT3 exon 14 ins FLT3 D835N"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4828,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a compound FLT3-ITD/F691L/D835N mutation were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19282,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 D835N"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3157,
+            "profileName": "FLT3 D835N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4001,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 D835N"
+                }
+            ]
+        },
+        {
+            "id": 19281,
+            "profileName": "FLT3 exon 14 ins FLT3 D835N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19282,
+            "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 D835N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144450,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018505C>T",
+            "cDna": "c.2503G>A",
+            "protein": "p.D835N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

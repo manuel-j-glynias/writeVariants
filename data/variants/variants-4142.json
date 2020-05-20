@@ -1,0 +1,222 @@
+{
+    "id": 4142,
+    "fullName": "CTNNB1 S33C",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CTNNB1 S33C lies within the ubiquitination recognition motif of the Ctnnb1 protein and occurs at a Gsk3b phosphorylation site on the Ctnnb1 protein (PMID: 15064718). S33C confers a gain of function to the Ctnnb1 protein as demonstrated by nuclear accumulation of Ctnnb1 and increased Ctnnb1-driven transcription (PMID: 10076565, PMID: 21881488, PMID: 19582367).",
+            "references": [
+                {
+                    "id": 2331,
+                    "pubMedId": 10076565,
+                    "title": "Mutations of the beta-catenin gene in endometrial carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10076565"
+                },
+                {
+                    "id": 408,
+                    "pubMedId": 15064718,
+                    "title": "Phosphorylation and ubiquitination of oncogenic mutants of beta-catenin containing substitutions at Asp32.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15064718"
+                },
+                {
+                    "id": 2329,
+                    "pubMedId": 21881488,
+                    "title": "\u03b2-catenin (CTNNB1) S33C mutation in ovarian microcystic stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21881488"
+                },
+                {
+                    "id": 2330,
+                    "pubMedId": 19582367,
+                    "title": "CTNNB1 (beta-catenin) mutation is rare in brain tumours but involved as a sporadic event in a brain metastasis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19582367"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1499,
+        "geneSymbol": "CTNNB1",
+        "terms": [
+            "CTNNB1",
+            "armadillo",
+            "CTNNB",
+            "EVR7",
+            "MRD19",
+            "NEDSDV"
+        ]
+    },
+    "variant": "S33C",
+    "createDate": "03/26/2015",
+    "updateDate": "03/28/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 138004,
+        "transcript": "NM_001098210",
+        "gDna": "chr3:g.41224610C>G",
+        "cDna": "c.98C>G",
+        "protein": "p.S33C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19907,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tarceva (erlotinib) and was found via cell free DNA testing to EGFR T790M, an EGFR exon 19 deletion, CTNNB1 S33C, and CTNNB1 S33P (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34666,
+                "profileName": "CTNNB1 S33C CTNNB1 S33P EGFR exon 19 del EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19910,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tagrisso (osimertinib) and was found via cell free DNA testing to harbor an EGFR exon 19 deletion, CCDC6-RET, and CTNNB1 S33C (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34667,
+                "profileName": "CCDC6 - RET CTNNB1 S33C EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3949,
+            "profileName": "CTNNB1 S33C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 8021,
+                    "name": "PDPK1 Inhibitor",
+                    "profileName": "CTNNB1 S33C"
+                },
+                {
+                    "id": 8023,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "CTNNB1 S33C"
+                },
+                {
+                    "id": 8022,
+                    "name": "Tankyrase Inhibitor",
+                    "profileName": "CTNNB1 S33C"
+                }
+            ]
+        },
+        {
+            "id": 34666,
+            "profileName": "CTNNB1 S33C CTNNB1 S33P EGFR exon 19 del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34667,
+            "profileName": "CCDC6 - RET CTNNB1 S33C EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 138002,
+            "transcript": "NM_001904",
+            "gDna": "chr3:g.41224610C>G",
+            "cDna": "c.98C>G",
+            "protein": "p.S33C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 138004,
+            "transcript": "NM_001098210",
+            "gDna": "chr3:g.41224610C>G",
+            "cDna": "c.98C>G",
+            "protein": "p.S33C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 138007,
+            "transcript": "XM_017005738",
+            "gDna": "chr3:g.41224610C>G",
+            "cDna": "c.98C>G",
+            "protein": "p.S33C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 138003,
+            "transcript": "NM_001098209",
+            "gDna": "chr3:g.41224610C>G",
+            "cDna": "c.98C>G",
+            "protein": "p.S33C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 138006,
+            "transcript": "XM_005264886",
+            "gDna": "chr3:g.41224610C>G",
+            "cDna": "c.98C>G",
+            "protein": "p.S33C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 138005,
+            "transcript": "XM_006712985",
+            "gDna": "chr3:g.41224610C>G",
+            "cDna": "c.98C>G",
+            "protein": "p.S33C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

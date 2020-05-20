@@ -1,0 +1,160 @@
+{
+    "id": 29008,
+    "fullName": "IRF2BP2 - NTRK1",
+    "impact": "fusion",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "IRF2BP2-NTRK1 results from the fusion of IRF2BP2 and NTRK1 (PMID: 29466156). IRF2BP2-NTRK1 has been identified in thyroid cancer (PMID: 29466156, PMID: 29144541), lung adenocarcinoma (PMID: 28719467) and prostate adenocarcinoma (PMID: 31763365), but has not been biochemically characterized and therefore, the effect on protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 14916,
+                    "pubMedId": 29144541,
+                    "title": "Genetic landscape of papillary thyroid carcinoma in the Chinese population.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29144541"
+                },
+                {
+                    "id": 18350,
+                    "pubMedId": 31763365,
+                    "title": "Prostatic adenocarcinoma with novel NTRK3 gene fusion: a case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31763365"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                },
+                {
+                    "id": 12997,
+                    "pubMedId": 28719467,
+                    "title": "Pan-Trk Immunohistochemistry Is an Efficient and Reliable Screen for the Detection of NTRK Fusions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28719467"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 359948,
+        "geneSymbol": "IRF2BP2",
+        "terms": [
+            "IRF2BP2",
+            "CVID14"
+        ]
+    },
+    "variant": "IRF2BP2 - NTRK1",
+    "createDate": "11/27/2018",
+    "updateDate": "03/23/2020",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 4914,
+                "geneSymbol": "NTRK1",
+                "terms": [
+                    "NTRK1",
+                    "MTC",
+                    "p140-TrkA",
+                    "TRK",
+                    "Trk-A",
+                    "TRK1",
+                    "TRKA"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15290,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a combined analysis of three trials, Vitrakvi (larotrectinib) treatment resulted in complete response in two patients with advanced solid tumors harboring an IRF2BP2-NTRK1 fusion (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 30932,
+                "profileName": "IRF2BP2 - NTRK1"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15271,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, NTRK1 G595R was identified at disease progression in a patient with thyroid cancer harboring IRF2BP2-NTRK1 treated with Vitrakvi (larotrectinib) (PMID: 29466156; NCT02122913, NCT02637687, NCT02576431).",
+            "molecularProfile": {
+                "id": 30933,
+                "profileName": "IRF2BP2 - NTRK1 NTRK1 G595R"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10867,
+                    "pubMedId": 29466156,
+                    "title": "Efficacy of Larotrectinib in TRK Fusion-Positive Cancers in Adults and Children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29466156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 30932,
+            "profileName": "IRF2BP2 - NTRK1",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19344,
+                    "name": "Larotrectinib",
+                    "profileName": "IRF2BP2 - NTRK1"
+                }
+            ]
+        },
+        {
+            "id": 30933,
+            "profileName": "IRF2BP2 - NTRK1 NTRK1 G595R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

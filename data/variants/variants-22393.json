@@ -1,0 +1,132 @@
+{
+    "id": 22393,
+    "fullName": "KMT2A - MLLT10",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KMT2A-MLLT10 results from the fusion of KMT2A (MLL) and MLLT10 (AF10), resulting in the transformation of primitive myeloid progenitor cells in mouse models, which eventually leads to leukemogenesis (PMID: 11986236).",
+            "references": [
+                {
+                    "id": 5484,
+                    "pubMedId": 11986236,
+                    "title": "The AF10 leucine zipper is required for leukemic transformation of myeloid progenitors by MLL-AF10.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11986236"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4297,
+        "geneSymbol": "KMT2A",
+        "terms": [
+            "KMT2A",
+            "ALL-1",
+            "CXXC7",
+            "HRX",
+            "HTRX1",
+            "MLL",
+            "MLL1",
+            "MLL1A",
+            "TRX1",
+            "WDSTS"
+        ]
+    },
+    "variant": "KMT2A - MLLT10",
+    "createDate": "05/10/2016",
+    "updateDate": "01/18/2017",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 8028,
+                "geneSymbol": "MLLT10",
+                "terms": [
+                    "MLLT10",
+                    "AF10"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 6224,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing the fusion, KMT2A-MLLT10, demonstrated sensitivity to EPZ004777 in culture and in mouse models, resulting in cell cycle arrest, increased apoptotic activity, and inhibition of cell proliferation (PMID: 23138183).",
+            "molecularProfile": {
+                "id": 22961,
+                "profileName": "KMT2A - MLLT10"
+            },
+            "therapy": {
+                "id": 1744,
+                "therapyName": "EPZ004777",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5485,
+                    "pubMedId": 23138183,
+                    "title": "Abrogation of MLL-AF10 and CALM-AF10-mediated transformation through genetic inactivation or pharmacological inhibition of the H3K79 methyltransferase Dot1l.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23138183"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11381,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, I-BET151 and SGC0946 synergistically inhibited proliferation of patient-derived acute myeloid leukemia cells harboring KMT2A-MLLT10 in culture (PMID: 27294782).",
+            "molecularProfile": {
+                "id": 22961,
+                "profileName": "KMT2A - MLLT10"
+            },
+            "therapy": {
+                "id": 5966,
+                "therapyName": "I-BET151 + SGC0946",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9271,
+                    "pubMedId": 27294782,
+                    "title": "Functional interdependence of BRD4 and DOT1L in MLL leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27294782"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 22961,
+            "profileName": "KMT2A - MLLT10",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 8838,
+                    "name": "DOT1L Inhibitor",
+                    "profileName": "KMT2A - MLLT10"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "id": 27519,
+    "fullName": "ERBB2 G776_V777insVGC",
+    "impact": "insertion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) G776_V777insVGC results in the insertion of three amino acids in the protein kinase domain of the Erbb2 (Her2) protein between amino acids 776 and 777 (UniProt.org). G776_V777insVGC has not been characterized, however other exon 20 insertions are activating thus, G776_V777insVGC is predicted to lead to gain of Erbb2 (Her2) function (PMID: 16843263, PMID: 17311002, PMID: 23220880).",
+            "references": [
+                {
+                    "id": 1980,
+                    "pubMedId": 23220880,
+                    "title": "Activating HER2 mutations in HER2 gene amplification negative breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23220880"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2004,
+                    "pubMedId": 16843263,
+                    "title": "HER2 kinase domain mutation results in constitutive phosphorylation and activation of HER2 and EGFR and resistance to EGFR tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16843263"
+                },
+                {
+                    "id": 2002,
+                    "pubMedId": 17311002,
+                    "title": "The major lung cancer-derived mutants of ERBB2 are oncogenic and are associated with sensitivity to the irreversible EGFR/ERBB2 inhibitor HKI-272.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17311002"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "G776_V777insVGC",
+    "createDate": "03/15/2018",
+    "updateDate": "03/15/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 170514,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724748_39724749insAGGTTGTGT",
+        "cDna": "c.2330_2331insAGGTTGTGT",
+        "protein": "p.G778_S779insCVG",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13251,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease in 1 patient and progressive disease in 2 patients with non-small cell lung cancer harboring ERBB2 (HER2) G776_V777insVGC (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 29037,
+                "profileName": "ERBB2 G776_V777insVGC"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29037,
+            "profileName": "ERBB2 G776_V777insVGC",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 18538,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 G776_V777insVGC"
+                },
+                {
+                    "id": 18537,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 G776_V777insVGC"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170515,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724748_39724749insAGGTTGTGT",
+            "cDna": "c.2330_2331insAGGTTGTGT",
+            "protein": "p.G778_S779insCVG",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170514,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724748_39724749insAGGTTGTGT",
+            "cDna": "c.2330_2331insAGGTTGTGT",
+            "protein": "p.G778_S779insCVG",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

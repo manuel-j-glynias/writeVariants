@@ -1,0 +1,211 @@
+{
+    "id": 3853,
+    "fullName": "PIK3CA M1043V",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA M1043V lies within the PI3K/PI4K domain of the Pik3ca protein (UniProt.org). M1043V results in increased phosphorylation of Akt, activation of downstream signaling, and is transforming in cell culture (PMID: 17376864, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 101,
+                    "pubMedId": 17376864,
+                    "title": "Rare cancer-specific mutations in PIK3CA show gain of function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17376864"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "M1043V",
+    "createDate": "03/18/2015",
+    "updateDate": "10/03/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 171981,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179234284A>G",
+        "cDna": "c.3127A>G",
+        "protein": "p.M1043V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2362,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rapamune (sirolimus) inhibited proliferation in cultured cells expressing PIK3CA M1043V (PMID: 17376864).",
+            "molecularProfile": {
+                "id": 3663,
+                "profileName": "PIK3CA M1043V"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 101,
+                    "pubMedId": 17376864,
+                    "title": "Rare cancer-specific mutations in PIK3CA show gain of function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17376864"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20964,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Buparlisib (BKM120) and Selumetinib (AZD6244) led to a synergistic effect, resulting in growth inhibition of astrocytoma cells with an HRAS mutation and expressing PIK3CA M1043V in culture, but at a higher drug concentration compared to cells without mutant HRAS (PMID: 29975751).",
+            "molecularProfile": {
+                "id": 35460,
+                "profileName": "HRAS mut PIK3CA M1043V"
+            },
+            "therapy": {
+                "id": 4652,
+                "therapyName": "Buparlisib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3070,
+                "name": "malignant glioma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18213,
+                    "pubMedId": 29975751,
+                    "title": "PIK3CA missense mutations promote glioblastoma pathogenesis, but do not enhance targeted PI3K inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29975751"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3663,
+            "profileName": "PIK3CA M1043V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17268,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA M1043V"
+                },
+                {
+                    "id": 17269,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA M1043V"
+                },
+                {
+                    "id": 17267,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA M1043V"
+                },
+                {
+                    "id": 17270,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA M1043V"
+                },
+                {
+                    "id": 17265,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA M1043V"
+                },
+                {
+                    "id": 17263,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA M1043V"
+                },
+                {
+                    "id": 17264,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA M1043V"
+                },
+                {
+                    "id": 17266,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA M1043V"
+                }
+            ]
+        },
+        {
+            "id": 35460,
+            "profileName": "HRAS mut PIK3CA M1043V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171981,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179234284A>G",
+            "cDna": "c.3127A>G",
+            "protein": "p.M1043V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171982,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179234284A>G",
+            "cDna": "c.3127A>G",
+            "protein": "p.M1043V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171980,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179234284A>G",
+            "cDna": "c.3127A>G",
+            "protein": "p.M1043V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "id": 8879,
+    "fullName": "RAF1 P261T",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "RAF1 P261T lies within the CR2 domain of the Raf1 protein (PMID: 17603482). P261T results in increased Raf kinase activity, downstream Mek and Erk phosphorylation and has been demonstrated to occur as a resistance mutation (PMID: 23737487).",
+            "references": [
+                {
+                    "id": 494,
+                    "pubMedId": 17603482,
+                    "title": "Germline gain-of-function mutations in RAF1 cause Noonan syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17603482"
+                },
+                {
+                    "id": 3186,
+                    "pubMedId": 23737487,
+                    "title": "C-RAF mutations confer resistance to RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23737487"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5894,
+        "geneSymbol": "RAF1",
+        "terms": [
+            "RAF1",
+            "c-Raf",
+            "CMD1NN",
+            "CRAF",
+            "NS5",
+            "Raf-1"
+        ]
+    },
+    "variant": "P261T",
+    "createDate": "07/09/2015",
+    "updateDate": "07/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 161825,
+        "transcript": "NM_002880",
+        "gDna": "chr3:g.12604189G>T",
+        "cDna": "c.781C>A",
+        "protein": "p.P261T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2514,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of RAF1 P261T conferred resistance to Zelboraf (vemurafenib) in human melanoma cells expressing BRAF V600E in culture (PMID: 23737487).",
+            "molecularProfile": {
+                "id": 8791,
+                "profileName": "BRAF V600E RAF1 P261T"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3186,
+                    "pubMedId": 23737487,
+                    "title": "C-RAF mutations confer resistance to RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23737487"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2515,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of RAF1 P261T conferred resistance to PLX4720 in human melanoma cells expressing BRAF V600E in culture (PMID: 23737487).",
+            "molecularProfile": {
+                "id": 8791,
+                "profileName": "BRAF V600E RAF1 P261T"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3186,
+                    "pubMedId": 23737487,
+                    "title": "C-RAF mutations confer resistance to RAF inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23737487"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 8773,
+            "profileName": "RAF1 P261T",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6003,
+                    "name": "Trametinib",
+                    "profileName": "RAF1 P261T"
+                },
+                {
+                    "id": 5945,
+                    "name": "RAF Inhibitor (Pan)",
+                    "profileName": "RAF1 P261T"
+                }
+            ]
+        },
+        {
+            "id": 8791,
+            "profileName": "BRAF V600E RAF1 P261T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 161825,
+            "transcript": "NM_002880",
+            "gDna": "chr3:g.12604189G>T",
+            "cDna": "c.781C>A",
+            "protein": "p.P261T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161827,
+            "transcript": "XM_005265355",
+            "gDna": "chr3:g.12604189G>T",
+            "cDna": "c.781C>A",
+            "protein": "p.P261T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161826,
+            "transcript": "XM_011533974",
+            "gDna": "chr3:g.12604189G>T",
+            "cDna": "c.781C>A",
+            "protein": "p.P261T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

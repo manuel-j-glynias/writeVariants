@@ -1,0 +1,957 @@
+{
+    "id": 751,
+    "fullName": "ERBB3 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB3 (HER3) over exp indicates an over expression of the Erbb3 (Her3) protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2065,
+        "geneSymbol": "ERBB3",
+        "terms": [
+            "ERBB3",
+            "c-erbB-3",
+            "c-erbB3",
+            "ErbB-3",
+            "erbB3-S",
+            "FERLK",
+            "HER3",
+            "LCCS2",
+            "MDA-BF-1",
+            "p180-ErbB3",
+            "p45-sErbB3",
+            "p85-sErbB3"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "06/18/2014",
+    "updateDate": "04/25/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3353,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I study, MM-141, in combination with Abraxane (nab-paclitaxel) and gemcitabine, displayed safety and preliminary efficacy in a variety of solid tumors with Erbb3 (Her3) and Igf1r overexpression (AACR; Cancer Res 2015;75(15 Suppl):Abstract nr CT237).",
+            "molecularProfile": {
+                "id": 13273,
+                "profileName": "ERBB3 over exp IGF1R over exp"
+            },
+            "therapy": {
+                "id": 1249,
+                "therapyName": "Gemcitabine + MM-141 + Nab-paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3758,
+                    "pubMedId": null,
+                    "title": "Preclinical characterization and first-in-human study of MM-141, a dual antibody inhibitor of IGF-1R and ErbB3",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/CT237?cited-by=yes&legid=canres;75/15_Supplement/CT237"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 381,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of the anti-ERBB3 (HER3) antibody A3 and Tykerb (lapatinib) resulted in increased growth inhibition in non-small cell lung cancer cells harboring both EGFR exon 19 deletion and EGFR T790M and with ERBB3 (HER3) over expression in culture compared to Tykerb (lapatinib) alone (PMID: 23896512).",
+            "molecularProfile": {
+                "id": 17817,
+                "profileName": "EGFR exon 19 del EGFR T790M ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 3496,
+                "therapyName": "A3 + Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 82,
+                    "pubMedId": 23896512,
+                    "title": "Combination therapy with anti-ErbB3 monoclonal antibodies and EGFR TKIs potently inhibits non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23896512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 670,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) treatment demonstrated a lack of benefit in the choriocarcinoma model of testicular germ cell tumor with high expression levels of EGFR, ERBB2 and ERBB3 (PMID: 23292912).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5557,
+                "name": "testicular germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 389,
+                    "pubMedId": 23292912,
+                    "title": "ErbBs inhibition by lapatinib blocks tumor growth in an orthotopic model of human testicular germ cell tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23292912"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 669,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) treatment resulted in 50% inhibition of tumor growth in a xenograft choriocarcinoma model of testicular germ cell tumor expressing high levels of EGFR, ERBB2 and ERBB3 (PMID: 23292912).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5557,
+                "name": "testicular germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 389,
+                    "pubMedId": 23292912,
+                    "title": "ErbBs inhibition by lapatinib blocks tumor growth in an orthotopic model of human testicular germ cell tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23292912"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5548,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pan-HER sensitized both cetuximab-sensitive and cetuximab-resistant non-small cell lung carcinoma cell lines demonstrating high basal protein level of Egfr, Erbb2 (Her2) and Erbb3 (Her3) to radiation toxicity in cell culture and inhibited tumor growth in patient-derived xenograft models (PMID: 26420857).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 3886,
+                "therapyName": "Pan-HER + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5091,
+                    "pubMedId": 26420857,
+                    "title": "Pan-HER Inhibitor Augments Radiation Response in Human Lung and Head and Neck Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26420857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5544,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pan-HER inhibited proliferation of both cetuximab-sensitive and cetuximab-resistant non-small cell lung carcinoma cell lines demonstrating high basal protein level of Egfr, Erbb2 (Her2) and Erbb3 (Her3) in culture (PMID: 26420857).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 3885,
+                "therapyName": "Pan-HER",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5091,
+                    "pubMedId": 26420857,
+                    "title": "Pan-HER Inhibitor Augments Radiation Response in Human Lung and Head and Neck Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26420857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8157,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pan-HER inhibited HER family receptors expression and signaling, suppressed growth of acquired and intrinsically cetuximab-resistant non-small cell lung carcinoma cell lines demonstrating high protein level of Egfr, Erbb2 (Her2) and Erbb3 (Her3) in culture and in cell line xenograft models (PMID: 27422810).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 3885,
+                "therapyName": "Pan-HER",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6563,
+                    "pubMedId": 27422810,
+                    "title": "Targeting the HER Family with Pan-HER Effectively Overcomes Resistance to Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422810"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5549,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pan-HER sensitized both cetuximab-sensitive and cetuximab-resistant head and neck squamous cell carcinoma cell lines demonstrating high basal protein level of Egfr, Erbb2 (Her2) and Erbb3 (Her3) to radiation toxicity in culture and inhibited tumor growth in cell line xenograft models (PMID: 26420857).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 3886,
+                "therapyName": "Pan-HER + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5091,
+                    "pubMedId": 26420857,
+                    "title": "Pan-HER Inhibitor Augments Radiation Response in Human Lung and Head and Neck Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26420857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 671,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iressa (gefitinib) treatment demonstrated a complete lack of benefit in a cell line xenograft model of a choriocarcinoma testicular germ cell tumor expressing high levels of EGFR, ERBB2 and ERBB3 (PMID: 23292912).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5557,
+                "name": "testicular germ cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 389,
+                    "pubMedId": 23292912,
+                    "title": "ErbBs inhibition by lapatinib blocks tumor growth in an orthotopic model of human testicular germ cell tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23292912"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8158,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pan-HER inhibited HER family receptors expression and signaling, suppressed growth of acquired and intrinsically cetuximab-resistant head and neck squamous cell carcinoma cell lines demonstrating high protein level of Egfr, Erbb2 (Her2) and Erbb3 (Her3) in culture and in cell line xenograft models (PMID: 27422810).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 3885,
+                "therapyName": "Pan-HER",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6563,
+                    "pubMedId": 27422810,
+                    "title": "Targeting the HER Family with Pan-HER Effectively Overcomes Resistance to Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422810"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5545,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pan-HER inhibited proliferation of cetuximab-sensitive and cetuximab-resistant head and neck squamous cell carcinoma cell lines demonstrating high basal protein level of Egfr, Erbb2 (Her2) and Erbb3 (Her3) in culture (PMID: 26420857).",
+            "molecularProfile": {
+                "id": 20975,
+                "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 3885,
+                "therapyName": "Pan-HER",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5091,
+                    "pubMedId": 26420857,
+                    "title": "Pan-HER Inhibitor Augments Radiation Response in Human Lung and Head and Neck Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26420857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11520,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB2 (HER2) amplification and ERBB3 (HER3) over expression in brain metastases was sensitive to the combined treatment of Buparlisib (BKM120) and Perjeta (pertuzumab), demonstrating delayed tumor growth and better survival when compared to either treatment alone (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 23450,
+                "profileName": "ERBB2 amp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 6010,
+                "therapyName": "Buparlisib + Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11519,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB2 (HER2) amplification and ERBB3 (HER3) over expression in brain metastases was sensitive to the combined treatment of Buparlisib (BKM120) and LJM716, demonstrating delayed tumor growth and better survival when compared to either treatment alone (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 23450,
+                "profileName": "ERBB2 amp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 6009,
+                "therapyName": "Buparlisib + LJM716",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11516,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model with ERBB2 (HER2) amp and ERBB3 (HER3) over expression in the brain metastases demonstrated resistance to treatment with Buparlisib (BKM120) (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 23450,
+                "profileName": "ERBB2 amp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6459,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CDX-3379 (KTN3379) had a modest inhibitory effect on tumor growth in xenograft models of colon cancer with high Erbb3 (Her3) expression and low Nrg1 (Hrg) expression (PMID: 26880266).",
+            "molecularProfile": {
+                "id": 23518,
+                "profileName": "ERBB3 over exp NRG1 dec exp"
+            },
+            "therapy": {
+                "id": 2054,
+                "therapyName": "CDX-3379",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5601,
+                    "pubMedId": 26880266,
+                    "title": "A Potent HER3 Monoclonal Antibody That Blocks Both Ligand-Dependent and -Independent Activities: Differential Impacts of PTEN Status on Tumor Response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26880266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6456,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CDX-3379 (KTN3379) had minor inhibitory effect on tumor growth in xenograft models of gastric cancer expressing high levels of Erbb3 (Her3) and low levels of Nrg1 (Hrg) (PMID: 26880266).",
+            "molecularProfile": {
+                "id": 23518,
+                "profileName": "ERBB3 over exp NRG1 dec exp"
+            },
+            "therapy": {
+                "id": 2054,
+                "therapyName": "CDX-3379",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5601,
+                    "pubMedId": 26880266,
+                    "title": "A Potent HER3 Monoclonal Antibody That Blocks Both Ligand-Dependent and -Independent Activities: Differential Impacts of PTEN Status on Tumor Response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26880266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8300,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, head and neck squamous cell carcinoma cell lines expressing EGFR and over expressing ERBB3 (HER3) demonstrated a decreased response to Erbitux (cetuximab) in culture when compared to MEHD7945A treatment (PMID: 26141946).",
+            "molecularProfile": {
+                "id": 26225,
+                "profileName": "EGFR pos ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6593,
+                    "pubMedId": 26141946,
+                    "title": "Antitumor Effects of MEHD7945A, a Dual-Specific Antibody against EGFR and HER3, in Combination with Radiation in Lung and Head and Neck Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26141946"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8301,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, head and neck squamous cell carcinoma cell lines expressing EGFR and over expressing ERBB3 (HER3) demonstrated a decreased response to treatment with a ERBB3 (HER3) antibody in culture when compared to MEHD7945A treatment (PMID: 26141946).",
+            "molecularProfile": {
+                "id": 26225,
+                "profileName": "EGFR pos ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 4576,
+                "therapyName": "unspecified ERBB3 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6593,
+                    "pubMedId": 26141946,
+                    "title": "Antitumor Effects of MEHD7945A, a Dual-Specific Antibody against EGFR and HER3, in Combination with Radiation in Lung and Head and Neck Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26141946"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8299,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a head and neck squamous cell carcinoma cell line with EGFR expression and over expression of ERBB3 (HER3) demonstrated sensitivity to treatment with MEHD7945A in culture, resulting in decreased cell proliferation (PMID: 26141946).",
+            "molecularProfile": {
+                "id": 26225,
+                "profileName": "EGFR pos ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 806,
+                "therapyName": "Duligotuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6593,
+                    "pubMedId": 26141946,
+                    "title": "Antitumor Effects of MEHD7945A, a Dual-Specific Antibody against EGFR and HER3, in Combination with Radiation in Lung and Head and Neck Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26141946"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8304,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, radiation induced over expression of EGFR and ERBB3 (HER3) in lung squamous cell carcinoma xenograft models demonstrated increased sensitivity when additionally treated with MEHD7945A, resulting in delayed tumor growth (PMID: 26141946).",
+            "molecularProfile": {
+                "id": 26227,
+                "profileName": "EGFR over exp ERBB3 over exp"
+            },
+            "therapy": {
+                "id": 4683,
+                "therapyName": "Duligotuzumab + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6593,
+                    "pubMedId": 26141946,
+                    "title": "Antitumor Effects of MEHD7945A, a Dual-Specific Antibody against EGFR and HER3, in Combination with Radiation in Lung and Head and Neck Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26141946"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11521,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB2 (HER2) amplification, ERBB3 (HER3) over expression, and PIK3CA E545K in brain metastases was sensitive to the combined treatment of Buparlisib (BKM120) and LJM716, demonstrating delayed tumor growth and better survival when compared to either treatment alone (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 28116,
+                "profileName": "ERBB2 amp ERBB3 over exp PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 6009,
+                "therapyName": "Buparlisib + LJM716",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11522,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB2 (HER2) amplification, ERBB3 (HER3) over expression, and PIK3CA E545K in brain metastases was sensitive to the combined treatment of Buparlisib (BKM120) and Perjeta (pertuzumab), demonstrating delayed tumor growth and better survival when compared to either treatment alone (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 28116,
+                "profileName": "ERBB2 amp ERBB3 over exp PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 6010,
+                "therapyName": "Buparlisib + Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11517,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB2 (HER2) amplification, ERBB3 (HER3) over expression, and PIK3CA E545K in brain metastases demonstrated resistance to treatment with Buparlisib (BKM120) (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 28116,
+                "profileName": "ERBB2 amp ERBB3 over exp PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11523,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB3 (HER3) over expression and PIK3CA H1047R in brain metastases was sensitive to the combined treatment of Buparlisib (BKM120) and LJM716, demonstrating delayed tumor growth and better survival when compared to either treatment alone (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 28117,
+                "profileName": "ERBB3 over exp PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 6009,
+                "therapyName": "Buparlisib + LJM716",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11518,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB3 (HER3) over expression and PIK3CA H1047R in brain metastases demonstrated resistance to treatment with Buparlisib (BKM120) (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 28117,
+                "profileName": "ERBB3 over exp PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11524,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line xenograft model harboring ERBB3 (HER3) over expression and PIK3CA H1047R in brain metastases was sensitive to the combined treatment of Buparlisib (BKM120) and Perjeta (pertuzumab), demonstrating delayed tumor growth and better survival when compared to either treatment alone (PMID: 28539475).",
+            "molecularProfile": {
+                "id": 28117,
+                "profileName": "ERBB3 over exp PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 6010,
+                "therapyName": "Buparlisib + Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9597,
+                    "pubMedId": 28539475,
+                    "title": "The brain microenvironment mediates resistance in luminal breast cancer to PI3K inhibition through HER3 activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28539475"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1490,
+            "profileName": "ERBB3 over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4243,
+                    "name": "HER2 (ERBB2) Antibody",
+                    "profileName": "ERBB3 over exp"
+                },
+                {
+                    "id": 4245,
+                    "name": "HER3 (ERBB3) Antibody",
+                    "profileName": "ERBB3 over exp"
+                },
+                {
+                    "id": 4242,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB3 over exp"
+                },
+                {
+                    "id": 4408,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB3 over exp"
+                },
+                {
+                    "id": 4244,
+                    "name": "HER3 Inhibitor",
+                    "profileName": "ERBB3 over exp"
+                },
+                {
+                    "id": 14008,
+                    "name": "HER2 (ERBB2) Vaccine",
+                    "profileName": "ERBB3 over exp"
+                }
+            ]
+        },
+        {
+            "id": 13273,
+            "profileName": "ERBB3 over exp IGF1R over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 17817,
+            "profileName": "EGFR exon 19 del EGFR T790M ERBB3 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20975,
+            "profileName": "EGFR over exp ERBB2 over exp ERBB3 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23450,
+            "profileName": "ERBB2 amp ERBB3 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23518,
+            "profileName": "ERBB3 over exp NRG1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26225,
+            "profileName": "EGFR pos ERBB3 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26227,
+            "profileName": "EGFR over exp ERBB3 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28116,
+            "profileName": "ERBB2 amp ERBB3 over exp PIK3CA E545K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28117,
+            "profileName": "ERBB3 over exp PIK3CA H1047R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

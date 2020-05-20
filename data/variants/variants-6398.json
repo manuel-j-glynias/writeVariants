@@ -1,0 +1,366 @@
+{
+    "id": 6398,
+    "fullName": "SMO D473G",
+    "impact": "missense",
+    "proteinEffect": "no effect - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "SMO D473G lies within the ligand-binding pocket of the Smo protein (PMID: 25759020). D473G does not result in activation of Smo, as indicated by the lack of increased basal Hedgehog (Hh) pathway signaling in cell culture, and therefore, is predicted to have no effect on Smo protein function, but has been demonstrated to confer resistance to Hedgehog pathway inhibitors (PMID: 25759020, PMID: 25801792).",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 13490,
+                    "pubMedId": 25801792,
+                    "title": "Rolling the Genetic Dice: Neutral and Deleterious Smoothened Mutations in Drug-Resistant Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25801792"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6608,
+        "geneSymbol": "SMO",
+        "terms": [
+            "SMO",
+            "CRJS",
+            "FZD11",
+            "Gx",
+            "SMOH"
+        ]
+    },
+    "variant": "D473G",
+    "createDate": "05/18/2015",
+    "updateDate": "09/24/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 123174,
+        "transcript": "NM_005631",
+        "gDna": "chr7:g.129209349A>G",
+        "cDna": "c.1418A>G",
+        "protein": "p.D473G",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4280,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In an open-label clinical trial, treatment with Sonidegib (LDE225) resulted in progressive disease in a basal cell carcinoma patient harboring SMO D473G with resistance to Erivedge (vismodegib) (PMID: 26546616).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4477,
+                    "pubMedId": 26546616,
+                    "title": "An Investigator-Initiated Open-Label Trial of Sonidegib in Advanced Basal Cell Carcinoma Patients Resistant to Vismodegib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2197,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing SMO D473G was resistant to Erivedge (vismodegib) as demonstrated by elevated gene expression levels of GLI1 resulting in increased signaling of the hedgehog pathway (PMID: 25759020).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2513,
+                "name": "basal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6335,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Posaconazole and Trisenox (Arsenic trioxide) demonstrated enhanced inhibition of Hedghog signaling in mouse fibroblasts over expressing murine SMO D477G (corresponding to human SMO D473G) in culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 4117,
+                "therapyName": "Arsenic trioxide + Posaconazole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6307,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed mouse fibroblast cells over expressing murine SMO D477G (corresponding to human SMO D473G) were resistant to Erivedge (vismodegib) induced Hedgehog pathway inhibition in cell culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15691,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse fibroblast cells expressing human SMO D473G were resistant to Hedgehog pathway inhibition by Erivedge (vismodegib) in culture (PMID: 25801792).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13490,
+                    "pubMedId": 25801792,
+                    "title": "Rolling the Genetic Dice: Neutral and Deleterious Smoothened Mutations in Drug-Resistant Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25801792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6325,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Posaconazole inhibited Hedghog signaling in mouse fibroblasts over expressing murine SMO D477G (corresponding to human SMO D473G) in culture (PMID: 26823493).",
+            "molecularProfile": {
+                "id": 6248,
+                "profileName": "SMO D473G"
+            },
+            "therapy": {
+                "id": 4108,
+                "therapyName": "Posaconazole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5515,
+                    "pubMedId": 26823493,
+                    "title": "Posaconazole, a Second-Generation Triazole Antifungal Drug, Inhibits the Hedgehog Signaling Pathway and Progression of Basal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26823493"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8092,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO D477G (corresponding to SMO D473G in human) were resistant to Odomzo (sonidegib) in culture and in cell line xenograft models (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26147,
+                "profileName": "PTCH1 inact mut SMO D473G"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8095,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO D477G (corresponding to SMO D473G in human) were resistant to Erivedge (vismodegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26147,
+                "profileName": "PTCH1 inact mut SMO D473G"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8096,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice over expressing SMO D477G (corresponding to SMO D473G in human) were resistant to LEQ506 in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26147,
+                "profileName": "PTCH1 inact mut SMO D473G"
+            },
+            "therapy": {
+                "id": 2416,
+                "therapyName": "LEQ506",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6248,
+            "profileName": "SMO D473G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26147,
+            "profileName": "PTCH1 inact mut SMO D473G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 123174,
+            "transcript": "NM_005631",
+            "gDna": "chr7:g.129209349A>G",
+            "cDna": "c.1418A>G",
+            "protein": "p.D473G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

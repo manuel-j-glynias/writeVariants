@@ -1,0 +1,720 @@
+{
+    "id": 408,
+    "fullName": "KRAS G12R",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS G12R is a hotspot mutation that lies within a GTP-binding region of the Kras protein (UniProt.org). G12R results in decreased Kras GTPase activity and increased activation of downstream signaling in cell culture (PMID: 23455880, PMID: 26037647).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3052,
+                    "pubMedId": 26037647,
+                    "title": "Biochemical and Structural Analysis of Common Cancer-Associated KRAS Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26037647"
+                },
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "G12R",
+    "createDate": "03/20/2014",
+    "updateDate": "10/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 157085,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25245351C>G",
+        "cDna": "c.34G>C",
+        "protein": "p.G12R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9959,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Votrient (pazopanib) inhibited Erk activation and growth of thyroid cancer cells harboring KRAS G12R in culture, and reduced tumor size in cell line xenograft models (PMID: 26324075).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7820,
+                    "pubMedId": 26324075,
+                    "title": "Trametinib with and without pazopanib has potent preclinical activity in thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324075"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8989,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Binimetinib (MEK162) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS G12R mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9960,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Mekinist (trametinib) and Votrient (pazopanib) significantly delayed tumor progression in cell line xenograft models of thyroid cancer harboring KRAS G12R (PMID: 26324075).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 1310,
+                "therapyName": "Pazopanib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7820,
+                    "pubMedId": 26324075,
+                    "title": "Trametinib with and without pazopanib has potent preclinical activity in thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324075"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15059,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, pancreatic ductal adenocarcinoma cells harboring KRAS G12R demonstrated reduced sensitivity to Selumetinib (AZD6244) in culture when compared to the combined therapy of Selumetinib (AZD6244) and SHP099 (PMID: 30045908).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3498,
+                "name": "pancreatic ductal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 12547,
+                    "pubMedId": 30045908,
+                    "title": "SHP2 Inhibition Prevents Adaptive Resistance to MEK Inhibitors in Multiple Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30045908"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8997,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS G12R mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15047,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination therapy of Selumetinib (AZD6244) and SHP099 resulted in a synergistic effect, demonstrating reduced cell proliferation and decreased colony formation in pancreatic ductal adenocarcinoma cells harboring KRAS G12R (PMID: 30045908).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 7400,
+                "therapyName": "Selumetinib + SHP099",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3498,
+                "name": "pancreatic ductal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12547,
+                    "pubMedId": 30045908,
+                    "title": "SHP2 Inhibition Prevents Adaptive Resistance to MEK Inhibitors in Multiple Cancer Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30045908"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9958,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited Erk activation and growth of thyroid cancer cells harboring KRAS G12R in culture, and reduced tumor size in cell line xenograft models (PMID: 26324075).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7820,
+                    "pubMedId": 26324075,
+                    "title": "Trametinib with and without pazopanib has potent preclinical activity in thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324075"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1017,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring a KRAS G12R mutation demonstrated resistance to Sutent (sunitinib) treatment (PMID: 23455880).",
+            "molecularProfile": {
+                "id": 1732,
+                "profileName": "KRAS G12R"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 26,
+                    "pubMedId": 23455880,
+                    "title": "KRAS allel-specific activity of sunitinib in an isogenic disease model of colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23455880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6655,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KRAS G12R was detected in animal models of EGFR L858R-induced lung adenocarcinoma, which developed after repeated Gilotrif (afatinib) and Erbitux (cetuximab) combination treatments and resulted in drug resistance (PMID: 26341921).",
+            "molecularProfile": {
+                "id": 23662,
+                "profileName": "EGFR L858R KRAS G12R"
+            },
+            "therapy": {
+                "id": 4190,
+                "therapyName": "Afatinib + Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5721,
+                    "pubMedId": 26341921,
+                    "title": "Afatinib plus Cetuximab Delays Resistance Compared to Single-Agent Erlotinib or Afatinib in Mouse Models of TKI-Na\u00efve EGFR L858R-Induced Lung Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26341921"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7860,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited growth of Sprycel (dasatinib)-resistant thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7868,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and Selumetinib (AZD6244) synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 4600,
+                "therapyName": "Dasatinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7855,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of Sprycel (dasatinib)-resistant thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M in culture and in cell line xenograft models (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7839,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, thyroid cancer cell lines harboring HRAS G13R and KRAS G12R with an acquired SRC T341M mutation demonstrated resistance to Sprycel (dasatinib) in culture and in cell line xenograft models (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7870,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and SCH772984 synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 4601,
+                "therapyName": "Dasatinib + SCH772984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7867,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and Mekinist (trametinib) synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture, and resulted in sustained tumor suppression and prolonged survival in cell line xenograft models (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 4599,
+                "therapyName": "Dasatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10886,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Sprycel (dasatinib) and Demcizumab (OMP-21M18) treatment resulted in durable tumor inhibition in patient-derived animal models of lung adenocarcinoma harboring KRAS G12R and TP53 R248L (PMID: 26855149).",
+            "molecularProfile": {
+                "id": 27821,
+                "profileName": "KRAS G12R TP53 R248L"
+            },
+            "therapy": {
+                "id": 5671,
+                "therapyName": "Dasatinib + Demcizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8887,
+                    "pubMedId": 26855149,
+                    "title": "Combined inhibition of DDR1 and Notch signaling is a therapeutic strategy for KRAS-driven lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26855149"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16579,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Cotellic (cobimetinib) in patients with histiocytic neoplasms resulted in a PET overall response rate of 89% (16/18), with complete response in 72% (13/18) and partial response in 17% (3/18), and resulted in stable disease in 6% (1/18) of patients, including a complete response in a patient with Erdheim-Chester disease harboring KRAS G12R and ARAF P216A (PMID: 30867592; NCT01953926).",
+            "molecularProfile": {
+                "id": 31702,
+                "profileName": "ARAF P216A KRAS G12R"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60073,
+                "name": "lymphatic system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14632,
+                    "pubMedId": 30867592,
+                    "title": "Efficacy of MEK inhibition in patients with histiocytic neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30867592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1732,
+            "profileName": "KRAS G12R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 15873,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "KRAS G12R"
+                },
+                {
+                    "id": 15870,
+                    "name": "AZD4785",
+                    "profileName": "KRAS G12R"
+                },
+                {
+                    "id": 15874,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "KRAS G12R"
+                },
+                {
+                    "id": 15872,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "KRAS G12R"
+                },
+                {
+                    "id": 15871,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "KRAS G12R"
+                },
+                {
+                    "id": 15869,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "KRAS G12R"
+                },
+                {
+                    "id": 15875,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "KRAS G12R"
+                }
+            ]
+        },
+        {
+            "id": 23662,
+            "profileName": "EGFR L858R KRAS G12R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26068,
+            "profileName": "HRAS G13R KRAS G12R SRC T341M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27821,
+            "profileName": "KRAS G12R TP53 R248L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31702,
+            "profileName": "ARAF P216A KRAS G12R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157086,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25245351C>G",
+            "cDna": "c.34G>C",
+            "protein": "p.G12R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157088,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25245351C>G",
+            "cDna": "c.34G>C",
+            "protein": "p.G12R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157085,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25245351C>G",
+            "cDna": "c.34G>C",
+            "protein": "p.G12R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157087,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25245351C>G",
+            "cDna": "c.34G>C",
+            "protein": "p.G12R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157084,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25245351C>G",
+            "cDna": "c.34G>C",
+            "protein": "p.G12R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

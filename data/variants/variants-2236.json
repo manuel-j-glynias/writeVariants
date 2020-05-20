@@ -1,0 +1,128 @@
+{
+    "id": 2236,
+    "fullName": "CCND3 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "CCND3 amplification indicates an increased number of copies of the CCND3 gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 896,
+        "geneSymbol": "CCND3",
+        "terms": [
+            "CCND3"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "10/14/2014",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7250,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cancer cell lines harboring CCND3 amplification demonstrated sensitivity to treatment with Abemaciclib (LY2835219) in culture and in vivo, resulting in increased apoptosis, senescence, and tumor regression (Cancer Res 2015;75(15 Suppl):Abstract nr 3104).",
+            "molecularProfile": {
+                "id": 2167,
+                "profileName": "CCND3 amp"
+            },
+            "therapy": {
+                "id": 802,
+                "therapyName": "Abemaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3968,
+                    "pubMedId": null,
+                    "title": "Abstract 3104: Molecular features that determine the sensitivity of cancer cells to abemaciclib, an inhibitor of CDK4 and CDK6",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/3104.abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16669,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, a gastric cancer patient with co-amplification of ERBB2 (HER2) and EGFR initially responded to treatment with Gilotrif (afatinib), but progressed at 16 weeks, and post-treatment tumor profiling of the progressing disease sites, the liver lesions, identified ERBB2 (HER2) amplification, PTEN P95R, and CCND3 amplification, but not EGFR amplification (PMID: 30463996; NCT30463996).",
+            "molecularProfile": {
+                "id": 31743,
+                "profileName": "CCND3 amp ERBB2 amp PTEN P95R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14704,
+                    "pubMedId": 30463996,
+                    "title": "EGFR and MET Amplifications Determine Response to HER2 Inhibition in ERBB2-Amplified Esophagogastric Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30463996"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2167,
+            "profileName": "CCND3 amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7093,
+                    "name": "CDK4/6 Inhibitor",
+                    "profileName": "CCND3 amp"
+                }
+            ]
+        },
+        {
+            "id": 31743,
+            "profileName": "CCND3 amp ERBB2 amp PTEN P95R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32264,
+            "profileName": "CCND3 amp RB1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

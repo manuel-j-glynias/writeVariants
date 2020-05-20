@@ -1,0 +1,1318 @@
+{
+    "id": 3478,
+    "fullName": "ERBB2 S310F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) S310F lies within the extracellular domain of the Erbb2 (Her2) protein (PMID: 22908275). S310F confers a gain of function to Erbb2 (Her2) as indicated by increased phosphorylation of Erbb2 (Her2) and downstream signaling, colony formation, migration, transformation in cell culture (PMID: 22908275, PMID: 29533785, PMID: 29967253, PMID: 29954840), and enhanced tumor growth in mouse models (PMID: 29954840).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 14332,
+                    "pubMedId": 29954840,
+                    "title": "Genomic ERBB2/ERBB3 mutations promote PD-L1-mediated immune escape in gallbladder cancer: a whole-exome sequencing analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29954840"
+                },
+                {
+                    "id": 1979,
+                    "pubMedId": 22908275,
+                    "title": "Functional analysis of receptor tyrosine kinase mutations in lung cancer identifies oncogenic extracellular domain mutations of ERBB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22908275"
+                },
+                {
+                    "id": 11774,
+                    "pubMedId": 29967253,
+                    "title": "High-Throughput Functional Evaluation of Variants of Unknown Significance in ERBB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29967253"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "S310F",
+    "createDate": "03/03/2015",
+    "updateDate": "03/11/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 170741,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39711955C>T",
+        "cDna": "c.929C>T",
+        "protein": "p.S310F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2877,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) inhibited proliferation of transformed cells expressing ERBB2 S310F in culture (PMID: 22908275).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1979,
+                    "pubMedId": 22908275,
+                    "title": "Functional analysis of receptor tyrosine kinase mutations in lung cancer identifies oncogenic extracellular domain mutations of ERBB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22908275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19440,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a bladder cancer cell line harboring ERBB2 S310F did not demonstrate decreased viability when treated with Herception (trastuzumab) in culture (PMID: 31635022).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17023,
+                    "pubMedId": 31635022,
+                    "title": "The HER2 S310F Mutant Can Form an Active Heterodimer with the EGFR, Which Can Be Inhibited by Cetuximab but Not by Trastuzumab as well as Pertuzumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31635022"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19442,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a bladder cancer cell line harboring ERBB2 S310F demonstrated decreased viability when treated with Erbitux (cetuximab) in culture (PMID: 31635022).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17023,
+                    "pubMedId": 31635022,
+                    "title": "The HER2 S310F Mutant Can Form an Active Heterodimer with the EGFR, Which Can Be Inhibited by Cetuximab but Not by Trastuzumab as well as Pertuzumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31635022"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7173,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bladder cancer cells over expressing ERBB2 (HER2) S310F demonstrated reduced sensitivity to Selumetinib (AZD6244) in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7172,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) inhibited foci formation of bladder cancer cells over expressing ERBB2 (HER2) S310F in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13205,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease in 4 patients and progressive disease in 1 patient with bladder cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19441,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a bladder cancer cell line harboring ERBB2 S310F did not demonstrate decreased viability when treated with Perjeta (pertuzumab) in culture (PMID: 31635022).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 856,
+                "therapyName": "Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17023,
+                    "pubMedId": 31635022,
+                    "title": "The HER2 S310F Mutant Can Form an Active Heterodimer with the EGFR, Which Can Be Inhibited by Cetuximab but Not by Trastuzumab as well as Pertuzumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31635022"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13195,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in partial response in one and progressive disease in another patient with biliary tract cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13235,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 1.7 months in a patient with colorectal cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7107,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) inhibited growth of colorectal cancer cells over expressing ERBB2 (HER2) S310F in culture (PMID: 26243863).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 6069,
+                    "pubMedId": 26243863,
+                    "title": "HER2 activating mutations are targets for colorectal cancer treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26243863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7086,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Herceptin (trastuzumab) inhibited colony formation in transformed mouse colon epithelial cells over expressing ERBB2 (HER2) S310F in culture (PMID: 26243863).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6069,
+                    "pubMedId": 26243863,
+                    "title": "HER2 activating mutations are targets for colorectal cancer treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26243863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13228,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in partial response in 1 patient, stable disease in 1 patient, and progressive disease in 1 patient with cervical cancer harboring ERBB2 (HER2) D769N (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4362,
+                "name": "cervical cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 2914,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) decreased cell survival of transformed human cells expressing ERBB2 (HER2) S310F (PMID: 22908275).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1979,
+                    "pubMedId": 22908275,
+                    "title": "Functional analysis of receptor tyrosine kinase mutations in lung cancer identifies oncogenic extracellular domain mutations of ERBB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22908275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7102,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells over expressing ERBB2 (HER2) S310F were resistant to Erbitux (cetuximab) in culture (PMID: 26243863).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6069,
+                    "pubMedId": 26243863,
+                    "title": "HER2 activating mutations are targets for colorectal cancer treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26243863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20582,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (MyPathway) trial, Perjeta (pertuzumab) and Herceptin (trastuzumab) combination therapy resulted in stable disease in a patient with advanced salivary gland carcinoma harboring ERBB2 (HER2) S310F, with a progression-free survival of 11 months (PMID: 32067683; NCT02091141).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 1389,
+                "therapyName": "Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50904,
+                "name": "salivary gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17944,
+                    "pubMedId": 32067683,
+                    "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32067683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7090,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) inhibited colony formation in transformed mouse colon epithelial cells over expressing ERBB2 (HER2) S310F in culture (PMID: 26243863).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6069,
+                    "pubMedId": 26243863,
+                    "title": "HER2 activating mutations are targets for colorectal cancer treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26243863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19443,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a bladder cancer cell line harboring ERBB2 S310F demonstrated decreased viability when treated with Iressa (gefitinib) in culture (PMID: 31635022).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17023,
+                    "pubMedId": 31635022,
+                    "title": "The HER2 S310F Mutant Can Form an Active Heterodimer with the EGFR, Which Can Be Inhibited by Cetuximab but Not by Trastuzumab as well as Pertuzumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31635022"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19890,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ligand-activated breast cancer cells expressing ERBB2 (HER2) S310F demonstrated resistance to treatment with Herceptin (trastuzumab) in culture (PMID: 31920346).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17585,
+                    "pubMedId": 31920346,
+                    "title": "Identification of an Activating Mutation in the Extracellular Domain of HER2 Conferring Resistance to Pertuzumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31920346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13241,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 2.6 months in a patient with endometrial cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19889,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ligand-activated breast cancer cells expressing ERBB2 (HER2) S310F demonstrated resistance to treatment with Perjeta (pertuzumab) in culture compared to cells expressing wild-type ERBB2 (HER2) (PMID: 31920346).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 856,
+                "therapyName": "Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17585,
+                    "pubMedId": 31920346,
+                    "title": "Identification of an Activating Mutation in the Extracellular Domain of HER2 Conferring Resistance to Pertuzumab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31920346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7112,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited growth of colorectal cancer cells over expressing ERBB2 (HER2) S310F in culture (PMID: 26243863).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6069,
+                    "pubMedId": 26243863,
+                    "title": "HER2 activating mutations are targets for colorectal cancer treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26243863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13258,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 1.9 months in a patient with non-small cell lung cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 7171,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited foci formation of bladder cancer cells over expressing ERBB2 (HER2) S310F in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13224,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in complete response with a progression-free survival of 14.6 months in one patient, and stable disease with a progression-free survival of 3.7 months in another patient with Erbb2 (Her2) receptor negative (non-amplified) breast cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 7103,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells over expressing ERBB2 (HER2) S310F were resistant to Vectibix (panitumumab) in culture (PMID: 26243863).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6069,
+                    "pubMedId": 26243863,
+                    "title": "HER2 activating mutations are targets for colorectal cancer treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26243863"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13248,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 3.9 months in a patient with gastroesophageal cancer harboring ERBB2 (HER2) S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 3284,
+                "profileName": "ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3674,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, treatment with Herceptin (trastuzumab) in combination with Perjeta (pertuzumab) and Fulvestrant, resulted in rapid and long-lasting (12 months) response in an ESR1-positive breast cancer patient with liver metastasis that harbored ERBB2 S310F and did not demonstrate ERBB2 (HER2) amplification (PMID: 26358791).",
+            "molecularProfile": {
+                "id": 14295,
+                "profileName": "ERBB2 S310F ESR1 pos"
+            },
+            "therapy": {
+                "id": 3290,
+                "therapyName": "Fulvestrant + Pertuzumab + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3949,
+                    "pubMedId": 26358791,
+                    "title": "Prolonged Response to Trastuzumab in a Patient With HER2-Nonamplified Breast Cancer With Elevated HER2 Dimerization Harboring an ERBB2 S310F Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26358791"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7179,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tykerb (lapatinib) inhibited foci formation of bladder cancer cells over expressing both ERBB2 (HER2) D277H and S310F in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 24585,
+                "profileName": "ERBB2 D277H ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7180,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bladder cancer cells over expressing both ERBB2 (HER2) D277H and S310F demonstrated reduced sensitivity to Selumetinib (AZD6244) in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 24585,
+                "profileName": "ERBB2 D277H ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7178,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited foci formation of bladder cancer cells over expressing both ERBB2 (HER2) D277H and S310F in culture (PMID: 24971884).",
+            "molecularProfile": {
+                "id": 24585,
+                "profileName": "ERBB2 D277H ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6134,
+                    "pubMedId": 24971884,
+                    "title": "Impact of ERBB2 mutations on in vitro sensitivity of bladder cancer to lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24971884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11643,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Nerlynx (neratinib) demonstrated activity in metastatic breast cancer patients harboring ERBB2 (HER2) mutations, resulting in a clinical benefit rate of 31% (5/16), with 1 complete response, 1 partial response, and 3 patients achieving stable disease for 24 weeks or more, which included a patient harboring ERBB2 (HER2) S310F and V842I (PMID: 28679771).",
+            "molecularProfile": {
+                "id": 28175,
+                "profileName": "ERBB2 S310F ERBB2 V842I"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9679,
+                    "pubMedId": 28679771,
+                    "title": "Neratinib Efficacy and Circulating Tumor DNA Detection of HER2 Mutations in HER2 Nonamplified Metastatic Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28679771"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 13199,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in progressive disease with a progression-free survival of 1.7 months in a patient with bladder cancer harboring both ERBB2 (HER2) D277G and S310F (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 29025,
+                "profileName": "ERBB2 D277G ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11054,
+                "name": "urinary bladder cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14510,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gilotrif (afatinib) treatment resulted in stable disease with slight lymph node metastasis reduction in a patient with ampulla of Vater carcinoma harboring ERBB2 S310F and G660D, but the disease eventually progressed after 4 months (PMID: 29146616).",
+            "molecularProfile": {
+                "id": 30080,
+                "profileName": "ERBB2 S310F ERBB2 G660D"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4932,
+                "name": "ampulla of Vater carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11692,
+                    "pubMedId": 29146616,
+                    "title": "Therapeutic Potential of Afatinib for Cancers with ERBB2 (HER2) Transmembrane Domain Mutations G660D and V659E.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29146616"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15934,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Kadcyla (trastuzumab emtansine) resulted in best overall responses of partial response in 44% (8/18) and stable disease in 39% (7/18), and median progression-free survival of 5 months in patients with lung adenocarcinoma harboring ERBB2 (HER2) activating mutations; a patient harboring ERBB2 (HER2) S310F and ERBB2 (HER2) amplification had a partial response (PMID: 29989854; NCT02675829).",
+            "molecularProfile": {
+                "id": 31318,
+                "profileName": "ERBB2 S310F ERBB2 amp"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12393,
+                    "pubMedId": 29989854,
+                    "title": "Ado-Trastuzumab Emtansine for Patients With HER2-Mutant Lung Cancers: Results From a Phase II Basket Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29989854"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16212,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapitinib (AZD8931) reduced downstream p-ERK and p-AKT signaling and cell viability in gallbladder carcinoma cell lines expressing ERBB2 (HER2) S310F and CD274 (PD-L1) in culture (PMID: 29954840).",
+            "molecularProfile": {
+                "id": 31585,
+                "profileName": "CD274 pos ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 910,
+                "therapyName": "Sapitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4948,
+                "name": "gallbladder carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14332,
+                    "pubMedId": 29954840,
+                    "title": "Genomic ERBB2/ERBB3 mutations promote PD-L1-mediated immune escape in gallbladder cancer: a whole-exome sequencing analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29954840"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17259,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, NF2 mutations were identified as acquired mutations in ctDNA of a breast cancer patient harboring ERBB2 (HER2) S310F and V777L who developed resistance to Herceptin (trastuzumab) (J Clin Oncol 37, 2019 (suppl; abstr e12518)).",
+            "molecularProfile": {
+                "id": 32421,
+                "profileName": "ERBB2 S310F ERBB2 V777L NF2 mut"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15278,
+                    "pubMedId": null,
+                    "title": "Acquired NF2 mutations confer resistance to HER2 targeted therapy in HER2-mutant breast cancer.",
+                    "url": "http://abstracts.asco.org/239/AbstView_239_249469.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19080,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with pancreatic cancer co-harboring TPR-NTRK1 and NTRK1 G595R progressed on treatment with LOXO-195, and subsequent cell-free DNA testing detected a loss of NTRK1 G595R, but acquisition of ERBB2 S310F (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33929,
+                "profileName": "TPR - NTRK1 ERBB2 S310F"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3284,
+            "profileName": "ERBB2 S310F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4487,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 S310F"
+                },
+                {
+                    "id": 4488,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 S310F"
+                }
+            ]
+        },
+        {
+            "id": 14295,
+            "profileName": "ERBB2 S310F ESR1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24585,
+            "profileName": "ERBB2 D277H ERBB2 S310F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28175,
+            "profileName": "ERBB2 S310F ERBB2 V842I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29025,
+            "profileName": "ERBB2 D277G ERBB2 S310F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30080,
+            "profileName": "ERBB2 S310F ERBB2 G660D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31318,
+            "profileName": "ERBB2 S310F ERBB2 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31585,
+            "profileName": "CD274 pos ERBB2 S310F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32421,
+            "profileName": "ERBB2 S310F ERBB2 V777L NF2 mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33929,
+            "profileName": "TPR - NTRK1 ERBB2 S310F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170741,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39711955C>T",
+            "cDna": "c.929C>T",
+            "protein": "p.S310F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170742,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39711955C>T",
+            "cDna": "c.929C>T",
+            "protein": "p.S310F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

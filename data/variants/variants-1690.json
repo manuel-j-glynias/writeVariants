@@ -1,0 +1,127 @@
+{
+    "id": 1690,
+    "fullName": "ERBB2 G776_V777insYVMA",
+    "impact": "insertion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) G776_V777insYVMA results in the insertion of four amino acids in the protein kinase domain of the Erbb2 (Her2) protein between amino acids 776 and 777 (UniProt.org). G776_V777insYVMA results in constitutive phosphorylation of Erbb2 (Her2), activation of downstream signaling, and is transforming in cell culture (PMID: 16843263).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2004,
+                    "pubMedId": 16843263,
+                    "title": "HER2 kinase domain mutation results in constitutive phosphorylation and activation of HER2 and EGFR and resistance to EGFR tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16843263"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "G776_V777insYVMA",
+    "createDate": "09/12/2014",
+    "updateDate": "05/04/2015",
+    "referenceTranscriptCoordinates": {
+        "id": 170516,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724746_39724747insTATGTAATGGCA",
+        "cDna": "c.2328_2329insTATGTAATGGCA",
+        "protein": "p.G776_V777insYVMA",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2906,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Canertinib inhibited Erbb2 (Her2) phosphorylation and cell growth in transformed human cell lines expressing ERBB2 (HER2) G776_V777insYVMA (PMID: 16843263).",
+            "molecularProfile": {
+                "id": 3959,
+                "profileName": "ERBB2 G776_V777insYVMA"
+            },
+            "therapy": {
+                "id": 2136,
+                "therapyName": "Canertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2004,
+                    "pubMedId": 16843263,
+                    "title": "HER2 kinase domain mutation results in constitutive phosphorylation and activation of HER2 and EGFR and resistance to EGFR tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16843263"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3959,
+            "profileName": "ERBB2 G776_V777insYVMA",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4471,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 G776_V777insYVMA"
+                },
+                {
+                    "id": 4472,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 G776_V777insYVMA"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170516,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724746_39724747insTATGTAATGGCA",
+            "cDna": "c.2328_2329insTATGTAATGGCA",
+            "protein": "p.G776_V777insYVMA",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170517,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724746_39724747insTATGTAATGGCA",
+            "cDna": "c.2328_2329insTATGTAATGGCA",
+            "protein": "p.G776_V777insYVMA",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

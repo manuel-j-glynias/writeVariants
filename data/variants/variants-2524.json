@@ -1,0 +1,184 @@
+{
+    "id": 2524,
+    "fullName": "BRAF E586K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF E586K (also reported as E585K) lies within the protein kinase domain of the Braf protein (UniProt.org). E586K results in increased Braf kinase activity, and activation of Mek and Erk in cell culture (PMID: 15035987, PMID: 22510884), and increases cell proliferation and viability compared to wild-type Braf in one of two cell lines (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5712,
+                    "pubMedId": 22510884,
+                    "title": "Distinct requirement for an intact dimer interface in wild-type, V600E and kinase-dead B-Raf signalling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22510884"
+                },
+                {
+                    "id": 146,
+                    "pubMedId": 15035987,
+                    "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15035987"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "E586K",
+    "createDate": "11/03/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109090,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753379C>T",
+        "cDna": "c.1756G>A",
+        "protein": "p.E586K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6598,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3009120 inhibited Raf dimer formation and downstream MAPK signaling in transformed cells expressing BRAF E586K and RAF1 E478K in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23643,
+                "profileName": "BRAF E586K RAF1 E478K"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6599,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing BRAF E586K and RAF1 E478K in culture were insensitive to Zelboraf (vemurafenib) mediated inhibition of Raf signaling in culture (PMID: 26343583).",
+            "molecularProfile": {
+                "id": 23643,
+                "profileName": "BRAF E586K RAF1 E478K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5709,
+                    "pubMedId": 26343583,
+                    "title": "Inhibition of RAF Isoforms and Active Dimers by LY3009120 Leads to Anti-tumor Activities in RAS or BRAF Mutant Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343583"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2379,
+            "profileName": "BRAF E586K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14386,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF E586K"
+                },
+                {
+                    "id": 14384,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF E586K"
+                },
+                {
+                    "id": 14385,
+                    "name": "LY3009120",
+                    "profileName": "BRAF E586K"
+                },
+                {
+                    "id": 14383,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF E586K"
+                }
+            ]
+        },
+        {
+            "id": 23643,
+            "profileName": "BRAF E586K RAF1 E478K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109090,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753379C>T",
+            "cDna": "c.1756G>A",
+            "protein": "p.E586K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109089,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753379C>T",
+            "cDna": "c.1756G>A",
+            "protein": "p.E586K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

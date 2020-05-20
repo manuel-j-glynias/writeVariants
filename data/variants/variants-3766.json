@@ -1,0 +1,140 @@
+{
+    "id": 3766,
+    "fullName": "BRAF K601T",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF K601T lies within the activation segment in the kinase domain of the Braf protein (PMID: 15343278). K601T results in increased Braf kinase activity in cell culture (PMID: 28783719), and in one of two cell lines increased cell proliferation and cell viability compared to wild-type Braf (PMID: 29533785), and is therefore predicted to confer a gain of function to the Braf protein.",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 9694,
+                    "pubMedId": 15343278,
+                    "title": "Switching on kinases: oncogenic activation of BRAF and the PDGFR family.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15343278"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "K601T",
+    "createDate": "03/16/2015",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109196,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753333T>G",
+        "cDna": "c.1802A>C",
+        "protein": "p.K601T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9417,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF K601T (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 3573,
+                "profileName": "BRAF K601T"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3573,
+            "profileName": "BRAF K601T",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14494,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF K601T"
+                },
+                {
+                    "id": 14491,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF K601T"
+                },
+                {
+                    "id": 14492,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF K601T"
+                },
+                {
+                    "id": 14493,
+                    "name": "LY3009120",
+                    "profileName": "BRAF K601T"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109195,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753333T>G",
+            "cDna": "c.1802A>C",
+            "protein": "p.K601T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109196,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753333T>G",
+            "cDna": "c.1802A>C",
+            "protein": "p.K601T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,1444 @@
+{
+    "id": 3232,
+    "fullName": "ESR1 Y537S",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ESR1 (ER alpha) Y537S lies within the ligand-binding domain/AF-2 domain of the Esr1 (Er alpha) protein (PMID: 24185512). Y537S results in activation of the Esr1 (Er alpha) protein, enhanced downstream signaling and has been associated with decreased response and resistance to estrogen targeted therapies (PMID: 24055055, PMID: 24185510, PMID: 25991817, PMID: 24185512, PMID: 29438694), and Y537S results in increased cell proliferation and viability levels as compared to wild-type Esr1 (Er alpha) (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 1938,
+                    "pubMedId": 24055055,
+                    "title": "Endocrine-therapy-resistant ESR1 variants revealed by genomic characterization of breast-cancer-derived xenografts.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24055055"
+                },
+                {
+                    "id": 11217,
+                    "pubMedId": 29438694,
+                    "title": "Allele-Specific Chromatin Recruitment and Therapeutic Vulnerabilities of ESR1 Activating Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29438694"
+                },
+                {
+                    "id": 1929,
+                    "pubMedId": 24185512,
+                    "title": "ESR1 ligand-binding domain mutations in hormone-resistant breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24185512"
+                },
+                {
+                    "id": 1930,
+                    "pubMedId": 24185510,
+                    "title": "Activating ESR1 mutations in hormone-resistant metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24185510"
+                },
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2099,
+        "geneSymbol": "ESR1",
+        "terms": [
+            "ESR1",
+            "ER",
+            "Era",
+            "ESR",
+            "ESRA",
+            "ESTRR",
+            "NR3A1"
+        ]
+    },
+    "variant": "Y537S",
+    "createDate": "02/19/2015",
+    "updateDate": "07/31/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 112517,
+        "transcript": "NM_000125",
+        "gDna": "chr6:g.152098788A>C",
+        "cDna": "c.1610A>C",
+        "protein": "p.Y537S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10216,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GDC-0810 inhibited growth of breast cancer cells expressing ESR1 Y537S in culture, with increased drug levels required for inhibition compared to cells expressing wild-type ESR1, and inhibited tumor growth in xenograft models (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 2150,
+                "therapyName": "GDC-0810",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15761,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (PALOMA-3), ESR1 Y537S was identified in a greater proportion of patents with ER-positive, ERBB2 (HER2)-negative breast cancer at the end of treatment compared to baseline in both Faslodex (fulvestrant) plus Ibrance (palbociclib) and Faslodex (fulvestrant) plus placebo arms, suggesting a role of ESR1 Y537S in conferring resistance to Faslodex (fulvestrant) (PMID: 30206110; NCT01942135).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13784,
+                    "pubMedId": 30206110,
+                    "title": "The Genetic Landscape and Clonal Evolution of Breast Cancer Resistance to Palbociclib plus Fulvestrant in the PALOMA-3 Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30206110"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 9583,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with estrogen-receptor positive breast cancer developed resistance to Faslodex (fulvestrant) treatment due to the acquired resistance mutation, ESR1 Y537S (PMID: 24185510).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1930,
+                    "pubMedId": 24185510,
+                    "title": "Activating ESR1 mutations in hormone-resistant metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24185510"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12101,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SAR439859 treatment resulted in tumor regression in cell line xenograft models of breast cancer harboring ESR1 Y537S (Cancer Res 2017;77(4 Suppl):Abstract nr P3-04-05).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 6293,
+                "therapyName": "SAR439859",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10042,
+                    "pubMedId": null,
+                    "title": "Identification of SAR439859, an orally bioavailable selective estrogen receptor degrader (SERD) that has strong antitumor activity in wild-type and mutant ER+ breast cancer models",
+                    "url": "http://cancerres.aacrjournals.org/content/77/4_Supplement/P3-04-05"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16434,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Torisel (temsirolimus) and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer patient-derived xenograft cell line harboring ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8033,
+                "therapyName": "H3B-5942 + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10234,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9496 inhibited growth of breast cancer cells expressing ESR1 Y537S in culture (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 2997,
+                "therapyName": "AZD9496",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16433,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Afinitor (everolimus) and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer patient-derived xenograft cell line harboring ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8031,
+                "therapyName": "Everolimus + H3B-5942",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16438,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of PF-04691502 and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer patient-derived xenograft cell line harboring ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8036,
+                "therapyName": "H3B-5942 + PF-04691502",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3645,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human breast cancer cell lines expressing ESR1 Y537S were less sensitive than ESR1 wild-type expressing cells to inhibition by bazedoxifene in culture, however tumor growth in patient derived breast cancer xenografts harboring ESR1 Y537S was blocked by bazedoxifene (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 2737,
+                "therapyName": "Bazedoxifene",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16435,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Rapamune (sirolimus) and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer patient-derived xenograft cell line harboring ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8032,
+                "therapyName": "H3B-5942 + Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15768,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Nerlynx (neratinib) results in partially restored sensitivity to Faslodex (fulvestrant) in estrogen-receptor positive breast cancer cells expressing ESR1 Y537S in culture compared to full restoration in cells expressing ERBB2 activating mutations (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 5705,
+                "therapyName": "Fulvestrant + Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10227,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RU58668 inhibited growth of breast cancer cells expressing ESR1 Y537S in culture, however, increased drug concentration was required for inhibition compared to cells expressing wild-type ESR1 or other ESR1 mutants (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 5424,
+                "therapyName": "RU58668",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11902,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, G1T48 treatment reduced Esr1 protein expression, resulting in growth inhibition in breast cancer cells overexpressing ESR1 Y537S in culture (Cancer Res 2017;77(13 Suppl):Abstract nr 5641).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 6206,
+                "therapyName": "G1T48",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9895,
+                    "pubMedId": null,
+                    "title": "Effects of G1T48, a novel orally bioavailable selective estrogen receptor degrader (SERD), and the CDK4/6 inhibitor, G1T38, on tumor growth in animal models of endocrine resistant breast cancer",
+                    "url": "http://cancerres.aacrjournals.org/content/77/13_Supplement/5641.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1854,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human breast cell lines expressing ESR1 Y537S demonstrated decreased response when treated with Nolvadex (tamoxifen) (PMID: 24185512).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 1456,
+                "therapyName": "Tamoxifen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 1929,
+                    "pubMedId": 24185512,
+                    "title": "ESR1 ligand-binding domain mutations in hormone-resistant breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24185512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16414,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Ibrance (palbociclib) and H3B-5942 demonstrated synergy in ESR1 (ER alpha)-positive breast cancer cells expressing ESR1 Y537S in culture, and the combination resulted in increased tumor growth inhibition in a breast cancer patient-derived xenograft model harboring ESR1 Y537S compared to either agent alone (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8022,
+                "therapyName": "H3B-5942 + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16437,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of PKI-402 and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer patient-derived xenograft cell line harboring ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8034,
+                "therapyName": "H3B-5942 + PKI-402",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16436,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of AZD8055 and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer patient-derived xenograft cell line harboring ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8035,
+                "therapyName": "AZD8055 + H3B-5942",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3648,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, pipendoxifene inhibited cell proliferation of human breast cancer cells expressing ESR1 Y537S, however, exhibited a decreased response when compared to ESR1 wild-type expressing cells in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 3207,
+                "therapyName": "pipendoxifene",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8967,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Faslodex (fulvestrant) and THZ1 resulted in increased growth inhibition and repression of estrogen receptor target gene expression in a breast cancer cell line harboring ESR1 Y537S in culture (PMID: 27748765).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 4854,
+                "therapyName": "Fulvestrant + THZ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6827,
+                    "pubMedId": 27748765,
+                    "title": "Genomic modelling of the ESR1 Y537S mutation for evaluating function and new therapeutic approaches for metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27748765"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3658,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bazedoxifene and Ibrance (palbociclib) inhibited tumor growth in patient-derived estrogen-receptor (ESR1)-positive breast cancer xenografts harboring ESR1 Y537S (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 2738,
+                "therapyName": "Bazedoxifene + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21229,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Elacestrant (RAD1901) treatment inhibitied ER signaling and growth of both CDK4/6 inhibitor-sensitive and CDK4/6 inhibitor-resistant breast cancer cell lines harboring wild-type ESR1 in culture, led to tumor growth inhibition in patient-derived xenograft models (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 5890,
+                "therapyName": "Elacestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16420,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Verzenio (abemaciclib) and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer cell line expressing ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8028,
+                "therapyName": "Abemaciclib + H3B-5942",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16425,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Kisqali (ribociclib) and H3B-5942 demonstrated synergy in an ESR1 (ER alpha)-positive breast cancer cell line expressing ESR1 Y537S, resulting in decreased proliferation in culture (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8029,
+                "therapyName": "H3B-5942 + Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3642,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Faslodex (fulvestrant) inhibited cell proliferation of human breast cancer cells expressing ESR1 Y537S, however, exhibited a decreased response when compared to ESR1 wild-type expressing cells in culture (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6623,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human breast cell lines expressing ESR1 Y537S had decreased sensitivity to Falsodex (fulvestrant) in culture (PMID: 24185512).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 1929,
+                    "pubMedId": 24185512,
+                    "title": "ESR1 ligand-binding domain mutations in hormone-resistant breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24185512"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 10228,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells expressing ESR1 Y537S demonstrated decreased sensitivity to Faslodex (fulvestrant) in culture, and tumor growth persisted following Faslodex (fulvestrant) treatment in breast cancer cell line xenograft models expressing ESR1 Y537S (PMID: 27986707).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 8160,
+                    "pubMedId": 27986707,
+                    "title": "Activating ESR1 Mutations Differentially Affect the Efficacy of ER Antagonists.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27986707"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18447,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ARV-471 treatment inhibited growth of a breast cancer cell line expressing ESR1 Y537S in culture, and reduced tumor growth in a patient-derived xenograft (PDX) model (Cancer Res 2019;79(4 Suppl):Abstract nr P5-04-18).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8716,
+                "therapyName": "ARV-471",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16183,
+                    "pubMedId": null,
+                    "title": "ARV-471, an oral estrogen receptor PROTAC degrader for breast cancer",
+                    "url": "https://cancerres.aacrjournals.org/content/79/4_Supplement/P5-04-18"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21226,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Verzenio (abemaciclib) inhibited cell cycle progression and proliferation of long-term estrogen deprived` breast cancer cells harboring ESR1 Y537S in culture (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 802,
+                "therapyName": "Abemaciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14975,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, D-0502 in combination with Palbociclib, inhibited tumor growth in Esr1 Y537S positive breast cancer patient derived xenograft models (AACR; Cancer Res 2018;78(13 Suppl):Abstract nr 5776).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 6826,
+                "therapyName": "D-0502 + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11906,
+                    "pubMedId": null,
+                    "title": "Pharmacologic and PK/PD study of D-0502: An orally bioavailable SERD with potent antitumor activity in ER-positive breast cancer cell lines and xenograft models",
+                    "url": "http://cancerres.aacrjournals.org/content/78/13_Supplement/5776"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3657,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited tumor growth in patient derived breast cancer xenografts harboring ESR1 Y537S (PMID: 25991817).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3924,
+                    "pubMedId": 25991817,
+                    "title": "Efficacy of SERD/SERM Hybrid-CDK4/6 Inhibitor Combinations in Models of Endocrine Therapy-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25991817"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21224,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ibrance (palbociclib) inhibited cell cycle progression and proliferation of long-term estrogen deprived` breast cancer cells harboring ESR1 Y537S in culture (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16413,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, H3B-5942 inhibited ESR1 (ER-alpha) target gene expression and proliferation of an ESR1 (ER alpha)-positive breast cancer cell lines expressing ESR1 Y537S in culture, and inhibited tumor growth in patient-derived xenograft (PDX) models harboring ESR1 Y537S (PMID: 29991605).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 8021,
+                "therapyName": "H3B-5942",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14484,
+                    "pubMedId": 29991605,
+                    "title": "Discovery of Selective Estrogen Receptor Covalent Antagonists for the Treatment of ER\u03b1WT and ER\u03b1MUT Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29991605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21225,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Kisqali (ribociclib) inhibited cell cycle progression and proliferation of long-term estrogen deprived` breast cancer cells harboring ESR1 Y537S in culture (PMID: 31852484).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 790,
+                "therapyName": "Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18404,
+                    "pubMedId": 31852484,
+                    "title": "Elacestrant (RAD1901) exhibits anti-tumor activity in multiple ER+ breast cancer models resistant to CDK4/6 inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31852484"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4548,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis of a Phase III trial, the combination of Aromasin (exemestane) and Afinitor (everolimus) treatment in estrogen-receptor (ER)-positive breast cancer patients harboring ESR1 Y537S did not extend progression free survival when compared to Aromasin (exemestane) alone (4.2 vs 4.1 months) (PMID: 26681738).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 1966,
+                "therapyName": "Everolimus + Exemestane",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4594,
+                    "pubMedId": 26681738,
+                    "title": "ESR1 Mutations Prevalent in Some Breast Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26681738"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20698,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, two patients with ER/PR-positive metastatic breast cancer developed progressive disease when treated with Femara (letrozole) and, via ctDNA testing, were subsequently found to have acquired ESR1 Y537S (PMID: 31877464).",
+            "molecularProfile": {
+                "id": 3053,
+                "profileName": "ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 794,
+                "therapyName": "Letrozole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18002,
+                    "pubMedId": 31877464,
+                    "title": "Clinical Implications of Monitoring ESR1 Mutations by Circulating Tumor DNA in Estrogen Receptor Positive Metastatic Breast Cancer: A Pilot Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31877464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5881,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Falsodex (fulvestrant), Alpelisib (BYL719), and Kisqali (ribociclib) resulted in rapid tumor reduction in PDX models of breast cancer cells harboring ESR1 Y537S and concomitant loss of CDKN2A and CDKN2B (PMID: 27020857).",
+            "molecularProfile": {
+                "id": 21976,
+                "profileName": "CDKN2A loss CDKN2B loss ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 2317,
+                "therapyName": "Alpelisib + Fulvestrant + Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5181,
+                    "pubMedId": 27020857,
+                    "title": "Early Adaptation and Acquired Resistance to CDK4/6 Inhibition in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27020857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5879,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Alpelisib (BYL719) and Kisqali (ribociclib) resulted in tumor regression in patient-derived xenograft (PDX) models of estrogen-receptor positive breast cancer harboring ESR1 Y537S and loss of both CDKN2A and CDKN2B, with improved efficacy over either agent alone (PMID: 27020857).",
+            "molecularProfile": {
+                "id": 21976,
+                "profileName": "CDKN2A loss CDKN2B loss ESR1 Y537S"
+            },
+            "therapy": {
+                "id": 3969,
+                "therapyName": "Alpelisib + Ribociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5181,
+                    "pubMedId": 27020857,
+                    "title": "Early Adaptation and Acquired Resistance to CDK4/6 Inhibition in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27020857"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8046,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, the treatment addition of Afinitor (everolimus) to Aromasin (exemestane) in breast cancer patients co-harboring ESR1 Y537S and ESR1 D538G did not appear to provide a significant benefit to progression free survival (PMID: 27532364).",
+            "molecularProfile": {
+                "id": 26140,
+                "profileName": "ESR1 Y537S ESR1 D538G"
+            },
+            "therapy": {
+                "id": 1966,
+                "therapyName": "Everolimus + Exemestane",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6541,
+                    "pubMedId": 27532364,
+                    "title": "Prevalence of ESR1 Mutations in Cell-Free DNA and Outcomes in Metastatic Breast Cancer: A Secondary Analysis of the BOLERO-2 Clinical Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27532364"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 9705,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, an estrogen-receptor positive breast cancer patient harboring ESR1 Y537S and a PIK3CA mutation demonstrated a clinical benefit when treated with the combination of Femara (letrozole) and Alpelisib (BYL719) (PMID: 27126994).",
+            "molecularProfile": {
+                "id": 26993,
+                "profileName": "ESR1 Y537S PIK3CA mut"
+            },
+            "therapy": {
+                "id": 1553,
+                "therapyName": "Alpelisib + Letrozole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7484,
+                    "pubMedId": 27126994,
+                    "title": "A Phase Ib Study of Alpelisib (BYL719), a PI3K\u03b1-Specific Inhibitor, with Letrozole in ER+/HER2- Metastatic Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27126994"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3053,
+            "profileName": "ESR1 Y537S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 21976,
+            "profileName": "CDKN2A loss CDKN2B loss ESR1 Y537S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26140,
+            "profileName": "ESR1 Y537S ESR1 D538G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26993,
+            "profileName": "ESR1 Y537S PIK3CA mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 112512,
+            "transcript": "XM_011535545",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112507,
+            "transcript": "XM_017010380",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112508,
+            "transcript": "XM_011535543",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112517,
+            "transcript": "NM_000125",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112513,
+            "transcript": "NM_001122741",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112505,
+            "transcript": "XM_017010377",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112511,
+            "transcript": "XM_017010379",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112515,
+            "transcript": "XM_011535544",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112509,
+            "transcript": "NM_001122742",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112514,
+            "transcript": "XM_017010381",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112516,
+            "transcript": "NM_001122740",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112510,
+            "transcript": "XM_017010378",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 112506,
+            "transcript": "XM_017010376",
+            "gDna": "chr6:g.152098788A>C",
+            "cDna": "c.1610A>C",
+            "protein": "p.Y537S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "id": 1651,
+    "fullName": "KIT Y578C",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT Y578C lies within the juxtamembrane domain (exon 11) of the Kit protein (PMID: 16226710). Y578C results in constitutive phosphorylation of Kit in cell culture in one study (PMID: 23567324) and therefore, is predicted to lead to a gain of Kit protein function.",
+            "references": [
+                {
+                    "id": 647,
+                    "pubMedId": 23567324,
+                    "title": "Are two better than one? A novel double-mutant KIT in GIST that responds to Imatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23567324"
+                },
+                {
+                    "id": 648,
+                    "pubMedId": 16226710,
+                    "title": "Structure and regulation of Kit protein-tyrosine kinase--the stem cell factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16226710"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "Y578C",
+    "createDate": "09/09/2014",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 137020,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727501A>G",
+        "cDna": "c.1733A>G",
+        "protein": "p.Y578C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6879,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) inhibited Kit phosphorylation efficiently in transformed human cells over expressing KIT Y578C in culture (PMID: 23567324).",
+            "molecularProfile": {
+                "id": 1661,
+                "profileName": "KIT Y578C"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 647,
+                    "pubMedId": 23567324,
+                    "title": "Are two better than one? A novel double-mutant KIT in GIST that responds to Imatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23567324"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6880,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) inhibited Kit phosphorylation efficiently in transformed human cells over expressing both KIT W557C and KIT Y578C in culture (PMID: 23567324).",
+            "molecularProfile": {
+                "id": 23934,
+                "profileName": "KIT W557C KIT Y578C"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 647,
+                    "pubMedId": 23567324,
+                    "title": "Are two better than one? A novel double-mutant KIT in GIST that responds to Imatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23567324"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1661,
+            "profileName": "KIT Y578C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1929,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT Y578C"
+                }
+            ]
+        },
+        {
+            "id": 23934,
+            "profileName": "KIT W557C KIT Y578C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 137021,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727501A>G",
+            "cDna": "c.1733A>G",
+            "protein": "p.Y578C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137020,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727501A>G",
+            "cDna": "c.1733A>G",
+            "protein": "p.Y578C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

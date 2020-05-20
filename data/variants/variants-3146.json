@@ -1,0 +1,195 @@
+{
+    "id": 3146,
+    "fullName": "APC R1450*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "APC R1450* results in a premature truncation of the Apc protein at amino acid 1450 of 2843 (UniProt.org). R1450* results in reduced suppression of beta-catenin activity in culture (PMID: 18199528), and therefore, is predicted to lead to a loss of Apc protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2395,
+                    "pubMedId": 18199528,
+                    "title": "Multiple rare nonsynonymous variants in the adenomatous polyposis coli gene predispose to colorectal adenomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18199528"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 324,
+        "geneSymbol": "APC",
+        "terms": [
+            "APC",
+            "BTPS2",
+            "DESMD",
+            "DP2",
+            "DP2.5",
+            "DP3",
+            "GS",
+            "PPP1R46"
+        ]
+    },
+    "variant": "R1450*",
+    "createDate": "02/17/2015",
+    "updateDate": "07/10/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 142592,
+        "transcript": "NM_000038",
+        "gDna": "chr5:g.112839942C>T",
+        "cDna": "c.4348C>T",
+        "protein": "p.R1450*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10558,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring APC L665* and APC R1450* demonstrated low levels of Tcf/LEF activity, and was resistant to treatment with IWR-1 in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27596,
+                "profileName": "APC L665* APC R1450*"
+            },
+            "therapy": {
+                "id": 2455,
+                "therapyName": "IWR-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10566,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring APC L665* and APC R1450* demonstrated low levels of Tcf/LEF activity, and was resistant to treatment with XAV939 in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27596,
+                "profileName": "APC L665* APC R1450*"
+            },
+            "therapy": {
+                "id": 1732,
+                "therapyName": "XAV939",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10550,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring APC L665* and APC R1450* demonstrated low levels of Tcf/LEF activity, and was resistant to treatment with G007-LK in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27596,
+                "profileName": "APC L665* APC R1450*"
+            },
+            "therapy": {
+                "id": 2991,
+                "therapyName": "G007-LK",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2970,
+            "profileName": "APC R1450*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6753,
+                    "name": "Tankyrase Inhibitor",
+                    "profileName": "APC R1450*"
+                },
+                {
+                    "id": 6752,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "APC R1450*"
+                }
+            ]
+        },
+        {
+            "id": 27596,
+            "profileName": "APC L665* APC R1450*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 142591,
+            "transcript": "NM_001127510",
+            "gDna": "chr5:g.112839942C>T",
+            "cDna": "c.4348C>T",
+            "protein": "p.R1450*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 142592,
+            "transcript": "NM_000038",
+            "gDna": "chr5:g.112839942C>T",
+            "cDna": "c.4348C>T",
+            "protein": "p.R1450*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

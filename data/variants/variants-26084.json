@@ -1,0 +1,340 @@
+{
+    "id": 26084,
+    "fullName": "MET Y1230D",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET Y1230D (also referred to as MET Y1248D) lies within the protein kinase domain of the Met protein (UniProt.org). Y1230D (Y1248D) results in constitutive Met phosphorylation, is transforming in cell culture (PMID: 10327054), and has been demonstrated to confer Met inhibitor resistance in the context of a co-occurring Met exon 14 skipping mutation in culture (PMID: 31279006).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1991,
+                    "pubMedId": 10327054,
+                    "title": "Novel mutations of the MET proto-oncogene in papillary renal carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10327054"
+                },
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "Y1230D",
+    "createDate": "02/28/2017",
+    "updateDate": "10/25/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 144979,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116783359T>G",
+        "cDna": "c.3688T>G",
+        "protein": "p.Y1230D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10078,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Altiratinib (DCC-2701) inhibited activity of MET Y1230D in an in vitro kinase assay (PMID: 26285778).",
+            "molecularProfile": {
+                "id": 27241,
+                "profileName": "MET Y1230D"
+            },
+            "therapy": {
+                "id": 1656,
+                "therapyName": "Altiratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7263,
+                    "pubMedId": 26285778,
+                    "title": "Altiratinib Inhibits Tumor Growth, Invasion, Angiogenesis, and Microenvironment-Mediated Drug Resistance via Balanced Inhibition of MET, TIE2, and VEGFR2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26285778"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18171,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET Y1230D secondary to a MET exon 14 skipping mutation in transformed cells conferred resistant to Tepotinib (MSC2156119J) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33022,
+                "profileName": "MET del exon14 MET Y1230D"
+            },
+            "therapy": {
+                "id": 1398,
+                "therapyName": "Tepotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18175,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Glesatinib (MGCD265) inhibited growth of transformed cells expressing MET Y1230D secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33022,
+                "profileName": "MET del exon14 MET Y1230D"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18174,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Merestinib (LY2801653) inhibited growth of transformed cells expressing MET Y1230D secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33022,
+                "profileName": "MET del exon14 MET Y1230D"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18169,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET Y1230D secondary to a MET exon 14 skipping mutation in transformed cells conferred resistant to Xalkori (crizotinib) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33022,
+                "profileName": "MET del exon14 MET Y1230D"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18172,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET Y1230D secondary to a MET exon 14 skipping mutation in transformed cells conferred resistant to Savolitinib (AZD6094) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33022,
+                "profileName": "MET del exon14 MET Y1230D"
+            },
+            "therapy": {
+                "id": 2161,
+                "therapyName": "Savolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18170,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET Y1230D secondary to a MET exon 14 skipping mutation in transformed cells conferred resistant to Capmatinib (INC280) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33022,
+                "profileName": "MET del exon14 MET Y1230D"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18173,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (Cabometyx, cabozantinib) inhibited growth of transformed cells expressing MET Y1230D secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33022,
+                "profileName": "MET del exon14 MET Y1230D"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27241,
+            "profileName": "MET Y1230D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10906,
+                    "name": "MET Inhibitor",
+                    "profileName": "MET Y1230D"
+                }
+            ]
+        },
+        {
+            "id": 33022,
+            "profileName": "MET del exon14 MET Y1230D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144979,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116783359T>G",
+            "cDna": "c.3688T>G",
+            "protein": "p.Y1230D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "id": 11699,
+    "fullName": "PTEN A72fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PTEN A72fs results in a change in the amino acid sequence of the Apc protein beginning at aa 72 of 403, likely resulting in premature truncation of the functional protein (UniProt.org). A72fs is predicted to confer a loss of function to the Pten protein, as demonstrated by the loss of all known functional domains (UniProt.org) and lack of protein expression in culture (PMID: 21358673).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3638,
+                    "pubMedId": 21358673,
+                    "title": "PIK3CA mutation, but not PTEN loss of function, determines the sensitivity of breast cancer cells to mTOR inhibitory drugs.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21358673"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5728,
+        "geneSymbol": "PTEN",
+        "terms": [
+            "PTEN",
+            "10q23del",
+            "BZS",
+            "CWS1",
+            "DEC",
+            "GLM2",
+            "MHAM",
+            "MMAC1",
+            "PTEN1",
+            "PTENbeta",
+            "TEP1"
+        ]
+    },
+    "variant": "A72fs",
+    "createDate": "09/13/2015",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 169259,
+        "transcript": "NM_000314",
+        "gDna": "chr10:g.87931051_87931052delCT",
+        "cDna": "c.215_216delCT",
+        "protein": "p.A72fs*5",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10360,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DHM25 increased cell death in a triple-negative breast cancer cell line harboring PTEN A72fs*5 in culture (PMID: 26237138).",
+            "molecularProfile": {
+                "id": 11789,
+                "profileName": "PTEN A72fs"
+            },
+            "therapy": {
+                "id": 5494,
+                "therapyName": "DHM25",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8367,
+                    "pubMedId": 26237138,
+                    "title": "A Novel Covalent mTOR Inhibitor, DHM25, Shows in Vivo Antitumor Activity against Triple-Negative Breast Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26237138"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3126,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) inhibited growth of human breast cancer cells harboring PTEN A72fs*5 in culture (PMID: 21325073, PMID: 17314276).",
+            "molecularProfile": {
+                "id": 11789,
+                "profileName": "PTEN A72fs"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3636,
+                    "pubMedId": 17314276,
+                    "title": "Phosphatidylinositol-3-OH kinase or RAS pathway mutations in human breast cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17314276"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 11789,
+            "profileName": "PTEN A72fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 13213,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PTEN A72fs"
+                },
+                {
+                    "id": 13214,
+                    "name": "PIK3CB inhibitor",
+                    "profileName": "PTEN A72fs"
+                },
+                {
+                    "id": 13217,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PTEN A72fs"
+                },
+                {
+                    "id": 13215,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PTEN A72fs"
+                },
+                {
+                    "id": 13216,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PTEN A72fs"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 169259,
+            "transcript": "NM_000314",
+            "gDna": "chr10:g.87931051_87931052delCT",
+            "cDna": "c.215_216delCT",
+            "protein": "p.A72fs*5",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

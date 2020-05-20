@@ -1,0 +1,188 @@
+{
+    "id": 10693,
+    "fullName": "ROS1 L1947R",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 L1947R lies within the protein kinase domain of the Ros1 protein (UniProt.org). L1947R has been demonstrated to confer resistance to Ros1 tyrosine kinase inhibitors in the context of a Ros1 fusion in culture (PMID: 24218589), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "L1947R",
+    "createDate": "08/17/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102372,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117319968A>C",
+        "cDna": "c.5840T>G",
+        "protein": "p.L1947R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2807,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 L1947R in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10703,
+                "profileName": "GOPC - ROS1 ROS1 L1947R"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2812,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 L1974R in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10703,
+                "profileName": "GOPC - ROS1 ROS1 L1947R"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10702,
+            "profileName": "ROS1 L1947R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10703,
+            "profileName": "GOPC - ROS1 ROS1 L1947R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16944,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 L1947R"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102371,
+            "transcript": "XM_011536049",
+            "gDna": "chr6:g.117319998A>C",
+            "cDna": "c.5840T>G",
+            "protein": "p.L1947R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 102369,
+            "transcript": "XM_011536053",
+            "gDna": "chr6:g.117318209A>C",
+            "cDna": "c.5840T>G",
+            "protein": "p.L1947R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 102373,
+            "transcript": "XM_011536054",
+            "gDna": "chr6:g.117319998A>C",
+            "cDna": "c.5840T>G",
+            "protein": "p.L1947R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 102370,
+            "transcript": "XM_011536052",
+            "gDna": "chr6:g.117319956A>C",
+            "cDna": "c.5840T>G",
+            "protein": "p.L1947R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 102372,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117319968A>C",
+            "cDna": "c.5840T>G",
+            "protein": "p.L1947R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

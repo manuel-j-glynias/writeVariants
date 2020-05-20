@@ -1,0 +1,170 @@
+{
+    "id": 10678,
+    "fullName": "SDC4 - ROS1",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "SDC4-ROS1 results from the fusion of SDC4 and ROS1, and leads to cell transformation in culture and tumorigenesis in animal models (PMID: 22327623). SDC4-ROS1 has been identified in non-small cell lung cancer (PMID: 25667280).",
+            "references": [
+                {
+                    "id": 3475,
+                    "pubMedId": 22327623,
+                    "title": "RET, ROS1 and ALK fusions in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22327623"
+                },
+                {
+                    "id": 3397,
+                    "pubMedId": 25667280,
+                    "title": "Crizotinib therapy for advanced lung adenocarcinoma and a ROS1 rearrangement: results from the EUROS1 cohort.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25667280"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6385,
+        "geneSymbol": "SDC4",
+        "terms": [
+            "SDC4",
+            "SYND4"
+        ]
+    },
+    "variant": "SDC4 - ROS1",
+    "createDate": "08/16/2015",
+    "updateDate": "03/01/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 6098,
+                "geneSymbol": "ROS1",
+                "terms": [
+                    "ROS1",
+                    "c-ros-1",
+                    "MCF3",
+                    "ROS"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 16875,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) demonstrated superior activity against transformed cells expressing SDC4-ROS1 in culture compared to other inhibitors targeting Ros1 (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1319).",
+            "molecularProfile": {
+                "id": 10683,
+                "profileName": "SDC4 - ROS1"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14995,
+                    "pubMedId": null,
+                    "title": "Repotrectinib, a new generation ROS1 inhibitor, is highly potent against fusion ROS1s and emerging resistance mutations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9241,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing SDC4-ROS1 in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 10683,
+                "profileName": "SDC4 - ROS1"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16881,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) demonstrated superior activity against transformed cells expressing ROS1 G2032R in the context of SDC4-ROS1 in culture compared to other inhibitors targeting Ros1 (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1319).",
+            "molecularProfile": {
+                "id": 32094,
+                "profileName": "SDC4 - ROS1 ROS1 G2032R"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14995,
+                    "pubMedId": null,
+                    "title": "Repotrectinib, a new generation ROS1 inhibitor, is highly potent against fusion ROS1s and emerging resistance mutations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10683,
+            "profileName": "SDC4 - ROS1",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16893,
+                    "name": "ROS1 Inhibitor",
+                    "profileName": "SDC4 - ROS1"
+                }
+            ]
+        },
+        {
+            "id": 32094,
+            "profileName": "SDC4 - ROS1 ROS1 G2032R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

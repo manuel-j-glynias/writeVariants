@@ -1,0 +1,116 @@
+{
+    "id": 2136,
+    "fullName": "PALB2 Y1108fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PALB2 Y1108fs results in a change in the amino acid sequence of the Palb2 protein beginning at aa 1108 of 1186, likely resulting in premature truncation of the functional protein (UniProt.org). Y1108fs results in impaired homology-directed DNA repair activity compared to wild-type Palb2 in cultured cells lacking Tp53 (PMID: 31636395), and therefore, is predicted to lead to a loss of protein function.",
+            "references": [
+                {
+                    "id": 17540,
+                    "pubMedId": 31636395,
+                    "title": "Functional characterization of 84 PALB2 variants of uncertain significance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31636395"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 79728,
+        "geneSymbol": "PALB2",
+        "terms": [
+            "PALB2",
+            "FANCN",
+            "PNCA3"
+        ]
+    },
+    "variant": "Y1108fs",
+    "createDate": "10/09/2014",
+    "updateDate": "01/22/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 93411,
+        "transcript": "NM_024675",
+        "gDna": "chr16:g.(23607892_23607893)",
+        "cDna": "c.(3322_3321)",
+        "protein": "p.Y1108fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1175,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a Wilms tumor cell line and xenograft with the PALB2 Y1108fs truncating mutation showed complete response to the PARP inhibitor, Talazoparib (BMN-673) (PMID: 25263539).",
+            "molecularProfile": {
+                "id": 2074,
+                "profileName": "PALB2 Y1108fs"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2154,
+                "name": "nephroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 919,
+                    "pubMedId": 25263539,
+                    "title": "Initial testing (stage 1) of the PARP inhibitor BMN 673 by the pediatric preclinical testing program: PALB2 mutation predicts exceptional in vivo response to BMN 673.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25263539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2074,
+            "profileName": "PALB2 Y1108fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5455,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "PALB2 Y1108fs"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 93412,
+            "transcript": "XM_017023671",
+            "gDna": "chr16:g.(23603467_23603468)",
+            "cDna": "c.(3322_3321)",
+            "protein": "p.Y1108fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 93411,
+            "transcript": "NM_024675",
+            "gDna": "chr16:g.(23607892_23607893)",
+            "cDna": "c.(3322_3321)",
+            "protein": "p.Y1108fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

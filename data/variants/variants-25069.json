@@ -1,0 +1,211 @@
+{
+    "id": 25069,
+    "fullName": "ESR1 - YAP1",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ESR1-YAP1 results from the fusion of ESR1 and YAP1, which leads to estradiol-independent growth in cell culture, estradiol-independent enhanced gene expression, and increased cell motility (PMID: 24055055, PMID: 30089255). ESR1-YAP1 has been identified in estrogen-receptor positive breast cancer (PMID: 30089255).",
+            "references": [
+                {
+                    "id": 1938,
+                    "pubMedId": 24055055,
+                    "title": "Endocrine-therapy-resistant ESR1 variants revealed by genomic characterization of breast-cancer-derived xenografts.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24055055"
+                },
+                {
+                    "id": 12690,
+                    "pubMedId": 30089255,
+                    "title": "Functional Annotation of ESR1 Gene Fusions in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30089255"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2099,
+        "geneSymbol": "ESR1",
+        "terms": [
+            "ESR1",
+            "ER",
+            "Era",
+            "ESR",
+            "ESRA",
+            "ESTRR",
+            "NR3A1"
+        ]
+    },
+    "variant": "ESR1 - YAP1",
+    "createDate": "08/02/2016",
+    "updateDate": "10/31/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 10413,
+                "geneSymbol": "YAP1",
+                "terms": [
+                    "YAP1",
+                    "COB1",
+                    "YAP",
+                    "YAP2",
+                    "YAP65",
+                    "YKI"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 9543,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient-derived xenograft model of breast cancer harboring ESR1-YAP1 demonstrated resistance to treatment with Falsodex (fulvestrant), replicating the endocrine therapy resistance seen in the patient (PMID: 27765850).",
+            "molecularProfile": {
+                "id": 25835,
+                "profileName": "ESR1 - YAP1"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7266,
+                    "pubMedId": 27765850,
+                    "title": "Reactivation of p53 by MDM2 Inhibitor MI-77301 for the Treatment of Endocrine-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27765850"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7557,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells over expressing ESR1 - YAP1 were insensitive to Falsodex (fulvestrant) induced growth inhibition in culture (PMID: 24055055).",
+            "molecularProfile": {
+                "id": 25835,
+                "profileName": "ESR1 - YAP1"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 1938,
+                    "pubMedId": 24055055,
+                    "title": "Endocrine-therapy-resistant ESR1 variants revealed by genomic characterization of breast-cancer-derived xenografts.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24055055"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9545,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Falsodex (fulvestrant) and SAR405838 (MI-77301) inhibited tumor growth in an endocrine-resistant patient-derived xenograft (PDX) model of breast cancer harboring ESR1-YAP1 and wild-type TP53, and had an increased effect on tumor growth delay following treatment cessation compared to SAR405838 (MI-77301) alone (PMID: 27765850).",
+            "molecularProfile": {
+                "id": 26890,
+                "profileName": "ESR1 - YAP1 TP53 wild-type"
+            },
+            "therapy": {
+                "id": 5068,
+                "therapyName": "Fulvestrant + SAR405838",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7266,
+                    "pubMedId": 27765850,
+                    "title": "Reactivation of p53 by MDM2 Inhibitor MI-77301 for the Treatment of Endocrine-Resistant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27765850"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15144,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Ibrance (palbociclib) resulted in growth inhibition of RB1-positive, estrogen-receptor positive breast cancer cells expressing ESR1-YAP1 in culture and inhibition of tumor growth in a RB1-positive, estrogen-receptor positive breast cancer patient-derived xenograft (PDX) model harboring ESR1-YAP1, which demonstrated reduced phosphorylation of Rb1 and decreased Ki67 levels (PMID: 30089255).",
+            "molecularProfile": {
+                "id": 30795,
+                "profileName": "ESR1 - YAP1 RB1 pos"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12690,
+                    "pubMedId": 30089255,
+                    "title": "Functional Annotation of ESR1 Gene Fusions in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30089255"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25835,
+            "profileName": "ESR1 - YAP1",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26890,
+            "profileName": "ESR1 - YAP1 TP53 wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30795,
+            "profileName": "ESR1 - YAP1 RB1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "id": 5203,
+    "fullName": "BCL2 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "BCL2 amp indicates an increased number of copies of the BCL2 gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 596,
+        "geneSymbol": "BCL2",
+        "terms": [
+            "BCL2",
+            "Bcl-2",
+            "PPP1R50"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "04/23/2015",
+    "updateDate": "05/15/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12318,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Navitoclax (ABT-263) in 39 patients with lung small cell carcinoma resulted in a partial response in 1 patient and stable disease in 9 patients, and led to increased apoptotic activity and decreased circulating tumor cell levels in patients with BCL2 amplification (PMID: 22496272).",
+            "molecularProfile": {
+                "id": 5016,
+                "profileName": "BCL2 amp"
+            },
+            "therapy": {
+                "id": 825,
+                "therapyName": "Navitoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5409,
+                "name": "lung small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10292,
+                    "pubMedId": 22496272,
+                    "title": "Phase II study of single-agent navitoclax (ABT-263) and biomarker correlates in patients with relapsed small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22496272"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 2086,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, small cell lung cancer cell lines with BCL2 amplification demonstrated sensitivity to Venclexta (venetoclax) in culture (PMID: 25787766).",
+            "molecularProfile": {
+                "id": 5016,
+                "profileName": "BCL2 amp"
+            },
+            "therapy": {
+                "id": 1562,
+                "therapyName": "Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5409,
+                "name": "lung small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2473,
+                    "pubMedId": 25787766,
+                    "title": "Exploiting selective BCL-2 family inhibitors to dissect cell survival dependencies and define improved strategies for cancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25787766"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5016,
+            "profileName": "BCL2 amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16600,
+                    "name": "BCL2 Family Inhibitor",
+                    "profileName": "BCL2 amp"
+                },
+                {
+                    "id": 16601,
+                    "name": "BCL2 inhibitor",
+                    "profileName": "BCL2 amp"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

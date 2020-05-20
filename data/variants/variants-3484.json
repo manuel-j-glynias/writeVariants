@@ -1,0 +1,280 @@
+{
+    "id": 3484,
+    "fullName": "KIT V560del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT V560del results in the deletion of an amino acid in the juxtamembrane domain (exon 11) of the Kit protein at amino acid 560 (PMID: 12879016). V560del results in transformation of cultured cells in one study (PMID: 19861435) and therefore, is predicted to lead to a gain of Kit protein function.",
+            "references": [
+                {
+                    "id": 2055,
+                    "pubMedId": 12879016,
+                    "title": "Signal transduction by several KIT juxtamembrane domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12879016"
+                },
+                {
+                    "id": 670,
+                    "pubMedId": 19861435,
+                    "title": "Comprehensive genomic analysis reveals clinically relevant molecular distinctions between thymic carcinomas and thymomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19861435"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "V560del",
+    "createDate": "03/03/2015",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136864,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727447_54727449delTTG",
+        "cDna": "c.1679_1681delTTG",
+        "protein": "p.V560delV",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4367,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) inhibited growth of transformed cell lines over expressing KIT V560del in culture (PMID: 19861435).",
+            "molecularProfile": {
+                "id": 3289,
+                "profileName": "KIT V560del"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 670,
+                    "pubMedId": 19861435,
+                    "title": "Comprehensive genomic analysis reveals clinically relevant molecular distinctions between thymic carcinomas and thymomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19861435"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4366,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) inhibited growth of transformed cell lines over expressing KIT V560del in culture (PMID: 19861435).",
+            "molecularProfile": {
+                "id": 3289,
+                "profileName": "KIT V560del"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 670,
+                    "pubMedId": 19861435,
+                    "title": "Comprehensive genomic analysis reveals clinically relevant molecular distinctions between thymic carcinomas and thymomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19861435"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6748,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case report, a patient with metastatic thymic carcinoma harboring KIT V560del with KIT over expression initially demonstrated stable disease and reduction in metastatic lesions following treatment with Gleevec (imatinib), but progressed after 6 months (PMID: 15201427).",
+            "molecularProfile": {
+                "id": 23682,
+                "profileName": "KIT V560del KIT over exp"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3284,
+                "name": "thymic carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5814,
+                    "pubMedId": 15201427,
+                    "title": "Thymic carcinoma with overexpression of mutated KIT and the response to imatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15201427"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11842,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tasigna (nilotinib) inhibited proliferation of transformed cells expressing a KIT V560del/V654A double mutation in culture (PMID: 17699867).",
+            "molecularProfile": {
+                "id": 28310,
+                "profileName": "KIT V560del KIT V654A"
+            },
+            "therapy": {
+                "id": 829,
+                "therapyName": "Nilotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 676,
+                    "pubMedId": 17699867,
+                    "title": "Sorafenib inhibits the imatinib-resistant KITT670I gatekeeper mutation in gastrointestinal stromal tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17699867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3289,
+            "profileName": "KIT V560del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7708,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT V560del"
+                }
+            ]
+        },
+        {
+            "id": 23682,
+            "profileName": "KIT V560del KIT over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28310,
+            "profileName": "KIT V560del KIT V654A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136867,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54727447_54727449delTTG",
+            "cDna": "c.1682_1684delTTG",
+            "protein": "p.V561delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136868,
+            "transcript": "XM_017008179",
+            "gDna": "chr4:g.54727456_54727458delTAA",
+            "cDna": "c.1679_1681delTAA",
+            "protein": "p.I560delI",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136865,
+            "transcript": "NM_001093772",
+            "gDna": "chr4:g.54727458_54727460delAAT",
+            "cDna": "c.1678_1680delAAT",
+            "protein": "p.N560delN",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136870,
+            "transcript": "XM_017008180",
+            "gDna": "chr4:g.54727458_54727460delAAT",
+            "cDna": "c.1678_1680delAAT",
+            "protein": "p.N560delN",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136864,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727447_54727449delTTG",
+            "cDna": "c.1679_1681delTTG",
+            "protein": "p.V560delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136869,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727447_54727449delTTG",
+            "cDna": "c.1679_1681delTTG",
+            "protein": "p.V560delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136871,
+            "transcript": "XM_005265742",
+            "gDna": "chr4:g.54727456_54727458delTAA",
+            "cDna": "c.1679_1681delTAA",
+            "protein": "p.I560delI",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136866,
+            "transcript": "XM_005265740",
+            "gDna": "chr4:g.54727447_54727449delTTG",
+            "cDna": "c.1682_1684delTTG",
+            "protein": "p.V561delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

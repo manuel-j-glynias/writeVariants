@@ -1,0 +1,167 @@
+{
+    "id": 6287,
+    "fullName": "IDH2 R140W",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "IDH2 R140W lies within the substrate binding region of the Idh2 protein (UniProt.org). R140W results in decreased conversion of isocitrate to alpha-ketoglutarate (alpha-KG) by Idh2, and also results in increased conversion of alpha-KG to 2HG (R(-)-2-hydroxyglutarate) in an in vitro assay (PMID: 21647154), and therefore is predicted to confer a gain of function to Idh2.",
+            "references": [
+                {
+                    "id": 9283,
+                    "pubMedId": 21647154,
+                    "title": "IDH1 and IDH2 mutations in pediatric acute leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21647154"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3418,
+        "geneSymbol": "IDH2",
+        "terms": [
+            "IDH2",
+            "D2HGA2",
+            "ICD-M",
+            "IDH",
+            "IDHM",
+            "IDP",
+            "IDPM",
+            "mNADP-IDH"
+        ]
+    },
+    "variant": "R140W",
+    "createDate": "05/17/2015",
+    "updateDate": "10/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 91608,
+        "transcript": "NM_002168",
+        "gDna": "chr15:g.90088703G>A",
+        "cDna": "c.418C>T",
+        "protein": "p.R140W",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17414,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial that supported FDA approval, Idhifa (enasidenib) treatment resulted in an overall response rate of 40.3% (71/176) with a median response duration of 5.8 months, complete remission in 19.3% (34/176), and stable disease in 48.3% (85/176) of acute myeloid leukemia patients harboring IDH2 mutations (PMID: 28588020; NCT01915498) and IDH2 R140W is on the companion diagnostic.",
+            "molecularProfile": {
+                "id": 6137,
+                "profileName": "IDH2 R140W"
+            },
+            "therapy": {
+                "id": 2982,
+                "therapyName": "Enasidenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9651,
+                    "pubMedId": 28588020,
+                    "title": "Enasidenib in mutant IDH2 relapsed or refractory acute myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28588020"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15478,
+                    "pubMedId": null,
+                    "title": "Idhifa (enasidenib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209606"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3593,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Enasidenib (AG-221) and Quizartinib (AC220) stimulated leukemic cell differentiation and reduced leukemic cell self-renewal in an acute myeloid leukemia mouse model simultaneously expressing IDH2 R140Q and a FLT3-ITD mutation (Blood Dec 2014, 124 (21) 437).",
+            "molecularProfile": {
+                "id": 13759,
+                "profileName": "FLT3 Y599_D600insSTDNEYFYVDFREYEY IDH2 R140W"
+            },
+            "therapy": {
+                "id": 3172,
+                "therapyName": "Enasidenib + Quizartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3871,
+                    "pubMedId": null,
+                    "title": "AG-221, a Small Molecule Mutant IDH2 Inhibitor, Remodels the Epigenetic State of IDH2-Mutant Cells and Induces Alterations in Self-Renewal/Differentiation in IDH2-Mutant AML Model in Vivo",
+                    "url": "http://www.bloodjournal.org/content/124/21/437?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6137,
+            "profileName": "IDH2 R140W",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16899,
+                    "name": "IDH Inhibitor (Pan)",
+                    "profileName": "IDH2 R140W"
+                },
+                {
+                    "id": 16900,
+                    "name": "IDH2 Inhibitor",
+                    "profileName": "IDH2 R140W"
+                }
+            ]
+        },
+        {
+            "id": 13759,
+            "profileName": "FLT3 Y599_D600insSTDNEYFYVDFREYEY IDH2 R140W",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 91608,
+            "transcript": "NM_002168",
+            "gDna": "chr15:g.90088703G>A",
+            "cDna": "c.418C>T",
+            "protein": "p.R140W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

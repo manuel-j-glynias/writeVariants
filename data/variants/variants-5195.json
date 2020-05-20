@@ -1,0 +1,163 @@
+{
+    "id": 5195,
+    "fullName": "FLT3 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 amplification indicates an increased number of copies of the FLT3 gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "04/23/2015",
+    "updateDate": "06/18/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6018,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Nexavar (sorafenib) treatment targeting FLT3 amplification in a rectal adenocarcinoma patient who had progressed on all standard therapies resulted in rapid clinical improvement (PMID: 25848357).",
+            "molecularProfile": {
+                "id": 5008,
+                "profileName": "FLT3 amp"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5236,
+                    "pubMedId": 25848357,
+                    "title": "Clinical Response to Sorafenib in a Patient with Metastatic Colorectal Cancer and FLT3 Amplification.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25848357"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16191,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, combination Tafinlar (dabrafinib) and Mekinist (trametinib) therapy in a patient with Platinol (cisplatin)-resistant metastatic neuroendocrine carcinoma of the colon harboring BRAF V600E and TP53 H214R mutations and amplifications of FLT3 and CDK8 resulted in decreased disease burden with a clinical benefit for 5 months before disease progression (PMID: 30181415).",
+            "molecularProfile": {
+                "id": 31514,
+                "profileName": "BRAF V600E CDK8 amp FLT3 amp TP53 H214R"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4118,
+                "name": "colon neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14304,
+                    "pubMedId": 30181415,
+                    "title": "Targeting BRAF Mutations in High-Grade Neuroendocrine Carcinoma of the Colon.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30181415"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16192,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with Platinol (cisplatin)-resistant metastatic neuroendocrine carcinoma of the colon harboring BRAF V600E and TP53 H214R mutations and amplifications of FLT3 and CDK8 who had an initial response to combination Tafinlar (dabrafinib) and Mekinist (trametinib) therapy was found to have acquired an ARID1B Q123* mutation upon disease progression (PMID: 30181415).",
+            "molecularProfile": {
+                "id": 31515,
+                "profileName": "ARID1B Q123* BRAF V600E CDK8 amp FLT3 amp TP53 H214R"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4118,
+                "name": "colon neuroendocrine neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14304,
+                    "pubMedId": 30181415,
+                    "title": "Targeting BRAF Mutations in High-Grade Neuroendocrine Carcinoma of the Colon.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30181415"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5008,
+            "profileName": "FLT3 amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 3997,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 amp"
+                }
+            ]
+        },
+        {
+            "id": 31514,
+            "profileName": "BRAF V600E CDK8 amp FLT3 amp TP53 H214R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31515,
+            "profileName": "ARID1B Q123* BRAF V600E CDK8 amp FLT3 amp TP53 H214R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

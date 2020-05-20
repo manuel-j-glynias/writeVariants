@@ -1,0 +1,342 @@
+{
+    "id": 26323,
+    "fullName": "EGFR D770delinsGY",
+    "impact": "indel",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR D770delinsGY results in a deletion of aspartic acid (D) at amino acid 770 within the protein kinase domain of the Egfr protein, combined with the insertion of a glycine (G) and a tyrosine (Y) at the same site (UniProt.org). D770delinsGY results in autophosphorylation of Egfr, transformation of cultured cells, and is associated with resistance to some Egfr inhibitors (PMID: 28363995).",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "D770delinsGY",
+    "createDate": "04/13/2017",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135576,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181317_55181319delinsGGTTAT",
+        "cDna": "c.2308_2310delinsGGTTAT",
+        "protein": "p.D770_770delinsGY",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14796,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Poziotinib (HM781-36B) resulted in objective partial responses in 64% (7/11) of patients with non-small cell lung cancer harboring EGFR exon 20 mutations, including a patient with EGFR D770delinsGY (PMID: 29686424; NCT03066206).",
+            "molecularProfile": {
+                "id": 27528,
+                "profileName": "EGFR D770delinsGY"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19678,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with non-small cell lung cancer harboring EGFR D770delinsGY demonstrated a partial response when treated with Vizimpro (dacomitinib) (PMID: 21220471).",
+            "molecularProfile": {
+                "id": 27528,
+                "profileName": "EGFR D770delinsGY"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8568,
+                    "pubMedId": 21220471,
+                    "title": "Phase I dose-escalation study of the pan-HER inhibitor, PF299804, in patients with advanced malignant solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21220471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10498,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited EGFR phosphorylation and growth of transformed cells expressing EGFR D770delinsGY in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27528,
+                "profileName": "EGFR D770delinsGY"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12175,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR D770delinsGY demonstrated resistance to Nerlynx (neratinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27528,
+                "profileName": "EGFR D770delinsGY"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10512,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR D770delinsGY/EGFR T790M double mutation demonstrated resistance to Gilotrif (afatinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27533,
+                "profileName": "EGFR D770delinsGY EGFR T790M"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10509,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquisition of EGFR T790M was associated with resistance to Vizimpro (dacomitinib) in transformed cells expressing EGFR D770delinsGY (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27533,
+                "profileName": "EGFR D770delinsGY EGFR T790M"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10511,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR D770delinsGY/EGFR C797S double mutation demonstrated resistance to Gilotrif (afatinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27534,
+                "profileName": "EGFR D770delinsGY EGFR C797S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10510,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR D770delinsGY and EGFR C797S double mutation demonstrated resistance to Vizimpro (dacomitinib) in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27534,
+                "profileName": "EGFR D770delinsGY EGFR C797S"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27528,
+            "profileName": "EGFR D770delinsGY",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11196,
+                    "name": "Dacomitinib",
+                    "profileName": "EGFR D770delinsGY"
+                }
+            ]
+        },
+        {
+            "id": 27533,
+            "profileName": "EGFR D770delinsGY EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27534,
+            "profileName": "EGFR D770delinsGY EGFR C797S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135576,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181317_55181319delinsGGTTAT",
+            "cDna": "c.2308_2310delinsGGTTAT",
+            "protein": "p.D770_770delinsGY",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

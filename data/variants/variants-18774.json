@@ -1,0 +1,211 @@
+{
+    "id": 18774,
+    "fullName": "FLT3 D835F",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 D835F lies within the activation loop in the protein kinase domain of the Flt3 protein (PMID: 25837374). D835F has been associated with acquired resistance to sorafenib (PMID: 24227820), but has not been biochemically characterized and therefore, its effect on Flt3 protein function is unknown (PubMed, Mar 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 14183,
+                    "pubMedId": 25837374,
+                    "title": "Crystal structure of the FLT3 kinase domain bound to the inhibitor Quizartinib (AC220).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25837374"
+                },
+                {
+                    "id": 2134,
+                    "pubMedId": 24227820,
+                    "title": "Crenolanib is a potent inhibitor of FLT3 with activity against resistance-conferring point mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24227820"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "D835F",
+    "createDate": "02/28/2016",
+    "updateDate": "03/16/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 144447,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018504_28018505delTCinsAA",
+        "cDna": "c.2503_2504delGAinsTT",
+        "protein": "p.D835F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9438,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRX-2843 inhibited Flt3 signaling, resulted in growth inhibition in Quizartinib (AC220)-resistant transformed cells over expressing both FLT3 internal tandem duplication (ITD) and D835F in culture (PMID: 27158668).",
+            "molecularProfile": {
+                "id": 19133,
+                "profileName": "FLT3 exon 14 ins FLT3 D835F"
+            },
+            "therapy": {
+                "id": 5016,
+                "therapyName": "MRX-2843",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7187,
+                    "pubMedId": 27158668,
+                    "title": "The MERTK/FLT3 inhibitor MRX-2843 overcomes resistance-conferring FLT3 mutations in acute myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27158668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15035,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, FLT3 D835F was identified as an acquired resistance mutation in a patient with acute myeloid leukemia harboring a FLT3 internal tandem duplication (ITD) whose disease progressed on Nexavar (sorafenib) after initial response (PMID: 24227820).",
+            "molecularProfile": {
+                "id": 19133,
+                "profileName": "FLT3 exon 14 ins FLT3 D835F"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 2134,
+                    "pubMedId": 24227820,
+                    "title": "Crenolanib is a potent inhibitor of FLT3 with activity against resistance-conferring point mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24227820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4795,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing FLT3-ITD along with FLT3 D835F were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19133,
+                "profileName": "FLT3 exon 14 ins FLT3 D835F"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15036,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Crenolanib inhibited growth of blasts derived from a patient with acute myeloid leukemia harboring FLT3 internal tandem duplication (ITD) and FLT3 D835F (PMID: 24227820).",
+            "molecularProfile": {
+                "id": 19133,
+                "profileName": "FLT3 exon 14 ins FLT3 D835F"
+            },
+            "therapy": {
+                "id": 705,
+                "therapyName": "Crenolanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 2134,
+                    "pubMedId": 24227820,
+                    "title": "Crenolanib is a potent inhibitor of FLT3 with activity against resistance-conferring point mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24227820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 19132,
+            "profileName": "FLT3 D835F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19133,
+            "profileName": "FLT3 exon 14 ins FLT3 D835F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144447,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018504_28018505delTCinsAA",
+            "cDna": "c.2503_2504delGAinsTT",
+            "protein": "p.D835F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "id": 26326,
+    "fullName": "ERBB2 G778_S779insCPG",
+    "impact": "insertion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) G778_S779insCPG results in the insertion of three amino acids in the protein kinase domain of the Erbb2 (Her2) protein between amino acids 778 and 779 (UniProt.org). G778_S779insCPG is transforming in culture (PMID: 28363995), and based on the effects of other ERBB2 (HER2) exon 20 insertions (PMID: 16843263, PMID: 17311002), is predicted to result in a gain of Erbb2 (Her2) function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2004,
+                    "pubMedId": 16843263,
+                    "title": "HER2 kinase domain mutation results in constitutive phosphorylation and activation of HER2 and EGFR and resistance to EGFR tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16843263"
+                },
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                },
+                {
+                    "id": 2002,
+                    "pubMedId": 17311002,
+                    "title": "The major lung cancer-derived mutants of ERBB2 are oncogenic and are associated with sensitivity to the irreversible EGFR/ERBB2 inhibitor HKI-272.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17311002"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "G778_S779insCPG",
+    "createDate": "04/13/2017",
+    "updateDate": "04/13/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 170526,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724753_39724754insGTCCTGGTT",
+        "cDna": "c.2335_2336insGTCCTGGTT",
+        "protein": "p.G778_S779insCPG",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10526,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited growth of transformed cells expressing ERBB2 (HER2) G778_S779insCPG in culture (PMID: 28363995).",
+            "molecularProfile": {
+                "id": 27531,
+                "profileName": "ERBB2 G778_S779insCPG"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8567,
+                    "pubMedId": 28363995,
+                    "title": "Response Heterogeneity of EGFR and HER2 Exon 20 Insertions to Covalent EGFR and HER2 Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28363995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27531,
+            "profileName": "ERBB2 G778_S779insCPG",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11198,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 G778_S779insCPG"
+                },
+                {
+                    "id": 11197,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 G778_S779insCPG"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170526,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724753_39724754insGTCCTGGTT",
+            "cDna": "c.2335_2336insGTCCTGGTT",
+            "protein": "p.G778_S779insCPG",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170527,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724753_39724754insGTCCTGGTT",
+            "cDna": "c.2335_2336insGTCCTGGTT",
+            "protein": "p.G778_S779insCPG",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

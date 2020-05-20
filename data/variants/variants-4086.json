@@ -1,0 +1,259 @@
+{
+    "id": 4086,
+    "fullName": "MAP2K1 P124Q",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 P124Q lies within the protein kinase domain of the Map2k1 protein (UniProt.org). P124Q results in increased Erk1/2 phosphorylation in culture, and is associated with resistance to a Raf inhibitor (PMID: 25370473), but demonstrates autophosphorylation and kinase activity similar to wild-type Map2k1 in another study (PMID: 29753091), and therefore, its effect on Map2k1 protein function is unknown.",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "P124Q",
+    "createDate": "03/25/2015",
+    "updateDate": "03/05/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 173472,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66436825C>A",
+        "cDna": "c.371C>A",
+        "protein": "p.P124Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16575,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Cotellic (cobimetinib) in patients with histiocytic neoplasms resulted in a PET overall response rate of 89% (16/18), with complete response in 72% (13/18) and partial response in 17% (3/18), and resulted in stable disease in 6% (1/18) of patients, including a complete response in a patient with Erdheim-Chester disease harboring MAP2K1 P124Q (PMID: 30867592; NCT01953926).",
+            "molecularProfile": {
+                "id": 3893,
+                "profileName": "MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60073,
+                "name": "lymphatic system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14632,
+                    "pubMedId": 30867592,
+                    "title": "Efficacy of MEK inhibition in patients with histiocytic neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30867592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7602,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited ERK signaling and reduced growth of a melanoma cell line harboring BRAF V600K and MAP2K1 P124Q in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25913,
+                "profileName": "BRAF V600K MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7598,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma cell line harboring BRAF V600K and MAP2K1 P124Q demonstrated decreased sensitivity to Tafinlar (dabrafenib) in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25913,
+                "profileName": "BRAF V600K MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7601,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VX-11e inhibited ERK signaling and reduced growth of a melanoma cell line harboring BRAF V600K and MAP2K1 P124Q in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25913,
+                "profileName": "BRAF V600K MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 2804,
+                "therapyName": "VX-11e",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7593,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma cell line harboring BRAF V600E and expressing MAP2K1 P124Q demonstrated decreased sensitivity to Tafinlar (dabrafenib) in cell culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25915,
+                "profileName": "BRAF V600E MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3893,
+            "profileName": "MAP2K1 P124Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25913,
+            "profileName": "BRAF V600K MAP2K1 P124Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25915,
+            "profileName": "BRAF V600E MAP2K1 P124Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173472,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66436825C>A",
+            "cDna": "c.371C>A",
+            "protein": "p.P124Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173473,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66436825C>A",
+            "cDna": "c.371C>A",
+            "protein": "p.P124Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -12,11 +12,15 @@ from write_variants import build_graphql_from_sql
 def main():
     print('start driver at:', datetime.datetime.now().strftime("%H:%M:%S"))
     extract()
+
+    # populate mysql databases
     create_jax_variant_db()
-    create_go_variant_db()
-    create_clinvar_db()
+    # create_go_variant_db()
+    # create_clinvar_db()
     create_hot_spot_variants()
-    create_ocp_variant_db()
+    # create_ocp_variant_db()
+
+    # write to graphql
     build_graphql_from_sql()
     print('end driver at:', datetime.datetime.now().strftime("%H:%M:%S"))
 

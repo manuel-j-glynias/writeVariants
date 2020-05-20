@@ -1,0 +1,131 @@
+{
+    "id": 14384,
+    "fullName": "STK11 F354L",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "STK11 F354L lies within the C-terminal domain of the Stk11 protein (PMID: 23612973). F354L does not disrupt Stk11 autophosphorylation or growth suppression by Stk11, but results in decreased AMPK phosphorylation and increased mTOR signaling, and alters cell polarization in culture (PMID: 15800014).",
+            "references": [
+                {
+                    "id": 16023,
+                    "pubMedId": 23612973,
+                    "title": "Phosphorylation of serine 399 in LKB1 protein short form by protein kinase C\u03b6 is required for its nucleocytoplasmic transport and consequent AMP-activated protein kinase (AMPK) activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23612973"
+                },
+                {
+                    "id": 3984,
+                    "pubMedId": 15800014,
+                    "title": "Functional analysis of Peutz-Jeghers mutations reveals that the LKB1 C-terminal region exerts a crucial role in regulating both the AMPK pathway and the cell polarity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15800014"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6794,
+        "geneSymbol": "STK11",
+        "terms": [
+            "STK11",
+            "hLKB1",
+            "LKB1",
+            "PJS"
+        ]
+    },
+    "variant": "F354L",
+    "createDate": "11/24/2015",
+    "updateDate": "09/24/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 100423,
+        "transcript": "NM_000455",
+        "gDna": "chr19:g.1223124T>C",
+        "cDna": "c.1060T>C",
+        "protein": "p.F354L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15161,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Afinitor (everolimus) in combination with Aromasin (exemestane) resulted in complete response ongoing for 14 months in a patient with metastatic triple-receptor negative breast cancer harboring STK11 F354L (PMID: 28550065).",
+            "molecularProfile": {
+                "id": 14640,
+                "profileName": "STK11 F354L"
+            },
+            "therapy": {
+                "id": 1966,
+                "therapyName": "Everolimus + Exemestane",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12765,
+                    "pubMedId": 28550065,
+                    "title": "Exceptional durable response to everolimus in a patient with biphenotypic breast cancer harboring an STK11 variant.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28550065"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 14640,
+            "profileName": "STK11 F354L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 8455,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "STK11 F354L"
+                },
+                {
+                    "id": 8456,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "STK11 F354L"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 100423,
+            "transcript": "NM_000455",
+            "gDna": "chr19:g.1223124T>C",
+            "cDna": "c.1060T>C",
+            "protein": "p.F354L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 100424,
+            "transcript": "XM_005259617",
+            "gDna": "chr19:g.1223124T>C",
+            "cDna": "c.1060T>C",
+            "protein": "p.F354L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 100425,
+            "transcript": "XM_005259618",
+            "gDna": "chr19:g.1223124T>C",
+            "cDna": "c.1060T>C",
+            "protein": "p.F354L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

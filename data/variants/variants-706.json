@@ -1,0 +1,204 @@
+{
+    "id": 706,
+    "fullName": "MET R988C",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET R988C (corresponds to R970C in the canonical isoform) lies within the juxtamembrane domain of the Met protein (PMID: 14559814, UniProt.org). R988C does not increase Met phosphorylation, but results in increased phosphorylation of cellular proteins, and increased proliferation and migration of cultured cells (PMID: 14559814, PMID: 20670955, PMID: 22973954, PMID: 31004003).",
+            "references": [
+                {
+                    "id": 332,
+                    "pubMedId": 14559814,
+                    "title": "c-MET mutational analysis in small cell lung cancer: novel juxtamembrane domain mutations regulating cytoskeletal functions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14559814"
+                },
+                {
+                    "id": 2198,
+                    "pubMedId": 20670955,
+                    "title": "MET receptor sequence variants R970C and T992I lack transforming capacity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20670955"
+                },
+                {
+                    "id": 15528,
+                    "pubMedId": 31004003,
+                    "title": "A Constitutional Activating MET Mutation Makes the Genetic Link between Malignancies and Chronic Inflammatory Diseases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31004003"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2053,
+                    "pubMedId": 22973954,
+                    "title": "Detection and therapeutic implications of c-Met mutations in small cell lung cancer and neuroendocrine tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22973954"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "R988C",
+    "createDate": "06/06/2014",
+    "updateDate": "07/06/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 144886,
+        "transcript": "NM_001127500",
+        "gDna": "chr7:g.116771869C>T",
+        "cDna": "c.2962C>T",
+        "protein": "p.R988C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 559,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing MET R998C demonstrated sensitivity to Xalkori (crizotinib) in culture (PMID: 17483355).",
+            "molecularProfile": {
+                "id": 810,
+                "profileName": "MET R988C"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 333,
+                    "pubMedId": 17483355,
+                    "title": "An orally available small-molecule inhibitor of c-Met, PF-2341066, exhibits cytoreductive antitumor efficacy through antiproliferative and antiangiogenic mechanisms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17483355"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7766,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a GIST patient harboring KIT S476I and MET R988C demonstrated sensitivity to the combination treatment, Nexavar (sorafenib) and Avastin (bevacizumab), resulting in stable disease for 6 months (PMID: 25363205).",
+            "molecularProfile": {
+                "id": 26035,
+                "profileName": "KIT S476I MET R988C"
+            },
+            "therapy": {
+                "id": 4517,
+                "therapyName": "Bevacizumab + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6478,
+                    "pubMedId": 25363205,
+                    "title": "Dual antiangiogenic inhibition: a phase I dose escalation and expansion trial targeting VEGF-A and VEGFR in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25363205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12893,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "n a clinical study (AMNESIA-1), assessment of pre-treatment tumor samples from ERBB2 (HER2)-positive (defined as HER2 IHC 3+ or HER2 IHC 2+/ISH+) gastric or gastroesophageal cancer patients identified MET R988C and amplification of MET in 1 patient demonstrating primary resistance to Herceptin (trastuzumab) (PMID: 29208673).",
+            "molecularProfile": {
+                "id": 29000,
+                "profileName": "ERBB2 over exp MET R988C MET amp"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10846,
+                    "pubMedId": 29208673,
+                    "title": "Biomarkers of Primary Resistance to Trastuzumab in HER2-Positive Metastatic Gastric Cancer Patients: the AMNESIA Case-Control Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29208673"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 810,
+            "profileName": "MET R988C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1516,
+                    "name": "MET Inhibitor",
+                    "profileName": "MET R988C"
+                }
+            ]
+        },
+        {
+            "id": 26035,
+            "profileName": "KIT S476I MET R988C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29000,
+            "profileName": "ERBB2 over exp MET R988C MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144886,
+            "transcript": "NM_001127500",
+            "gDna": "chr7:g.116771869C>T",
+            "cDna": "c.2962C>T",
+            "protein": "p.R988C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

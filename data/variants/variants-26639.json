@@ -1,0 +1,244 @@
+{
+    "id": 26639,
+    "fullName": "XPO1 E571K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "XPO1 E571K lies within the HEAT repeat 5 of the Xpo1 protein (UniProt.org). E571K demonstrates similar cell proliferation and viability levels as wild-type Xpo1 in one study (PMID: 29533785), however, confers a gain of function to the Xpo1 protein as demonstrated by aberrant protein localization due to increased affinity for nuclear export signal sequences with negatively charged C-termini in culture (PMID: 27312238, PMID: 31285298), increased tumorigenesis, B-cell proliferation and transformation, splenomegaly, and lethality in mouse models, and altered immune signaling and inflammatory response as demonstrated by elevated Nf-kappaB and Nfat activity in both patient and mouse cells in culture (PMID: 31285298).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 9053,
+                    "pubMedId": 27312238,
+                    "title": "A cellular reporter to evaluate CRM1 nuclear export activity: functional analysis of the cancer-related mutant E571K.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312238"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 17771,
+                    "pubMedId": 31285298,
+                    "title": "Altered Nuclear Export Signal Recognition as a Driver of Oncogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31285298"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7514,
+        "geneSymbol": "XPO1",
+        "terms": [
+            "XPO1",
+            "CRM-1",
+            "CRM1",
+            "emb",
+            "exp1"
+        ]
+    },
+    "variant": "E571K",
+    "createDate": "06/01/2017",
+    "updateDate": "02/06/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 86607,
+        "transcript": "NM_003400",
+        "gDna": "chr2:g.61492337C>T",
+        "cDna": "c.1711G>A",
+        "protein": "p.E571K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11060,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XPO1 E571K did not alter the sensitivity of chronic myeloid leukemia (CML) to Selinexor (KPT-330) compared to CML cells with wild-type XPO1, in culture (PMID: 27780859).",
+            "molecularProfile": {
+                "id": 27906,
+                "profileName": "XPO1 E571K"
+            },
+            "therapy": {
+                "id": 1749,
+                "therapyName": "Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8936,
+                    "pubMedId": 27780859,
+                    "title": "The Second-Generation Exportin-1 Inhibitor KPT-8602 Demonstrates Potent Activity against Acute Lymphoblastic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11059,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XPO1 E571K did not alter the sensitivity of chronic myeloid leukemia (CML) to KPT-8602 compared to CML cells with wild-type XPO1 in culture (PMID: 27780859).",
+            "molecularProfile": {
+                "id": 27906,
+                "profileName": "XPO1 E571K"
+            },
+            "therapy": {
+                "id": 5687,
+                "therapyName": "KPT-8602",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8936,
+                    "pubMedId": 27780859,
+                    "title": "The Second-Generation Exportin-1 Inhibitor KPT-8602 Demonstrates Potent Activity against Acute Lymphoblastic Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780859"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20318,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, B-cell lymphoma cell lines harboring XPO1 E571K were sensitive to treatment with Xpovio (selinexor) in culture, and in cell line xenograft models, resulting in improved survival (PMID: 31285298).",
+            "molecularProfile": {
+                "id": 27906,
+                "profileName": "XPO1 E571K"
+            },
+            "therapy": {
+                "id": 1749,
+                "therapyName": "Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 707,
+                "name": "B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17771,
+                    "pubMedId": 31285298,
+                    "title": "Altered Nuclear Export Signal Recognition as a Driver of Oncogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31285298"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20780,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, chronic lymphocytic leukemia cells harboring XPO1 E571K with BCL2 overexpression were sensitive to Xpovio (selinexor) treatment in culture and when engrafted into secondary recipients in mouse models (PMID: 31285298).",
+            "molecularProfile": {
+                "id": 35333,
+                "profileName": "BCL2 over exp XPO1 E571K"
+            },
+            "therapy": {
+                "id": 1749,
+                "therapyName": "Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17771,
+                    "pubMedId": 31285298,
+                    "title": "Altered Nuclear Export Signal Recognition as a Driver of Oncogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31285298"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27906,
+            "profileName": "XPO1 E571K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35333,
+            "profileName": "BCL2 over exp XPO1 E571K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 86605,
+            "transcript": "XM_011533097",
+            "gDna": "chr2:g.61492337C>T",
+            "cDna": "c.1711G>A",
+            "protein": "p.E571K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 86606,
+            "transcript": "XM_006712094",
+            "gDna": "chr2:g.61492337C>T",
+            "cDna": "c.1711G>A",
+            "protein": "p.E571K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 86607,
+            "transcript": "NM_003400",
+            "gDna": "chr2:g.61492337C>T",
+            "cDna": "c.1711G>A",
+            "protein": "p.E571K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 86608,
+            "transcript": "XM_011533098",
+            "gDna": "chr2:g.61492337C>T",
+            "cDna": "c.1711G>A",
+            "protein": "p.E571K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

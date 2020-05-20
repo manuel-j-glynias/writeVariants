@@ -1,0 +1,170 @@
+{
+    "id": 3396,
+    "fullName": "KIT D820V",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT D820V lies within the protein kinase domain of the Kit protein (UniProt.org). D820V has been identified as a secondary mutation associated with imatinib resistant (PMID: 18294292), but has not been biochemically characterized and therefore, its effect on Kit protein function is unknown (PubMed, Sep 2019).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11778,
+                    "pubMedId": 18294292,
+                    "title": "Secondary mutations in the kinase domain of the KIT gene are predominant in imatinib-resistant gastrointestinal stromal tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18294292"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "D820V",
+    "createDate": "02/26/2015",
+    "updateDate": "09/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136108,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54733167A>T",
+        "cDna": "c.2459A>T",
+        "protein": "p.D820V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12313,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Ayvakit (avapritinib) treatment resulted in tumor reduction lasting through 15 cycles of treatment in a patient with gastrointestinal stromal tumor harboring KIT D820V, whose disease had progressed on previous Gleevec (imatinib), Sutent (sunitinib), and Stivarga (regorafenib) treatment (PMID: 29093181; NCT02508532).",
+            "molecularProfile": {
+                "id": 3206,
+                "profileName": "KIT D820V"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10301,
+                    "pubMedId": 29093181,
+                    "title": "A precision therapy against cancers driven by KIT/PDGFRA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29093181"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14617,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, KIT D816E and D820V were identified as secondary mutations in a patient with gastrointestinal stromal tumor harboring KIT W557_K558del who developed resistance to Gleevec (imatinib) (PMID: 18294292).",
+            "molecularProfile": {
+                "id": 31758,
+                "profileName": "KIT W557_K558del KIT D816E KIT D820V"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11778,
+                    "pubMedId": 18294292,
+                    "title": "Secondary mutations in the kinase domain of the KIT gene are predominant in imatinib-resistant gastrointestinal stromal tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18294292"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3206,
+            "profileName": "KIT D820V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1473,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT D820V"
+                }
+            ]
+        },
+        {
+            "id": 30368,
+            "profileName": "KIT D816E KIT D820V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31758,
+            "profileName": "KIT W557_K558del KIT D816E KIT D820V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136108,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54733167A>T",
+            "cDna": "c.2459A>T",
+            "protein": "p.D820V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136109,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54733167A>T",
+            "cDna": "c.2459A>T",
+            "protein": "p.D820V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

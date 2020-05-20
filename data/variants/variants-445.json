@@ -1,0 +1,1077 @@
+{
+    "id": 445,
+    "fullName": "EGFR G719S",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR G719S lies within the phosphate-binding \u201cP loop\u201d in the protein kinase domain of the Egfr protein (PMID: 17349580). G719S results in constitutive ligand-independent phosphorylation of Egfr, activation of Stat5, Erk1/2, and Akt, and is transforming in cell culture (PMID: 16204070, PMID: 24894453, PMID: 18573086, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 9916,
+                    "pubMedId": 18573086,
+                    "title": "Structure-based view of epidermal growth factor receptor regulation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18573086"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 1125,
+                    "pubMedId": 24894453,
+                    "title": "Colon cancer-derived oncogenic EGFR G724S mutant identified by whole genome sequence analysis is dependent on asymmetric dimerization and sensitive to cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24894453"
+                },
+                {
+                    "id": 438,
+                    "pubMedId": 17349580,
+                    "title": "Structures of lung cancer-derived EGFR mutants and inhibitor complexes: mechanism of activation and insights into differential inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17349580"
+                },
+                {
+                    "id": 1124,
+                    "pubMedId": 16204070,
+                    "title": "Epidermal growth factor-independent transformation of Ba/F3 cells with cancer-derived epidermal growth factor receptor mutants induces gefitinib-sensitive cell cycle progression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16204070"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "G719S",
+    "createDate": "05/02/2014",
+    "updateDate": "09/06/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135654,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174014G>A",
+        "cDna": "c.2155G>A",
+        "protein": "p.G719S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16559,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) reduced tumor growth in a colorectal cancer cell line xenograft model harboring EGFR G719S (PMID: 30872380).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14625,
+                    "pubMedId": 30872380,
+                    "title": "TAS-121, A Selective Mutant EGFR Inhibitor, Shows Activity Against Tumors Expressing Various EGFR Mutations Including T790M and Uncommon Mutations G719X.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30872380"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16562,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a non-small cell lung cancer patient harboring EGFR G719S demonstrated 55% tumor shrinkage following treatment with TAS-121 (PMID: 30872380).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 8103,
+                "therapyName": "TAS-121",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14625,
+                    "pubMedId": 30872380,
+                    "title": "TAS-121, A Selective Mutant EGFR Inhibitor, Shows Activity Against Tumors Expressing Various EGFR Mutations Including T790M and Uncommon Mutations G719X.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30872380"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19037,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in tumor reduction after 2 months of treatment in a patient with metastatic lung adenocarcinoma harboring EGFR G719S, and the patient stayed on treatment after 4 months (PMID: 21841502).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16690,
+                    "pubMedId": 21841502,
+                    "title": "Activity of epidermal growth factor receptor-tyrosine kinase inhibitors in patients with non-small cell lung cancer harboring rare epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21841502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 767,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFR G719S was demonstrated to stabilize the active conformation of Egfr and result in increased sensitivity of Egfr to Iressa (gefitinib) in in vitro assays compared to wild-type Egfr (PMID: 17349580).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 438,
+                    "pubMedId": 17349580,
+                    "title": "Structures of lung cancer-derived EGFR mutants and inhibitor complexes: mechanism of activation and insights into differential inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17349580"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 768,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, analysis of published studies demonstrated that 78% (14/18) of non-small cell lung cancer patients harboring an EGFR G719 mutation, resulting in G719A, C, D, or S were found to achieve disease control following treatment Tarceva (erlotinib) or Iressa (gefitinib) (PMID: 23344264).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1,
+                    "pubMedId": 23344264,
+                    "title": "DNA-Mutation Inventory to Refine and Enhance Cancer Treatment (DIRECT): a catalog of clinically relevant cancer mutations to enable genome-directed anticancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23344264"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12470,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR G719S were resistant to treatment with Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 766,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, analysis of published studies demonstrated that 78% (14/18) of non-small cell lung cancer patients harboring an EGFR G719 mutation, resulting in G719A, C, D, or S, were found to achieve disease control following treatment Tarceva (erlotinib) or Iressa (gefitinib) (PMID: 23344264).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 1,
+                    "pubMedId": 23344264,
+                    "title": "DNA-Mutation Inventory to Refine and Enhance Cancer Treatment (DIRECT): a catalog of clinically relevant cancer mutations to enable genome-directed anticancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23344264"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12469,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR G719S were sensitive to treatment with Tagrisso (osimertinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16558,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS-121 reduced tumor growth in a colorectal cancer cell line xenograft model harboring EGFR G719S (PMID: 30872380).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 8103,
+                "therapyName": "TAS-121",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14625,
+                    "pubMedId": 30872380,
+                    "title": "TAS-121, A Selective Mutant EGFR Inhibitor, Shows Activity Against Tumors Expressing Various EGFR Mutations Including T790M and Uncommon Mutations G719X.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30872380"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 762,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In Phase III trials, non-small cell lung carcinoma patients harboring EGFR G719X mutations (G719A, C, or S) demonstrated a response rate of 78% (14/18) following treatment with Gilotrif (afatinib) (PMID: 24790411, PMID: 23344264).",
+            "molecularProfile": {
+                "id": 649,
+                "profileName": "EGFR G719S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1,
+                    "pubMedId": 23344264,
+                    "title": "DNA-Mutation Inventory to Refine and Enhance Cancer Treatment (DIRECT): a catalog of clinically relevant cancer mutations to enable genome-directed anticancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23344264"
+                },
+                {
+                    "id": 2366,
+                    "pubMedId": 24790411,
+                    "title": "Clinical and comparative utility of afatinib in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24790411"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6493,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring MAP2K1 mutations Q56P, H119Y, and D351G and an EGFR G719S mutation demonstrated some sensitivity to Mekinist (trametinib) in culture, resulting in decreased cell viability (PMID: 26582713).",
+            "molecularProfile": {
+                "id": 23597,
+                "profileName": "EGFR G719S MAP2K1 Q56P MAP2K1 H119Y MAP2K1 D351G"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5602,
+                    "pubMedId": 26582713,
+                    "title": "Identification of an \"Exceptional Responder\" Cell Line to MEK1 Inhibition: Clinical Implications for MEK-Targeted Therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26582713"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12629,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tagrisso (osimertinib) treatment resulted in disease progression after 3 months in a patient with lung adenocarcinoma harboring EGFR G719S and an acquired EGFR T790M, after her disease progressed while on Tarceva (erlotinib) and then on Gilotrif (afatinib) treatments (PMID: 29285266).",
+            "molecularProfile": {
+                "id": 28794,
+                "profileName": "EGFR G719S EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10505,
+                    "pubMedId": 29285266,
+                    "title": "Characterization of the efficacies of osimertinib and nazartinib against cells expressing clinically relevant epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29285266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12627,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, EGFR T790M was identified as an acquired mutation in the tumor of a patient with lung adenocarcinoma harboring EGFR G719S, after her disease progressed while on Tarceva (erlotinib) and then on Gilotrif (afatinib) treatments (PMID: 29285266).",
+            "molecularProfile": {
+                "id": 28794,
+                "profileName": "EGFR G719S EGFR T790M"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10505,
+                    "pubMedId": 29285266,
+                    "title": "Characterization of the efficacies of osimertinib and nazartinib against cells expressing clinically relevant epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29285266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17239,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DZD9008 resulted in tumor growth inhibition and regression in patient-derived xenograft models of tumor harboring EGFR G719S and L861Q (PDX) (AACR Annual Meeting 2019, Abstract 3081).",
+            "molecularProfile": {
+                "id": 30541,
+                "profileName": "EGFR G719S EGFR L861Q"
+            },
+            "therapy": {
+                "id": 8430,
+                "therapyName": "DZD9008",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15248,
+                    "pubMedId": null,
+                    "title": "DZD9008, an oral, wild type selective EGFR inhibitor for the treatment of non-small-cell lung cancer with Exon20 insertion and other activating mutations",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/7519"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15011,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Iressa (gefitinib) treatment resulted in disease progression within 2 months of treatment in a patient with non-small cell lung carcinoma harboring EGFR G719S and L861Q (PMID: 15897572).",
+            "molecularProfile": {
+                "id": 30541,
+                "profileName": "EGFR G719S EGFR L861Q"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4837,
+                    "pubMedId": 15897572,
+                    "title": "Mutation in the tyrosine kinase domain of epidermal growth factor receptor is a predictive and prognostic factor for gefitinib treatment in patients with non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15897572"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17565,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) resulted in decreased growth of transformed cells expressing EGFR L62R and EGFR G719S in trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32681,
+                "profileName": "EGFR L62R EGFR G719S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17561,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L62R and EGFR G719S in trans were resistant to Iressa (gefitinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32681,
+                "profileName": "EGFR L62R EGFR G719S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17562,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L62R and EGFR G719S in trans were resistant to Tarceva (erlotinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32681,
+                "profileName": "EGFR L62R EGFR G719S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17569,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709A and EGFR G719S in cis and trans were resistant to Tarceva (erlotinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32682,
+                "profileName": "EGFR E709A EGFR G719S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17571,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709A and EGFR G719C in trans were sensitive to treatment with Tagrisso (osimertinib), but when expressed in cis, demonstrated resistance in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32682,
+                "profileName": "EGFR E709A EGFR G719S"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17572,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709A and EGFR G719C in trans were resistant to Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32682,
+                "profileName": "EGFR E709A EGFR G719S"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20093,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in stable disease with a progression-free survival of 7 months in a patient with non-small cell lung cancer harboring EGFR E709A and EGFR G719S (PMID: 31715539).",
+            "molecularProfile": {
+                "id": 32682,
+                "profileName": "EGFR E709A EGFR G719S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17697,
+                    "pubMedId": 31715539,
+                    "title": "Detection of rare and novel EGFR mutations in NSCLC patients: Implications for treatment-decision.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31715539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17567,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E709A and EGFR G719S in cis and trans were resistant to Iressa (gefitinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32682,
+                "profileName": "EGFR E709A EGFR G719S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17570,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) resulted in decreased growth of transformed cells expressing EGFR E709A and EGFR G719S in cis in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32682,
+                "profileName": "EGFR E709A EGFR G719S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17910,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR G719S and EGFR S768I in cis and trans were sensitive to Gilotrif (afatinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32882,
+                "profileName": "EGFR G719S EGFR S768I"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17909,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR G719S and EGFR S768I in cis and trans were resistant to Tarceva (erlotinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32882,
+                "profileName": "EGFR G719S EGFR S768I"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17908,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR G719S and EGFR S768I in trans were resistant to Iressa (gefitinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32882,
+                "profileName": "EGFR G719S EGFR S768I"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17911,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR G719S and EGFR S768I in cis and trans were resistant to Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32882,
+                "profileName": "EGFR G719S EGFR S768I"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19660,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung cancer co-harboring EGFR E709K and EGFR G719S demonstrated a partial response with progression-free survival of 11.1 mo and overall survival of 11.1 mo when treated with Iressa (gefitinib) (PMID: 27785061).",
+            "molecularProfile": {
+                "id": 34390,
+                "profileName": "EGFR E709K EGFR G719S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17447,
+                    "pubMedId": 27785061,
+                    "title": "Effectiveness of tyrosine kinase inhibitors on uncommon E709X epidermal growth factor receptor mutations in non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27785061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 649,
+            "profileName": "EGFR G719S",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7163,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR G719S"
+                },
+                {
+                    "id": 7162,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR G719S"
+                },
+                {
+                    "id": 7167,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR G719S"
+                },
+                {
+                    "id": 7165,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR G719S"
+                },
+                {
+                    "id": 7164,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR G719S"
+                },
+                {
+                    "id": 7166,
+                    "name": "Neratinib",
+                    "profileName": "EGFR G719S"
+                }
+            ]
+        },
+        {
+            "id": 23597,
+            "profileName": "EGFR G719S MAP2K1 Q56P MAP2K1 H119Y MAP2K1 D351G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28794,
+            "profileName": "EGFR G719S EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30541,
+            "profileName": "EGFR G719S EGFR L861Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32681,
+            "profileName": "EGFR L62R EGFR G719S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32682,
+            "profileName": "EGFR E709A EGFR G719S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32882,
+            "profileName": "EGFR G719S EGFR S768I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34390,
+            "profileName": "EGFR E709K EGFR G719S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135654,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174014G>A",
+            "cDna": "c.2155G>A",
+            "protein": "p.G719S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

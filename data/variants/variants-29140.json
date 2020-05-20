@@ -1,0 +1,205 @@
+{
+    "id": 29140,
+    "fullName": "KRAS over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS over exp indicates an over expression of the Kras protein and/or mRNA. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "12/28/2018",
+    "updateDate": "07/31/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19307,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Mekinist (trametinib) with Xalkori (crizotinib) restored sensitivity to Xalkori (crizotinib) in transformed cells expressing a MET exon 14 skipping mutation and overexpressing KRAS in culture (PMID: 31548343).",
+            "molecularProfile": {
+                "id": 31074,
+                "profileName": "KRAS over exp MET del exon14"
+            },
+            "therapy": {
+                "id": 4480,
+                "therapyName": "Crizotinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16918,
+                    "pubMedId": 31548343,
+                    "title": "Co-occurring Alterations in the RAS-MAPK Pathway Limit Response to MET Inhibitor Treatment in MET Exon 14 Skipping Mutation-Positive Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31548343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19306,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of KRAS in transformed cells expressing a MET exon 14 skipping mutation induced resistance to Xalkori (crizotinib) in culture (PMID: 31548343).",
+            "molecularProfile": {
+                "id": 31074,
+                "profileName": "KRAS over exp MET del exon14"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16918,
+                    "pubMedId": 31548343,
+                    "title": "Co-occurring Alterations in the RAS-MAPK Pathway Limit Response to MET Inhibitor Treatment in MET Exon 14 Skipping Mutation-Positive Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31548343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15524,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, gastric cancer cells harboring a MET exon 14 splice site mutation demonstrated some resistance to treatment with Xalkori (crizotinib) when overexpressing wild-type Kras in culture (PMID: 30072474).",
+            "molecularProfile": {
+                "id": 31074,
+                "profileName": "KRAS over exp MET del exon14"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13406,
+                    "pubMedId": 30072474,
+                    "title": "Amplification of Wild-type KRAS Imparts Resistance to Crizotinib in MET Exon 14 Mutant Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30072474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16595,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of wild-type KRAS in colorectal cancer cell lines harboring BRAF V600E induced Ras activation and Braf/Craf dimerization, conferred resistance to Erbitux (cetuximab) and Zelboraf (vemurafenib) combination treatment in culture and in cell line xenograft models (PMID: 28951457).",
+            "molecularProfile": {
+                "id": 31709,
+                "profileName": "BRAF V600E KRAS over exp"
+            },
+            "therapy": {
+                "id": 1711,
+                "therapyName": "Cetuximab + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14634,
+                    "pubMedId": 28951457,
+                    "title": "Mechanisms of Acquired Resistance to BRAF V600E Inhibition in Colon Cancers Converge on RAF Dimerization and Are Sensitive to Its Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28951457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31073,
+            "profileName": "KRAS over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31074,
+            "profileName": "KRAS over exp MET del exon14",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31709,
+            "profileName": "BRAF V600E KRAS over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

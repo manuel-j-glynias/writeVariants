@@ -1,0 +1,138 @@
+{
+    "id": 26901,
+    "fullName": "TP53 L114fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 L114fs results in a change in the amino acid sequence of the Tp53 protein beginning at aa 114 of 393, likely resulting in premature truncation of the functional protein (UniProt.org). Due to disruption of the DNA binding region and loss of the oligomerization domain (UniProt.org), L114fs is predicted to lead to a loss of Tp53 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "L114fs",
+    "createDate": "08/22/2017",
+    "updateDate": "08/22/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 94696,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.(7676029_7676030)",
+        "cDna": "c.(340_339)",
+        "protein": "p.L114fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11777,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Paraplatin (carboplatin) and Adavosertib (MK-1775) combination treatment resulted in partial response in an ovarian cancer patient harboring TP53 L114fs and mutations in CCNE1 (PMID: 27998224).",
+            "molecularProfile": {
+                "id": 28238,
+                "profileName": "CCNE1 mut TP53 L114fs"
+            },
+            "therapy": {
+                "id": 1194,
+                "therapyName": "Adavosertib + Carboplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9762,
+                    "pubMedId": 27998224,
+                    "title": "Phase II Study of WEE1 Inhibitor AZD1775 Plus Carboplatin in Patients With TP53-Mutated Ovarian Cancer Refractory or Resistant to First-Line Therapy Within 3 Months.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27998224"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28226,
+            "profileName": "TP53 L114fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14692,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 L114fs"
+                }
+            ]
+        },
+        {
+            "id": 28238,
+            "profileName": "CCNE1 mut TP53 L114fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 94695,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.(7676029_7676030)",
+            "cDna": "c.(340_339)",
+            "protein": "p.L114fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94698,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.(7676029_7676030)",
+            "cDna": "c.(340_339)",
+            "protein": "p.L114fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94697,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.(7676029_7676030)",
+            "cDna": "c.(340_339)",
+            "protein": "p.L114fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94696,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.(7676029_7676030)",
+            "cDna": "c.(340_339)",
+            "protein": "p.L114fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

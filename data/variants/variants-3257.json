@@ -1,0 +1,144 @@
+{
+    "id": 3257,
+    "fullName": "EGFR T751_I759del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR T751_I759del results in the deletion of nine amino acids in the protein kinase domain of the Egfr protein from amino acids 751 to 759 (UniProt.org). T751_I759del has not been biochemically characterized, but is predicted to lead to a gain of function based on the effect of other Egfr exon 19 deletion mutations (PMID: 16373402, PMID: 23387505).",
+            "references": [
+                {
+                    "id": 441,
+                    "pubMedId": 23387505,
+                    "title": "Sensitivity and kinase activity of epidermal growth factor receptor (EGFR) exon 19 and others to EGFR-tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23387505"
+                },
+                {
+                    "id": 1804,
+                    "pubMedId": 16373402,
+                    "title": "Dimerization and the signal transduction pathway of a small in-frame deletion in the epidermal growth factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16373402"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "T751_I759del",
+    "createDate": "02/20/2015",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135934,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174788_55174814del27",
+        "cDna": "c.2251_2277del27",
+        "protein": "p.T751_I759delTSPKANKEI",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17648,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Gilotrif (afatinib) treatment resulted in a partial response with an ongoing progression-free survival of 24 months in a patient with non-small cell lung cancer harboring both EGFR T751_I759del and EGFR L798F (PMID: 31175009).",
+            "molecularProfile": {
+                "id": 32725,
+                "profileName": "EGFR T751_I759del EGFR L798F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15702,
+                    "pubMedId": 31175009,
+                    "title": "Clinical Impact of Rare and Compound Mutations of Epidermal Growth Factor Receptor in Patients With Non-Small-Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31175009"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3076,
+            "profileName": "EGFR T751_I759del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4723,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR T751_I759del"
+                },
+                {
+                    "id": 4724,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR T751_I759del"
+                },
+                {
+                    "id": 4725,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR T751_I759del"
+                },
+                {
+                    "id": 4726,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR T751_I759del"
+                },
+                {
+                    "id": 4727,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR T751_I759del"
+                }
+            ]
+        },
+        {
+            "id": 32725,
+            "profileName": "EGFR T751_I759del EGFR L798F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135934,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174788_55174814del27",
+            "cDna": "c.2251_2277del27",
+            "protein": "p.T751_I759delTSPKANKEI",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,1094 @@
+{
+    "id": 50,
+    "fullName": "BRAF V600K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF V600K (previously reported as V599) lies within the activation segment of the kinase domain of the Braf protein (PMID: 15035987). V600K confers a gain of function to the Braf protein as demonstrated by increased kinase activity, downstream signaling, and the ability to transform cells in vitro (PMID: 15035987, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 146,
+                    "pubMedId": 15035987,
+                    "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15035987"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "V600K",
+    "createDate": "01/17/2014",
+    "updateDate": "04/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109422,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753336_140753337delACinsTT",
+        "cDna": "c.1798_1799delGTinsAA",
+        "protein": "p.V600K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20142,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment resulted in a objective response rate of 44.8% (43/96), median duration of response of 6.4 months, median progression-free survival (PFS) of 5.2 months, and median overall survival of 10 months in non-small cell lung cancer patients with BRAF V600 mutations, with a PFS of 2.1 and 6.8 months in the 2 patients harboring BRAF V600K (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15734,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with melanoma harboring BRAF V600K (n=19) had increased tumor mutational burden and greater response rates (53% vs. 29%, p=0.059), progression-free survival (19 vs. 2.7 months, p=0.049), and overall survival (20.4 vs. 11.7 months, p=0.081) relative to patients with BRAF V600E (n=84) when treated with Keytruda (pembrolizumab) (n=17 and 62 for BRAF V600K and V600E, respectively) or Opdivo (nivolumab) (n=2 and 22 for BRAF V600K and V600E, respectively) (PMID: 30630828).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13705,
+                    "pubMedId": 30630828,
+                    "title": "Distinct Molecular Profiles and Immunotherapy Treatment Outcomes of V600E and V600K BRAF-Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30630828"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1508,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) therapy is included in guidelines for cutaneous melanoma patients with unresectable or metastatic disease harboring BRAF V600 activating mutations, such as BRAF V600K, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12925,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) therapy is included in guidelines for cutaneous melanoma patients with unresectable or metastatic disease harboring BRAF V600 activating mutations, such as BRAF V600K, in cases where BRAF/MEK inhibitor combination therapy is contraindicated (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12835,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (COMBI-v) that supported FDA approval, the combination of Tafinlar (dabrafenib) and Mekinist (trametinib) resulted in an improved overall survival rate at 12 months (72% vs 65%, HR=0.69, p=0.005), median progression-free survival (11.4 vs 7.3 months, HR=0.56, p<0.001), and objective response rate (64% vs 51%, p<0.001) compared to Zelboraf (vemurafenib) in melanoma patients harboring BRAF V600E or V600K (PMID: 25399551; NCT01597908).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10781,
+                    "pubMedId": 25399551,
+                    "title": "Improved overall survival in melanoma with combined dabrafenib and trametinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25399551"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15458,
+                    "pubMedId": null,
+                    "title": "Tafinlar (dabrafenib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=202806"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16954,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III (COLUMBUS) trial that supported FDA approval, Braftovi (encorafenib) in combination with Mektovi (binimetinib) resulted in a median overall survival (OS) of 33.6 months, a 1-year OS rate of 77.5%, and a 2-year OS rate of 57.7% in patients with advanced melanoma harboring BRAF V600E/K mutations compared to a median OS of 16.9 months and 1- and 2-year OS rates of 63.1% and 43.2%, respectively, in the Zelboraf (vemurafenib) treated group (PMID: 30219628; NCT01909453).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1100,
+                "therapyName": "Binimetinib + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14457,
+                    "pubMedId": 30219628,
+                    "title": "Overall survival in patients with BRAF-mutant melanoma receiving encorafenib plus binimetinib versus vemurafenib or encorafenib (COLUMBUS): a multicentre, open-label, randomised, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30219628"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15455,
+                    "pubMedId": null,
+                    "title": "Braftovi (encorafenib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=210496"
+                },
+                {
+                    "id": 15456,
+                    "pubMedId": null,
+                    "title": "Mektovi (binimetinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=210498"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16955,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III (COLUMBUS) trial that supported FDA approval, Braftovi (encorafenib) in combination with Mektovi (binimetinib) demonstrated improved tolerability profile and efficacy, resulted in a progression-free survival of 14.9 months in patients with advanced melanoma harboring BRAF V600E/K mutations, comparing to 7.3 months in the Zelboraf (vemurafenib) group (HR=0.54, p<0.0001) (PMID: 29573941; NCT01909453) and both BRAF V600E and BRAF V600K are on the companion diagnostic.",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1100,
+                "therapyName": "Binimetinib + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11562,
+                    "pubMedId": 29573941,
+                    "title": "Encorafenib plus binimetinib versus vemurafenib or encorafenib in patients with BRAF-mutant melanoma (COLUMBUS): a multicentre, open-label, randomised phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29573941"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15455,
+                    "pubMedId": null,
+                    "title": "Braftovi (encorafenib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=210496"
+                },
+                {
+                    "id": 15456,
+                    "pubMedId": null,
+                    "title": "Mektovi (binimetinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=210498"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15735,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, patients with melanoma harboring BRAF V600K (n=19) had increased tumor mutational burden and greater response rates (53% vs. 29%, p=0.059), progression-free survival (19 vs. 2.7 months, p=0.049), and overall survival (20.4 vs. 11.7 months, p=0.081) relative to patients with BRAF V600E (n=84) when treated with Keytruda (pembrolizumab) (n=17 and 62 for BRAF V600K and V600E, respectively) or Opdivo (nivolumab) (n=2 and 22 for BRAF V600K and V600E, respectively) (PMID: 30630828).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13705,
+                    "pubMedId": 30630828,
+                    "title": "Distinct Molecular Profiles and Immunotherapy Treatment Outcomes of V600E and V600K BRAF-Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30630828"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16949,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "The combination of Tafinlar (dabrafenib) and Mekinist (trametinib) is included in guidelines as first or second-line therapy in patients with metastatic non-small cell lung cancer harboring a BRAF V600 mutation (PMID: 30715168, PMID: 30285222; ESMO.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15115,
+                    "pubMedId": null,
+                    "title": "ESMO Clinical Practice Guidelines",
+                    "url": "https://www.esmo.org/Guidelines"
+                },
+                {
+                    "id": 15431,
+                    "pubMedId": 30715168,
+                    "title": "Metastatic non-small cell lung cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30715168"
+                },
+                {
+                    "id": 15432,
+                    "pubMedId": 30285222,
+                    "title": "Metastatic non-small cell lung cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30285222"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19286,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Braftovi (encorafenib) in combination with Mektovi (binimetinib) is included in guidelines as first-line and second-line therapy for patients with metastatic or unresectable cutaneous melanoma harboring BRAF V600E or V600K mutations (PMID: 30959471; NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1100,
+                "therapyName": "Binimetinib + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                },
+                {
+                    "id": 15109,
+                    "pubMedId": 30959471,
+                    "title": "Cutaneous Melanoma, Version 2.2019, NCCN Clinical Practice Guidelines in Oncology.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30959471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12839,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (METRIC) that supported FDA approval, Mekinist (trametinib) treatment, as compared to Deticine (dacarbazine) or Taxol (paclitaxel) treatment, resulted in improved progression-free survival of 4.8 months versus 1.5 months and an overall six month survival rate of 81% versus 67% in patients with BRAF V600E/K-positive metastatic melanoma (PMID: 22663011; NCT01245062).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 468,
+                    "pubMedId": 22663011,
+                    "title": "Improved survival with MEK inhibition in BRAF-mutated melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22663011"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15457,
+                    "pubMedId": null,
+                    "title": "Mekinist (trametinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=204114"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5973,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Omipalisib (GSK2126458) inhibited the growth of melanoma cell lines harboring BRAF V600K in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 763,
+                "therapyName": "GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12270,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (coBRIM) that supported FDA approval, treatment with the combination of Zelboraf (vemurafenib) and Cotellic (cobimetinib) resulted in an improved progression-free survival of 12.3 months, compared to 7.2 months with Zelboraf (vemurafenib) plus placebo, among patients with BRAF V600-mutated metastatic melanoma, and BRAF V600E and BRAF V600K are on the companion diagnostic (PMID: 27480103; NCT01689519).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1657,
+                "therapyName": "Cobimetinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10226,
+                    "pubMedId": 27480103,
+                    "title": "Cobimetinib combined with vemurafenib in advanced BRAF(V600)-mutant melanoma (coBRIM): updated efficacy results from a randomised, double-blind, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27480103"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15453,
+                    "pubMedId": null,
+                    "title": "Cotellic (cobimetinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&varApplNo=206192"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19285,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tafinlar (dabrafenib) and Mekinist (trametinib) combination therapy is included in guidelines for melanoma patients harboring a BRAF V600 activating mutation, such as BRAF V600K, as adjuvant therapy for stage III disease and as systemic therapy for patients with unresectable or metastatic disease (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19284,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Zelboraf (vemurafenib) and Cotellic (cobimetinib) combination therapy is included in cutaneous melanoma guidelines for patients with metastatic or unresectable disease harboring a BRAF V600 activating mutation (NCCN.org).",
+            "molecularProfile": {
+                "id": 2,
+                "profileName": "BRAF V600K"
+            },
+            "therapy": {
+                "id": 1657,
+                "therapyName": "Cobimetinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8923,
+                "name": "skin melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5981,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) in combination with Mekinist (trametinib) inhibited growth of melanoma cell lines harboring BRAF V600K and NRAS Q61K in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22095,
+                "profileName": "BRAF V600K NRAS Q61K"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5971,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600K and NRAS Q61K were resistant to Tafinlar (dabrafenib) growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22095,
+                "profileName": "BRAF V600K NRAS Q61K"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5974,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Omipalisib (GSK2126458) inhibited the growth of melanoma cell lines harboring BRAF V600K in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22095,
+                "profileName": "BRAF V600K NRAS Q61K"
+            },
+            "therapy": {
+                "id": 763,
+                "therapyName": "GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5995,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition in melanoma cell lines harboring BRAF V600K and NRAS Q61K in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22095,
+                "profileName": "BRAF V600K NRAS Q61K"
+            },
+            "therapy": {
+                "id": 3027,
+                "therapyName": "GSK2126458 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5996,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition of human melanoma cell lines harboring BRAF V600K and NRAS Q61K in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22095,
+                "profileName": "BRAF V600K NRAS Q61K"
+            },
+            "therapy": {
+                "id": 4004,
+                "therapyName": "Dabrafenib + GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5972,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cell lines harboring BRAF V600K and NRAS Q61K were 3-7 fold less sensitive to growth inhibition by Mekinist (trametinib) than parental cell lines harboring BRAF V600K in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22095,
+                "profileName": "BRAF V600K NRAS Q61K"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7601,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VX-11e inhibited ERK signaling and reduced growth of a melanoma cell line harboring BRAF V600K and MAP2K1 P124Q in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25913,
+                "profileName": "BRAF V600K MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 2804,
+                "therapyName": "VX-11e",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7598,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma cell line harboring BRAF V600K and MAP2K1 P124Q demonstrated decreased sensitivity to Tafinlar (dabrafenib) in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25913,
+                "profileName": "BRAF V600K MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7602,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited ERK signaling and reduced growth of a melanoma cell line harboring BRAF V600K and MAP2K1 P124Q in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25913,
+                "profileName": "BRAF V600K MAP2K1 P124Q"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7603,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited ERK signaling and reduced growth of a melanoma cell line harboring BRAF V600K and MAP2K1 P124L in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25916,
+                "profileName": "BRAF V600K MAP2K1 P124L"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7600,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, VX-11e inhibited ERK signaling and reduced growth of a melanoma cell line harboring BRAF V600K and MAP2K1 P124L in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25916,
+                "profileName": "BRAF V600K MAP2K1 P124L"
+            },
+            "therapy": {
+                "id": 2804,
+                "therapyName": "VX-11e",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7599,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma cell line harboring BRAF V600K and MAP2K1 P124L demonstrated decreased sensitivity to Tafinlar (dabrafenib) in culture (PMID: 25370473).",
+            "molecularProfile": {
+                "id": 25916,
+                "profileName": "BRAF V600K MAP2K1 P124L"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6439,
+                    "pubMedId": 25370473,
+                    "title": "Preexisting MEK1P124 mutations diminish response to BRAF inhibitors in metastatic melanoma patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25370473"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20441,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III (COMBI-AD) trial, Tafinlar (dabrafenib) and Mekinist (trametinib) combination therapy compared to placebo resulted in more benefit (HR=0.49, p<0.0001) in TMB low patients with resected melanoma harboring BRAF V600E or V600K, than in TMB high (HR=0.75, p=0.27) patients, however, TMB was not associated with relapse-free survival in the combination treatment group (PMID: 32007138; NCT01682083).",
+            "molecularProfile": {
+                "id": 35177,
+                "profileName": "BRAF V600K TMB low"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17843,
+                    "pubMedId": 32007138,
+                    "title": "Adjuvant dabrafenib plus trametinib versus placebo in patients with resected, BRAFV600-mutant, stage III melanoma (COMBI-AD): exploratory biomarker analyses from a randomised, phase 3 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32007138"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2,
+            "profileName": "BRAF V600K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14666,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF V600K"
+                },
+                {
+                    "id": 14665,
+                    "name": "BRAF Inhibitor",
+                    "profileName": "BRAF V600K"
+                },
+                {
+                    "id": 14667,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF V600K"
+                },
+                {
+                    "id": 14668,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF V600K"
+                },
+                {
+                    "id": 14669,
+                    "name": "RAF Inhibitor (Pan)",
+                    "profileName": "BRAF V600K"
+                }
+            ]
+        },
+        {
+            "id": 22095,
+            "profileName": "BRAF V600K NRAS Q61K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25913,
+            "profileName": "BRAF V600K MAP2K1 P124Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25916,
+            "profileName": "BRAF V600K MAP2K1 P124L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35177,
+            "profileName": "BRAF V600K TMB low",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109422,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753336_140753337delACinsTT",
+            "cDna": "c.1798_1799delGTinsAA",
+            "protein": "p.V600K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109421,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753336_140753337delACinsTT",
+            "cDna": "c.1798_1799delGTinsAA",
+            "protein": "p.V600K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "id": 26497,
+    "fullName": "AXIN1 G265fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "AXIN1 G265fs results in a change in the amino acid sequence of the Axin1 protein beginning at aa 265 of 862, likely resulting in premature truncation of the functional protein (UniProt.org). Due to the loss of the Dix domain (UniProt.org, PMID: 10330181), G265fs is predicted to lead to a loss of Axin1 protein function.",
+            "references": [
+                {
+                    "id": 3044,
+                    "pubMedId": 10330181,
+                    "title": "DIX domains of Dvl and axin are necessary for protein interactions and their ability to regulate beta-catenin stability.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10330181"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8312,
+        "geneSymbol": "AXIN1",
+        "terms": [
+            "AXIN1",
+            "AXIN",
+            "PPP1R49"
+        ]
+    },
+    "variant": "G265fs",
+    "createDate": "04/28/2017",
+    "updateDate": "04/28/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 166553,
+        "transcript": "NM_003502",
+        "gDna": "chr16:g.(346233_346234)",
+        "cDna": "c.(793_792)",
+        "protein": "p.G265fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10767,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AXIN1 frameshift mutations G265fs and V835fs resulted in reduced Axin1 protein expression, and confered resistance to LGK974 in colorectal cancer cells harboring PTPRK-RSPO3 in culture (PMID: 28100566).",
+            "molecularProfile": {
+                "id": 27772,
+                "profileName": "PTPRK - RSPO3 AXIN1 G265fs AXIN1 V835fs"
+            },
+            "therapy": {
+                "id": 1937,
+                "therapyName": "LGK974",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8748,
+                    "pubMedId": 28100566,
+                    "title": "Loss of AXIN1 drives acquired resistance to WNT pathway blockade in colorectal cancer cells carrying RSPO3 fusions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28100566"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27734,
+            "profileName": "AXIN1 G265fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11308,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "AXIN1 G265fs"
+                }
+            ]
+        },
+        {
+            "id": 27772,
+            "profileName": "PTPRK - RSPO3 AXIN1 G265fs AXIN1 V835fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 166553,
+            "transcript": "NM_003502",
+            "gDna": "chr16:g.(346233_346234)",
+            "cDna": "c.(793_792)",
+            "protein": "p.G265fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 166552,
+            "transcript": "NM_181050",
+            "gDna": "chr16:g.(346233_346234)",
+            "cDna": "c.(793_792)",
+            "protein": "p.G265fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 166551,
+            "transcript": "XM_011522684",
+            "gDna": "chr16:g.(346233_346234)",
+            "cDna": "c.(793_792)",
+            "protein": "p.G265fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

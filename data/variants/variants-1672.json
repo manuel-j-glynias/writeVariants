@@ -1,0 +1,155 @@
+{
+    "id": 1672,
+    "fullName": "EZH2 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "EZH2 over exp indicates an over expression of the EZH2 protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2146,
+        "geneSymbol": "EZH2",
+        "terms": [
+            "EZH2",
+            "ENX-1",
+            "ENX1",
+            "EZH2b",
+            "KMT6",
+            "KMT6A",
+            "WVS",
+            "WVS2"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "09/11/2014",
+    "updateDate": "09/17/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1238,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, ER-positive breast cancer patients with increased EZH2 expression showed decreased progression-free survival after treatment with Nolvadex (tamoxifen) compared to patients with lower EZH2 expression levels (PMID: 25193989).",
+            "molecularProfile": {
+                "id": 2349,
+                "profileName": "ESR1 pos EZH2 over exp"
+            },
+            "therapy": {
+                "id": 1456,
+                "therapyName": "Tamoxifen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 701,
+                    "pubMedId": 25193989,
+                    "title": "High protein expression of EZH2 is related to unfavorable outcome to tamoxifen in metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25193989"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12773,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MC3629 decreased proliferation and induced apoptosis in human and mouse primary SHH-subgroup medulloblastoma (SHH-MB) derived stem-cell like cells expressing high EZH2 levels in culture, decreased viability of a human SHH-MB cell line expressing high EZH2 in culture, and increased apoptosis and decreased growth of human SHH-MB cell line derived stem-cell like cells in culture and in xenograft models (PMID: 28978137).",
+            "molecularProfile": {
+                "id": 24368,
+                "profileName": "EZH2 over exp"
+            },
+            "therapy": {
+                "id": 6645,
+                "therapyName": "MC3629",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10708,
+                    "pubMedId": 28978137,
+                    "title": "The histone methyltransferase EZH2 as a druggable target in SHH medulloblastoma cancer stem cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978137"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7042,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JQEZ5 inhibited proliferation of human EZH2-overexpressing non-small cell lung cancer cells in culture and induced tumor regression in mouse models of EZH2-overexpressing lung adenocarcinoma (PMID: 27312177).",
+            "molecularProfile": {
+                "id": 24368,
+                "profileName": "EZH2 over exp"
+            },
+            "therapy": {
+                "id": 4354,
+                "therapyName": "JQEZ5",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6049,
+                    "pubMedId": 27312177,
+                    "title": "Oncogenic Deregulation of EZH2 as an Opportunity for Targeted Therapy in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27312177"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2349,
+            "profileName": "ESR1 pos EZH2 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24368,
+            "profileName": "EZH2 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

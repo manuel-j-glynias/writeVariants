@@ -1,0 +1,264 @@
+{
+    "id": 1655,
+    "fullName": "ALK T1151dup",
+    "impact": "duplication",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ALK T1151dup indicates the insertion of the duplicate amino acid, threonine (T)-1151, in the protein kinase domain of the Alk protein (UniProt.org). T1151dup has been demonstrated to occur as a secondary drug resistance mutation in the context of EML4-ALK (PMID: 22277784, PMID: 20695522), but has not been biochemically characterized and therefore, its effect on Alk protein function is unknown (PubMed, Sep 2019).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 682,
+                    "pubMedId": 20695522,
+                    "title": "Crystal structures of anaplastic lymphoma kinase in complex with ATP competitive inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20695522"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 683,
+                    "pubMedId": 22277784,
+                    "title": "Mechanisms of acquired crizotinib resistance in ALK-rearranged lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22277784"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 238,
+        "geneSymbol": "ALK",
+        "terms": [
+            "ALK",
+            "CD246",
+            "NBLST3"
+        ]
+    },
+    "variant": "T1151dup",
+    "createDate": "09/10/2014",
+    "updateDate": "09/29/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 102097,
+        "transcript": "NM_004304",
+        "gDna": "chr2:g.29222406_29222408",
+        "cDna": "c.3451_3453",
+        "protein": "p.T1151",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17758,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alecensa (alectinib) inhibited growth of transformed cells expressing EML4-ALK with ALK T1151dup (referred to as 1151insT) in culture and in xenograft models (PMID: 24887559).",
+            "molecularProfile": {
+                "id": 26807,
+                "profileName": "EML4 - ALK ALK T1151dup"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15763,
+                    "pubMedId": 24887559,
+                    "title": "Selective ALK inhibitor alectinib with potent antitumor activity in models of crizotinib resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24887559"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9264,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ALK T1151dup in the context of EML4-ALK demonstrated reduced sensitivity to Xalkori (crizotinib) compared to cells expressing EML4-ALK in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 26807,
+                "profileName": "EML4 - ALK ALK T1151dup"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12857,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ALK T1151dup in the context of EML4-ALK were resistant to Xalkori (crizotinib) in culture (PMID: 22277784).",
+            "molecularProfile": {
+                "id": 26807,
+                "profileName": "EML4 - ALK ALK T1151dup"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 683,
+                    "pubMedId": 22277784,
+                    "title": "Mechanisms of acquired crizotinib resistance in ALK-rearranged lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22277784"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9258,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing ALK T1151dup in the context of EML4-ALK in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 26807,
+                "profileName": "EML4 - ALK ALK T1151dup"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12793,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a non-small cell lung carcinoma patient harboring an ALK rearrangement demonstrated a partial response with Xalkori (crizotinib) treatment, but then progressed after 10.8 months, and was found to harbor secondary resistance mutations, ALK T1151dup and ALK G1269A (PMID: 25724526).",
+            "molecularProfile": {
+                "id": 28925,
+                "profileName": "ALK rearrange ALK T1151dup ALK G1269A"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3718,
+                    "pubMedId": 25724526,
+                    "title": "Progression-Free and Overall Survival in ALK-Positive NSCLC Patients Treated with Sequential Crizotinib and Ceritinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25724526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1663,
+            "profileName": "ALK T1151dup",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10719,
+            "profileName": "ALK fusion ALK T1151dup",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26807,
+            "profileName": "EML4 - ALK ALK T1151dup",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16828,
+                    "name": "Brigatinib",
+                    "profileName": "EML4 - ALK ALK T1151dup"
+                }
+            ]
+        },
+        {
+            "id": 28925,
+            "profileName": "ALK rearrange ALK T1151dup ALK G1269A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102097,
+            "transcript": "NM_004304",
+            "gDna": "chr2:g.29222406_29222408",
+            "cDna": "c.3451_3453",
+            "protein": "p.T1151",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

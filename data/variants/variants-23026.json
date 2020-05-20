@@ -1,0 +1,125 @@
+{
+    "id": 23026,
+    "fullName": "KIT P551_W557delinsL",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT P551_W557delinsL results in the deletion of 7 amino acids in the juxtamembrane domain (exon 11) of the Kit protein combined with the insertion of a leucine (L) in the same location (PMID: 16226710). P551_W557delinsL has not been characterized, however similar Kit exon 11 mutations are activating, thus P551_W557delinsL is predicted to lead to a gain of Kit protein function (PMID: 9438854, PMID: 15365079).",
+            "references": [
+                {
+                    "id": 648,
+                    "pubMedId": 16226710,
+                    "title": "Structure and regulation of Kit protein-tyrosine kinase--the stem cell factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16226710"
+                },
+                {
+                    "id": 2054,
+                    "pubMedId": 15365079,
+                    "title": "Biology of gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15365079"
+                },
+                {
+                    "id": 650,
+                    "pubMedId": 9438854,
+                    "title": "Gain-of-function mutations of c-kit in human gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9438854"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "P551_W557delinsL",
+    "createDate": "06/08/2016",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136542,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727419_54727439delinsCTT",
+        "cDna": "c.1651_1671delinsCTT",
+        "protein": "p.P551_W557delinsL",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6809,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a GIST patient harboring KIT P551_W557delinsL, resistant to Gleevec (imatinib), Sutent (sunitinib), and Stivarga (regorafenib), demonstrated sensitivity to Iclusig (ponatinib) treatment, which resulted in tumor regression and stable disease (PMID: 25239608).",
+            "molecularProfile": {
+                "id": 23708,
+                "profileName": "KIT P551_W557delinsL"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3860,
+                    "pubMedId": 25239608,
+                    "title": "Ponatinib inhibits polyclonal drug-resistant KIT oncoproteins and shows therapeutic potential in heavily pretreated gastrointestinal stromal tumor (GIST) patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25239608"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23708,
+            "profileName": "KIT P551_W557delinsL",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16974,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT P551_W557delinsL"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136543,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727419_54727439delinsCTT",
+            "cDna": "c.1651_1671delinsCTT",
+            "protein": "p.P551_W557delinsL",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136542,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727419_54727439delinsCTT",
+            "cDna": "c.1651_1671delinsCTT",
+            "protein": "p.P551_W557delinsL",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

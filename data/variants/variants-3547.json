@@ -1,0 +1,274 @@
+{
+    "id": 3547,
+    "fullName": "NRAS G12V",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS G12V is a hotspot mutation that lies within a GTP-binding region of the Nras protein (UniProt.org). G12V confers a loss of function on Nras protein as indicated by accumulation of GTP-bound Nras, loss of GTPase-activating protein sensitivity, leading to increased downstream pathway activation in cell culture (PMID: 19966803).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2100,
+                    "pubMedId": 19966803,
+                    "title": "A restricted spectrum of NRAS mutations causes Noonan syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19966803"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "G12V",
+    "createDate": "03/05/2015",
+    "updateDate": "09/20/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162437,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114716126C>A",
+        "cDna": "c.35G>T",
+        "protein": "p.G12V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10315,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring NRAS G12V demonstrated resistance to Erbitux (cetuximab) in culture (PMID: 28179366).",
+            "molecularProfile": {
+                "id": 3354,
+                "profileName": "NRAS G12V"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8298,
+                    "pubMedId": 28179366,
+                    "title": "Genome-wide chemical mutagenesis screens allow unbiased saturation of the cancer genome and identification of drug resistance mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10314,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Erbitux (cetuximab) and Mekinist (trametinib) decreased viability of colorectal cancer cells harboring NRAS G12V in culture (PMID: 28179366).",
+            "molecularProfile": {
+                "id": 3354,
+                "profileName": "NRAS G12V"
+            },
+            "therapy": {
+                "id": 3505,
+                "therapyName": "Cetuximab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8298,
+                    "pubMedId": 28179366,
+                    "title": "Genome-wide chemical mutagenesis screens allow unbiased saturation of the cancer genome and identification of drug resistance mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179366"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4490,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring EGFR exon 19 deletion and NRAS G12V were resistant to Tagrisso (osimertinib) in culture (PMID: 25870145).",
+            "molecularProfile": {
+                "id": 18238,
+                "profileName": "EGFR exon 19 del NRAS G12V"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4580,
+                    "pubMedId": 25870145,
+                    "title": "Acquired Resistance to the Mutant-Selective EGFR Inhibitor AZD9291 Is Associated with Increased Dependence on RAS Signaling in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25870145"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5785,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of NRAS G12V in melanoma cells harboring BRAF V600E conferred resistance to Zelboraf (vemurafenib) in culture (PMID: 26267534).",
+            "molecularProfile": {
+                "id": 21619,
+                "profileName": "BRAF V600E NRAS G12V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4897,
+                    "pubMedId": 26267534,
+                    "title": "Small Molecule Inhibition of ERK Dimerization Prevents Tumorigenesis by RAS-ERK Pathway Oncogenes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26267534"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5786,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DEL-22379 inhibited growth of a melanoma cell line harboring BRAF V600E and over expressing NRAS G12V in culture (PMID: 26267534).",
+            "molecularProfile": {
+                "id": 21619,
+                "profileName": "BRAF V600E NRAS G12V"
+            },
+            "therapy": {
+                "id": 3769,
+                "therapyName": "DEL-22379",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4897,
+                    "pubMedId": 26267534,
+                    "title": "Small Molecule Inhibition of ERK Dimerization Prevents Tumorigenesis by RAS-ERK Pathway Oncogenes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26267534"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3354,
+            "profileName": "NRAS G12V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16445,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS G12V"
+                },
+                {
+                    "id": 16446,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS G12V"
+                },
+                {
+                    "id": 16450,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS G12V"
+                },
+                {
+                    "id": 16449,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS G12V"
+                },
+                {
+                    "id": 16448,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS G12V"
+                },
+                {
+                    "id": 16447,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS G12V"
+                }
+            ]
+        },
+        {
+            "id": 18238,
+            "profileName": "EGFR exon 19 del NRAS G12V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 21619,
+            "profileName": "BRAF V600E NRAS G12V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162437,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114716126C>A",
+            "cDna": "c.35G>T",
+            "protein": "p.G12V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

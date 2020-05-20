@@ -1,0 +1,126 @@
+{
+    "id": 29311,
+    "fullName": "BRCA2 S1970*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRCA2 S1970* results in a premature truncation of the Brca2 protein at amino acid 1970 of 3418 (UniProt.org). S1970* has not been characterized, however, due to the effects of other truncation mutations downstream of S1970 (PMID: 10570174,\u00a0PMID: 18607349), S1970* is predicted to lead to a loss of Brca2 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3274,
+                    "pubMedId": 10570174,
+                    "title": "Truncated BRCA2 is cytoplasmic: implications for cancer-linked mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10570174"
+                },
+                {
+                    "id": 6349,
+                    "pubMedId": 18607349,
+                    "title": "Mouse embryonic stem cell-based functional assay to evaluate mutations in BRCA2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18607349"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 675,
+        "geneSymbol": "BRCA2",
+        "terms": [
+            "BRCA2",
+            "BRCC2",
+            "BROVCA2",
+            "FACD",
+            "FAD",
+            "FAD1",
+            "FANCD",
+            "FANCD1",
+            "GLM3",
+            "PNCA2",
+            "XRCC11"
+        ]
+    },
+    "variant": "S1970*",
+    "createDate": "02/01/2019",
+    "updateDate": "11/20/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 178230,
+        "transcript": "NM_000059",
+        "gDna": "chr13:g.32340264C>A",
+        "cDna": "c.5909C>A",
+        "protein": "p.S1970*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15875,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Veliparib (ABT-888) and Dinaciclib (SCH 727965) inhibited tumor growth in patient-derived xenograft (PDX) models of triple-receptor negative breast cancer harboring germline BRCA2 S1970* that acquired resistance to Veliparib (ABT-888) through an unidentified mechanism (PMID: 27880910).",
+            "molecularProfile": {
+                "id": 31307,
+                "profileName": "BRCA2 S1970*"
+            },
+            "therapy": {
+                "id": 1277,
+                "therapyName": "Dinaciclib + Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13882,
+                    "pubMedId": 27880910,
+                    "title": "CDK12 Inhibition Reverses De Novo and Acquired PARP Inhibitor Resistance in BRCA Wild-Type and Mutated Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27880910"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31307,
+            "profileName": "BRCA2 S1970*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19248,
+                    "name": "PARP-1 Inhibitor",
+                    "profileName": "BRCA2 S1970*"
+                },
+                {
+                    "id": 19247,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "BRCA2 S1970*"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 178230,
+            "transcript": "NM_000059",
+            "gDna": "chr13:g.32340264C>A",
+            "cDna": "c.5909C>A",
+            "protein": "p.S1970*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,835 @@
+{
+    "id": 1183,
+    "fullName": "EGFR G719X",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "G719X indicates a single amino acid change in the phosphate-binding \u201cP loop\u201d of the kinase domain of the Egfr protein (PMID: 17349580). G719X is predicted to lead to a gain of function as the substitution (usually A, C, or S) likely destabilizes the P loop, weakening the inactive conformation of Egfr (PMID: 17349580).",
+            "references": [
+                {
+                    "id": 438,
+                    "pubMedId": 17349580,
+                    "title": "Structures of lung cancer-derived EGFR mutants and inhibitor complexes: mechanism of activation and insights into differential inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17349580"
+                }
+            ]
+        }
+    ],
+    "type": "category",
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "G719X",
+    "createDate": "07/28/2014",
+    "updateDate": "10/31/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135655,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174014_55174016",
+        "cDna": "c.2155_2157",
+        "protein": "p.G719",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 750,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, analysis of published studies demonstrated that 78% (14/18) of non-small cell lung cancer patients harboring an EGFR G719 mutation, resulting in G719A, C, D, or S were found to achieve disease control following treatment Tarceva (erlotinib) or Iressa (gefitinib) (PMID: 23344264).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 1,
+                    "pubMedId": 23344264,
+                    "title": "DNA-Mutation Inventory to Refine and Enhance Cancer Treatment (DIRECT): a catalog of clinically relevant cancer mutations to enable genome-directed anticancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23344264"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17002,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Tarceva (erlotinib) is included in guidelines as first-line therapy for patients with advanced or metastatic non-small cell lung cancer harboring sensitizing EGFR mutations, such as G719 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12626,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial (AURA), Tagrisso (osimertinib) demonstrated limited clinical efficacy, resulted in partial response in 14% (1/7) and stable disease in 43% (3/7) of non-small cell lung cancer patients harboring EGFR G719 mutations, with 3 patients also harboring EGFR T790M (PMID: 29285266; NCT01802632).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10505,
+                    "pubMedId": 29285266,
+                    "title": "Characterization of the efficacies of osimertinib and nazartinib against cells expressing clinically relevant epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29285266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19672,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, 52.6% (10/19) patients with non-small cell lung cancer harboring an EGFR G719 mutation such as EGFR G719A, C, D, or S, demonstrated a partial response to treatment with Tagrisso (osimertinib) (Journal of Thoracic Oncology, 2018, vol 13, issue 10, S344; NCT03424759).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 17455,
+                    "pubMedId": null,
+                    "title": "OA10.05 An Open-Label, Multicenter, Phase II Single Arm Trial of Osimertinib in NSCLC Patients with Uncommon EGFR Mutation (KCSG-LU15-09)",
+                    "url": "https://www.jto.org/article/S1556-0864(18)31249-8/fulltext"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 17010,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Vizimpro (dacomitinib) is included in guidelines as first-line therapy for patients with advanced or metastatic non-small cell lung cancer harboring sensitizing EGFR mutations, such as G719 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 16850,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS6417 inhibited growth of transformed cells expressing EGFR G719X in culture (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1329).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 6994,
+                "therapyName": "CLN-081",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14954,
+                    "pubMedId": null,
+                    "title": "Preclinical evaluation of TAS6417 as a highly effective, pan-mutation-selective EGFR tyrosine kinase inhibitor.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11155,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, non-small cell lung cancer patients harboring EGFR G719 mutations demonstrated a response rate of 58% and disease control rate of 73.68%, and a median progression-free survival of 2.8 months following treatment with icotinib (J Clin Oncol 35, 2017 (suppl; abstr e14050)).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 769,
+                "therapyName": "Icotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9121,
+                    "pubMedId": null,
+                    "title": "Clinical efficacy of icotinib in patients with advanced non-small cell lung cancer harboring EGFR exon 18, 20 and 21 uncommon mutations.",
+                    "url": "http://abstracts.asco.org/199/AbstView_199_186649.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 751,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, analysis of published studies demonstrated that 78% (14/18) of non-small cell lung cancer patients harboring an EGFR G719 mutation, resulting in G719A, C, D, or S, were found to achieve disease control following treatment Tarceva (erlotinib) or Iressa (gefitinib) (PMID: 23344264).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1,
+                    "pubMedId": 23344264,
+                    "title": "DNA-Mutation Inventory to Refine and Enhance Cancer Treatment (DIRECT): a catalog of clinically relevant cancer mutations to enable genome-directed anticancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23344264"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17013,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Iressa (gefinitib) is included in guidelines as first-line therapy for patients with advanced or metastatic non-small cell lung cancer harboring sensitizing EGFR mutations, such as G719 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20227,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, addition of Paraplatin (carboplatin) and Alimta (pemetrexed) to Iressa (gefitinib) improved progression-free survival (16 vs 8 mo, HR=0.51, p<0.001) and overall survival (not reached vs 17 mo, HR=0.45, p<0.001) in patients with metastatic non-small cell lung cancer harboring EGFR activating mutations, including EGFR exon 19 deletion, L858R, L861Q, and G719X, but also resulted in higher incidence of clinically relevant toxicity (51% vs 25%, p<0.001) (PMID: 31411950).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 8501,
+                "therapyName": "Carboplatin + Gefitinib + Pemetrexed",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17741,
+                    "pubMedId": 31411950,
+                    "title": "Gefitinib Versus Gefitinib Plus Pemetrexed and Carboplatin Chemotherapy in EGFR-Mutated Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31411950"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19887,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, pooled analysis of non-small cell lung cancer patients treated with Gilotrif (afatinib) demonstrated an objective response rate (ORR) of 60% (66/110) in treatment-naive patients harboring uncommon EGFR mutations, with an ORR of 63.4% (35/55) and duration of response (DoR) of 17.1 mo in patients with G719X mutations, and an ORR of 25% (8/32) in pre-treated patients with uncommon EGFR mutations, with an ORR of 10.5% (2/19) and a DoR of 10.0 mo in patients with G719X (PMID: 31931137).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17584,
+                    "pubMedId": 31931137,
+                    "title": "Afatinib for the Treatment of NSCLC Harboring Uncommon EGFR Mutations: A Database of 693 Cases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31931137"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1861,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In Phase III trials, non-small cell lung carcinoma patients harboring EGFR G719X mutations (G719A, C, or S) demonstrated a response rate of 78% (14/18) following treatment with Gilotrif (afatinib) (PMID: 24790411).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2366,
+                    "pubMedId": 24790411,
+                    "title": "Clinical and comparative utility of afatinib in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24790411"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 12771,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a post-hoc analysis of Phase II and Phase III trials that supported FDA approval (LUX-Lung2, LUX-Lung 3, LUX-Lung 6), Gilotrif (afatinib) treatment resulted in an objective response rate of 77.8% (14/18) in non-small cell lung cancer patients harboring EGFR G719X (alone or in combination with other EGFR mutations), with a mean progression-free survival of 13.8 months, and an overall survival of 26.9 months (PMID: 26051236; NCT00525148, NCT00949650, and NCT01121393).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3328,
+                    "pubMedId": 26051236,
+                    "title": "Clinical activity of afatinib in patients with advanced non-small-cell lung cancer harbouring uncommon EGFR mutations: a combined post-hoc analysis of LUX-Lung 2, LUX-Lung 3, and LUX-Lung 6.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26051236"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15470,
+                    "pubMedId": null,
+                    "title": "Gilotrif (afatinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=201292"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17005,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Gilotrif (afatinib) is included in guidelines as first-line therapy for patients with advanced or metastatic non-small cell lung cancer harboring sensitizing EGFR mutations, such as G719 mutations (NCCN.org).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3361,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Gilotrif (afatinib) treatment resulted in partial response in 14% (1/7), stable disease in 43% (3/7), and progressive disease in 43% (3/7) of non-small cell lung carcinoma patients carrying an EGFR G719 mutation (PMID: 26354527).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3736,
+                    "pubMedId": 26354527,
+                    "title": "Afatinib in Non-Small Cell Lung Cancer Harboring Uncommon EGFR Mutations Pretreated With Reversible EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26354527"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3729,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, treatment with Nerlynx (neratinib) resulted in partial response in 75% (3/4) and stable disease in 25% (1/4) of non-small cell lung cancer patients harboring EGFR G719 mutations (PMID: 20479403).",
+            "molecularProfile": {
+                "id": 1207,
+                "profileName": "EGFR G719X"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3315,
+                    "pubMedId": 20479403,
+                    "title": "Neratinib, an irreversible pan-ErbB receptor tyrosine kinase inhibitor: results of a phase II trial in patients with advanced non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20479403"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17301,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, icotinib treatment resulted in initial response in a patient with metastatic non-small cell lung cancer harboring EGFR G719X, S768I, T790M, L858R, and L861Q, but resistance developed after 4 months of treatment (PMID: 31045832).",
+            "molecularProfile": {
+                "id": 32488,
+                "profileName": "EGFR G719X EGFR S768I EGFR T790M EGFR L858R EGFR L861Q"
+            },
+            "therapy": {
+                "id": 769,
+                "therapyName": "Icotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15348,
+                    "pubMedId": 31045832,
+                    "title": "Clinical characterization of icotinib-induced chemoresistance in erlotinib-treated lung adenocarcinoma patient with EGFR mutations: A case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31045832"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19663,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, a patient with non-small cell lung cancer co-harboring an EGFR G719 mutation and EGFR T790M demonstrated stable disease when treated with Tarceva (erlotinib) (PMID: 30774491).",
+            "molecularProfile": {
+                "id": 34391,
+                "profileName": "EGFR G719X EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 17450,
+                    "pubMedId": 30774491,
+                    "title": "Outcome of uncommon EGFR mutation positive newly diagnosed advanced non-small cell lung cancer patients: a single center retrospective analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30774491"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19664,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, a patient with non-small cell lung cancer co-harboring an EGFR G719 mutation and EGFR L858R had a partial response with a progression-free survival of 9.43 months and overall survival of 18.37 months when treated with Iressa (gefitinib) (PMID: 30774491).",
+            "molecularProfile": {
+                "id": 34392,
+                "profileName": "EGFR G719X EGFR L858R"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17450,
+                    "pubMedId": 30774491,
+                    "title": "Outcome of uncommon EGFR mutation positive newly diagnosed advanced non-small cell lung cancer patients: a single center retrospective analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30774491"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19668,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, a patient with non-small cell lung cancer co-harboring and EGFR G719 mutation and EGFR S768I demonstrated a partial response to Tarceva (erlotinib) treatment with a progression-free survival and overall survival of 15.28 months (PMID: 30774491).",
+            "molecularProfile": {
+                "id": 34395,
+                "profileName": "EGFR G719X EGFR S768I"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17450,
+                    "pubMedId": 30774491,
+                    "title": "Outcome of uncommon EGFR mutation positive newly diagnosed advanced non-small cell lung cancer patients: a single center retrospective analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30774491"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19669,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, a patient with non-small cell lung cancer co-harboring an EGFR G719 mutation, EGFR S768I, and EGFR L858R demonstrated a partial response with a progression-free survival and overall survival of 15.34 months when treated with Iressa (gefitinib) (PMID: 30774491).",
+            "molecularProfile": {
+                "id": 34396,
+                "profileName": "EGFR G719X EGFR S768I EGFR L858R"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17450,
+                    "pubMedId": 30774491,
+                    "title": "Outcome of uncommon EGFR mutation positive newly diagnosed advanced non-small cell lung cancer patients: a single center retrospective analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30774491"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20689,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective study, MET amplification was identified in a non-small cell lung cancer patient harboring EGFR S768I and an EGFR G719 mutation with primary resistance to icotinib (PMID: 31828849).",
+            "molecularProfile": {
+                "id": 35284,
+                "profileName": "EGFR G719X EGFR S768I MET amp"
+            },
+            "therapy": {
+                "id": 769,
+                "therapyName": "Icotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17988,
+                    "pubMedId": 31828849,
+                    "title": "Potential mechanism of primary resistance to icotinib in patients with advanced non-small cell lung cancer harboring uncommon mutant epidermal growth factor receptor: A multi-center study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31828849"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1207,
+            "profileName": "EGFR G719X",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7180,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR G719X"
+                },
+                {
+                    "id": 7184,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR G719X"
+                },
+                {
+                    "id": 7182,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR G719X"
+                },
+                {
+                    "id": 7183,
+                    "name": "Neratinib",
+                    "profileName": "EGFR G719X"
+                },
+                {
+                    "id": 7181,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR G719X"
+                },
+                {
+                    "id": 7185,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR G719X"
+                }
+            ]
+        },
+        {
+            "id": 32488,
+            "profileName": "EGFR G719X EGFR S768I EGFR T790M EGFR L858R EGFR L861Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34391,
+            "profileName": "EGFR G719X EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34392,
+            "profileName": "EGFR G719X EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34395,
+            "profileName": "EGFR G719X EGFR S768I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34396,
+            "profileName": "EGFR G719X EGFR S768I EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35284,
+            "profileName": "EGFR G719X EGFR S768I MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135655,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174014_55174016",
+            "cDna": "c.2155_2157",
+            "protein": "p.G719",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

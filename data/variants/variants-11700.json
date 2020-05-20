@@ -1,0 +1,397 @@
+{
+    "id": 11700,
+    "fullName": "PIK3CA D549N",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA D549N lies within the PIK helical domain of the Pik3ca protein (UniProt.org). D549N has not been biochemically characterized, but is predicted to confer a gain of function on the Pik3ca protein as demonstrated by increased transformation ability in two different cell lines (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "D549N",
+    "createDate": "09/13/2015",
+    "updateDate": "07/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 171651,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179218315G>A",
+        "cDna": "c.1645G>A",
+        "protein": "p.D549N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8201,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Nexavar (sorafenib) synergistically inhibited Mapk and Akt signaling, resulted in growth inhibition of colorectal cancer cells harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K in culture and in cell line xenograft models (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1659,
+                "therapyName": "Pimasertib + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8192,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cells harboring KRAS G13D, PIK3CA D549N and PIK3CA E545K demonstrated decreased response to Pimasertib (MSC1936369B) in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 871,
+                "therapyName": "Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4943,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human colorectal cancer cell lines harboring KRAS G13D, PIK3CA E545K and PIK3CA D549N were resistant to Stivarga (regorafenib) in culture (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4946,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Erbitux (cetuximab) and Stivarga (regorafenib) inhibited growth, reduced Akt and Mapk phosphorylation, and induced apoptosis of human colorectal cancer cell lines harboring KRAS G13D, PIK3CA E545K, and PIK3CA D549N in culture and reduced tumor growth in cell line xenograft models (PMID: 25838391).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1305,
+                "therapyName": "Cetuximab + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4805,
+                    "pubMedId": 25838391,
+                    "title": "Primary and Acquired Resistance of Colorectal Cancer to Anti-EGFR Monoclonal Antibody Can Be Overcome by Combined Treatment of Regorafenib with Cetuximab.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25838391"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8197,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Afinitor (everolimus) synergistically inhibited proliferation of colorectal cancer cells harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 4656,
+                "therapyName": "Everolimus + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8207,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Stivarga (regorafenib) synergistically inhibited proliferation of colorectal cancer cells harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 4657,
+                "therapyName": "Pimasertib + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3132,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human colon cancer cells harboring KRAS G13D, PIK3CA E545K, and PIK3CA D549N had a decreased response to Gedatolisib (PKI-587) in culture (PMID: 21325073, PMID: 24042735).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3639,
+                    "pubMedId": 24042735,
+                    "title": "Epigenetic and genetic features of 24 colon cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24042735"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8208,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and BEZ235 combination treatment inhibited tumor growth in colorectal cancer cell line xenograft models harboring KRAS G13D, PIK3CA D549N, and PIK3CA E545K (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26186,
+                "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N"
+            },
+            "therapy": {
+                "id": 1660,
+                "therapyName": "BEZ235 + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 11791,
+            "profileName": "PIK3CA D549N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 18141,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA D549N"
+                },
+                {
+                    "id": 18137,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA D549N"
+                },
+                {
+                    "id": 18136,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA D549N"
+                },
+                {
+                    "id": 18142,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA D549N"
+                },
+                {
+                    "id": 18135,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA D549N"
+                },
+                {
+                    "id": 18138,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA D549N"
+                },
+                {
+                    "id": 18139,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA D549N"
+                },
+                {
+                    "id": 18140,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA D549N"
+                }
+            ]
+        },
+        {
+            "id": 26186,
+            "profileName": "KRAS G13D PIK3CA E545K PIK3CA D549N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171650,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179218315G>A",
+            "cDna": "c.1645G>A",
+            "protein": "p.D549N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171651,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179218315G>A",
+            "cDna": "c.1645G>A",
+            "protein": "p.D549N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171652,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179218315G>A",
+            "cDna": "c.1645G>A",
+            "protein": "p.D549N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

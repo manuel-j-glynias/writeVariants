@@ -1,0 +1,174 @@
+{
+    "id": 9889,
+    "fullName": "ROS1 L1982F",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 L1982F lies within the protein kinase domain of the Ros1 protein (UniProt.org). L1982F has been demonstrated to confer resistance to Ros1 tyrosine kinase inhibitors in the context of a Ros1 fusion in culture (PMID: 25351743, PMID: 24218589), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "L1982F",
+    "createDate": "08/01/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102377,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117318247C>A",
+        "cDna": "c.5946G>T",
+        "protein": "p.L1982F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2810,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 L1982F in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10699,
+                "profileName": "GOPC - ROS1 ROS1 L1982F"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2814,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 L1982F in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10699,
+                "profileName": "GOPC - ROS1 ROS1 L1982F"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 9885,
+            "profileName": "ROS1 L1982F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 9886,
+            "profileName": "CD74 - ROS1 ROS1 L1982F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10699,
+            "profileName": "GOPC - ROS1 ROS1 L1982F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16943,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 L1982F"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102376,
+            "transcript": "XM_017011172",
+            "gDna": "chr6:g.117318208_117318210delCAGinsAAA",
+            "cDna": "c.5944_5946delCTGinsTTT",
+            "protein": "p.L1982F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 102377,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117318247C>A",
+            "cDna": "c.5946G>T",
+            "protein": "p.L1982F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

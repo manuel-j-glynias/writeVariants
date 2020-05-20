@@ -1,0 +1,276 @@
+{
+    "id": 22670,
+    "fullName": "ROS1 D2033N",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 D2033N lies within the protein kinase domain of the Ros1 protein (UniProt.org). D2033N has been demonstrated to confer resistance to Ros1 tyrosine kinase inhibitors in the context of Ros1 fusions in culture (PMID: 26673800), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5546,
+                    "pubMedId": 26673800,
+                    "title": "A Novel Crizotinib-Resistant Solvent-Front Mutation Responsive to Cabozantinib Therapy in a Patient with ROS1-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26673800"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "D2033N",
+    "createDate": "05/17/2016",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102274,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117317181C>T",
+        "cDna": "c.6097G>A",
+        "protein": "p.D2033N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6399,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with CD74-ROS1 positive lung adenocarcinoma with an acquired ROS1 D2033N mutation in 15-20% of the tumor clonal population and in metastases responded within 4 weeks and achieved a near complete response at 12 weeks while being treated with Cabometyx (cabozantinib), and has remained on therapy for at least 8 months (PMID: 26673800).",
+            "molecularProfile": {
+                "id": 23290,
+                "profileName": "CD74 - ROS1 ROS1 D2033N"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5546,
+                    "pubMedId": 26673800,
+                    "title": "A Novel Crizotinib-Resistant Solvent-Front Mutation Responsive to Cabozantinib Therapy in a Patient with ROS1-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26673800"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6398,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with CD74-ROS1 positive lung adenocarcinoma with an acquired ROS1 D2033N mutation in 15-20% of the tumor clonal population and in metastases was resistant to Xalkori (crizotinib) therapy (PMID: 26673800).",
+            "molecularProfile": {
+                "id": 23290,
+                "profileName": "CD74 - ROS1 ROS1 D2033N"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5546,
+                    "pubMedId": 26673800,
+                    "title": "A Novel Crizotinib-Resistant Solvent-Front Mutation Responsive to Cabozantinib Therapy in a Patient with ROS1-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26673800"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16322,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) inhibited proliferation of transformed cells expressing ROS1 D2033N in the context of CD74-ROS1 in culture (PMID: 30093503).",
+            "molecularProfile": {
+                "id": 23290,
+                "profileName": "CD74 - ROS1 ROS1 D2033N"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12439,
+                    "pubMedId": 30093503,
+                    "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30093503"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20649,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing CD74-ROS1 and ROS1 D2033N were resistant to treatment with DS6051b in culture (PMID: 31399568).",
+            "molecularProfile": {
+                "id": 23290,
+                "profileName": "CD74 - ROS1 ROS1 D2033N"
+            },
+            "therapy": {
+                "id": 4343,
+                "therapyName": "DS6051b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17972,
+                    "pubMedId": 31399568,
+                    "title": "The new-generation selective ROS1/NTRK inhibitor DS-6051b overcomes crizotinib resistant ROS1-G2032R mutation in preclinical models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31399568"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6412,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing CD74-ROS1 and ROS1 D2033N were resistant to Xalkori (crizotinib) mediated growth inhibition in culture (PMID: 26673800).",
+            "molecularProfile": {
+                "id": 23290,
+                "profileName": "CD74 - ROS1 ROS1 D2033N"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5546,
+                    "pubMedId": 26673800,
+                    "title": "A Novel Crizotinib-Resistant Solvent-Front Mutation Responsive to Cabozantinib Therapy in a Patient with ROS1-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26673800"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6411,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cabometyx (cabozantinib) inhibited Ros1 phosphorylation, downstream signaling and growth of transformed cells expressing CD74-ROS1 and ROS1 D2033N in culture (PMID: 26673800).",
+            "molecularProfile": {
+                "id": 23290,
+                "profileName": "CD74 - ROS1 ROS1 D2033N"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5546,
+                    "pubMedId": 26673800,
+                    "title": "A Novel Crizotinib-Resistant Solvent-Front Mutation Responsive to Cabozantinib Therapy in a Patient with ROS1-Rearranged Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26673800"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23289,
+            "profileName": "ROS1 D2033N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23290,
+            "profileName": "CD74 - ROS1 ROS1 D2033N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16967,
+                    "name": "Cabozantinib",
+                    "profileName": "CD74 - ROS1 ROS1 D2033N"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102274,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117317181C>T",
+            "cDna": "c.6097G>A",
+            "protein": "p.D2033N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

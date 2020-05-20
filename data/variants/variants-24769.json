@@ -1,0 +1,151 @@
+{
+    "id": 24769,
+    "fullName": "MTOR L1460P",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR L1460P lies within TPR repeat 4 of the Mtor protein (UniProt.org). L1460P results in activation of Mtor signaling as indicated by increased S6k1 and Akt1 phosphorylation, and increased cell proliferation in culture (PMID: 26255626, PMID: 24631838, PMID: 20190810).",
+            "references": [
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                },
+                {
+                    "id": 374,
+                    "pubMedId": 20190810,
+                    "title": "Single amino-acid changes that confer constitutive activation of mTOR are discovered in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20190810"
+                },
+                {
+                    "id": 4468,
+                    "pubMedId": 26255626,
+                    "title": "Point mutations of the mTOR-RHEB pathway in renal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26255626"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "L1460P",
+    "createDate": "07/25/2016",
+    "updateDate": "03/19/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 145290,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11157242A>G",
+        "cDna": "c.4379T>C",
+        "protein": "p.L1460P",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7483,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing MTOR L1460P demonstrated decreased response to Rapamune (sirolimus) induced growth inhibition in culture (PMID: 26255626).",
+            "molecularProfile": {
+                "id": 25525,
+                "profileName": "MTOR L1460P"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4468,
+                    "pubMedId": 26255626,
+                    "title": "Point mutations of the mTOR-RHEB pathway in renal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26255626"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25525,
+            "profileName": "MTOR L1460P",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10445,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR L1460P"
+                },
+                {
+                    "id": 10446,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR L1460P"
+                },
+                {
+                    "id": 10444,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR L1460P"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145290,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11157242A>G",
+            "cDna": "c.4379T>C",
+            "protein": "p.L1460P",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145291,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11157242A>G",
+            "cDna": "c.4379T>C",
+            "protein": "p.L1460P",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145292,
+            "transcript": "XM_011541166",
+            "gDna": "chr1:g.11157242A>G",
+            "cDna": "c.4379T>C",
+            "protein": "p.L1460P",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

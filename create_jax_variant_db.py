@@ -6,7 +6,6 @@ from sql_helpers import get_one_jax_gene, preflight_ref, insert_editable_stateme
 from sql_utils import get_local_db_connection, maybe_create_and_select_database, does_table_exist, drop_table_if_exists
 import json
 
-JAX_PATH: str = '/Users/mglynias/jax_april_2020/api-export/'
 
 def write_one_reference(ref: dict,reference_dict:dict) -> (str,str):
     s = ''
@@ -133,7 +132,7 @@ def insert_jax_variant(my_cursor,name,description_id,jax_id,jax_gene_id,pdot,cdo
 
 
 def write_variants(my_db,my_cursor) -> None:
-    json_files = get_list_of_files(JAX_PATH + 'variants')
+    json_files = get_list_of_files('data/variants')
     print("num variants=",len(json_files))
     loader_id = get_loader_user_id(my_cursor)
     counter = 0

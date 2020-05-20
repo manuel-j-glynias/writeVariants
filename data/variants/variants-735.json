@@ -1,0 +1,614 @@
+{
+    "id": 735,
+    "fullName": "TP53 R175H",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R175H is a hotspot mutation that lies within the DNA binding domain of the Tp53 protein (PMID: 22713868). R175H results in a loss of DNA binding, decreased activation of Tp53 targets and interferes with activation by wild-type Tp53, leads to resistance to apoptosis, failure of G1 arrest, decreased genomic stability, and promotes tumorigenesis, and additionally confers a gain of function to Tp53, resulting in aberrant activation of gene transcription and enhanced cell migration (PMID: 10713666, PMID: 22114072, PMID: 19881536, PMID: 14743206, PMID: 31395785).",
+            "references": [
+                {
+                    "id": 1939,
+                    "pubMedId": 10713666,
+                    "title": "Quantitative analysis of residual folding and DNA binding in mutant p53 core domain: definition of mutant states for rescue in cancer therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10713666"
+                },
+                {
+                    "id": 378,
+                    "pubMedId": 22114072,
+                    "title": "Gain-of-function mutant p53 upregulates CXC chemokines and enhances cell migration.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22114072"
+                },
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 12279,
+                    "pubMedId": 19881536,
+                    "title": "A common gain of function of p53 cancer mutants in inducing genetic instability.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19881536"
+                },
+                {
+                    "id": 17772,
+                    "pubMedId": 31395785,
+                    "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31395785"
+                },
+                {
+                    "id": 2153,
+                    "pubMedId": 14743206,
+                    "title": "Mutant p53 exerts a dominant negative effect by preventing wild-type p53 from binding to the promoter of its target genes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14743206"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R175H",
+    "createDate": "06/13/2014",
+    "updateDate": "02/05/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 95301,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7675088C>T",
+        "cDna": "c.524G>A",
+        "protein": "p.R175H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8265,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with NSC59984 resulted in increased degradation of mutant Tp53 and cell death in a colorectal cancer cell line harboring TP53 R175H in culture (PMID: 26294215).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 3402,
+                "therapyName": "NSC59984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4303,
+                    "pubMedId": 26294215,
+                    "title": "Small-Molecule NSC59984 Restores p53 Pathway Signaling and Antitumor Effects against Colorectal Cancer via p73 Activation and Degradation of Mutant p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26294215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3977,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 induced cell death and decreased proliferation of head and neck carcinoma cells harboring TP53 R175H in culture (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3974,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with ReACp53 induced cell death in primary human uterine fibroblasts expressing TP53 R175H in culture (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10711,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian cancer cells harboring TP53 R175H demonstrated increased sensitivity to NSC319726-induced growth inhibition in culture and in cell line xenograft models (PMID: 22624712).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 3405,
+                "therapyName": "NSC319726",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4308,
+                    "pubMedId": 22624712,
+                    "title": "Allele-specific p53 mutant reactivation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22624712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11743,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung carcinoma cells overexpressing TP53 R175H were resistant to Roscovotine (seliciclib) induced apoptosis in culture (PMID: 22862161).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 1129,
+                "therapyName": "Seliciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 609,
+                    "pubMedId": 22862161,
+                    "title": "Roscovitine-induced apoptosis of H1299 cells depends on functional status of p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22862161"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10713,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells harboring TP53 R175H demonstrated increased sensitivity to NSC319726 in culture (PMID: 22624712).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 3405,
+                "therapyName": "NSC319726",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4308,
+                    "pubMedId": 22624712,
+                    "title": "Allele-specific p53 mutant reactivation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22624712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10548,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring TP53 S241F demonstrated reduced sensitivity to DS-7423 in culture (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20164,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SLMP53-2 inhibited growth of a non-small cell lung carcinoma cell line expressing TP53 R175H in culture (PMID: 31405179).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 9281,
+                "therapyName": "SLMP53-2",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17718,
+                    "pubMedId": 31405179,
+                    "title": "SLMP53-2 Restores Wild-Type-Like Function to Mutant p53 through Hsp70: Promising Activity in Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405179"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5014,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib inhibited growth of human breast cancer cells harboring TP53 R175H in culture (PMID: 26009011).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4831,
+                    "pubMedId": 26009011,
+                    "title": "Improving survival by exploiting tumour dependence on stabilized mutant p53 for treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26009011"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5005,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alvespimycin (17-DMAG) and Zolinza (vorinostat) extended survival by 59% in mice with tumors expressing Tp53 R172H (which corresponds to R175H in the human Tp53 protein) (PMID: 26009011).",
+            "molecularProfile": {
+                "id": 838,
+                "profileName": "TP53 R175H"
+            },
+            "therapy": {
+                "id": 3723,
+                "therapyName": "Alvespimycin + Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4831,
+                    "pubMedId": 26009011,
+                    "title": "Improving survival by exploiting tumour dependence on stabilized mutant p53 for treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26009011"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8856,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rapamune (sirolimus) treatment in transgenic animal models of pancreatic ductal adenocarcinoma harboring KRAS G12D and TP53 R175H resulted in proliferation of tumor cells in interior, hypovascularized tumor regions, but inhibited proliferation in outer, vascularized tumor regions, despite inhibition of mTORC signaling in both regions (PMID: 26144316).",
+            "molecularProfile": {
+                "id": 18195,
+                "profileName": "KRAS G12D TP53 R175H"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3498,
+                "name": "pancreatic ductal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 6770,
+                    "pubMedId": 26144316,
+                    "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26144316"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4467,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of pimasertib and Gemzar (gemcitabine) inhibited tumor growth in a syngeneic mouse model of pancreatic cancer expressing KRAS G12D and TP53 R175H (PMID: 26228206).",
+            "molecularProfile": {
+                "id": 18195,
+                "profileName": "KRAS G12D TP53 R175H"
+            },
+            "therapy": {
+                "id": 3526,
+                "therapyName": "Gemcitabine + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4571,
+                    "pubMedId": 26228206,
+                    "title": "The MEK1/2 Inhibitor Pimasertib Enhances Gemcitabine Efficacy in Pancreatic Cancer Models by Altering Ribonucleotide Reductase Subunit-1 (RRM1).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26228206"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9549,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gemzar (gemcitabine) resulted in enhanced antitumor efficacy, including decreased tumor volume, when combined with SRA737 (CCT245737) in a pancreatic ductal adenocarcinoma transgenic mouse model harboring KRAS G12D and TP53 R175H (PMID: 27167172).",
+            "molecularProfile": {
+                "id": 18195,
+                "profileName": "KRAS G12D TP53 R175H"
+            },
+            "therapy": {
+                "id": 5070,
+                "therapyName": "Gemcitabine + SRA737",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3498,
+                "name": "pancreatic ductal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7267,
+                    "pubMedId": 27167172,
+                    "title": "Multiparameter Lead Optimization to Give an Oral Checkpoint Kinase 1 (CHK1) Inhibitor Clinical Candidate: (R)-5-((4-((Morpholin-2-ylmethyl)amino)-5-(trifluoromethyl)pyridin-2-yl)amino)pyrazine-2-carbonitrile (CCT245737).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27167172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9550,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SRA737 (CCT245737) resulted in some decreased tumor volume in a pancreatic ductal adenocarcinoma transgenic mouse model harboring KRAS G12D and TP53 R175H when compared to control (PMID: 27167172).",
+            "molecularProfile": {
+                "id": 18195,
+                "profileName": "KRAS G12D TP53 R175H"
+            },
+            "therapy": {
+                "id": 5069,
+                "therapyName": "SRA737",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3498,
+                "name": "pancreatic ductal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7267,
+                    "pubMedId": 27167172,
+                    "title": "Multiparameter Lead Optimization to Give an Oral Checkpoint Kinase 1 (CHK1) Inhibitor Clinical Candidate: (R)-5-((4-((Morpholin-2-ylmethyl)amino)-5-(trifluoromethyl)pyridin-2-yl)amino)pyrazine-2-carbonitrile (CCT245737).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27167172"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9561,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in a decrease in tumor volume by more than 60% in a patient with histiocytic sarcoma harboring MET exon 14 skipping and TP53 R175H (PMID: 25971938).",
+            "molecularProfile": {
+                "id": 26903,
+                "profileName": "MET del exon14 TP53 R175H"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5621,
+                "name": "histiocytic and dendritic cell cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6712,
+                    "pubMedId": 25971938,
+                    "title": "Activation of MET via diverse exon 14 splicing alterations occurs in multiple tumor types and confers clinical sensitivity to MET inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25971938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 838,
+            "profileName": "TP53 R175H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 732,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R175H"
+                },
+                {
+                    "id": 731,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 R175H"
+                }
+            ]
+        },
+        {
+            "id": 18195,
+            "profileName": "KRAS G12D TP53 R175H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26903,
+            "profileName": "MET del exon14 TP53 R175H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95300,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7675088C>T",
+            "cDna": "c.524G>A",
+            "protein": "p.R175H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95302,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7675088C>T",
+            "cDna": "c.524G>A",
+            "protein": "p.R175H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95301,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7675088C>T",
+            "cDna": "c.524G>A",
+            "protein": "p.R175H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95303,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7675088C>T",
+            "cDna": "c.524G>A",
+            "protein": "p.R175H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "id": 3789,
+    "fullName": "PIK3CA E453K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA E453K lies within the C2 PI3K-type domain of the Pik3ca protein (UniProt.org). E453K results in increased phosphorylation of Akt and Mek1/2, enhanced cell survival, and is transforming in culture (PMID: 26627007, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "E453K",
+    "createDate": "03/16/2015",
+    "updateDate": "02/07/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 171711,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179210291G>A",
+        "cDna": "c.1357G>A",
+        "protein": "p.E453K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13999,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells expressing PIK3CA E453K demonstrated resistance to treatment with Buparlisib (BKM120) in culture (PMID: 29636477).",
+            "molecularProfile": {
+                "id": 3596,
+                "profileName": "PIK3CA E453K"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11405,
+                    "pubMedId": 29636477,
+                    "title": "Characterization of PIK3CA and PIK3R1 somatic mutations in Chinese breast cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29636477"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17327,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, a patients harboring PIK3CA E453K did not demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 3596,
+                "profileName": "PIK3CA E453K"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2860,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD5363 inhibited proliferation of the AGS gastric cancer cell line, which has been reported to harbor KRAS G12D and PIK3CA E453K mutations (PMID: 24088382, PMID: 19755509).",
+            "molecularProfile": {
+                "id": 10717,
+                "profileName": "KRAS G12D PIK3CA E453K"
+            },
+            "therapy": {
+                "id": 655,
+                "therapyName": "Capivasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1081,
+                    "pubMedId": 24088382,
+                    "title": "The AKT inhibitor AZD5363 is selectively active in PI3KCA mutant gastric cancer, and sensitizes a patient-derived gastric cancer xenograft model with PTEN loss to Taxotere.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24088382"
+                },
+                {
+                    "id": 3510,
+                    "pubMedId": 19755509,
+                    "title": "Combination of EGFR and MEK1/2 inhibitor shows synergistic effects by suppressing EGFR/HER3-dependent AKT activation in human gastric cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19755509"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3596,
+            "profileName": "PIK3CA E453K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17125,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA E453K"
+                },
+                {
+                    "id": 17123,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA E453K"
+                },
+                {
+                    "id": 17121,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA E453K"
+                },
+                {
+                    "id": 17124,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA E453K"
+                },
+                {
+                    "id": 17119,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA E453K"
+                },
+                {
+                    "id": 17120,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA E453K"
+                },
+                {
+                    "id": 17122,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA E453K"
+                },
+                {
+                    "id": 17126,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA E453K"
+                }
+            ]
+        },
+        {
+            "id": 10717,
+            "profileName": "KRAS G12D PIK3CA E453K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171711,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179210291G>A",
+            "cDna": "c.1357G>A",
+            "protein": "p.E453K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171710,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179210291G>A",
+            "cDna": "c.1357G>A",
+            "protein": "p.E453K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171712,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179210291G>A",
+            "cDna": "c.1357G>A",
+            "protein": "p.E453K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

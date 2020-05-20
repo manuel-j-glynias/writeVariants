@@ -1,0 +1,170 @@
+{
+    "id": 11297,
+    "fullName": "ERBB2 T862A",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) T862A lies within the protein kinase domain of the Erbb2 (Her2) protein (UniProt.org). T862A results in constitutive phosphorylation of Erbb2 (Her2) and is transforming in cell culture (PMID: 22046346, PMID: 29533785, PMID: 29967253).",
+            "references": [
+                {
+                    "id": 621,
+                    "pubMedId": 22046346,
+                    "title": "Differential sensitivity of ERBB2 kinase domain mutations towards lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22046346"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11774,
+                    "pubMedId": 29967253,
+                    "title": "High-Throughput Functional Evaluation of Variants of Unknown Significance in ERBB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29967253"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "T862A",
+    "createDate": "09/01/2015",
+    "updateDate": "07/23/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 170780,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39725139A>G",
+        "cDna": "c.2584A>G",
+        "protein": "p.T862A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3038,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, higher dose of Tykerb (lapatinib) inhibited proliferation of transformed cell lines expressing ERBB2 (HER2) N862A in culture (PMID: 22046346).",
+            "molecularProfile": {
+                "id": 11336,
+                "profileName": "ERBB2 T862A"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 621,
+                    "pubMedId": 22046346,
+                    "title": "Differential sensitivity of ERBB2 kinase domain mutations towards lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22046346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 3041,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AEE788 inhibited proliferation of transformed cell lines expressing ERBB2 (HER2) T862A in culture (PMID: 22046346).",
+            "molecularProfile": {
+                "id": 11336,
+                "profileName": "ERBB2 T862A"
+            },
+            "therapy": {
+                "id": 622,
+                "therapyName": "AEE788",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 621,
+                    "pubMedId": 22046346,
+                    "title": "Differential sensitivity of ERBB2 kinase domain mutations towards lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22046346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 11336,
+            "profileName": "ERBB2 T862A",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6425,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 T862A"
+                },
+                {
+                    "id": 6424,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 T862A"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170780,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39725139A>G",
+            "cDna": "c.2584A>G",
+            "protein": "p.T862A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170781,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39725139A>G",
+            "cDna": "c.2584A>G",
+            "protein": "p.T862A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

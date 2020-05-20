@@ -1,0 +1,134 @@
+{
+    "id": 25435,
+    "fullName": "TP53 R335fs",
+    "impact": "frameshift",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R335fs results in a change in the amino acid sequence of the Tp53 protein beginning at aa 335 of 393, likely resulting in premature truncation of the functional protein (UniProt.org). R335fs has been identified in the scientific literature (PMID: 26272063, PMID: 30527185), but has not been biochemically characterized and therefore, its effect on Tp53 protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 14766,
+                    "pubMedId": 30527185,
+                    "title": "Genetic profiling-based prognostic prediction of patients with advanced small-cell lung cancer in large scale analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527185"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R335fs",
+    "createDate": "09/29/2016",
+    "updateDate": "10/16/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 95558,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.(7670706_7670707)",
+        "cDna": "c.(1003_1002)",
+        "protein": "p.R335fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8578,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 combination treatment did not result in tumor growth stabilization in patient-derived xenograft models of colorectal cancer harboring KRAS G12V, PIK3CA E545K, and TP53 R335fs (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26368,
+                "profileName": "KRAS G12V PIK3CA E545K TP53 R335fs"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26367,
+            "profileName": "TP53 R335fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26368,
+            "profileName": "KRAS G12V PIK3CA E545K TP53 R335fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95557,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.(7670706_7670707)",
+            "cDna": "c.(1003_1002)",
+            "protein": "p.R335fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95558,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.(7670706_7670707)",
+            "cDna": "c.(1003_1002)",
+            "protein": "p.R335fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

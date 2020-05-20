@@ -1,0 +1,204 @@
+{
+    "id": 3851,
+    "fullName": "PIK3CA M1043I",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA M1043I lies within the PI3K/PI4K domain of the Pik3ca protein (UniProt.org). M1043I confers a gain of function on the Pik3ca protein as indicated by in increased phosphorylation of Akt, activation of downstream signaling, and transformation in cell culture (PMID: 17376864, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 101,
+                    "pubMedId": 17376864,
+                    "title": "Rare cancer-specific mutations in PIK3CA show gain of function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17376864"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "M1043I",
+    "createDate": "03/18/2015",
+    "updateDate": "04/29/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 171972,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179234286G>C",
+        "cDna": "c.3129G>C",
+        "protein": "p.M1043I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17329,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I (SWOG S1400B) trial, Taselisib (GDC-0032) treatment did not meet primary endpoint in patients with lung squamous cell carcinoma harboring PIK3CA mutations, a patients harboring PIK3CA M1043I did not demonstrated response (PMID: 31158500; NCT02785913).",
+            "molecularProfile": {
+                "id": 3661,
+                "profileName": "PIK3CA M1043I"
+            },
+            "therapy": {
+                "id": 1016,
+                "therapyName": "Taselisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 15376,
+                    "pubMedId": 31158500,
+                    "title": "SWOG S1400B (NCT02785913), a Phase II Study of GDC-0032 (Taselisib) for Previously Treated PI3K-Positive Patients with Stage IV Squamous Cell Lung Cancer (Lung-MAP Sub-Study).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158500"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20209,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (NRG-GY008) trial, Aliqopa (copanlisib) was well tolerated but demonstrated limited efficacy, resulted in stable disease in a patient with endometrioid adenocarcinoma harboring PIK3CA M1043I (PMID: 31934607).",
+            "molecularProfile": {
+                "id": 3661,
+                "profileName": "PIK3CA M1043I"
+            },
+            "therapy": {
+                "id": 995,
+                "therapyName": "Copanlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2870,
+                "name": "endometrial adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17733,
+                    "pubMedId": 31934607,
+                    "title": "Phase II evaluation of copanlisib, a selective inhibitor of Pi3kca, in patients with persistent or recurrent endometrial carcinoma harboring PIK3CA hotspot mutations: An NRG Oncology study (NRG-GY008).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31934607"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3661,
+            "profileName": "PIK3CA M1043I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17261,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA M1043I"
+                },
+                {
+                    "id": 17259,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA M1043I"
+                },
+                {
+                    "id": 17262,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA M1043I"
+                },
+                {
+                    "id": 17260,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA M1043I"
+                },
+                {
+                    "id": 17256,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA M1043I"
+                },
+                {
+                    "id": 17255,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA M1043I"
+                },
+                {
+                    "id": 17258,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA M1043I"
+                },
+                {
+                    "id": 17257,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA M1043I"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171973,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179234286G>C",
+            "cDna": "c.3129G>C",
+            "protein": "p.M1043I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171971,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179234286G>C",
+            "cDna": "c.3129G>C",
+            "protein": "p.M1043I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171972,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179234286G>C",
+            "cDna": "c.3129G>C",
+            "protein": "p.M1043I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

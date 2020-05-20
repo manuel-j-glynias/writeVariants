@@ -1,0 +1,181 @@
+{
+    "id": 3296,
+    "fullName": "EGFR E746_E749del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR E746_E749del results in the deletion of four amino acids in the protein kinase domain of the Egfr protein from amino acids 746 to 749 (UniProt.org). E746_E749del has not been biochemically characterized, but is predicted to result in a gain of function based on the effect of other EGFR exon 19 deletion mutations (PMID: 16373402, PMID: 16912195, PMID: 23387505).",
+            "references": [
+                {
+                    "id": 21,
+                    "pubMedId": 16912195,
+                    "title": "Kinetic analysis of epidermal growth factor receptor somatic mutant proteins shows increased sensitivity to the epidermal growth factor receptor tyrosine kinase inhibitor, erlotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16912195"
+                },
+                {
+                    "id": 1804,
+                    "pubMedId": 16373402,
+                    "title": "Dimerization and the signal transduction pathway of a small in-frame deletion in the epidermal growth factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16373402"
+                },
+                {
+                    "id": 441,
+                    "pubMedId": 23387505,
+                    "title": "Sensitivity and kinase activity of epidermal growth factor receptor (EGFR) exon 19 and others to EGFR-tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23387505"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "E746_E749del",
+    "createDate": "02/22/2015",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135608,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174774_55174785del12",
+        "cDna": "c.2237_2248del12",
+        "protein": "p.E746_E749delELRE",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9658,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of NPS-1034 and Iressa (gefitinib) inhibited EGFR, MET, and AXL activity and decreased viability of an Iressa (gefitinib)-resistant non-small cell lung cancer cell line that harbors EGFR E746_A750del and EGFR T790M, as well as MET amplification and over expression of AXL, in culture (PMID: 24165158).",
+            "molecularProfile": {
+                "id": 26948,
+                "profileName": "AXL over exp EGFR E746_E749del EGFR T790M MET amp"
+            },
+            "therapy": {
+                "id": 5116,
+                "therapyName": "Gefitinib + NPS-1034",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7367,
+                    "pubMedId": 24165158,
+                    "title": "MET and AXL inhibitor NPS-1034 exerts efficacy against lung cancer cells resistant to EGFR kinase inhibitors because of MET or AXL activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24165158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9659,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of NPS-1034 and Tarceva (erlotinib inhibited EGFR, MET, and AXL activity and decreased viability of a Tarceva (erlotinib)-resistant non-small cell lung cancer cell line that harbors EGFR E746_A750del and EGFR T790M, as well as MET amplification and over expression of AXL, in culture (PMID: 24165158).",
+            "molecularProfile": {
+                "id": 26948,
+                "profileName": "AXL over exp EGFR E746_E749del EGFR T790M MET amp"
+            },
+            "therapy": {
+                "id": 5117,
+                "therapyName": "Erlotinib + NPS-1034",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7367,
+                    "pubMedId": 24165158,
+                    "title": "MET and AXL inhibitor NPS-1034 exerts efficacy against lung cancer cells resistant to EGFR kinase inhibitors because of MET or AXL activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24165158"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3112,
+            "profileName": "EGFR E746_E749del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4650,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR E746_E749del"
+                },
+                {
+                    "id": 4652,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR E746_E749del"
+                },
+                {
+                    "id": 4649,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR E746_E749del"
+                },
+                {
+                    "id": 4648,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR E746_E749del"
+                },
+                {
+                    "id": 4651,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR E746_E749del"
+                }
+            ]
+        },
+        {
+            "id": 26948,
+            "profileName": "AXL over exp EGFR E746_E749del EGFR T790M MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135608,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174774_55174785del12",
+            "cDna": "c.2237_2248del12",
+            "protein": "p.E746_E749delELRE",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

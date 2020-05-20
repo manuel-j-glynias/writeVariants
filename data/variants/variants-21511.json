@@ -1,0 +1,350 @@
+{
+    "id": 21511,
+    "fullName": "MAP2K1 K59del",
+    "impact": "deletion",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 K59del results in the deletion of an amino acid in the protein kinase domain of the Map2k1 protein at amino acid 59 (UniProt.org). K59del results in increased Mek and Erk phosphorylation in culture (PMID: 22389471), but demonstrates autophosphorylation levels similar to wild-type Map2k1 in another study (PMID: 29753091), and therefore, its effect on Map2k1 protein function is unknown.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                },
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "K59del",
+    "createDate": "04/23/2016",
+    "updateDate": "03/05/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 173440,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66435121_66435123delAAG",
+        "cDna": "c.175_177delAAG",
+        "protein": "p.K59delK",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5953,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cell lines harboring BRAF V600E and MAP2K1 K59del were resistant to Tafinlar (dabrafenib) mediated growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22045,
+                "profileName": "BRAF V600E MAP2K1 K59del"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5957,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cell lines harboring BRAF V600E and MAP2K1 K59del were resistant to Zelboraf (vemurafenib) growth inhibition in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22045,
+                "profileName": "BRAF V600E MAP2K1 K59del"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5983,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition of human melanoma cell lines harboring BRAF V600E and MAP2K1 K59del in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22045,
+                "profileName": "BRAF V600E MAP2K1 K59del"
+            },
+            "therapy": {
+                "id": 4004,
+                "therapyName": "Dabrafenib + GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5984,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) in combination with Omipalisib (GSK2126458) resulted in improved growth inhibition of human melanoma cell lines harboring BRAF V600E and MAP2K1 K59del in culture, compared to either agent alone (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22045,
+                "profileName": "BRAF V600E MAP2K1 K59del"
+            },
+            "therapy": {
+                "id": 3027,
+                "therapyName": "GSK2126458 + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5964,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cell lines harboring BRAF V600E and MAP2K1 K59del were resistant to growth inhibition by Mekinist (trametinib) in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22045,
+                "profileName": "BRAF V600E MAP2K1 K59del"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5969,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cell lines harboring BRAF V600E and MAP2K1 K59del had reduced sensitivity to Omipalisib (GSK2126458) in comparison to parental cell lines harboring BRAF V600E in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22045,
+                "profileName": "BRAF V600E MAP2K1 K59del"
+            },
+            "therapy": {
+                "id": 763,
+                "therapyName": "GSK2126458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5980,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Talfinlar (dabrafenib) in combination with Mekinist (trametinib) resulted in improved growth inhibition of human melanoma cell lines harboring BRAF V600E harboring MAP2K1 K59del in culture (PMID: 22389471).",
+            "molecularProfile": {
+                "id": 22045,
+                "profileName": "BRAF V600E MAP2K1 K59del"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2092,
+                    "pubMedId": 22389471,
+                    "title": "Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22389471"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 22044,
+            "profileName": "MAP2K1 K59del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 9409,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "MAP2K1 K59del"
+                },
+                {
+                    "id": 9408,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "MAP2K1 K59del"
+                }
+            ]
+        },
+        {
+            "id": 22045,
+            "profileName": "BRAF V600E MAP2K1 K59del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173441,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66435121_66435123delAAG",
+            "cDna": "c.175_177delAAG",
+            "protein": "p.K59delK",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173440,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66435121_66435123delAAG",
+            "cDna": "c.175_177delAAG",
+            "protein": "p.K59delK",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173442,
+            "transcript": "XM_011521783",
+            "gDna": "chr15:g.66435190_66435192delGTG",
+            "cDna": "c.178_180delGTG",
+            "protein": "p.V60delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173443,
+            "transcript": "XM_017022412",
+            "gDna": "chr15:g.66435190_66435192delGTG",
+            "cDna": "c.178_180delGTG",
+            "protein": "p.V60delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173444,
+            "transcript": "XM_017022413",
+            "gDna": "chr15:g.66485000_66485002delTCC",
+            "cDna": "c.176_178delTCC",
+            "protein": "p.L59delL",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

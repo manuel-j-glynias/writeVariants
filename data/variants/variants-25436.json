@@ -1,0 +1,206 @@
+{
+    "id": 25436,
+    "fullName": "TP53 R273*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R273* results in a premature truncation of the Tp53 protein at amino acid 273 of 393 (UniProt.org). Due to the loss of the tetramerization domain (PMID: 22713868), R273* is predicted to lead to a loss of Tp53 function.",
+            "references": [
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R273*",
+    "createDate": "09/29/2016",
+    "updateDate": "09/29/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 95441,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7673801_7673803delACGinsTCA",
+        "cDna": "c.817_819delCGTinsTGA",
+        "protein": "p.R273*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8597,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) and BEZ235 combination treatment did not improve tumor growth stabilization compared to single agent in patient-derived xenograft models of colorectal cancer harboring KRAS G12V, PIK3CA E545K and TP53 R273* (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26374,
+                "profileName": "KRAS G12V PIK3CA E545K TP53 R273*"
+            },
+            "therapy": {
+                "id": 1420,
+                "therapyName": "BEZ235 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8699,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived xenograft models of colorectal cancer harboring KRAS G12V, PIK3CA E545K, and TP53 R273* did not respond to BEZ235 treatment (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26374,
+                "profileName": "KRAS G12V PIK3CA E545K TP53 R273*"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8698,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived xenograft models of colorectal cancer harboring KRAS G12V, PIK3CA E545K, and TP53 R273* did not respond to Selumetinib (AZD6244) treatment (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26374,
+                "profileName": "KRAS G12V PIK3CA E545K TP53 R273*"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26373,
+            "profileName": "TP53 R273*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10633,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R273*"
+                }
+            ]
+        },
+        {
+            "id": 26374,
+            "profileName": "KRAS G12V PIK3CA E545K TP53 R273*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95440,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7673801_7673803delACGinsTCA",
+            "cDna": "c.817_819delCGTinsTGA",
+            "protein": "p.R273*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95441,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7673801_7673803delACGinsTCA",
+            "cDna": "c.817_819delCGTinsTGA",
+            "protein": "p.R273*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95442,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7673801_7673803delACGinsTCA",
+            "cDna": "c.817_819delCGTinsTGA",
+            "protein": "p.R273*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95443,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7673801_7673803delACGinsTCA",
+            "cDna": "c.817_819delCGTinsTGA",
+            "protein": "p.R273*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

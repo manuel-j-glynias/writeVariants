@@ -1,0 +1,175 @@
+{
+    "id": 3267,
+    "fullName": "EGFR H870R",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR H870R lies within the protein kinase domain of the Egfr protein (UniProt.org). H870R results in constitutive phosphorylation of Egfr, activation of downstream signaling in cell culture (PMID: 19671738), increased cell proliferation and cell viability in culture (PMID: 29533785), and is associated with resistance to Egfr inhibitors (PMID: 19671738).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 1878,
+                    "pubMedId": 19671738,
+                    "title": "Double EGFR mutants containing rare EGFR mutant types show reduced in vitro response to gefitinib compared with common activating missense mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19671738"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "H870R",
+    "createDate": "02/20/2015",
+    "updateDate": "11/05/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135692,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55191858A>G",
+        "cDna": "c.2609A>G",
+        "protein": "p.H870R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19064,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFR H870R was insensitive to inhibition of Egfr phosphorylation by Iressa (gefitinib) in non-small cell lung cancer cells in culture (PMID: 19671738).",
+            "molecularProfile": {
+                "id": 3084,
+                "profileName": "EGFR H870R"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 1878,
+                    "pubMedId": 19671738,
+                    "title": "Double EGFR mutants containing rare EGFR mutant types show reduced in vitro response to gefitinib compared with common activating missense mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19671738"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19063,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in rapid disease progression within 3 months of treatment in a patient with metastatic lung adenocarcinoma harboring both EGFR L858R and EGFR H870R (PMID: 21841502).",
+            "molecularProfile": {
+                "id": 33831,
+                "profileName": "EGFR L858R EGFR H870R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16690,
+                    "pubMedId": 21841502,
+                    "title": "Activity of epidermal growth factor receptor-tyrosine kinase inhibitors in patients with non-small cell lung cancer harboring rare epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21841502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3084,
+            "profileName": "EGFR H870R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17930,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR H870R"
+                },
+                {
+                    "id": 17927,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR H870R"
+                },
+                {
+                    "id": 17929,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR H870R"
+                },
+                {
+                    "id": 17931,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR H870R"
+                },
+                {
+                    "id": 17928,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR H870R"
+                }
+            ]
+        },
+        {
+            "id": 33831,
+            "profileName": "EGFR L858R EGFR H870R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135692,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55191858A>G",
+            "cDna": "c.2609A>G",
+            "protein": "p.H870R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

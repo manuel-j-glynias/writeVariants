@@ -1,0 +1,429 @@
+{
+    "id": 1165,
+    "fullName": "ESR1 negative",
+    "impact": "unknown",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ESR1 negative indicates a lack of the ESR1 gene, mRNA, and/or protein.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2099,
+        "geneSymbol": "ESR1",
+        "terms": [
+            "ESR1",
+            "ER",
+            "Era",
+            "ESR",
+            "ESRA",
+            "ESTRR",
+            "NR3A1"
+        ]
+    },
+    "variant": "negative",
+    "createDate": "07/27/2014",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12285,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KX2-391 induced Esr1 (Er alpha) expression, sensitized triple-receptor negative breast cancer cell lines to Nolvadex (tamoxifen) treatment, resulting in improved tumor growth inhibition in cell line xenograft models (PMID: 28751463).",
+            "molecularProfile": {
+                "id": 1190,
+                "profileName": "ESR1 negative"
+            },
+            "therapy": {
+                "id": 6427,
+                "therapyName": "KX2-391 + Tamoxifen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10263,
+                    "pubMedId": 28751463,
+                    "title": "Dual Src Kinase/Pretubulin Inhibitor KX-01, Sensitizes ER\u03b1-negative Breast Cancers to Tamoxifen through ER\u03b1 Reexpression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751463"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10247,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CRT 0066101 inhibited growth and metastasis of Estrogen receptor negative breast cancer cells in culture and in cell line xenograft models, in which loss of Estrogen receptor lead to upregulation of Pkd3 (PMID: 25852060).",
+            "molecularProfile": {
+                "id": 1190,
+                "profileName": "ESR1 negative"
+            },
+            "therapy": {
+                "id": 5439,
+                "therapyName": "CRT 0066101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60076,
+                "name": "estrogen-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8228,
+                    "pubMedId": 25852060,
+                    "title": "Effective Targeting of Estrogen Receptor-Negative Breast Cancers with the Protein Kinase D Inhibitor CRT0066101.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25852060"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10444,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, adding Avastin (bevacizumab) to adjuvant chemotherapy did not significantly improve overall survival (HR=0.93, p=0.52) in patients with early triple-negative breast cancer (PMID: 27993816).",
+            "molecularProfile": {
+                "id": 1807,
+                "profileName": "ERBB2 neg ESR1 neg PGR neg"
+            },
+            "therapy": {
+                "id": 667,
+                "therapyName": "Bevacizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 8459,
+                    "pubMedId": 27993816,
+                    "title": "Final efficacy and updated safety results of the randomized phase III BEATRICE trial evaluating adjuvant bevacizumab-containing therapy in triple-negative early breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27993816"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5057,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, triple-receptor negative breast cancer cell lines positive for Hhat demonstrated resistance to RU-SKI 43 treatment in culture (PMID: 25889650).",
+            "molecularProfile": {
+                "id": 20222,
+                "profileName": "ERBB2 neg ESR1 neg HHAT pos PGR neg"
+            },
+            "therapy": {
+                "id": 3744,
+                "therapyName": "RU-SKI 43",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4868,
+                    "pubMedId": 25889650,
+                    "title": "Hedgehog Acyltransferase as a target in estrogen receptor positive, HER2 amplified, and tamoxifen resistant breast cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25889650"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5058,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RU-SKI 43 inhibited proliferation of ER-negative, ERBB2 amplified breast cancer cells positive for HHAT in culture (PMID: 25889650).",
+            "molecularProfile": {
+                "id": 20228,
+                "profileName": "ERBB2 amp ESR1 neg HHAT pos"
+            },
+            "therapy": {
+                "id": 3744,
+                "therapyName": "RU-SKI 43",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4868,
+                    "pubMedId": 25889650,
+                    "title": "Hedgehog Acyltransferase as a target in estrogen receptor positive, HER2 amplified, and tamoxifen resistant breast cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25889650"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3634,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK-2206 inhibited growth and colony formation of a triple negative human breast cancer cell line harboring AKT E17K in culture and inhibited tumor growth in xenograft models (PMID: 26351323).",
+            "molecularProfile": {
+                "id": 26602,
+                "profileName": "AKT1 E17K ERBB2 neg ESR1 neg PGR neg"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3912,
+                    "pubMedId": 26351323,
+                    "title": "Tumors with AKT1E17K Mutations Are Rational Targets for Single Agent or Combination Therapy with AKT Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26351323"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1190,
+            "profileName": "ESR1 negative",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 1807,
+            "profileName": "ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 2355,
+            "profileName": "ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10545,
+            "profileName": "BRCA1 mut ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10713,
+            "profileName": "BRCA1 wild-type ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10714,
+            "profileName": "BRCA1 dec exp ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 10716,
+            "profileName": "ERBB2 neg ESR1 neg PALB2 dec exp PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 13349,
+            "profileName": "ESR1 neg FGFR2 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 13350,
+            "profileName": "ESR1 neg FGFR2 wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 14276,
+            "profileName": "ERBB2 neg ESR1 neg NOTCH1 V2249* PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 14277,
+            "profileName": "ERBB2 neg ESR1 neg NOTCH1 P2462fs PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 14279,
+            "profileName": "ERBB2 neg ESR1 neg NOTCH1 mut PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 15930,
+            "profileName": "ERBB2 neg ESR1 neg NOTCH1 S2449fs PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 17702,
+            "profileName": "NOTCH1 rearrange ERBB2 negative ESR1 negative PGR negative",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 17812,
+            "profileName": "NOTCH2 rearrange ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 17813,
+            "profileName": "ERBB2 neg ESR1 neg NOTCH1 wild-type PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 18589,
+            "profileName": "ERBB2 neg ERBB3 pos ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 18832,
+            "profileName": "ERBB2 neg ESR1 neg GPNMB over exp PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19847,
+            "profileName": "ERBB2 neg ESR1 neg PGR neg PTEN loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20222,
+            "profileName": "ERBB2 neg ESR1 neg HHAT pos PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20228,
+            "profileName": "ERBB2 amp ESR1 neg HHAT pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20270,
+            "profileName": "ERBB2 neg ESR1 neg PGR neg PIK3CA wild-type PTEN del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 21968,
+            "profileName": "ERBB2 neg ESR1 neg PGR neg PIK3CA mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 21970,
+            "profileName": "ERBB2 neg ESR1 neg PGR neg PIK3CA wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26602,
+            "profileName": "AKT1 E17K ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26909,
+            "profileName": "AR pos ERBB2 neg ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27739,
+            "profileName": "ERBB2 pos ESR1 neg PGR neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31167,
+            "profileName": "ESR1 neg PGR pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

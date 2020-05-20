@@ -1,0 +1,138 @@
+{
+    "id": 27251,
+    "fullName": "SRSF2 P95H",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "SRSF2 P95H is a hotspot mutation that lies within the linker region between the RRM and RS domains of the Srsf2 protein (PMID: 26261309). P95H results in similar cell proliferation and viability levels to wild-type Srsf2 (PMID: 29533785), however, results in altered binding affinity of Srsf2 to specific RNA sites, and leads to disrupted regulation of splicing events (PMID: 26261309, PMID: 31040863) and therefore, is predicted to lead to a loss of Srsf2 protein function.",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 10302,
+                    "pubMedId": 26261309,
+                    "title": "Disease-associated mutation in SRSF2 misregulates splicing by altering RNA-binding affinities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26261309"
+                },
+                {
+                    "id": 16067,
+                    "pubMedId": 31040863,
+                    "title": "Myelodysplastic Syndrome-Associated SRSF2 Mutations Cause Splicing Changes by Altering Binding Motif Sequences.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31040863"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6427,
+        "geneSymbol": "SRSF2",
+        "terms": [
+            "SRSF2",
+            "PR264",
+            "SC-35",
+            "SC35",
+            "SFRS2",
+            "SFRS2A",
+            "SRp30b"
+        ]
+    },
+    "variant": "P95H",
+    "createDate": "11/14/2017",
+    "updateDate": "09/15/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 147821,
+        "transcript": "NM_001195427",
+        "gDna": "chr17:g.76736877G>T",
+        "cDna": "c.284C>A",
+        "protein": "p.P95H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12871,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, H3B-8800 inhibited tumor growth in transplant animal models of mouse acute myeloid leukemia cells harboring SRSF2 P95H and KMT2A-MLLT3 (MLL-AF9) while had no effect in SRSF2 wild-type controls (Blood 2016 128:966).",
+            "molecularProfile": {
+                "id": 28948,
+                "profileName": "KMT2A - MLLT3 SRSF2 P95H"
+            },
+            "therapy": {
+                "id": 6685,
+                "therapyName": "H3B-8800",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10817,
+                    "pubMedId": null,
+                    "title": "H3B-8800, an Orally Bioavailable Modulator of the SF3b Complex, Shows Efficacy in Spliceosome-Mutant Myeloid Malignancies",
+                    "url": "http://www.bloodjournal.org/content/128/22/966?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28670,
+            "profileName": "SRSF2 P95H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28948,
+            "profileName": "KMT2A - MLLT3 SRSF2 P95H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 147822,
+            "transcript": "NM_003016",
+            "gDna": "chr17:g.76736877G>T",
+            "cDna": "c.284C>A",
+            "protein": "p.P95H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 147821,
+            "transcript": "NM_001195427",
+            "gDna": "chr17:g.76736877G>T",
+            "cDna": "c.284C>A",
+            "protein": "p.P95H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 147820,
+            "transcript": "XM_017024942",
+            "gDna": "chr17:g.76736877G>T",
+            "cDna": "c.284C>A",
+            "protein": "p.P95H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

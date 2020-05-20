@@ -1,0 +1,116 @@
+{
+    "id": 28275,
+    "fullName": "PARP1 Y848del",
+    "impact": "deletion",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PARP1 Y848del results in the deletion of one amino acid of the Parp1 protein at amino acid 848 (UniProt.org). Y848del results in reduced Parp1 trapping, reduced Parp1 recruitment and PARylation at DNA damage sites, and is associated with resistance to PARP inhibitors in cell culture (PMID: 29748565).",
+            "references": [
+                {
+                    "id": 11365,
+                    "pubMedId": 29748565,
+                    "title": "Genome-wide and high-density CRISPR-Cas9 screens identify point mutations in PARP1 causing PARP inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748565"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 142,
+        "geneSymbol": "PARP1",
+        "terms": [
+            "PARP1",
+            "ADPRT",
+            "ADPRT 1",
+            "ADPRT1",
+            "ARTD1",
+            "pADPRT-1",
+            "PARP",
+            "PARP-1",
+            "PPOL"
+        ]
+    },
+    "variant": "Y848del",
+    "createDate": "05/18/2018",
+    "updateDate": "02/12/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 178483,
+        "transcript": "NM_001618",
+        "gDna": "chr1:g.226365116_226365118delGTA",
+        "cDna": "c.2542_2544delTAC",
+        "protein": "p.Y848delY",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13927,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ovarian cancer cells harboring two BRCA1 mutations and expressing PARP1 Y848del and PARP1 Y848_K849del demonstrated resistance to treatment with Talazoparib (BMN-673) in culture (PMID: 29748565).",
+            "molecularProfile": {
+                "id": 29875,
+                "profileName": "BRCA1 mut PARP1 Y848_K849del PARP1 Y848del"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11365,
+                    "pubMedId": 29748565,
+                    "title": "Genome-wide and high-density CRISPR-Cas9 screens identify point mutations in PARP1 causing PARP inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748565"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29868,
+            "profileName": "PARP1 Y848del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29875,
+            "profileName": "BRCA1 mut PARP1 Y848_K849del PARP1 Y848del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 178483,
+            "transcript": "NM_001618",
+            "gDna": "chr1:g.226365116_226365118delGTA",
+            "cDna": "c.2542_2544delTAC",
+            "protein": "p.Y848delY",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

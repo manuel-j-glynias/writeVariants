@@ -1,0 +1,191 @@
+{
+    "id": 27596,
+    "fullName": "ABL1 F317V",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ABL1 F317V lies within the protein kinase domain of the Abl1 protein (UniProt.org). F317V has been demonstrated to occur as a secondary drug resistance mutation in the context of BCR-ABL1 (PMID: 23044928, PMID: 15705718), but has not been biochemically characterized and therefore, its effect on Abl1 protein function is unknown (PubMed, Sep 2019).",
+            "references": [
+                {
+                    "id": 11533,
+                    "pubMedId": 15705718,
+                    "title": "Comparative analysis of two clinically active BCR-ABL kinase inhibitors reveals the role of conformation-specific binding in resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15705718"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11093,
+                    "pubMedId": 23044928,
+                    "title": "Three novel patient-derived BCR/ABL mutants show different sensitivity to second and third generation tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23044928"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 25,
+        "geneSymbol": "ABL1",
+        "terms": [
+            "ABL1",
+            "ABL",
+            "BCR-ABL",
+            "bcr/abl",
+            "c-ABL",
+            "c-ABL1",
+            "CHDSKM",
+            "JTK7",
+            "p150",
+            "v-abl"
+        ]
+    },
+    "variant": "F317V",
+    "createDate": "03/23/2018",
+    "updateDate": "09/29/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 119169,
+        "transcript": "NM_005157",
+        "gDna": "chr9:g.130872901T>G",
+        "cDna": "c.949T>G",
+        "protein": "p.F317V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18898,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Sprycel (dasatinib) is not indicated for use in chronic myeloid leukemia patients with BCR-ABL1 harboring ABL1 F317V (NCCN.org).",
+            "molecularProfile": {
+                "id": 29107,
+                "profileName": "BCR - ABL1 ABL1 F317V"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20127,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Sprycel (dasatinib) is not indicated for use in acute lymphoblastic leukemia patients with BCR-ABL1 harboring ABL1 F317V (NCCN.org).",
+            "molecularProfile": {
+                "id": 29107,
+                "profileName": "BCR - ABL1 ABL1 F317V"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9952,
+                "name": "acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20992,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing ABL1 F317V in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 29107,
+                "profileName": "BCR - ABL1 ABL1 F317V"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29106,
+            "profileName": "ABL1 F317V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29107,
+            "profileName": "BCR - ABL1 ABL1 F317V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 119169,
+            "transcript": "NM_005157",
+            "gDna": "chr9:g.130872901T>G",
+            "cDna": "c.949T>G",
+            "protein": "p.F317V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

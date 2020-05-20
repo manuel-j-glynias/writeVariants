@@ -1,0 +1,171 @@
+{
+    "id": 378,
+    "fullName": "KIT amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT amp indicates an increased number of copies of the KIT gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "03/13/2014",
+    "updateDate": "07/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9778,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, DCC-2618 demonstrated preliminary safety and efficacy in patients with advanced solid tumors, including a partial response in a glioblastoma multiforme patient harboring KIT and PDGFRA amplification (EORTC-NCI-AACR 2016, Abs 7LBA).",
+            "molecularProfile": {
+                "id": 27080,
+                "profileName": "KIT amp PDGFRA amp"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7598,
+                    "pubMedId": null,
+                    "title": "DCC-2618, a pan KIT and PDGFR switch control inhibitor, achieves proof-of-concept in a first-in-human study",
+                    "url": "http://www.ecco-org.eu/Events/ENA2016/Searchable-Programme#anchorScpr"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14608,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung carcinoma patient harboring a ROS1 fusion treated with Xalkori (crizotinib) responded, but eventually progressed, and was subsequently found to harbor presumed resistance alterations, including amplification of KIT, KDR, and PDGFRA (PMID: 29636358).",
+            "molecularProfile": {
+                "id": 30337,
+                "profileName": "ROS1 fusion KDR amp KIT amp PDGFRA amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11739,
+                    "pubMedId": 29636358,
+                    "title": "Resistance Mechanisms to Targeted Therapies in ROS1+ and ALK+ Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29636358"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16846,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, an ALK G1202R secondary mutation as well as KIT amplification were identified in a patient with ALK fusion-positive non-small cell lung cancer with resistance to Xalkori (crizotinib) (PMID: 22277784).",
+            "molecularProfile": {
+                "id": 32077,
+                "profileName": "ALK fusion ALK G1202R KIT amp"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 683,
+                    "pubMedId": 22277784,
+                    "title": "Mechanisms of acquired crizotinib resistance in ALK-rearranged lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22277784"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 473,
+            "profileName": "KIT amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 465,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT amp"
+                }
+            ]
+        },
+        {
+            "id": 27080,
+            "profileName": "KIT amp PDGFRA amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30337,
+            "profileName": "ROS1 fusion KDR amp KIT amp PDGFRA amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32077,
+            "profileName": "ALK fusion ALK G1202R KIT amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

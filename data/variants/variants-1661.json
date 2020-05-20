@@ -1,0 +1,314 @@
+{
+    "id": 1661,
+    "fullName": "DDR2 I638F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "DDR2 I638F lies within the protein kinase domain of the Ddr2 protein (UniProt.org). I638F confers a gain of function to the Ddr2 protein, as demonstrated by increased Ddr2 phosphorylation (PMID: 28161936) and Stat5 activation and transformation of cultured cells, and induced tumor formation in mouse xenograft models (PMID: 22328973).",
+            "references": [
+                {
+                    "id": 10579,
+                    "pubMedId": 28161936,
+                    "title": "Prevalence of Mutations in Discoidin Domain-Containing Receptor Tyrosine Kinase 2 (DDR2) in Squamous Cell Lung Cancers in Korean Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28161936"
+                },
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4921,
+        "geneSymbol": "DDR2",
+        "terms": [
+            "DDR2",
+            "MIG20a",
+            "NTRKR3",
+            "TKT",
+            "TYRO10",
+            "WRCN"
+        ]
+    },
+    "variant": "I638F",
+    "createDate": "09/10/2014",
+    "updateDate": "07/24/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 147393,
+        "transcript": "NM_001014796",
+        "gDna": "chr1:g.162775707A>T",
+        "cDna": "c.1912A>T",
+        "protein": "p.I638F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1804,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of DDR2 T654M in lung squamous cell cancer cells harboring DDR2 I638F resulted in decreased sensitivity to Sprycel (dasatinib) in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3454,
+                "profileName": "DDR2 I638F DDR2 T654M"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5121,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Saracatinib (AZD0530) and Tasigna (nilotinib) reduced proliferation of transformed cells expressing DDR2 I638F in culture, with increased potency over either agent alone (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3455,
+                "profileName": "DDR2 I638F"
+            },
+            "therapy": {
+                "id": 3756,
+                "therapyName": "Nilotinib + Saracatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5103,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited growth of transformed cells expressing DDR2 I638F in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3455,
+                "profileName": "DDR2 I638F"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1805,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) inhibited growth of a lung squamous cell carcinoma cell line harboring a DDR2 I638F mutation in culture and in xenograft models (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3455,
+                "profileName": "DDR2 I638F"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5102,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) inhibited growth of transformed cells expressing DDR2 I638F in culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3455,
+                "profileName": "DDR2 I638F"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1806,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited proliferation of lung squamous cell carcinoma cells harboring a DDR2 I638F mutation in cell culture (PMID: 22328973).",
+            "molecularProfile": {
+                "id": 3455,
+                "profileName": "DDR2 I638F"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3907,
+                "name": "lung squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 141,
+                    "pubMedId": 22328973,
+                    "title": "Mutations in the DDR2 kinase gene identify a novel therapeutic target in squamous cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22328973"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3454,
+            "profileName": "DDR2 I638F DDR2 T654M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 3455,
+            "profileName": "DDR2 I638F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1221,
+                    "name": "DDR2 inhibitor",
+                    "profileName": "DDR2 I638F"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 147392,
+            "transcript": "XM_011509587",
+            "gDna": "chr1:g.162775707A>T",
+            "cDna": "c.1912A>T",
+            "protein": "p.I638F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 147390,
+            "transcript": "XM_006711344",
+            "gDna": "chr1:g.162775707A>T",
+            "cDna": "c.1912A>T",
+            "protein": "p.I638F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 147393,
+            "transcript": "NM_001014796",
+            "gDna": "chr1:g.162775707A>T",
+            "cDna": "c.1912A>T",
+            "protein": "p.I638F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 147391,
+            "transcript": "XM_011509586",
+            "gDna": "chr1:g.162775707A>T",
+            "cDna": "c.1912A>T",
+            "protein": "p.I638F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 147394,
+            "transcript": "NM_006182",
+            "gDna": "chr1:g.162775707A>T",
+            "cDna": "c.1912A>T",
+            "protein": "p.I638F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

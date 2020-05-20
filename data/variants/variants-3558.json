@@ -1,0 +1,212 @@
+{
+    "id": 3558,
+    "fullName": "NRAS G13R",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "NRAS G13R is a hotspot mutation that lies within a GTP-binding region of the Nras protein (UniProt.org). G13R has not been characterized, but can be predicted to confer a loss of function on Nras protein based on the effects of HRAS G13R, which results in increased GTP-bound Hras, constitutive activation of Mapk and Akt signaling, and increased cell proliferation in culture (PMID: 22683711).",
+            "references": [
+                {
+                    "id": 2202,
+                    "pubMedId": 22683711,
+                    "title": "Postzygotic HRAS and KRAS mutations cause nevus sebaceous and Schimmelpenning syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22683711"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4893,
+        "geneSymbol": "NRAS",
+        "terms": [
+            "NRAS",
+            "ALPS4",
+            "CMNS",
+            "N-ras",
+            "NCMS",
+            "NRAS1",
+            "NS6"
+        ]
+    },
+    "variant": "G13R",
+    "createDate": "03/05/2015",
+    "updateDate": "09/19/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 162443,
+        "transcript": "NM_002524",
+        "gDna": "chr1:g.114716124C>G",
+        "cDna": "c.37G>C",
+        "protein": "p.G13R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12197,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LSN3074753 and Erbitux (cetuximab) worked synergistically, resulting in tumor regression in a patient-derived xenograft model of colorectal cancer harboring BRAF G596V and NRAS G13R (PMID: 28611205).",
+            "molecularProfile": {
+                "id": 28547,
+                "profileName": "BRAF G596V NRAS G13R"
+            },
+            "therapy": {
+                "id": 6338,
+                "therapyName": "Cetuximab + LSN3074753",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10143,
+                    "pubMedId": 28611205,
+                    "title": "Mouse PDX Trial Suggests Synergy of Concurrent Inhibition of RAF and EGFR in Colorectal Cancer with BRAF or KRAS Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28611205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16587,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with BRAF V600E colorectal cancer developed progressive disease after a partial response lasting 24 weeks to Alpelisib (BYL719), Erbitux (cetuximab), and Braftovi (encorafenib) combination treatment, NRAS G13R was identified as an acquired mutation in liver metastasis at the time of progression (PMID: 28951457).",
+            "molecularProfile": {
+                "id": 31705,
+                "profileName": "BRAF V600E NRAS G13R"
+            },
+            "therapy": {
+                "id": 1917,
+                "therapyName": "Alpelisib + Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14634,
+                    "pubMedId": 28951457,
+                    "title": "Mechanisms of Acquired Resistance to BRAF V600E Inhibition in Colon Cancers Converge on RAF Dimerization and Are Sensitive to Its Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28951457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16598,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGB659 and Erbitux (cetuximab) combination treatment resulted in sustained inhibition of Mek and Erk phosphorylation, lead to tumor regression in patient-derived xenograft models of colorectal cancer harboring BRAF V600E and NRAS G13R (PMID: 28951457).",
+            "molecularProfile": {
+                "id": 31705,
+                "profileName": "BRAF V600E NRAS G13R"
+            },
+            "therapy": {
+                "id": 8106,
+                "therapyName": "BGB659 + Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14634,
+                    "pubMedId": 28951457,
+                    "title": "Mechanisms of Acquired Resistance to BRAF V600E Inhibition in Colon Cancers Converge on RAF Dimerization and Are Sensitive to Its Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28951457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3365,
+            "profileName": "NRAS G13R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16458,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "NRAS G13R"
+                },
+                {
+                    "id": 16462,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "NRAS G13R"
+                },
+                {
+                    "id": 16460,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "NRAS G13R"
+                },
+                {
+                    "id": 16457,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "NRAS G13R"
+                },
+                {
+                    "id": 16459,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "NRAS G13R"
+                },
+                {
+                    "id": 16461,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "NRAS G13R"
+                }
+            ]
+        },
+        {
+            "id": 28547,
+            "profileName": "BRAF G596V NRAS G13R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31705,
+            "profileName": "BRAF V600E NRAS G13R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162443,
+            "transcript": "NM_002524",
+            "gDna": "chr1:g.114716124C>G",
+            "cDna": "c.37G>C",
+            "protein": "p.G13R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

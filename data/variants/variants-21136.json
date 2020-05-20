@@ -1,0 +1,153 @@
+{
+    "id": 21136,
+    "fullName": "MAP2K1 I111N",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 I111N lies within the protein kinase domain of the Map2k1 protein (UniProt.org). I111N is predicted to confer a gain of function to the Map2k1 protein, as demonstrated by increased Map2k1 kinase activity in an in-vitro assay and is also associated with resistance to inhibitors (PMID: 12370306).",
+            "references": [
+                {
+                    "id": 5157,
+                    "pubMedId": 12370306,
+                    "title": "Identification of a novel mitogen-activated protein kinase kinase activation domain recognized by the inhibitor PD 184352.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12370306"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "I111N",
+    "createDate": "04/14/2016",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 173416,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66436786T>A",
+        "cDna": "c.332T>A",
+        "protein": "p.I111N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12153,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) inhibited proliferation of melanoma cells harboring BRAF V600E and expressing MAP2K1 I111N in culture (PMID: 28655712).",
+            "molecularProfile": {
+                "id": 28495,
+                "profileName": "BRAF V600E MAP2K1 I111N"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10118,
+                    "pubMedId": 28655712,
+                    "title": "BRAF-inhibitor Associated MEK Mutations Increase RAF-Dependent and -Independent Enzymatic Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28655712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12149,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 I111N demonstrated resistance to treatment with Mekinist (trametinib) in culture (PMID: 28655712).",
+            "molecularProfile": {
+                "id": 28495,
+                "profileName": "BRAF V600E MAP2K1 I111N"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10118,
+                    "pubMedId": 28655712,
+                    "title": "BRAF-inhibitor Associated MEK Mutations Increase RAF-Dependent and -Independent Enzymatic Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28655712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 21652,
+            "profileName": "MAP2K1 I111N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28495,
+            "profileName": "BRAF V600E MAP2K1 I111N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173416,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66436786T>A",
+            "cDna": "c.332T>A",
+            "protein": "p.I111N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173417,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66436786T>A",
+            "cDna": "c.332T>A",
+            "protein": "p.I111N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

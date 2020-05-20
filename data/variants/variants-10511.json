@@ -1,0 +1,540 @@
+{
+    "id": 10511,
+    "fullName": "KIAA1549 - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIAA1549-BRAF results from the fusion of KIAA1549 and BRAF, leads to increased Braf kinase activity, activation of MAPK signaling, and is transforming in culture (PMID: 18974108, PMID: 23152448). KIAA1549-BRAF has been identified in pilocytic astrocytoma (PMID: 18974108).",
+            "references": [
+                {
+                    "id": 2050,
+                    "pubMedId": 23152448,
+                    "title": "Pediatric glioma-associated KIAA1549:BRAF expression regulates neuroglial cell growth in a cell type-specific and mTOR-dependent manner.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23152448"
+                },
+                {
+                    "id": 2044,
+                    "pubMedId": 18974108,
+                    "title": "Tandem duplication producing a novel oncogenic BRAF fusion gene defines the majority of pilocytic astrocytomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18974108"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 57670,
+        "geneSymbol": "KIAA1549",
+        "terms": [
+            "KIAA1549",
+            "RP86"
+        ]
+    },
+    "variant": "KIAA1549 - BRAF",
+    "createDate": "08/12/2015",
+    "updateDate": "10/18/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 9409,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized KIAA1549-BRAF (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14106,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) treatment resulted in paradoxical MAPK activation as indicated by increased ERK phosphorylation in pilocytic astrocytoma cells derived from a pediatric patient harboring KIAA1549-BRAF in culture (PMID: 28002790).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6812,
+                "name": "childhood pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11078,
+                    "pubMedId": 28002790,
+                    "title": "Establishment and application of a novel patient-derived KIAA1549:BRAF-driven pediatric pilocytic astrocytoma model for preclinical drug testing.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28002790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5662,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with a malignant spindle cell tumor harboring KIAA1549-BRAF responded to treatment with Nexavar (sorafenib) in combination with Avastin (bevacizumab) and Torisel (temsirolimus) (PMID: 26314551).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 3917,
+                "therapyName": "Bevacizumab + Sorafenib + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4015,
+                "name": "spindle cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5129,
+                    "pubMedId": 26314551,
+                    "title": "The distribution of BRAF gene fusions in solid tumors and response to targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26314551"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14112,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) treatment resulted in paradoxical MAPK activation as indicated by increased ERK phosphorylation in pilocytic astrocytoma cells derived from a pediatric patient harboring KIAA1549-BRAF in culture (PMID: 28002790).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6812,
+                "name": "childhood pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11078,
+                    "pubMedId": 28002790,
+                    "title": "Establishment and application of a novel patient-derived KIAA1549:BRAF-driven pediatric pilocytic astrocytoma model for preclinical drug testing.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28002790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9110,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing KIAA1549-BRAF demonstrated increased sensitivity to Selumetinib (AZD6244) in culture (PMID: 27217440).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6921,
+                    "pubMedId": 27217440,
+                    "title": "BRAF Status in Personalizing Treatment Approaches for Pediatric Gliomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27217440"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7903,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX4720 stimulated growth of transformed cell lines over expressing KIAA1549-BRAF in culture through paradoxical activation of Mapk signaling and failed to suppress tumor growth in cell line xenograft models (PMID: 23533272).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2256,
+                    "pubMedId": 23533272,
+                    "title": "Paradoxical activation and RAF inhibitor resistance of BRAF protein kinase fusions characterizing pediatric astrocytomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23533272"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14109,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-632 treatment resulted in paradoxical MAPK activation as indicated by increased ERK phosphorylation in pilocytic astrocytoma cells derived from a pediatric patient harboring KIAA1549-BRAF in culture (PMID: 28002790).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 3300,
+                "therapyName": "TAK-632",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6812,
+                "name": "childhood pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11078,
+                    "pubMedId": 28002790,
+                    "title": "Establishment and application of a novel patient-derived KIAA1549:BRAF-driven pediatric pilocytic astrocytoma model for preclinical drug testing.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28002790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7905,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX7904 inhibited soft agar growth of transformed cell lines over expressing KIAA1549-BRAF in culture (PMID: 23533272).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 4606,
+                "therapyName": "PLX7904",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2256,
+                    "pubMedId": 23533272,
+                    "title": "Paradoxical activation and RAF inhibitor resistance of BRAF protein kinase fusions characterizing pediatric astrocytomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23533272"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17682,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Diagnostic",
+            "efficacyEvidence": "KIAA1549-BRAF fusions aid the diagnosis of pilocytic astrocytoma (NCCN.org).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4851,
+                "name": "pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14111,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited ERK phosphorylation, resulted in growth inhibition in pilocytic astrocytoma cells derived from a pediatric patient harboring KIAA1549-BRAF in culture (PMID: 28002790).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6812,
+                "name": "childhood pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11078,
+                    "pubMedId": 28002790,
+                    "title": "Establishment and application of a novel patient-derived KIAA1549:BRAF-driven pediatric pilocytic astrocytoma model for preclinical drug testing.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28002790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18500,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Selumetinib (AZD6244) treatment resulted in a sustained partial response (PR) in 36% (9/25) and stable disease in 36% (9/25) of pediatric patients with pilocytic astrocytoma harboring KIAA1549-BRAF (n=18) or BRAF V600E (n=7), with a 2-year progression-free survival of 70%, and 39% (7/18) of the patients harboring KIAA1549-BRAF achieved PR (PMID: 31151904; NCT01089101).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6812,
+                "name": "childhood pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16287,
+                    "pubMedId": 31151904,
+                    "title": "Selumetinib in paediatric patients with BRAF-aberrant or neurofibromatosis type 1-associated recurrent, refractory, or progressive low-grade glioma: a multicentre, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31151904"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7277,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, treatment with Selumetinib (AZD-6244) resulted in responses in 21% (8/38) of pediatric patients with low-grade gliomas, with 3 responding patients harboring KIAA1549-BRAF fusions (J Clin Oncol 32:5s, 2014 (suppl; abstr 10065)).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60108,
+                "name": "brain glioma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6285,
+                    "pubMedId": null,
+                    "title": "A phase 1 study of AZD6244 in children with recurrent or refractory low-grade gliomas: A Pediatric Brain Tumor Consortium report.",
+                    "url": "http://meetinglibrary.asco.org/content/134121-144"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14108,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MLN2480 treatment resulted in paradoxical MAPK activation as indicated by increased ERK phosphorylation in pilocytic astrocytoma cells derived from a pediatric patient harboring KIAA1549-BRAF in culture (PMID: 28002790).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 1034,
+                "therapyName": "MLN2480",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6812,
+                "name": "childhood pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11078,
+                    "pubMedId": 28002790,
+                    "title": "Establishment and application of a novel patient-derived KIAA1549:BRAF-driven pediatric pilocytic astrocytoma model for preclinical drug testing.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28002790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14110,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited ERK phosphorylation, resulted in growth inhibition in pilocytic astrocytoma cells derived from a pediatric patient harboring KIAA1549-BRAF in culture (PMID: 28002790).",
+            "molecularProfile": {
+                "id": 10513,
+                "profileName": "KIAA1549 - BRAF"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 6812,
+                "name": "childhood pilocytic astrocytoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11078,
+                    "pubMedId": 28002790,
+                    "title": "Establishment and application of a novel patient-derived KIAA1549:BRAF-driven pediatric pilocytic astrocytoma model for preclinical drug testing.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28002790"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7904,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX4720 inhibited soft agar growth of transformed cell lines over expressing BRAF R509H in the context of KIAA1549-BRAF in culture and suppressed tumor growth in cell line xenograft models (PMID: 23533272).",
+            "molecularProfile": {
+                "id": 26094,
+                "profileName": "KIAA1549 - BRAF BRAF R509H"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2256,
+                    "pubMedId": 23533272,
+                    "title": "Paradoxical activation and RAF inhibitor resistance of BRAF protein kinase fusions characterizing pediatric astrocytomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23533272"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10513,
+            "profileName": "KIAA1549 - BRAF",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26094,
+            "profileName": "KIAA1549 - BRAF BRAF R509H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

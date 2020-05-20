@@ -1,0 +1,196 @@
+{
+    "id": 3111,
+    "fullName": "EGFR A750P",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR A750P lies within the protein kinase domain of the Egfr protein (UniProt.org). A750P results in ligand-independent phosphorylation of Egfr in cell culture and promotes tumor formation in xenograft models in one study (PMID: 19625781), but induces similar cell proliferation and cell viability as wild-type Egfr in two different cell lines in another study (PMID: 29533785), and therefore, its effect on Egfr protein function is unknown.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1889,
+                    "pubMedId": 19625781,
+                    "title": "BB, a new EGFR inhibitor, exhibits prominent anti-angiogenesis and antitumor activities.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19625781"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "A750P",
+    "createDate": "02/15/2015",
+    "updateDate": "10/31/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135530,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174785G>C",
+        "cDna": "c.2248G>C",
+        "protein": "p.A750P",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9056,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Mekinist (trametinib) to WZ4002 treatment did not significantly impact cell viability compared to WZ4002 alone, but delayed onset of drug resistance in a non-small cell lung cancer cell line harboring EGFR A750P and EGFR L747_E749del in culture (PMID: 26036643).",
+            "molecularProfile": {
+                "id": 26702,
+                "profileName": "EGFR L747_E749del EGFR A750P"
+            },
+            "therapy": {
+                "id": 3351,
+                "therapyName": "Trametinib + WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6890,
+                    "pubMedId": 26036643,
+                    "title": "Combined EGFR/MEK Inhibition Prevents the Emergence of Resistance in EGFR-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26036643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15496,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of PIK3CA E545K in a non-small cell lung cancer cell line harboring EGFR L747_E749del and EGFR A750P resulted in decreased sensitivity to Tagrisso (osimertinib) in culture (PMID: 30228210).",
+            "molecularProfile": {
+                "id": 31069,
+                "profileName": "EGFR L747_E749del EGFR A750P PIK3CA E545K"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 13403,
+                    "pubMedId": 30228210,
+                    "title": "Landscape of EGFR-Dependent and -Independent Resistance Mechanisms to Osimertinib and Continuation Therapy Beyond Progression in EGFR-Mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30228210"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20686,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective study, BCL2L11 deletion was identified in a non-small cell lung cancer patient harboring EGFR A750P and L747_E749del with primary resistance to icotinib (PMID: 31828849).",
+            "molecularProfile": {
+                "id": 35281,
+                "profileName": "BCL2L11 del EGFR L747_E749del EGFR A750P"
+            },
+            "therapy": {
+                "id": 769,
+                "therapyName": "Icotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17988,
+                    "pubMedId": 31828849,
+                    "title": "Potential mechanism of primary resistance to icotinib in patients with advanced non-small cell lung cancer harboring uncommon mutant epidermal growth factor receptor: A multi-center study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31828849"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2934,
+            "profileName": "EGFR A750P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26702,
+            "profileName": "EGFR L747_E749del EGFR A750P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31069,
+            "profileName": "EGFR L747_E749del EGFR A750P PIK3CA E545K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35281,
+            "profileName": "BCL2L11 del EGFR L747_E749del EGFR A750P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135530,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174785G>C",
+            "cDna": "c.2248G>C",
+            "protein": "p.A750P",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

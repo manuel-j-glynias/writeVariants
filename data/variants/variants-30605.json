@@ -1,0 +1,128 @@
+{
+    "id": 30605,
+    "fullName": "CALR L367Tfs*46",
+    "impact": "frameshift",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CALR L367Tfs*46 indicates a shift in the reading frame starting at amino acid 367 and terminating 46 residues downstream causing a premature truncation of the 417 amino acid Calr protein (UniProt.org). L367Tfs*46 (reported ad L367fs*46) results in activation of Jak-Stat signaling, is transforming in culture, and drives myeloproliferative neoplasm formation in animal models (PMID: 26668133, PMID: 26951227).",
+            "references": [
+                {
+                    "id": 5103,
+                    "pubMedId": 26951227,
+                    "title": "Mutant Calreticulin Requires Both Its Mutant C-terminus and the Thrombopoietin Receptor for Oncogenic Transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26951227"
+                },
+                {
+                    "id": 11173,
+                    "pubMedId": 26668133,
+                    "title": "Thrombopoietin receptor activation by myeloproliferative neoplasm associated calreticulin mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26668133"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 811,
+        "geneSymbol": "CALR",
+        "terms": [
+            "CALR",
+            "cC1qR",
+            "CRT",
+            "HEL-S-99n",
+            "RO",
+            "SSA"
+        ]
+    },
+    "variant": "L367Tfs*46",
+    "createDate": "07/30/2019",
+    "updateDate": "07/30/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 181577,
+        "transcript": "NM_004343",
+        "gDna": "chr19:g.(12943758_12943898)",
+        "cDna": "c.(1099_1239)",
+        "protein": "p.L367Tfs*46",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17852,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, Keytruda (pembrolizumab) treatment resulted in suppression of PDCD1 (PD-1)-positive T cells and expansion of clonal T cell populations that may target C-terminal mutant Calr in a patient with myelofibrosis harboring CALR L367Tfs*46 (PMID: 31266769; NCT02897765).",
+            "molecularProfile": {
+                "id": 32831,
+                "profileName": "CALR L367Tfs*46 PDCD1 pos"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4971,
+                "name": "myelofibrosis",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15822,
+                    "pubMedId": 31266769,
+                    "title": "Immune Checkpoint Blockade Enhances Shared Neoantigen-Induced T-cell Immunity Directed against Mutated Calreticulin in Myeloproliferative Neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31266769"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32829,
+            "profileName": "CALR L367Tfs*46",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19678,
+                    "name": "JAK2 Inhibitor - ATP competitive",
+                    "profileName": "CALR L367Tfs*46"
+                },
+                {
+                    "id": 19677,
+                    "name": "JAK Inhibitor (Pan) - ATP competitive",
+                    "profileName": "CALR L367Tfs*46"
+                }
+            ]
+        },
+        {
+            "id": 32831,
+            "profileName": "CALR L367Tfs*46 PDCD1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 181577,
+            "transcript": "NM_004343",
+            "gDna": "chr19:g.(12943758_12943898)",
+            "cDna": "c.(1099_1239)",
+            "protein": "p.L367Tfs*46",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

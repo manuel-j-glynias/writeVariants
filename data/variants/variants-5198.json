@@ -1,0 +1,172 @@
+{
+    "id": 5198,
+    "fullName": "FLT4 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT4 (VEGFR3) amp indicates an increased number of copies of the Flt4 (Vegfr3) gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2324,
+        "geneSymbol": "FLT4",
+        "terms": [
+            "FLT4",
+            "CHTD7",
+            "FLT-4",
+            "FLT41",
+            "LMPH1A",
+            "LMPHM1",
+            "PCL",
+            "VEGFR-3",
+            "VEGFR3"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "04/23/2015",
+    "updateDate": "04/25/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6244,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with angiosarcoma harboring KDR (VEGFR2) and FLT4 (VEGFR3) amplification achieved stable disease for six months following treatment with Votrient (pazopanib) (PMID: 27160228).",
+            "molecularProfile": {
+                "id": 23076,
+                "profileName": "FLT4 amp KDR amp"
+            },
+            "therapy": {
+                "id": 848,
+                "therapyName": "Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1816,
+                "name": "angiosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5507,
+                    "pubMedId": 27160228,
+                    "title": "Antitumor Response of VEGFR2- and VEGFR3-Amplified Angiosarcoma to Pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27160228"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16628,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with angiosarcoma harboring KDR (VEGFR2) and FLT4 (VEGFR3) amplification developed progressive disease while on Nexavar (sorafenib) teatment (PMID: 27160228).",
+            "molecularProfile": {
+                "id": 23076,
+                "profileName": "FLT4 amp KDR amp"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1816,
+                "name": "angiosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5507,
+                    "pubMedId": 27160228,
+                    "title": "Antitumor Response of VEGFR2- and VEGFR3-Amplified Angiosarcoma to Pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27160228"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10800,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, analysis of radiation-associated breast angiosarcoma patients treated with Nexavar (sorafenib) demonstrated complete response in 22% (2/9) and partial response in 11% (1/9) of patients, with 30% (3/10) of the total group and 2 of 3 responders (3rd not evaluated) demonstrating FLT4 (VEGFR3) and MYC co-amplification (J Clin Oncol 30, 2012 (suppl; abstr 10019)).",
+            "molecularProfile": {
+                "id": 27804,
+                "profileName": "FLT4 amp MYC amp"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4511,
+                "name": "breast angiosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8825,
+                    "pubMedId": null,
+                    "title": "Activity of sorafenib in radiation-associated breast angiosarcomas harboring MYC and FLT4 amplifications.",
+                    "url": "http://meetinglibrary.asco.org/content/92128-114"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5011,
+            "profileName": "FLT4 amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4012,
+                    "name": "VEGFR3 Inhibitor",
+                    "profileName": "FLT4 amp"
+                },
+                {
+                    "id": 4011,
+                    "name": "VEGFR Inhibitor (Pan)",
+                    "profileName": "FLT4 amp"
+                }
+            ]
+        },
+        {
+            "id": 23076,
+            "profileName": "FLT4 amp KDR amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27804,
+            "profileName": "FLT4 amp MYC amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

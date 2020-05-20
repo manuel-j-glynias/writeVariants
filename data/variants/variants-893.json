@@ -1,0 +1,145 @@
+{
+    "id": 893,
+    "fullName": "BRAF V600M",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF V600M (previously reported as V599) lies within the activation segment of the kinase domain of the Braf protein (PMID: 15035987). V600M results in intermediate Braf kinase activity in cell culture (PMID: 28783719), and in one of two cell lines increased cell proliferation and cell viability compared to wild-type Braf (PMID: 29533785), and is therefore predicted to confer a gain of function to the Braf protein.",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 146,
+                    "pubMedId": 15035987,
+                    "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15035987"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "V600M",
+    "createDate": "07/07/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109426,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753337C>T",
+        "cDna": "c.1798G>A",
+        "protein": "p.V600M",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20141,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment resulted in a objective response rate of 44.8% (43/96), median duration of response of 6.4 months, median progression-free survival (PFS) of 5.2 months, and median overall survival of 10 months in non-small cell lung cancer patients with BRAF V600 mutations, with a PFS of 5.9 months in the patient harboring BRAF V600M (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 985,
+                "profileName": "BRAF V600M"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 985,
+            "profileName": "BRAF V600M",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2190,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF V600M"
+                },
+                {
+                    "id": 2191,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF V600M"
+                },
+                {
+                    "id": 2188,
+                    "name": "BRAF Inhibitor",
+                    "profileName": "BRAF V600M"
+                },
+                {
+                    "id": 2189,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF V600M"
+                },
+                {
+                    "id": 2192,
+                    "name": "RAF Inhibitor (Pan)",
+                    "profileName": "BRAF V600M"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109425,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753337C>T",
+            "cDna": "c.1798G>A",
+            "protein": "p.V600M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109426,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753337C>T",
+            "cDna": "c.1798G>A",
+            "protein": "p.V600M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

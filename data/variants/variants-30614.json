@@ -1,0 +1,182 @@
+{
+    "id": 30614,
+    "fullName": "AR V7_splice",
+    "impact": "splice site",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "AR V7_splice is a splice variant that results in the inclusion of a cryptic exon 3 within intron 3, combined with the skipping of exons 4 through 8 of the canonical AR transcript, leading to the loss of the ligand-binding domain (PMID: 25048254). V7_splice results in the constitutive activation of Ar, as demonstrated by increased nuclear localization in a ligand-independent manner and increased transcriptional activity compared to wild-type Ar in a reporter assay (PMID: 19117982, PMID: 20823238), and is associated with resistance to anti-androgen therapy (PMID: 25184630, PMID: 27013902).",
+            "references": [
+                {
+                    "id": 15567,
+                    "pubMedId": 25048254,
+                    "title": "Androgen receptor splice variants in the era of enzalutamide and abiraterone.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25048254"
+                },
+                {
+                    "id": 15846,
+                    "pubMedId": 25184630,
+                    "title": "AR-V7 and resistance to enzalutamide and abiraterone in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25184630"
+                },
+                {
+                    "id": 16137,
+                    "pubMedId": 27013902,
+                    "title": "Resistance to Novel Antiandrogen Therapies in Metastatic Castration-Resistant Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27013902"
+                },
+                {
+                    "id": 15568,
+                    "pubMedId": 19117982,
+                    "title": "Ligand-independent androgen receptor variants derived from splicing of cryptic exons signify hormone-refractory prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19117982"
+                },
+                {
+                    "id": 15837,
+                    "pubMedId": 20823238,
+                    "title": "Constitutively active androgen receptor splice variants expressed in castration-resistant prostate cancer require full-length androgen receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20823238"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 367,
+        "geneSymbol": "AR",
+        "terms": [
+            "AR",
+            "AIS",
+            "AR8",
+            "DHTR",
+            "HUMARA",
+            "HYSP1",
+            "KD",
+            "NR3C4",
+            "SBMA",
+            "SMAX1",
+            "TFM"
+        ]
+    },
+    "variant": "V7_splice",
+    "createDate": "07/31/2019",
+    "updateDate": "08/30/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17874,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, treatment with Zytiga (abiraterone) in patients with metastatic castration resistant prostate cancer expressing AR-V7 in circulating tumor cells (n=6) versus those patients without AR-V7 expression (n=25) resulted in a lower PSA response rate (0% vs 68%; P=0.004) and shorter median progression-free survival (PFS) (1.3mo vs not reached; P<0.001), clinical or radiographic PFS (2.3mo vs not reached; P<0.001), and overall survival (10.6mo vs not reached; P=0.006) (PMID: 25184630).",
+            "molecularProfile": {
+                "id": 32839,
+                "profileName": "AR V7_splice"
+            },
+            "therapy": {
+                "id": 1805,
+                "therapyName": "Abiraterone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15846,
+                    "pubMedId": 25184630,
+                    "title": "AR-V7 and resistance to enzalutamide and abiraterone in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25184630"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17873,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, treatment with Xtandi (enzalutamide) in patients with metastatic castration resistant prostate cancer expressing AR-V7 in circulating tumor cells (n=12) versus those patients without AR-V7 expression (n=19) resulted in a lower PSA response rate (0% vs 53%; P=0.004) and shorter median progression-free survival (PFS) (1.4mo vs 6.0mo; P<0.001), clinical or radiographic PFS (2.1mo vs 6.1mo; P<0.001), and overall survival (5.5mo vs not reached; P=0.002) (PMID: 25184630).",
+            "molecularProfile": {
+                "id": 32839,
+                "profileName": "AR V7_splice"
+            },
+            "therapy": {
+                "id": 1262,
+                "therapyName": "Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15846,
+                    "pubMedId": 25184630,
+                    "title": "AR-V7 and resistance to enzalutamide and abiraterone in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25184630"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20453,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KCI807 treatment inhibited colony formation and growth of prostate cancer cell lines expressing AR V7_splice and AR in culture, and inhibited tumor growth in a cell line xenograft model (PMID: 30185422).",
+            "molecularProfile": {
+                "id": 35181,
+                "profileName": "AR V7_splice AR pos"
+            },
+            "therapy": {
+                "id": 9310,
+                "therapyName": "KCI807",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17793,
+                    "pubMedId": 30185422,
+                    "title": "Strategy for Tumor-Selective Disruption of Androgen Receptor Function in the Spectrum of Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30185422"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32839,
+            "profileName": "AR V7_splice",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35181,
+            "profileName": "AR V7_splice AR pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

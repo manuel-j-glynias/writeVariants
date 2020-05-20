@@ -1,0 +1,179 @@
+{
+    "id": 2406,
+    "fullName": "AR H875Y",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "AR H875Y (also referred to as H874Y) lies within the C-terminal ligand binding domain of the Ar protein (PMID: 22403669). H875Y confers a gain of function to the Ar protein as demonstrated by constitutive activation of Ar and activation in the presence of anti-androgens in cell culture (PMID: 22403669, PMID: 9092797, PMID: 26760770).",
+            "references": [
+                {
+                    "id": 673,
+                    "pubMedId": 22403669,
+                    "title": "The impact of point mutations in the human androgen receptor: classification of mutations on the basis of transcriptional activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22403669"
+                },
+                {
+                    "id": 6008,
+                    "pubMedId": 9092797,
+                    "title": "Dehydroepiandrosterone activates mutant androgen receptors expressed in the androgen-dependent human prostate cancer xenograft CWR22 and LNCaP cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9092797"
+                },
+                {
+                    "id": 11247,
+                    "pubMedId": 26760770,
+                    "title": "BAY 1024767 blocks androgen receptor mutants found in castration-resistant prostate cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26760770"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 367,
+        "geneSymbol": "AR",
+        "terms": [
+            "AR",
+            "AIS",
+            "AR8",
+            "DHTR",
+            "HUMARA",
+            "HYSP1",
+            "KD",
+            "NR3C4",
+            "SBMA",
+            "SMAX1",
+            "TFM"
+        ]
+    },
+    "variant": "H875Y",
+    "createDate": "10/23/2014",
+    "updateDate": "12/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 146191,
+        "transcript": "NM_000044",
+        "gDna": "chrX:g.67723701C>T",
+        "cDna": "c.2623C>T",
+        "protein": "p.H875Y",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2386,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BMS-641988 inhibited tumor growth in a xenograft model of prostate cancer harboring AR H875Y (also reported as H874Y) (PMID: 19654297).",
+            "molecularProfile": {
+                "id": 2290,
+                "profileName": "AR H875Y"
+            },
+            "therapy": {
+                "id": 2819,
+                "therapyName": "BMS-641988",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3018,
+                    "pubMedId": 19654297,
+                    "title": "Discovery of BMS-641988, a novel and potent inhibitor of androgen receptor signaling for the treatment of prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19654297"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2385,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing AR H875Y (also reported as H874Y) demonstrated resistance to Nilandron (nilutamide) in culture, via a switch of Nilandron (nilutamide) from androgen receptor antagonist to agonist (PMID: 9815822).",
+            "molecularProfile": {
+                "id": 2290,
+                "profileName": "AR H875Y"
+            },
+            "therapy": {
+                "id": 1506,
+                "therapyName": "Nilutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 776,
+                    "pubMedId": 9815822,
+                    "title": "Functional characterization of mutant androgen receptors from androgen-independent prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9815822"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4929,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, seven metastatic castration-resistant prostate cancer patients with AR H875Y (reported as H874Y) or T878A (reported as T877A) detected in cell-free DNA had progressed on or had received prior treatment with Zytiga (abiraterone) (PMID: 25712683).",
+            "molecularProfile": {
+                "id": 2290,
+                "profileName": "AR H875Y"
+            },
+            "therapy": {
+                "id": 1805,
+                "therapyName": "Abiraterone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4735,
+                    "pubMedId": 25712683,
+                    "title": "Androgen Receptor Gene Aberrations in Circulating Cell-Free DNA: Biomarkers of Therapeutic Resistance in Castration-Resistant Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25712683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2290,
+            "profileName": "AR H875Y",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 146191,
+            "transcript": "NM_000044",
+            "gDna": "chrX:g.67723701C>T",
+            "cDna": "c.2623C>T",
+            "protein": "p.H875Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,2690 @@
+{
+    "id": 10075,
+    "fullName": "CCDC6 - RET",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CCDC6-RET (also referred to as PTC1-RET) results from the fusion of CCDC6 and RET, and leads to autophosphorylation of CCDC6-RET, increased phosphorylation of Erk1/2, and promotion of cell growth in culture (PMID: 23578175). CCDC6-RET fusions have been identified in thyroid, colorectal, and lung cancer (PMID: 29284153, PMID: 26078337, PMID: 24504365).",
+            "references": [
+                {
+                    "id": 11209,
+                    "pubMedId": 24504365,
+                    "title": "RET-rearranged non-small-cell lung carcinoma: a clinicopathological and molecular analysis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504365"
+                },
+                {
+                    "id": 3394,
+                    "pubMedId": 23578175,
+                    "title": "Identification of a lung adenocarcinoma cell line with CCDC6-RET fusion gene and the effect of RET inhibitors in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23578175"
+                },
+                {
+                    "id": 3842,
+                    "pubMedId": 26078337,
+                    "title": "Identification and characterization of RET fusions in advanced colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26078337"
+                },
+                {
+                    "id": 11208,
+                    "pubMedId": 29284153,
+                    "title": "Role of RET protein-tyrosine kinase inhibitors in the treatment RET-driven thyroid and lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29284153"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8030,
+        "geneSymbol": "CCDC6",
+        "terms": [
+            "CCDC6",
+            "D10S170",
+            "H4",
+            "PTC",
+            "TPC",
+            "TST1"
+        ]
+    },
+    "variant": "CCDC6 - RET",
+    "createDate": "08/05/2015",
+    "updateDate": "04/12/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 5979,
+                "geneSymbol": "RET",
+                "terms": [
+                    "RET",
+                    "CDHF12",
+                    "CDHR16",
+                    "HSCR1",
+                    "MEN2A",
+                    "MEN2B",
+                    "MTC1",
+                    "PTC",
+                    "RET-ELE1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 10428,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, CCDC6-RET fusion was the only actionable mutation identified in a lung adenocarcinoma patient who had a radiographic response to Ofev (nintedanib) and Taxotere (docetaxel) combination treatment, and the patient remained on the combination treatment followed by Ofev (nintedanib) monotherapy for a total of 33 months (PMID: 26787234).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 3225,
+                "therapyName": "Docetaxel + Nintedanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8441,
+                    "pubMedId": 26787234,
+                    "title": "Genome sequencing for nonsmall-cell lung cancer identifies a basis for nintedanib sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26787234"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6988,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Caprelsa (vandetanib) treatment resulted in an objective response rate of 83% (5/6) and median progression-free survival of 8.3 months in non-small cell lung adenocarcinoma patients harboring CCDC6-RET fusion (J Clin Oncol 34, 2016 (suppl; abstr 9012)).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6000,
+                    "pubMedId": null,
+                    "title": "A phase II open-label single-arm study of vandetanib in patients with advanced RET-rearranged non-small cell lung cancer (NSCLC): Luret study.",
+                    "url": "http://meetinglibrary.asco.org/content/163941-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8347,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Dovitinib (TKI258) inhibited Ret signaling, resulted in growth inhibition in lung adenocarcinoma cells harboring CCDC6-RET in culture and in cell line xenograft models (PMID: 26208525).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 721,
+                "therapyName": "Dovitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6626,
+                    "pubMedId": 26208525,
+                    "title": "Antitumor Activity and Acquired Resistance Mechanism of Dovitinib (TKI258) in RET-Rearranged Lung Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26208525"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16823,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) treatment resulted in tumor regression in patient-derived xenograft (PDX) models of colorectal cancer harboring CCDC6-RET (PMID: 30038711).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12497,
+                    "pubMedId": 30038711,
+                    "title": "RET fusions observed in lung and colorectal cancers are sensitive to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30038711"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7067,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Caprelsa (vandetanib) and Afinitor (everolimus) combination treatment resulted in enhanced growth inhibition compared to single agent treatment in non-small cell lung carcinoma cells over-expressing CCDC6-RET in culture (J Clin Oncol 34, 2016 (suppl; abstr 9069)).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 1163,
+                "therapyName": "Everolimus + Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6065,
+                    "pubMedId": null,
+                    "title": "Significant systemic and CNS activity of RET inhibitor vandetanib combined with mTOR inhibitor everolimus in patients with advanced NSCLC with RET fusion.",
+                    "url": "http://meetinglibrary.asco.org/content/170878-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21074,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Caprelsa (vandetanib) and Afinitor (everolimus) combination treatment resulted in a partial intracranial response in 1 of 2 patients with non-small cell lung cancer harboring CCDC6-RET with measurable baseline brain metastasis (PMID: 30017832).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 1163,
+                "therapyName": "Everolimus + Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14285,
+                    "pubMedId": 30017832,
+                    "title": "Frequency of Brain Metastases and Multikinase Inhibitor Outcomes in Patients With RET-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30017832"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7073,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Caprelsa (vandetanib) and Afinitor (everolimus) combination treatment resulted in partial response in 83% (5/6) and stable disease in 16% (1/6) of non-small cell lung carcinoma patients harboring RET fusions, of which 4 carried KIF5B-RET, 2 carried CCDC6-RET (J Clin Oncol 34, 2016 (suppl; abstr 9069)).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 1163,
+                "therapyName": "Everolimus + Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6065,
+                    "pubMedId": null,
+                    "title": "Significant systemic and CNS activity of RET inhibitor vandetanib combined with mTOR inhibitor everolimus in patients with advanced NSCLC with RET fusion.",
+                    "url": "http://meetinglibrary.asco.org/content/170878-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13496,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BLU-667 inhibited Ret signaling and tumor growth in a patient-derived xenograft (PDX) model of colorectal cancer harboring CCDC6-RET (PMID: 29657135).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5530,
+                "therapyName": "BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11266,
+                    "pubMedId": 29657135,
+                    "title": "Precision Targeted Therapy with BLU-667 for RET-Driven Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29657135"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3183,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human lung adenocarcinoma cell line harboring CCDC6-RET was sensitive to Alecensa (alectinib), as demonstrated by decreased autophosphorylation of Ret and suppression of the Mapk signaling pathway in culture (PMID: 25349307).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3119,
+                    "pubMedId": 25349307,
+                    "title": "Alectinib shows potent antitumor activity against RET-rearranged non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25349307"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8219,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MK2206 inhibited AKT activation, proliferation, and growth of thyroid cancer cell lines with PI3K/AKT pathway alterations in culture, including a papillary thyroid cancer cell line harboring CCDC6-RET (RET/PTC1) (PMID: 21289267).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6573,
+                    "pubMedId": 21289267,
+                    "title": "The Akt-specific inhibitor MK2206 selectively inhibits thyroid cancer cells harboring mutations that can activate the PI3K/Akt pathway.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21289267"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5163,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, HG-6-63-01 inhibited RET phosphorylation and downstream signaling and reduced proliferation of papillary thyroid carcinoma cells harboring CCDC6-RET in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 3762,
+                "therapyName": "HG-6-63-01",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20251,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a non-small cell lung cancer patient harboring CCDC6-RET treated with several prior lines of therapy demonstrated an initial intracranial and systemic response to treatment with Selpercatinib (LOXO-292) (PMID: 31988000).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17728,
+                    "pubMedId": 31988000,
+                    "title": "RET Solvent Front Mutations Mediate Acquired\u00a0Resistance to Selective RET Inhibition in\u00a0RET-Driven Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31988000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14454,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer (NSCLC) cells harboring CCDC6-RET were sensitive to treatment with Selpercatinib (LOXO-292), demonstrating decreased cell proliferation in culture and inhibition of tumor growth in cell line xenograft models, and in a NSCLC patient-derived xenograft (PDX) model with brain metastases, Selpercatinib (LOXO-292) treatment led to improved survival when compared to control (PMID: 29912274).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21257,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung adenocarcinoma harboring CCDC6-RET was sensitive to treatment with Caprelsa (vandetanib), demonstrating a decrease in tumor size from 20mm to 7mm at 12 weeks (PMID: 29434222).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14851,
+                    "pubMedId": 29434222,
+                    "title": "A secondary RET mutation in the activation loop conferring resistance to vandetanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29434222"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2714,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Caprelsa (vandetanib) inhibited growth and Ret activity in human lung adenocarcinoma cell lines harboring CCDC6-RET in culture and in xenograft models (PMID: 23578175).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3394,
+                    "pubMedId": 23578175,
+                    "title": "Identification of a lung adenocarcinoma cell line with CCDC6-RET fusion gene and the effect of RET inhibitors in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23578175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11239,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RXDX-105 (CEP-32496) reduced phosphorylation of RET and downstream signaling and inhibited proliferation of a lung adenocarcinoma cell line harboring CCDC6-RET in culture (PMID: 28011461).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 1002,
+                "therapyName": "RXDX-105",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9178,
+                    "pubMedId": 28011461,
+                    "title": "Antitumor Activity of RXDX-105 in Multiple Cancer Types with RET Rearrangements or Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28011461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5162,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ALW-II-41-27 inhibited RET phosphorylation and downstream signaling, reduced proliferation of papillary thyroid carcinoma cells harboring CCDC6-RET in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 3274,
+                "therapyName": "ALW-II-41-27",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21072,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with lung adenocarcinoma harboring CCDC6-RET did not response to Cometriq (cabozantinib) treatment (PMID: 27825636; NCT01639508).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7513,
+                    "pubMedId": 27825636,
+                    "title": "Cabozantinib in patients with advanced RET-rearranged non-small-cell lung cancer: an open-label, single-centre, phase 2, single-arm trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27825636"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20213,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selpercatinib (LOXO-292) treatment resulted in tumor regression in 5/5 colorectal cancer patient-derived xenograft (PDX) models harboring CCDC6-RET (PMID: 31988000).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17728,
+                    "pubMedId": 31988000,
+                    "title": "RET Solvent Front Mutations Mediate Acquired\u00a0Resistance to Selective RET Inhibition in\u00a0RET-Driven Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31988000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14460,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer patient-derived xenograft (PDX) model harboring CCDC6-RET was sensitive to treatment with Selpercatinib (LOXO-292), demonstrating tumor growth inhibition (PMID: 29912274).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21082,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, multikinase inhibitor treatment demonstrated suboptimal clinical efficacy in RET-rearranged non-small cell lung cancer patients with measurable baseline brain metastasis, with a confirmed intracranial response rate of 18% (2/11); Iclusig (ponatinib) treatment resulted in no intracranial response in a patient harboring CCDC6-RET (PMID: 30017832).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 14285,
+                    "pubMedId": 30017832,
+                    "title": "Frequency of Brain Metastases and Multikinase Inhibitor Outcomes in Patients With RET-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30017832"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8076,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD1480 reduced phosphorylation of RET and downstream effectors, and induced cell cycle arrest and inhibited growth of a papillary thyroid cancer cell line harboring CCDC6-RET (RET/PTC1) in culture, and induced tumor regression in a cell line xenograft model of CCDC6-RET-positive papillary thyroid cancer (PMID: 23056499).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 652,
+                "therapyName": "AZD1480",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6545,
+                    "pubMedId": 23056499,
+                    "title": "AZD1480 blocks growth and tumorigenesis of RET- activated thyroid cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23056499"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3681,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Stivarga (regorafenib) decreased survival of colorectal cancer cells harboring a CCDC6-RET fusion in culture (PMID: 26078337).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3842,
+                    "pubMedId": 26078337,
+                    "title": "Identification and characterization of RET fusions in advanced colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26078337"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6939,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Stivarga (regorafenib) treatment resulted in clinical response in a colorectal cancer patient harboring a CCDC6-RET fusion (PMID: 26078337).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3842,
+                    "pubMedId": 26078337,
+                    "title": "Identification and characterization of RET fusions in advanced colorectal cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26078337"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2716,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited growth and Ret activity in human lung adenocarcinoma cells harboring CCDC6-RET in culture (PMID: 23578175).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3394,
+                    "pubMedId": 23578175,
+                    "title": "Identification of a lung adenocarcinoma cell line with CCDC6-RET fusion gene and the effect of RET inhibitors in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23578175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2715,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) inhibited growth and Ret activity in human lung adenocarcinoma cells harboring CCDC6-RET in culture (PMID: 23578175).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3394,
+                    "pubMedId": 23578175,
+                    "title": "Identification of a lung adenocarcinoma cell line with CCDC6-RET fusion gene and the effect of RET inhibitors in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23578175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11246,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AD80 inhibited RET phosphorylation and downstream signaling, and growth of a lung adenocarcinoma cell line harboring CCDC6-RET in culture (PMID: 28615362).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5915,
+                "therapyName": "AD80",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9186,
+                    "pubMedId": 28615362,
+                    "title": "Drugging the catalytically inactive state of RET kinase in RET-rearranged tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16687,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Alecensa (alectinib) treatment resulted in an unconfirmed partial response in a non-small cell lung cancer patient harboring CCDC6-RET (PMID: 27544060).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8430,
+                    "pubMedId": 27544060,
+                    "title": "Clinical Activity of Alectinib in Advanced RET-Rearranged Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27544060"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21075,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Alecensa (alectinib) treatment resulted in a partial intracranial response in a patient with non-small cell lung cancer harboring CCDC6-RET with measurable baseline brain metastasis (PMID: 30017832).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14285,
+                    "pubMedId": 30017832,
+                    "title": "Frequency of Brain Metastases and Multikinase Inhibitor Outcomes in Patients With RET-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30017832"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12416,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Selpercatinib (LOXO-292) treatment resulted in a partial response and a 44% reduction of tumor size in a lung cancer patient harboring CCDC6-RET with acquired resistance to RXDX-105 (J Thorac Oncol, Nov 2017, 12 (11): Suppl 2, Page S1778, abstract OA 12.07).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10370,
+                    "pubMedId": null,
+                    "title": "LOXO-292, a Potent, Highly Selective RET Inhibitor, in MKI-Resistant RET Fusion-Positive Lung Cancer Patients with and without Brain Metastases",
+                    "url": "http://www.jto.org/article/S1556-0864(17)31134-6/abstract"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3679,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometiq (cabozantinib) inhibited RET phosphorylation and proliferation of papillary thyroid carcinoma cells harboring CCDC6-RET in culture (PMID: 21470995).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3987,
+                    "pubMedId": 21470995,
+                    "title": "The effects of four different tyrosine kinase inhibitors on medullary and papillary thyroid cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21470995"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11245,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AD80 inhibited RET phosphorylation and downstream signaling, and decreased viability of transformed cells expressing CCDC6-RET in culture (PMID: 28615362).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5915,
+                "therapyName": "AD80",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9186,
+                    "pubMedId": 28615362,
+                    "title": "Drugging the catalytically inactive state of RET kinase in RET-rearranged tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13762,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BLU-667 inhibited Ret signaling and proliferation of a non-small cell lung cancer cell line harboring CCDC6-RET in culture (PMID: 29657135).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5530,
+                "therapyName": "BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11266,
+                    "pubMedId": 29657135,
+                    "title": "Precision Targeted Therapy with BLU-667 for RET-Driven Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29657135"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2726,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lenvima (lenvatinib) inhibited Ret phosphorylation, downstream Erk phosphorylation, and growth of human thyroid cancer cells harboring CCDC6-RET in culture (PMID: 23856031).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3395,
+                    "pubMedId": 23856031,
+                    "title": "Antitumor activities of the targeted multi-tyrosine kinase inhibitor lenvatinib (E7080) against RET gene fusion-driven tumor models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23856031"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11253,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with AD80 resulted in decreased tumor cell proliferation and tumor growth in a patient-derived xenograft (PDX) model of colorectal cancer harboring CCDC6-RET (PMID: 28615362).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5915,
+                "therapyName": "AD80",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9186,
+                    "pubMedId": 28615362,
+                    "title": "Drugging the catalytically inactive state of RET kinase in RET-rearranged tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5161,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XMD15-44 inhibited RET phosphorylation and downstream signaling and reduced proliferation of papillary thyroid carcinoma cells harboring CCDC6-RET in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 3761,
+                "therapyName": "XMD15-44",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21319,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DS-5010 (BOS172738) treatment resulted in durable tumor regression in a patient-derived xenograft (PDX) model of colorectal cancer harboring CCDC6-RET fusion (Cancer Res 2019;79(13 Suppl):Abstract nr 2199).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 9591,
+                "therapyName": "DS-5010",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18455,
+                    "pubMedId": null,
+                    "title": "BOS172738: A novel highly potent and selective RET kinase inhibitor in Phase 1 clinical development",
+                    "url": "https://cancerres.aacrjournals.org/content/79/13_Supplement/2199"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3243,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited proliferation of thyroid carcinoma cells harboring CCDC6-RET (also referred to as RET-PTC1) in culture (PMID: 23526464).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3963,
+                "name": "thyroid gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 312,
+                    "pubMedId": 23526464,
+                    "title": "Ponatinib (AP24534) is a novel potent inhibitor of oncogenic RET mutants associated with thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23526464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3225,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited phosphorylation of Ret in transformed human cells expressing CCDC6-RET (also referred to as RET-PTC1) in culture (PMID: 23526464).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 312,
+                    "pubMedId": 23526464,
+                    "title": "Ponatinib (AP24534) is a novel potent inhibitor of oncogenic RET mutants associated with thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23526464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2727,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lenvima (lenvatinib) inhibited Ret phosphorylation, downstream Erk phosphorylation, and growth of human lung adenocarcinoma cells harboring CCDC6-RET in culture (PMID: 23856031).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3395,
+                    "pubMedId": 23856031,
+                    "title": "Antitumor activities of the targeted multi-tyrosine kinase inhibitor lenvatinib (E7080) against RET gene fusion-driven tumor models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23856031"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13763,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BLU-667 inhibited Ret signaling and proliferation of a papillary thryoid cancer cell line harboring CCDC6-RET in culture (PMID: 29657135).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5530,
+                "therapyName": "BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11266,
+                    "pubMedId": 29657135,
+                    "title": "Precision Targeted Therapy with BLU-667 for RET-Driven Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29657135"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11241,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RXDX-105 (CEP-32496) inhibited tumor growth in a patient-derived xenograft (PDX) model of colorectal cancer harboring CCDC6-RET (PMID: 28011461).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 1002,
+                "therapyName": "RXDX-105",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9178,
+                    "pubMedId": 28011461,
+                    "title": "Antitumor Activity of RXDX-105 in Multiple Cancer Types with RET Rearrangements or Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28011461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14452,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, thyroid cancer cells harboring CCDC6-RET were sensitive to treatment with Selpercatinib (LOXO-292) in culture, demonstrating decreased cell proliferation (PMID: 29912274).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20755,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, CCDC6-RET fusion was identified in 1 of 100 patients with non-small cell lung cancer at treatment discontinuation of Tagrisso (osimertinib) (PMID: 31839416).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18023,
+                    "pubMedId": 31839416,
+                    "title": "Next-generation sequencing based mutation profiling reveals heterogeneity of clinical response and resistance to osimertinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31839416"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7069,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Caprelsa (vandetanib) and Afinitor (everolimus) combination treatment resulted in enhanced growth inhibition compared to single agent treatment in papillary thyroid cancer cells over-expressing CCDC6-RET in culture (J Clin Oncol 34, 2016 (suppl; abstr 9069)).",
+            "molecularProfile": {
+                "id": 10079,
+                "profileName": "CCDC6 - RET"
+            },
+            "therapy": {
+                "id": 1163,
+                "therapyName": "Everolimus + Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3969,
+                "name": "thyroid gland papillary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6065,
+                    "pubMedId": null,
+                    "title": "Significant systemic and CNS activity of RET inhibitor vandetanib combined with mTOR inhibitor everolimus in patients with advanced NSCLC with RET fusion.",
+                    "url": "http://meetinglibrary.asco.org/content/170878-176"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21320,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DS-5010 (BOS172738) treatment resulted in durable tumor regression in a patient-derived xenograft (PDX) model of colorectal cancer harboring RET V804M in the context of CCDC6-RET fusion (Cancer Res 2019;79(13 Suppl):Abstract nr 2199).",
+            "molecularProfile": {
+                "id": 27932,
+                "profileName": "CCDC6 - RET RET V804M"
+            },
+            "therapy": {
+                "id": 9591,
+                "therapyName": "DS-5010",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18455,
+                    "pubMedId": null,
+                    "title": "BOS172738: A novel highly potent and selective RET kinase inhibitor in Phase 1 clinical development",
+                    "url": "https://cancerres.aacrjournals.org/content/79/13_Supplement/2199"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11254,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with AD80 resulted in decreased tumor cell proliferation and tumor growth in a patient-derived xenograft (PDX) model of colorectal cancer harboring CCDC6-RET with RET V804M (PMID: 28615362).",
+            "molecularProfile": {
+                "id": 27932,
+                "profileName": "CCDC6 - RET RET V804M"
+            },
+            "therapy": {
+                "id": 5915,
+                "therapyName": "AD80",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9186,
+                    "pubMedId": 28615362,
+                    "title": "Drugging the catalytically inactive state of RET kinase in RET-rearranged tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20218,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selpercatinib (LOXO-292) treatment resulted in initial tumor regression in colorectal cancer patient-derived xenograft (PDX) models harboring CCDC6-RET, however, tumors reemerged in 4 of 5 models, and 1 of 4 was found to have acquired RET V804M alone and 1 had both RET V804M and G810S in trans (PMID: 31988000).",
+            "molecularProfile": {
+                "id": 27932,
+                "profileName": "CCDC6 - RET RET V804M"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 17728,
+                    "pubMedId": 31988000,
+                    "title": "RET Solvent Front Mutations Mediate Acquired\u00a0Resistance to Selective RET Inhibition in\u00a0RET-Driven Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31988000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14461,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer patient-derived xenograft (PDX) model harboring both CCDC6-RET and RET V804M was sensitive to treatment with Selpercatinib (LOXO-292), demonstrating tumor growth inhibition (PMID: 29912274).",
+            "molecularProfile": {
+                "id": 27932,
+                "profileName": "CCDC6 - RET RET V804M"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11248,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AD80 inhibited RET phosphorylation and growth of transformed cells expressing CCDC6-RET with RET V804M in culture (PMID: 28615362).",
+            "molecularProfile": {
+                "id": 27932,
+                "profileName": "CCDC6 - RET RET V804M"
+            },
+            "therapy": {
+                "id": 5915,
+                "therapyName": "AD80",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9186,
+                    "pubMedId": 28615362,
+                    "title": "Drugging the catalytically inactive state of RET kinase in RET-rearranged tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13497,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BLU-667 inhibited tumor growth in a patient-derived xenograft (PDX) model of colorectal cancer harboring RET V804M in the context of CCDC6-RET (PMID: 29657135).",
+            "molecularProfile": {
+                "id": 27932,
+                "profileName": "CCDC6 - RET RET V804M"
+            },
+            "therapy": {
+                "id": 5530,
+                "therapyName": "BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11266,
+                    "pubMedId": 29657135,
+                    "title": "Precision Targeted Therapy with BLU-667 for RET-Driven Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29657135"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11250,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing RET I788N in the context of CCDC6-RET demonstrated resistance to growth inhibition by AD80 in culture (PMID: 28615362).",
+            "molecularProfile": {
+                "id": 27934,
+                "profileName": "CCDC6 - RET RET I788N"
+            },
+            "therapy": {
+                "id": 5915,
+                "therapyName": "AD80",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9186,
+                    "pubMedId": 28615362,
+                    "title": "Drugging the catalytically inactive state of RET kinase in RET-rearranged tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11252,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of KRAS G12V in a lung adenocarcinoma cell line harboring CCDC6-RET resulted in decreased sensitivity to AD80 in culture (PMID: 28615362).",
+            "molecularProfile": {
+                "id": 27936,
+                "profileName": "CCDC6 - RET KRAS G12V"
+            },
+            "therapy": {
+                "id": 5915,
+                "therapyName": "AD80",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9186,
+                    "pubMedId": 28615362,
+                    "title": "Drugging the catalytically inactive state of RET kinase in RET-rearranged tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28615362"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14585,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a non-small cell lung carcinoma patient harboring EML4-ALK eventually developed resistance to treatment with Alunbrig (brigatinib) and was subsequently shown to harbor a second fusion, CCDC6-RET (PMID: 29636358).",
+            "molecularProfile": {
+                "id": 30252,
+                "profileName": "CCDC6 - RET EML4 - ALK"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11739,
+                    "pubMedId": 29636358,
+                    "title": "Resistance Mechanisms to Targeted Therapies in ROS1+ and ALK+ Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29636358"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15115,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, CCDC6-RET was identified as an acquired resistance mutation in 2 patients with non-small cell lung cancer harboring EGFR E746_A750del, whose disease progressed after initial response to Tarceva (erlotinib) (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30759,
+                "profileName": "CCDC6 - RET EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15129,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer initially responded to Tarceva (erlotinib) treatment with a stable disease of 4 years, EGFR E746_A750delinsIP and CCDC6-RET were identified in post-progression tumor samples (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30774,
+                "profileName": "CCDC6 - RET EGFR E746_A750delinsIP"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15812,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion developed resistance to Tagrisso (osimertinib) and sequencing of circulating DNA identified gained CCDC6-RET and TPM3-NTRK1 fusions (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31240,
+                "profileName": "CCDC6 - RET TPM3 - NTRK1 EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15813,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung carcinoma (NSCLC) harboring an EGFR exon 19 deletion was found to have acquired an CCDC6-RET fusion, which was identified upon resistance to Tagrisso (osimertinib), and preclinical analysis of a NSCLC cell line harboring an EGFR exon 19 deletion and expressing CCDC6-RET also demonstrated resistance when treated with Tagrisso (osimertinib) in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15830,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined treatment with Cometriq (cabozantinib) and Tagrisso (osimertinib) resulted in decreased viability and Ret, Akt, and Erk1/2 phosphorylation in a non-small cell lung cancer cell line harboring an EGFR exon 19 deletion and expressing a CCDC6-RET fusion in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 7090,
+                "therapyName": "Cabozantinib + Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9250,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, two non-small cell lung cancer patients harboring EGFR exon 19 deletions were found to have acquired CCDC6-RET fusions following progression on Tarceva (erlotinib) (PMID: 26187428).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7049,
+                    "pubMedId": 26187428,
+                    "title": "Emergence of RET rearrangement co-existing with activated EGFR mutation in EGFR-mutated NSCLC patients who had progressed on first- or second-generation EGFR TKI.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26187428"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15817,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined BLU-667 and Gilotrif (afatinib) treatment resulted in decreased viability and reduced Ret, Akt, and Erk1/2 phosphorylation in a non-small cell lung cancer cell line harboring an EGFR exon 19 deletion and expressing a CCDC6-RET fusion in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 7753,
+                "therapyName": "Afatinib + BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15816,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion and a CCDC6-RET fusion had 78% tumor shrinkage at 8-weeks with a response lasting more than 3.5 months upon treatment with combined Tagrisso (osimertinib) and BLU-667, and in a NSCLC cell line harboring an EGFR exon 19 deletion and expressing a CCDC6-RET fusion the same treatment regimen decreased viability and reduced Ret, Akt, and Erk1/2 phosphorylation in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 7752,
+                "therapyName": "BLU-667 + Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15828,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung carcinoma harboring an EGFR exon 19 deletion and a CCDC6-RET fusion had stable disease at 1 month, but had disease progression at 2.5 months, when treated with Tarceva (erlotinib) and Cometriq (cabozantinib), in combination (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 1255,
+                "therapyName": "Cabozantinib + Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15815,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment of a non-small cell lung cancer cell line harboring an EGFR exon 19 deletion and expressing a CCDC6-RET fusion with the RET inhibitor BLU-667 did not effect Akt or Erk phosphorylation or impact cell proliferation in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 5530,
+                "therapyName": "BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15814,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of a CCDC6-RET fusion in a non-small cell lung cancer cell line harboring an EGFR exon 19 deletion resulted in increased viability and Ret, Akt, and Erk1/2 phosphorylation relative to control when treated with Gilotrif (afatinib) in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15831,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined treatment with Cometriq (cabozantinib) and Gilotrif (afatinib) resulted in decreased viability and Ret, Akt, and Erk1/2 phosphorylation in a non-small cell lung cancer cell line harboring an EGFR exon 19 deletion and expressing a CCDC6-RET fusion in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31241,
+                "profileName": "CCDC6 - RET EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 7420,
+                "therapyName": "Afatinib + Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15820,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BLU-667 and Gilotrif (afatinib), in combination, resulted in decreased cell viability and Ret, Akt, and Erk1/2 phosphorylation in a non-small cell lung cancer cell line harboring EGFR L858R and EGFR T790M mutations and expressing a CCDC6-RET fusion in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31242,
+                "profileName": "CCDC6 - RET EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 7753,
+                "therapyName": "Afatinib + BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19916,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tarceva (erlotinib) and was found via cell free DNA testing to harbor EGFR T790M, EGFR L858R, and CCDC6-RET (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 31242,
+                "profileName": "CCDC6 - RET EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15818,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of a CCDC6-RET fusion in a non-small cell lung cancer cell line harboring EGFR L858R and EGFR T790M mutations resulted in increased proliferation, cell viability, and Ret, Akt, and Erk1/2 phosphorylation relative to control when treated with Tagrisso (osimertinib) in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31242,
+                "profileName": "CCDC6 - RET EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15819,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined treatment with BLU-667 and Tagrisso (osimertinib) resulted in decreased viability and Ret, Akt, and Erk1/2 phosphorylation in a non-small cell lung cancer cell line harboring EGFR L858R and EGFR T790M mutations and expressing a CCDC6-RET fusion in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31242,
+                "profileName": "CCDC6 - RET EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 7752,
+                "therapyName": "BLU-667 + Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15832,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined treatment with Cometriq (cabozantinib) and Tagrisso (osimertinib) resulted in decreased viability and Ret, Akt, and Erk1/2 phosphorylation in a non-small cell lung cancer cell line harboring EGFR L858R and EGFR T790M mutations and expressing a CCDC6-RET fusion in culture (PMID: 30257958).",
+            "molecularProfile": {
+                "id": 31242,
+                "profileName": "CCDC6 - RET EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 7090,
+                "therapyName": "Cabozantinib + Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12495,
+                    "pubMedId": 30257958,
+                    "title": "Landscape of Acquired Resistance to Osimertinib in EGFR-Mutant NSCLC and Clinical Validation of Combined EGFR and RET Inhibition with Osimertinib and BLU-667 for Acquired RET Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257958"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19900,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tarceva (erlotinib) and via cell free DNA testing was found to harbor an EGFR exon 19 deletion, EGFR T790M, EGFR T854A, and CCDC6-RET (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34663,
+                "profileName": "CCDC6 - RET EGFR exon 19 del EGFR T790M EGFR T854A"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19904,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tarceva (erlotinib) and was found via cell free DNA testing to harbor EGFR T790M, an EGFR exon 19 deletion, STRN-ALK, and CCDC6-RET (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34664,
+                "profileName": "CCDC6 - RET STRN - ALK EGFR exon 19 del EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19908,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tarceva (erlotinib) and was found via cell free DNA testing to harbor EGFR G724S, an EGFR exon 19 deletion, CTNNB1 S45P, and CCDC6-RET (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34665,
+                "profileName": "CCDC6 - RET CTNNB1 S45P EGFR exon 19 del EGFR G724S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19910,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tagrisso (osimertinib) and was found via cell free DNA testing to harbor an EGFR exon 19 deletion, CCDC6-RET, and CTNNB1 S33C (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34667,
+                "profileName": "CCDC6 - RET CTNNB1 S33C EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19912,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with an advanced solid tumor developed resistance to treatment with Tagrisso (osimertinib) and was found via cell free DNA testing to harbor CCDC6-RET and CTNNB1 S37F (PMID: 31300450).",
+            "molecularProfile": {
+                "id": 34668,
+                "profileName": "CCDC6 - RET CTNNB1 S37F"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17588,
+                    "pubMedId": 31300450,
+                    "title": "Analysis of Cell-Free DNA from 32,989 Advanced Cancers Reveals Novel Co-occurring Activating RET Alterations and Oncogenic Signaling Pathway Aberrations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31300450"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20219,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung cancer harboring CCDC6-RET had an initial systemic and intracranial response to Selpercatinib (LOXO-292), however, demonstrated progression after 11 months of treatment and was found to have acquired RET G810S (PMID: 31988000).",
+            "molecularProfile": {
+                "id": 34940,
+                "profileName": "CCDC6 - RET RET G810S"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17728,
+                    "pubMedId": 31988000,
+                    "title": "RET Solvent Front Mutations Mediate Acquired\u00a0Resistance to Selective RET Inhibition in\u00a0RET-Driven Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31988000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20215,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selpercatinib (LOXO-292) treatment resulted in initial tumor regression in colorectal cancer patient-derived xenograft (PDX) models harboring CCDC6-RET, however, tumors reemerged in 4 of 5 models, and 3 of 4 were found to have acquired RET G810S, one with a co-incident RET V804M mutation in trans (PMID: 31988000).",
+            "molecularProfile": {
+                "id": 34940,
+                "profileName": "CCDC6 - RET RET G810S"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17728,
+                    "pubMedId": 31988000,
+                    "title": "RET Solvent Front Mutations Mediate Acquired\u00a0Resistance to Selective RET Inhibition in\u00a0RET-Driven Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31988000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20214,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selpercatinib (LOXO-292) treatment resulted in initial tumor regression in colorectal cancer patient-derived xenograft (PDX) models harboring CCDC6-RET, however, tumors reemerged in 4 of 5 models, and 3 of 4 were found to have acquired RET G810S, one with a co-incident RET V804M mutation in trans (PMID: 31988000).",
+            "molecularProfile": {
+                "id": 34941,
+                "profileName": "CCDC6 - RET RET V804M RET G810S"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17728,
+                    "pubMedId": 31988000,
+                    "title": "RET Solvent Front Mutations Mediate Acquired\u00a0Resistance to Selective RET Inhibition in\u00a0RET-Driven Malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31988000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21258,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung adenocarcinoma harboring CCDC6-RET developed resistance to treatment with Caprelsa (vandetanib) after 38 weeks and was found to have acquired a secondary resistance mutation, RET S904F (PMID: 29434222).",
+            "molecularProfile": {
+                "id": 36036,
+                "profileName": "CCDC6 - RET RET S904F"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14851,
+                    "pubMedId": 29434222,
+                    "title": "A secondary RET mutation in the activation loop conferring resistance to vandetanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29434222"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10079,
+            "profileName": "CCDC6 - RET",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6361,
+                    "name": "RET Inhibitor",
+                    "profileName": "CCDC6 - RET"
+                }
+            ]
+        },
+        {
+            "id": 27932,
+            "profileName": "CCDC6 - RET RET V804M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27934,
+            "profileName": "CCDC6 - RET RET I788N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27936,
+            "profileName": "CCDC6 - RET KRAS G12V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30252,
+            "profileName": "CCDC6 - RET EML4 - ALK",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30759,
+            "profileName": "CCDC6 - RET EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30774,
+            "profileName": "CCDC6 - RET EGFR E746_A750delinsIP",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31240,
+            "profileName": "CCDC6 - RET TPM3 - NTRK1 EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31241,
+            "profileName": "CCDC6 - RET EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31242,
+            "profileName": "CCDC6 - RET EGFR T790M EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34663,
+            "profileName": "CCDC6 - RET EGFR exon 19 del EGFR T790M EGFR T854A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34664,
+            "profileName": "CCDC6 - RET STRN - ALK EGFR exon 19 del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34665,
+            "profileName": "CCDC6 - RET CTNNB1 S45P EGFR exon 19 del EGFR G724S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34667,
+            "profileName": "CCDC6 - RET CTNNB1 S33C EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34668,
+            "profileName": "CCDC6 - RET CTNNB1 S37F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34940,
+            "profileName": "CCDC6 - RET RET G810S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34941,
+            "profileName": "CCDC6 - RET RET V804M RET G810S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 36036,
+            "profileName": "CCDC6 - RET RET S904F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

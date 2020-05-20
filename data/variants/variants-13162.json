@@ -1,0 +1,125 @@
+{
+    "id": 13162,
+    "fullName": "RET V804G",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "RET V804G lies within the protein kinase domain of the Ret protein (UniProt.org). V804G in combination with C634R results in moderately decreased Ret kinase activity and transformation activity compared to C634R alone in cell culture (PMID: 15184865), but has not been characterized individually and therefore, its effect on Ret protein function is unknown (PubMed, Nov 2019).",
+            "references": [
+                {
+                    "id": 3687,
+                    "pubMedId": 15184865,
+                    "title": "Disease associated mutations at valine 804 in the RET receptor tyrosine kinase confer resistance to selective kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15184865"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5979,
+        "geneSymbol": "RET",
+        "terms": [
+            "RET",
+            "CDHF12",
+            "CDHR16",
+            "HSCR1",
+            "MEN2A",
+            "MEN2B",
+            "MTC1",
+            "PTC",
+            "RET-ELE1"
+        ]
+    },
+    "variant": "V804G",
+    "createDate": "10/22/2015",
+    "updateDate": "11/03/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 125422,
+        "transcript": "NM_020975",
+        "gDna": "chr10:g.43119549T>G",
+        "cDna": "c.2411T>G",
+        "protein": "p.V804G",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3468,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines expressing Ret protein carrying both C634R and V804G mutations were more sensitive to Vandetanib induced inhibition of Ret activity than cells expressing Ret C634R alone in culture (PMID: 15184865).",
+            "molecularProfile": {
+                "id": 13345,
+                "profileName": "RET C634R RET V804G"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3687,
+                    "pubMedId": 15184865,
+                    "title": "Disease associated mutations at valine 804 in the RET receptor tyrosine kinase confer resistance to selective kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15184865"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 13343,
+            "profileName": "RET V804G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 13345,
+            "profileName": "RET C634R RET V804G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 125422,
+            "transcript": "NM_020975",
+            "gDna": "chr10:g.43119549T>G",
+            "cDna": "c.2411T>G",
+            "protein": "p.V804G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 125423,
+            "transcript": "NM_020630",
+            "gDna": "chr10:g.43119549T>G",
+            "cDna": "c.2411T>G",
+            "protein": "p.V804G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

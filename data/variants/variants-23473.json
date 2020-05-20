@@ -1,0 +1,189 @@
+{
+    "id": 23473,
+    "fullName": "ERBB2 L726F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) L726F lies within the protein kinase domain of the Erbb2 (Her2) protein (UniProt.org). L726F confers a gain of function to the Erbb2 (Her2) protein as indicated by increased cell proliferation in culture, increased tumor growth in vivo, and localization to the perinuclear cytoplasm (PMID: 25435280).",
+            "references": [
+                {
+                    "id": 5989,
+                    "pubMedId": 25435280,
+                    "title": "HER family kinase domain mutations promote tumor progression and can predict response to treatment in human breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25435280"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "L726F",
+    "createDate": "06/22/2016",
+    "updateDate": "06/22/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 170583,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39723628C>T",
+        "cDna": "c.2176C>T",
+        "protein": "p.L726F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7312,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing ERBB2 (HER2) L726F demonstrated reduced sensitivity to Tykerb (lapatinib) in culture (PMID: 18413839).",
+            "molecularProfile": {
+                "id": 24164,
+                "profileName": "ERBB2 L726F"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5983,
+                    "pubMedId": 18413839,
+                    "title": "EXEL-7647 inhibits mutant forms of ErbB2 associated with lapatinib resistance and neoplastic transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18413839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6968,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells expressing ERBB2 (HER2) L726F demonstrated resistance to Tykerb (lapatinib) in both culture and xenograft models (PMID: 25435280).",
+            "molecularProfile": {
+                "id": 24164,
+                "profileName": "ERBB2 L726F"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5989,
+                    "pubMedId": 25435280,
+                    "title": "HER family kinase domain mutations promote tumor progression and can predict response to treatment in human breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25435280"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7318,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XL647 inhibited survival of transformed cells over expressing ERBB2 (HER2) L726F in culture (PMID: 18413839).",
+            "molecularProfile": {
+                "id": 24164,
+                "profileName": "ERBB2 L726F"
+            },
+            "therapy": {
+                "id": 967,
+                "therapyName": "XL647",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5983,
+                    "pubMedId": 18413839,
+                    "title": "EXEL-7647 inhibits mutant forms of ErbB2 associated with lapatinib resistance and neoplastic transformation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18413839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 24164,
+            "profileName": "ERBB2 L726F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 9559,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 L726F"
+                },
+                {
+                    "id": 9558,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 L726F"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170583,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39723628C>T",
+            "cDna": "c.2176C>T",
+            "protein": "p.L726F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170584,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39723628C>T",
+            "cDna": "c.2176C>T",
+            "protein": "p.L726F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

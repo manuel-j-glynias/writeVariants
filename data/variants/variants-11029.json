@@ -1,0 +1,167 @@
+{
+    "id": 11029,
+    "fullName": "NFE2L2 D29H",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "NFE2L2 D29H lies within a hotspot mutation region in the DLG motif in the NEH2 Keap1 binding domain of the Nfe2l2 protein (PMID: 19321346, PMID: 24366543). D29H confers a gain of function to the Nfe2l2 protein as demonstrated by loss of Keap1 repressor binding (PMID: 24366543) and is transforming in cell culture (PMID: 28145866).",
+            "references": [
+                {
+                    "id": 3571,
+                    "pubMedId": 19321346,
+                    "title": "NRF2 and KEAP1 mutations: permanent activation of an adaptive response in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19321346"
+                },
+                {
+                    "id": 3572,
+                    "pubMedId": 24366543,
+                    "title": "Kinetic, thermodynamic, and structural characterizations of the association between Nrf2-DLGex degron and Keap1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24366543"
+                },
+                {
+                    "id": 9896,
+                    "pubMedId": 28145866,
+                    "title": "KEAP1 loss modulates sensitivity to kinase targeted therapy in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28145866"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4780,
+        "geneSymbol": "NFE2L2",
+        "terms": [
+            "NFE2L2",
+            "HEBP1",
+            "IMDDHH",
+            "Nrf-2",
+            "NRF2"
+        ]
+    },
+    "variant": "D29H",
+    "createDate": "08/28/2015",
+    "updateDate": "06/03/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 133777,
+        "transcript": "NM_006164",
+        "gDna": "chr2:g.177234232C>G",
+        "cDna": "c.85G>C",
+        "protein": "p.D29H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17252,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Sapanisertib (MLN0128) treatment of a squamous cell lung cancer patient, harboring NFE2L2 D29H, resulted in a duration of response of 8 months and was ongoing (Journal of Clinical Oncology 36, no. 15_suppl (May 20 2018) 9098-9098).",
+            "molecularProfile": {
+                "id": 11072,
+                "profileName": "NFE2L2 D29H"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15272,
+                    "pubMedId": null,
+                    "title": "Targeting NFE2L2 mutations in advanced squamous cell lung cancers with the TORC1/2 inhibitor TAK228.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.9098"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11921,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of NFE2L2 (NRF2) D29H resulted in decreased sensitivity to Tarceva (erlotinib) in a lung cancer cell line harboring EGFR E746_A750del in culture (PMID: 28145866).",
+            "molecularProfile": {
+                "id": 28352,
+                "profileName": "EGFR E746_A750del NFE2L2 D29H NFE2L2 over exp"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9896,
+                    "pubMedId": 28145866,
+                    "title": "KEAP1 loss modulates sensitivity to kinase targeted therapy in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28145866"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 11072,
+            "profileName": "NFE2L2 D29H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28352,
+            "profileName": "EGFR E746_A750del NFE2L2 D29H NFE2L2 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 133776,
+            "transcript": "NM_001313902",
+            "gDna": "chr2:g.177234232C>G",
+            "cDna": "c.85G>C",
+            "protein": "p.D29H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 133775,
+            "transcript": "NM_001313903",
+            "gDna": "chr2:g.177234232C>G",
+            "cDna": "c.85G>C",
+            "protein": "p.D29H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 133777,
+            "transcript": "NM_006164",
+            "gDna": "chr2:g.177234232C>G",
+            "cDna": "c.85G>C",
+            "protein": "p.D29H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,262 @@
+{
+    "id": 3250,
+    "fullName": "EGFR D770_N771insG",
+    "impact": "insertion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR D770_N771insG results in the insertion of a glycine (G) in the protein kinase domain of the Egfr protein between amino acids 770 and 771 (UniProt.org). D770_N771insG has not been biochemically characterized, but is predicted to result in a gain of function based on the effect of other Egfr exon 20 insertions (PMID: 16187797).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 410,
+                    "pubMedId": 16187797,
+                    "title": "Oncogenic transformation by inhibitor-sensitive and -resistant EGFR mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16187797"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "D770_N771insG",
+    "createDate": "02/20/2015",
+    "updateDate": "09/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135565,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181319_55181320insGGT",
+        "cDna": "c.2310_2311insGGT",
+        "protein": "p.D770_N771insG",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19402,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited viability of a transformed cell line expressing EGFR D770_N771insG in culture (PMID: 31467113).",
+            "molecularProfile": {
+                "id": 3069,
+                "profileName": "EGFR D770_N771insG"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16160,
+                    "pubMedId": 31467113,
+                    "title": "TAS6417/CLN-081 Is a Pan-Mutation-Selective EGFR Tyrosine Kinase Inhibitor with a Broad Spectrum of Preclinical Activity against Clinically Relevant EGFR Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31467113"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19364,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing EGFR D770_N771insG was resistant to Tarceva (erlotinib) in culture (PMID: 31467113).",
+            "molecularProfile": {
+                "id": 3069,
+                "profileName": "EGFR D770_N771insG"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16160,
+                    "pubMedId": 31467113,
+                    "title": "TAS6417/CLN-081 Is a Pan-Mutation-Selective EGFR Tyrosine Kinase Inhibitor with a Broad Spectrum of Preclinical Activity against Clinically Relevant EGFR Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31467113"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17638,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Tagrisso (osimertinib) treatment resulted in a partial response with a progression-free survival of 6.4 months in a patient with non-small cell lung cancer harboring EGFR D770_N771insG (PMID: 31208370).",
+            "molecularProfile": {
+                "id": 3069,
+                "profileName": "EGFR D770_N771insG"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15706,
+                    "pubMedId": 31208370,
+                    "title": "EGFR exon 20 insertion mutations and response to osimertinib in non-small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31208370"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14800,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Poziotinib (HM781-36B) resulted in objective partial responses in 64% (7/11) of patients with non-small cell lung cancer harboring EGFR exon 20 mutations, including a patient with EGFR D770delinsGY (PMID: 29686424; NCT03066206).",
+            "molecularProfile": {
+                "id": 3069,
+                "profileName": "EGFR D770_N771insG"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19358,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS6417 inhibited viability of a transformed cell line expressing EGFR D770_N771insG in culture (PMID: 31467113).",
+            "molecularProfile": {
+                "id": 3069,
+                "profileName": "EGFR D770_N771insG"
+            },
+            "therapy": {
+                "id": 6994,
+                "therapyName": "CLN-081",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16160,
+                    "pubMedId": 31467113,
+                    "title": "TAS6417/CLN-081 Is a Pan-Mutation-Selective EGFR Tyrosine Kinase Inhibitor with a Broad Spectrum of Preclinical Activity against Clinically Relevant EGFR Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31467113"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14037,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS6417 inhibited EGFR phosphorylation and proliferation of cells expressing EGFR exon 20 insertion mutations, including EGFR D770_N771insG, in culture (PMID: 29748209).",
+            "molecularProfile": {
+                "id": 3069,
+                "profileName": "EGFR D770_N771insG"
+            },
+            "therapy": {
+                "id": 6994,
+                "therapyName": "CLN-081",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11432,
+                    "pubMedId": 29748209,
+                    "title": "TAS6417, A Novel EGFR Inhibitor Targeting Exon 20 Insertion Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748209"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3069,
+            "profileName": "EGFR D770_N771insG",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135565,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181319_55181320insGGT",
+            "cDna": "c.2310_2311insGGT",
+            "protein": "p.D770_N771insG",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

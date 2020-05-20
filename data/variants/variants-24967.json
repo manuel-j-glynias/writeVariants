@@ -1,0 +1,322 @@
+{
+    "id": 24967,
+    "fullName": "EGFR - RAD51",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR-RAD51 results from the fusion of EGFR and RAD51, demonstrating activation of downstream signaling pathways, MAPK and PI3K, transformation activity in culture, and increased colony formation (PMID: 27102076). EGFR-RAD51 has been identified in lung cancer (PMID: 27102076, PMID: 31064887).",
+            "references": [
+                {
+                    "id": 6404,
+                    "pubMedId": 27102076,
+                    "title": "EGFR Fusions as Novel Therapeutic Targets in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27102076"
+                },
+                {
+                    "id": 15289,
+                    "pubMedId": 31064887,
+                    "title": "Effectiveness of EGFR-TKIs in a Patient with Lung Adenocarcinoma Harboring an EGFR-RAD51 Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31064887"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "EGFR - RAD51",
+    "createDate": "08/01/2016",
+    "updateDate": "06/07/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 5888,
+                "geneSymbol": "RAD51",
+                "terms": [
+                    "RAD51",
+                    "BRCC5",
+                    "FANCR",
+                    "HRAD51",
+                    "HsRad51",
+                    "HsT16930",
+                    "MRMV2",
+                    "RAD51A",
+                    "RECA"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15924,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in a partial response in a patient with non-small cell lung carcinoma harboring EGFR-RAD51, demonstrating decreased tumor size after one month of treatment and stable disease after 5 months of treatment (PMID: 29290255).",
+            "molecularProfile": {
+                "id": 25735,
+                "profileName": "EGFR - RAD51"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12085,
+                    "pubMedId": 29290255,
+                    "title": "EGFR-RAD51 fusion variant in lung adenocarcinoma and response to erlotinib: A case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29290255"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7542,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR-RAD51 demonstrated sensitivity to treatment with Erbitux (cetuximab) in culture, resulting in decreased cell viability (PMID: 27102076).",
+            "molecularProfile": {
+                "id": 25735,
+                "profileName": "EGFR - RAD51"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6404,
+                    "pubMedId": 27102076,
+                    "title": "EGFR Fusions as Novel Therapeutic Targets in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27102076"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17318,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Gilotrif (afatinib) treatment resulted in progression-free survival over 6 months in a patient with lung adenocarcinoma harboring EGFR-RAD51 (PMID: 29472054).",
+            "molecularProfile": {
+                "id": 25735,
+                "profileName": "EGFR - RAD51"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15369,
+                    "pubMedId": 29472054,
+                    "title": "EGFR-RAD51 Fusion: A Targetable Partnership Originated from the Tumor Evolution?",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29472054"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7540,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR-RAD51 demonstrated sensitivity to treatment with Gilotrif (afatinib) in culture, resulting in decreased cell viability and inhibition of downstream MAPK and PI3K signaling (PMID: 27102076).",
+            "molecularProfile": {
+                "id": 25735,
+                "profileName": "EGFR - RAD51"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6404,
+                    "pubMedId": 27102076,
+                    "title": "EGFR Fusions as Novel Therapeutic Targets in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27102076"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17317,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, icotinib treatment resulted in progression-free survival over 15 months in a patient with lung adenocarcinoma harboring EGFR-RAD51 (PMID: 31064887).",
+            "molecularProfile": {
+                "id": 25735,
+                "profileName": "EGFR - RAD51"
+            },
+            "therapy": {
+                "id": 769,
+                "therapyName": "Icotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15289,
+                    "pubMedId": 31064887,
+                    "title": "Effectiveness of EGFR-TKIs in a Patient with Lung Adenocarcinoma Harboring an EGFR-RAD51 Fusion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31064887"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7541,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR-RAD51 demonstrated some sensitivity to treatment with Tagrisso (osimertinib) in culture, resulting in decreased cell viability (PMID: 27102076).",
+            "molecularProfile": {
+                "id": 25735,
+                "profileName": "EGFR - RAD51"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6404,
+                    "pubMedId": 27102076,
+                    "title": "EGFR Fusions as Novel Therapeutic Targets in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27102076"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7538,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, three patients with lung adenocarcinoma harboring EGFR-RAD51 demonstrated partial responses as indicated by tumor regression, when treated with Tarceva (erlotinib) (PMID: 27102076).",
+            "molecularProfile": {
+                "id": 25735,
+                "profileName": "EGFR - RAD51"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6404,
+                    "pubMedId": 27102076,
+                    "title": "EGFR Fusions as Novel Therapeutic Targets in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27102076"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25735,
+            "profileName": "EGFR - RAD51",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10517,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR - RAD51"
+                },
+                {
+                    "id": 10520,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR - RAD51"
+                },
+                {
+                    "id": 10521,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR - RAD51"
+                },
+                {
+                    "id": 10518,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR - RAD51"
+                },
+                {
+                    "id": 10519,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR - RAD51"
+                },
+                {
+                    "id": 10505,
+                    "name": "Cetuximab",
+                    "profileName": "EGFR - RAD51"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

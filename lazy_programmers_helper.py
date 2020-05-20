@@ -117,12 +117,12 @@ def create_mutation(mutation, rows, row_name):
 
 
 def main():
-    # create_jax_variant()
+    create_jax_variant()
     # create_hotspot_variant()
     # create_clinvar_variant()
     # create_oncotree_occurrence()
     # create_go_variant()
-    create_snv_variant()
+    # create_snv_variant()
 
 if __name__ == "__main__":
     main()

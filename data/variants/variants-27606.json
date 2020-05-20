@@ -1,0 +1,127 @@
+{
+    "id": 27606,
+    "fullName": "CALR K385fs",
+    "impact": "frameshift",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CALR K385fs (reported as K385fs*47) results in a change in the amino acid sequence of the Calr protein beginning at aa 385 of 417, likely resulting in premature truncation of the functional protein (UniProt.org). K385fs confers a gain of function to Calr, as indicated by activation of JAK-STAT signaling and is transforming in cell culture (PMID: 26817954, PMID: 26987905, PMID: 26668133).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11173,
+                    "pubMedId": 26668133,
+                    "title": "Thrombopoietin receptor activation by myeloproliferative neoplasm associated calreticulin mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26668133"
+                },
+                {
+                    "id": 11172,
+                    "pubMedId": 26817954,
+                    "title": "Activation of the thrombopoietin receptor by mutant calreticulin in CALR-mutant myeloproliferative neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26817954"
+                },
+                {
+                    "id": 11171,
+                    "pubMedId": 26987905,
+                    "title": "Pathologic activation of thrombopoietin receptor and JAK2-STAT5 pathway by frameshift mutants of mouse calreticulin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26987905"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 811,
+        "geneSymbol": "CALR",
+        "terms": [
+            "CALR",
+            "cC1qR",
+            "CRT",
+            "HEL-S-99n",
+            "RO",
+            "SSA"
+        ]
+    },
+    "variant": "K385fs",
+    "createDate": "04/06/2018",
+    "updateDate": "08/21/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 90935,
+        "transcript": "NM_004343",
+        "gDna": "chr19:g.(12943811_12943812)",
+        "cDna": "c.(1153_1152)",
+        "protein": "p.K385fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13583,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Jakafi (ruxolitinib) inhibited growth of transformed cells expressing CALR L385fs in culture (PMID: 26668133).",
+            "molecularProfile": {
+                "id": 29154,
+                "profileName": "CALR K385fs"
+            },
+            "therapy": {
+                "id": 907,
+                "therapyName": "Ruxolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11173,
+                    "pubMedId": 26668133,
+                    "title": "Thrombopoietin receptor activation by myeloproliferative neoplasm associated calreticulin mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26668133"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29154,
+            "profileName": "CALR K385fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17581,
+                    "name": "JAK2 Inhibitor - ATP competitive",
+                    "profileName": "CALR K385fs"
+                },
+                {
+                    "id": 17580,
+                    "name": "JAK Inhibitor (Pan) - ATP competitive",
+                    "profileName": "CALR K385fs"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 90935,
+            "transcript": "NM_004343",
+            "gDna": "chr19:g.(12943811_12943812)",
+            "cDna": "c.(1153_1152)",
+            "protein": "p.K385fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

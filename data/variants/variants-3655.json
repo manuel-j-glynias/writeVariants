@@ -1,0 +1,353 @@
+{
+    "id": 3655,
+    "fullName": "TP53 R248Q",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R248Q is a hotspot mutation that lies within the DNA-binding domain of the Tp53 protein (PMID: 22713868). R248Q results in a loss of DNA binding and decreased transactivation of Tp53 targets and interference with wild-type Tp53 transactivation, leads to resistance to apoptosis and failure of G1 arrest in cell culture (PMID: 23538418, PMID: 16861262, PMID: 31395785), as well as increased Akt activation, Stat3 dependent migration, and enhanced tumor onset and growth in mouse models (PMID: 30107178).",
+            "references": [
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 17772,
+                    "pubMedId": 31395785,
+                    "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31395785"
+                },
+                {
+                    "id": 14313,
+                    "pubMedId": 30107178,
+                    "title": "Therapeutic Ablation of Gain-of-Function Mutant p53 in Colorectal Cancer Inhibits Stat3-Mediated Tumor Growth and Invasion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30107178"
+                },
+                {
+                    "id": 411,
+                    "pubMedId": 16861262,
+                    "title": "Inactive full-length p53 mutants lacking dominant wild-type p53 inhibition highlight loss of heterozygosity as an important aspect of p53 status in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16861262"
+                },
+                {
+                    "id": 1298,
+                    "pubMedId": 23538418,
+                    "title": "Two hot spot mutant p53 mouse models display differential gain of function in tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23538418"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R248Q",
+    "createDate": "03/10/2015",
+    "updateDate": "02/05/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 95391,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7674220C>T",
+        "cDna": "c.743G>A",
+        "protein": "p.R248Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16234,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Napabucasin (BBI608) treatment reduced Stat3 phosphorylation and impaired wound healing in colorectal cancer cell lines expressing TP53 R248Q in culture (PMID: 30107178).",
+            "molecularProfile": {
+                "id": 3457,
+                "profileName": "TP53 R248Q"
+            },
+            "therapy": {
+                "id": 2057,
+                "therapyName": "Napabucasin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14313,
+                    "pubMedId": 30107178,
+                    "title": "Therapeutic Ablation of Gain-of-Function Mutant p53 in Colorectal Cancer Inhibits Stat3-Mediated Tumor Growth and Invasion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30107178"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4095,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APR-246 and Platinol (cisplatin) worked synergistically to inhibit growth of a Platinol (cisplatin)-resistant ovarian cancer cell line harboring TP53 R248Q in culture and inhibited tumor growth in TP53 R248Q-carrying ovarian cancer cell line xenograft models (PMID: 26086967).",
+            "molecularProfile": {
+                "id": 3457,
+                "profileName": "TP53 R248Q"
+            },
+            "therapy": {
+                "id": 3443,
+                "therapyName": "APR-246 + Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4407,
+                    "pubMedId": 26086967,
+                    "title": "APR-246 overcomes resistance to cisplatin and doxorubicin in ovarian cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26086967"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16197,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclincal study, Tanespimycin (17-AAG) treatment reduced p-Stat3 expression, induced apoptosis, and inhibited tumor growth of mutagen induced colorectal cancer in a genetic mouse model expressing TP53 R248Q (PMID: 30107178).",
+            "molecularProfile": {
+                "id": 3457,
+                "profileName": "TP53 R248Q"
+            },
+            "therapy": {
+                "id": 934,
+                "therapyName": "Tanespimycin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14313,
+                    "pubMedId": 30107178,
+                    "title": "Therapeutic Ablation of Gain-of-Function Mutant p53 in Colorectal Cancer Inhibits Stat3-Mediated Tumor Growth and Invasion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30107178"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5004,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib extended survival by 48% in mice with tumors expressing TP53 R248Q (PMID: 26009011).",
+            "molecularProfile": {
+                "id": 3457,
+                "profileName": "TP53 R248Q"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4831,
+                    "pubMedId": 26009011,
+                    "title": "Improving survival by exploiting tumour dependence on stabilized mutant p53 for treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26009011"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3978,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 rescued p53 activity and decreased viability of ovarian cancer cells harboring TP53 R248Q in culture, and induced tumor regression in patient-derived ovarian cancer xenograft models harboring TP53 R248Q (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 3457,
+                "profileName": "TP53 R248Q"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14104,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ALRN-6924 did not inhibit the growth of acute myeloid leukemia cells harboring TP53 R248Q in culture (PMID: 29643228).",
+            "molecularProfile": {
+                "id": 3457,
+                "profileName": "TP53 R248Q"
+            },
+            "therapy": {
+                "id": 2273,
+                "therapyName": "ALRN-6924",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11462,
+                    "pubMedId": 29643228,
+                    "title": "Dual inhibition of MDMX and MDM2 as a therapeutic strategy in leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29643228"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3979,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ReACp53 induced cell death and decreased proliferation of human primary ovarian carcinoma cells harboring both TP53 I195* and TP53 R248Q in culture (PMID: 26748848).",
+            "molecularProfile": {
+                "id": 16640,
+                "profileName": "TP53 I195* TP53 R248Q"
+            },
+            "therapy": {
+                "id": 3406,
+                "therapyName": "ReACp53",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4001,
+                "name": "ovarian carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4309,
+                    "pubMedId": 26748848,
+                    "title": "A Designed Inhibitor of p53 Aggregation Rescues p53 Tumor Suppression in Ovarian Carcinomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748848"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3457,
+            "profileName": "TP53 R248Q",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1242,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 R248Q"
+                },
+                {
+                    "id": 1243,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R248Q"
+                }
+            ]
+        },
+        {
+            "id": 16640,
+            "profileName": "TP53 I195* TP53 R248Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95391,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7674220C>T",
+            "cDna": "c.743G>A",
+            "protein": "p.R248Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95390,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7674220C>T",
+            "cDna": "c.743G>A",
+            "protein": "p.R248Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95392,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7674220C>T",
+            "cDna": "c.743G>A",
+            "protein": "p.R248Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95393,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7674220C>T",
+            "cDna": "c.743G>A",
+            "protein": "p.R248Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

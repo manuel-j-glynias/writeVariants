@@ -1,0 +1,150 @@
+{
+    "id": 1645,
+    "fullName": "KIT H697Y",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT H697Y lies within the protein kinase domain of the Kit protein (UniProt.org). H697Y is transforming in cultured cells in one study (PMID: 19861435) and therefore, is predicted to lead to a gain of Kit protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 670,
+                    "pubMedId": 19861435,
+                    "title": "Comprehensive genomic analysis reveals clinically relevant molecular distinctions between thymic carcinomas and thymomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19861435"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "H697Y",
+    "createDate": "09/09/2014",
+    "updateDate": "09/14/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 136204,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54729433C>T",
+        "cDna": "c.2089C>T",
+        "protein": "p.H697Y",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4364,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) inhibited growth of transformed cell lines overexpressing KIT H697Y in culture (PMID: 19861435).",
+            "molecularProfile": {
+                "id": 1656,
+                "profileName": "KIT H697Y"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 670,
+                    "pubMedId": 19861435,
+                    "title": "Comprehensive genomic analysis reveals clinically relevant molecular distinctions between thymic carcinomas and thymomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19861435"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4365,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell lines overexpressing KIT H697Y demonstrated reduced sensitivity to Gleevec (imatinib mesylate)-induced growth inhibition in culture (PMID: 19861435).",
+            "molecularProfile": {
+                "id": 1656,
+                "profileName": "KIT H697Y"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 670,
+                    "pubMedId": 19861435,
+                    "title": "Comprehensive genomic analysis reveals clinically relevant molecular distinctions between thymic carcinomas and thymomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19861435"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1656,
+            "profileName": "KIT H697Y",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1477,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT H697Y"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136205,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54729433C>T",
+            "cDna": "c.2089C>T",
+            "protein": "p.H697Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136204,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54729433C>T",
+            "cDna": "c.2089C>T",
+            "protein": "p.H697Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

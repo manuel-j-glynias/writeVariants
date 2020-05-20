@@ -1,0 +1,268 @@
+{
+    "id": 2876,
+    "fullName": "PLK1 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "PLK1 over exp indicates an over expression of the Plk1 protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 5347,
+        "geneSymbol": "PLK1",
+        "terms": [
+            "PLK1",
+            "PLK",
+            "STPK13"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "01/02/2015",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1578,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BI2536 treatment inhibited growth of patient-derived PLK1-overexpressing medulloblastoma cells in culture (PMID: 24019381)",
+            "molecularProfile": {
+                "id": 2700,
+                "profileName": "PLK1 over exp"
+            },
+            "therapy": {
+                "id": 676,
+                "therapyName": "BI2536",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1559,
+                    "pubMedId": 24019381,
+                    "title": "Personalizing the treatment of pediatric medulloblastoma: Polo-like kinase 1 as a molecular target in high-risk children.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24019381"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2390,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human pancreatic cancer cells over expressing PLK1 demonstrated a significant decrease in tumor size in xenograft models when treated with a combination of Rigosertib (ON01910) and Gemzar (gemcitabine) (PMID: 15766665).",
+            "molecularProfile": {
+                "id": 2700,
+                "profileName": "PLK1 over exp"
+            },
+            "therapy": {
+                "id": 2823,
+                "therapyName": "Gemcitabine + Rigosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 2980,
+                    "pubMedId": 15766665,
+                    "title": "ON01910, a non-ATP-competitive small molecule inhibitor of Plk1, is a potent anticancer agent.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15766665"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3669,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BI2536 and Metformin worked synergistically to induce apoptosis and inhibit growth of PLK1-over expressing prostate cancer cells with wild-type TP53 in cell culture and in PDX models (PMID: 25505174).",
+            "molecularProfile": {
+                "id": 14280,
+                "profileName": "PLK1 over exp TP53 wild-type"
+            },
+            "therapy": {
+                "id": 3223,
+                "therapyName": "BI2536 + Metformin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3947,
+                    "pubMedId": 25505174,
+                    "title": "Inhibition of polo-like kinase 1 (Plk1) enhances the antineoplastic activity of metformin in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25505174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3670,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, decreased expression of Tp53 in Plk1-over expressing prostate carcinoma cell lines resulted in decreased response to growth inhibition by the combination of BI2536 and Metformin in culture (PMID: 25505174).",
+            "molecularProfile": {
+                "id": 14282,
+                "profileName": "PLK1 over exp TP53 dec exp"
+            },
+            "therapy": {
+                "id": 3223,
+                "therapyName": "BI2536 + Metformin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3947,
+                    "pubMedId": 25505174,
+                    "title": "Inhibition of polo-like kinase 1 (Plk1) enhances the antineoplastic activity of metformin in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25505174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5270,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human melanoma cell line harboring NRAS G12D with PLK1 over expression was sensitive to the combination of Mekinist (trametinib) and Volasertib, which produced a synergistic effect in xenograft models, resulting in decreased cell viability and tumor regression (PMID: 26016894).",
+            "molecularProfile": {
+                "id": 20450,
+                "profileName": "NRAS G12D PLK1 over exp"
+            },
+            "therapy": {
+                "id": 3805,
+                "therapyName": "Trametinib + Volasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4976,
+                    "pubMedId": 26016894,
+                    "title": "Combined Inhibition of MEK and Plk1 Has Synergistic Antitumor Activity in NRAS Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26016894"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5269,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a human melanoma cell line harboring NRAS Q61K with PLK1 over expression was sensitive to the combination of Mekinist (trametinib) and Volasertib, which produced a synergistic effect in cell line xenograft models, resulting in decreased cell viability and tumor regression (PMID: 26016894).",
+            "molecularProfile": {
+                "id": 20451,
+                "profileName": "NRAS Q61K PLK1 over exp"
+            },
+            "therapy": {
+                "id": 3805,
+                "therapyName": "Trametinib + Volasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4976,
+                    "pubMedId": 26016894,
+                    "title": "Combined Inhibition of MEK and Plk1 Has Synergistic Antitumor Activity in NRAS Mutant Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26016894"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2700,
+            "profileName": "PLK1 over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5288,
+                    "name": "PLK1 Inhibitor",
+                    "profileName": "PLK1 over exp"
+                }
+            ]
+        },
+        {
+            "id": 14280,
+            "profileName": "PLK1 over exp TP53 wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 14282,
+            "profileName": "PLK1 over exp TP53 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20450,
+            "profileName": "NRAS G12D PLK1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 20451,
+            "profileName": "NRAS Q61K PLK1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "id": 3825,
+    "fullName": "PIK3CA G118D",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA G118D lies within the region linking the PI3K-ABD and PI3K-RBD domains of the Pik3ca protein (UniProt.org). G118D confers a gain of function on the Pik3ca protein as indicated by enhanced lipid kinase activity in cell culture, increased phosphorylation of Akt in cells derived from Cowden syndrome patients harboring germline mutations (PMID: 22949682, PMID: 23246288), and increased transformation ability in two different cell lines (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2248,
+                    "pubMedId": 22949682,
+                    "title": "Oncogenic mutations mimic and enhance dynamic events in the natural activation of phosphoinositide 3-kinase p110\u03b1 (PIK3CA).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22949682"
+                },
+                {
+                    "id": 2249,
+                    "pubMedId": 23246288,
+                    "title": "Germline PIK3CA and AKT1 mutations in Cowden and Cowden-like syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23246288"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "G118D",
+    "createDate": "03/17/2015",
+    "updateDate": "04/29/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 171825,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179199690G>A",
+        "cDna": "c.353G>A",
+        "protein": "p.G118D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8940,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3023414 inhibited proliferation of non-small cell lung cancer cells harboring PIK3CA G118D in culture, resulted in tumor growth inhibition in cell line xenograft models (PMID: 27439478).",
+            "molecularProfile": {
+                "id": 3633,
+                "profileName": "PIK3CA G118D"
+            },
+            "therapy": {
+                "id": 1069,
+                "therapyName": "LY3023414",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6792,
+                    "pubMedId": 27439478,
+                    "title": "Characterization of LY3023414, a Novel PI3K/mTOR Dual Inhibitor Eliciting Transient Target Modulation to Impede Tumor Growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27439478"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8172,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring EGFR L858R, T790M, and PIK3CA G118D demonstrated decreased response to Pimasertib (MSC1936369B) in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26185,
+                "profileName": "EGFR T790M EGFR L858R PIK3CA G118D"
+            },
+            "therapy": {
+                "id": 871,
+                "therapyName": "Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8177,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Afinitor (everolimus) synergistically inhibited proliferation of non-small cell lung cancer cells harboring EGFR L858R, EGFR T790M, and PIK3CA G118D in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26185,
+                "profileName": "EGFR T790M EGFR L858R PIK3CA G118D"
+            },
+            "therapy": {
+                "id": 4656,
+                "therapyName": "Everolimus + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8186,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Stivarga (regorafenib) synergistically inhibited proliferation of non-small cell lung cancer cells harboring EGFR L858R, EGFR T790M, and PIK3CA G118D in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26185,
+                "profileName": "EGFR T790M EGFR L858R PIK3CA G118D"
+            },
+            "therapy": {
+                "id": 4657,
+                "therapyName": "Pimasertib + Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8181,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and Nexavar (sorafenib) synergistically inhibited Mapk and Akt signaling, resulted in growth inhibition of non-small cell lung cancer cells harboring EGFR L858R, EGFR T790M, and PIK3CA G118D in culture and in cell line xenograft models (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26185,
+                "profileName": "EGFR T790M EGFR L858R PIK3CA G118D"
+            },
+            "therapy": {
+                "id": 1659,
+                "therapyName": "Pimasertib + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8187,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pimasertib (MSC1936369B) and BEZ235 combination treatment inhibited tumor growth in non-small cell lung cancer cell line xenograft models harboring EGFR L858R, EGFR T790M, and PIK3CA G118D in culture (PMID: 23629727).",
+            "molecularProfile": {
+                "id": 26185,
+                "profileName": "EGFR T790M EGFR L858R PIK3CA G118D"
+            },
+            "therapy": {
+                "id": 1660,
+                "therapyName": "BEZ235 + Pimasertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 337,
+                    "pubMedId": 23629727,
+                    "title": "Antitumor activity of pimasertib, a selective MEK 1/2 inhibitor, in combination with PI3K/mTOR inhibitors or with multi-targeted kinase inhibitors in pimasertib-resistant human lung and colorectal cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23629727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3633,
+            "profileName": "PIK3CA G118D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17208,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA G118D"
+                },
+                {
+                    "id": 17213,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA G118D"
+                },
+                {
+                    "id": 17207,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA G118D"
+                },
+                {
+                    "id": 17209,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA G118D"
+                },
+                {
+                    "id": 17214,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA G118D"
+                },
+                {
+                    "id": 17210,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA G118D"
+                },
+                {
+                    "id": 17211,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA G118D"
+                },
+                {
+                    "id": 17212,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA G118D"
+                }
+            ]
+        },
+        {
+            "id": 26185,
+            "profileName": "EGFR T790M EGFR L858R PIK3CA G118D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171824,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179199690G>A",
+            "cDna": "c.353G>A",
+            "protein": "p.G118D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171825,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179199690G>A",
+            "cDna": "c.353G>A",
+            "protein": "p.G118D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171826,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179199690G>A",
+            "cDna": "c.353G>A",
+            "protein": "p.G118D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

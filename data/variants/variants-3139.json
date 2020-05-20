@@ -1,0 +1,140 @@
+{
+    "id": 3139,
+    "fullName": "BRAF G596D",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G596D lies within the protein kinase domain of the Braf protein (UniProt.org). G596D demonstrates decreased Braf kinase activity in one study (PMID: 28783719), but results in increased Erk phosphorylation in another study, and is associated with resistance to Raf inhibitors (PMID: 31158244), and therefore, its effect on Braf protein function is unknown.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 16277,
+                    "pubMedId": 31158244,
+                    "title": "Rare BRAF mutations in pancreatic neuroendocrine tumors may predict response to RAF and MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158244"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G596D",
+    "createDate": "02/16/2015",
+    "updateDate": "12/17/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 109152,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753348C>T",
+        "cDna": "c.1787G>A",
+        "protein": "p.G596D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 19549,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) treatment did not inhibit Erk phosphorylation in breast cancer cells expressing BRAF G596D in culture (PMID: 31158244).",
+            "molecularProfile": {
+                "id": 2963,
+                "profileName": "BRAF G596D"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16277,
+                    "pubMedId": 31158244,
+                    "title": "Rare BRAF mutations in pancreatic neuroendocrine tumors may predict response to RAF and MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31158244"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2963,
+            "profileName": "BRAF G596D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14726,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G596D"
+                },
+                {
+                    "id": 14725,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G596D"
+                },
+                {
+                    "id": 14724,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G596D"
+                },
+                {
+                    "id": 14727,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G596D"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109151,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753348C>T",
+            "cDna": "c.1787G>A",
+            "protein": "p.G596D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109152,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753348C>T",
+            "cDna": "c.1787G>A",
+            "protein": "p.G596D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "id": 3068,
+    "fullName": "PIK3CA I391M",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA I391M lies within the C2 PI3K-type domain of the Pik3ca protein (UniProt.org). The functional effect of I391M is conflicting, as it demonstrates kinase activity similar to wild-type Pik3ca (PMID: 20530683), however in another study, results in increased cell proliferation and cell viability as compared to wild-type Pik3ca, in one of two different cell lines (PMID: 29533785), and therefore, its effect on Pik3ca protein function is unknown.",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 1863,
+                    "pubMedId": 20530683,
+                    "title": "Correlating phosphatidylinositol 3-kinase inhibitor efficacy with signaling pathway status: in silico and biological evaluations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20530683"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "I391M",
+    "createDate": "02/11/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 171906,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179209622A>G",
+        "cDna": "c.1173A>G",
+        "protein": "p.I391M",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11051,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a uterine cancer patient harboring PIK3CA I391M demonstrated stable disease when treated with Rapamune (sirolimus) (PMID: 28514312).",
+            "molecularProfile": {
+                "id": 2891,
+                "profileName": "PIK3CA I391M"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 363,
+                "name": "uterine cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9046,
+                    "pubMedId": 28514312,
+                    "title": "Treatment inferred from mutations identified using massive parallel sequencing leads to clinical benefit in some heavily pretreated cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28514312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7746,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Kadcyla (trastuzumab emtansine) inhibited survival of ERBB2 (HER2) positive breast cancer cells harboring PIK3CA K111N in culture (PMID: 26920887).",
+            "molecularProfile": {
+                "id": 25949,
+                "profileName": "ERBB2 pos PIK3CA I391M"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6466,
+                    "pubMedId": 26920887,
+                    "title": "Relationship between Tumor Biomarkers and Efficacy in EMILIA, a Phase III Study of Trastuzumab Emtansine in HER2-Positive Metastatic Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26920887"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10281,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient-derived xenograft (PDX) model of endometrial cancer harboring PIK3CA I391M and PIK3R1 M326I (reported as M56I) was sensitive to Miransertib (ARQ092), demonstrating greater than 90% inhibition of tumor growth (PMID: 26469692).",
+            "molecularProfile": {
+                "id": 27335,
+                "profileName": "PIK3CA I391M PIK3R1 M326I"
+            },
+            "therapy": {
+                "id": 635,
+                "therapyName": "Miransertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8234,
+                    "pubMedId": 26469692,
+                    "title": "Targeting AKT1-E17K and the PI3K/AKT Pathway with an Allosteric AKT Inhibitor, ARQ 092.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26469692"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2891,
+            "profileName": "PIK3CA I391M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25949,
+            "profileName": "ERBB2 pos PIK3CA I391M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27335,
+            "profileName": "PIK3CA I391M PIK3R1 M326I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171905,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179209622A>G",
+            "cDna": "c.1173A>G",
+            "protein": "p.I391M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171907,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179209622A>G",
+            "cDna": "c.1173A>G",
+            "protein": "p.I391M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171906,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179209622A>G",
+            "cDna": "c.1173A>G",
+            "protein": "p.I391M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

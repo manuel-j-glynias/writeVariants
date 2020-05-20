@@ -1,0 +1,132 @@
+{
+    "id": 31150,
+    "fullName": "KIT Y568_L576delinsCV",
+    "impact": "indel",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT Y568_L576delinsCV results in a deletion of 9 amino acids within the juxtamembrane domain (exon 11) of the Kit protein, combined with the insertion of a cysteine (C) and a valine (V) at the same site (PMID: 12879016). V559_V560delinsS has not been characterized, but is predicted to lead to a gain of Kit protein function based on the effect of similar Kit exon 11 mutations (PMID: 9438854, PMID: 15365079).",
+            "references": [
+                {
+                    "id": 2054,
+                    "pubMedId": 15365079,
+                    "title": "Biology of gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15365079"
+                },
+                {
+                    "id": 2055,
+                    "pubMedId": 12879016,
+                    "title": "Signal transduction by several KIT juxtamembrane domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12879016"
+                },
+                {
+                    "id": 650,
+                    "pubMedId": 9438854,
+                    "title": "Gain-of-function mutations of c-kit in human gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9438854"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "Y568_L576delinsCV",
+    "createDate": "10/01/2019",
+    "updateDate": "10/01/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 184403,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727470_54727496delinsTGTGTA",
+        "cDna": "c.1702_1728delinsTGTGTA",
+        "protein": "p.Y568_L576delinsCV",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18612,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with Ripretinib (DCC-2618) decreased circulating tumor DNA, resulted in stable disease lasting over 21 months in a patient with gastrointestinal stromal tumor harboring a primary KIT Y568_L576delinsCV mutation and two acquired resistance mutations, KIT D816E and KIT D820Y (PMID: 31085175; NCT02571036).",
+            "molecularProfile": {
+                "id": 33485,
+                "profileName": "KIT Y568_L576delinsCV KIT D816E KIT D820Y"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 33461,
+            "profileName": "KIT Y568_L576delinsCV",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19729,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT Y568_L576delinsCV"
+                }
+            ]
+        },
+        {
+            "id": 33485,
+            "profileName": "KIT Y568_L576delinsCV KIT D816E KIT D820Y",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 184404,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727470_54727496delinsTGTGTA",
+            "cDna": "c.1702_1728delinsTGTGTA",
+            "protein": "p.Y568_L576delinsCV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 184403,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727470_54727496delinsTGTGTA",
+            "cDna": "c.1702_1728delinsTGTGTA",
+            "protein": "p.Y568_L576delinsCV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

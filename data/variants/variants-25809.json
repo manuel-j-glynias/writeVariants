@@ -1,0 +1,138 @@
+{
+    "id": 25809,
+    "fullName": "TP53 N30fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 N30fs results in a change in the amino acid sequence of the Tp53 protein beginning at 30 of 393, likely resulting in premature truncation of the functional protein (UniProt.org). Due to the loss of the DNA-binding domain as well as several other functional domains (UniProt.org), N30fs is predicted to lead to a loss of Tp53 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "N30fs",
+    "createDate": "12/13/2016",
+    "updateDate": "09/03/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 94917,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7676390delT",
+        "cDna": "c.89delA",
+        "protein": "p.N30fs*14",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9562,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Capmatinib (INC280) treatment resulted in decreased tumor volume by 53% in a patient with large cell lung carcinoma harboring MET exon 14 skipping and TP53 N30fs*14 (PMID: 25971938).",
+            "molecularProfile": {
+                "id": 26905,
+                "profileName": "MET del exon14 TP53 N30fs"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4556,
+                "name": "lung large cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6712,
+                    "pubMedId": 25971938,
+                    "title": "Activation of MET via diverse exon 14 splicing alterations occurs in multiple tumor types and confers clinical sensitivity to MET inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25971938"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26904,
+            "profileName": "TP53 N30fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10818,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 N30fs"
+                }
+            ]
+        },
+        {
+            "id": 26905,
+            "profileName": "MET del exon14 TP53 N30fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 94917,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7676390delT",
+            "cDna": "c.89delA",
+            "protein": "p.N30fs*14",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94919,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7676390delT",
+            "cDna": "c.89delA",
+            "protein": "p.N30fs*14",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94918,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7676390delT",
+            "cDna": "c.89delA",
+            "protein": "p.N30fs*14",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94916,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7676390delT",
+            "cDna": "c.89delA",
+            "protein": "p.N30fs*14",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "id": 10003,
+    "fullName": "IDH1 R132X",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "IDH1 R132X indicates any Idh1 missense mutation that results in the replacement of the arginine (R) at amino acid 132 by a different amino acid. R132 variants are hotspot mutations in Idh1, which often results in conversion of alpha-ketoglutarate to the onco-metabolite 2HG (R(-)-2-hydroxyglutarate) (PMID: 19935646, PMID: 28330869, PMID: 21326614).",
+            "references": [
+                {
+                    "id": 2755,
+                    "pubMedId": 21326614,
+                    "title": "2-hydroxyglutarate production, but not dominant negative function, is conferred by glioma-derived NADP-dependent isocitrate dehydrogenase mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21326614"
+                },
+                {
+                    "id": 487,
+                    "pubMedId": 19935646,
+                    "title": "Cancer-associated IDH1 mutations produce 2-hydroxyglutarate.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19935646"
+                },
+                {
+                    "id": 9218,
+                    "pubMedId": 28330869,
+                    "title": "Molecular mechanisms of isocitrate dehydrogenase 1 (IDH1) mutations identified in tumors: The role of size and hydrophobicity at residue 132 on catalytic efficiency.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28330869"
+                }
+            ]
+        }
+    ],
+    "type": "category",
+    "gene": {
+        "id": 3417,
+        "geneSymbol": "IDH1",
+        "terms": [
+            "IDH1",
+            "HEL-216",
+            "HEL-S-26",
+            "IDCD",
+            "IDH",
+            "IDP",
+            "IDPC",
+            "PICD"
+        ]
+    },
+    "variant": "R132X",
+    "createDate": "08/04/2015",
+    "updateDate": "11/01/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 143871,
+        "transcript": "NM_005896",
+        "gDna": "chr2:g.208248387_208248389",
+        "cDna": "c.394_396",
+        "protein": "p.R132",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16857,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived acute myeloid leukemia cells harboring IDH1 R132X mutations demonstrated increased sensitivity to CG-806 compared to wild-type cells in culture (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1323).",
+            "molecularProfile": {
+                "id": 10006,
+                "profileName": "IDH1 R132X"
+            },
+            "therapy": {
+                "id": 7038,
+                "therapyName": "CG-806",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14956,
+                    "pubMedId": null,
+                    "title": "CG-806, a pan-FLT3 / pan-BTK inhibitor, demonstrates superior potency against cells from IDH-1 mutant and other non-favorable risk groups of AML patients.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10000,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, IDH305 treatment resulted in objective response in 33% (7/21) of acute myeloid leukemia patients harboring IDH1 R132 mutations, including complete remission in 3 (14%) and partial remission in 4 (19%) patients (Blood 2016 128 (22):1073).",
+            "molecularProfile": {
+                "id": 10006,
+                "profileName": "IDH1 R132X"
+            },
+            "therapy": {
+                "id": 2981,
+                "therapyName": "IDH305",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7891,
+                    "pubMedId": null,
+                    "title": "A Phase I Study of IDH305 in Patients with Advanced Malignancies Including Relapsed/Refractory AML and MDS That Harbor IDH1R132 Mutations",
+                    "url": "http://www.bloodjournal.org/content/128/22/1073?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10006,
+            "profileName": "IDH1 R132X",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17021,
+                    "name": "IDH1 Inhibitor",
+                    "profileName": "IDH1 R132X"
+                },
+                {
+                    "id": 17020,
+                    "name": "IDH Inhibitor (Pan)",
+                    "profileName": "IDH1 R132X"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 143871,
+            "transcript": "NM_005896",
+            "gDna": "chr2:g.208248387_208248389",
+            "cDna": "c.394_396",
+            "protein": "p.R132",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 143872,
+            "transcript": "NM_001282386",
+            "gDna": "chr2:g.208248387_208248389",
+            "cDna": "c.394_396",
+            "protein": "p.R132",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 143873,
+            "transcript": "NM_001282387",
+            "gDna": "chr2:g.208248387_208248389",
+            "cDna": "c.394_396",
+            "protein": "p.R132",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

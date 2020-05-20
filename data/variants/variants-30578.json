@@ -1,0 +1,244 @@
+{
+    "id": 30578,
+    "fullName": "EGFR M766Q",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR M766Q lies within the protein kinase domain of the Egfr protein (UniProt.org). M766Q has been demonstrated to confer resistance to Egfr inhibitors as a secondary resistance mutation (PMID: 31254668), but has not been biochemically characterized and therefore, its effect on Egfr protein function is unknown (PubMed, Jan 2020).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 15768,
+                    "pubMedId": 31254668,
+                    "title": "A Novel Acquired Exon 20 EGFR M766Q Mutation in Lung Adenocarcinoma Mediates Osimertinib Resistance but is Sensitive to Neratinib and Poziotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31254668"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "M766Q",
+    "createDate": "07/24/2019",
+    "updateDate": "01/30/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 181321,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181305_55181306delATinsCA",
+        "cDna": "c.2296_2297delATinsCA",
+        "protein": "p.M766Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17832,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L858R and EGFR M766Q demonstrated resistance to treatment with Gilotrif (afatinib) in culture (PMID: 31254668).",
+            "molecularProfile": {
+                "id": 32800,
+                "profileName": "EGFR M766Q EGFR L858R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15768,
+                    "pubMedId": 31254668,
+                    "title": "A Novel Acquired Exon 20 EGFR M766Q Mutation in Lung Adenocarcinoma Mediates Osimertinib Resistance but is Sensitive to Neratinib and Poziotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31254668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17834,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Poziotinib (HM781-36B) resulted in growth inhibition of transformed cells co-expressing EGFR L858R and EGFR M766Q in culture at clinically achievable concentrations (PMID: 31254668).",
+            "molecularProfile": {
+                "id": 32800,
+                "profileName": "EGFR M766Q EGFR L858R"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15768,
+                    "pubMedId": 31254668,
+                    "title": "A Novel Acquired Exon 20 EGFR M766Q Mutation in Lung Adenocarcinoma Mediates Osimertinib Resistance but is Sensitive to Neratinib and Poziotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31254668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17833,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L858R and EGFR M766Q were sensitive to treatment with Nerlynx (neratinib) in culture (PMID: 31254668).",
+            "molecularProfile": {
+                "id": 32800,
+                "profileName": "EGFR M766Q EGFR L858R"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15768,
+                    "pubMedId": 31254668,
+                    "title": "A Novel Acquired Exon 20 EGFR M766Q Mutation in Lung Adenocarcinoma Mediates Osimertinib Resistance but is Sensitive to Neratinib and Poziotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31254668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17830,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung adenocarcinoma initially harboring EGFR L858R and EGFR T790M was treated with Tagrisso (osimertinib), progressed, and via cell-free DNA testing, was found to have lost EGFR T790M, but acquired EGFR M766Q and preclinical analysis of transformed cells co-expressing L858R and M766Q also demonstrated resistance to Tagrisso (osimertinib) in culture (PMID: 31254668).",
+            "molecularProfile": {
+                "id": 32800,
+                "profileName": "EGFR M766Q EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15768,
+                    "pubMedId": 31254668,
+                    "title": "A Novel Acquired Exon 20 EGFR M766Q Mutation in Lung Adenocarcinoma Mediates Osimertinib Resistance but is Sensitive to Neratinib and Poziotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31254668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17831,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L858R and EGFR M766Q demonstrated resistance to treatment with Tarceva (erlotinib) in culture (PMID: 31254668).",
+            "molecularProfile": {
+                "id": 32800,
+                "profileName": "EGFR M766Q EGFR L858R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15768,
+                    "pubMedId": 31254668,
+                    "title": "A Novel Acquired Exon 20 EGFR M766Q Mutation in Lung Adenocarcinoma Mediates Osimertinib Resistance but is Sensitive to Neratinib and Poziotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31254668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32799,
+            "profileName": "EGFR M766Q",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32800,
+            "profileName": "EGFR M766Q EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 181321,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181305_55181306delATinsCA",
+            "cDna": "c.2296_2297delATinsCA",
+            "protein": "p.M766Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

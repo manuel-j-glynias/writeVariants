@@ -1,0 +1,150 @@
+{
+    "id": 25813,
+    "fullName": "KIT K558_G565delinsR",
+    "impact": "indel",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT K558_G565delinsR results in the deletion of 9 amino acids in the juxtamembrane domain (exon 11) of the Kit protein from amino acids 558 to 565, combined with the insertion of an arginine (R) at the same site (PMID: 16226710). K558_G565delinsR results in constitutive phosphorylation of Kit in patient-derived xenograft models in one study (PMID: 25926077) and therefore, is predicted to lead to a gain of Kit protein function.",
+            "references": [
+                {
+                    "id": 648,
+                    "pubMedId": 16226710,
+                    "title": "Structure and regulation of Kit protein-tyrosine kinase--the stem cell factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16226710"
+                },
+                {
+                    "id": 12203,
+                    "pubMedId": 25926077,
+                    "title": "Therapeutic Efficacy Assessment of CK6, a Monoclonal KIT Antibody, in a Panel of Gastrointestinal Stromal Tumor Xenograft Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25926077"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "K558_G565delinsR",
+    "createDate": "12/15/2016",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136296,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727441_54727461del21",
+        "cDna": "c.1673_1693del21",
+        "protein": "p.K558_G565delinsR",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9591,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib) treatment resulted in tumor regression and decreased mitotic activity in gastrointestinal stromal tumor patient derived xenograft (PDX) models harboring KIT K558_G565delinsR (PMID: 27777285).",
+            "molecularProfile": {
+                "id": 26913,
+                "profileName": "KIT K558_G565delinsR"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7300,
+                    "pubMedId": 27777285,
+                    "title": "Cabozantinib Is Active against Human Gastrointestinal Stromal Tumor Xenografts Carrying Different KIT Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27777285"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9594,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cometriq (Cabometyx, cabozantinib) resulted in tumor regression, decreased mitotic activity, and increased apoptotic activity in a gastrointestinal stromal tumor patient derived xenograft (PDX) model harboring KIT K558_G565delins (PMID: 27777285).",
+            "molecularProfile": {
+                "id": 26913,
+                "profileName": "KIT K558_G565delinsR"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7300,
+                    "pubMedId": 27777285,
+                    "title": "Cabozantinib Is Active against Human Gastrointestinal Stromal Tumor Xenografts Carrying Different KIT Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27777285"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26913,
+            "profileName": "KIT K558_G565delinsR",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16976,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT K558_G565delinsR"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136297,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727441_54727461del21",
+            "cDna": "c.1673_1693del21",
+            "protein": "p.K558_G565delinsR",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136296,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727441_54727461del21",
+            "cDna": "c.1673_1693del21",
+            "protein": "p.K558_G565delinsR",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

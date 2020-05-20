@@ -1,0 +1,161 @@
+{
+    "id": 3798,
+    "fullName": "TP53 R248L",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R248L is a hotspot mutation that lies within the DNA-binding domain of the Tp53 protein (PMID: 22713868). R248L results in decreased Tp53 transactivation and repression, and resistance to apoptosis in cell culture (PMID: 8336941, PMID: 20570896, PMID: 18566217).",
+            "references": [
+                {
+                    "id": 2227,
+                    "pubMedId": 8336941,
+                    "title": "Heterogeneity of transcriptional activity of mutant p53 proteins and p53 DNA target sequences.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8336941"
+                },
+                {
+                    "id": 2230,
+                    "pubMedId": 20570896,
+                    "title": "Dysregulation of p53/Sp1 control leads to DNA methyltransferase-1 overexpression in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20570896"
+                },
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 2229,
+                    "pubMedId": 18566217,
+                    "title": "Potent synergy of dual antitumor peptides for growth suppression of human glioblastoma cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18566217"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R248L",
+    "createDate": "03/16/2015",
+    "updateDate": "01/22/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 95383,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7674220C>A",
+        "cDna": "c.743G>T",
+        "protein": "p.R248L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10886,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Sprycel (dasatinib) and Demcizumab (OMP-21M18) treatment resulted in durable tumor inhibition in patient-derived animal models of lung adenocarcinoma harboring KRAS G12R and TP53 R248L (PMID: 26855149).",
+            "molecularProfile": {
+                "id": 27821,
+                "profileName": "KRAS G12R TP53 R248L"
+            },
+            "therapy": {
+                "id": 5671,
+                "therapyName": "Dasatinib + Demcizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8887,
+                    "pubMedId": 26855149,
+                    "title": "Combined inhibition of DDR1 and Notch signaling is a therapeutic strategy for KRAS-driven lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26855149"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4336,
+            "profileName": "TP53 R248L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 3189,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 R248L"
+                },
+                {
+                    "id": 3190,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R248L"
+                }
+            ]
+        },
+        {
+            "id": 27821,
+            "profileName": "KRAS G12R TP53 R248L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95385,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7674220C>A",
+            "cDna": "c.743G>T",
+            "protein": "p.R248L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95383,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7674220C>A",
+            "cDna": "c.743G>T",
+            "protein": "p.R248L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95382,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7674220C>A",
+            "cDna": "c.743G>T",
+            "protein": "p.R248L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95384,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7674220C>A",
+            "cDna": "c.743G>T",
+            "protein": "p.R248L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

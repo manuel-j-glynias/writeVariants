@@ -1,0 +1,122 @@
+{
+    "id": 28278,
+    "fullName": "PARP1 M43_D45del",
+    "impact": "deletion",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "PARP1 M43_D45del results in a deletion of 3 amino acids in the PARP-type zinc finger domain 1 of the Parp1 protein from amino acids 43 to 45 (UniProt.org). M43_D45del has been associated with resistance to PARP inhibitors in cell culture (PMID: 29748565), but has not been biochemically characterized and therefore, its effect on Parp1 protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11365,
+                    "pubMedId": 29748565,
+                    "title": "Genome-wide and high-density CRISPR-Cas9 screens identify point mutations in PARP1 causing PARP inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748565"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 142,
+        "geneSymbol": "PARP1",
+        "terms": [
+            "PARP1",
+            "ADPRT",
+            "ADPRT 1",
+            "ADPRT1",
+            "ARTD1",
+            "pADPRT-1",
+            "PARP",
+            "PARP-1",
+            "PPOL"
+        ]
+    },
+    "variant": "M43_D45del",
+    "createDate": "05/21/2018",
+    "updateDate": "10/10/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 178485,
+        "transcript": "NM_001618",
+        "gDna": "chr1:g.226402365_226402373delATCAAACAT",
+        "cDna": "c.127_135delATGTTTGAT",
+        "protein": "p.M43_D45delMFD",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13925,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BRCA1 mutant-positive triple-receptor negative breast cancer cells expressing PARP1 F44Mfs*50, PARP1 F44Lfs*2, PARP1 M43Ifs*52, and PARP1 M43_D45del demonstrated resistance to treatment with Talazoparib (BMN-673) in culture (PMID: 29748565).",
+            "molecularProfile": {
+                "id": 29873,
+                "profileName": "BRCA1 mut PARP1 M43_D45del PARP1 M43Ifs*52 PARP1 F44Lfs*2 PARP1 F44Mfs*50"
+            },
+            "therapy": {
+                "id": 682,
+                "therapyName": "Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11365,
+                    "pubMedId": 29748565,
+                    "title": "Genome-wide and high-density CRISPR-Cas9 screens identify point mutations in PARP1 causing PARP inhibitor resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748565"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29871,
+            "profileName": "PARP1 M43_D45del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29873,
+            "profileName": "BRCA1 mut PARP1 M43_D45del PARP1 M43Ifs*52 PARP1 F44Lfs*2 PARP1 F44Mfs*50",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 178485,
+            "transcript": "NM_001618",
+            "gDna": "chr1:g.226402365_226402373delATCAAACAT",
+            "cDna": "c.127_135delATGTTTGAT",
+            "protein": "p.M43_D45delMFD",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

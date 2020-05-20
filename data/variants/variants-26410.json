@@ -1,0 +1,163 @@
+{
+    "id": 26410,
+    "fullName": "APC I1164fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "APC I1164fs results in a change in the amino acid sequence of the Apc protein beginning at aa 1164 of 2843, likely resulting in premature truncation of the functional protein (UniProt.org). I1164fs has not been characterized, however Apc truncation mutants downstream of I1164 are inactivating (PMID: 18199528, PMID: 10346819), thus, I1164fs is predicted to lead to a loss of Apc protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2395,
+                    "pubMedId": 18199528,
+                    "title": "Multiple rare nonsynonymous variants in the adenomatous polyposis coli gene predispose to colorectal adenomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18199528"
+                },
+                {
+                    "id": 2409,
+                    "pubMedId": 10346819,
+                    "title": "Apc1638T: a mouse model delineating critical domains of the adenomatous polyposis coli protein involved in tumorigenesis and development.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10346819"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 324,
+        "geneSymbol": "APC",
+        "terms": [
+            "APC",
+            "BTPS2",
+            "DESMD",
+            "DP2",
+            "DP2.5",
+            "DP3",
+            "GS",
+            "PPP1R46"
+        ]
+    },
+    "variant": "I1164fs",
+    "createDate": "04/19/2017",
+    "updateDate": "04/19/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 142404,
+        "transcript": "NM_000038",
+        "gDna": "chr5:g.(112839083_112839084)",
+        "cDna": "c.(3490_3489)",
+        "protein": "p.I1164fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10572,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, G007-LK inhibited growth of a patient-derived colorectal cancer cell line harboring APC I1164fs in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27625,
+                "profileName": "APC I1164fs"
+            },
+            "therapy": {
+                "id": 2991,
+                "therapyName": "G007-LK",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10573,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, IWR-1 inhibited growth of a patient-derived colorectal cancer cell line harboring APC I1164fs in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 27625,
+                "profileName": "APC I1164fs"
+            },
+            "therapy": {
+                "id": 2455,
+                "therapyName": "IWR-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27625,
+            "profileName": "APC I1164fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11219,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "APC I1164fs"
+                },
+                {
+                    "id": 11220,
+                    "name": "Tankyrase Inhibitor",
+                    "profileName": "APC I1164fs"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 142404,
+            "transcript": "NM_000038",
+            "gDna": "chr5:g.(112839083_112839084)",
+            "cDna": "c.(3490_3489)",
+            "protein": "p.I1164fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 142403,
+            "transcript": "NM_001127510",
+            "gDna": "chr5:g.(112839083_112839084)",
+            "cDna": "c.(3490_3489)",
+            "protein": "p.I1164fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

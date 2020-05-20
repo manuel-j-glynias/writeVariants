@@ -1,0 +1,153 @@
+{
+    "id": 27227,
+    "fullName": "BRCA1 T37Qfs*13",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRCA1 T37Qfs*13 indicates a shift in the reading frame starting at amino acid 37 and terminating 13 residues downstream causing a premature truncation of the 1863 aa Brca1 protein (UniProt.org). Due to the loss of most known functional domains (UniProt.org), T37Qfs*13 is predicted to result in a loss of Brca1 protein function; however, the corresponding cDNA change has been demonstrated to act as a reversion mutation in the context of a specific inactivating BRCA1 mutation, leading to restoration of the BRCA1 open reading frame and wild-type protein function, as demonstrated by induction of Brca1 foci formation following ionizing irradiation in vitro and association with acquired resistance to platinum-based chemotherapy (PMID: 28765325).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 10297,
+                    "pubMedId": 28765325,
+                    "title": "Diverse BRCA1 and BRCA2 Reversion Mutations in Circulating Cell-Free DNA of Therapy-Resistant Breast or Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765325"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 672,
+        "geneSymbol": "BRCA1",
+        "terms": [
+            "BRCA1",
+            "BRCAI",
+            "BRCC1",
+            "BROVCA1",
+            "FANCS",
+            "IRIS",
+            "PNCA4",
+            "PPP1R53",
+            "PSCP",
+            "RNF53"
+        ]
+    },
+    "variant": "T37Qfs*13",
+    "createDate": "11/13/2017",
+    "updateDate": "06/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 156172,
+        "transcript": "NM_007294",
+        "gDna": "chr17:g.43115753delG",
+        "cDna": "c.108delC",
+        "protein": "p.T37Qfs*13",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 13098,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian cancer patient harboring BRCA1 E23Vfs*17 progressed while being treated with platinum-based chemotherapy, and via cell-free DNA testing was found to have acquired a somatic reversion mutation, BRCA1 T37Qfs*13, which restored the open reading frame, resulting in wild-type BRCA1 protein function (PMID: 28765325).",
+            "molecularProfile": {
+                "id": 29008,
+                "profileName": "BRCA1 E23Vfs*17 BRCA1 T37Qfs*13"
+            },
+            "therapy": {
+                "id": 1092,
+                "therapyName": "Carboplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10297,
+                    "pubMedId": 28765325,
+                    "title": "Diverse BRCA1 and BRCA2 Reversion Mutations in Circulating Cell-Free DNA of Therapy-Resistant Breast or Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28647,
+            "profileName": "BRCA1 T37Qfs*13",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17887,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "BRCA1 T37Qfs*13"
+                },
+                {
+                    "id": 17886,
+                    "name": "PARP-1 Inhibitor",
+                    "profileName": "BRCA1 T37Qfs*13"
+                }
+            ]
+        },
+        {
+            "id": 29008,
+            "profileName": "BRCA1 E23Vfs*17 BRCA1 T37Qfs*13",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 156175,
+            "transcript": "NM_007298",
+            "gDna": "chr17:g.43115753delG",
+            "cDna": "c.108delC",
+            "protein": "p.T37Qfs*13",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156172,
+            "transcript": "NM_007294",
+            "gDna": "chr17:g.43115753delG",
+            "cDna": "c.108delC",
+            "protein": "p.T37Qfs*13",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156174,
+            "transcript": "NM_007299",
+            "gDna": "chr17:g.43115753delG",
+            "cDna": "c.108delC",
+            "protein": "p.T37Qfs*13",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 156173,
+            "transcript": "NM_007300",
+            "gDna": "chr17:g.43115753delG",
+            "cDna": "c.108delC",
+            "protein": "p.T37Qfs*13",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

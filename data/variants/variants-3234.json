@@ -1,0 +1,1048 @@
+{
+    "id": 3234,
+    "fullName": "RET M918T",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "RET M918T lies within the protein kinase domain of the Ret protein (Uniprot.org). M918T results in ligand-independent autophosphorylation of Ret and increased substrate binding, is transforming (PMID: 17108110), and confers drug resistance in the context of KIF5B-RET in culture (PMID: 29908090).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11579,
+                    "pubMedId": 29908090,
+                    "title": "Drug resistance profiles of mutations in the RET kinase domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29908090"
+                },
+                {
+                    "id": 1941,
+                    "pubMedId": 17108110,
+                    "title": "Molecular mechanisms of RET receptor-mediated oncogenesis in multiple endocrine neoplasia 2B.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17108110"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5979,
+        "geneSymbol": "RET",
+        "terms": [
+            "RET",
+            "CDHF12",
+            "CDHR16",
+            "HSCR1",
+            "MEN2A",
+            "MEN2B",
+            "MTC1",
+            "PTC",
+            "RET-ELE1"
+        ]
+    },
+    "variant": "M918T",
+    "createDate": "02/19/2015",
+    "updateDate": "07/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 125331,
+        "transcript": "NM_020975",
+        "gDna": "chr10:g.43121968T>C",
+        "cDna": "c.2753T>C",
+        "protein": "p.M918T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3374,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, Afinitor (everolimus) treatment resulted in stable disease in 71% (5/7) of medullary thyroid cancer patients, and 4 of the 7 patients carried a RET M918T mutation (PMID: 26294908).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 735,
+                "therapyName": "Everolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3764,
+                    "pubMedId": 26294908,
+                    "title": "Beneficial Effects of the mTOR Inhibitor Everolimus in Patients with Advanced Medullary Thyroid Carcinoma: Subgroup Results of a Phase II Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26294908"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 14458,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing RET M918T were sensitive to treatment with Selpercatinib (LOXO-292) in culture, demonstrating decreased cell proliferation (PMID: 29912274).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5152,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ALW-II-41-27 inhibited RET phosphorylation and downstream signaling, reduced proliferation of transformed cells expressing RET M918T in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 3274,
+                "therapyName": "ALW-II-41-27",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2990,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Caprelsa (vandetanib) inhibited growth of small cell lung carcinoma lines expressing RET M918T (PMID: 25122427).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5409,
+                "name": "lung small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3555,
+                    "pubMedId": 25122427,
+                    "title": "RET mutation and expression in small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25122427"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13750,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with sporadic medullary thryoid cancer harboring RET M918T demonstrated a partial response, with maximal tumor reduction of 47% following treatment with BLU-667 (PMID: 29657135; NCT03037385).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 5530,
+                "therapyName": "BLU-667",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11266,
+                    "pubMedId": 29657135,
+                    "title": "Precision Targeted Therapy with BLU-667 for RET-Driven Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29657135"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14451,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, thyroid medullary carcinoma cells harboring RET M918T were sensitive to treatment with Selpercatinib (LOXO-292) in culture, demonstrating decreased cell proliferation (PMID: 29912274).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8074,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD1480 reduced phosphorylation of RET and downstream effectors, and inhibited growth and increased apoptosis of a medullary thyroid cancer cell line harboring RET M918T in culture (PMID: 23056499).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 652,
+                "therapyName": "AZD1480",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6545,
+                    "pubMedId": 23056499,
+                    "title": "AZD1480 blocks growth and tumorigenesis of RET- activated thyroid cancer cell lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23056499"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3236,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited phosphorylation of Ret in transformed human cells expressing RET M918T in culture (PMID: 23526464).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 312,
+                    "pubMedId": 23526464,
+                    "title": "Ponatinib (AP24534) is a novel potent inhibitor of oncogenic RET mutants associated with thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23526464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5150,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, HG-6-63-01 inhibited RET phosphorylation and downstream signaling and reduced proliferation of transformed cells expressing RET M918T in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 3762,
+                "therapyName": "HG-6-63-01",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1762,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited RET phosphorylation and decreased growth of colorectal cancer cells harboring a RET M918T mutation in culture (PMID: 17664273).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 589,
+                    "pubMedId": 17664273,
+                    "title": "Sorafenib functions to potently suppress RET tyrosine kinase activity by direct enzymatic inhibition and promoting RET lysosomal degradation independent of proteasomal targeting.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17664273"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5151,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XMD15-44 inhibited RET phosphorylation and downstream signaling and reduced proliferation of transformed cells expressing RET M918T in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 3761,
+                "therapyName": "XMD15-44",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2988,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited growth of small cell lung carcinoma lines expressing RET M918T (PMID: 25122427).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5409,
+                "name": "lung small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3555,
+                    "pubMedId": 25122427,
+                    "title": "RET mutation and expression in small-cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25122427"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5158,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ALW-II-41-27 inhibited RET phosphorylation and downstream signaling and reduced proliferation of medullary thryoid carcinoma cells harboring RET M918T in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 3274,
+                "therapyName": "ALW-II-41-27",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1777,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited RET signaling and decreased proliferation of thyroid carcinoma cells harboring a RET M918T mutation in culture (PMID: 23526464).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3963,
+                "name": "thyroid gland carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 312,
+                    "pubMedId": 23526464,
+                    "title": "Ponatinib (AP24534) is a novel potent inhibitor of oncogenic RET mutants associated with thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23526464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5156,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, HG-6-63-01 inhibited RET phosphorylation and downstream signaling and reduced proliferation of medullary thyroid carcinoma cells harboring RET M918T in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 3762,
+                "therapyName": "HG-6-63-01",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6189,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pz-1 inhibited Ret phosphorylation in transformed cells expressing RET M918T (PMID: 26126987).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 4089,
+                "therapyName": "Pz-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5385,
+                    "pubMedId": 26126987,
+                    "title": "Fragment-Based Discovery of a Dual pan-RET/VEGFR2 Kinase Inhibitor Optimized for Single-Agent Polypharmacology.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26126987"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1763,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited RET phosphorylation and decreased proliferation of cells expressing RET M918T in culture (PMID: 17664273).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 589,
+                    "pubMedId": 17664273,
+                    "title": "Sorafenib functions to potently suppress RET tyrosine kinase activity by direct enzymatic inhibition and promoting RET lysosomal degradation independent of proteasomal targeting.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17664273"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2496,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Cometriq (cabozantinib) increased overall survival to 25.4 months in medullary thyroid carcinoma patients with RET M918T (J Clin Oncol 33, 2015, suppl; abstr 6012).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3168,
+                    "pubMedId": null,
+                    "title": "Final overall survival analysis of EXAM, an international, double-blind, randomized, placebo-controlled phase III trial of cabozantinib (Cabo) in medullary thyroid carcinoma (MTC) patients with documented RECIST progression at baseline.",
+                    "url": "http://meetinglibrary.asco.org/content/147994-156"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10386,
+            "approvalStatus": "Phase III",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial, Cometriq (cabozantinib) treatment resulted in improved progression free survival (61 vs 17 weeks) compared to placebo in thyroid medullary carcinoma patients harboring RET M918T (PMID: 27525386).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8408,
+                    "pubMedId": 27525386,
+                    "title": "Correlative analyses of RET and RAS mutations in a phase 3 trial of cabozantinib in patients with progressive, metastatic medullary thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27525386"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 5157,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XMD15-44 inhibited RET phosphorylation and downstream signaling and reduced proliferation of medullary thyroid carcinoma cells harboring RET M918T in culture (PMID: 26046350).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 3761,
+                "therapyName": "XMD15-44",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4887,
+                    "pubMedId": 26046350,
+                    "title": "Identification of Novel Small Molecule Inhibitors of Oncogenic RET Kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26046350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10451,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Nexavar (sorafenib) treatment resulted in partial response in 10% (1/10) and stable disease in 90% (9/10) of patients with medullary thyroid carcinoma harboring RET M918T (PMID: 20368568).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8463,
+                    "pubMedId": 20368568,
+                    "title": "Phase II clinical trial of sorafenib in metastatic medullary thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20368568"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 3419,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Caprelsa (vandetanib) inhibited Ret autophosphorylation and transforming activity in cells expressing RET M918T in culture (PMID: 15184865).",
+            "molecularProfile": {
+                "id": 3055,
+                "profileName": "RET M918T"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3687,
+                    "pubMedId": 15184865,
+                    "title": "Disease associated mutations at valine 804 in the RET receptor tyrosine kinase confer resistance to selective kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15184865"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10637,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, addition of Afinitor (everolimus) to Caprelsa (vandetanib) treatment resulted in significant tumor reduction in a medullary thyroid carcinoma patient harboring ATM L804fs*4, ATM S978fs*12, and RET M918T, that achieved prolonged stable disease on Caprelsa (vandetanib) treatment alone (PMID: 27683183).",
+            "molecularProfile": {
+                "id": 27653,
+                "profileName": "ATM L804fs ATM S978fs RET M918T"
+            },
+            "therapy": {
+                "id": 1163,
+                "therapyName": "Everolimus + Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8676,
+                    "pubMedId": 27683183,
+                    "title": "RET Aberrations in Diverse Cancers: Next-Generation Sequencing of 4,871 Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27683183"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14444,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell expressing RET M918T in the context of KIF5B-RET were resistant to Caprelsa (vandetanib) in culture (PMID: 29908090).",
+            "molecularProfile": {
+                "id": 30014,
+                "profileName": "KIF5B - RET RET M918T"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11579,
+                    "pubMedId": 29908090,
+                    "title": "Drug resistance profiles of mutations in the RET kinase domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29908090"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14443,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell expressing RET M918T in the context of KIF5B-RET were resistant to Lenvima (lenvatinib) in culture (PMID: 29908090).",
+            "molecularProfile": {
+                "id": 30014,
+                "profileName": "KIF5B - RET RET M918T"
+            },
+            "therapy": {
+                "id": 792,
+                "therapyName": "Lenvatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11579,
+                    "pubMedId": 29908090,
+                    "title": "Drug resistance profiles of mutations in the RET kinase domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29908090"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14442,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell expressing RET M918T in the context of KIF5B-RET were resistant to Cometriq (Cabometyx, cabozantinib) in culture (PMID: 29908090).",
+            "molecularProfile": {
+                "id": 30014,
+                "profileName": "KIF5B - RET RET M918T"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11579,
+                    "pubMedId": 29908090,
+                    "title": "Drug resistance profiles of mutations in the RET kinase domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29908090"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14445,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cell expressing RET M918T in the context of KIF5B-RET demonstrated reduced sensitivity to Ofev (nintedanib) compared to cells expressing wild-type KIF5B-RET in culture (PMID: 29908090).",
+            "molecularProfile": {
+                "id": 30014,
+                "profileName": "KIF5B - RET RET M918T"
+            },
+            "therapy": {
+                "id": 831,
+                "therapyName": "Nintedanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 11579,
+                    "pubMedId": 29908090,
+                    "title": "Drug resistance profiles of mutations in the RET kinase domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29908090"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14464,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with thyroid medullary cancer harboring RET M918T and RET V804M demonstrated an initial response to Selpercatinib (LOXO-292), which included a decrease in allelic fraction of RET M918T and RET V804M over 8 weeks and a radiographic response of nearly 54% post 6.9 months of treatment (PMID: 29912274; NCT03157128).",
+            "molecularProfile": {
+                "id": 30021,
+                "profileName": "RET V804M RET M918T"
+            },
+            "therapy": {
+                "id": 5702,
+                "therapyName": "Selpercatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14465,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung adenocarcinoma initially treated with chemotherapy and immunotherapy was found to harbor KIF5B-RET, and was then treated with Alecensa (alectinib), which resulted in an intracranial response, but eventually led to further progression (PMID: 29912274; NCT03157128).",
+            "molecularProfile": {
+                "id": 30021,
+                "profileName": "RET V804M RET M918T"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14462,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with thyroid medullary carcinoma harboring RET M918T progressed on multiple therapies, including Nexavar (sorafenib), Caprelsa (vandetanib), Cometriq (cabozantinib), MGCD-516 (sitravatinib), and RXDX-105 (CEP-32496), and upon progression with the combination therapy, Caprelsa (vandetanib) and Afinitor (everolimus), cell-free DNA testing revealed RET M918T and acquisition of a secondary drug resistant mutation, RET V804M (PMID: 29912274; NCT03157128).",
+            "molecularProfile": {
+                "id": 30021,
+                "profileName": "RET V804M RET M918T"
+            },
+            "therapy": {
+                "id": 1163,
+                "therapyName": "Everolimus + Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3973,
+                "name": "thyroid gland medullary carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11635,
+                    "pubMedId": 29912274,
+                    "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29912274"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3055,
+            "profileName": "RET M918T",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1226,
+                    "name": "RET Inhibitor",
+                    "profileName": "RET M918T"
+                }
+            ]
+        },
+        {
+            "id": 27653,
+            "profileName": "ATM L804fs ATM S978fs RET M918T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30014,
+            "profileName": "KIF5B - RET RET M918T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30021,
+            "profileName": "RET V804M RET M918T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 125332,
+            "transcript": "NM_020630",
+            "gDna": "chr10:g.43121968T>C",
+            "cDna": "c.2753T>C",
+            "protein": "p.M918T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 125331,
+            "transcript": "NM_020975",
+            "gDna": "chr10:g.43121968T>C",
+            "cDna": "c.2753T>C",
+            "protein": "p.M918T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

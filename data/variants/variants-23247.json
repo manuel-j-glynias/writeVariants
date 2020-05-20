@@ -1,0 +1,230 @@
+{
+    "id": 23247,
+    "fullName": "MAP2K1 G128V",
+    "impact": "missense",
+    "proteinEffect": "no effect - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 G128V lies within the protein kinase domain of the Map2k1 protein (UniProt.org). G128V has been demonstrated to have autophosphorylation levels similar to wild-type Map2k1 in an in vitro assay (PMID: 29753091) and has also been described as a drug resistance mutation (PMID: 24265153).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                },
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "G128V",
+    "createDate": "06/15/2016",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 173396,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66436837G>T",
+        "cDna": "c.383G>T",
+        "protein": "p.G128V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7059,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 G128V demonstrated resistance to treatment with Mekinist (trametinib) in culture, resulting in sustained Map2k1/2 and Erk1/2 phosphorylation (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24283,
+                "profileName": "BRAF V600E MAP2K1 G128V"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7005,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 G128V demonstrated sensitivity to treatment with VRT11E, resulting in decreased cell growth in culture (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24283,
+                "profileName": "BRAF V600E MAP2K1 G128V"
+            },
+            "therapy": {
+                "id": 4351,
+                "therapyName": "VRT11E",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7033,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MAP2K1 G128V conferred resistance to the combination of Tafinlar (dabrafenib) and Mekinist (trametinib) in BRAF V600E-mutant melanoma cells in culture (PMID: 24265154).",
+            "molecularProfile": {
+                "id": 24283,
+                "profileName": "BRAF V600E MAP2K1 G128V"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6036,
+                    "pubMedId": 24265154,
+                    "title": "MAP kinase pathway alterations in BRAF-mutant melanoma patients with acquired resistance to combined RAF/MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7058,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 G128V demonstrated resistance to treatment with Tafinlar (dabrafenib) in culture, resulting in sustained Map2k1/2 and Erk1/2 phosphorylation (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24283,
+                "profileName": "BRAF V600E MAP2K1 G128V"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23924,
+            "profileName": "MAP2K1 G128V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24283,
+            "profileName": "BRAF V600E MAP2K1 G128V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173397,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66436837G>T",
+            "cDna": "c.383G>T",
+            "protein": "p.G128V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173398,
+            "transcript": "XM_017022412",
+            "gDna": "chr15:g.66444666G>T",
+            "cDna": "c.383G>T",
+            "protein": "p.G128V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173396,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66436837G>T",
+            "cDna": "c.383G>T",
+            "protein": "p.G128V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

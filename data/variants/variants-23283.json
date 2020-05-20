@@ -1,0 +1,182 @@
+{
+    "id": 23283,
+    "fullName": "EGFR E884K",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR E884K lies within the protein kinase domain of the Egfr protein (UniProt.org). E884K results in constitutive phosphorylation of Egfr, increased Stat3 phosphorylation in cell culture, and leads to increased cell proliferation and differential tyrosine kinase inhibitor sensitivity in combination with EGFR L858R (PMID: 19015641), but demonstrates similar cell proliferation and viability levels as wild-type Egfr in one of two different cell lines in culture (PMID: 29533785), and therefore, its effect on Egfr protein function is unknown.",
+            "references": [
+                {
+                    "id": 5950,
+                    "pubMedId": 19015641,
+                    "title": "Disruption of the EGFR E884-R958 ion pair conserved in the human kinome differentially alters signaling and inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19015641"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "E884K",
+    "createDate": "06/15/2016",
+    "updateDate": "10/31/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135621,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55192790G>A",
+        "cDna": "c.2650G>A",
+        "protein": "p.E884K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6920,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing the double EGFR L858R/E884K mutation demonstrated increased sensitivity to inhibition by Iressa (gefitinib) compared to cells expressing EGFR L858R alone (PMID: 20942962).",
+            "molecularProfile": {
+                "id": 23963,
+                "profileName": "EGFR L858R EGFR E884K"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1956,
+                    "pubMedId": 20942962,
+                    "title": "Clinical implications of novel activating EGFR mutations in malignant peritoneal mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20942962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6888,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing the double EGFR L858R/E844K mutation demonstrated decreased sensitivity to Tarceva (erlotinib) in culture compared to cells expressing EGFR L858R alone (PMID: 19015641).",
+            "molecularProfile": {
+                "id": 23963,
+                "profileName": "EGFR L858R EGFR E884K"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 5950,
+                    "pubMedId": 19015641,
+                    "title": "Disruption of the EGFR E884-R958 ion pair conserved in the human kinome differentially alters signaling and inhibitor sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19015641"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6921,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing the double EGFR L858R/E884K mutation demonstrated increased sensitivity to inhibition of Egfr phosphorylation by EKI-285 compared to cells expressing EGFR L858R alone (PMID: 20942962).",
+            "molecularProfile": {
+                "id": 23963,
+                "profileName": "EGFR L858R EGFR E884K"
+            },
+            "therapy": {
+                "id": 2911,
+                "therapyName": "EKI-285",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1956,
+                    "pubMedId": 20942962,
+                    "title": "Clinical implications of novel activating EGFR mutations in malignant peritoneal mesothelioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20942962"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23962,
+            "profileName": "EGFR E884K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23963,
+            "profileName": "EGFR L858R EGFR E884K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135621,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55192790G>A",
+            "cDna": "c.2650G>A",
+            "protein": "p.E884K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

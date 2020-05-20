@@ -1,0 +1,121 @@
+{
+    "id": 31261,
+    "fullName": "APC E582fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "APC E582fs results in a change in the amino acid sequence of the Apc protein beginning at aa 582 of 2843, likely resulting in premature truncation of the functional protein (UniProt.org). E582fs has not been characterized, however, Apc truncation mutants downstream of E582 are inactivating (PMID: 18199528) and therefore, is predicted to lead to a loss of Apc protein function.",
+            "references": [
+                {
+                    "id": 2395,
+                    "pubMedId": 18199528,
+                    "title": "Multiple rare nonsynonymous variants in the adenomatous polyposis coli gene predispose to colorectal adenomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18199528"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 324,
+        "geneSymbol": "APC",
+        "terms": [
+            "APC",
+            "BTPS2",
+            "DESMD",
+            "DP2",
+            "DP2.5",
+            "DP3",
+            "GS",
+            "PPP1R46"
+        ]
+    },
+    "variant": "E582fs",
+    "createDate": "10/11/2019",
+    "updateDate": "10/11/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 184668,
+        "transcript": "NM_000038",
+        "gDna": "chr5:g.(112828972_112834951)",
+        "cDna": "c.(1744_1743)",
+        "protein": "p.E582fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18755,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, G007-LK treatment did not inhibited growth of mouse intestinal organoids expressing APC E580fs (corresponding to E582fs in human) in culture (PMID: 31337618).",
+            "molecularProfile": {
+                "id": 33602,
+                "profileName": "APC E582fs"
+            },
+            "therapy": {
+                "id": 2991,
+                "therapyName": "G007-LK",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16445,
+                    "pubMedId": 31337618,
+                    "title": "Distinct Colorectal Cancer-Associated APC Mutations Dictate Response to Tankyrase Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31337618"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 33602,
+            "profileName": "APC E582fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19735,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "APC E582fs"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 184668,
+            "transcript": "NM_000038",
+            "gDna": "chr5:g.(112828972_112834951)",
+            "cDna": "c.(1744_1743)",
+            "protein": "p.E582fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 184667,
+            "transcript": "NM_001127510",
+            "gDna": "chr5:g.(112828972_112834951)",
+            "cDna": "c.(1744_1743)",
+            "protein": "p.E582fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

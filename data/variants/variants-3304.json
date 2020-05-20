@@ -1,0 +1,134 @@
+{
+    "id": 3304,
+    "fullName": "MET E168D",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET E168D lies within the Sema domain of the Met protein (UniProt.org). The functional effect of E168D is conflicting as E168D resulted in an increased affinity of Met for Hgf in an in vitro assay (PMID: 19723643), but decreased cell proliferation and cell viability as compared to wild-type Met in another study (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2020,
+                    "pubMedId": 19723643,
+                    "title": "Ethnic differences and functional analysis of MET mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19723643"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "E168D",
+    "createDate": "02/23/2015",
+    "updateDate": "03/12/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 144672,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116699588G>C",
+        "cDna": "c.504G>C",
+        "protein": "p.E168D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4759,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SU11274 induced apoptosis of cells expressing MET E168D, which demonstrated increased sensitivity compared to cells expressing wild-type MET (PMID: 19723643).",
+            "molecularProfile": {
+                "id": 3122,
+                "profileName": "MET E168D"
+            },
+            "therapy": {
+                "id": 1089,
+                "therapyName": "SU11274",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2020,
+                    "pubMedId": 19723643,
+                    "title": "Ethnic differences and functional analysis of MET mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19723643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3122,
+            "profileName": "MET E168D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7902,
+                    "name": "MET Inhibitor",
+                    "profileName": "MET E168D"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144671,
+            "transcript": "NM_001127500",
+            "gDna": "chr7:g.116699588G>C",
+            "cDna": "c.504G>C",
+            "protein": "p.E168D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144672,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116699588G>C",
+            "cDna": "c.504G>C",
+            "protein": "p.E168D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 144673,
+            "transcript": "NM_001324401",
+            "gDna": "chr7:g.116699588G>C",
+            "cDna": "c.504G>C",
+            "protein": "p.E168D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

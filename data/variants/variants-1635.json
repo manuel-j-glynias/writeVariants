@@ -1,0 +1,291 @@
+{
+    "id": 1635,
+    "fullName": "TP53 negative",
+    "impact": "unknown",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 negative indicates a lack of the TP53 gene, mRNA, and/or protein.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "negative",
+    "createDate": "09/09/2014",
+    "updateDate": "05/15/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11742,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TP53-null non-small cell lung carcinoma cells demonstrated reduced sensitivity to Roscovotine (seliciclib) induced apoptosis in culture (PMID: 22862161).",
+            "molecularProfile": {
+                "id": 1647,
+                "profileName": "TP53 negative"
+            },
+            "therapy": {
+                "id": 1129,
+                "therapyName": "Seliciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 609,
+                    "pubMedId": 22862161,
+                    "title": "Roscovitine-induced apoptosis of H1299 cells depends on functional status of p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22862161"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 992,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a pilot trial, TP53-negative breast cancer patients demonstrated increased survival following treatment with Avastin (bevacizumab) in combination with chemotherapy agents, Adriamycin (doxorubicin) and Taxotere (docetaxel), compared to patients with TP53-positive tumors (PMID: 21399868).",
+            "molecularProfile": {
+                "id": 1647,
+                "profileName": "TP53 negative"
+            },
+            "therapy": {
+                "id": 1421,
+                "therapyName": "Bevacizumab + Docetaxel + Doxorubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 658,
+                    "pubMedId": 21399868,
+                    "title": "p53, HER2 and tumor cell apoptosis correlate with clinical outcome after neoadjuvant bevacizumab plus chemotherapy in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21399868"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1143,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY2940680 treatment of Ptch+/- p53-/- transgenic mice, which spontaneously develop medulloblastoma, resulted in significant anti-tumor activity (Cancer Research: April 15, 2011; Volume 71, Issue 8, Supplement 1, Abstract #2819).",
+            "molecularProfile": {
+                "id": 1975,
+                "profileName": "PTCH1 neg TP53 neg"
+            },
+            "therapy": {
+                "id": 1587,
+                "therapyName": "Taladegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 883,
+                    "pubMedId": null,
+                    "title": "Abstract 2819: Identification and characterization of a novel smoothened antagonist for the treatment of cancer with deregulated hedgehog signaling",
+                    "url": "https://cancerres.aacrjournals.org/content/71/8_Supplement/2819"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9324,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CX-6258 and CX-5461 combination treatment resulted in enhanced inhibition of anchorage-independent growth compared to single agent in prostate cancer cells with high Myc expression and no TP53 expression in culture (PMID: 27486174).",
+            "molecularProfile": {
+                "id": 26815,
+                "profileName": "MYC over exp TP53 neg"
+            },
+            "therapy": {
+                "id": 4969,
+                "therapyName": "CX-5461 + CX-6258",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7070,
+                    "pubMedId": 27486174,
+                    "title": "The Dual Inhibition of RNA Pol I Transcription and PIM Kinase as a New Therapeutic Approach to Treat Advanced Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27486174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9321,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CX-6258 inhibited anchorage-independent growth in prostate cancer cells with high Myc expression and no TP53 expression in culture (PMID: 27486174).",
+            "molecularProfile": {
+                "id": 26815,
+                "profileName": "MYC over exp TP53 neg"
+            },
+            "therapy": {
+                "id": 3675,
+                "therapyName": "CX-6258",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7070,
+                    "pubMedId": 27486174,
+                    "title": "The Dual Inhibition of RNA Pol I Transcription and PIM Kinase as a New Therapeutic Approach to Treat Advanced Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27486174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9304,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CX-5461 inhibited anchorage-independent growth, but did not induce cell death in prostate cancer cells with high Myc expression and no TP53 expression in culture (PMID: 27486174).",
+            "molecularProfile": {
+                "id": 26815,
+                "profileName": "MYC over exp TP53 neg"
+            },
+            "therapy": {
+                "id": 4963,
+                "therapyName": "CX-5461",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7070,
+                    "pubMedId": 27486174,
+                    "title": "The Dual Inhibition of RNA Pol I Transcription and PIM Kinase as a New Therapeutic Approach to Treat Advanced Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27486174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13091,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a TP53/MDM2/MDM4-null acute lymphocytic leukemia (ALL) cell line demonstrated decreased sensitivity to AQ-101 compared to ALL cell lines with wild-type TP53 and MDM2 overexpression in culture (PMID: 29282301).",
+            "molecularProfile": {
+                "id": 29006,
+                "profileName": "MDM2 neg MDM4 neg TP53 neg"
+            },
+            "therapy": {
+                "id": 6682,
+                "therapyName": "AQ-101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9952,
+                "name": "acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 10752,
+                    "pubMedId": 29282301,
+                    "title": "Inhibition of MDM2 by a Rhein-Derived Compound AQ-101 Suppresses Cancer Development in SCID Mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29282301"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1647,
+            "profileName": "TP53 negative",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 1975,
+            "profileName": "PTCH1 neg TP53 neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26815,
+            "profileName": "MYC over exp TP53 neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29006,
+            "profileName": "MDM2 neg MDM4 neg TP53 neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

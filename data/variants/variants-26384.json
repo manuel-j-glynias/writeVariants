@@ -1,0 +1,138 @@
+{
+    "id": 26384,
+    "fullName": "TP53 S90fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 S90fs results in a change in the amino acid sequence of the Tp53 protein beginning at 90 of 393, likely resulting in premature truncation of the functional protein (UniProt.org). Due to the loss of the DNA-binding domain as well as several other functional domains (UniProt.org), S90fs is predicted to lead to a loss of Tp53 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "S90fs",
+    "createDate": "04/18/2017",
+    "updateDate": "09/03/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 95698,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7676106delG",
+        "cDna": "c.267delC",
+        "protein": "p.S90fs*33",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10545,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian clear cell adenocarcinoma cell line harboring PIK3CA H1047R and TP53 S90fs*33 demonstrated reduced sensitivity to DS-7423 in culture (PMID: 24504419).",
+            "molecularProfile": {
+                "id": 27594,
+                "profileName": "PIK3CA H1047R TP53 S90fs"
+            },
+            "therapy": {
+                "id": 722,
+                "therapyName": "DS-7423",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5304,
+                "name": "ovarian clear cell adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4912,
+                    "pubMedId": 24504419,
+                    "title": "Antitumor activity and induction of TP53-dependent apoptosis toward ovarian clear cell adenocarcinoma by the dual PI3K/mTOR inhibitor DS-7423.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24504419"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27592,
+            "profileName": "TP53 S90fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11218,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 S90fs"
+                }
+            ]
+        },
+        {
+            "id": 27594,
+            "profileName": "PIK3CA H1047R TP53 S90fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95699,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7676106delG",
+            "cDna": "c.267delC",
+            "protein": "p.S90fs*33",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95700,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7676106delG",
+            "cDna": "c.267delC",
+            "protein": "p.S90fs*33",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95697,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7676106delG",
+            "cDna": "c.267delC",
+            "protein": "p.S90fs*33",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95698,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7676106delG",
+            "cDna": "c.267delC",
+            "protein": "p.S90fs*33",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

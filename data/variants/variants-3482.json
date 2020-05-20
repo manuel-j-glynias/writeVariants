@@ -1,0 +1,192 @@
+{
+    "id": 3482,
+    "fullName": "MTOR F1888I",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR F1888I lies within the central FAT domain of the Mtor protein (PMID: 17684489). F1888I confers a gain of function to the Mtor protein resulting in increased phosphorylation of S6K1 (PMID: 24631838).",
+            "references": [
+                {
+                    "id": 2032,
+                    "pubMedId": 17684489,
+                    "title": "Structural characterization of the interaction of mTOR with phosphatidic acid and a novel class of inhibitor: compelling evidence for a central role of the FRB domain in small molecule-mediated regulation of mTOR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17684489"
+                },
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "F1888I",
+    "createDate": "03/03/2015",
+    "updateDate": "03/09/2015",
+    "referenceTranscriptCoordinates": {
+        "id": 145203,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11129790A>T",
+        "cDna": "c.5662T>A",
+        "protein": "p.F1888I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7444,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Torin 1 inhibited Mtor activation in transformed cells over expressing MTOR F1888I in culture (PMID: 24631838).",
+            "molecularProfile": {
+                "id": 3288,
+                "profileName": "MTOR F1888I"
+            },
+            "therapy": {
+                "id": 2247,
+                "therapyName": "Torin 1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7447,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Apitolisib (GDC-0980) inhibited Mtor activation in transformed cells over expressing MTOR F1888I in culture (PMID: 24631838).",
+            "molecularProfile": {
+                "id": 3288,
+                "profileName": "MTOR F1888I"
+            },
+            "therapy": {
+                "id": 750,
+                "therapyName": "GDC-0980",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7446,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) inhibited Mtor activation in transformed cells over expressing MTOR F1888I in culture (PMID: 24631838).",
+            "molecularProfile": {
+                "id": 3288,
+                "profileName": "MTOR F1888I"
+            },
+            "therapy": {
+                "id": 1282,
+                "therapyName": "Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3288,
+            "profileName": "MTOR F1888I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2832,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR F1888I"
+                },
+                {
+                    "id": 683,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR F1888I"
+                },
+                {
+                    "id": 2831,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR F1888I"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145203,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11129790A>T",
+            "cDna": "c.5662T>A",
+            "protein": "p.F1888I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145204,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11129790A>T",
+            "cDna": "c.5662T>A",
+            "protein": "p.F1888I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

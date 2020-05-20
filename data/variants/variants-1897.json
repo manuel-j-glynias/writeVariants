@@ -1,0 +1,421 @@
+{
+    "id": 1897,
+    "fullName": "KRAS Q61K",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS Q61K is a hotspot mutation that lies within a GTP-binding region of the Kras protein (UniProt.org). Q61K has not been characterized, but can be predicted to confer a loss of function on Kras protein based on the effects of HRAS Q61K, which results in decreased Hras GTPase activity and leads to transformation of cells in culture (PMID: 3510078).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2204,
+                    "pubMedId": 3510078,
+                    "title": "Biological and biochemical properties of human rasH genes mutated at codon 61.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/3510078"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "Q61K",
+    "createDate": "09/25/2014",
+    "updateDate": "10/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 157369,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25227343G>T",
+        "cDna": "c.181C>A",
+        "protein": "p.Q61K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16004,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of lung cancer cells harboring KRAS Q61K in 3D culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 1864,
+                "profileName": "KRAS Q61K"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8991,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Binimetinib (MEK162) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS Q61K mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1864,
+                "profileName": "KRAS Q61K"
+            },
+            "therapy": {
+                "id": 807,
+                "therapyName": "Binimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6330,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XL147 inhibited tumor growth and vascularization in xenograft models of a human non-small cell lung cancer cell line harboring KRAS Q61K (PMID: 25637314).",
+            "molecularProfile": {
+                "id": 1864,
+                "profileName": "KRAS Q61K"
+            },
+            "therapy": {
+                "id": 1050,
+                "therapyName": "XL147",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5522,
+                    "pubMedId": 25637314,
+                    "title": "The Selective PI3K Inhibitor XL147 (SAR245408) Inhibits Tumor Growth and Survival and Potentiates the Activity of Chemotherapeutic Agents in Preclinical Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25637314"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8788,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BI-847325 inhibited MEK phosphorylation and proliferation and disrupted cell cycle progression in a non-small cell lung cancer cell line harboring KRAS Q61K in culture, and induced tumor stasis or regression in KRAS Q61K mutant non-small cell lung cancer cell line xenograft models (PMID: 27496137).",
+            "molecularProfile": {
+                "id": 1864,
+                "profileName": "KRAS Q61K"
+            },
+            "therapy": {
+                "id": 1059,
+                "therapyName": "BI-847325",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6751,
+                    "pubMedId": 27496137,
+                    "title": "Pharmacological Profile of BI 847325, an Orally Bioavailable, ATP-Competitive Inhibitor of MEK and Aurora Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27496137"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16003,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of gastric adenocarcinoma cells harboring KRAS Q61K in 3D culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 1864,
+                "profileName": "KRAS Q61K"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3717,
+                "name": "gastric adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8999,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) only moderately inhibited survival of lung adenocarcinoma cells harboring KRAS Q61K mutation due to the adaptive activation of Met, Egfr, and Akt signaling in cells (PMID: 27422710).",
+            "molecularProfile": {
+                "id": 1864,
+                "profileName": "KRAS Q61K"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6848,
+                    "pubMedId": 27422710,
+                    "title": "Phosphoproteomics Reveals MAPK Inhibitors Enhance MET- and EGFR-Driven AKT Signaling in KRAS-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27422710"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6337,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of XL147 and Paraplatin (carboplatin) inhibited tumor growth and angiogenesis in xenograft models of a human non-small cell lung cancer cell line harboring KRAS Q61K, with increased efficacy compared to either agent alone (PMID: 25637314).",
+            "molecularProfile": {
+                "id": 1864,
+                "profileName": "KRAS Q61K"
+            },
+            "therapy": {
+                "id": 4116,
+                "therapyName": "Carboplatin + XL147",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5522,
+                    "pubMedId": 25637314,
+                    "title": "The Selective PI3K Inhibitor XL147 (SAR245408) Inhibits Tumor Growth and Survival and Potentiates the Activity of Chemotherapeutic Agents in Preclinical Tumor Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25637314"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7884,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GDC0879 failed to inhibit growth of BRAF wild-type non-small cell lung cancer cells harboring KRAS Q61K in culture and in cell line xenograft models (PMID: 19276360).",
+            "molecularProfile": {
+                "id": 26085,
+                "profileName": "BRAF wild-type KRAS Q61K"
+            },
+            "therapy": {
+                "id": 1095,
+                "therapyName": "GDC0879",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6516,
+                    "pubMedId": 19276360,
+                    "title": "Antitumor efficacy of the novel RAF inhibitor GDC-0879 is predicted by BRAFV600E mutational status and sustained extracellular signal-regulated kinase/mitogen-activated protein kinase pathway suppression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19276360"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1864,
+            "profileName": "KRAS Q61K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 15931,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "KRAS Q61K"
+                },
+                {
+                    "id": 15928,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "KRAS Q61K"
+                },
+                {
+                    "id": 15929,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "KRAS Q61K"
+                },
+                {
+                    "id": 15926,
+                    "name": "AZD4785",
+                    "profileName": "KRAS Q61K"
+                },
+                {
+                    "id": 15930,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "KRAS Q61K"
+                },
+                {
+                    "id": 15925,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "KRAS Q61K"
+                },
+                {
+                    "id": 15927,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "KRAS Q61K"
+                }
+            ]
+        },
+        {
+            "id": 26085,
+            "profileName": "BRAF wild-type KRAS Q61K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31573,
+            "profileName": "BRAF V600E CDK6 amp EGFR amp KRAS Q61K MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157369,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25227343G>T",
+            "cDna": "c.181C>A",
+            "protein": "p.Q61K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157371,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25227343G>T",
+            "cDna": "c.181C>A",
+            "protein": "p.Q61K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157372,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25227343G>T",
+            "cDna": "c.181C>A",
+            "protein": "p.Q61K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157368,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25227343G>T",
+            "cDna": "c.181C>A",
+            "protein": "p.Q61K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157370,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25227343G>T",
+            "cDna": "c.181C>A",
+            "protein": "p.Q61K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

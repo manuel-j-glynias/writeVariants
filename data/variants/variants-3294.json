@@ -1,0 +1,126 @@
+{
+    "id": 3294,
+    "fullName": "AKT1 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "AKT1 amplification indicates an increased number of copies of the AKT1 gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 207,
+        "geneSymbol": "AKT1",
+        "terms": [
+            "AKT1",
+            "AKT",
+            "CWS6",
+            "PKB",
+            "PKB-ALPHA",
+            "PRKBA",
+            "RAC",
+            "RAC-ALPHA"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "02/22/2015",
+    "updateDate": "08/22/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 21294,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient derived xenograft (PDX) model of osteosarcoma with AKT1 amplification was sensitive to treatment with MK2206, demonstrating reduced tumor growth and increased apoptotic activity (PMID: 30266815).",
+            "molecularProfile": {
+                "id": 3110,
+                "profileName": "AKT1 amp"
+            },
+            "therapy": {
+                "id": 816,
+                "therapyName": "MK2206",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3347,
+                "name": "osteosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18550,
+                    "pubMedId": 30266815,
+                    "title": "Genome-Informed Targeted Therapy for Osteosarcoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30266815"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3624,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ONC201 (TIC-10) inhibited Akt activation and induced apoptosis and tumor regression in a variety of cell line xenograft models (PMID: 23390247).",
+            "molecularProfile": {
+                "id": 3110,
+                "profileName": "AKT1 amp"
+            },
+            "therapy": {
+                "id": 1687,
+                "therapyName": "ONC201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 989,
+                    "pubMedId": 23390247,
+                    "title": "Dual inactivation of Akt and ERK by TIC10 signals Foxo3a nuclear translocation, TRAIL gene induction, and potent antitumor effects.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23390247"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3110,
+            "profileName": "AKT1 amp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 497,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "AKT1 amp"
+                },
+                {
+                    "id": 498,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "AKT1 amp"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,217 @@
+{
+    "id": 4744,
+    "fullName": "TP53 R282W",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R282W is a hotspot mutation that lies within the DNA binding domain of the Tp53 protein (PMID: 22713868). R282W results in decreased activation of Tp53 target genes, leads to resistance to apoptosis and failure of G1arrest in culture (PMID: 31395785), and additionally acquires neomorphic DNA binding sites (PMID: 31395785), inhibits Ampk signaling, leading to invasive growth and altered cell metabolism in culture and promotes tumor development in mouse models (PMID: 24857548).",
+            "references": [
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 17772,
+                    "pubMedId": 31395785,
+                    "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31395785"
+                },
+                {
+                    "id": 2456,
+                    "pubMedId": 24857548,
+                    "title": "Gain-of-function mutant p53 promotes cell growth and cancer cell metabolism via inhibition of AMPK activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24857548"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R282W",
+    "createDate": "04/13/2015",
+    "updateDate": "02/05/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 95517,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7673776G>A",
+        "cDna": "c.844C>T",
+        "protein": "p.R282W",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8700,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited tumor growth of patient-derived xenograft models of colorectal cancer harboring KRAS G12V, PIK3CA Q546K, and TP53 R282W (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26375,
+                "profileName": "KRAS G12V PIK3CA Q546K TP53 R282W"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8701,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 delayed tumor growth of patient-derived xenograft models of colorectal cancer harboring KRAS G12V, PIK3CA Q546K, and TP53 R282W (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26375,
+                "profileName": "KRAS G12V PIK3CA Q546K TP53 R282W"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8600,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) and BEZ235 combination treatment resulted in enhanced tumor growth stabilization compared to single agent in patient-derived xenograft models of colorectal cancer harboring KRAS G12V, PIK3CA Q546K and TP53 R282W (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26375,
+                "profileName": "KRAS G12V PIK3CA Q546K TP53 R282W"
+            },
+            "therapy": {
+                "id": 1420,
+                "therapyName": "BEZ235 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4540,
+            "profileName": "TP53 R282W",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5344,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R282W"
+                },
+                {
+                    "id": 5343,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 R282W"
+                }
+            ]
+        },
+        {
+            "id": 26375,
+            "profileName": "KRAS G12V PIK3CA Q546K TP53 R282W",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95516,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7673776G>A",
+            "cDna": "c.844C>T",
+            "protein": "p.R282W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95518,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7673776G>A",
+            "cDna": "c.844C>T",
+            "protein": "p.R282W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95517,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7673776G>A",
+            "cDna": "c.844C>T",
+            "protein": "p.R282W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95519,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7673776G>A",
+            "cDna": "c.844C>T",
+            "protein": "p.R282W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "id": 23073,
+    "fullName": "PTEN H93D",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PTEN H93D lies within the phosphatase tensin-type domain of the Pten protein (UniProt.org). H93D is predicted to confer a loss of function to the Pten protein as demonstrated by loss of phosphatase activity in yeast (PMID: 21828076).",
+            "references": [
+                {
+                    "id": 2303,
+                    "pubMedId": 21828076,
+                    "title": "A comprehensive functional analysis of PTEN mutations: implications in tumor- and autism-related syndromes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21828076"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5728,
+        "geneSymbol": "PTEN",
+        "terms": [
+            "PTEN",
+            "10q23del",
+            "BZS",
+            "CWS1",
+            "DEC",
+            "GLM2",
+            "MHAM",
+            "MMAC1",
+            "PTEN1",
+            "PTENbeta",
+            "TEP1"
+        ]
+    },
+    "variant": "H93D",
+    "createDate": "06/09/2016",
+    "updateDate": "09/09/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 169387,
+        "transcript": "NM_000314",
+        "gDna": "chr10:g.87933036C>G",
+        "cDna": "c.277C>G",
+        "protein": "p.H93D",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7083,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a melanoma patient harboring a BRAF V600 mutation and PTEN H93D treated with Zelboraf (vemurafenib) for 66 weeks demonstrated a partial response (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24401,
+                "profileName": "BRAF V600X PTEN H93D"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23753,
+            "profileName": "PTEN H93D",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 13322,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PTEN H93D"
+                },
+                {
+                    "id": 13319,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PTEN H93D"
+                },
+                {
+                    "id": 13320,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PTEN H93D"
+                },
+                {
+                    "id": 13321,
+                    "name": "PIK3CB inhibitor",
+                    "profileName": "PTEN H93D"
+                },
+                {
+                    "id": 13318,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PTEN H93D"
+                }
+            ]
+        },
+        {
+            "id": 24401,
+            "profileName": "BRAF V600X PTEN H93D",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 169387,
+            "transcript": "NM_000314",
+            "gDna": "chr10:g.87933036C>G",
+            "cDna": "c.277C>G",
+            "protein": "p.H93D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 169388,
+            "transcript": "NM_001304717",
+            "gDna": "chr10:g.87864227C>G",
+            "cDna": "c.277C>G",
+            "protein": "p.H93D",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

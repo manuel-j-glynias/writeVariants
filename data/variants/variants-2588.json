@@ -1,0 +1,160 @@
+{
+    "id": 2588,
+    "fullName": "CBFB - MYH11",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "CBFB-MYH11 results from the fusion of CBFB and MYH11, resulting in repression of core binding factor function, and works synergistically with other genes to induce leukemogenesis (PMID: 15044690). CBFB-MYH11 has been identified in acute myeloid leukemia (PMID: 20164853).",
+            "references": [
+                {
+                    "id": 9831,
+                    "pubMedId": 15044690,
+                    "title": "Identification of genes that synergize with Cbfb-MYH11 in the pathogenesis of acute myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15044690"
+                },
+                {
+                    "id": 16413,
+                    "pubMedId": 20164853,
+                    "title": "AML with CBFB-MYH11 rearrangement demonstrate RAS pathway alterations in 92% of all cases including a high frequency of NF1 deletions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20164853"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 865,
+        "geneSymbol": "CBFB",
+        "terms": [
+            "CBFB",
+            "PEBP2B"
+        ]
+    },
+    "variant": "CBFB - MYH11",
+    "createDate": "11/18/2014",
+    "updateDate": "10/08/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 4629,
+                "geneSymbol": "MYH11",
+                "terms": [
+                    "MYH11",
+                    "AAT4",
+                    "FAA4",
+                    "SMHC",
+                    "SMMHC"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 2457,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AI-10-49 induced apoptosis and prevented colony formation of human leukemia cells harboring the CBFB-MYH11 fusion (PMID: 25678665).",
+            "molecularProfile": {
+                "id": 2435,
+                "profileName": "CBFB - MYH11"
+            },
+            "therapy": {
+                "id": 2859,
+                "therapyName": "AI-10-49",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3100,
+                    "pubMedId": 25678665,
+                    "title": "Chemical biology. A small-molecule inhibitor of the aberrant transcription factor CBF\u03b2-SMMHC delays leukemia in mice.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25678665"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18055,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Prognostic",
+            "efficacyEvidence": "CBFB-MYH11 fusions (inv(16)(p13.1q22) or t(16;16)(p13.1;q22)) are associated with a favorable prognosis in patients with non-APL acute myeloid leukemia (NCCN.org).",
+            "molecularProfile": {
+                "id": 2435,
+                "profileName": "CBFB - MYH11"
+            },
+            "therapy": {
+                "id": 1776,
+                "therapyName": "N/A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "not applicable",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 1386,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, acute myeloid leukemia patients harboring CBFB-MYH11 fusions resulting from a t(16;16)(p13;q22) translocation demonstrated a complete remission rate of 100% (6/6), and patients patients harboring CBFB-MYH11 resulting from inv(16)(p13q22) demonstrated a complete remission rate of 93% (51/61) following treatment with a chemotherapy regimen that included high-dose Cytosar-U (cytarabine) and Fludara (fludarabine) (PMID: 22228403).",
+            "molecularProfile": {
+                "id": 2435,
+                "profileName": "CBFB - MYH11"
+            },
+            "therapy": {
+                "id": 2294,
+                "therapyName": "Cytarabine + Fludarabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1126,
+                    "pubMedId": 22228403,
+                    "title": "Characteristics of translocation (16;16)(p13;q22) acute myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22228403"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2435,
+            "profileName": "CBFB - MYH11",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

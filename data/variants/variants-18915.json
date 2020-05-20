@@ -1,0 +1,216 @@
+{
+    "id": 18915,
+    "fullName": "FLT3 D835G",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 D835G lies within the activation loop of the protein kinase domain of the Flt3 protein (UniProt.org, PMID: 11290608). D835G results in autophosphorylation of Flt3 in one study (PMID: 28077790) and therefore, is predicted to lead to a gain of Flt3 protein function.",
+            "references": [
+                {
+                    "id": 2011,
+                    "pubMedId": 11290608,
+                    "title": "Activating mutation of D835 within the activation loop of FLT3 in human hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11290608"
+                },
+                {
+                    "id": 12457,
+                    "pubMedId": 28077790,
+                    "title": "FLT3 activating mutations display differential sensitivity to multiple tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28077790"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "D835G",
+    "createDate": "02/29/2016",
+    "updateDate": "10/05/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 144448,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018504T>C",
+        "cDna": "c.2504A>G",
+        "protein": "p.D835G",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7427,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 induced apoptosis in blast samples derived from acute myeloid leukemia patients harboring FLT3 D835G in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 19290,
+                "profileName": "FLT3 D835G"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6458,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines over expressing FLT3 D835G in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 19290,
+                "profileName": "FLT3 D835G"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4811,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing FLT3-ITD along with FLT3 D835G were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19291,
+                "profileName": "FLT3 exon 14 ins FLT3 D835G"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4812,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a compound FLT3-ITD/F691L/D835G mutation were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19292,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 D835G"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 19290,
+            "profileName": "FLT3 D835G",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19106,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 D835G"
+                }
+            ]
+        },
+        {
+            "id": 19291,
+            "profileName": "FLT3 exon 14 ins FLT3 D835G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19292,
+            "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 D835G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144448,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018504T>C",
+            "cDna": "c.2504A>G",
+            "protein": "p.D835G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "id": 28339,
+    "fullName": "EGFR loss",
+    "impact": "unknown",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR loss indicates loss of the EGFR gene, mRNA, and protein.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "loss",
+    "createDate": "07/06/2018",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14386,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFR-deficient lung adenocarcinoma cells harboring KRAS G12S did not respond to treatment with Iressa (gefitinib) in culture and in cell line xenograft models (PMID: 29925635).",
+            "molecularProfile": {
+                "id": 29994,
+                "profileName": "EGFR loss KRAS G12S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11625,
+                    "pubMedId": 29925635,
+                    "title": "Afatinib restrains K-RAS-driven lung tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29925635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14385,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFR-deficient lung adenocarcinoma cells harboring KRAS G12S were sensitive to treatment with Gilotrif (afatinib), demonstrating decreased cell proliferation and inhibition of Erbb2 (Her2) and Erbb3 (Her3) in culture, and blocked tumor growth in cell line xenograft models (PMID: 29925635).",
+            "molecularProfile": {
+                "id": 29994,
+                "profileName": "EGFR loss KRAS G12S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11625,
+                    "pubMedId": 29925635,
+                    "title": "Afatinib restrains K-RAS-driven lung tumorigenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29925635"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29993,
+            "profileName": "EGFR loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29994,
+            "profileName": "EGFR loss KRAS G12S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

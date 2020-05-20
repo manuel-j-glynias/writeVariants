@@ -1,0 +1,315 @@
+{
+    "id": 25442,
+    "fullName": "BRCA1 E23Vfs*17",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRCA1 E23Vfs*17 (also referred to as BRCA1 185delAG) indicates a shift in the reading frame starting at amino acid 23 and terminating 17 residues downstream causing a premature truncation of the 1863 amino acid Brca1 protein (UniProt.org). E23Vfs*17 confers a loss of function to the Brca1 protein as indicated by embryonic lethality in homozygous transgenic mouse models and tumorigenesis in heterozygous transgenic mouse models (PMID: 27454287).",
+            "references": [
+                {
+                    "id": 6707,
+                    "pubMedId": 27454287,
+                    "title": "BRCA1185delAG tumors may acquire therapy resistance through expression of RING-less BRCA1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27454287"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 672,
+        "geneSymbol": "BRCA1",
+        "terms": [
+            "BRCA1",
+            "BRCAI",
+            "BRCC1",
+            "BROVCA1",
+            "FANCS",
+            "IRIS",
+            "PNCA4",
+            "PPP1R53",
+            "PSCP",
+            "RNF53"
+        ]
+    },
+    "variant": "E23Vfs*17",
+    "createDate": "10/05/2016",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 155621,
+        "transcript": "NM_007294",
+        "gDna": "chr17:g.43124030_43124031delCT",
+        "cDna": "c.68_69delAG",
+        "protein": "p.E23Vfs*17",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8823,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast invasive ductal carcinoma cells harboring BRCA1 E23Vfs*17 (also referred to as BRCA1 185delAG) acquired resistance to Platinol (cisplatin) both in culture and in cell line xenograft models through the expression of a RING-less Brca1 protein utilizing an in-frame translation start site downstream of the mutation (PMID: 27454289).",
+            "molecularProfile": {
+                "id": 26390,
+                "profileName": "BRCA1 E23Vfs*17"
+            },
+            "therapy": {
+                "id": 700,
+                "therapyName": "Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3008,
+                "name": "invasive ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6763,
+                    "pubMedId": 27454289,
+                    "title": "RING domain-deficient BRCA1 promotes PARP inhibitor and platinum resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27454289"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8665,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells harboring BRCA1 E23Vfs*17 (referred to as BRCA1 185delAG) demonstrated reduced sensitivity, developed resistance to Lynparza (olaparib) in culture and in patient-derived xenograft models due to the expression of a RING-less form of Brca1 (PMID: 27454287).",
+            "molecularProfile": {
+                "id": 26390,
+                "profileName": "BRCA1 E23Vfs*17"
+            },
+            "therapy": {
+                "id": 837,
+                "therapyName": "Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6707,
+                    "pubMedId": 27454287,
+                    "title": "BRCA1185delAG tumors may acquire therapy resistance through expression of RING-less BRCA1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27454287"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15876,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination of Lynparza (olaparib) and Dinaciclib (SCH 727965) resulted in prolonged stable disease in patient-derived xenograft (PDX) models of triple-receptor negative breast cancer harboring germline BRCA1 E23Vfs*17 (reported as 185delAG) that were resistance to Lynparza (olaparib) monotherapy (PMID: 27880910).",
+            "molecularProfile": {
+                "id": 26390,
+                "profileName": "BRCA1 E23Vfs*17"
+            },
+            "therapy": {
+                "id": 7794,
+                "therapyName": "Dinaciclib + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13882,
+                    "pubMedId": 27880910,
+                    "title": "CDK12 Inhibition Reverses De Novo and Acquired PARP Inhibitor Resistance in BRCA Wild-Type and Mutated Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27880910"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8822,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast invasive ductal carcinoma cells harboring BRCA1 E23Vfs*17 (also referred to as BRCA1 185delAG) acquired resistance to Rubraca (rucaparib) both in culture and in cell line xenograft models through the expression of a RING-less Brca1 protein utilizing an in-frame translation start site downstream of the mutation (PMID: 27454289).",
+            "molecularProfile": {
+                "id": 26390,
+                "profileName": "BRCA1 E23Vfs*17"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3008,
+                "name": "invasive ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6763,
+                    "pubMedId": 27454289,
+                    "title": "RING domain-deficient BRCA1 promotes PARP inhibitor and platinum resistance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27454289"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13099,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian cancer patient harboring BRCA1 E23Vfs*17 progressed while being treated with platinum-based chemotherapy, and via cell-free DNA testing was found to have acquired somatic reversion mutations, BRCA1 E29Sfs*2 and BRCA1 K38Sfs*12, which restored the open reading frame, resulting in wild-type BRCA1 protein function (PMID: 28765325).",
+            "molecularProfile": {
+                "id": 29007,
+                "profileName": "BRCA1 E23Vfs*17 BRCA1 E29Sfs*2 BRCA1 K38Sfs*12"
+            },
+            "therapy": {
+                "id": 1092,
+                "therapyName": "Carboplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10297,
+                    "pubMedId": 28765325,
+                    "title": "Diverse BRCA1 and BRCA2 Reversion Mutations in Circulating Cell-Free DNA of Therapy-Resistant Breast or Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13098,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, an ovarian cancer patient harboring BRCA1 E23Vfs*17 progressed while being treated with platinum-based chemotherapy, and via cell-free DNA testing was found to have acquired a somatic reversion mutation, BRCA1 T37Qfs*13, which restored the open reading frame, resulting in wild-type BRCA1 protein function (PMID: 28765325).",
+            "molecularProfile": {
+                "id": 29008,
+                "profileName": "BRCA1 E23Vfs*17 BRCA1 T37Qfs*13"
+            },
+            "therapy": {
+                "id": 1092,
+                "therapyName": "Carboplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 10297,
+                    "pubMedId": 28765325,
+                    "title": "Diverse BRCA1 and BRCA2 Reversion Mutations in Circulating Cell-Free DNA of Therapy-Resistant Breast or Ovarian Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26390,
+            "profileName": "BRCA1 E23Vfs*17",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17870,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "BRCA1 E23Vfs*17"
+                },
+                {
+                    "id": 17871,
+                    "name": "PARP-1 Inhibitor",
+                    "profileName": "BRCA1 E23Vfs*17"
+                }
+            ]
+        },
+        {
+            "id": 29007,
+            "profileName": "BRCA1 E23Vfs*17 BRCA1 E29Sfs*2 BRCA1 K38Sfs*12",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29008,
+            "profileName": "BRCA1 E23Vfs*17 BRCA1 T37Qfs*13",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 155622,
+            "transcript": "NM_007300",
+            "gDna": "chr17:g.43124030_43124031delCT",
+            "cDna": "c.68_69delAG",
+            "protein": "p.E23Vfs*17",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 155623,
+            "transcript": "NM_007299",
+            "gDna": "chr17:g.43124030_43124031delCT",
+            "cDna": "c.68_69delAG",
+            "protein": "p.E23Vfs*17",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 155624,
+            "transcript": "NM_007298",
+            "gDna": "chr17:g.43124030_43124031delCT",
+            "cDna": "c.68_69delAG",
+            "protein": "p.E23Vfs*17",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 155621,
+            "transcript": "NM_007294",
+            "gDna": "chr17:g.43124030_43124031delCT",
+            "cDna": "c.68_69delAG",
+            "protein": "p.E23Vfs*17",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

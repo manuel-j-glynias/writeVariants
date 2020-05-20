@@ -1,0 +1,147 @@
+{
+    "id": 23123,
+    "fullName": "BRAF G596V",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G596V lies within the protein kinase domain of the Braf protein (UniProt.org). G596V results in impaired Braf kinase activity and does not activate downstream MEK and ERK in cell culture (PMID: 16439621), but leads to activation of ERK in zebrafish models (PMID: 19376813), and is therefore predicted to lead to a loss of Braf protein function.",
+            "references": [
+                {
+                    "id": 5839,
+                    "pubMedId": 16439621,
+                    "title": "Germline mutations in genes within the MAPK pathway cause cardio-facio-cutaneous syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16439621"
+                },
+                {
+                    "id": 5856,
+                    "pubMedId": 19376813,
+                    "title": "Kinase-activating and kinase-impaired cardio-facio-cutaneous syndrome alleles have activity during zebrafish development and are sensitive to small molecule inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19376813"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G596V",
+    "createDate": "06/10/2016",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109156,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753348C>A",
+        "cDna": "c.1787G>T",
+        "protein": "p.G596V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12197,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LSN3074753 and Erbitux (cetuximab) worked synergistically, resulting in tumor regression in a patient-derived xenograft model of colorectal cancer harboring BRAF G596V and NRAS G13R (PMID: 28611205).",
+            "molecularProfile": {
+                "id": 28547,
+                "profileName": "BRAF G596V NRAS G13R"
+            },
+            "therapy": {
+                "id": 6338,
+                "therapyName": "Cetuximab + LSN3074753",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10143,
+                    "pubMedId": 28611205,
+                    "title": "Mouse PDX Trial Suggests Synergy of Concurrent Inhibition of RAF and EGFR in Colorectal Cancer with BRAF or KRAS Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28611205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23800,
+            "profileName": "BRAF G596V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14601,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G596V"
+                },
+                {
+                    "id": 14600,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G596V"
+                },
+                {
+                    "id": 14599,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G596V"
+                },
+                {
+                    "id": 14602,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G596V"
+                }
+            ]
+        },
+        {
+            "id": 28547,
+            "profileName": "BRAF G596V NRAS G13R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109156,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753348C>A",
+            "cDna": "c.1787G>T",
+            "protein": "p.G596V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109155,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753348C>A",
+            "cDna": "c.1787G>T",
+            "protein": "p.G596V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

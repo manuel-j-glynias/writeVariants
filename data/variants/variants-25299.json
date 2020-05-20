@@ -1,0 +1,121 @@
+{
+    "id": 25299,
+    "fullName": "SUFU dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "SUFU dec exp indicates decreased expression of the Sufu protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 51684,
+        "geneSymbol": "SUFU",
+        "terms": [
+            "SUFU",
+            "JBTS32",
+            "PRO1280",
+            "SUFUH",
+            "SUFUXL"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "08/31/2016",
+    "updateDate": "07/21/2017",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8139,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice with decreased Sufu expression through shRNA knockdown were resistant to Odomzo (sonidegib) in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26159,
+                "profileName": "PTCH1 inact mut SUFU dec exp"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8137,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Trisenox (arsenic trioxide) inhibited survival of tumor cells derived from spontaneous medulloblastoma of heterozygous PTCH1 knockout mice with decreased Sufu expression through shRNA knockdown in culture (PMID: 26130651).",
+            "molecularProfile": {
+                "id": 26159,
+                "profileName": "PTCH1 inact mut SUFU dec exp"
+            },
+            "therapy": {
+                "id": 640,
+                "therapyName": "Arsenic trioxide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50902,
+                "name": "medulloblastoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6547,
+                    "pubMedId": 26130651,
+                    "title": "RAS/MAPK Activation Drives Resistance to Smo Inhibition, Metastasis, and Tumor Evolution in Shh Pathway-Dependent Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26130651"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26158,
+            "profileName": "SUFU dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26159,
+            "profileName": "PTCH1 inact mut SUFU dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

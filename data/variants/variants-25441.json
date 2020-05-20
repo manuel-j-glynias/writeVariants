@@ -1,0 +1,144 @@
+{
+    "id": 25441,
+    "fullName": "TP53 T118Qfs*5",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 T118Qfs*5 indicates a shift in the reading frame starting at amino acid 118 and terminating 5 residues downstream causing a premature truncation of the 393 amino acid Tp53 protein (UniProt.org). Due to the disruption of the DNA binding domain and the loss of the oligomerization domain (PMID: 21561095), T118Qfs*5 is predicted to lead to a loss of Tp53 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2155,
+                    "pubMedId": 21561095,
+                    "title": "Structural effects of the L145Q, V157F, and R282W cancer-associated mutations in the p53 DNA-binding core domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21561095"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "T118Qfs*5",
+    "createDate": "10/04/2016",
+    "updateDate": "05/15/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 95738,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7676020delC",
+        "cDna": "c.351delG",
+        "protein": "p.T118Qfs*5",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8566,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 synergistically inhibited Erk and PI3K signaling and proliferation, but did not induce apoptosis in colorectal cancer cells harboring KRAS Q61L, PIK3CA E542K, and TP53 T118Qfs*5 in culture (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26412,
+                "profileName": "KRAS Q61L PIK3CA E542K TP53 T118Qfs*5"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26383,
+            "profileName": "TP53 T118Qfs*5",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10636,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 T118Qfs*5"
+                }
+            ]
+        },
+        {
+            "id": 26412,
+            "profileName": "KRAS Q61L PIK3CA E542K TP53 T118Qfs*5",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95739,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7676020delC",
+            "cDna": "c.351delG",
+            "protein": "p.T118Qfs*5",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95738,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7676020delC",
+            "cDna": "c.351delG",
+            "protein": "p.T118Qfs*5",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95737,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7676020delC",
+            "cDna": "c.351delG",
+            "protein": "p.T118Qfs*5",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95740,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7676020delC",
+            "cDna": "c.351delG",
+            "protein": "p.T118Qfs*5",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

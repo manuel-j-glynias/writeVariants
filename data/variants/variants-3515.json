@@ -1,0 +1,227 @@
+{
+    "id": 3515,
+    "fullName": "BRAF G466A",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G466A (also reported as G465A) lies within the protein kinase domain of the Braf protein (UniProt.org). The functional effect of G466A (also reported as G465A) on Braf is unclear as it has been characterized both as having intermediate Braf kinase activity (PMID: 15035987) and low Braf kinase activity (PMID: 28783719), leads to Ras-dependent activation of downstream Erk in cell culture (PMID: 28783719), and in one of two cell lines increased cell proliferation and cell viability compared to wild-type Braf (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 146,
+                    "pubMedId": 15035987,
+                    "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15035987"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G466A",
+    "createDate": "03/05/2015",
+    "updateDate": "03/28/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 109124,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781611C>G",
+        "cDna": "c.1397G>C",
+        "protein": "p.G466A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20148,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment did not result in response in the cohort of 15 non-small cell lung cancer patients with non-V600 BRAF mutations, which included 1 patient harboring BRAF G466A, and enrollment in this cohort was discontinued (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 3322,
+                "profileName": "BRAF G466A"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11660,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Capmatinib (INC280) inhibited tumor growth and reduced ERK signaling in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11661,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Mekinist (trametinib) inhibited tumor growth and reduced ERK signaling in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11662,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Mekinist (trametinib) and Capmatinib (INC280) induced tumor regression in a patient-derived xenograft (PDX) model derived from the ovarian metastasis of a patient with collecting duct carcinoma, which harbored BRAF D594N and BRAF G466A and had high levels of MET and EGFR expression (PMID: 28783719).",
+            "molecularProfile": {
+                "id": 28180,
+                "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp"
+            },
+            "therapy": {
+                "id": 6103,
+                "therapyName": "Capmatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4464,
+                "name": "collecting duct carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3322,
+            "profileName": "BRAF G466A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28180,
+            "profileName": "BRAF G466A BRAF D594N EGFR over exp MET over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109123,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781611C>G",
+            "cDna": "c.1397G>C",
+            "protein": "p.G466A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109124,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781611C>G",
+            "cDna": "c.1397G>C",
+            "protein": "p.G466A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

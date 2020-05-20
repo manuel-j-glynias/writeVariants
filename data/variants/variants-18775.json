@@ -1,0 +1,296 @@
+{
+    "id": 18775,
+    "fullName": "FLT3 Y842H",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 Y842H lies within the protein kinase domain of the Flt3 protein (UniProt.org). Y842H results in increased phosphorylation of Flt3, activation of Stat5 and Mapk, and transformation of cultured cells (PMID: 14604974), and is associated with acquired resistance in the context of FLT3-ITD (PMID: 25847190, PMID: 22504184, PMID: 29187377).",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11568,
+                    "pubMedId": 14604974,
+                    "title": "Mutations in the tyrosine kinase domain of FLT3 define a new molecular mechanism of acquired drug resistance to PTK inhibitors in FLT3-ITD-transformed hematopoietic cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14604974"
+                },
+                {
+                    "id": 11567,
+                    "pubMedId": 29187377,
+                    "title": "A novel irreversible FLT3 inhibitor, FF-10101, shows excellent efficacy against AML cells with FLT3 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29187377"
+                },
+                {
+                    "id": 11566,
+                    "pubMedId": 22504184,
+                    "title": "Validation of ITD mutations in FLT3 as a therapeutic target in human acute myeloid leukaemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22504184"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "Y842H",
+    "createDate": "02/28/2016",
+    "updateDate": "10/05/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 144630,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018484A>G",
+        "cDna": "c.2524T>C",
+        "protein": "p.Y842H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9281,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing FLT3 ITD and Y842H demonstrated reduced sensitivity to Nexavar (sorafenib) in culture (PMID: 23392356).",
+            "molecularProfile": {
+                "id": 19135,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842H"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7054,
+                    "pubMedId": 23392356,
+                    "title": "The secondary FLT3-ITD F691L mutation induces resistance to AC220 in FLT3-ITD+ AML but retains in vitro sensitivity to PKC412 and Sunitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23392356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9436,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRX-2843 inhibited Flt3 signaling, resulted in growth inhibition in Quizartinib (AC220)-resistant transformed cells over expressing both FLT3 internal tandem duplication (ITD) and Y842H in culture (PMID: 27158668).",
+            "molecularProfile": {
+                "id": 19135,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842H"
+            },
+            "therapy": {
+                "id": 5016,
+                "therapyName": "MRX-2843",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7187,
+                    "pubMedId": 27158668,
+                    "title": "The MERTK/FLT3 inhibitor MRX-2843 overcomes resistance-conferring FLT3 mutations in acute myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27158668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4796,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing FLT3-ITD with FLT3 Y842H were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19135,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842H"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9283,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing FLT3 ITD and Y842H demonstrated reduced sensitivity to Quizartinib (AC220) in culture (PMID: 23392356).",
+            "molecularProfile": {
+                "id": 19135,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842H"
+            },
+            "therapy": {
+                "id": 882,
+                "therapyName": "Quizartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7054,
+                    "pubMedId": 23392356,
+                    "title": "The secondary FLT3-ITD F691L mutation induces resistance to AC220 in FLT3-ITD+ AML but retains in vitro sensitivity to PKC412 and Sunitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23392356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14251,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FF-10101, as compared to Quizartinib, inhibited Flt3 autophosphorylation and cell proliferation of transformed 32Dcl3 murine myeloid cells expressing a human FLT3-ITD/Y842H compound mutation (PMID: 29187377).",
+            "molecularProfile": {
+                "id": 19135,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842H"
+            },
+            "therapy": {
+                "id": 7085,
+                "therapyName": "FF-10101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11567,
+                    "pubMedId": 29187377,
+                    "title": "A novel irreversible FLT3 inhibitor, FF-10101, shows excellent efficacy against AML cells with FLT3 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29187377"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4839,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a compound FLT3-ITD/F691L/Y842H mutation were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19287,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 Y842H"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 19134,
+            "profileName": "FLT3 Y842H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 18810,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 Y842H"
+                }
+            ]
+        },
+        {
+            "id": 19135,
+            "profileName": "FLT3 exon 14 ins FLT3 Y842H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19287,
+            "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 Y842H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144630,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018484A>G",
+            "cDna": "c.2524T>C",
+            "protein": "p.Y842H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

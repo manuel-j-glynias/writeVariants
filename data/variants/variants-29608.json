@@ -1,0 +1,252 @@
+{
+    "id": 29608,
+    "fullName": "BRAF V47_D380del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF V47_D380del results in the deletion of 334 amino acids of the Braf protein from amino acids 47 to 380 (UniProt.org). V47_D380del (reported as internal deletion of exons 2-8) has been associated with resistance to Mek inhibitors in a patient (PMID: 29171936), and is predicted to lead to a gain of Braf protein function due to the deletion of the CR1 autoinhibitory domain and preservation of the protein kinase domain (PMID: 23890088, PMID: 22113612).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 14626,
+                    "pubMedId": 22113612,
+                    "title": "RAF inhibitor resistance is mediated by dimerization of aberrantly spliced BRAF(V600E).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22113612"
+                },
+                {
+                    "id": 14627,
+                    "pubMedId": 29171936,
+                    "title": "BRAF internal deletions and resistance to BRAF/MEK inhibitor therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29171936"
+                },
+                {
+                    "id": 3413,
+                    "pubMedId": 23890088,
+                    "title": "Recurrent BRAF kinase fusions in melanocytic tumors offer an opportunity for targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23890088"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "V47_D380del",
+    "createDate": "03/28/2019",
+    "updateDate": "03/28/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 178974,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140794308_140850212del55905",
+        "cDna": "c.141_1140+2del55905",
+        "protein": "p.V47_D380del334",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16564,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a melanoma patient developed progressive disease after initial response to Tafinlar (dabrafinib) and Mekinist (trametinib) combination treatment, BRAF V47_D380del was identified as an acquired mutation in the progressing lesion along with mutations presented in both primary and progressing lesions, including BRAF V600E, PTEN G129E, CDKN2A/B loss, and TERT promoter mutations (PMID: 29171936).",
+            "molecularProfile": {
+                "id": 31680,
+                "profileName": "BRAF V47_D380del"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14627,
+                    "pubMedId": 29171936,
+                    "title": "BRAF internal deletions and resistance to BRAF/MEK inhibitor therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29171936"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21036,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of BRAF V47_D380del in a melanoma cell line harboring BRAF V600E conferred resistance to Zelboraf (vemurafenib) in culture (PMID: 29605720).",
+            "molecularProfile": {
+                "id": 31704,
+                "profileName": "BRAF V47_D380del BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18261,
+                    "pubMedId": 29605720,
+                    "title": "Concomitant BCORL1 and BRAF Mutations in Vemurafenib-Resistant Melanoma Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29605720"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16586,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with BRAF V600E colorectal cancer developed progressive disease after a partial response lasting 24 weeks to Alpelisib (BYL719), Erbitux (cetuximab), and Braftovi (encorafenib) combination treatment, BRAF V47_D380del (reported as deletion of exons 2-8) was identified as an acquired mutation in peritoneal metastasis at the time of progression (PMID: 28951457).",
+            "molecularProfile": {
+                "id": 31704,
+                "profileName": "BRAF V47_D380del BRAF V600E"
+            },
+            "therapy": {
+                "id": 1917,
+                "therapyName": "Alpelisib + Cetuximab + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14634,
+                    "pubMedId": 28951457,
+                    "title": "Mechanisms of Acquired Resistance to BRAF V600E Inhibition in Colon Cancers Converge on RAF Dimerization and Are Sensitive to Its Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28951457"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21035,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a melanoma cell line harboring BRAF V600E was found to have BRAF V47_D380del and BCORL1 Q1076H mutations after acquiring resistance to Zelboraf (vemurafenib), and expression of BRAF V47_D380del and BCORL1 Q1076H in a BRAF V600E-positive melanoma cell line resulted in decreased sensitivity to Zelboraf (vemurafenib) in culture (PMID: 29605720).",
+            "molecularProfile": {
+                "id": 35503,
+                "profileName": "BCORL1 Q1076H BRAF V47_D380del BRAF V600E"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18261,
+                    "pubMedId": 29605720,
+                    "title": "Concomitant BCORL1 and BRAF Mutations in Vemurafenib-Resistant Melanoma Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29605720"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31680,
+            "profileName": "BRAF V47_D380del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31704,
+            "profileName": "BRAF V47_D380del BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35503,
+            "profileName": "BCORL1 Q1076H BRAF V47_D380del BRAF V600E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 178973,
+            "transcript": "XM_017012558",
+            "gDna": "chr7:g.140794308_140850212del55905",
+            "cDna": "c.141_1140+2del55905",
+            "protein": "p.V47_D380del334",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 178974,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140794308_140850212del55905",
+            "cDna": "c.141_1140+2del55905",
+            "protein": "p.V47_D380del334",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 178972,
+            "transcript": "XM_017012559",
+            "gDna": "chr7:g.140794308_140850212del55905",
+            "cDna": "c.141_1140+2del55905",
+            "protein": "p.V47_D380del334",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 178971,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140794308_140850212del55905",
+            "cDna": "c.141_1140+2del55905",
+            "protein": "p.V47_D380del334",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

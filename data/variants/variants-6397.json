@@ -1,0 +1,123 @@
+{
+    "id": 6397,
+    "fullName": "SMO L412F",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "SMO L412F lies within transmembrane domain 5 in the Smo protein (UniProt.org). L412F is predicted to confer a gain of function to the Smo protein, as indicated by constitutive activation of Hedgehog (Hh) signaling in cell culture and has been demonstrated to confer Hh pathway inhibitor resistance (PMID: 25759020).",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6608,
+        "geneSymbol": "SMO",
+        "terms": [
+            "SMO",
+            "CRJS",
+            "FZD11",
+            "Gx",
+            "SMOH"
+        ]
+    },
+    "variant": "L412F",
+    "createDate": "05/18/2015",
+    "updateDate": "09/23/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 123199,
+        "transcript": "NM_005631",
+        "gDna": "chr7:g.129206557C>T",
+        "cDna": "c.1234C>T",
+        "protein": "p.L412F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2196,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed cell line expressing SMO L412F demonstrated resistance to Erivedge (vismodegib) (PMID: 25759020).",
+            "molecularProfile": {
+                "id": 6247,
+                "profileName": "SMO L412F"
+            },
+            "therapy": {
+                "id": 956,
+                "therapyName": "Vismodegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2677,
+                    "pubMedId": 25759020,
+                    "title": "Smoothened variants explain the majority of drug resistance in basal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25759020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6247,
+            "profileName": "SMO L412F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 18446,
+                    "name": "SMO Inhibitor",
+                    "profileName": "SMO L412F"
+                },
+                {
+                    "id": 18445,
+                    "name": "GLI1/2 inhibitor",
+                    "profileName": "SMO L412F"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 123199,
+            "transcript": "NM_005631",
+            "gDna": "chr7:g.129206557C>T",
+            "cDna": "c.1234C>T",
+            "protein": "p.L412F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 123200,
+            "transcript": "XM_011516522",
+            "gDna": "chr7:g.129210520_129210522delCTGinsTTT",
+            "cDna": "c.1234_1236delCTGinsTTT",
+            "protein": "p.L412F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

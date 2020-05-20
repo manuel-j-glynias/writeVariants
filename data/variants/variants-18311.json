@@ -1,0 +1,174 @@
+{
+    "id": 18311,
+    "fullName": "FGFR4 P712T",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR4 P712T lies within the protein kinase domain of the Fgfr4 protein (UniProt.org). P712T confers a gain of function to the Fgfr4 protein, as indicated by increased activation of ERK signaling in cell culture (PMID: 23836671).",
+            "references": [
+                {
+                    "id": 1133,
+                    "pubMedId": 23836671,
+                    "title": "Targeted genetic dependency screen facilitates identification of actionable mutations in FGFR4, MAP3K9, and PAK5 in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23836671"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2264,
+        "geneSymbol": "FGFR4",
+        "terms": [
+            "FGFR4",
+            "CD334",
+            "JTK2",
+            "TKF"
+        ]
+    },
+    "variant": "P712T",
+    "createDate": "02/19/2016",
+    "updateDate": "02/19/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 164565,
+        "transcript": "NM_213647",
+        "gDna": "chr5:g.177096722C>A",
+        "cDna": "c.2134C>A",
+        "protein": "p.P712T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1389,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) reduced MEK pathway activation and promoted apoptosis of lung cancer cells harboring KRAS G12C and FGFR4 P712T mutations in culture (PMID: 23836671).",
+            "molecularProfile": {
+                "id": 18651,
+                "profileName": "FGFR4 P712T KRAS G12C"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1133,
+                    "pubMedId": 23836671,
+                    "title": "Targeted genetic dependency screen facilitates identification of actionable mutations in FGFR4, MAP3K9, and PAK5 in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23836671"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4624,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with LY2874455 resulted in decreased ERK pathway activation and reduced viability of non-small cell lung cancer (NSCLC) cells harboring FGFR4 P712T along with KRAS G12C in culture, and did not effect viability of NSCLC cells lacking FGFR4 activating mutations (PMID: 23836671).",
+            "molecularProfile": {
+                "id": 18651,
+                "profileName": "FGFR4 P712T KRAS G12C"
+            },
+            "therapy": {
+                "id": 2032,
+                "therapyName": "LY2874455",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1133,
+                    "pubMedId": 23836671,
+                    "title": "Targeted genetic dependency screen facilitates identification of actionable mutations in FGFR4, MAP3K9, and PAK5 in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23836671"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 18650,
+            "profileName": "FGFR4 P712T",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 9755,
+                    "name": "FGFR Inhibitor (Pan)",
+                    "profileName": "FGFR4 P712T"
+                },
+                {
+                    "id": 9753,
+                    "name": "STAT3 Inhibitor",
+                    "profileName": "FGFR4 P712T"
+                },
+                {
+                    "id": 9754,
+                    "name": "FGFR4 Inhibitor",
+                    "profileName": "FGFR4 P712T"
+                }
+            ]
+        },
+        {
+            "id": 18651,
+            "profileName": "FGFR4 P712T KRAS G12C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 164565,
+            "transcript": "NM_213647",
+            "gDna": "chr5:g.177096722C>A",
+            "cDna": "c.2134C>A",
+            "protein": "p.P712T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164567,
+            "transcript": "XM_005265838",
+            "gDna": "chr5:g.177096722C>A",
+            "cDna": "c.2134C>A",
+            "protein": "p.P712T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 164566,
+            "transcript": "NM_002011",
+            "gDna": "chr5:g.177096722C>A",
+            "cDna": "c.2134C>A",
+            "protein": "p.P712T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

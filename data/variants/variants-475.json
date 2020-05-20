@@ -1,0 +1,443 @@
+{
+    "id": 475,
+    "fullName": "EZH2 Y641N",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EZH2 Y641N lies within the SET domain of the Ezh2 protein (PMID: 24362326). Y641N confers a gain of function to the Ezh2 protein, as demonstrated by increased trimethylation of H3K27 in an in-vitro assay (PMID: 21078963), in B-cell lymphoma cells in culture (PMID: 21190999) and in breast cancer cell lines (PMID: 25253781).",
+            "references": [
+                {
+                    "id": 149,
+                    "pubMedId": 24362326,
+                    "title": "EZH2: biology, disease, and structure-based drug discovery.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24362326"
+                },
+                {
+                    "id": 2703,
+                    "pubMedId": 21078963,
+                    "title": "Coordinated activities of wild-type plus mutant EZH2 drive tumor-associated hypertrimethylation of lysine 27 on histone H3 (H3K27) in human B-cell lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21078963"
+                },
+                {
+                    "id": 505,
+                    "pubMedId": 21190999,
+                    "title": "Somatic mutations at EZH2 Y641 act dominantly through a mechanism of selectively altered PRC2 catalytic activity, to increase H3K27 trimethylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21190999"
+                },
+                {
+                    "id": 12214,
+                    "pubMedId": 25253781,
+                    "title": "A687V EZH2 is a driver of histone H3 lysine 27 (H3K27) hypertrimethylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25253781"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2146,
+        "geneSymbol": "EZH2",
+        "terms": [
+            "EZH2",
+            "ENX-1",
+            "ENX1",
+            "EZH2b",
+            "KMT6",
+            "KMT6A",
+            "WVS",
+            "WVS2"
+        ]
+    },
+    "variant": "Y641N",
+    "createDate": "05/02/2014",
+    "updateDate": "09/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 171528,
+        "transcript": "NM_001203247",
+        "gDna": "chr7:g.148811636A>T",
+        "cDna": "c.1921T>A",
+        "protein": "p.Y641N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6625,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DLBCL cells harboring EZH2 Y641N treated with the combination of ACY-957 and Adriamycin (doxorubicin) resulted in a greater sensitivity to cell death compared to treatment with either agent alone (PMID: 25605023).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 4187,
+                "therapyName": "ACY-957 + Doxorubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5689,
+                    "pubMedId": 25605023,
+                    "title": "HDAC1,2 inhibition impairs EZH2- and BBAP-mediated DNA repair to overcome chemoresistance in EZH2 gain-of-function mutant diffuse large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25605023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6563,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK126 alone did not alter cell-cycle progression in survival in a diffuse large B-cell lymphoma cell line harboring EZH2 Y641N in culture (PMID: 25605023).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 2925,
+                "therapyName": "GSK126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5689,
+                    "pubMedId": 25605023,
+                    "title": "HDAC1,2 inhibition impairs EZH2- and BBAP-mediated DNA repair to overcome chemoresistance in EZH2 gain-of-function mutant diffuse large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25605023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6558,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK126 enhanced the sensitivity of ACY-957 treatment in DLBCL cells harboring EZH2 Y641N in culture, resulting in increased cell death and elevated levels of H3K27ac (PMID: 25605023).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 4148,
+                "therapyName": "ACY-957 + GSK126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5689,
+                    "pubMedId": 25605023,
+                    "title": "HDAC1,2 inhibition impairs EZH2- and BBAP-mediated DNA repair to overcome chemoresistance in EZH2 gain-of-function mutant diffuse large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25605023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6551,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DLBCL cells harboring EZH2 Y641N demonstrated sensitivity to ACY-957 in culture, resulting in increased levels of H3K27ac and cell cycle arrest (PMID: 25605023).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 4144,
+                "therapyName": "ACY-957",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5689,
+                    "pubMedId": 25605023,
+                    "title": "HDAC1,2 inhibition impairs EZH2- and BBAP-mediated DNA repair to overcome chemoresistance in EZH2 gain-of-function mutant diffuse large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25605023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5614,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, GSK126 inhibited H3K27 trimethylation and reversed transcriptional silencing in human melanoma cells harboring EZH2 Y641N in culture (PMID: 26936398).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 2925,
+                "therapyName": "GSK126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5127,
+                    "pubMedId": 26936398,
+                    "title": "Somatic Copy Number Amplification and Hyperactivating Somatic Mutations of EZH2 Correlate With DNA Methylation and Drive Epigenetic Silencing of Genes Involved in Tumor Suppression and Immune Responses in Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26936398"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6560,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DZNeP enhanced the sensitivity of ACY-957 treatment in DLBCL cells harboring EZH2 Y641N in culture, resulting in increased cell death and elevated levels of H3K27ac (PMID: 25605023).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 4147,
+                "therapyName": "ACY-957 + DZNeP",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5689,
+                    "pubMedId": 25605023,
+                    "title": "HDAC1,2 inhibition impairs EZH2- and BBAP-mediated DNA repair to overcome chemoresistance in EZH2 gain-of-function mutant diffuse large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25605023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6554,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DLBCL cells harboring EZH2 Y641N demonstrated sensitivity to Zolinza (vorinostat) in culture, resulting in increased levels of H3K27ac and cell cycle arrest (PMID: 25605023).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 1077,
+                "therapyName": "Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5689,
+                    "pubMedId": 25605023,
+                    "title": "HDAC1,2 inhibition impairs EZH2- and BBAP-mediated DNA repair to overcome chemoresistance in EZH2 gain-of-function mutant diffuse large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25605023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1426,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, UNC1999 treatment reduced H3K27me3 levels, decreased proliferation, and increased cell death in diffuse large B-cell lymphoma cells harboring an EZH2 Y641N mutation in cell culture (PMID: 23614352).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 1757,
+                "therapyName": "UNC1999",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1266,
+                    "pubMedId": 23614352,
+                    "title": "An orally bioavailable chemical probe of the Lysine Methyltransferases EZH2 and EZH1.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23614352"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6565,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, DZNeP treatment resulted in an increase in the number of dead or sub-G1 cells and increased DNA damage in a diffuse large B-cell lymphoma cell line harboring EZH2 Y641N in culture (PMID: 25605023).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 2702,
+                "therapyName": "DZNeP",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5689,
+                    "pubMedId": 25605023,
+                    "title": "HDAC1,2 inhibition impairs EZH2- and BBAP-mediated DNA repair to overcome chemoresistance in EZH2 gain-of-function mutant diffuse large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25605023"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11145,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a diffuse large B-cell lymphoma cell line harboring EZH2 Y641N demonstrated sensitivity to EED226, resulting in inhibition of cell proliferation in culture and delayed tumor growth and tumor regression in a cell line xenograft model (PMID: 28135235).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 5886,
+                "therapyName": "EED226",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9115,
+                    "pubMedId": 28135235,
+                    "title": "An allosteric PRC2 inhibitor targeting the H3K27me3 binding pocket of EED.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28135235"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11151,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EED226 and EI1 synergistically inhibited cell proliferation in a diffuse large B-cell lymphoma cell line harboring EZH2 Y641N in culture (PMID: 28135235).",
+            "molecularProfile": {
+                "id": 672,
+                "profileName": "EZH2 Y641N"
+            },
+            "therapy": {
+                "id": 5887,
+                "therapyName": "EED226 + EI1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50745,
+                "name": "diffuse large B-cell lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9115,
+                    "pubMedId": 28135235,
+                    "title": "An allosteric PRC2 inhibitor targeting the H3K27me3 binding pocket of EED.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28135235"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 672,
+            "profileName": "EZH2 Y641N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4591,
+                    "name": "EZH2 inhibitor",
+                    "profileName": "EZH2 Y641N"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171528,
+            "transcript": "NM_001203247",
+            "gDna": "chr7:g.148811636A>T",
+            "cDna": "c.1921T>A",
+            "protein": "p.Y641N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171529,
+            "transcript": "XM_011515889",
+            "gDna": "chr7:g.148810375A>T",
+            "cDna": "c.1921T>A",
+            "protein": "p.Y641N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "id": 26359,
+    "fullName": "APC S1278*",
+    "impact": "nonsense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "APC S1278* results in a premature truncation of the Apc protein at amino acid 1278 of 2843 (UniProt.org). Due to the loss of the 20-amino acid repeats involved in Beta-catenin degradation (PMID: 28179481), S1278* is predicted to lead to a loss of Apc protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 324,
+        "geneSymbol": "APC",
+        "terms": [
+            "APC",
+            "BTPS2",
+            "DESMD",
+            "DP2",
+            "DP2.5",
+            "DP3",
+            "GS",
+            "PPP1R46"
+        ]
+    },
+    "variant": "S1278*",
+    "createDate": "04/18/2017",
+    "updateDate": "04/18/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 142637,
+        "transcript": "NM_000038",
+        "gDna": "chr5:g.112839427C>A",
+        "cDna": "c.3833C>A",
+        "protein": "p.S1278*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10554,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with IWR-1 decreased active beta-catenin levels and Tcf/LEF activity, and reduced growth of a colorectal cancer cell line harboring APC S1197* and APC S1278* in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 29840,
+                "profileName": "APC S1197* APC S1278*"
+            },
+            "therapy": {
+                "id": 2455,
+                "therapyName": "IWR-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10564,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, XAV939 inhibited growth of a colorectal cancer cell line harboring APC S1197* and APC S1278* in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 29840,
+                "profileName": "APC S1197* APC S1278*"
+            },
+            "therapy": {
+                "id": 1732,
+                "therapyName": "XAV939",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10546,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with G007-LK decreased active beta-catenin levels and Tcf/LEF activity, and reduced growth of a colorectal cancer cell line harboring APC S1197* and APC S1278* in culture (PMID: 28179481).",
+            "molecularProfile": {
+                "id": 29840,
+                "profileName": "APC S1197* APC S1278*"
+            },
+            "therapy": {
+                "id": 2991,
+                "therapyName": "G007-LK",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8618,
+                    "pubMedId": 28179481,
+                    "title": "APC Mutations as a Potential Biomarker for Sensitivity to Tankyrase Inhibitors in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28179481"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27570,
+            "profileName": "APC S1278*",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 11205,
+                    "name": "CTNNB1 Inhibitor",
+                    "profileName": "APC S1278*"
+                },
+                {
+                    "id": 11206,
+                    "name": "Tankyrase Inhibitor",
+                    "profileName": "APC S1278*"
+                }
+            ]
+        },
+        {
+            "id": 29794,
+            "profileName": "APC S1215* APC S1278*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29840,
+            "profileName": "APC S1197* APC S1278*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 142637,
+            "transcript": "NM_000038",
+            "gDna": "chr5:g.112839427C>A",
+            "cDna": "c.3833C>A",
+            "protein": "p.S1278*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 142636,
+            "transcript": "NM_001127510",
+            "gDna": "chr5:g.112839427C>A",
+            "cDna": "c.3833C>A",
+            "protein": "p.S1278*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

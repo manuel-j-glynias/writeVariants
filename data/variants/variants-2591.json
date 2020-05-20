@@ -1,0 +1,240 @@
+{
+    "id": 2591,
+    "fullName": "BRAF K601N",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF K601N lies within the protein kinase domain of the Braf protein (UniProt.org). K601N confers a gain of function on Braf, as indicated by increased phosphorylation of MEK and ERK in cell in culture (PMID: 24434212) and induction of cell proliferation and cell viability in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1131,
+                    "pubMedId": 24434212,
+                    "title": "Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24434212"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "K601N",
+    "createDate": "11/18/2014",
+    "updateDate": "04/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109192,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753332T>G",
+        "cDna": "c.1803A>C",
+        "protein": "p.K601N",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20147,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment did not result in response in the cohort of 15 non-small cell lung cancer patients with non-V600 BRAF mutations, which included 2 patients harboring BRAF K601N, and enrollment in this cohort was discontinued (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 2437,
+                "profileName": "BRAF K601N"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9418,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF K601N (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 2437,
+                "profileName": "BRAF K601N"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12071,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hematological tumor cell line harboring BRAF K601N demonstrated sensitivity to LY3009120 in culture (PMID: 26732095).",
+            "molecularProfile": {
+                "id": 2437,
+                "profileName": "BRAF K601N"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4801,
+                    "pubMedId": 26732095,
+                    "title": "Oncogenic BRAF Deletions That Function as Homodimers and Are Sensitive to Inhibition by RAF Dimer Inhibitor LY3009120.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26732095"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21256,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, multiple myeloma cells harboring BRAF K601N and with decreased expression of CIC via knockdown demonstrated resistance to the combination therapy of Tafinlar (dabrafenib) and Mekinist (trametinib) in culture (PMID: 32043788).",
+            "molecularProfile": {
+                "id": 36035,
+                "profileName": "BRAF K601N CIC dec exp"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9538,
+                "name": "multiple myeloma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18309,
+                    "pubMedId": 32043788,
+                    "title": "CIC Mutation as a Molecular Mechanism of Acquired Resistance to Combined BRAF-MEK Inhibition in Extramedullary Multiple Myeloma with Central Nervous System Involvement.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32043788"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2437,
+            "profileName": "BRAF K601N",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14398,
+                    "name": "LY3009120",
+                    "profileName": "BRAF K601N"
+                },
+                {
+                    "id": 14395,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF K601N"
+                },
+                {
+                    "id": 14396,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF K601N"
+                },
+                {
+                    "id": 14397,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF K601N"
+                }
+            ]
+        },
+        {
+            "id": 36035,
+            "profileName": "BRAF K601N CIC dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109191,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753332T>G",
+            "cDna": "c.1803A>C",
+            "protein": "p.K601N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109192,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753332T>G",
+            "cDna": "c.1803A>C",
+            "protein": "p.K601N",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

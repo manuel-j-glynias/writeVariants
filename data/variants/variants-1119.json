@@ -1,0 +1,164 @@
+{
+    "id": 1119,
+    "fullName": "RAF1 S259A",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "RAF1 S259A lies within the CR2 domain of the Raf1 protein (PMID: 17603482). S259A confers a gain of function as demonstrated by the induction of anchorage-independent growth and increased MEK/ERK phosphorylation as compared to wild-type Raf1 in culture (PMID: 24569458).",
+            "references": [
+                {
+                    "id": 494,
+                    "pubMedId": 17603482,
+                    "title": "Germline gain-of-function mutations in RAF1 cause Noonan syndrome.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17603482"
+                },
+                {
+                    "id": 251,
+                    "pubMedId": 24569458,
+                    "title": "Oncogenic and sorafenib-sensitive ARAF mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569458"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5894,
+        "geneSymbol": "RAF1",
+        "terms": [
+            "RAF1",
+            "c-Raf",
+            "CMD1NN",
+            "CRAF",
+            "NS5",
+            "Raf-1"
+        ]
+    },
+    "variant": "S259A",
+    "createDate": "07/23/2014",
+    "updateDate": "07/22/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 161949,
+        "transcript": "NM_002880",
+        "gDna": "chr3:g.12604195A>C",
+        "cDna": "c.775T>G",
+        "protein": "p.S259A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2174,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed human lung epithelial cell line expressing RAF1 S259A demonstrated sensitivity to Nexavar (sorafenib) resulting in decreased phosphorylation of MEK in culture (PMID: 24569458).",
+            "molecularProfile": {
+                "id": 1158,
+                "profileName": "RAF1 S259A"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 251,
+                    "pubMedId": 24569458,
+                    "title": "Oncogenic and sorafenib-sensitive ARAF mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569458"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2175,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transformed human lung epithelial cell line expressing RAF1 S259A demonstrated sensitivity to Mekinist (trametinib) resulting in decreased phosphorylation of Erk in culture (PMID: 24569458).",
+            "molecularProfile": {
+                "id": 1158,
+                "profileName": "RAF1 S259A"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 251,
+                    "pubMedId": 24569458,
+                    "title": "Oncogenic and sorafenib-sensitive ARAF mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569458"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1158,
+            "profileName": "RAF1 S259A",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5173,
+                    "name": "Trametinib",
+                    "profileName": "RAF1 S259A"
+                },
+                {
+                    "id": 5172,
+                    "name": "RAF Inhibitor (Pan)",
+                    "profileName": "RAF1 S259A"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 161951,
+            "transcript": "XM_005265355",
+            "gDna": "chr3:g.12604195A>C",
+            "cDna": "c.775T>G",
+            "protein": "p.S259A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161949,
+            "transcript": "NM_002880",
+            "gDna": "chr3:g.12604195A>C",
+            "cDna": "c.775T>G",
+            "protein": "p.S259A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 161950,
+            "transcript": "XM_011533974",
+            "gDna": "chr3:g.12604195A>C",
+            "cDna": "c.775T>G",
+            "protein": "p.S259A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

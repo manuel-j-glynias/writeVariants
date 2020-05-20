@@ -1,0 +1,196 @@
+{
+    "id": 20883,
+    "fullName": "MAP2K1 E203K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 E203K lies within the protein kinase domain of the Map2k1 protein (UniProt.org). E203K results in constitutive phosphorylation of Erk, is transforming in cell culture (PMID: 22197931, PMID: 29483135), and increases autophosphorylation of Map2k1 (PMID: 29753091).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11332,
+                    "pubMedId": 29483135,
+                    "title": "Allele-Specific Mechanisms of Activation of MEK1 Mutants Determine Their Properties.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29483135"
+                },
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                },
+                {
+                    "id": 429,
+                    "pubMedId": 22197931,
+                    "title": "Exome sequencing identifies recurrent somatic MAP2K1 and MAP2K2 mutations in melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22197931"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "E203K",
+    "createDate": "04/11/2016",
+    "updateDate": "05/28/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 173353,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66481793G>A",
+        "cDna": "c.607G>A",
+        "protein": "p.E203K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12160,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 E203K demonstrated resistance to treatment with Mekinist (trametinib) in culture (PMID: 28655712).",
+            "molecularProfile": {
+                "id": 28497,
+                "profileName": "BRAF V600E MAP2K1 E203K"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10118,
+                    "pubMedId": 28655712,
+                    "title": "BRAF-inhibitor Associated MEK Mutations Increase RAF-Dependent and -Independent Enzymatic Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28655712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12161,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 E203K demonstrated resistance to treatment with Zelboraf (vemurafenib) in culture (PMID: 28655712).",
+            "molecularProfile": {
+                "id": 28497,
+                "profileName": "BRAF V600E MAP2K1 E203K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10118,
+                    "pubMedId": 28655712,
+                    "title": "BRAF-inhibitor Associated MEK Mutations Increase RAF-Dependent and -Independent Enzymatic Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28655712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12166,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BVD-523 (ulixertinib) inhibited proliferation of melanoma cells harboring BRAF V600E and expressing MAP2K1 E203K in culture (PMID: 28655712).",
+            "molecularProfile": {
+                "id": 28497,
+                "profileName": "BRAF V600E MAP2K1 E203K"
+            },
+            "therapy": {
+                "id": 997,
+                "therapyName": "Ulixertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10118,
+                    "pubMedId": 28655712,
+                    "title": "BRAF-inhibitor Associated MEK Mutations Increase RAF-Dependent and -Independent Enzymatic Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28655712"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 21389,
+            "profileName": "MAP2K1 E203K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 8529,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "MAP2K1 E203K"
+                },
+                {
+                    "id": 8528,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "MAP2K1 E203K"
+                }
+            ]
+        },
+        {
+            "id": 28497,
+            "profileName": "BRAF V600E MAP2K1 E203K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173353,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66481793G>A",
+            "cDna": "c.607G>A",
+            "protein": "p.E203K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

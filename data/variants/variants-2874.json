@@ -1,0 +1,114 @@
+{
+    "id": 2874,
+    "fullName": "KDR D717V",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KDR (VEGFR2) D717V lies within the Ig-like C2-type domain 7 of the Kdr (Vegfr2) protein (PMID: 19723655). D717V confers a gain of function to the Kdr (Vegfr2) protein as demonstrated by ligand-independent tyrosine autophosphorylation in cultured cells (PMID: 19723655), and tumor formation in mouse models (PMID: 29588308).",
+            "references": [
+                {
+                    "id": 12199,
+                    "pubMedId": 29588308,
+                    "title": "Exome Sequencing of Plasma DNA Portrays the Mutation Landscape of Colorectal Cancer and Discovers Mutated VEGFR2 Receptors as Modulators of Antiangiogenic Therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29588308"
+                },
+                {
+                    "id": 217,
+                    "pubMedId": 19723655,
+                    "title": "KDR activating mutations in human angiosarcomas are sensitive to specific kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19723655"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3791,
+        "geneSymbol": "KDR",
+        "terms": [
+            "KDR",
+            "CD309",
+            "FLK1",
+            "VEGFR",
+            "VEGFR2"
+        ]
+    },
+    "variant": "D717V",
+    "createDate": "12/31/2014",
+    "updateDate": "02/03/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102172,
+        "transcript": "NM_002253",
+        "gDna": "chr4:g.55102013T>A",
+        "cDna": "c.2150A>T",
+        "protein": "p.D717V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1573,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing KDR D717V were sensitive to Sutent (sunitinib) in culture (PMID: 19723655).",
+            "molecularProfile": {
+                "id": 2698,
+                "profileName": "KDR D717V"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 217,
+                    "pubMedId": 19723655,
+                    "title": "KDR activating mutations in human angiosarcomas are sensitive to specific kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19723655"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2698,
+            "profileName": "KDR D717V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 379,
+                    "name": "VEGFR Inhibitor (Pan)",
+                    "profileName": "KDR D717V"
+                },
+                {
+                    "id": 378,
+                    "name": "VEGFR2 Inhibitor",
+                    "profileName": "KDR D717V"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102172,
+            "transcript": "NM_002253",
+            "gDna": "chr4:g.55102013T>A",
+            "cDna": "c.2150A>T",
+            "protein": "p.D717V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

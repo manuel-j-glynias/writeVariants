@@ -1,0 +1,292 @@
+{
+    "id": 29223,
+    "fullName": "MSI negative",
+    "impact": "",
+    "proteinEffect": "",
+    "geneVariantDescriptions": [
+        {
+            "description": "MSI negative indicates a lack of microsatellite instability, and can also be referred to as microsatellite stable.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 999999992,
+        "geneSymbol": "MSI",
+        "terms": [
+            "MSI",
+            "Microsatellite Instability"
+        ]
+    },
+    "variant": "negative",
+    "createDate": "01/21/2019",
+    "updateDate": "01/21/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18985,
+            "approvalStatus": "FDA approved",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (Study 111/KEYNOTE-146) that supported FDA approval, Lenvima (lenvatinib) and Keytruda (pembrolizumab) combination treatment resulted in an objective response rate of 35.6% (16/45) in patients with endometrial carcinoma that was not MSI-H or dMMR (PMID: 30922731; NCT02501096).",
+            "molecularProfile": {
+                "id": 31171,
+                "profileName": "MSI negative"
+            },
+            "therapy": {
+                "id": 4782,
+                "therapyName": "Lenvatinib + Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2871,
+                "name": "endometrial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15508,
+                    "pubMedId": null,
+                    "title": "Keytruda (pembrolizumab) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+                },
+                {
+                    "id": 15578,
+                    "pubMedId": null,
+                    "title": "Lenvima (lenvatinib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206947"
+                },
+                {
+                    "id": 16267,
+                    "pubMedId": 30922731,
+                    "title": "Lenvatinib plus pembrolizumab in patients with advanced endometrial cancer: an interim analysis of a multicentre, open-label, single-arm, phase 2 trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30922731"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 17246,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, CBP501, Platinol (cisplatin), and Opdivo (nivolumab) triple combination therapy resulted in partial response in a patient with microsatellite stable (MSS) colorectal cancer (AACR Annual Meeting 2019, Abstract CT228; NCT03113188).",
+            "molecularProfile": {
+                "id": 31171,
+                "profileName": "MSI negative"
+            },
+            "therapy": {
+                "id": 6186,
+                "therapyName": "CBP501 + Cisplatin + Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15259,
+                    "pubMedId": null,
+                    "title": "Phase Ib clinical study of CBP501, cisplatin and nivolumab administered every 3 weeks in patients with advanced refractory tumors. Dose escalation cohort",
+                    "url": "https://www.abstractsonline.com/pp8/#!/6812/presentation/10041"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18733,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study (UCSD_PREDICT), immunotherapies including Keytruda (pembrolizumab), Opdivo (nivolumab), Yervoy (ipilimumab), and Tecentriq (atezolizumab) resulted in improved benefit rate (75%, 10/75 vs 38%, 17/54, OR=3.29, p=0.0734) and median progression-free survival (26.8 vs 4.3 mo, p=0.0173, HR=0.42) in microsatellite stable (MSS), TMB high (20 or more mut/Mb) patients with advanced solid tumors compared to MSS, TMB low to intermediate (0-19 mut/Mb) patients (PMID: 31405947; NCT02478931).",
+            "molecularProfile": {
+                "id": 33529,
+                "profileName": "MSI neg TMB high"
+            },
+            "therapy": {
+                "id": 779,
+                "therapyName": "Ipilimumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16404,
+                    "pubMedId": 31405947,
+                    "title": "Microsatellite-Stable Tumors with High Mutational Burden Benefit from Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405947"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18734,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study (UCSD_PREDICT), immunotherapies including Keytruda (pembrolizumab), Opdivo (nivolumab), Yervoy (ipilimumab), and Tecentriq (atezolizumab) resulted in improved benefit rate (75%, 10/75 vs 38%, 17/54, OR=3.29, p=0.0734) and median progression-free survival (26.8 vs 4.3 mo, p=0.0173, HR=0.42) in microsatellite stable (MSS), TMB high (20 or more mut/Mb) patients with advanced solid tumors compared to MSS, TMB low to intermediate (0-19 mut/Mb) patients (PMID: 31405947; NCT02478931).",
+            "molecularProfile": {
+                "id": 33529,
+                "profileName": "MSI neg TMB high"
+            },
+            "therapy": {
+                "id": 1312,
+                "therapyName": "Nivolumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16404,
+                    "pubMedId": 31405947,
+                    "title": "Microsatellite-Stable Tumors with High Mutational Burden Benefit from Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405947"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18735,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study (UCSD_PREDICT), immunotherapies including Keytruda (pembrolizumab), Opdivo (nivolumab), Yervoy (ipilimumab), and Tecentriq (atezolizumab) resulted in improved benefit rate (75%, 10/75 vs 38%, 17/54, OR=3.29, p=0.0734) and median progression-free survival (26.8 vs 4.3 mo, p=0.0173, HR=0.42) in microsatellite stable (MSS), TMB high (20 or more mut/Mb) patients with advanced solid tumors compared to MSS, TMB low to intermediate (0-19 mut/Mb) patients (PMID: 31405947; NCT02478931).",
+            "molecularProfile": {
+                "id": 33529,
+                "profileName": "MSI neg TMB high"
+            },
+            "therapy": {
+                "id": 1201,
+                "therapyName": "Atezolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16404,
+                    "pubMedId": 31405947,
+                    "title": "Microsatellite-Stable Tumors with High Mutational Burden Benefit from Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405947"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18732,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study (UCSD_PREDICT), immunotherapies including Keytruda (pembrolizumab), Opdivo (nivolumab), Yervoy (ipilimumab), and Tecentriq (atezolizumab) resulted in improved benefit rate (75%, 10/75 vs 38%, 17/54, OR=3.29, p=0.0734) and median progression-free survival (26.8 vs 4.3 mo, p=0.0173, HR=0.42) in microsatellite stable (MSS), TMB high (20 or more mut/Mb) patients with advanced solid tumors compared to MSS, TMB low to intermediate (0-19 mut/Mb) patients (PMID: 31405947; NCT02478931).",
+            "molecularProfile": {
+                "id": 33529,
+                "profileName": "MSI neg TMB high"
+            },
+            "therapy": {
+                "id": 1447,
+                "therapyName": "Pembrolizumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16404,
+                    "pubMedId": 31405947,
+                    "title": "Microsatellite-Stable Tumors with High Mutational Burden Benefit from Immunotherapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405947"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20560,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a colorectal cancer patient with stable microsatellite stability (MSI negative), B2M E64*, and B2M Y87* demonstrated progressive disease when treated with a PD-L1 antibody (PMID: 31008436).",
+            "molecularProfile": {
+                "id": 35232,
+                "profileName": "B2M E64* B2M Y87* MSI neg"
+            },
+            "therapy": {
+                "id": 5248,
+                "therapyName": "unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17915,
+                    "pubMedId": 31008436,
+                    "title": "Majority of B2M-Mutant and -Deficient Colorectal Carcinomas Achieve Clinical Benefit From Immune Checkpoint Inhibitor Therapy and Are Microsatellite Instability-High.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31008436"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31171,
+            "profileName": "MSI negative",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33529,
+            "profileName": "MSI neg TMB high",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35232,
+            "profileName": "B2M E64* B2M Y87* MSI neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

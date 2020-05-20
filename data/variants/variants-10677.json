@@ -1,0 +1,902 @@
+{
+    "id": 10677,
+    "fullName": "EZR - ROS1",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EZR-ROS1 results from the fusion of EZR and ROS1, and leads to cell transformation in culture and tumorigenesis in animal models (PMID: 22327623). EZR-ROS1 fusion has been identified in lung cancer (PMID: 25667280, PMID: 22327623).",
+            "references": [
+                {
+                    "id": 3475,
+                    "pubMedId": 22327623,
+                    "title": "RET, ROS1 and ALK fusions in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22327623"
+                },
+                {
+                    "id": 3397,
+                    "pubMedId": 25667280,
+                    "title": "Crizotinib therapy for advanced lung adenocarcinoma and a ROS1 rearrangement: results from the EUROS1 cohort.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25667280"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7430,
+        "geneSymbol": "EZR",
+        "terms": [
+            "EZR",
+            "CVIL",
+            "CVL",
+            "HEL-S-105",
+            "VIL2"
+        ]
+    },
+    "variant": "EZR - ROS1",
+    "createDate": "08/16/2015",
+    "updateDate": "03/01/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 6098,
+                "geneSymbol": "ROS1",
+                "terms": [
+                    "ROS1",
+                    "c-ros-1",
+                    "MCF3",
+                    "ROS"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 16876,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) demonstrated superior activity against transformed cells expressing EZR-ROS1 in culture compared to other inhibitors targeting Ros1 (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1319).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14995,
+                    "pubMedId": null,
+                    "title": "Repotrectinib, a new generation ROS1 inhibitor, is highly potent against fusion ROS1s and emerging resistance mutations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20630,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a patient-derived lung cancer cell line harboring EZR-ROS1 demonstrated sensitive to treatment with DS6051b in culture, demonstrating inhibition of cell growth (PMID: 31399568).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 4343,
+                "therapyName": "DS6051b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17972,
+                    "pubMedId": 31399568,
+                    "title": "The new-generation selective ROS1/NTRK inhibitor DS-6051b overcomes crizotinib resistant ROS1-G2032R mutation in preclinical models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31399568"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10495,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, combined analysis of 2 Phase I trials showed Rozlytrek (entrectinib) treatment to resulted in a partial response in a patient with non-small cell lung carcinoma harboring EZR-ROS1 fusion that was treatment-naive (PMID: 28183697).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8566,
+                    "pubMedId": 28183697,
+                    "title": "Safety and Antitumor Activity of the Multitargeted Pan-TRK, ROS1, and ALK Inhibitor Entrectinib: Combined Results from Two Phase I Trials (ALKA-372-001 and STARTRK-1).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28183697"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9640,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 demonstrated a minimal decrease in cell viability when treated with Xalkori (crizotinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9641,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 demonstrated a minimal decrease in cell viability when treated with Zykadia (ceritinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 4218,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 were insensitive to PD173074 treatment in culture (PMID: 24122810).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 2948,
+                "therapyName": "PD173074",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4202,
+                    "pubMedId": 24122810,
+                    "title": "Fibroblast growth factor receptor 2 tyrosine kinase fusions define a unique molecular subtype of cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24122810"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9642,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 demonstrated sensitivity to Lorlatinib (PF-06463922) in culture, resulting in decreased cell viability (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4217,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 were insensitive to BGJ398 treatment in culture (PMID: 24122810).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4202,
+                    "pubMedId": 24122810,
+                    "title": "Fibroblast growth factor receptor 2 tyrosine kinase fusions define a unique molecular subtype of cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24122810"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9637,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung adenocarcinoma harboring EZR-ROS1 demonstrated sensitivity to treatment with Xalkori (crizotinib), resulting in significant clinical efficacy lasted over 22 months (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9242,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing EZR-ROS1 in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 10681,
+                "profileName": "EZR - ROS1"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9638,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lung adenocarcinoma patient harboring EZR-ROS1 demonstrated resistance to Xalkori (crizotinib) due to the acquired secondary resistance mutations, ROS1 S1986Y and ROS1 S1986F (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26943,
+                "profileName": "EZR - ROS1 ROS1 S1986F ROS1 S1986Y"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9639,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lung adenocarcinoma patient harboring EZR-ROS1 and ROS1 mutations, S1986Y and S1986F, demonstrated sensitivity to treatment with Lorlatinib (PF-06463922) obtained through a Phase I/II trial, resulting in a partial response (PMID: 27401242; NCT01970865).",
+            "molecularProfile": {
+                "id": 26943,
+                "profileName": "EZR - ROS1 ROS1 S1986F ROS1 S1986Y"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9644,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 G2032R demonstrated resistance to Xalkori (crizotinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26944,
+                "profileName": "EZR - ROS1 ROS1 G2032R"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9643,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 G2032R demonstrated resistance to Lorlatinib (PF-06463922) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26944,
+                "profileName": "EZR - ROS1 ROS1 G2032R"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9645,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 G2032R demonstrated resistance to Zykadia (ceritinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26944,
+                "profileName": "EZR - ROS1 ROS1 G2032R"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16882,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) demonstrated superior activity against transformed cells expressing ROS1 G2032R in the context of EZR-ROS1 in culture compared to other inhibitors targeting Ros1 (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1319).",
+            "molecularProfile": {
+                "id": 26944,
+                "profileName": "EZR - ROS1 ROS1 G2032R"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14995,
+                    "pubMedId": null,
+                    "title": "Repotrectinib, a new generation ROS1 inhibitor, is highly potent against fusion ROS1s and emerging resistance mutations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9650,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 S1986Y demonstrated resistance to treatment with Xalkori (crizotinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26945,
+                "profileName": "EZR - ROS1 ROS1 S1986Y"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9651,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 S1986Y demonstrated resistance to treatment with Zykadia (ceritinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26945,
+                "profileName": "EZR - ROS1 ROS1 S1986Y"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9646,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 S1986Y demonstrated sensitivity to Lorlatinib (PF-06463922) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26945,
+                "profileName": "EZR - ROS1 ROS1 S1986Y"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9653,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 S1986F demonstrated resistance to treatment with Zykadia (ceritinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26946,
+                "profileName": "EZR - ROS1 ROS1 S1986F"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9654,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 S1986F were sensitive to Lorlatinib (PF-06463922) in culture, demonstrating inhibition of downstream signaling (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26946,
+                "profileName": "EZR - ROS1 ROS1 S1986F"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9652,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EZR-ROS1 and ROS1 S1986F demonstrated resistance to treatment with Xalkori (crizotinib) in culture (PMID: 27401242).",
+            "molecularProfile": {
+                "id": 26946,
+                "profileName": "EZR - ROS1 ROS1 S1986F"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7357,
+                    "pubMedId": 27401242,
+                    "title": "Crizotinib-Resistant ROS1 Mutations Reveal a Predictive Kinase Inhibitor Sensitivity Model for ROS1- and ALK-Rearranged Lung Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27401242"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16632,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with ROS1-rearranged non-small cell lung cancer acquired resistance to Xalkori (crizotinib) after initial response, sequencing of the pleural effusion identified EZR-ROS1 and RNPC3-ROS1 at the time of progression (PMID: 27370605).",
+            "molecularProfile": {
+                "id": 31717,
+                "profileName": "EZR - ROS1 RNPC3 - ROS1"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7489,
+                    "pubMedId": 27370605,
+                    "title": "Identification of Existing Drugs That Effectively Target NTRK1 and ROS1 Rearrangements in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27370605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9718,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with non-small cell lung cancer harboring EZR-ROS1 and RNPC3-ROS1 fusions that acquired resistance to Xalkori (crizotinib) demonstrated partial response to treatment with Cometriq (cabozantinib) prior to progressing after approximately 10 weeks (PMID: 27370605).",
+            "molecularProfile": {
+                "id": 31717,
+                "profileName": "EZR - ROS1 RNPC3 - ROS1"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7489,
+                    "pubMedId": 27370605,
+                    "title": "Identification of Existing Drugs That Effectively Target NTRK1 and ROS1 Rearrangements in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27370605"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16884,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Repotrectinib (TPX-0005) demonstrated superior activity against transformed cells expressing ROS1 L2026M in the context of EZR-ROS1 in culture compared to other inhibitors targeting Ros1 (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1319).",
+            "molecularProfile": {
+                "id": 32096,
+                "profileName": "EZR - ROS1 ROS1 L2026M"
+            },
+            "therapy": {
+                "id": 3950,
+                "therapyName": "Repotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14995,
+                    "pubMedId": null,
+                    "title": "Repotrectinib, a new generation ROS1 inhibitor, is highly potent against fusion ROS1s and emerging resistance mutations.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10681,
+            "profileName": "EZR - ROS1",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16890,
+                    "name": "ROS1 Inhibitor",
+                    "profileName": "EZR - ROS1"
+                }
+            ]
+        },
+        {
+            "id": 26943,
+            "profileName": "EZR - ROS1 ROS1 S1986F ROS1 S1986Y",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16948,
+                    "name": "Lorlatinib",
+                    "profileName": "EZR - ROS1 ROS1 S1986F ROS1 S1986Y"
+                }
+            ]
+        },
+        {
+            "id": 26944,
+            "profileName": "EZR - ROS1 ROS1 G2032R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26945,
+            "profileName": "EZR - ROS1 ROS1 S1986Y",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16949,
+                    "name": "Lorlatinib",
+                    "profileName": "EZR - ROS1 ROS1 S1986Y"
+                }
+            ]
+        },
+        {
+            "id": 26946,
+            "profileName": "EZR - ROS1 ROS1 S1986F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16968,
+                    "name": "Lorlatinib",
+                    "profileName": "EZR - ROS1 ROS1 S1986F"
+                }
+            ]
+        },
+        {
+            "id": 31717,
+            "profileName": "EZR - ROS1 RNPC3 - ROS1",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32096,
+            "profileName": "EZR - ROS1 ROS1 L2026M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

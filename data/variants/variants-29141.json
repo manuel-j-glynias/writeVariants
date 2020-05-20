@@ -1,0 +1,157 @@
+{
+    "id": 29141,
+    "fullName": "NF1 G2392*",
+    "impact": "nonsense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "NF1 G2392* results in a premature truncation of the Nf1 protein at amino acid 2392 of 2839 (UniProt.org). R2392* has been associated with resistance to lorlatinib in culture (PMID: 30322862), but has not been biochemically characterized and therefore, its effect on Nf1 protein function is unknown (PubMed, Sep 2019).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 13404,
+                    "pubMedId": 30322862,
+                    "title": "Lorlatinib Treatment Elicits Multiple On- and Off-Target Mechanisms of Resistance in ALK-Driven Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322862"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4763,
+        "geneSymbol": "NF1",
+        "terms": [
+            "NF1",
+            "NFNS",
+            "VRNF",
+            "WSS"
+        ]
+    },
+    "variant": "G2392*",
+    "createDate": "12/28/2018",
+    "updateDate": "09/30/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 184032,
+        "transcript": "NM_001042492",
+        "gDna": "chr17:g.31343120G>T",
+        "cDna": "c.7174G>T",
+        "protein": "p.G2392*",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15502,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) restored sensitivity to Lorbrena (lorlatinib) in neuroblastoma cells harboring ALK R1275Q and an acquired NF1 G2392* mutation in culture (PMID: 30322862).",
+            "molecularProfile": {
+                "id": 31076,
+                "profileName": "ALK R1275Q NF1 G2392*"
+            },
+            "therapy": {
+                "id": 7655,
+                "therapyName": "Lorlatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13404,
+                    "pubMedId": 30322862,
+                    "title": "Lorlatinib Treatment Elicits Multiple On- and Off-Target Mechanisms of Resistance in ALK-Driven Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15501,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NF1 G2392* was identified as a potential resistance mutation in a neuroblastoma cell line harboring ALK R1275Q that acquired resistance to Lorbrena (lorlatinib) in culture (PMID: 30322862).",
+            "molecularProfile": {
+                "id": 31076,
+                "profileName": "ALK R1275Q NF1 G2392*"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13404,
+                    "pubMedId": 30322862,
+                    "title": "Lorlatinib Treatment Elicits Multiple On- and Off-Target Mechanisms of Resistance in ALK-Driven Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322862"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31075,
+            "profileName": "NF1 G2392*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31076,
+            "profileName": "ALK R1275Q NF1 G2392*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 184033,
+            "transcript": "XM_005257983",
+            "gDna": "chr17:g.31343120G>T",
+            "cDna": "c.7174G>T",
+            "protein": "p.G2392*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 184032,
+            "transcript": "NM_001042492",
+            "gDna": "chr17:g.31343120G>T",
+            "cDna": "c.7174G>T",
+            "protein": "p.G2392*",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "id": 1896,
+    "fullName": "KRAS Q61L",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KRAS Q61L is a hotspot mutation that lies within a GTP-binding region of the Kras protein (UniProt.org). Q61L results in increased activation of ERK and is transforming in cell culture (PMID: 26854029) and therefore, is predicted to result in a loss of Kras protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 10250,
+                    "pubMedId": 26854029,
+                    "title": "KRAS insertion mutations are oncogenic and exhibit distinct functional properties.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26854029"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3845,
+        "geneSymbol": "KRAS",
+        "terms": [
+            "KRAS",
+            "'C-K-RAS",
+            "C-K-RAS",
+            "c-Ki-ras",
+            "c-Ki-ras2",
+            "CFC2",
+            "K-Ras",
+            "K-Ras 2",
+            "K-RAS2A",
+            "K-RAS2B",
+            "K-RAS4A",
+            "K-RAS4B",
+            "KI-RAS",
+            "KRAS1",
+            "KRAS2",
+            "NS",
+            "NS3",
+            "OES",
+            "RALD",
+            "RASK2"
+        ]
+    },
+    "variant": "Q61L",
+    "createDate": "09/25/2014",
+    "updateDate": "02/24/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 157374,
+        "transcript": "NM_033360",
+        "gDna": "chr12:g.25227342T>A",
+        "cDna": "c.182A>T",
+        "protein": "p.Q61L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16002,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit growth of colon cancer cells harboring KRAS Q61L in 3D culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 1863,
+                "profileName": "KRAS Q61L"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8566,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 synergistically inhibited Erk and PI3K signaling and proliferation, but did not induce apoptosis in colorectal cancer cells harboring KRAS Q61L, PIK3CA E542K, and TP53 T118Qfs*5 in culture (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26412,
+                "profileName": "KRAS Q61L PIK3CA E542K TP53 T118Qfs*5"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1863,
+            "profileName": "KRAS Q61L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 15920,
+                    "name": "AZD4785",
+                    "profileName": "KRAS Q61L"
+                },
+                {
+                    "id": 15919,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "KRAS Q61L"
+                },
+                {
+                    "id": 15921,
+                    "name": "RAS Inhibitor (Pan)",
+                    "profileName": "KRAS Q61L"
+                },
+                {
+                    "id": 15918,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "KRAS Q61L"
+                },
+                {
+                    "id": 15922,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "KRAS Q61L"
+                },
+                {
+                    "id": 15924,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "KRAS Q61L"
+                },
+                {
+                    "id": 15923,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "KRAS Q61L"
+                }
+            ]
+        },
+        {
+            "id": 26355,
+            "profileName": "KRAS Q61L PIK3CA E542K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26412,
+            "profileName": "KRAS Q61L PIK3CA E542K TP53 T118Qfs*5",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 157377,
+            "transcript": "XM_006719069",
+            "gDna": "chr12:g.25227342T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157376,
+            "transcript": "XM_011520653",
+            "gDna": "chr12:g.25227342T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157375,
+            "transcript": "XM_017019293",
+            "gDna": "chr12:g.25227342T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157374,
+            "transcript": "NM_033360",
+            "gDna": "chr12:g.25227342T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 157373,
+            "transcript": "NM_004985",
+            "gDna": "chr12:g.25227342T>A",
+            "cDna": "c.182A>T",
+            "protein": "p.Q61L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,267 @@
+{
+    "id": 734,
+    "fullName": "TP53 R273H",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R273H is a hotspot mutation that lies within the DNA binding domain of the Tp53 protein (PMID: 22713868). R273H results in a loss of DNA binding and decreased activation of Tp53 target gene expression, leads to resistance to apoptosis and failure of G1 arrest in cell culture (PMID: 31395785), and also confers a gain of function to Tp53, resulting in aberrant transcriptional activation and increased cell migration (PMID: 22114072, PMID: 14743206, PMID: 32002804).",
+            "references": [
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 378,
+                    "pubMedId": 22114072,
+                    "title": "Gain-of-function mutant p53 upregulates CXC chemokines and enhances cell migration.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22114072"
+                },
+                {
+                    "id": 18216,
+                    "pubMedId": 32002804,
+                    "title": "The role of TP53 gain-of-function mutation in multifocal glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32002804"
+                },
+                {
+                    "id": 17772,
+                    "pubMedId": 31395785,
+                    "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31395785"
+                },
+                {
+                    "id": 2153,
+                    "pubMedId": 14743206,
+                    "title": "Mutant p53 exerts a dominant negative effect by preventing wild-type p53 from binding to the promoter of its target genes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14743206"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R273H",
+    "createDate": "06/13/2014",
+    "updateDate": "03/17/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 95449,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7673802C>T",
+        "cDna": "c.818G>A",
+        "protein": "p.R273H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4097,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APR-246 and Platinol (cisplatin) worked synergistically to inhibit growth of non-small lung cancer cells harboring TP53 R273H in culture (PMID: 26086967).",
+            "molecularProfile": {
+                "id": 837,
+                "profileName": "TP53 R273H"
+            },
+            "therapy": {
+                "id": 3443,
+                "therapyName": "APR-246 + Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4407,
+                    "pubMedId": 26086967,
+                    "title": "APR-246 overcomes resistance to cisplatin and doxorubicin in ovarian cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26086967"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8267,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with NSC59984 induced Tp53 pathway signaling, degradation of mutant Tp53, and cell death in a colorectal cancer cell line harboring TP53 R273H and TP53 P309S in culture (PMID: 26294215).",
+            "molecularProfile": {
+                "id": 26216,
+                "profileName": "TP53 R273H TP53 P309S"
+            },
+            "therapy": {
+                "id": 3402,
+                "therapyName": "NSC59984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4303,
+                    "pubMedId": 26294215,
+                    "title": "Small-Molecule NSC59984 Restores p53 Pathway Signaling and Antitumor Effects against Colorectal Cancer via p73 Activation and Degradation of Mutant p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26294215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8270,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Platinol (cisplatin) and NSC59984 worked synergistically to decrease viability of a colorectal cancer cell line harboring TP53 R273H and TP53 P309S in culture (PMID: 26294215).",
+            "molecularProfile": {
+                "id": 26216,
+                "profileName": "TP53 R273H TP53 P309S"
+            },
+            "therapy": {
+                "id": 4675,
+                "therapyName": "Cisplatin + NSC59984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4303,
+                    "pubMedId": 26294215,
+                    "title": "Small-Molecule NSC59984 Restores p53 Pathway Signaling and Antitumor Effects against Colorectal Cancer via p73 Activation and Degradation of Mutant p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26294215"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8565,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 synergistically inhibited Erk and PI3K signaling and growth of colorectal cancer cells harboring BRAF V600E, PIK3CA P449T, and TP53 R273H in culture and in cell line xenograft models, but did not have synergistic effect on apoptosis (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26358,
+                "profileName": "BRAF V600E PIK3CA P449T TP53 R273H"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 837,
+            "profileName": "TP53 R273H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 736,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R273H"
+                },
+                {
+                    "id": 735,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 R273H"
+                }
+            ]
+        },
+        {
+            "id": 26216,
+            "profileName": "TP53 R273H TP53 P309S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26358,
+            "profileName": "BRAF V600E PIK3CA P449T TP53 R273H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95449,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7673802C>T",
+            "cDna": "c.818G>A",
+            "protein": "p.R273H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95448,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7673802C>T",
+            "cDna": "c.818G>A",
+            "protein": "p.R273H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95451,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7673802C>T",
+            "cDna": "c.818G>A",
+            "protein": "p.R273H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95450,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7673802C>T",
+            "cDna": "c.818G>A",
+            "protein": "p.R273H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

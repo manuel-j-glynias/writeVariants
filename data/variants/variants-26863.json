@@ -1,0 +1,170 @@
+{
+    "id": 26863,
+    "fullName": "FGF4 amp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGF4 amplification indicates an increased number of copies of the FGF4 gene. However, the mechanism causing the increase is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2249,
+        "geneSymbol": "FGF4",
+        "terms": [
+            "FGF4",
+            "FGF-4",
+            "HBGF-4",
+            "HST",
+            "HST-1",
+            "HSTF-1",
+            "HSTF1",
+            "K-FGF",
+            "KFGF"
+        ]
+    },
+    "variant": "amp",
+    "createDate": "08/11/2017",
+    "updateDate": "08/11/2017",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11671,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, amplification of FGF3, FGF4, and FGF19 was associated with acquired resistance to combination treatment with Herceptin (trastuzumab) and Tykerb (lapatinib) in an ERBB2 (HER2)-amplified breast cancer cell line xenograft model (PMID: 28381415).",
+            "molecularProfile": {
+                "id": 28184,
+                "profileName": "ERBB2 amp FGF19 amp FGF3 amp FGF4 amp"
+            },
+            "therapy": {
+                "id": 1414,
+                "therapyName": "Lapatinib + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60079,
+                "name": "Her2-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9699,
+                    "pubMedId": 28381415,
+                    "title": "HER2-Overexpressing Breast Cancers Amplify FGFR Signaling upon Acquisition of Resistance to Dual Therapeutic Blockade of HER2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28381415"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16228,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Emerging",
+            "efficacyEvidence": "In a clinical study, FGF3, FGF4, and FGF19 were coamplified in 90% (8/9) of FGFR1-amplified tumors in patients with ER-positive, ERBB2 (HER2)-negative breast cancer, and the coamplification was associated with resistance to Femara (letrozole) treatment (p=0.0001) (PMID: 28751448).",
+            "molecularProfile": {
+                "id": 31564,
+                "profileName": "ESR1 pos FGF19 amp FGF3 amp FGF4 amp FGFR1 amp"
+            },
+            "therapy": {
+                "id": 794,
+                "therapyName": "Letrozole",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14363,
+                    "pubMedId": 28751448,
+                    "title": "Association of FGFR1 with ER\u03b1 Maintains Ligand-Independent ER Transcription and Mediates Resistance to Estrogen Deprivation in ER+ Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751448"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20155,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II (FINESSE) trial, Lucitanib (E-3810) treatment resulted in an objective response rate (ORR) of 0% (0/18) and a clinical benefit rate of 11% (2/18) in patients with metastatic hormone receptor-positive, Erbb2 (Her2)-negative breast cancer harboring 11q13 (containing FGF3, FGF4, FGF19, and CCND1) amplification but not FGFR1 amplification, 11q13 amplification was associated with poor response (7%, 2/29) in biomarker analysis (PMID: 31619444; NCT02053636).",
+            "molecularProfile": {
+                "id": 34910,
+                "profileName": "CCND1 amp FGF19 amp FGF3 amp FGF4 amp"
+            },
+            "therapy": {
+                "id": 1029,
+                "therapyName": "Lucitanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 17719,
+                    "pubMedId": 31619444,
+                    "title": "Lucitanib for the Treatment of HR+/HER2- Metastatic Breast Cancer: Results from the Multicohort Phase II FINESSE Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31619444"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28183,
+            "profileName": "FGF4 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28184,
+            "profileName": "ERBB2 amp FGF19 amp FGF3 amp FGF4 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31564,
+            "profileName": "ESR1 pos FGF19 amp FGF3 amp FGF4 amp FGFR1 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34910,
+            "profileName": "CCND1 amp FGF19 amp FGF3 amp FGF4 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "id": 22177,
+    "fullName": "PARP1 Y907E",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PARP1 Y907E lies within the PARP catalytic domain of the Parp1 protein (UniProt.org). Y907E results in the constitutive phosphorylation of Parp1, and enhanced DNA damage repair in cell culture (PMID: 26779812).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 5319,
+                    "pubMedId": 26779812,
+                    "title": "Blocking c-Met-mediated PARP1 phosphorylation enhances anti-tumor effects of PARP inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26779812"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 142,
+        "geneSymbol": "PARP1",
+        "terms": [
+            "PARP1",
+            "ADPRT",
+            "ADPRT 1",
+            "ADPRT1",
+            "ARTD1",
+            "pADPRT-1",
+            "PARP",
+            "PARP-1",
+            "PPOL"
+        ]
+    },
+    "variant": "Y907E",
+    "createDate": "05/04/2016",
+    "updateDate": "08/07/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 141135,
+        "transcript": "NM_001618",
+        "gDna": "chr1:g.226364008_226364010delGTAinsCTC",
+        "cDna": "c.2719_2721delTACinsGAG",
+        "protein": "p.Y907E",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6153,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, decreasing Met expression via shRNA knockdown did not sensitize triple-receptor negative breast cancer cells overexpressing PARP1 Y907E to Rubraca (rucaparib) in culture (PMID: 26779812).",
+            "molecularProfile": {
+                "id": 22734,
+                "profileName": "MET dec exp PARP1 Y907E"
+            },
+            "therapy": {
+                "id": 906,
+                "therapyName": "Rucaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5319,
+                    "pubMedId": 26779812,
+                    "title": "Blocking c-Met-mediated PARP1 phosphorylation enhances anti-tumor effects of PARP inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26779812"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6155,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, decreasing Met expression via shRNA knockdown did not sensitize triple-receptor negative breast cancer cells overexpressing PARP1 Y907E to Veliparib (ABT-888) in culture (PMID: 26779812).",
+            "molecularProfile": {
+                "id": 22734,
+                "profileName": "MET dec exp PARP1 Y907E"
+            },
+            "therapy": {
+                "id": 954,
+                "therapyName": "Veliparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5319,
+                    "pubMedId": 26779812,
+                    "title": "Blocking c-Met-mediated PARP1 phosphorylation enhances anti-tumor effects of PARP inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26779812"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 22732,
+            "profileName": "PARP1 Y907E",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 8810,
+                    "name": "PARP Inhibitor (Pan)",
+                    "profileName": "PARP1 Y907E"
+                }
+            ]
+        },
+        {
+            "id": 22734,
+            "profileName": "MET dec exp PARP1 Y907E",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 141135,
+            "transcript": "NM_001618",
+            "gDna": "chr1:g.226364008_226364010delGTAinsCTC",
+            "cDna": "c.2719_2721delTACinsGAG",
+            "protein": "p.Y907E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

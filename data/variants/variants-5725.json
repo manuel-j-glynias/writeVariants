@@ -1,0 +1,211 @@
+{
+    "id": 5725,
+    "fullName": "PDGFRB over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "PDGFRB over exp indicates an over expression of the Pdgfrb protein. However, the mechanism causing the over expression is unknown.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 5159,
+        "geneSymbol": "PDGFRB",
+        "terms": [
+            "PDGFRB",
+            "CD140B",
+            "IBGC4",
+            "IMF1",
+            "JTK12",
+            "KOGS",
+            "PDGFR",
+            "PDGFR-1",
+            "PDGFR1",
+            "PENTT"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "05/04/2015",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2277,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with XL888 increased apoptosis and decreased growth of Zelboraf (vemurafenib)-resistant human melanoma cell lines harboring a BRAF V600E mutation and over expression of PDGFRB in cell culture and in xenograft models (PMID: 22351686).",
+            "molecularProfile": {
+                "id": 6908,
+                "profileName": "BRAF V600E PDGFRB over exp"
+            },
+            "therapy": {
+                "id": 970,
+                "therapyName": "XL888",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2956,
+                    "pubMedId": 22351686,
+                    "title": "The HSP90 inhibitor XL888 overcomes BRAF inhibitor resistance mediated through diverse mechanisms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22351686"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2278,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, over expression of PDGFRB conferred acquired resistance to Zelboraf (vemurafenib) in melanoma cells harboring BRAF V600E in culture (PMID: 21107323).",
+            "molecularProfile": {
+                "id": 6908,
+                "profileName": "BRAF V600E PDGFRB over exp"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2959,
+                    "pubMedId": 21107323,
+                    "title": "Melanomas acquire resistance to B-RAF(V600E) inhibition by RTK or N-RAS upregulation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21107323"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7834,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with BI-847325 inhibited growth of a BRAF-mutant melanoma cell line with BRAF-inhibitor resistance due to PDGFRB over expression in culture (PMID: 25873592).",
+            "molecularProfile": {
+                "id": 26063,
+                "profileName": "BRAF mut PDGFRB over exp"
+            },
+            "therapy": {
+                "id": 1059,
+                "therapyName": "BI-847325",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6506,
+                    "pubMedId": 25873592,
+                    "title": "The Novel ATP-Competitive MEK/Aurora Kinase Inhibitor BI-847325 Overcomes Acquired BRAF Inhibitor Resistance through Suppression of Mcl-1 and MEK Expression.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25873592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14972,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Gleevec (imatinib mesylate) treatment demonstrated no clinical activity, resulted in no objective response (0/13) in patients with metastatic breast cancer demonstrating Pdgfrb overexpression and negative Kit expression (PMID: 18515258).",
+            "molecularProfile": {
+                "id": 30418,
+                "profileName": "KIT neg PDGFRB over exp"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 11879,
+                    "pubMedId": 18515258,
+                    "title": "Imatinib mesylate (Gleevec) in advanced breast cancer-expressing C-Kit or PDGFR-beta: clinical activity and biological correlations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18515258"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5558,
+            "profileName": "PDGFRB over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4351,
+                    "name": "PDGFR Inhibitor (Pan)",
+                    "profileName": "PDGFRB over exp"
+                },
+                {
+                    "id": 4352,
+                    "name": "PDGFR-beta Inhibitor",
+                    "profileName": "PDGFRB over exp"
+                }
+            ]
+        },
+        {
+            "id": 6908,
+            "profileName": "BRAF V600E PDGFRB over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26063,
+            "profileName": "BRAF mut PDGFRB over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30418,
+            "profileName": "KIT neg PDGFRB over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

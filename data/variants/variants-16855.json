@@ -1,0 +1,265 @@
+{
+    "id": 16855,
+    "fullName": "FGFR1 V561M",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR1 V561M lies within the protein kinase domain of the Fgfr1 protein (UniProt.org), V561M is predicted to confer a gain of function to the Fgfr1 protein, as demonstrated by increased Fgfr1 autophosphorylation in cell culture, and has also been demonstrated to confer resistance to tyrosine kinase inhibitors (PMID: 25686244, PMID: 15157880, PMID: 28646488).",
+            "references": [
+                {
+                    "id": 4375,
+                    "pubMedId": 15157880,
+                    "title": "Characterization of a conserved structural determinant controlling protein kinase sensitivity to selective inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15157880"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 15341,
+                    "pubMedId": 28646488,
+                    "title": "Mutation in the FGFR1 tyrosine kinase domain or inactivation of PTEN is associated with acquired resistance to FGFR inhibitors in FGFR1-driven leukemia/lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28646488"
+                },
+                {
+                    "id": 4376,
+                    "pubMedId": 25686244,
+                    "title": "Illuminating the molecular mechanisms of tyrosine kinase inhibitor resistance for the FGFR1 gatekeeper mutation: the Achilles' heel of targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25686244"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2260,
+        "geneSymbol": "FGFR1",
+        "terms": [
+            "FGFR1",
+            "bFGF-R-1",
+            "BFGFR",
+            "CD331",
+            "CEK",
+            "ECCL",
+            "FGFBR",
+            "FGFR-1",
+            "FLG",
+            "FLT-2",
+            "FLT2",
+            "HBGFR",
+            "HH2",
+            "HRTFDS",
+            "KAL2",
+            "N-SAM",
+            "OGD"
+        ]
+    },
+    "variant": "V561M",
+    "createDate": "01/19/2016",
+    "updateDate": "06/13/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 155135,
+        "transcript": "NM_023110",
+        "gDna": "chr8:g.38416043C>T",
+        "cDna": "c.1681G>A",
+        "protein": "p.V561M",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16205,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells expressing FGFR1 V561M demonstrated resistance to AZD4547 in culture (PMID: 30257990).",
+            "molecularProfile": {
+                "id": 17133,
+                "profileName": "FGFR1 V561M"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14329,
+                    "pubMedId": 30257990,
+                    "title": "The FGFR1 V561M Gatekeeper Mutation Drives AZD4547 Resistance through STAT3 Activation and EMT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257990"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12820,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 inhibited proliferation of transformed cells over expressing FGFR1 V561M in culture (PMID: 28978721).",
+            "molecularProfile": {
+                "id": 17133,
+                "profileName": "FGFR1 V561M"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10753,
+                    "pubMedId": 28978721,
+                    "title": "The Irreversible Covalent Fibroblast Growth Factor Receptor Inhibitor PRN1371 Exhibits Sustained Inhibition of FGFR after Drug Clearance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4026,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FIIN-01 inhibited Fgfr1 autophosphorylation in a human transformed embryonic kidney cell line harboring FGFR1 V561M mutation in culture (PMID: 20338520).",
+            "molecularProfile": {
+                "id": 17133,
+                "profileName": "FGFR1 V561M"
+            },
+            "therapy": {
+                "id": 2507,
+                "therapyName": "FIIN-1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2410,
+                    "pubMedId": 20338520,
+                    "title": "A structure-guided approach to creating covalent FGFR inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20338520"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16206,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knockdown of STAT3 using shRNA sensitized non-small cell lung cancer cells expressing FGFR1 V561M to AZD4547 in culture, resulting in decreased cell viability (PMID: 30257990).",
+            "molecularProfile": {
+                "id": 31532,
+                "profileName": "FGFR1 V561M STAT3 dec exp"
+            },
+            "therapy": {
+                "id": 654,
+                "therapyName": "AZD4547",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14329,
+                    "pubMedId": 30257990,
+                    "title": "The FGFR1 V561M Gatekeeper Mutation Drives AZD4547 Resistance through STAT3 Activation and EMT.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30257990"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 17133,
+            "profileName": "FGFR1 V561M",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7455,
+                    "name": "FGFR Inhibitor (Pan)",
+                    "profileName": "FGFR1 V561M"
+                },
+                {
+                    "id": 7454,
+                    "name": "FGFR1 Inhibitor",
+                    "profileName": "FGFR1 V561M"
+                }
+            ]
+        },
+        {
+            "id": 31532,
+            "profileName": "FGFR1 V561M STAT3 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 155137,
+            "transcript": "XM_017013221",
+            "gDna": "chr8:g.38416043C>T",
+            "cDna": "c.1681G>A",
+            "protein": "p.V561M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 155138,
+            "transcript": "XM_006716304",
+            "gDna": "chr8:g.38416043C>T",
+            "cDna": "c.1681G>A",
+            "protein": "p.V561M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 155136,
+            "transcript": "XM_006716303",
+            "gDna": "chr8:g.38416043C>T",
+            "cDna": "c.1681G>A",
+            "protein": "p.V561M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 155135,
+            "transcript": "NM_023110",
+            "gDna": "chr8:g.38416043C>T",
+            "cDna": "c.1681G>A",
+            "protein": "p.V561M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

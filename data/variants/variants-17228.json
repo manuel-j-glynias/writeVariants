@@ -1,0 +1,232 @@
+{
+    "id": 17228,
+    "fullName": "FGFR2 - CCDC6",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR2-CCDC6 results from the fusion of FGFR2 and CCDC6, resulting in the ability to induce oligomerization, activate Fgfr kinase activity, and induce cell proliferation (PMID: 23558953), and is transforming in culture (PMID: 28416604). FGFR2-CCDC6 has been identified in cholangiocarcinoma (PMID: 27216979).",
+            "references": [
+                {
+                    "id": 15175,
+                    "pubMedId": 28416604,
+                    "title": "Oncogenic Characterization and Pharmacologic Sensitivity of Activating Fibroblast Growth Factor Receptor (FGFR) Genetic Alterations to the Selective FGFR Inhibitor Erdafitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28416604"
+                },
+                {
+                    "id": 4387,
+                    "pubMedId": 23558953,
+                    "title": "Identification of targetable FGFR gene fusions in diverse cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23558953"
+                },
+                {
+                    "id": 15423,
+                    "pubMedId": 27216979,
+                    "title": "Antitumor effect of FGFR inhibitors on a novel cholangiocarcinoma patient derived xenograft mouse model endogenously expressing an FGFR2-CCDC6 fusion protein.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27216979"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2263,
+        "geneSymbol": "FGFR2",
+        "terms": [
+            "FGFR2",
+            "BBDS",
+            "BEK",
+            "BFR-1",
+            "CD332",
+            "CEK3",
+            "CFD1",
+            "ECT1",
+            "JWS",
+            "K-SAM",
+            "KGFR",
+            "TK14",
+            "TK25"
+        ]
+    },
+    "variant": "FGFR2 - CCDC6",
+    "createDate": "01/25/2016",
+    "updateDate": "06/24/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 8030,
+                "geneSymbol": "CCDC6",
+                "terms": [
+                    "CCDC6",
+                    "D10S170",
+                    "H4",
+                    "PTC",
+                    "TPC",
+                    "TST1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 17163,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Balversa (erdafitinib) inhibited Fgfr phosphorylation and downstream signaling, resulted in growth inhibition of transformed cells expressing FGFR2-CCDC6 in culture (PMID: 28416604).",
+            "molecularProfile": {
+                "id": 17514,
+                "profileName": "FGFR2 - CCDC6"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15175,
+                    "pubMedId": 28416604,
+                    "title": "Oncogenic Characterization and Pharmacologic Sensitivity of Activating Fibroblast Growth Factor Receptor (FGFR) Genetic Alterations to the Selective FGFR Inhibitor Erdafitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28416604"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8413,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 treatment resulted in tumor regression in patient-derived xenograft models of liver cancer harboring FGFR2-CCDC6 fusion (PMID: 28978721).",
+            "molecularProfile": {
+                "id": 17514,
+                "profileName": "FGFR2 - CCDC6"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3571,
+                "name": "liver cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10753,
+                    "pubMedId": 28978721,
+                    "title": "The Irreversible Covalent Fibroblast Growth Factor Receptor Inhibitor PRN1371 Exhibits Sustained Inhibition of FGFR after Drug Clearance.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28978721"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20597,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib/II trial, a patient with intrahepatic cholangiocarcinoma harboring FGFR2-CCDC6 demonstrated stable disease when treated with Derazantinib (ARQ 087) (PMID: 30420614; NCT01752920).",
+            "molecularProfile": {
+                "id": 17514,
+                "profileName": "FGFR2 - CCDC6"
+            },
+            "therapy": {
+                "id": 2900,
+                "therapyName": "Derazantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17949,
+                    "pubMedId": 30420614,
+                    "title": "Derazantinib (ARQ 087) in advanced or inoperable FGFR2 gene fusion-positive intrahepatic cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30420614"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4007,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, Balversa (erdafitinib) treatment resulted tumor shrinkage and no disease progression for 10 months in an adrenal carcinoma patient harboring FGFR3-TACC3 and FGFR2-CCDC6 fusions (PMID: 26324363; NCT01703481).",
+            "molecularProfile": {
+                "id": 32061,
+                "profileName": "FGFR2 - CCDC6 FGFR3 - TACC3"
+            },
+            "therapy": {
+                "id": 1028,
+                "therapyName": "Erdafitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3950,
+                "name": "adrenal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 4363,
+                    "pubMedId": 26324363,
+                    "title": "Phase I Dose-Escalation Study of JNJ-42756493, an Oral Pan-Fibroblast Growth Factor Receptor Inhibitor, in Patients With Advanced Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26324363"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 17514,
+            "profileName": "FGFR2 - CCDC6",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7597,
+                    "name": "FGFR Inhibitor (Pan)",
+                    "profileName": "FGFR2 - CCDC6"
+                },
+                {
+                    "id": 7598,
+                    "name": "FGFR2 Inhibitor",
+                    "profileName": "FGFR2 - CCDC6"
+                }
+            ]
+        },
+        {
+            "id": 31775,
+            "profileName": "FGFR2 - CCDC6 FGFR2 - TACC3",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32061,
+            "profileName": "FGFR2 - CCDC6 FGFR3 - TACC3",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,389 @@
+{
+    "id": 30576,
+    "fullName": "EGFR L718V",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR L718V lies within the protein kinase domain of the Egfr protein (UniProt.org). L718V results in increased kinase activity in combination with L858R and T790M (PMID: 29568384) and enhanced cell growth when combined with L858R in cultured cells, and is associated with resistance to Egfr inhibitors (PMID: 29571986), but has not been individually characterized and therefore, its effect on Egfr protein function is unknown.",
+            "references": [
+                {
+                    "id": 17712,
+                    "pubMedId": 29568384,
+                    "title": "Structural insights into drug development strategy targeting EGFR T790M/C797S.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568384"
+                },
+                {
+                    "id": 15765,
+                    "pubMedId": 29571986,
+                    "title": "Acquired EGFR L718V mutation mediates resistance to osimertinib in non-small cell lung cancer but retains sensitivity to afatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29571986"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "L718V",
+    "createDate": "07/23/2019",
+    "updateDate": "01/30/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 181322,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174011C>G",
+        "cDna": "c.2152C>G",
+        "protein": "p.L718V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17775,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L718V and EGFR L858R were sensitive to treatment with Gilotrif (afatinib) in culture, demonstrating reduced cell viability (PMID: 29571986).",
+            "molecularProfile": {
+                "id": 32792,
+                "profileName": "EGFR L718V EGFR L858R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15765,
+                    "pubMedId": 29571986,
+                    "title": "Acquired EGFR L718V mutation mediates resistance to osimertinib in non-small cell lung cancer but retains sensitivity to afatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29571986"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17768,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L718V and EGFR L858R demonstrated resistance to treatment with Tagrisso (osimertinib) in culture (PMID: 29571986).",
+            "molecularProfile": {
+                "id": 32792,
+                "profileName": "EGFR L718V EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15765,
+                    "pubMedId": 29571986,
+                    "title": "Acquired EGFR L718V mutation mediates resistance to osimertinib in non-small cell lung cancer but retains sensitivity to afatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29571986"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17772,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L718V and EGFR L858R demonstrated resistance to treatment with Tarceva (erlotinib) in culture (PMID: 29571986).",
+            "molecularProfile": {
+                "id": 32792,
+                "profileName": "EGFR L718V EGFR L858R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15765,
+                    "pubMedId": 29571986,
+                    "title": "Acquired EGFR L718V mutation mediates resistance to osimertinib in non-small cell lung cancer but retains sensitivity to afatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29571986"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18031,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, EGFR L718V was identified as an acquired mutation at disease progression in a patient with lung adenocarcinoma harboring EGFR L858R who developed resistance to Tagrisso (osimertinib) (PMID: 31301016).",
+            "molecularProfile": {
+                "id": 32792,
+                "profileName": "EGFR L718V EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15966,
+                    "pubMedId": 31301016,
+                    "title": "Acquired EGFR L718V Mutation as the Mechanism for Osimertinib Resistance in a T790M-Negative Non-Small-Cell Lung Cancer Patient.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31301016"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17773,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L718V and EGFR L858R demonstrated resistance to treatment with Iressa (gefitinib) in culture (PMID: 29571986).",
+            "molecularProfile": {
+                "id": 32792,
+                "profileName": "EGFR L718V EGFR L858R"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15765,
+                    "pubMedId": 29571986,
+                    "title": "Acquired EGFR L718V mutation mediates resistance to osimertinib in non-small cell lung cancer but retains sensitivity to afatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29571986"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17769,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR L718V, EGFR L858R, and EGFR T790M demonstrated resistance to treatment with Tagrisso (osimertinib) in culture (PMID: 29571986).",
+            "molecularProfile": {
+                "id": 32793,
+                "profileName": "EGFR L718V EGFR T790M EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15765,
+                    "pubMedId": 29571986,
+                    "title": "Acquired EGFR L718V mutation mediates resistance to osimertinib in non-small cell lung cancer but retains sensitivity to afatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29571986"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17829,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing an EGFR exon 19 deletion, EGFR L718V, and EGFR T790M demonstrated resistance to treatment with Tagrisso (osimertinib) in culture (PMID: 29571986).",
+            "molecularProfile": {
+                "id": 32794,
+                "profileName": "EGFR exon 19 del EGFR L718V EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 15765,
+                    "pubMedId": 29571986,
+                    "title": "Acquired EGFR L718V mutation mediates resistance to osimertinib in non-small cell lung cancer but retains sensitivity to afatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29571986"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18045,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, tertiary EGFR mutations including C797S (n=3) and L718V (n=1) were identified as a potential acquired resistance mechanism in 13% (4/30) of patients with non-small cell lung cancer harboring EGFR T790M whose disease progressed while on Abivertinib (AC0010) treatment (PMID: 31027916; NCT02330367).",
+            "molecularProfile": {
+                "id": 32951,
+                "profileName": "EGFR L718V EGFR T790M"
+            },
+            "therapy": {
+                "id": 2909,
+                "therapyName": "Abivertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15973,
+                    "pubMedId": 31027916,
+                    "title": "Analysis of resistance mechanisms to abivertinib, a third-generation EGFR tyrosine kinase inhibitor, in patients with EGFR T790M-positive non-small cell lung cancer from a phase I trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31027916"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20736,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, EGFR L718V with a coexisting EGFR T790M were identified in 1 of 100 patients with non-small cell lung cancer at treatment discontinuation of Tagrisso (osimertinib) (PMID: 31839416).",
+            "molecularProfile": {
+                "id": 32951,
+                "profileName": "EGFR L718V EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18023,
+                    "pubMedId": 31839416,
+                    "title": "Next-generation sequencing based mutation profiling reveals heterogeneity of clinical response and resistance to osimertinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31839416"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32791,
+            "profileName": "EGFR L718V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32792,
+            "profileName": "EGFR L718V EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32793,
+            "profileName": "EGFR L718V EGFR T790M EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32794,
+            "profileName": "EGFR exon 19 del EGFR L718V EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32951,
+            "profileName": "EGFR L718V EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 181322,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174011C>G",
+            "cDna": "c.2152C>G",
+            "protein": "p.L718V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

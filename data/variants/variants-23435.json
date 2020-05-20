@@ -1,0 +1,1671 @@
+{
+    "id": 23435,
+    "fullName": "ERBB2 G776delinsVC",
+    "impact": "indel",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) G776delinsVC results in a deletion of a glycine (G) at amino acid 776 within the protein kinase domain of the Erbb2 (Her2) protein, combined with the insertion of a valine (V) and a cystine (C) at the same site (UniProt.org). G776delinsVC leads to constitutive activation of Erbb2 (Her2), increased downstream signaling (PMID: 26545934, PMID: 31588020), is transforming in cell culture (PMID: 29533785, PMID: 29967253), and confers resistance to selected tyrosine kinase inhibitors (PMID: 31588020).",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11774,
+                    "pubMedId": 29967253,
+                    "title": "High-Throughput Functional Evaluation of Variants of Unknown Significance in ERBB2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29967253"
+                },
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "G776delinsVC",
+    "createDate": "06/21/2016",
+    "updateDate": "11/12/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 170520,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39724744_39724746delinsGTATGT",
+        "cDna": "c.2326_2328delinsGTATGT",
+        "protein": "p.G776_776delinsVC",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15605,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Poziotinib (HM781-36B) treatment resulted in an objective response rate of 50% (1/2) in non-small cell lung cancer patients harboring ERBB2 (HER2) G776delinsVC (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15576,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6957,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited Erbb2 (Her2) phosphorylation and downstream signaling in bronchial epithelial cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6960,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring ERBB2 (HER2) G776delinsVC demonstrated resistance to treatment with Iressa (gefitinib) in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15604,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Tykerb (lapatinib) treatment resulted in an objective response rate of 0% (0/1) in non-small cell lung cancer patients harboring ERBB2 (HER2) G776delinsVC (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20504,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Pyrotinib in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15528,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pyrotinib inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6965,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bronchial epithelial cells expressing ERBB2 (HER2) G776delinsVC did not demonstrate sensitivity to Iressa (gefitinib) in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19639,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, addition of Poziotinib (HM781-36B) enhanced growth inhibition by Kadcyla (ado-trastuzumab emtansine) treatment in breast cancer cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 6799,
+                "therapyName": "Ado-trastuzumab emtansine + Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20550,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Tarloxotinib (TRLX) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 6986,
+                "therapyName": "Tarloxotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15581,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Luminespib (AUY922) inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 647,
+                "therapyName": "Luminespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15603,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Tarceva (erlotinib) treatment resulted in an objective response rate of 0% (0/1) in non-small cell lung cancer patients harboring ERBB2 (HER2) G776delinsVC (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15525,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Tykerb (lapatinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19182,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Tykerb (lapatinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21252,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with non-small cell lung cancer harboring ERBB2 G776delinsVC demonstrated a partial response and an ongoing progression-free survival when treated with Pyrotinib (PMID: 30596880; NCT02535507).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 18195,
+                    "pubMedId": 30596880,
+                    "title": "HER2 exon 20 insertions in non-small-cell lung cancer are sensitive to the irreversible pan-HER receptor tyrosine kinase inhibitor pyrotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30596880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15602,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Vizimpro (dacomitinib) treatment resulted in an objective response rate of 0% (0/2) in non-small cell lung cancer patients harboring ERBB2 (HER2) G776delinsVC (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15932,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Kadcyla (trastuzumab emtansine) resulted in best overall responses of partial response in 44% (8/18) and stable disease in 39% (7/18), and median progression-free survival of 5 months in patients with lung adenocarcinoma harboring ERBB2 (HER2) activating mutations, and a subset of patients specifically harboring ERBB2 (HER2) G776delinsVC had a 100% (2/2) partial response rate (PMID: 29989854; NCT02675829).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12393,
+                    "pubMedId": 29989854,
+                    "title": "Ado-Trastuzumab Emtansine for Patients With HER2-Mutant Lung Cancers: Results From a Phase II Basket Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29989854"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20413,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Imbruvica (ibrutinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20380,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Gilotrif (afatinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15514,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19147,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Sapitinib (AZD8931) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 910,
+                "therapyName": "Sapitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15601,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, Gilotrif (afatinib) treatment resulted in an objective response rate of 0% (0/3) in non-small cell lung cancer patients harboring ERBB2 (HER2) G776delinsVC (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 6948,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited proliferation and induced cell-cycle arrest and apoptosis of a non-small cell lung cancer (NSCLC) cell line harboring ERBB2 (HER2) G776delinsVC in culture and inhibited tumor growth in NSCLC cell line xenografts carrying ERBB2 (HER2) G776delinsVC (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13252,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 8.5 months in a patient with non-small cell lung cancer harboring ERBB2 (HER2) G776delinsVC (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20677,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Nerlynx (neratinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15522,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20858,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited Erbb2 (Her2) phosphorylation and viability of breast cancer cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15527,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZ5104 inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 5901,
+                "therapyName": "AZ5104",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20404,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Nazartinib (EGF816) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 1309,
+                "therapyName": "Nazartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15515,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20671,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Vizimpro (dacomitinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15518,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC demonstrated decreased response to Tarceva (erlotinib) compared to Poziotinib (HM781-36B) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 20303,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Tagrisso (osimertinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15521,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15607,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Poziotinib (HM781-36B) treatment resulted in 1 partial response and 1 stable disease in 2 patients with lung adenocarcinoma harboring ERBB2 (HER2) G776delinsVC (PMID: 30149884; NCT02979821).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13478,
+                    "pubMedId": 30149884,
+                    "title": "Clinical Activity of Pan-HER Inhibitors Against HER2-Mutant Lung Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30149884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15526,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC were resistant to Tucatinib (ARRY-380) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 639,
+                "therapyName": "Tucatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19972,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited survival of transformed cells expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14702,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited growth of a transformed cell line expressing ERBB2 (HER2) G776delinsVC in culture (PMID: 29686424).",
+            "molecularProfile": {
+                "id": 24125,
+                "profileName": "ERBB2 G776delinsVC"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11486,
+                    "pubMedId": 29686424,
+                    "title": "Mechanisms and clinical activity of an EGFR and HER2 exon 20-selective kinase inhibitor in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29686424"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15570,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Pyrotinib in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15568,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Tagrisso (osimertinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15560,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Gilotrif (afatinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15558,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Tarceva (erlotinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15575,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15563,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Nerlynx (neratinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15557,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ERBB2 (HER2) C805S was identified as a secondary mutation in transformed cells expressing ERBB2 (HER2) G776delinsVC that acquired resistance to Poziotinib (HM781-36B) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15571,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Tykerb (lapatinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15562,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Vizimpro (dacomitinib) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15572,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to Tucatinib (ARRY-380) in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 639,
+                "therapyName": "Tucatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15582,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Luminespib (AUY922) inhibited growth of transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 647,
+                "therapyName": "Luminespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15569,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) G776delinsVC and an acquired ERBB2 (HER2) C805S were resistant to AZ5104 in culture (PMID: 30527195).",
+            "molecularProfile": {
+                "id": 31088,
+                "profileName": "ERBB2 G776delinsVC ERBB2 C805S"
+            },
+            "therapy": {
+                "id": 5901,
+                "therapyName": "AZ5104",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13464,
+                    "pubMedId": 30527195,
+                    "title": "Activity of a novel HER2 inhibitor, poziotinib, for HER2 exon 20 mutations in lung cancer and mechanism of acquired resistance: An in vitro study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30527195"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 24125,
+            "profileName": "ERBB2 G776delinsVC",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 9536,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 G776delinsVC"
+                },
+                {
+                    "id": 9535,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 G776delinsVC"
+                }
+            ]
+        },
+        {
+            "id": 31088,
+            "profileName": "ERBB2 G776delinsVC ERBB2 C805S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170520,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39724744_39724746delinsGTATGT",
+            "cDna": "c.2326_2328delinsGTATGT",
+            "protein": "p.G776_776delinsVC",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170521,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39724744_39724746delinsGTATGT",
+            "cDna": "c.2326_2328delinsGTATGT",
+            "protein": "p.G776_776delinsVC",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

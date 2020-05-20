@@ -1,0 +1,120 @@
+{
+    "id": 13002,
+    "fullName": "SQSTM1 - ALK",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "SQSTM1-ALK results from the fusion of SQSTM1 and ALK, and leads to transformation in cultured cells and tumorigenesis in mouse models (PMID: 21134980). SQSTM1-ALK fusions have been identified in large B-cell lymphoma and epithelioid histiocytoma (PMID: 21134980, PMID: 25413595).",
+            "references": [
+                {
+                    "id": 3727,
+                    "pubMedId": 21134980,
+                    "title": "Identification of a novel fusion, SQSTM1-ALK, in ALK-positive large B-cell lymphoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21134980"
+                },
+                {
+                    "id": 5646,
+                    "pubMedId": 25413595,
+                    "title": "Epithelioid cell histiocytoma of the skin with clonal ALK gene rearrangement resulting in VCL-ALK and SQSTM1-ALK gene fusions.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25413595"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8878,
+        "geneSymbol": "SQSTM1",
+        "terms": [
+            "SQSTM1",
+            "A170",
+            "DMRV",
+            "FTDALS3",
+            "NADGP",
+            "OSIL",
+            "p60",
+            "p62",
+            "p62B",
+            "PDB3",
+            "ZIP3"
+        ]
+    },
+    "variant": "SQSTM1 - ALK",
+    "createDate": "10/08/2015",
+    "updateDate": "04/09/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 238,
+                "geneSymbol": "ALK",
+                "terms": [
+                    "ALK",
+                    "CD246",
+                    "NBLST3"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 8298,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Lorlatinib (PF-06463922) inhibited Alk phosphorylation and cell proliferation of patient derived non-small cell lung cancer cells harboring ALK G1202R in the context of SQSTM1-ALK in culture (PMID: 26144315).",
+            "molecularProfile": {
+                "id": 26224,
+                "profileName": "SQSTM1 - ALK ALK G1202R"
+            },
+            "therapy": {
+                "id": 869,
+                "therapyName": "Lorlatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3367,
+                    "pubMedId": 26144315,
+                    "title": "PF-06463922, an ALK/ROS1 Inhibitor, Overcomes Resistance to First and Second Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26144315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 13165,
+            "profileName": "SQSTM1 - ALK",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17578,
+                    "name": "ALK Inhibitor",
+                    "profileName": "SQSTM1 - ALK"
+                }
+            ]
+        },
+        {
+            "id": 26224,
+            "profileName": "SQSTM1 - ALK ALK G1202R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16869,
+                    "name": "Lorlatinib",
+                    "profileName": "SQSTM1 - ALK ALK G1202R"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

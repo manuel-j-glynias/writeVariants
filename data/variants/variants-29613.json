@@ -1,0 +1,160 @@
+{
+    "id": 29613,
+    "fullName": "BRAF N486_T491delinsK",
+    "impact": "indel",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF N486_T491delinsK results in a deletion of 6 amino acids in the protein kinase domain of the Braf protein from amino acids 486 to 491, combined with the insertion of a lysine (K) at the same site (UniProt.org). N486_A491delinsK confers a gain of function to Braf, as indicated by increased ERK activation and transformation of cultured cells (PMID: 30867592).",
+            "references": [
+                {
+                    "id": 14632,
+                    "pubMedId": 30867592,
+                    "title": "Efficacy of MEK inhibition in patients with histiocytic neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30867592"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "N486_T491delinsK",
+    "createDate": "03/28/2019",
+    "updateDate": "03/28/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 178990,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140778036_140778050del15",
+        "cDna": "c.1458_1472del15",
+        "protein": "p.N486_T491delinsK",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 16582,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Cotellic (cobimetinib) inhibited viability of transformed cells expressing BRAF N486_T491delinsK in culture (PMID: 30867592).",
+            "molecularProfile": {
+                "id": 31686,
+                "profileName": "BRAF N486_T491delinsK"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14632,
+                    "pubMedId": 30867592,
+                    "title": "Efficacy of MEK inhibition in patients with histiocytic neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30867592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16572,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Cotellic (cobimetinib) in patients with histiocytic neoplasms resulted in a PET overall response rate of 89% (16/18), with complete response in 72% (13/18) and partial response in 17% (3/18), and resulted in stable disease in 6% (1/18) of patients, including a complete response in a patient with Langerhans cell histiocytosis harboring BRAF N486_T491delinsK (PMID: 30867592; NCT01953926).",
+            "molecularProfile": {
+                "id": 31686,
+                "profileName": "BRAF N486_T491delinsK"
+            },
+            "therapy": {
+                "id": 1004,
+                "therapyName": "Cobimetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60073,
+                "name": "lymphatic system cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14632,
+                    "pubMedId": 30867592,
+                    "title": "Efficacy of MEK inhibition in patients with histiocytic neoplasms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30867592"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 31686,
+            "profileName": "BRAF N486_T491delinsK",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19379,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF N486_T491delinsK"
+                },
+                {
+                    "id": 19378,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF N486_T491delinsK"
+                },
+                {
+                    "id": 19377,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF N486_T491delinsK"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 178990,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140778036_140778050del15",
+            "cDna": "c.1458_1472del15",
+            "protein": "p.N486_T491delinsK",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 178989,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140778036_140778050del15",
+            "cDna": "c.1458_1472del15",
+            "protein": "p.N486_T491delinsK",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

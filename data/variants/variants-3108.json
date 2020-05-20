@@ -1,0 +1,464 @@
+{
+    "id": 3108,
+    "fullName": "EGFR A289T",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR A289T lies within the extracellular domain of the Egfr protein (PMID: 17177598). A289T increased cell proliferation and cell viability as compared to wild-type Egfr in one of two cell lines in culture (PMID: 29533785), but has not been biochemically characterized and therefore, its effect on Egfr protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 1877,
+                    "pubMedId": 17177598,
+                    "title": "Epidermal growth factor receptor activation in glioblastoma through novel missense mutations in the extracellular domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17177598"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "A289T",
+    "createDate": "02/15/2015",
+    "updateDate": "10/31/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 135515,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55154128G>A",
+        "cDna": "c.865G>A",
+        "protein": "p.A289T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17204,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, icotinib treatment resulted in a 6-month partial response in a single East Asian patient with non-small cell lung cancer harboring the mutation, EGFR A289T (J Clin Oncol 37, 2019 (suppl; abstr e13000)).",
+            "molecularProfile": {
+                "id": 2931,
+                "profileName": "EGFR A289T"
+            },
+            "therapy": {
+                "id": 769,
+                "therapyName": "Icotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15227,
+                    "pubMedId": null,
+                    "title": "An EGFR extracellular domain mutation data in the East Asian non-small cell lung cancer populations and response to icotinib: A multicenter study.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.e13000"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12406,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A289T were sensitive to treatment with Tagrisso (osimertinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2931,
+                "profileName": "EGFR A289T"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12404,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A289T were sensitive to treatment with Gilotrif (afatinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2931,
+                "profileName": "EGFR A289T"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12407,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A289T were sensitive to treatment with Erbitux (cetuximab) in culture, demonstrating decreased cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 2931,
+                "profileName": "EGFR A289T"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6038,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iressa (gefitinib) and Linsitinib (OSI-906) worked synergistically to inhibit survival of glioblastoma cell lines harboring mutations in EGFR (EGFRvIII, A289T) and PTEN (I253N, N69D) in culture (PMID: 26561558).",
+            "molecularProfile": {
+                "id": 22288,
+                "profileName": "EGFR A289T EGFR act mut PTEN N69D PTEN I253N"
+            },
+            "therapy": {
+                "id": 4008,
+                "therapyName": "Gefitinib + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5255,
+                    "pubMedId": 26561558,
+                    "title": "InsR/IGF1R Pathway Mediates Resistance to EGFR Inhibitors in Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26561558"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6046,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) and BMS-754807 worked synergistically to inhibit survival of glioblastoma cell lines harboring EGFR (A289T, EGFRvIII) and PTEN (N69D, I253N) mutations in culture (PMID: 26561558).",
+            "molecularProfile": {
+                "id": 22288,
+                "profileName": "EGFR A289T EGFR act mut PTEN N69D PTEN I253N"
+            },
+            "therapy": {
+                "id": 4009,
+                "therapyName": "BMS-754807 + Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3068,
+                "name": "glioblastoma multiforme",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5255,
+                    "pubMedId": 26561558,
+                    "title": "InsR/IGF1R Pathway Mediates Resistance to EGFR Inhibitors in Glioblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26561558"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16928,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Tarceva (erlotinib) resulted in decreased growth of transformed cells expressing EGFR A289T and EGFR L858R in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32102,
+                "profileName": "EGFR A289T EGFR L858R"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16931,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A289T and EGFR L858R in cis demonstrated sensitivity to treatment with Iressa (gefitinib), but when expressed in trans, demonstrated resistance to treatment in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32102,
+                "profileName": "EGFR A289T EGFR L858R"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 16927,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A289T and EGFR L858R in cis were sensitive to treatment with Iressa (gefitinib) in culture, demonstrating decreased cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32102,
+                "profileName": "EGFR A289T EGFR L858R"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16929,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) resulted in decreased growth of transformed cells expressing EGFR A289T and EGFR L858R in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32102,
+                "profileName": "EGFR A289T EGFR L858R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16930,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Tagrisso (osimertinib) resulted in decreased growth of transformed cells expressing EGFR A289T and EGFR L858R in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 32102,
+                "profileName": "EGFR A289T EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2931,
+            "profileName": "EGFR A289T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22288,
+            "profileName": "EGFR A289T EGFR act mut PTEN N69D PTEN I253N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32102,
+            "profileName": "EGFR A289T EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135517,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55154128G>A",
+            "cDna": "c.865G>A",
+            "protein": "p.A289T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135515,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55154128G>A",
+            "cDna": "c.865G>A",
+            "protein": "p.A289T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135516,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55154128G>A",
+            "cDna": "c.865G>A",
+            "protein": "p.A289T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135518,
+            "transcript": "NM_201283",
+            "gDna": "chr7:g.55154128G>A",
+            "cDna": "c.865G>A",
+            "protein": "p.A289T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

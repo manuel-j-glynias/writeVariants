@@ -1,0 +1,448 @@
+{
+    "id": 3090,
+    "fullName": "PIK3CA P539R",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA P539R lies within the PIK helical domain of the Pik3ca protein (UniProt.org). P539R increases the stability of the Pik3ca protein, confers a gain of function, as indicated by constitutive phosphorylation of downstream targets Akt and S6, and is transforming in cell culture (PMID: 18951408, PMID: 17376864, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 1873,
+                    "pubMedId": 18951408,
+                    "title": "PIK3CA somatic mutations in breast cancer: Mechanistic insights from Langevin dynamics simulations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18951408"
+                },
+                {
+                    "id": 101,
+                    "pubMedId": 17376864,
+                    "title": "Rare cancer-specific mutations in PIK3CA show gain of function.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17376864"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "P539R",
+    "createDate": "02/12/2015",
+    "updateDate": "04/29/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 172074,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179218286C>G",
+        "cDna": "c.1616C>G",
+        "protein": "p.P539R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 18941,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CYH33 inhibited proliferation of a breast cancer cell line harboring PIK3CA P539R in culture (PMID: 30003928).",
+            "molecularProfile": {
+                "id": 2913,
+                "profileName": "PIK3CA P539R"
+            },
+            "therapy": {
+                "id": 8687,
+                "therapyName": "CYH33",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16074,
+                    "pubMedId": 30003928,
+                    "title": "Decrease in phosphorylated ERK indicates the therapeutic efficacy of a clinical PI3K\u03b1-selective inhibitor CYH33 in breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30003928"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8820,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY1125976 inhibited proliferation of a breast cancer cell line harboring PIK3CA P539R in culture (PMID: 27699769).",
+            "molecularProfile": {
+                "id": 2913,
+                "profileName": "PIK3CA P539R"
+            },
+            "therapy": {
+                "id": 994,
+                "therapyName": "BAY1125976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6757,
+                    "pubMedId": 27699769,
+                    "title": "BAY 1125976, a selective allosteric AKT1/2 inhibitor, exhibits high efficacy on AKT signaling-dependent tumor growth in mouse models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27699769"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2621,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PF-04691502 inhibited Akt phosphorylation and proliferation of breast cancer cells harboring both PIK3CA P539R and H1047R in culture (PMID: 21750219).",
+            "molecularProfile": {
+                "id": 9797,
+                "profileName": "PIK3CA P539R PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 865,
+                "therapyName": "PF-04691502",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 226,
+                    "pubMedId": 21750219,
+                    "title": "PF-04691502, a potent and selective oral inhibitor of PI3K and mTOR kinases with antitumor activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21750219"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10276,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a breast cancer cell line harboring PIK3CA P539R and PH1047R was sensitive to ARQ 751 in culture, demonstrating inhibition of cell growth (PMID: 26469692).",
+            "molecularProfile": {
+                "id": 9797,
+                "profileName": "PIK3CA P539R PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 4331,
+                "therapyName": "ARQ 751",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8234,
+                    "pubMedId": 26469692,
+                    "title": "Targeting AKT1-E17K and the PI3K/AKT Pathway with an Allosteric AKT Inhibitor, ARQ 092.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26469692"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10273,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, breast cancer cells harboring PIK3CA P539R and H1047R were sensitive to Miransertib (ARQ092) in culture, demonstrating inhibition of cell growth (PMID: 26469692).",
+            "molecularProfile": {
+                "id": 9797,
+                "profileName": "PIK3CA P539R PIK3CA H1047R"
+            },
+            "therapy": {
+                "id": 635,
+                "therapyName": "Miransertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8234,
+                    "pubMedId": 26469692,
+                    "title": "Targeting AKT1-E17K and the PI3K/AKT Pathway with an Allosteric AKT Inhibitor, ARQ 092.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26469692"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8928,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LGH447 sensitized breast cancer cells harboring PIK3CA H1047R, PIK3CA P539R, and with elevated Pim1 protein levels to Alpelisib (BYL719) in culture (PMID: 27604488).",
+            "molecularProfile": {
+                "id": 26539,
+                "profileName": "PIK3CA P539R PIK3CA H1047R PIM1 over exp"
+            },
+            "therapy": {
+                "id": 2419,
+                "therapyName": "Alpelisib + LGH447",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6782,
+                    "pubMedId": 27604488,
+                    "title": "Systematic Functional Characterization of Resistance to PI3K Inhibition in Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27604488"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10778,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Buparlisib (BKM120) resulted in a synergistic effect, demonstrating inhibition of cell proliferation, decreased colony formation, and cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 5612,
+                "therapyName": "BGJ398 + Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10777,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Pictilisib (GDC-0941) resulted in a synergistic effect, demonstrating inhibition of cell proliferation, decreased colony formation, and cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 5613,
+                "therapyName": "BGJ398 + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10780,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Alpelisib (BYL719) resulted in a synergistic effect, demonstrating inhibition of cell proliferation and induced cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 1293,
+                "therapyName": "Alpelisib + BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2913,
+            "profileName": "PIK3CA P539R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17088,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA P539R"
+                },
+                {
+                    "id": 17093,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA P539R"
+                },
+                {
+                    "id": 17094,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA P539R"
+                },
+                {
+                    "id": 17092,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA P539R"
+                },
+                {
+                    "id": 17089,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA P539R"
+                },
+                {
+                    "id": 17090,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA P539R"
+                },
+                {
+                    "id": 17087,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA P539R"
+                },
+                {
+                    "id": 17091,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA P539R"
+                }
+            ]
+        },
+        {
+            "id": 9797,
+            "profileName": "PIK3CA P539R PIK3CA H1047R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26539,
+            "profileName": "PIK3CA P539R PIK3CA H1047R PIM1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27771,
+            "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 172073,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179218286C>G",
+            "cDna": "c.1616C>G",
+            "protein": "p.P539R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 172075,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179218286C>G",
+            "cDna": "c.1616C>G",
+            "protein": "p.P539R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 172074,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179218286C>G",
+            "cDna": "c.1616C>G",
+            "protein": "p.P539R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

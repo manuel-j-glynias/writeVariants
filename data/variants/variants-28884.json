@@ -1,0 +1,138 @@
+{
+    "id": 28884,
+    "fullName": "ESR1 - PCDH11X",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ESR1-PCDH11X results from the fusion of ESR1 and PCDH11X, which leads to estradiol-independent growth in cell culture, estradiol-independent enhanced gene expression, and increased cell motility (PMID: 30089255). ESR1-PCDH11X has been identified in estrogen-receptor positive breast cancer (PMID: 30089255).",
+            "references": [
+                {
+                    "id": 12690,
+                    "pubMedId": 30089255,
+                    "title": "Functional Annotation of ESR1 Gene Fusions in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30089255"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2099,
+        "geneSymbol": "ESR1",
+        "terms": [
+            "ESR1",
+            "ER",
+            "Era",
+            "ESR",
+            "ESRA",
+            "ESTRR",
+            "NR3A1"
+        ]
+    },
+    "variant": "ESR1 - PCDH11X",
+    "createDate": "10/29/2018",
+    "updateDate": "10/31/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 27328,
+                "geneSymbol": "PCDH11X",
+                "terms": [
+                    "PCDH11X",
+                    "PCDH-X",
+                    "PCDH-Y",
+                    "PCDH11",
+                    "PCDH11Y",
+                    "PCDH22",
+                    "PCDHX",
+                    "PPP1R119"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 15146,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, estrogen-receptor positive breast cancer cells expressing ESR1-PCDH11X were resistant to Faslodex (fulvestrant) in culture (PMID: 30089255).",
+            "molecularProfile": {
+                "id": 30793,
+                "profileName": "ESR1 - PCDH11X"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 12690,
+                    "pubMedId": 30089255,
+                    "title": "Functional Annotation of ESR1 Gene Fusions in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30089255"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15145,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Ibrance (palbociclib) resulted in growth inhibition of RB1-positive, estrogen-receptor positive breast cancer cells expressing ESR1-PCDH11X in culture (PMID: 30089255).",
+            "molecularProfile": {
+                "id": 30796,
+                "profileName": "ESR1 - PCDH11X RB1 pos"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12690,
+                    "pubMedId": 30089255,
+                    "title": "Functional Annotation of ESR1 Gene Fusions in Estrogen Receptor-Positive Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30089255"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 30793,
+            "profileName": "ESR1 - PCDH11X",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30796,
+            "profileName": "ESR1 - PCDH11X RB1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

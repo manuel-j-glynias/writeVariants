@@ -1,0 +1,514 @@
+{
+    "id": 6948,
+    "fullName": "FLT3 Y842C",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 Y842C lies within the protein kinase domain of the Flt3 protein (UniProt.org). Y842C results in constitutive phosphorylation of Flt3, activation of Stat5 signaling, is transforming in cell culture (PMID: 15345593), and has been demonstrated to promote secondary drug resistance in the context of FLT3 internal tandem duplication (FLT3-ITD) mutations (PMID: 22504184, PMID: 29187377).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11566,
+                    "pubMedId": 22504184,
+                    "title": "Validation of ITD mutations in FLT3 as a therapeutic target in human acute myeloid leukaemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22504184"
+                },
+                {
+                    "id": 2895,
+                    "pubMedId": 15345593,
+                    "title": "Identification of a novel activating mutation (Y842C) within the activation loop of FLT3 in patients with acute myeloid leukemia (AML).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15345593"
+                },
+                {
+                    "id": 11567,
+                    "pubMedId": 29187377,
+                    "title": "A novel irreversible FLT3 inhibitor, FF-10101, shows excellent efficacy against AML cells with FLT3 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29187377"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "Y842C",
+    "createDate": "06/02/2015",
+    "updateDate": "10/04/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 144629,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018483T>C",
+        "cDna": "c.2525A>G",
+        "protein": "p.Y842C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2324,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, primary AML blasts expressing FLT3 Y842C were resistant to Gleevec (imatinib) as demonstrated by constitutively phosphorylated FLT3 and STAT-5 (PMID: 15345593).",
+            "molecularProfile": {
+                "id": 6801,
+                "profileName": "FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 2895,
+                    "pubMedId": 15345593,
+                    "title": "Identification of a novel activating mutation (Y842C) within the activation loop of FLT3 in patients with acute myeloid leukemia (AML).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15345593"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2323,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rydapt (midostaurin) induced cell death and inhibited FLT3 activation and downstream STAT5 activation in primary acute myeloid leukemic blasts harboring FLT3 Y842C in culture (PMID: 15345593).",
+            "molecularProfile": {
+                "id": 6801,
+                "profileName": "FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2895,
+                    "pubMedId": 15345593,
+                    "title": "Identification of a novel activating mutation (Y842C) within the activation loop of FLT3 in patients with acute myeloid leukemia (AML).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15345593"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13306,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cells harboring a FLT3 internal tandem duplication and expressing FLT3 Y842C demonstrated resistance to Nexavar (sorafenib) in culture (Blood 2009 114:3776).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11089,
+                    "pubMedId": null,
+                    "title": "Mutations in FLT3/ITD Produce Varying Levels of Resistance to FLT3 Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.bloodjournal.org/content/114/22/3776?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6463,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines harboring FLT3 Y842C in addition to FLT3 internal tandem duplications (ITD) in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2403,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FLT3 Y842C conferred resistance to PLX3397 when expressed in a compound mutation with FLT3-ITD in cell culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13309,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cells harboring a FLT3 internal tandem duplication and expressing FLT3 Y842C demonstrated sensitivity to Rydapt (midostaurin) in culture (Blood 2009 114:3776).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11089,
+                    "pubMedId": null,
+                    "title": "Mutations in FLT3/ITD Produce Varying Levels of Resistance to FLT3 Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.bloodjournal.org/content/114/22/3776?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13305,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cells harboring a FLT3 internal tandem duplication and expressing FLT3 Y842C demonstrated resistance to Sutent (sunitinib) in culture (Blood 2009 114:3776).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11089,
+                    "pubMedId": null,
+                    "title": "Mutations in FLT3/ITD Produce Varying Levels of Resistance to FLT3 Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.bloodjournal.org/content/114/22/3776?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9437,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MRX-2843 inhibited Flt3 signaling, resulted in growth inhibition in Quizartinib (AC220)-resistant transformed cells over expressing both FLT3 internal tandem duplication (ITD) and Y842C in culture (PMID: 27158668).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 5016,
+                "therapyName": "MRX-2843",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7187,
+                    "pubMedId": 27158668,
+                    "title": "The MERTK/FLT3 inhibitor MRX-2843 overcomes resistance-conferring FLT3 mutations in acute myeloid leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27158668"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13308,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cells harboring a FLT3 internal tandem duplication and expressing FLT3 Y842C demonstrated sensitivity to Lestaurtinib (CEP-701) in culture (Blood 2009 114:3776).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 793,
+                "therapyName": "Lestaurtinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11089,
+                    "pubMedId": null,
+                    "title": "Mutations in FLT3/ITD Produce Varying Levels of Resistance to FLT3 Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.bloodjournal.org/content/114/22/3776?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13307,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acute myeloid leukemia cells harboring a FLT3 internal tandem duplication and expressing FLT3 Y842C demonstrated resistance to AGL2043 in culture (Blood 2009 114:3776).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 2571,
+                "therapyName": "AGL2043",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11089,
+                    "pubMedId": null,
+                    "title": "Mutations in FLT3/ITD Produce Varying Levels of Resistance to FLT3 Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.bloodjournal.org/content/114/22/3776?sso-checked=true"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14250,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FF-10101, as compared to Quizartinib, inhibited Flt3 autophosphorylation and cell proliferation of transformed 32Dcl3 murine myeloid cells expressing a human FLT3-ITD/Y842C compound mutation (PMID: 29187377).",
+            "molecularProfile": {
+                "id": 19136,
+                "profileName": "FLT3 exon 14 ins FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 7085,
+                "therapyName": "FF-10101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11567,
+                    "pubMedId": 29187377,
+                    "title": "A novel irreversible FLT3 inhibitor, FF-10101, shows excellent efficacy against AML cells with FLT3 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29187377"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4838,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a compound FLT3-ITD/F691L/Y842C mutation were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19286,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6464,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, E6201 inhibited proliferation and induced apoptosis in FLT3 inhibitor-resistant leukemia cell lines harboring FLT3 N676D and Y842C in addition to FLT3 internal tandem duplications (ITD) in culture (PMID: 26822154).",
+            "molecularProfile": {
+                "id": 23516,
+                "profileName": "FLT3 exon 14 ins FLT3 N676D FLT3 Y842C"
+            },
+            "therapy": {
+                "id": 1011,
+                "therapyName": "E6201",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5604,
+                    "pubMedId": 26822154,
+                    "title": "The Dual MEK/FLT3 Inhibitor E6201 Exerts Cytotoxic Activity against Acute Myeloid Leukemia Cells Harboring Resistance-Conferring FLT3 Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26822154"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6801,
+            "profileName": "FLT3 Y842C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5026,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 Y842C"
+                }
+            ]
+        },
+        {
+            "id": 19136,
+            "profileName": "FLT3 exon 14 ins FLT3 Y842C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19286,
+            "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 Y842C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23516,
+            "profileName": "FLT3 exon 14 ins FLT3 N676D FLT3 Y842C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144629,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018483T>C",
+            "cDna": "c.2525A>G",
+            "protein": "p.Y842C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

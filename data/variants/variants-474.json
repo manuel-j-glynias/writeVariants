@@ -1,0 +1,202 @@
+{
+    "id": 474,
+    "fullName": "EZH2 Y641F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EZH2 Y641F lies within the SET domain of the Ezh2 protein (UniProt.org). Y641F confers a gain of function to the Ezh2 protein, as demonstrated by altered substrate specificity, increased catalytic efficiency for H3K27 trimethylation (PMID: 21190999, PMID: 21078963), and increased H3K27 trimethylation in breast cancer cell lines (PMID: 25253781).",
+            "references": [
+                {
+                    "id": 2703,
+                    "pubMedId": 21078963,
+                    "title": "Coordinated activities of wild-type plus mutant EZH2 drive tumor-associated hypertrimethylation of lysine 27 on histone H3 (H3K27) in human B-cell lymphomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21078963"
+                },
+                {
+                    "id": 505,
+                    "pubMedId": 21190999,
+                    "title": "Somatic mutations at EZH2 Y641 act dominantly through a mechanism of selectively altered PRC2 catalytic activity, to increase H3K27 trimethylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21190999"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 12214,
+                    "pubMedId": 25253781,
+                    "title": "A687V EZH2 is a driver of histone H3 lysine 27 (H3K27) hypertrimethylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25253781"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2146,
+        "geneSymbol": "EZH2",
+        "terms": [
+            "EZH2",
+            "ENX-1",
+            "ENX1",
+            "EZH2b",
+            "KMT6",
+            "KMT6A",
+            "WVS",
+            "WVS2"
+        ]
+    },
+    "variant": "Y641F",
+    "createDate": "05/02/2014",
+    "updateDate": "09/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 171524,
+        "transcript": "NM_001203247",
+        "gDna": "chr7:g.148811635T>A",
+        "cDna": "c.1922A>T",
+        "protein": "p.Y641F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2178,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with EPZ005687 decreased proliferation and induced cell killing in a lymphoma cell line harboring EZH2 Y641F in culture (PMID: 23023262).",
+            "molecularProfile": {
+                "id": 671,
+                "profileName": "EZH2 Y641F"
+            },
+            "therapy": {
+                "id": 2663,
+                "therapyName": "EPZ005687",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2699,
+                    "pubMedId": 23023262,
+                    "title": "A selective inhibitor of EZH2 blocks H3K27 methylation and kills mutant lymphoma cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23023262"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7820,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells over expressing EZH2 carrying simultaneous Y641F and Y111D mutations demonstrated reduced sensitivity to Tazemetostat (EPZ-6438) in culture (PMID: 26360609).",
+            "molecularProfile": {
+                "id": 26054,
+                "profileName": "EZH2 Y111D EZH2 Y641F"
+            },
+            "therapy": {
+                "id": 2683,
+                "therapyName": "Tazemetostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6504,
+                    "pubMedId": 26360609,
+                    "title": "Acquisition of a single EZH2 D1 domain mutation confers acquired resistance to EZH2-targeted inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26360609"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7819,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing EZH2 and carrying simultaneous Y641F and Y111D mutations demonstrated reduced sensitivity to GSK126 in culture (PMID: 26360609).",
+            "molecularProfile": {
+                "id": 26054,
+                "profileName": "EZH2 Y111D EZH2 Y641F"
+            },
+            "therapy": {
+                "id": 2925,
+                "therapyName": "GSK126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 6504,
+                    "pubMedId": 26360609,
+                    "title": "Acquisition of a single EZH2 D1 domain mutation confers acquired resistance to EZH2-targeted inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26360609"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 671,
+            "profileName": "EZH2 Y641F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7417,
+                    "name": "EZH2 inhibitor",
+                    "profileName": "EZH2 Y641F"
+                }
+            ]
+        },
+        {
+            "id": 26054,
+            "profileName": "EZH2 Y111D EZH2 Y641F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 171524,
+            "transcript": "NM_001203247",
+            "gDna": "chr7:g.148811635T>A",
+            "cDna": "c.1922A>T",
+            "protein": "p.Y641F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 171525,
+            "transcript": "XM_011515889",
+            "gDna": "chr7:g.148810374T>A",
+            "cDna": "c.1922A>T",
+            "protein": "p.Y641F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,247 @@
+{
+    "id": 3343,
+    "fullName": "FLT3 D835H",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FLT3 D835H lies within the protein kinase domain activation loop of the Flt3 protein (PMID: 11290608). D835H results in constitutive phosphorylation of Flt3 and activation of Stat5, Erk signaling, leading to transformation of cultured cells (PMID: 15256420).",
+            "references": [
+                {
+                    "id": 2011,
+                    "pubMedId": 11290608,
+                    "title": "Activating mutation of D835 within the activation loop of FLT3 in human hematologic malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11290608"
+                },
+                {
+                    "id": 2706,
+                    "pubMedId": 15256420,
+                    "title": "Variable sensitivity of FLT3 activation loop mutations to the small molecule tyrosine kinase inhibitor MLN518.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15256420"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2322,
+        "geneSymbol": "FLT3",
+        "terms": [
+            "FLT3",
+            "CD135",
+            "FLK-2",
+            "FLK2",
+            "STK1"
+        ]
+    },
+    "variant": "D835H",
+    "createDate": "02/25/2015",
+    "updateDate": "07/31/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 144449,
+        "transcript": "NM_004119",
+        "gDna": "chr13:g.28018505C>G",
+        "cDna": "c.2503G>C",
+        "protein": "p.D835H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2295,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Crenolanib (CP-868596) inhibited Flt3 phosphorylation and induced apoptosis in leukemia cells expressing FLT3 D835H (PMID: 24623852).",
+            "molecularProfile": {
+                "id": 3155,
+                "profileName": "FLT3 D835H"
+            },
+            "therapy": {
+                "id": 705,
+                "therapyName": "Crenolanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2972,
+                    "pubMedId": 24623852,
+                    "title": "Crenolanib is a selective type I pan-FLT3 inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24623852"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4850,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with FLT3-ITD positive leukemia initially responded to PLX3397, but experienced relapse after emergence of a FLT3 D835H mutation on the same allele as the FLT3-ITD mutation (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19279,
+                "profileName": "FLT3 exon 14 ins FLT3 D835H"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1240,
+                "name": "leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14249,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FF-10101 inhibited cell growth in AML-patient-derived xenograft models with FLT3-ITD/D835H compound mutations (PMID: 29187377).",
+            "molecularProfile": {
+                "id": 19279,
+                "profileName": "FLT3 exon 14 ins FLT3 D835H"
+            },
+            "therapy": {
+                "id": 7085,
+                "therapyName": "FF-10101",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11567,
+                    "pubMedId": 29187377,
+                    "title": "A novel irreversible FLT3 inhibitor, FF-10101, shows excellent efficacy against AML cells with FLT3 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29187377"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4826,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FLT3 D835H conferred resistance to PLX3397 in transformed cells when expressed as a compound mutation with FLT3-ITD in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19279,
+                "profileName": "FLT3 exon 14 ins FLT3 D835H"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4825,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a compound FLT3-ITD/F691L/D835H mutation were resistant to PLX3397 in culture (PMID: 25847190).",
+            "molecularProfile": {
+                "id": 19280,
+                "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 D835H"
+            },
+            "therapy": {
+                "id": 874,
+                "therapyName": "Pexidartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3027,
+                    "pubMedId": 25847190,
+                    "title": "Characterizing and Overriding the Structural Mechanism of the Quizartinib-Resistant FLT3 \"Gatekeeper\" F691L Mutation with PLX3397.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25847190"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3155,
+            "profileName": "FLT3 D835H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4000,
+                    "name": "FLT3 Inhibitor",
+                    "profileName": "FLT3 D835H"
+                }
+            ]
+        },
+        {
+            "id": 19279,
+            "profileName": "FLT3 exon 14 ins FLT3 D835H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 19280,
+            "profileName": "FLT3 exon 14 ins FLT3 F691L FLT3 D835H",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144449,
+            "transcript": "NM_004119",
+            "gDna": "chr13:g.28018505C>G",
+            "cDna": "c.2503G>C",
+            "protein": "p.D835H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

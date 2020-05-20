@@ -1,0 +1,711 @@
+{
+    "id": 452,
+    "fullName": "BRAF G469A",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G469A is a hotspot mutation within the protein kinase domain of the Braf protein (UniProt.org). G469A results in increased Braf kinase activity and downstream activation of Erk, and is transforming in cell culture (PMID: 19010912, PMID: 12068308, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 636,
+                    "pubMedId": 19010912,
+                    "title": "Genetic predictors of MEK dependence in non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19010912"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 637,
+                    "pubMedId": 12068308,
+                    "title": "Mutations of the BRAF gene in human cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12068308"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G469A",
+    "createDate": "05/02/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109132,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781602C>G",
+        "cDna": "c.1406G>C",
+        "protein": "p.G469A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9413,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF G469A (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16112,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (MyPathway), Zelboraf (vemurafenib) treatment resulted in an objective response in only 4% (1/23) of patient with advanced solid tumors harboring non-V600 BRAF mutations, 2 of the non-responding patients harbored BRAF G469A (PMID: 29320312; NCT02091141).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13171,
+                    "pubMedId": 29320312,
+                    "title": "Targeted Therapy for Advanced Solid Tumors on the Basis of Molecular Profiles: Results From MyPathway, an Open-Label, Phase IIa Multiple Basket Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29320312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15984,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, RMC-4550 did not inhibit Erk phosphorylation or proliferation of lung cancer cells harboring BRAF G469A in culture (PMID: 30104724).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 7839,
+                "therapyName": "RMC-4550",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 14089,
+                    "pubMedId": 30104724,
+                    "title": "RAS nucleotide cycling underlies the SHP2 phosphatase dependence of mutant BRAF-, NF1- and RAS-driven cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30104724"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15543,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Zelboraf (vemurafenib) to treatment with Mekinist (trametinib) resulted in increased proliferation compared to Mekinist (trametinib) alone in a non-small cell lung cancer cell line harboring BRAF G469A in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 4234,
+                "therapyName": "Trametinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9616,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Mekinist (trametinib) and Zelboraf (vemurafenib) inhibited growth of a non-small cell lung cancer cell line harboring BRAF G469A in culture, and prevented Mekinist (trametinib)-related activation of AKT and resulted in increased induction of apoptosis compared to either agent alone (PMID: 25706985).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 4234,
+                "therapyName": "Trametinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 7324,
+                    "pubMedId": 25706985,
+                    "title": "Trametinib with or without vemurafenib in BRAF mutated non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25706985"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 15516,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Braftovi (encorafenib) to treatment with Mekinist (trametinib) resulted in increased growth inhibition in a non-small cell lung cancer cell line harboring BRAF G469A in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 7661,
+                "therapyName": "Encorafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12700,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with BVD-523 (ulixertinib) resulted in a partial response in two patients harboring BRAF G469A, including one patient with head and neck cancer and one patient with small bowel cancer (PMID: 29247021).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 997,
+                "therapyName": "Ulixertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4907,
+                "name": "small intestine carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10607,
+                    "pubMedId": 29247021,
+                    "title": "First-in-Class ERK1/2 Inhibitor Ulixertinib (BVD-523) in Patients with MAPK Mutant Advanced Solid Tumors: Results of a Phase I Dose-Escalation and Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29247021"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15566,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) treatment did not result in significant growth inhibition in a non-small lung cancer cell line harboring BRAF G469A in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9611,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of Mekinist (trametinib) and Tafinlar (dabrafenib) resulted in decreased viability and enhanced ERK inhibition compared to either agent alone, in a non-small cell lung cancer cell line harboring BRAF G469A in culture (PMID: 28947956).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 12147,
+                    "pubMedId": 28947956,
+                    "title": "Non-V600 BRAF mutations recurrently found in lung cancer predict sensitivity to the combination of Trametinib and Dabrafenib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28947956"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9615,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) induced apoptosis and inhibited growth of a non-small cell lung cancer cell line harboring BRAF G469A in culture (PMID: 25706985).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7324,
+                    "pubMedId": 25706985,
+                    "title": "Trametinib with or without vemurafenib in BRAF mutated non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25706985"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9614,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a non-small cell lung cancer cell line harboring BRAF G469A demonstrated resistance to induction of apoptosis by Zelboraf (vemurafenib,) and treatment with Zelboraf (vemurafenib) was not effective in inhibiting growth in culture (PMID: 25706985).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7324,
+                    "pubMedId": 25706985,
+                    "title": "Trametinib with or without vemurafenib in BRAF mutated non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25706985"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20143,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment did not result in response in the cohort of 15 non-small cell lung cancer patients with non-V600 BRAF mutations, which included 3 patients harboring BRAF G469A, and enrollment in this cohort was discontinued (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12072,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PLX8394 decreased growth of lung adenocarcinoma cell lines harboring BRAF G469A in culture, and reduced tumor growth in xenograft models (PMID: 27834212).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 1041,
+                "therapyName": "PLX8394",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10006,
+                    "pubMedId": 27834212,
+                    "title": "Preclinical efficacy of a RAF inhibitor that evades paradoxical MAPK pathway activation in protein kinase BRAF-mutant lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27834212"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12699,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, treatment with BVD-523 (ulixertinib) resulted in a partial response in two patients harboring BRAF G469A, including one patient with head and neck cancer and one patient with small bowel cancer (PMID: 29247021).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 997,
+                "therapyName": "Ulixertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 11934,
+                "name": "head and neck cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10607,
+                    "pubMedId": 29247021,
+                    "title": "First-in-Class ERK1/2 Inhibitor Ulixertinib (BVD-523) in Patients with MAPK Mutant Advanced Solid Tumors: Results of a Phase I Dose-Escalation and Expansion Study.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29247021"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3933,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAE226 treatment inhibited proliferation of non-small cell lung carcinoma cell lines harboring BRAF G469A mutation in culture (PMID: 26090892).",
+            "molecularProfile": {
+                "id": 651,
+                "profileName": "BRAF G469A"
+            },
+            "therapy": {
+                "id": 2086,
+                "therapyName": "TAE226",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4301,
+                    "pubMedId": 26090892,
+                    "title": "TAE226, a Bis-Anilino Pyrimidine Compound, Inhibits the EGFR-Mutant Kinase Including T790M Mutant to Show Anti-Tumor Effect on EGFR-Mutant Non-Small Cell Lung Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26090892"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19303,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Tagrisso (osimertinib) and Mekinist (trametinib) resulted in greater cell death than Tagrisso (osimertinib) alone in non-small cell lung cancer cells harboring an EGFR exon 19 deletion and expressing BRAF G469A in culture (PMID: 31502118).",
+            "molecularProfile": {
+                "id": 34023,
+                "profileName": "BRAF G469A EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 8996,
+                "therapyName": "Osimertinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16909,
+                    "pubMedId": 31502118,
+                    "title": "Acquired BRAF G469A Mutation as a Resistance Mechanism to First-Line Osimertinib Treatment in NSCLC Cell Lines Harboring an EGFR Exon 19 Deletion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31502118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19304,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Tagrisso (osimertinib) and Selumetinib (AZD6244) resulted in greater cell death than Tagrisso (osimertinib) alone in non-small cell lung cancer cells harboring an EGFR exon 19 deletion and expressing BRAF G469A in culture (PMID: 31502118).",
+            "molecularProfile": {
+                "id": 34023,
+                "profileName": "BRAF G469A EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 2225,
+                "therapyName": "Osimertinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16909,
+                    "pubMedId": 31502118,
+                    "title": "Acquired BRAF G469A Mutation as a Resistance Mechanism to First-Line Osimertinib Treatment in NSCLC Cell Lines Harboring an EGFR Exon 19 Deletion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31502118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19301,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring an EGFR exon 19 deletion and expressing BRAF G469A were resistant to treatment with Tagrisso in culture (PMID: 31502118).",
+            "molecularProfile": {
+                "id": 34023,
+                "profileName": "BRAF G469A EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16909,
+                    "pubMedId": 31502118,
+                    "title": "Acquired BRAF G469A Mutation as a Resistance Mechanism to First-Line Osimertinib Treatment in NSCLC Cell Lines Harboring an EGFR Exon 19 Deletion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31502118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19300,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Selumetinib (AZD6244) inhibited proliferation of non-small cell lung cancer cells harboring an EGFR exon 19 deletion and expressing BRAF G469A and resulted in increased cell death and both decreased cell migration and Mapk pathway signaling compared to treatment with Tagrisso (osimertinib) in vitro (PMID: 31502118).",
+            "molecularProfile": {
+                "id": 34023,
+                "profileName": "BRAF G469A EGFR exon 19 del"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16909,
+                    "pubMedId": 31502118,
+                    "title": "Acquired BRAF G469A Mutation as a Resistance Mechanism to First-Line Osimertinib Treatment in NSCLC Cell Lines Harboring an EGFR Exon 19 Deletion.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31502118"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 651,
+            "profileName": "BRAF G469A",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14297,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G469A"
+                },
+                {
+                    "id": 14295,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G469A"
+                },
+                {
+                    "id": 14296,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G469A"
+                },
+                {
+                    "id": 14298,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G469A"
+                }
+            ]
+        },
+        {
+            "id": 34023,
+            "profileName": "BRAF G469A EGFR exon 19 del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109132,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781602C>G",
+            "cDna": "c.1406G>C",
+            "protein": "p.G469A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109131,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781602C>G",
+            "cDna": "c.1406G>C",
+            "protein": "p.G469A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

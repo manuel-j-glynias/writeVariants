@@ -1,0 +1,149 @@
+{
+    "id": 32567,
+    "fullName": "PPM1D R458fs",
+    "impact": "frameshift",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "PPM1D R458fs results in a change in the amino acid sequence of the Ppm1d protein beginning at aa 458 of 605, likely resulting in premature truncation of the functional protein (UniProt.org). R458fs has been identified in the scientific literature (PMID: 31439867), but has not been biochemically characterized and therefore, its effect on Ppm1d protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 17806,
+                    "pubMedId": 31439867,
+                    "title": "PPM1D mutations silence NAPRT gene\u00a0expression and confer NAMPT inhibitor sensitivity in glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31439867"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8493,
+        "geneSymbol": "PPM1D",
+        "terms": [
+            "PPM1D",
+            "IDDGIP",
+            "JDVS",
+            "PP2C-DELTA",
+            "WIP1"
+        ]
+    },
+    "variant": "R458fs",
+    "createDate": "02/11/2020",
+    "updateDate": "02/11/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 187908,
+        "transcript": "NM_003620",
+        "gDna": "chr17:g.(60663105_60663106)",
+        "cDna": "c.(1372_1371)",
+        "protein": "p.R458fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20330,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FK866 treatment inhibited viability of an osteosarcoma cell line harboring PPM1D P458fs in culture, and inhibited tumor growth in a cell line xenograft model (PMID: 31439867).",
+            "molecularProfile": {
+                "id": 35113,
+                "profileName": "PPM1D R458fs"
+            },
+            "therapy": {
+                "id": 5662,
+                "therapyName": "FK866",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3347,
+                "name": "osteosarcoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17806,
+                    "pubMedId": 31439867,
+                    "title": "PPM1D mutations silence NAPRT gene\u00a0expression and confer NAMPT inhibitor sensitivity in glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31439867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20358,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FK866 treatment inhibited viability of a transformed cell line overexpressing PPM1D and harboring R458fs in culture (PMID: 31439867).",
+            "molecularProfile": {
+                "id": 35156,
+                "profileName": "PPM1D R458fs PPM1D over exp"
+            },
+            "therapy": {
+                "id": 5662,
+                "therapyName": "FK866",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17806,
+                    "pubMedId": 31439867,
+                    "title": "PPM1D mutations silence NAPRT gene\u00a0expression and confer NAMPT inhibitor sensitivity in glioma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31439867"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 35113,
+            "profileName": "PPM1D R458fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35156,
+            "profileName": "PPM1D R458fs PPM1D over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 187908,
+            "transcript": "NM_003620",
+            "gDna": "chr17:g.(60663105_60663106)",
+            "cDna": "c.(1372_1371)",
+            "protein": "p.R458fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

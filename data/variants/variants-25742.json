@@ -1,0 +1,133 @@
+{
+    "id": 25742,
+    "fullName": "FADD dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "FADD dec exp indicates decreased expression of the Fadd protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 8772,
+        "geneSymbol": "FADD",
+        "terms": [
+            "FADD",
+            "GIG3",
+            "MORT1"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "11/14/2016",
+    "updateDate": "11/14/2016",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9216,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, head and neck squamous cell carcinoma cells harboring a CASP8 mutation and decreased expression of FADD demonstrated minimal sensitivity to TL32711 (birinapant), resulting in some cell death, but no cell-cycle arrest (PMID: 27469115).",
+            "molecularProfile": {
+                "id": 26784,
+                "profileName": "CASP8 mut FADD dec exp"
+            },
+            "therapy": {
+                "id": 2647,
+                "therapyName": "Birinapant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7034,
+                    "pubMedId": 27469115,
+                    "title": "SMAC Mimetic Birinapant plus Radiation Eradicates Human Head and Neck Cancers with Genomic Amplifications of Cell Death Genes FADD and BIRC2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27469115"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9220,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a head and neck squamous cell carcinoma cell line xenograft model with decreased expression of BIRC2 and FADD resulted in no benefit when treated with the combination of TL32711 (birinapant) and radiotherapy (PMID: 27469115).",
+            "molecularProfile": {
+                "id": 26788,
+                "profileName": "BIRC2 dec exp FADD dec exp"
+            },
+            "therapy": {
+                "id": 4953,
+                "therapyName": "Birinapant + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 7034,
+                    "pubMedId": 27469115,
+                    "title": "SMAC Mimetic Birinapant plus Radiation Eradicates Human Head and Neck Cancers with Genomic Amplifications of Cell Death Genes FADD and BIRC2.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27469115"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26782,
+            "profileName": "FADD dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26784,
+            "profileName": "CASP8 mut FADD dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26787,
+            "profileName": "BIRC2 pos FADD dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26788,
+            "profileName": "BIRC2 dec exp FADD dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

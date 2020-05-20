@@ -1,0 +1,144 @@
+{
+    "id": 26825,
+    "fullName": "TP53 L111fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 L111fs results in a change in the amino acid sequence of the Tp53 protein beginning at aa 111 of 393, likely resulting in premature truncation of the functional protein (UniProt.org). Due to the disruption of the DNA binding domain and the loss of the oligomerization domain (PMID: 21561095), L111fs is predicted to lead to a loss of Tp53 protein function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 2155,
+                    "pubMedId": 21561095,
+                    "title": "Structural effects of the L145Q, V157F, and R282W cancer-associated mutations in the p53 DNA-binding core domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21561095"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "L111fs",
+    "createDate": "07/28/2017",
+    "updateDate": "07/28/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 94692,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.(7676038_7676039)",
+        "cDna": "c.(331_330)",
+        "protein": "p.L111fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11541,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Xalkori (crizotinib) treatment resulted in stable disease for a total of 15 months in a pancreatic ductal adenocarcinoma patient harboring EML4-ALK, along with CDKN2A/B deletion, MYC amplification, and TP53 L111fs (PMID: 28476735).",
+            "molecularProfile": {
+                "id": 28129,
+                "profileName": "EML4 - ALK CDKN2A del CDKN2B del MYC amp TP53 L111fs"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3498,
+                "name": "pancreatic ductal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 9613,
+                    "pubMedId": 28476735,
+                    "title": "Identification of Targetable ALK Rearrangements in Pancreatic Ductal Adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28476735"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 28128,
+            "profileName": "TP53 L111fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14024,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 L111fs"
+                }
+            ]
+        },
+        {
+            "id": 28129,
+            "profileName": "EML4 - ALK CDKN2A del CDKN2B del MYC amp TP53 L111fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 94692,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.(7676038_7676039)",
+            "cDna": "c.(331_330)",
+            "protein": "p.L111fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94693,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.(7676038_7676039)",
+            "cDna": "c.(331_330)",
+            "protein": "p.L111fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94694,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.(7676038_7676039)",
+            "cDna": "c.(331_330)",
+            "protein": "p.L111fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94691,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.(7676038_7676039)",
+            "cDna": "c.(331_330)",
+            "protein": "p.L111fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

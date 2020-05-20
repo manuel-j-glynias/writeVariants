@@ -1,0 +1,162 @@
+{
+    "id": 2786,
+    "fullName": "MTOR E2014K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR E2014K lies within the k alpha helix, just before the FRB domain of the Mtor protein (PMID: 24625776). E2014K is an activating mutation, increasing downstream signaling in cell based assays (PMID: 24625776).",
+            "references": [
+                {
+                    "id": 1381,
+                    "pubMedId": 24625776,
+                    "title": "Activating mTOR mutations in a patient with an extraordinary response on a phase I trial of everolimus and pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24625776"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "E2014K",
+    "createDate": "12/18/2014",
+    "updateDate": "11/04/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 145167,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11127800C>T",
+        "cDna": "c.6040G>A",
+        "protein": "p.E2014K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1484,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, downstream signaling of MTOR E2014K in transfected cells was inhibited by Rapamune (sirolimus) treatment (PMID: 24625776).",
+            "molecularProfile": {
+                "id": 2600,
+                "profileName": "MTOR E2014K"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4006,
+                "name": "bladder urothelial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1381,
+                    "pubMedId": 24625776,
+                    "title": "Activating mTOR mutations in a patient with an extraordinary response on a phase I trial of everolimus and pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24625776"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1486,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with advanced urothelial cancer harboring both MTOR E2014K and MTOR E2419K was exceptionally sensitive to combined treatment with Afinitor (everolimus) and Votrient (pazopanib) and cell based assays suggested Afinitor (everolimus) was responsible for the effect (PMID: 24625776).",
+            "molecularProfile": {
+                "id": 2603,
+                "profileName": "MTOR E2014K MTOR E2419K"
+            },
+            "therapy": {
+                "id": 1806,
+                "therapyName": "Everolimus + Pazopanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4006,
+                "name": "bladder urothelial carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1381,
+                    "pubMedId": 24625776,
+                    "title": "Activating mTOR mutations in a patient with an extraordinary response on a phase I trial of everolimus and pazopanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24625776"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2600,
+            "profileName": "MTOR E2014K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2827,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR E2014K"
+                },
+                {
+                    "id": 2828,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR E2014K"
+                },
+                {
+                    "id": 174,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR E2014K"
+                }
+            ]
+        },
+        {
+            "id": 2603,
+            "profileName": "MTOR E2014K MTOR E2419K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145168,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11127800C>T",
+            "cDna": "c.6040G>A",
+            "protein": "p.E2014K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145167,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11127800C>T",
+            "cDna": "c.6040G>A",
+            "protein": "p.E2014K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

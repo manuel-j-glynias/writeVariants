@@ -1,0 +1,400 @@
+{
+    "id": 2567,
+    "fullName": "TP53 R248W",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R248W is a hotspot mutation that lies within the DNA-binding domain of the Tp53 protein (PMID: 22713868). R248W results in decreased transactivation of Tp53 target genes, increased cell proliferation in culture, and increased tumorigenesis in mice, and leads to decreased ATM activation, resulting in increased genetic instability (PMID: 17417627, PMID: 14743206).",
+            "references": [
+                {
+                    "id": 1106,
+                    "pubMedId": 17417627,
+                    "title": "p53 gain-of-function cancer mutants induce genetic instability by inactivating ATM.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17417627"
+                },
+                {
+                    "id": 2153,
+                    "pubMedId": 14743206,
+                    "title": "Mutant p53 exerts a dominant negative effect by preventing wild-type p53 from binding to the promoter of its target genes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14743206"
+                },
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R248W",
+    "createDate": "11/13/2014",
+    "updateDate": "09/19/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 95395,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7674221G>A",
+        "cDna": "c.742C>T",
+        "protein": "p.R248W",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4096,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APR-246 and Platinol (cisplatin) worked synergistically to inhibit growth of non-small lung cancer cells harboring TP53 R248W in culture (PMID: 26086967).",
+            "molecularProfile": {
+                "id": 3386,
+                "profileName": "TP53 R248W"
+            },
+            "therapy": {
+                "id": 3443,
+                "therapyName": "APR-246 + Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4407,
+                    "pubMedId": 26086967,
+                    "title": "APR-246 overcomes resistance to cisplatin and doxorubicin in ovarian cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26086967"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8269,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TP53 R248W was associated with resistance to PT2399 in VHL-defective clear cell renal cell carcinoma cell lines in culture (PMID: 27595393).",
+            "molecularProfile": {
+                "id": 26217,
+                "profileName": "TP53 R248W VHL inact mut"
+            },
+            "therapy": {
+                "id": 4670,
+                "therapyName": "PT2399",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4467,
+                "name": "clear cell renal cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6586,
+                    "pubMedId": 27595393,
+                    "title": "On-target efficacy of a HIF-2\u03b1 antagonist in preclinical kidney cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27595393"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8577,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sapanisertib (MLN0128) and PD-0325901 combination treatment did not result in tumor growth stabilization in patient-derived xenograft models of colorectal cancer harboring KRAS G12C, PIK3CA H1047R, and TP53 R248W (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26366,
+                "profileName": "KRAS G12C PIK3CA H1047R TP53 R248W"
+            },
+            "therapy": {
+                "id": 4771,
+                "therapyName": "PD-0325901 + Sapanisertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8596,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) and BEZ235 combination treatment did not improve tumor growth stabilization compared to single agent in patient-derived xenograft models of colorectal cancer harboring KRAS G12D, PIK3CA H1047R and TP53 R248W (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26372,
+                "profileName": "KRAS G12D PIK3CA H1047R TP53 R248W"
+            },
+            "therapy": {
+                "id": 1420,
+                "therapyName": "BEZ235 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8697,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BEZ235 stabilized tumor growth of patient-derived xenograft models of colorectal cancer harboring KRAS G12D, PIK3CA H1047R, and TP53 R248W (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26372,
+                "profileName": "KRAS G12D PIK3CA H1047R TP53 R248W"
+            },
+            "therapy": {
+                "id": 672,
+                "therapyName": "BEZ235",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8695,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, patient-derived xenograft models of colorectal cancer harboring KRAS G12D, PIK3CA H1047R, and TP53 R248W did not respond to Selumetinib (AZD6244) treatment (PMID: 26272063).",
+            "molecularProfile": {
+                "id": 26372,
+                "profileName": "KRAS G12D PIK3CA H1047R TP53 R248W"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6689,
+                    "pubMedId": 26272063,
+                    "title": "MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26272063"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13826,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, RB1 K240Sfs*22 and TP53 R248W were identified in the circulating tumor DNA of a patient with estrogen receptor positive, progesterone receptor positive, and Erbb2 (Her2)-negative, invasive ductal carcinoma at the time of disease progression after 5 months of Ibrance (palbociclib) and Faslodex (fulvestrant) combination treatment (PMID: 29236940).",
+            "molecularProfile": {
+                "id": 29560,
+                "profileName": "RB1 K240Sfs*22 TP53 R248W"
+            },
+            "therapy": {
+                "id": 3205,
+                "therapyName": "Fulvestrant + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11295,
+                    "pubMedId": 29236940,
+                    "title": "Polyclonal RB1 mutations and acquired resistance to CDK 4/6 inhibitors in patients with metastatic breast cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29236940"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17302,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Tarceva (erlotinib) treatment resulted in gradual tumor reduction and improved quality of life lasted for 1.5 years in a patient with metastatic non-small cell lung cancer harboring EGFR T790M, L858R, and A871G, TP53 R248W, and RB1 K844S (PMID: 31045832).",
+            "molecularProfile": {
+                "id": 32490,
+                "profileName": "EGFR T790M EGFR L858R EGFR A871G RB1 K844S TP53 R248W"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15348,
+                    "pubMedId": 31045832,
+                    "title": "Clinical characterization of icotinib-induced chemoresistance in erlotinib-treated lung adenocarcinoma patient with EGFR mutations: A case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31045832"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3386,
+            "profileName": "TP53 R248W",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 728,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 R248W"
+                },
+                {
+                    "id": 727,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 R248W"
+                }
+            ]
+        },
+        {
+            "id": 26217,
+            "profileName": "TP53 R248W VHL inact mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26366,
+            "profileName": "KRAS G12C PIK3CA H1047R TP53 R248W",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26372,
+            "profileName": "KRAS G12D PIK3CA H1047R TP53 R248W",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29560,
+            "profileName": "RB1 K240Sfs*22 TP53 R248W",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32490,
+            "profileName": "EGFR T790M EGFR L858R EGFR A871G RB1 K844S TP53 R248W",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95397,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7674221G>A",
+            "cDna": "c.742C>T",
+            "protein": "p.R248W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95396,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7674221G>A",
+            "cDna": "c.742C>T",
+            "protein": "p.R248W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95395,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7674221G>A",
+            "cDna": "c.742C>T",
+            "protein": "p.R248W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95394,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7674221G>A",
+            "cDna": "c.742C>T",
+            "protein": "p.R248W",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

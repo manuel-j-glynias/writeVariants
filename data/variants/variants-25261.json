@@ -1,0 +1,307 @@
+{
+    "id": 25261,
+    "fullName": "SRC T341M",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "SRC T341M lies within the protein kinase domain of the Src protein (UniProt.org). T341M results in increased Src autophosphorylation and substrate phosphorylation, increased cell survival in culture (PMID: 18794843), and is associated with resistance to Src inhibition (PMID: 27222538, PMID: 15157880).",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                },
+                {
+                    "id": 4375,
+                    "pubMedId": 15157880,
+                    "title": "Characterization of a conserved structural determinant controlling protein kinase sensitivity to selective inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15157880"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 644,
+                    "pubMedId": 18794843,
+                    "title": "Activation of tyrosine kinases by mutation of the gatekeeper threonine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18794843"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6714,
+        "geneSymbol": "SRC",
+        "terms": [
+            "SRC",
+            "ASV",
+            "c-SRC",
+            "p60-Src",
+            "SRC1",
+            "THC6"
+        ]
+    },
+    "variant": "T341M",
+    "createDate": "08/18/2016",
+    "updateDate": "08/19/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 162279,
+        "transcript": "NM_198291",
+        "gDna": "chr20:g.37400277C>T",
+        "cDna": "c.1022C>T",
+        "protein": "p.T341M",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7839,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, thyroid cancer cell lines harboring HRAS G13R and KRAS G12R with an acquired SRC T341M mutation demonstrated resistance to Sprycel (dasatinib) in culture and in cell line xenograft models (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7855,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited growth of Sprycel (dasatinib)-resistant thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M in culture and in cell line xenograft models (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7867,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and Mekinist (trametinib) synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture, and resulted in sustained tumor suppression and prolonged survival in cell line xenograft models (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 4599,
+                "therapyName": "Dasatinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7860,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited growth of Sprycel (dasatinib)-resistant thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7868,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and Selumetinib (AZD6244) synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 4600,
+                "therapyName": "Dasatinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7870,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sprycel (dasatinib) and SCH772984 synergistically inhibited proliferation and induced apoptosis in thyroid cancer cell lines harboring KRAS G13R, HRAS G12R, and an acquired SRC T341M mutation in culture (PMID: 27222538).",
+            "molecularProfile": {
+                "id": 26068,
+                "profileName": "HRAS G13R KRAS G12R SRC T341M"
+            },
+            "therapy": {
+                "id": 4601,
+                "therapyName": "Dasatinib + SCH772984",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1781,
+                "name": "thyroid gland cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6508,
+                    "pubMedId": 27222538,
+                    "title": "The Mitogen-Activated Protein Kinase Pathway Facilitates Resistance to the Src Inhibitor Dasatinib in Thyroid Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27222538"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26067,
+            "profileName": "SRC T341M",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16922,
+                    "name": "Dasatinib",
+                    "profileName": "SRC T341M"
+                },
+                {
+                    "id": 16923,
+                    "name": "Bosutinib",
+                    "profileName": "SRC T341M"
+                }
+            ]
+        },
+        {
+            "id": 26068,
+            "profileName": "HRAS G13R KRAS G12R SRC T341M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162279,
+            "transcript": "NM_198291",
+            "gDna": "chr20:g.37400277C>T",
+            "cDna": "c.1022C>T",
+            "protein": "p.T341M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 162278,
+            "transcript": "XM_011529013",
+            "gDna": "chr20:g.37400277C>T",
+            "cDna": "c.1022C>T",
+            "protein": "p.T341M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 162277,
+            "transcript": "NM_005417",
+            "gDna": "chr20:g.37400277C>T",
+            "cDna": "c.1022C>T",
+            "protein": "p.T341M",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

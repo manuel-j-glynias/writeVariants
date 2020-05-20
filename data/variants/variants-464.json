@@ -1,0 +1,365 @@
+{
+    "id": 464,
+    "fullName": "BRAF L597V",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF L597V lies within the protein kinase domain of the Braf protein (UniProt.org). L597V results in activation of Braf as indicated by increased phosphorylation of Mek and Erk in cell culture (PMID: 22798288) and and induces cell proliferation and cell viability in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 3,
+                    "pubMedId": 22798288,
+                    "title": "BRAF(L597) mutations in melanoma are associated with sensitivity to MEK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22798288"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "L597V",
+    "createDate": "05/02/2014",
+    "updateDate": "04/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109234,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753346G>C",
+        "cDna": "c.1789C>G",
+        "protein": "p.L597V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9415,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF L597V (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 663,
+                "profileName": "BRAF L597V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4628,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) inhibited viability of non-small cell lung cancer cells harboring PAK5 T538N, along with concurrent BRAF L597V and NRAS Q61K mutations, in culture (PMID: 23836671).",
+            "molecularProfile": {
+                "id": 18653,
+                "profileName": "BRAF L597V NRAS Q61K PAK5 T538N"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1133,
+                    "pubMedId": 23836671,
+                    "title": "Targeted genetic dependency screen facilitates identification of actionable mutations in FGFR4, MAP3K9, and PAK5 in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23836671"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4623,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with L779450 inhibited ERK signaling and resulted in decreased viability a non-small cell lung cancer cell line harboring three ERK-pathway activating mutations, BRAF L597V, NRAS Q61K, and PAK5 T538N, in culture (PMID: 23836671).",
+            "molecularProfile": {
+                "id": 18653,
+                "profileName": "BRAF L597V NRAS Q61K PAK5 T538N"
+            },
+            "therapy": {
+                "id": 3582,
+                "therapyName": "L779450",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1133,
+                    "pubMedId": 23836671,
+                    "title": "Targeted genetic dependency screen facilitates identification of actionable mutations in FGFR4, MAP3K9, and PAK5 in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23836671"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7964,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring both BRAF L597V and NRAS Q61K demonstrated decreased sensitivity to Tafinlar (dabrafenib) in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26095,
+                "profileName": "BRAF L597V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7909,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZ628 inhibited proliferation of non-small cell lung cancer cells harboring both BRAF L597V and NRAS Q61K in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26095,
+                "profileName": "BRAF L597V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 1093,
+                "therapyName": "AZ628",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7949,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring both BRAF L597V and NRAS Q61L demonstrated decreased sensitivity to PLX7904 in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26095,
+                "profileName": "BRAF L597V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 4606,
+                "therapyName": "PLX7904",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7956,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring both BRAF L597V and NRAS Q61K demonstrated decreased sensitivity to Zelboraf (vemurafenib) in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26095,
+                "profileName": "BRAF L597V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7939,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAK-632 inhibited proliferation of non-small cell lung cancer cells harboring both BRAF L597V and NRAS Q61K in culture (PMID: 27523909).",
+            "molecularProfile": {
+                "id": 26095,
+                "profileName": "BRAF L597V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 3300,
+                "therapyName": "TAK-632",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6522,
+                    "pubMedId": 27523909,
+                    "title": "An Integrated Model of RAF Inhibitor Action Predicts Inhibitor Activity against Oncogenic BRAF Signaling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27523909"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 663,
+            "profileName": "BRAF L597V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14303,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF L597V"
+                },
+                {
+                    "id": 14304,
+                    "name": "LY3009120",
+                    "profileName": "BRAF L597V"
+                },
+                {
+                    "id": 14306,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF L597V"
+                },
+                {
+                    "id": 14305,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF L597V"
+                }
+            ]
+        },
+        {
+            "id": 18653,
+            "profileName": "BRAF L597V NRAS Q61K PAK5 T538N",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26095,
+            "profileName": "BRAF L597V NRAS Q61K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109233,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753346G>C",
+            "cDna": "c.1789C>G",
+            "protein": "p.L597V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109234,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753346G>C",
+            "cDna": "c.1789C>G",
+            "protein": "p.L597V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

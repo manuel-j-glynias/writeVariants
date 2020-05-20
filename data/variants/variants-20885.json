@@ -1,0 +1,316 @@
+{
+    "id": 20885,
+    "fullName": "MAP2K1 F129L",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 F129L lies within the protein kinase domain of the Map2k1 protein (UniProt.org). F129L confers a gain of function to the Map2k1 protein as demonstrated by increased kinase activity compared to wild-type, activation of downstream Erk signaling, and increased binding affinity to c-Raf (PMID: 21705440) and also demonstrates resistance to some Mek and Braf inhibitors (PMID: 29753091).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 6458,
+                    "pubMedId": 21705440,
+                    "title": "Identification of the MEK1(F129L) activating mutation as a potential mechanism of acquired resistance to MEK inhibition in human cancers carrying the B-RafV600E mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21705440"
+                },
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "F129L",
+    "createDate": "04/11/2016",
+    "updateDate": "07/01/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 173364,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66436839T>C",
+        "cDna": "c.385T>C",
+        "protein": "p.F129L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14278,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 F129L displayed resistance to Stivarga (regorafenib; BAY 73-4506), as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 21391,
+                "profileName": "MAP2K1 F129L"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7719,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line harboring MAP2K1 F129L demonstrated sensitivity to treatment with RO4927350 in culture and in cell line xenograft models, demonstrating inhibition of tumor growth (PMID: 21705440).",
+            "molecularProfile": {
+                "id": 21391,
+                "profileName": "MAP2K1 F129L"
+            },
+            "therapy": {
+                "id": 4552,
+                "therapyName": "RO4927350",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6458,
+                    "pubMedId": 21705440,
+                    "title": "Identification of the MEK1(F129L) activating mutation as a potential mechanism of acquired resistance to MEK inhibition in human cancers carrying the B-RafV600E mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21705440"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14256,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 F129L displayed sensitivity to the Mek inhibitor, Selumetinib (AZD6244), as demonstrated by reversal of active Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 21391,
+                "profileName": "MAP2K1 F129L"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14292,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 F129L displayed resistance to the Mek inhibitor, AZD8330, as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 21391,
+                "profileName": "MAP2K1 F129L"
+            },
+            "therapy": {
+                "id": 658,
+                "therapyName": "AZD8330",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14285,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 F129L displayed resistance to the Braf inhibitor, GDC-0879, as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 21391,
+                "profileName": "MAP2K1 F129L"
+            },
+            "therapy": {
+                "id": 1095,
+                "therapyName": "GDC0879",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14271,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 F129L displayed resistance to the Mek inhibitor, PD98059, as demonstrated by constitutive activation of Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 21391,
+                "profileName": "MAP2K1 F129L"
+            },
+            "therapy": {
+                "id": 2617,
+                "therapyName": "PD98059",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14264,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Map2k1 F129L displayed sensitivity to the Braf inhibitor, PLX4720, as demonstrated by reversal of active Map2k1 in transformed human kidney cells (PMID: 29753091).",
+            "molecularProfile": {
+                "id": 21391,
+                "profileName": "MAP2K1 F129L"
+            },
+            "therapy": {
+                "id": 1060,
+                "therapyName": "PLX4720",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11574,
+                    "pubMedId": 29753091,
+                    "title": "Increase in constitutively active MEK1 species by introduction of MEK1 mutations identified in cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29753091"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 21391,
+            "profileName": "MAP2K1 F129L",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10542,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "MAP2K1 F129L"
+                },
+                {
+                    "id": 10543,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "MAP2K1 F129L"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173364,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66436839T>C",
+            "cDna": "c.385T>C",
+            "protein": "p.F129L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173365,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66436839T>C",
+            "cDna": "c.385T>C",
+            "protein": "p.F129L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

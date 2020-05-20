@@ -1,0 +1,407 @@
+{
+    "id": 1790,
+    "fullName": "BRAF G469V",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G469V is a hotspot mutation within the protein kinase domain of the Braf protein (UniProt.org). G469V results in increased Braf kinase activity and activation of downstream MEK and ERK in cell culture (PMID: 28947956, PMID: 26343582, PMID: 28783719), and in one of two cell lines, increased cell proliferation and cell viability compared to wild-type Braf (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 9692,
+                    "pubMedId": 28783719,
+                    "title": "Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28783719"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 12147,
+                    "pubMedId": 28947956,
+                    "title": "Non-V600 BRAF mutations recurrently found in lung cancer predict sensitivity to the combination of Trametinib and Dabrafenib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28947956"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G469V",
+    "createDate": "09/18/2014",
+    "updateDate": "02/07/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 109142,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781602C>A",
+        "cDna": "c.1406G>T",
+        "protein": "p.G469V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20149,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Zelboraf (vemurafenib) treatment did not result in response in the cohort of 15 non-small cell lung cancer patients with non-V600 BRAF mutations, which included 1 patient harboring BRAF G469V, and enrollment in this cohort was discontinued (PMID: 31959346; NCT02304809).",
+            "molecularProfile": {
+                "id": 1777,
+                "profileName": "BRAF G469V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 17717,
+                    "pubMedId": 31959346,
+                    "title": "Vemurafenib in non-small-cell lung cancer patients with BRAFV600 and BRAFnonV600 mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31959346"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15511,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Braftovi (encorafenib) did not inhibit ERK phosphorylation or proliferation of a melanoma cell line harboring BRAF G469V (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 1777,
+                "profileName": "BRAF G469V"
+            },
+            "therapy": {
+                "id": 796,
+                "therapyName": "Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9613,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with synchronous BRAF wild-type hepatocellular carcinoma (HCC) and non-small cell lung cancer harboring BRAF G469V demonstrated a partial response in primary lung lesions, complete response in the lung metastasis, and stability of the HCC following treatment with Nexavar (sorafenib) (PMID: 27388325).",
+            "molecularProfile": {
+                "id": 1777,
+                "profileName": "BRAF G469V"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7323,
+                    "pubMedId": 27388325,
+                    "title": "Efficacy of sorafenib in BRAF-mutated non-small-cell lung cancer (NSCLC) and no response in synchronous BRAF wild type-hepatocellular carcinoma: a case report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27388325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9414,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF G469V (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 1777,
+                "profileName": "BRAF G469V"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15567,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) treatment did not result in significant growth inhibition in a melanoma cell line harboring BRAF G469V and NRAS Q61K in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 31086,
+                "profileName": "BRAF G469V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15519,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Braftovi (encorafenib) to treatment with Mekinist (trametinib) resulted in increased growth inhibition in a melanoma cell line harboring BRAF G469V and NRAS Q61K in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 31086,
+                "profileName": "BRAF G469V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 7661,
+                "therapyName": "Encorafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15547,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, LY3009120 inhibited growth of a melanoma cell line harboring BRAF G469V and NRAS Q61K in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 31086,
+                "profileName": "BRAF G469V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15532,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Braftovi (encorafenib) to treatment with Mektovi (binimetinib) resulted in increased growth inhibition in a melanoma cell line harboring BRAF G469V and NRAS Q61K in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 31086,
+                "profileName": "BRAF G469V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 1100,
+                "therapyName": "Binimetinib + Encorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15540,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Zelboraf (vemurafenib) to treatment with Mekinist (trametinib) resulted in increased proliferation compared to Mekinist (trametinib) alone in a melanoma cell line harboring BRAF G469V and NRAS Q61K in culture (PMID: 29903896).",
+            "molecularProfile": {
+                "id": 31086,
+                "profileName": "BRAF G469V NRAS Q61K"
+            },
+            "therapy": {
+                "id": 4234,
+                "therapyName": "Trametinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13465,
+                    "pubMedId": 29903896,
+                    "title": "Dual MAPK Inhibition Is an Effective Therapeutic Strategy for a Subset of Class II BRAF Mutant Melanomas.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903896"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1777,
+            "profileName": "BRAF G469V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14372,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G469V"
+                },
+                {
+                    "id": 14371,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G469V"
+                },
+                {
+                    "id": 14374,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G469V"
+                },
+                {
+                    "id": 14373,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G469V"
+                }
+            ]
+        },
+        {
+            "id": 31086,
+            "profileName": "BRAF G469V NRAS Q61K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109141,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781602C>A",
+            "cDna": "c.1406G>T",
+            "protein": "p.G469V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109142,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781602C>A",
+            "cDna": "c.1406G>T",
+            "protein": "p.G469V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "id": 903,
+    "fullName": "KIT W557R",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT W557R lies within the juxtamembrane domain (exon 11) of the Kit protein (PMID: 15790786). W557R has been identified in the scientific literature (PMID: 15869870) but has not been biochemically characterized and therefore, its effect on Kit protein funciton is unknown (PubMed, Sep 2018).",
+            "references": [
+                {
+                    "id": 425,
+                    "pubMedId": 15790786,
+                    "title": "Activation mutations of human c-KIT resistant to imatinib mesylate are sensitive to the tyrosine kinase inhibitor PKC412.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15790786"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 12219,
+                    "pubMedId": 15869870,
+                    "title": "KIT overexpression and amplification in gastrointestinal stromal tumors (GISTs).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15869870"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "W557R",
+    "createDate": "07/08/2014",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136906,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727437T>A",
+        "cDna": "c.1669T>A",
+        "protein": "p.W557R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11238,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Tasigna (nilotinib) resulted in an overall response rate of 26.2% (11/41) including a melanoma patient harboring KIT W557R demonstrating a partial response and progression free survival of 35.4 months and overall survival of 35.4 months (PMID: 28327988).",
+            "molecularProfile": {
+                "id": 995,
+                "profileName": "KIT W557R"
+            },
+            "therapy": {
+                "id": 829,
+                "therapyName": "Nilotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9177,
+                    "pubMedId": 28327988,
+                    "title": "Efficacy and safety of nilotinib in patients with KIT-mutated metastatic or inoperable melanoma: final results from the global, single-arm, phase II TEAM trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28327988"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11232,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Tasigna (nilotinib) resulted in an overall response rate of 26.2% (11/41) including a melanoma patient co-harboring KIT L576P and KIT W557R demonstrating a partial response and a progression free survival of 5.3 months and overall survival of 14.7 months when treated with Tasigna (nilotinib) (PMID: 28327988).",
+            "molecularProfile": {
+                "id": 27931,
+                "profileName": "KIT W557R KIT L576P"
+            },
+            "therapy": {
+                "id": 829,
+                "therapyName": "Nilotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9177,
+                    "pubMedId": 28327988,
+                    "title": "Efficacy and safety of nilotinib in patients with KIT-mutated metastatic or inoperable melanoma: final results from the global, single-arm, phase II TEAM trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28327988"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 995,
+            "profileName": "KIT W557R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1918,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT W557R"
+                }
+            ]
+        },
+        {
+            "id": 27931,
+            "profileName": "KIT W557R KIT L576P",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136906,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727437T>A",
+            "cDna": "c.1669T>A",
+            "protein": "p.W557R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136907,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727437T>A",
+            "cDna": "c.1669T>A",
+            "protein": "p.W557R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

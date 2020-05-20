@@ -1,0 +1,151 @@
+{
+    "id": 2736,
+    "fullName": "EGFR P699L",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR P699L lies within a region of the Egfr protein that is important for dimerization, phosphorylation, and activation (UniProt.org). P699L is predicted to confer a loss of function on the Egfr protein as demonstrated by decreased transformation ability as compared to wild-type Egfr in two different cell lines in one study (PMID: 29533785), and is associated with resistance to Egfr inhibitors (PMID: 22722798).",
+            "references": [
+                {
+                    "id": 9192,
+                    "pubMedId": 22722798,
+                    "title": "Rare and novel epidermal growth factor receptor mutations in non-small-cell lung cancer and lack of clinical response to gefitinib in two cases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22722798"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "P699L",
+    "createDate": "12/12/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135804,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55173955C>T",
+        "cDna": "c.2096C>T",
+        "protein": "p.P699L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17659,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Tarceva (erlotinib) treatment resulted in massive disease progression in a patient with non-small cell lung cancer harboring EGFR P699L (PMID: 31175009).",
+            "molecularProfile": {
+                "id": 2558,
+                "profileName": "EGFR P699L"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15702,
+                    "pubMedId": 31175009,
+                    "title": "Clinical Impact of Rare and Compound Mutations of Epidermal Growth Factor Receptor in Patients With Non-Small-Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31175009"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15008,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Iressa (gefitinib) treatment resulted in rapid disease progression in a patient with lung adenocarcinoma harboring EGFR E804G and P699L (PMID: 22722798).",
+            "molecularProfile": {
+                "id": 30537,
+                "profileName": "EGFR P699L EGFR E804G"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9192,
+                    "pubMedId": 22722798,
+                    "title": "Rare and novel epidermal growth factor receptor mutations in non-small-cell lung cancer and lack of clinical response to gefitinib in two cases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22722798"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2558,
+            "profileName": "EGFR P699L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30537,
+            "profileName": "EGFR P699L EGFR E804G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135804,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55173955C>T",
+            "cDna": "c.2096C>T",
+            "protein": "p.P699L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

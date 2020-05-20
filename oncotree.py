@@ -144,7 +144,7 @@ def get_oncotree_dict():
     onco_dict = {}
     unknown = {'code':'unk', 'name':'Unknown'}
     onco_dict['unk'] = unknown
-    f = open('onctoree.json', "r")
+    f = open('data/onctoree.json', "r")
     data = json.loads(f.read())
     f.close()
     for item in data:

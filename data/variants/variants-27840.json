@@ -1,0 +1,209 @@
+{
+    "id": 27840,
+    "fullName": "FGFR2 - DNM3",
+    "impact": "fusion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR2-DNM3 results from the fusion of FGFR2 and DNM3, resulting in FGFR2 activation, increased PI3K and MAPK pathway signaling, and increased colony formation in culture (PMID: 29203461). FGFR2-DNM3 has been identified in triple-receptor negative breast cancer (PMID: 29203461).",
+            "references": [
+                {
+                    "id": 11267,
+                    "pubMedId": 29203461,
+                    "title": "Identifying and Targeting Sporadic Oncogenic Genetic Aberrations in Mouse Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29203461"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2263,
+        "geneSymbol": "FGFR2",
+        "terms": [
+            "FGFR2",
+            "BBDS",
+            "BEK",
+            "BFR-1",
+            "CD332",
+            "CEK3",
+            "CFD1",
+            "ECT1",
+            "JWS",
+            "K-SAM",
+            "KGFR",
+            "TK14",
+            "TK25"
+        ]
+    },
+    "variant": "FGFR2 - DNM3",
+    "createDate": "04/23/2018",
+    "updateDate": "04/23/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 26052,
+                "geneSymbol": "DNM3",
+                "terms": [
+                    "DNM3",
+                    "Dyna III"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 13765,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BRCA1-deficient triple-receptor negative breast cancer xenograft models treated with BKM120 demonstrated only delayed tumor progression when compared to treatment with BGJ398, which resulted in tumor regression (PMID: 29203461).",
+            "molecularProfile": {
+                "id": 29408,
+                "profileName": "FGFR2 - DNM3 BRCA1 loss"
+            },
+            "therapy": {
+                "id": 680,
+                "therapyName": "Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 11267,
+                    "pubMedId": 29203461,
+                    "title": "Identifying and Targeting Sporadic Oncogenic Genetic Aberrations in Mouse Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29203461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13764,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BRCA1-deficient triple-receptor negative breast cancer xenograft models harboring FGFR2-DNM3 were sensitive to treatment with BGJ398, demonstrating tumor regression, however, after 43 days on average, three out of six models developed resistance (PMID: 29203461).",
+            "molecularProfile": {
+                "id": 29408,
+                "profileName": "FGFR2 - DNM3 BRCA1 loss"
+            },
+            "therapy": {
+                "id": 674,
+                "therapyName": "BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 11267,
+                    "pubMedId": 29203461,
+                    "title": "Identifying and Targeting Sporadic Oncogenic Genetic Aberrations in Mouse Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29203461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13766,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BRCA1-deficient triple-receptor negative breast cancer xenograft models harboring FGFR2-DNM3 treated with a combination of BGJ398 and Lynparza (olaparib) demonstrated a complete response and did not develop resistance as compared to those models treated with BGJ398 alone (PMID: 29203461).",
+            "molecularProfile": {
+                "id": 29408,
+                "profileName": "FGFR2 - DNM3 BRCA1 loss"
+            },
+            "therapy": {
+                "id": 6894,
+                "therapyName": "BGJ398 + Olaparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11267,
+                    "pubMedId": 29203461,
+                    "title": "Identifying and Targeting Sporadic Oncogenic Genetic Aberrations in Mouse Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29203461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13769,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BRCA1-deficient triple-receptor negative breast cancer xenograft models treated with a combination of BGJ398 and Talazoparib (BMN-673) demonstrated a complete response and no relapse within 80 days (PMID: 29203461).",
+            "molecularProfile": {
+                "id": 29408,
+                "profileName": "FGFR2 - DNM3 BRCA1 loss"
+            },
+            "therapy": {
+                "id": 6895,
+                "therapyName": "BGJ398 + Talazoparib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11267,
+                    "pubMedId": 29203461,
+                    "title": "Identifying and Targeting Sporadic Oncogenic Genetic Aberrations in Mouse Models of Triple-Negative Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29203461"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 29402,
+            "profileName": "FGFR2 - DNM3",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 19609,
+                    "name": "FGFR Inhibitor (Pan)",
+                    "profileName": "FGFR2 - DNM3"
+                },
+                {
+                    "id": 19608,
+                    "name": "FGFR2 Inhibitor",
+                    "profileName": "FGFR2 - DNM3"
+                }
+            ]
+        },
+        {
+            "id": 29408,
+            "profileName": "FGFR2 - DNM3 BRCA1 loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

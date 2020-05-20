@@ -1,0 +1,612 @@
+{
+    "id": 16302,
+    "fullName": "NTRK1 G667C",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "NTRK1 G667C lies within the protein kinase domain of the Ntrk1 protein (UniProt.org). G667C has been demonstrated to confer resistance to Ntrk inhibitors as a secondary resistance mutation in the context of NTRK1 fusions (PMID: 28751539, PMID: 26546295), but has not been biochemically characterized and therefore, its effect on Ntrk1 protein function is unknown (PubMed, Nov 2019).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 4298,
+                    "pubMedId": 26546295,
+                    "title": "Acquired Resistance to the TRK Inhibitor Entrectinib in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546295"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4914,
+        "geneSymbol": "NTRK1",
+        "terms": [
+            "NTRK1",
+            "MTC",
+            "p140-TrkA",
+            "TRK",
+            "Trk-A",
+            "TRK1",
+            "TRKA"
+        ]
+    },
+    "variant": "G667C",
+    "createDate": "01/12/2016",
+    "updateDate": "11/03/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 112570,
+        "transcript": "NM_002529",
+        "gDna": "chr1:g.156879315G>T",
+        "cDna": "c.1999G>T",
+        "protein": "p.G667C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3927,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Rozlytrek (entrectinib) treatment resulted in partial response for 4 months in a colorectal cancer patient harboring a LMNA-NTRK1 gene fusion, followed by development of drug resistance that was attributed to acquired NTRK1 G595R and NTRK1 G667C mutations (PMID: 26546295).",
+            "molecularProfile": {
+                "id": 16584,
+                "profileName": "LMNA - NTRK1 NTRK1 G595R NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4298,
+                    "pubMedId": 26546295,
+                    "title": "Acquired Resistance to the TRK Inhibitor Entrectinib in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26546295"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11260,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a cell line oncogenic mouse model expressing an NTRK1 activating mutation and a secondary resistance mutation, NTRK1 G667C, was sensitive to treatment with LOXO-195, demonstrating inhibition of tumor growth (PMID: 28578312).",
+            "molecularProfile": {
+                "id": 27939,
+                "profileName": "NTRK1 G667C NTRK1 act mut"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9187,
+                    "pubMedId": 28578312,
+                    "title": "A Next-Generation TRK Kinase Inhibitor Overcomes Acquired Resistance to Prior TRK Kinase Inhibition in Patients with TRK Fusion-Positive Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28578312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11261,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a cell line oncogenic mouse model expressing an NTRK1 activating mutation and a secondary resistance mutation, NTRK1 G667C, demonstrated a decrease response when treated with Vitrakvi (larotrectinib) (PMID: 28578312).",
+            "molecularProfile": {
+                "id": 27939,
+                "profileName": "NTRK1 G667C NTRK1 act mut"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9187,
+                    "pubMedId": 28578312,
+                    "title": "A Next-Generation TRK Kinase Inhibitor Overcomes Acquired Resistance to Prior TRK Kinase Inhibition in Patients with TRK Fusion-Positive Solid Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28578312"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13168,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing TPM3-NTRK1 and NTRK1 G667C were sensitive to Foretinib (GSK1363089) in culture, demonstrating growth inhibition (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13921,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited phosphorylation of NTRK1 and downstream AKT and reduced viability of cells expressing TPM3-NTRK1 with NTRK1 G667C in culture (PMID: 29463555).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11364,
+                    "pubMedId": 29463555,
+                    "title": "Foretinib Overcomes Entrectinib Resistance Associated with the NTRK1 G667C Mutation in NTRK1 Fusion-Positive Tumor Cells in a Brain Metastasis Model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463555"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13170,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G667C were sensitive to Ofev (nintedanib) in culture, demonstrating growth inhibition (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 831,
+                "therapyName": "Nintedanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13922,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ofev (nintedanib) inhibited NTRK1 phosphorylation and viability of cells expressing TPM3-NTRK1 with NTRK1 G667C in culture (PMID: 29463555).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 831,
+                "therapyName": "Nintedanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11364,
+                    "pubMedId": 29463555,
+                    "title": "Foretinib Overcomes Entrectinib Resistance Associated with the NTRK1 G667C Mutation in NTRK1 Fusion-Positive Tumor Cells in a Brain Metastasis Model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463555"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13917,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquisition NTRK1 G667C conferred resistance to Rozlytrek (entrectinib) in a colon cancer cell line harboring TPM3-NTRK1 in xenograft models (PMID: 29463555).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 219,
+                "name": "colon cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11364,
+                    "pubMedId": 29463555,
+                    "title": "Foretinib Overcomes Entrectinib Resistance Associated with the NTRK1 G667C Mutation in NTRK1 Fusion-Positive Tumor Cells in a Brain Metastasis Model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463555"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13166,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G667C were resistant to Vitrakvi (larotrectinib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 2650,
+                "therapyName": "Larotrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20643,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing TPM3-NTRK1 and NTRK1 G667C were resistant to treatment with DS6051b in culture (PMID: 31399568).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 4343,
+                "therapyName": "DS6051b",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17972,
+                    "pubMedId": 31399568,
+                    "title": "The new-generation selective ROS1/NTRK inhibitor DS-6051b overcomes crizotinib resistant ROS1-G2032R mutation in preclinical models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31399568"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13169,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G667C were sensitive to Iclusig (ponatinib) in culture, demonstrating growth inhibition (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14122,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a mouse model expressing TPM3-NTRK1 and NTRK1 G667C was sensitive to treatment with Merestinib (LY2801653), demonstrating tumor regression (PMID: 29568395).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11467,
+                    "pubMedId": 29568395,
+                    "title": "Merestinib (LY2801653) inhibits neurotrophic receptor kinase (NTRK) and suppresses growth of NTRK fusion bearing tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29568395"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13167,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing TPM3-NTRK1 and NTRK1 G667C were sensitive to Cometriq (Cabometyx, cabozantinib) in culture, demonstrating growth inhibition (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13920,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rozlytrek (entrectinib) did not inhibit phosphorylation of NTRK1 or viability of cells expressing TPM3-NTRK1 with NTRK G667C in culture (PMID: 29463555).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11364,
+                    "pubMedId": 29463555,
+                    "title": "Foretinib Overcomes Entrectinib Resistance Associated with the NTRK1 G667C Mutation in NTRK1 Fusion-Positive Tumor Cells in a Brain Metastasis Model.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29463555"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13165,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing TPM3-NTRK1 and NTRK1 G667C were resistant to Rozlytrek (entrectinib) in culture (PMID: 28751539).",
+            "molecularProfile": {
+                "id": 29018,
+                "profileName": "TPM3 - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 1455,
+                "therapyName": "Entrectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10995,
+                    "pubMedId": 28751539,
+                    "title": "Mechanisms of Resistance to NTRK Inhibitors and Therapeutic Strategies in NTRK1-Rearranged Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28751539"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16267,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH7057288 inhibited growth of cells expressing MPRIP-NTRK1 harboring NTRK1 G667C in culture, and induced tumor regression in xenograft models (PMID: 30242093).",
+            "molecularProfile": {
+                "id": 31577,
+                "profileName": "MPRIP - NTRK1 NTRK1 G667C"
+            },
+            "therapy": {
+                "id": 7977,
+                "therapyName": "CH7057288",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 14399,
+                    "pubMedId": 30242093,
+                    "title": "Selective TRK Inhibitor CH7057288 against TRK Fusion-Driven Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30242093"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 16583,
+            "profileName": "NTRK1 G667C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 16584,
+            "profileName": "LMNA - NTRK1 NTRK1 G595R NTRK1 G667C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27939,
+            "profileName": "NTRK1 G667C NTRK1 act mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29018,
+            "profileName": "TPM3 - NTRK1 NTRK1 G667C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31577,
+            "profileName": "MPRIP - NTRK1 NTRK1 G667C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 112570,
+            "transcript": "NM_002529",
+            "gDna": "chr1:g.156879315G>T",
+            "cDna": "c.1999G>T",
+            "protein": "p.G667C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "id": 22997,
+    "fullName": "EGFR K467T",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR K467T lies within the extracellular domain of the Egfr protein (UniProt.org). K467T results in increased Egfr and Erk phosphorylation and confers resistance to Erbitux (cetuximab) in cell culture (PMID: 26843189).",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "K467T",
+    "createDate": "06/01/2016",
+    "updateDate": "06/24/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135708,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55160240A>C",
+        "cDna": "c.1400A>C",
+        "protein": "p.K467T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9311,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SYM004 inhibited phosphorylation of EGFR in cells expressing EGFR K467T in culture (PMID: 26888827).",
+            "molecularProfile": {
+                "id": 23656,
+                "profileName": "EGFR K467T"
+            },
+            "therapy": {
+                "id": 931,
+                "therapyName": "SYM004",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 7071,
+                    "pubMedId": 26888827,
+                    "title": "The First-in-class Anti-EGFR Antibody Mixture Sym004 Overcomes Cetuximab Resistance Mediated by EGFR Extracellular Domain Mutations in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26888827"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6639,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colorectal cancer cell lines over expressing EGFR K467T were resistant to Erbitux (cetuximab)-induced growth inhibition in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23656,
+                "profileName": "EGFR K467T"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6640,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vectibix (panitumumab) inhibited survival of colorectal cancer cell lines over expressing EGFR K467T in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23656,
+                "profileName": "EGFR K467T"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6638,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MM-151 inhibited survival of colorectal cancer cell lines over expressing EGFR K467T in culture (PMID: 26843189).",
+            "molecularProfile": {
+                "id": 23656,
+                "profileName": "EGFR K467T"
+            },
+            "therapy": {
+                "id": 821,
+                "therapyName": "MM-151",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5719,
+                    "pubMedId": 26843189,
+                    "title": "MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26843189"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 23656,
+            "profileName": "EGFR K467T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135710,
+            "transcript": "NM_201282",
+            "gDna": "chr7:g.55160240A>C",
+            "cDna": "c.1400A>C",
+            "protein": "p.K467T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135708,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55160240A>C",
+            "cDna": "c.1400A>C",
+            "protein": "p.K467T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 135709,
+            "transcript": "NM_201284",
+            "gDna": "chr7:g.55160240A>C",
+            "cDna": "c.1400A>C",
+            "protein": "p.K467T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

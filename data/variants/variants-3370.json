@@ -1,0 +1,145 @@
+{
+    "id": 3370,
+    "fullName": "MTOR C1483F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MTOR C1483F lies within TPR repeat 5 of the Mtor protein (UniProt.org). C1483F confers a gain of function to the Mtor protein resulting in activation of signaling and increased phosphorylation of downstream targets (PMID: 24631838), increased phosphorylation of S6K, and increased tumor growth compared to wild-type in vivo (PMID: 27482884).",
+            "references": [
+                {
+                    "id": 6761,
+                    "pubMedId": 27482884,
+                    "title": "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27482884"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 1953,
+                    "pubMedId": 24631838,
+                    "title": "A diverse array of cancer-associated MTOR mutations are hyperactivating and can predict rapamycin sensitivity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24631838"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2475,
+        "geneSymbol": "MTOR",
+        "terms": [
+            "MTOR",
+            "FRAP",
+            "FRAP1",
+            "FRAP2",
+            "RAFT1",
+            "RAPT1",
+            "SKS"
+        ]
+    },
+    "variant": "C1483F",
+    "createDate": "02/26/2015",
+    "updateDate": "03/19/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 145116,
+        "transcript": "NM_004958",
+        "gDna": "chr1:g.11157173C>A",
+        "cDna": "c.4448G>T",
+        "protein": "p.C1483F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8825,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing MTOR C1483F treated with Rapamune (sirolimus) in culture demonstrated decreased phosphorylation of S6k, suggesting sensitivity (PMID: 27482884).",
+            "molecularProfile": {
+                "id": 3180,
+                "profileName": "MTOR C1483F"
+            },
+            "therapy": {
+                "id": 917,
+                "therapyName": "Sirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6761,
+                    "pubMedId": 27482884,
+                    "title": "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27482884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3180,
+            "profileName": "MTOR C1483F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 2816,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "MTOR C1483F"
+                },
+                {
+                    "id": 686,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "MTOR C1483F"
+                },
+                {
+                    "id": 2815,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "MTOR C1483F"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 145116,
+            "transcript": "NM_004958",
+            "gDna": "chr1:g.11157173C>A",
+            "cDna": "c.4448G>T",
+            "protein": "p.C1483F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145117,
+            "transcript": "XM_005263438",
+            "gDna": "chr1:g.11157173C>A",
+            "cDna": "c.4448G>T",
+            "protein": "p.C1483F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 145118,
+            "transcript": "XM_011541166",
+            "gDna": "chr1:g.11157173C>A",
+            "cDna": "c.4448G>T",
+            "protein": "p.C1483F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

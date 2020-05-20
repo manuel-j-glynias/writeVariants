@@ -1,0 +1,265 @@
+{
+    "id": 918,
+    "fullName": "MAP2K1 P124S",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 P124S lies within the protein kinase domain of the Map2k1 protein (UniProt.org). The functional effect of P124S is conflicting, as it has been reported to confer a gain of function on the Map2k1 protein as demonstrated by increased ERK1/2 phosphorylation, but has similar induction of cell proliferation and viability levels as wild-type Map2k1 (PMID: 29533785), and confers resistance to Mek and Braf inhibitors in melanoma cells (PMID: 19915144, PMID: 22197931).",
+            "references": [
+                {
+                    "id": 134,
+                    "pubMedId": 19915144,
+                    "title": "MEK1 mutations confer resistance to MEK and B-RAF inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19915144"
+                },
+                {
+                    "id": 429,
+                    "pubMedId": 22197931,
+                    "title": "Exome sequencing identifies recurrent somatic MAP2K1 and MAP2K2 mutations in melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22197931"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "P124S",
+    "createDate": "07/10/2014",
+    "updateDate": "01/23/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 173474,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66436824C>T",
+        "cDna": "c.370C>T",
+        "protein": "p.P124S",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7061,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 P124S demonstrated resistance to treatment with Mekinist (trametinib) in culture (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24282,
+                "profileName": "BRAF V600E MAP2K1 P124S"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7057,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 P124S demonstrated resistance to treatment with Tafinlar (dabrafenib) in culture (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24282,
+                "profileName": "BRAF V600E MAP2K1 P124S"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7004,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and expressing MAP2K1 P124S demonstrated sensitivity to treatment with VRT11E, resulting in decreased cell growth in culture (PMID: 24265153).",
+            "molecularProfile": {
+                "id": 24282,
+                "profileName": "BRAF V600E MAP2K1 P124S"
+            },
+            "therapy": {
+                "id": 4351,
+                "therapyName": "VRT11E",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5840,
+                    "pubMedId": 24265153,
+                    "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24265153"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7035,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, melanoma cells harboring BRAF V600E and MAP2K1 P124S demonstrated decreased sensitivity to Selumetinib (AZD6244) compared to cells harboring BRAF V600E alone in culture (PMID: 22197931).",
+            "molecularProfile": {
+                "id": 24282,
+                "profileName": "BRAF V600E MAP2K1 P124S"
+            },
+            "therapy": {
+                "id": 913,
+                "therapyName": "Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 429,
+                    "pubMedId": 22197931,
+                    "title": "Exome sequencing identifies recurrent somatic MAP2K1 and MAP2K2 mutations in melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22197931"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18731,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a secondary resistance mutation, MAP2K1 P124S, was identified via cell-free DNA testing after a patient with pancreatic cancer harboring ETV6-NTRK3 progressed on LOXO-195 treatment (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33528,
+                "profileName": "ETV6 - NTRK3 MAP2K1 P124S"
+            },
+            "therapy": {
+                "id": 5917,
+                "therapyName": "LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 999,
+            "profileName": "MAP2K1 P124S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24282,
+            "profileName": "BRAF V600E MAP2K1 P124S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33528,
+            "profileName": "ETV6 - NTRK3 MAP2K1 P124S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173474,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66436824C>T",
+            "cDna": "c.370C>T",
+            "protein": "p.P124S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173475,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66436824C>T",
+            "cDna": "c.370C>T",
+            "protein": "p.P124S",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

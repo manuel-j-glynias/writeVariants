@@ -1,0 +1,116 @@
+{
+    "id": 30533,
+    "fullName": "CDK4 E184K",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "CDK4 E184K lies within the protein kinase domain of the Cdk4 protein (UniProt.org). E184K has been identified in the scientific literature (PMID: 31145688), but has not been biochemically characterized and therefore, its effect on Cdk4 protein is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 15724,
+                    "pubMedId": 31145688,
+                    "title": "Next-generation sequencing reveals mutations in RB1, CDK4 and TP53 that may promote chemo-resistance to palbociclib in ovarian cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31145688"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1019,
+        "geneSymbol": "CDK4",
+        "terms": [
+            "CDK4",
+            "CMM3",
+            "PSK-J3"
+        ]
+    },
+    "variant": "E184K",
+    "createDate": "07/17/2019",
+    "updateDate": "02/20/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 180912,
+        "transcript": "NM_000075",
+        "gDna": "chr12:g.57750738C>T",
+        "cDna": "c.550G>A",
+        "protein": "p.E184K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17667,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic ovarian cancer lacking PTEN expression did not respond to treatment with Ibrance (palbociclib), and was found to harbor RB1 R522* and CDK4 E184K, which potentially contributed to the lack of response (PMID: 31145688).",
+            "molecularProfile": {
+                "id": 32736,
+                "profileName": "CDK4 E184K PTEN neg RB1 R552*"
+            },
+            "therapy": {
+                "id": 850,
+                "therapyName": "Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15724,
+                    "pubMedId": 31145688,
+                    "title": "Next-generation sequencing reveals mutations in RB1, CDK4 and TP53 that may promote chemo-resistance to palbociclib in ovarian cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31145688"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 32735,
+            "profileName": "CDK4 E184K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32736,
+            "profileName": "CDK4 E184K PTEN neg RB1 R552*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 180912,
+            "transcript": "NM_000075",
+            "gDna": "chr12:g.57750738C>T",
+            "cDna": "c.550G>A",
+            "protein": "p.E184K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

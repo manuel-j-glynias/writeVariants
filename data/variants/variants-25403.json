@@ -1,0 +1,502 @@
+{
+    "id": 25403,
+    "fullName": "FGFR4 positive",
+    "impact": "unknown",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR4 positive indicates the presence of the FGFR4 gene, mRNA, and/or protein.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2264,
+        "geneSymbol": "FGFR4",
+        "terms": [
+            "FGFR4",
+            "CD334",
+            "JTK2",
+            "TKF"
+        ]
+    },
+    "variant": "positive",
+    "createDate": "09/18/2016",
+    "updateDate": "04/19/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8407,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, PRN1371 inhibited proliferation of a hepatocellular carcinoma cell line in culture (AACR; Cancer Res 2016;76(14 Suppl):Abstract nr 1249), which has been demonstrated to have activated Fgfr4 signaling (PMID: 22615798).",
+            "molecularProfile": {
+                "id": 26312,
+                "profileName": "FGFR4 positive"
+            },
+            "therapy": {
+                "id": 3583,
+                "therapyName": "PRN1371",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6640,
+                    "pubMedId": null,
+                    "title": "PRN1371, an irreversible, covalent inhibitor of FGFR1, 2, 3 and 4 is highly efficacious in preclinical tumor models",
+                    "url": "http://cancerres.aacrjournals.org/content/76/14_Supplement/1249"
+                },
+                {
+                    "id": 6641,
+                    "pubMedId": 22615798,
+                    "title": "Targeting FGFR4 inhibits hepatocellular carcinoma in preclinical mouse models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22615798"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12096,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I/II trial, FGF401 treatment resulted in an overall response rate of 8% (4/53) and stable disease in 53% (28/53) of hepatocellular carcinoma patients with Fgfr4/Klb expression (Cancer Res 2017;77(13 Suppl):Abstract nr CT106; NCT02325739).",
+            "molecularProfile": {
+                "id": 26312,
+                "profileName": "FGFR4 positive"
+            },
+            "therapy": {
+                "id": 2031,
+                "therapyName": "FGF401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10038,
+                    "pubMedId": null,
+                    "title": "Ph I/II study of FGF401 in adult pts with HCC or solid tumors characterized by FGFR4/KLB expression",
+                    "url": "http://cancerres.aacrjournals.org/content/77/13_Supplement/CT106.short"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20436,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, hepatocellular carcinoma cell lines expressing FGF19, FGFR4, and KLB demonstrated sensitivity to treatment with H3B-6527 in culture (PMID: 31409633).",
+            "molecularProfile": {
+                "id": 34158,
+                "profileName": "FGF19 pos FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 6610,
+                "therapyName": "H3B-6527",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17101,
+                    "pubMedId": 31409633,
+                    "title": "FGF401, A First-In-Class Highly Selective and Potent FGFR4 Inhibitor for the Treatment of FGF19-Driven Hepatocellular Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31409633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19461,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) did not significantly inhibit tumor growth in a cell line xenograft model of FGF19, KLB, and FGFR4-positive hepatocellular carcinoma compared to FGF401 treatment (PMID: 31409633).",
+            "molecularProfile": {
+                "id": 34158,
+                "profileName": "FGF19 pos FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 17101,
+                    "pubMedId": 31409633,
+                    "title": "FGF401, A First-In-Class Highly Selective and Potent FGFR4 Inhibitor for the Treatment of FGF19-Driven Hepatocellular Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31409633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19458,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGF401 inhibited proliferation of a FGF19, KLB, and FGFR4-positive gastric cancer cell line in culture, and inhibited tumor growth in a patient-derived xenograft (PDX) model (PMID: 31409633).",
+            "molecularProfile": {
+                "id": 34158,
+                "profileName": "FGF19 pos FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 2031,
+                "therapyName": "FGF401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17101,
+                    "pubMedId": 31409633,
+                    "title": "FGF401, A First-In-Class Highly Selective and Potent FGFR4 Inhibitor for the Treatment of FGF19-Driven Hepatocellular Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31409633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20435,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, hepatocellular carcinoma cell lines expressing FGF19, FGFR4, and KLB demonstrated sensitivity to treatment with Fisogatinib (BLU-554) in culture (PMID: 31409633).",
+            "molecularProfile": {
+                "id": 34158,
+                "profileName": "FGF19 pos FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17101,
+                    "pubMedId": 31409633,
+                    "title": "FGF401, A First-In-Class Highly Selective and Potent FGFR4 Inhibitor for the Treatment of FGF19-Driven Hepatocellular Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31409633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19457,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGF401 inhibited proliferation of FGF19, KLB, and FGFR4-positive hepatocellular carcinoma cell lines in culture, and inhibited tumor growth and induced tumor stasis and regression in cell line and patient-derived xenograft (PDX) models of hepatocellular carcinoma (PMID: 31409633).",
+            "molecularProfile": {
+                "id": 34158,
+                "profileName": "FGF19 pos FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 2031,
+                "therapyName": "FGF401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17101,
+                    "pubMedId": 31409633,
+                    "title": "FGF401, A First-In-Class Highly Selective and Potent FGFR4 Inhibitor for the Treatment of FGF19-Driven Hepatocellular Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31409633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19464,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, FGF401 did not inhibit tumor growth in a FGFR4-positive, KLB-negative, and FGF19 amplified and overexpressing patient-derived xenograft (PDX) model of gastric cancer (PMID: 31409633).",
+            "molecularProfile": {
+                "id": 34161,
+                "profileName": "FGF19 amp FGF19 over exp FGFR4 pos KLB neg"
+            },
+            "therapy": {
+                "id": 2031,
+                "therapyName": "FGF401",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17101,
+                    "pubMedId": 31409633,
+                    "title": "FGF401, A First-In-Class Highly Selective and Potent FGFR4 Inhibitor for the Treatment of FGF19-Driven Hepatocellular Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31409633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19598,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hepatocellular carcinoma cell line xenograft model with FGF19 amplification, FGFR4 and KLB expression, and FGFR4 V550L demonstrated resistance to treatment with Fisogatinib (BLU-554) (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34275,
+                "profileName": "FGF19 amp FGFR4 V550L FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19600,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hepatocellular carcinoma cell line xenograft model with FGF19 amplification and FGFR4 and KLB expression demonstrated resistance to treatment with Fisogatinib (BLU-554) and was subsequently found to have acquired FGFR4 C552F (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34276,
+                "profileName": "FGF19 amp FGFR4 C552F FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19599,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hepatocellular carcinoma cell line xenograft model with FGF19 amplification and FGFR4 and KLB expression demonstrated resistance to treatment with Fisogatinib (BLU-554) and was subsequently found to have acquired FGFR4 V550L (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34276,
+                "profileName": "FGF19 amp FGFR4 C552F FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19609,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hepatocellular carcinoma cell line xenograft model with FGF19 amplification, FGFR4 and KLB expression, and FGFR4 V550M demonstrated delayed tumor growth when treated with LY2874455 (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34277,
+                "profileName": "FGF19 amp FGFR4 V550M FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 2032,
+                "therapyName": "LY2874455",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19601,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a hepatocellular carcinoma cell line xenograft model with FGF19 amplification and FGFR4 and KLB expression demonstrated resistance to treatment with Fisogatinib (BLU-554) and was subsequently found to have acquired FGFR4 V550M (PMID: 31575540).",
+            "molecularProfile": {
+                "id": 34277,
+                "profileName": "FGF19 amp FGFR4 V550M FGFR4 pos KLB pos"
+            },
+            "therapy": {
+                "id": 3165,
+                "therapyName": "BLU-554",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 17083,
+                    "pubMedId": 31575540,
+                    "title": "Acquired On-Target Clinical Resistance Validates FGFR4 as a Driver of Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31575540"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26312,
+            "profileName": "FGFR4 positive",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28400,
+            "profileName": "FGFR4 pos KLB pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34158,
+            "profileName": "FGF19 pos FGFR4 pos KLB pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34161,
+            "profileName": "FGF19 amp FGF19 over exp FGFR4 pos KLB neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34275,
+            "profileName": "FGF19 amp FGFR4 V550L FGFR4 pos KLB pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34276,
+            "profileName": "FGF19 amp FGFR4 C552F FGFR4 pos KLB pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34277,
+            "profileName": "FGF19 amp FGFR4 V550M FGFR4 pos KLB pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

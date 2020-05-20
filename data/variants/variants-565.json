@@ -1,0 +1,4390 @@
+{
+    "id": 565,
+    "fullName": "EGFR E746_A750del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR E746_A750del results in the deletion of five amino acids in the kinase domain of the Egfr protein from amino acids 746 to 750 (PMID: 17318210). E746_A750del results in increased Egfr kinase activity, activation of p44/42 MAPK and AKT in cell culture, promotes tumor growth in xenograft models (PMID: 16373402, PMID: 16912195), and is transforming in cell culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 21,
+                    "pubMedId": 16912195,
+                    "title": "Kinetic analysis of epidermal growth factor receptor somatic mutant proteins shows increased sensitivity to the epidermal growth factor receptor tyrosine kinase inhibitor, erlotinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16912195"
+                },
+                {
+                    "id": 1881,
+                    "pubMedId": 17318210,
+                    "title": "Epidermal growth factor receptor mutations in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17318210"
+                },
+                {
+                    "id": 1804,
+                    "pubMedId": 16373402,
+                    "title": "Dimerization and the signal transduction pathway of a small in-frame deletion in the epidermal growth factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16373402"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "E746_A750del",
+    "createDate": "05/14/2014",
+    "updateDate": "09/12/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135606,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174773_55174787del15",
+        "cDna": "c.2236_2250del15",
+        "protein": "p.E746_A750delELREA",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2292,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Ganetespib and Tarceva (erlotinib) demonstrated improved antitumor activity compared to either agent alone in cell line xenograft models of non-small cell lung cancer harboring EGFR E746_A750del (PMID: 25077897).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 2802,
+                "therapyName": "Erlotinib + Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 2971,
+                    "pubMedId": 25077897,
+                    "title": "The HSP90 inhibitor ganetespib potentiates the antitumor activity of EGFR tyrosine kinase inhibition in mutant and wild-type non-small cell lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25077897"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3046,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, treatment with Iressa (gefitinib) was found to result in partial response in 7 patients, stable disease in 1 patient, and progressive disease in 1 patient with lung adenocarcinoma harboring EGFR E746_A750del (PMID: 18981003).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3591,
+                    "pubMedId": 18981003,
+                    "title": "Effects of erlotinib in EGFR mutated non-small cell lung cancers with resistance to gefitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18981003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13972,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E746_A750del demonstrated increased sensitivity to Caprelsa (vandetanib) in culture (PMID: 15604279).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11394,
+                    "pubMedId": 15604279,
+                    "title": "Small in-frame deletion in the epidermal growth factor receptor as a target for ZD6474.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15604279"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13603,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited EGFR signaling and proliferation of non-small cell lung cancer cells harboring EGFR E746_A750del in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19337,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited viability of a non-small cell lung carcinoma cell line harboring EGFR E746_A750del in culture (PMID: 31467113).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16160,
+                    "pubMedId": 31467113,
+                    "title": "TAS6417/CLN-081 Is a Pan-Mutation-Selective EGFR Tyrosine Kinase Inhibitor with a Broad Spectrum of Preclinical Activity against Clinically Relevant EGFR Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31467113"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9114,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung adenocarcinoma cells harboring EGFR E746_A750del demonstrated sensitivity to treatment with Abivertinib (AC0010), which resulted in inhibition of both cell growth and Egfr phosphorylation in culture, and tumor regression in xenograft models (PMID: 27573423).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 2909,
+                "therapyName": "Abivertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6924,
+                    "pubMedId": 27573423,
+                    "title": "AC0010, an Irreversible EGFR Inhibitor Selectively Targeting Mutated EGFR and Overcoming T790M-Induced Resistance in Animal Models and Lung Cancer Patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27573423"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5647,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with ER2 resulted in decreased proliferation and increased apoptosis of non-small cell lung cancer (NSCLC) cells harboring EGFR E746_A750del in culture, and delayed tumor growth in NSCLC cell line xenograft models with EGFR E746_A750del (PMID: 27040853).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 3916,
+                "therapyName": "ER2",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5133,
+                    "pubMedId": 27040853,
+                    "title": "ER2, a novel human anti-EGFR monoclonal antibody inhibit tumor activity in non-small cell lung cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27040853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18661,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JBJ-04-125-02 did not inhibit proliferation of a transformed mouse cell line expressing EGFR E746_A750del in culture (PMID: 31092401).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 8684,
+                "therapyName": "JBJ-04-125-02",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16071,
+                    "pubMedId": 31092401,
+                    "title": "Single and Dual Targeting of Mutant EGFR with an Allosteric Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31092401"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13605,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Naquotinib (ASP8273) inhibited EGFR signaling and proliferation of non-small cell lung cancer cells harboring EGFR E746_A750del in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9055,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of WZ4002 and Mekinist (trametinib) inhibited tumor growth, and resulted in reduced tumor rebound compared to WZ4002 alone in non-small cell lung cancer cell line xenograft models harboring EGFR E746_A750del (PMID: 26036643).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 3351,
+                "therapyName": "Trametinib + WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6890,
+                    "pubMedId": 26036643,
+                    "title": "Combined EGFR/MEK Inhibition Prevents the Emergence of Resistance in EGFR-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26036643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9253,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing EGFR E746_A750del in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3135,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gedatolisib (PKI-587) inhibited growth of human non-small cell lung carcinoma cells harboring EGFR E746_A750del in culture (PMID: 21325073, PMID: 16731747).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 1040,
+                "therapyName": "Gedatolisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 220,
+                    "pubMedId": 21325073,
+                    "title": "Antitumor efficacy of PKI-587, a highly potent dual PI3K/mTOR kinase inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21325073"
+                },
+                {
+                    "id": 3642,
+                    "pubMedId": 16731747,
+                    "title": "Chemotherapy-induced epidermal growth factor receptor activation determines response to combined gefitinib/chemotherapy treatment in non-small cell lung cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16731747"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13602,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarceva (erlotinib) inhibited EGFR signaling and proliferation of non-small cell lung cancer cells harboring EGFR E746_A750del in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13604,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited EGFR signaling and proliferation of non-small cell lung cancer cells harboring EGFR E746_A750del in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8059,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BGB-283 inhibited Egfr phosphorylation and cell proliferation in lung carcinoma cells harboring EGFR E746_A750del in culture, and resulted in tumor regression in cell line xenograft models (PMID: 26208524).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 4025,
+                "therapyName": "BGB-283",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3905,
+                "name": "lung carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5280,
+                    "pubMedId": 26208524,
+                    "title": "BGB-283, a Novel RAF Kinase and EGFR Inhibitor, Displays Potent Antitumor Activity in BRAF-Mutated Colorectal Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26208524"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8041,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of ER2 and Platinol (cisplatin) demonstrated synergy in inhibiting tumor growth in a non-small cell lung cancer cell line xenograft model harboring EGFR E746_A750del (PMID: 27040853).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 4625,
+                "therapyName": "Cisplatin + ER2",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5133,
+                    "pubMedId": 27040853,
+                    "title": "ER2, a novel human anti-EGFR monoclonal antibody inhibit tumor activity in non-small cell lung cancer models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27040853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3059,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung carcinoma cells harboring EGFR E746_A750del demonstrated resistance to growth inhibition by Tykerb (lapatinib) in cell culture (PMID: 18199554).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3592,
+                    "pubMedId": 18199554,
+                    "title": "Impact of common epidermal growth factor receptor and HER2 variants on receptor activity and inhibition by lapatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18199554"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14044,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS6417 inhibited growth of lung cancer cell lines harboring EGFR E746_A750del in culture (PMID: 29748209).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 6994,
+                "therapyName": "CLN-081",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11432,
+                    "pubMedId": 29748209,
+                    "title": "TAS6417, A Novel EGFR Inhibitor Targeting Exon 20 Insertion Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29748209"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19336,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TAS6417 induced apoptosis and inhibited viability of non-small cell lung carcinoma cell lines harboring EGFR E746_A750del in culture (PMID: 31467113).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 6994,
+                "therapyName": "CLN-081",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16160,
+                    "pubMedId": 31467113,
+                    "title": "TAS6417/CLN-081 Is a Pan-Mutation-Selective EGFR Tyrosine Kinase Inhibitor with a Broad Spectrum of Preclinical Activity against Clinically Relevant EGFR Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31467113"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13971,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring EGFR E746_A750del demonstrated increased sensitivity to Caprelsa (vandetanib) in culture (PMID: 15604279).",
+            "molecularProfile": {
+                "id": 624,
+                "profileName": "EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11394,
+                    "pubMedId": 15604279,
+                    "title": "Small in-frame deletion in the epidermal growth factor receptor as a target for ZD6474.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15604279"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2657,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Odomzo (sonidegib) and Iressa (gefitinib) decreased viability and migration of non-small cell lung cancer (NSCLC) cells harboring an EGFR E746_A750del mutation and SMO amplification in culture and inhibited tumor growth in NSCLC xenograft models with EGFR E746_A750del and SMO amplification (PMID: 26124204).",
+            "molecularProfile": {
+                "id": 9076,
+                "profileName": "EGFR E746_A750del SMO amp"
+            },
+            "therapy": {
+                "id": 2986,
+                "therapyName": "Gefitinib + Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3267,
+                    "pubMedId": 26124204,
+                    "title": "SMO Gene Amplification and Activation of the Hedgehog Pathway as Novel Mechanisms of Resistance to Anti-Epidermal Growth Factor Receptor Drugs in Human Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26124204"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2547,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, amplification of SMO conferred acquired resistance to Iressa (gefitinib) in non-small cell lung cancer cells harboring EGFR E746_A750del in culture (PMID: 26124204).",
+            "molecularProfile": {
+                "id": 9076,
+                "profileName": "EGFR E746_A750del SMO amp"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3267,
+                    "pubMedId": 26124204,
+                    "title": "SMO Gene Amplification and Activation of the Hedgehog Pathway as Novel Mechanisms of Resistance to Anti-Epidermal Growth Factor Receptor Drugs in Human Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26124204"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2656,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Odomzo (sonidegib) did not decrease viability or migration of non-small cell lung cancer cells harboring EGFR E746_A750del and amplification of SMO in culture (PMID: 26124204).",
+            "molecularProfile": {
+                "id": 9076,
+                "profileName": "EGFR E746_A750del SMO amp"
+            },
+            "therapy": {
+                "id": 1428,
+                "therapyName": "Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 3267,
+                    "pubMedId": 26124204,
+                    "title": "SMO Gene Amplification and Activation of the Hedgehog Pathway as Novel Mechanisms of Resistance to Anti-Epidermal Growth Factor Receptor Drugs in Human Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26124204"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2658,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Odomzo (sonidegib) and PHA-665752 decreased viability and migration of non-small cell lung cancer (NSCLC) cells harboring EGFR E746_A750del and SMO amplification in culture, and resulted in complete response in 100% (8/8) of NSCLC xenograft models with EGFR E746_A750del and SMO amplification (PMID: 26124204).",
+            "molecularProfile": {
+                "id": 9076,
+                "profileName": "EGFR E746_A750del SMO amp"
+            },
+            "therapy": {
+                "id": 2987,
+                "therapyName": "PHA-665752 + Sonidegib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3267,
+                    "pubMedId": 26124204,
+                    "title": "SMO Gene Amplification and Activation of the Hedgehog Pathway as Novel Mechanisms of Resistance to Anti-Epidermal Growth Factor Receptor Drugs in Human Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26124204"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18514,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR E746_A750del and EGFR T790M were resistant to treatment with Tarceva (erlotinib) when expressed in cis, but sensitive to treatment when expressed in trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18516,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR E746_A750del and EGFR T790M in cis and trans demonstrated resistance to treatment with Erbitux (cetuximab) (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18512,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR E746_A750del and EGFR T790M in cis and trans were resistant to treatment with Iressa (gefitinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18662,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JBJ-04-125-02 did not inhibit proliferation of a transformed mouse cell line expressing EGFR E746_A750del and T790M in culture (PMID: 31092401).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 8684,
+                "therapyName": "JBJ-04-125-02",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16071,
+                    "pubMedId": 31092401,
+                    "title": "Single and Dual Targeting of Mutant EGFR with an Allosteric Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31092401"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21247,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, EGFR T790M was identified in 90% (154/171) of Vizimpro (dacomitinib)-resistant clones generated through ENU mutagenesis in transformed cells expressing EGFR E746_A750del (42/42), EGFR L858R (62/66), or G719A (50/63) in culture (PMID: 29410323).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 11558,
+                    "pubMedId": 29410323,
+                    "title": "EGFR T790M and C797S Mutations as Mechanisms of Acquired Resistance to Dacomitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29410323"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13610,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung cancer cells harboring both EGFR E746_A750del and EGFR T790M were resistant to Tarceva (erlotinib) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9054,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of WZ4002 and Mekinist (trametinib) inhibited tumor growth, and resulted in increased ERK inhibition and reduced tumor rebound compared to WZ4002 alone in non-small cell lung cancer cell line xenograft models harboring both EGFR E746_A750del and EGFR T790M (PMID: 26036643).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 3351,
+                "therapyName": "Trametinib + WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6890,
+                    "pubMedId": 26036643,
+                    "title": "Combined EGFR/MEK Inhibition Prevents the Emergence of Resistance in EGFR-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26036643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13608,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited EGFR signaling and proliferation of non-small cell lung cancer cells harboring both EGFR E746_A750del and EGFR T790M in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15700,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) treatment reduced proliferation and EGFR pathway signaling in non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M in culture, and reduced tumor growth in cell line xenograft mouse models (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18513,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR E746_A750del and EGFR T790M in cis and trans were resistant to treatment with Tarceva (erlotinib) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9254,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Alunbrig (brigatinib) inhibited growth of transformed cells expressing EGFR E746_A750del and T790M in culture (PMID: 27780853).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 634,
+                "therapyName": "Brigatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7044,
+                    "pubMedId": 27780853,
+                    "title": "The Potent ALK Inhibitor Brigatinib (AP26113) Overcomes Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in Preclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27780853"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3048,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, 4 patients with lung adenocarcinoma harboring EGFR E746_A750del that had developed Iressa (gefitinib) resistance were found to have acquired EGFR T790M mutations (PMID: 18981003).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3591,
+                    "pubMedId": 18981003,
+                    "title": "Effects of erlotinib in EGFR mutated non-small cell lung cancers with resistance to gefitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18981003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16637,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, EGFR T790M was identified in a patient with lung adenocarcinoma harboring EGFR E746_A750del with resistance to Iressa (gefitinib) (PMID: 15737014).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 1879,
+                    "pubMedId": 15737014,
+                    "title": "Acquired resistance of lung adenocarcinomas to gefitinib or erlotinib is associated with a second mutation in the EGFR kinase domain.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15737014"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15695,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rociletinib (CO-1686) treatment reduced proliferation and EGFR pathway signaling in non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15693,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) treatment did not reduce proliferation and EGFR pathway signaling in non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13609,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited EGFR signaling and proliferation of non-small cell lung cancer cells harboring both EGFR E746_A750del and EGFR T790M in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13607,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Naquotinib (ASP8273) inhibited EGFR signaling and proliferation of non-small cell lung cancer cells harboring both EGFR E746_A750del and EGFR T790M in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18515,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells co-expressing EGFR E746_A750del and EGFR T790M were sensitive to treatment with Tagrisso (osimertinib) when expressed in cis in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 21249,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited growth of transformed cells expressing both EGFR E746)A750del and EGFR T790M in culture (PMID: 29410323).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11558,
+                    "pubMedId": 29410323,
+                    "title": "EGFR T790M and C797S Mutations as Mechanisms of Acquired Resistance to Dacomitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29410323"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3047,
+            "approvalStatus": "Clinical Study",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, 3 of 4 patients with lung adenocarcinoma harboring EGFR E746_A750del, who were found to have acquired EGFR T790M upon disease progression on Iressa (gefitinib) therapy, had rapid disease progression in response to Tarceva (erlotinib) therapy (PMID: 18981003).",
+            "molecularProfile": {
+                "id": 11380,
+                "profileName": "EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3591,
+                    "pubMedId": 18981003,
+                    "title": "Effects of erlotinib in EGFR mutated non-small cell lung cancers with resistance to gefitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18981003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16836,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TQB3804 inhibited Egfr downstream signaling, resulted in growth inhibition of non-small cell lung cancer cell lines harboring EGFR E746_A750del, T790M, and C797S triple mutations in culture and in cell line xenograft models, and inhibited tumor growth in a patient-derived xenograft (PDX) model (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1320).",
+            "molecularProfile": {
+                "id": 11688,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 8204,
+                "therapyName": "TQB3804",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14950,
+                    "pubMedId": null,
+                    "title": "Preclinical evaluation of TQB3804, a potent EGFR C797S inhibitor.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16835,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, TQB3804 inhibited Egfr downstream signaling, resulted in growth inhibition of transformed cells expressing EGFR E746_A750del, T790M, and C797S triple mutations in culture and in cell line xenograft models (Proceedings of the American Association for Cancer Research, Vol 60, Mar 2019, Abstract #1320).",
+            "molecularProfile": {
+                "id": 11688,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 8204,
+                "therapyName": "TQB3804",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 14950,
+                    "pubMedId": null,
+                    "title": "Preclinical evaluation of TQB3804, a potent EGFR C797S inhibitor.",
+                    "url": "https://www.aacr.org/Documents/AACR_2019_Proceedings.pdf"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10305,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) did not inhibit growth of transformed cells expressing a EGFR E746_A750del/T790M/C797S triple mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11688,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18663,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, JBJ-04-125-02 did not inhibit proliferation of a transformed mouse cell line expressing EGFR E746_A750del, C797S and T790M in culture (PMID: 31092401).",
+            "molecularProfile": {
+                "id": 11688,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 8684,
+                "therapyName": "JBJ-04-125-02",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16071,
+                    "pubMedId": 31092401,
+                    "title": "Single and Dual Targeting of Mutant EGFR with an Allosteric Inhibitor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31092401"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3093,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR E746_A750del/EGFR T790M/EGFR L718Q triple mutation demonstrated resistance to AZD9291 in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11689,
+                "profileName": "EGFR L718Q EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3108,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9291 inhibited growth of non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M and ectopically expressing an EGFR E746_A750del/EGFR T790M/EGFR L718Q triple mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11689,
+                "profileName": "EGFR L718Q EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3107,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of an EGFR E746_A750del/EGFR T790M/EGFR L718Q triple mutation conferred resistance to Rociletinib (CO-1686) in non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11689,
+                "profileName": "EGFR L718Q EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3074,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR E746_A750del/EGFR T790M/EGFR L718Q triple mutation demonstrated resistance to Rociletinib (CO-1686) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11689,
+                "profileName": "EGFR L718Q EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3104,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9291 inhibited growth of non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M and ectopically expressing an EGFR E746_A750del/EGFR T790M/EGFR L844V triple mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11690,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR L844V"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3106,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of an EGFR E746_A750del/EGFR T790M/EGFR L844V triple mutation conferred resistance to Rociletinib (CO-1686) in non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11690,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR L844V"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3083,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR E746_A750del/EGFR T790M/EGFR L844V triple mutation demonstrated resistance to Rociletinib (CO-1686) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11690,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR L844V"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3088,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9291 inhibited growth of transformed cells expressing an EGFR E746_A750del/EGFR T790M/EGFR L844V triple mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11690,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR L844V"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3102,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited growth of transformed cells expressing an EGFR E746_A750del/EGFR C797S double mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10302,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iressa (gefitinib) inhibited growth of a non-small cell lung cancer cell line harboring EGFR E746_A750del and expressing EGFR E746_A750del/C797S in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3090,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR E746_A750del/EGFR C797S double mutation demonstrated resistance to AZD9291 in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10303,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited growth of a non-small cell lung cancer cell line harboring EGFR E746_A750del and expressing EGFR E746_A750del/C797S in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10301,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a non-small cell lung cancer cell line harboring EGFR E746_A750del and expressing EGFR E746_A750del/C797S demonstrated resistance to growth inhibition by Tagrisso (osimertinib) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10299,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a non-small cell lung cancer cell line harboring EGFR DelE746_A750 and expressing EGFR DelE746_A750/C797S demonstrated resistance to growth inhibition by Rociletinib (CO1686) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3078,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing an EGFR E746_A750del/EGFR C797S double mutation demonstrated resistance to Rociletinib (CO-1686) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10300,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a non-small cell lung cancer cell line harboring EGFR E746_A750del and expressing EGFR E746_A750del/C797S demonstrated resistance to growth inhibition by WZ4002 in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11691,
+                "profileName": "EGFR E746_A750del EGFR C797S"
+            },
+            "therapy": {
+                "id": 3075,
+                "therapyName": "WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3086,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9291 inhibited growth of transformed cells expressing an EGFR E746_A750del/EGFR L718Q double mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11692,
+                "profileName": "EGFR L718Q EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3076,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR E746_A750del/EGFR L718Q double mutation demonstrated resistance to Rociletinib (CO-1686) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11692,
+                "profileName": "EGFR L718Q EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3099,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited growth of transformed cells expressing an EGFR E746_A750del/EGFR L718Q double mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11692,
+                "profileName": "EGFR L718Q EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3101,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited growth of transformed cells expressing an EGFR E746_A750del/EGFR L844V double mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11693,
+                "profileName": "EGFR E746_A750del EGFR L844V"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3077,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR E746_A750del/EGFR L844V double mutation demonstrated resistance to Rociletinib (CO-1686) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11693,
+                "profileName": "EGFR E746_A750del EGFR L844V"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3085,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9291 inhibited growth of transformed cells expressing an EGFR E746_A750del/EGFR L844V double mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11693,
+                "profileName": "EGFR E746_A750del EGFR L844V"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3094,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing an EGFR E746_A750del/EGFR T790M/EGFR Q791R triple mutation demonstrated resistance to Rociletinib (CO-1686) in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11733,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR Q791R"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3096,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AZD9291 inhibited growth of transformed cells expressing an EGFR E746_A750del/EGFR T790M/EGFR Q791R triple mutation in culture (PMID: 25948633).",
+            "molecularProfile": {
+                "id": 11733,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR Q791R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3618,
+                    "pubMedId": 25948633,
+                    "title": "EGFR Mutations and Resistance to Irreversible Pyrimidine-Based EGFR Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25948633"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3815,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of the MEK inhibitor CI-1040 overcame resistance to WZ4002 in non-small cell lung cancer cells harboring an EGFR E746_A750del/T790M double mutation and MAPK1 amplification, resulting in inhibition of cell growth in culture (PMID: 22961667).",
+            "molecularProfile": {
+                "id": 16168,
+                "profileName": "EGFR E746_A750del EGFR T790M MAPK1 amp"
+            },
+            "therapy": {
+                "id": 3350,
+                "therapyName": "CI-1040 + WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4187,
+                    "pubMedId": 22961667,
+                    "title": "Reactivation of ERK signaling causes resistance to EGFR kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22961667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3816,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Mekinist (trametinib) overcame resistance to WZ4002 in non-small cell lung cancer cells harboring an EGFR E746_A750del/T790M double mutation and MAPK1 amplification, resulting in inhibition of cell growth in culture (PMID: 22961667).",
+            "molecularProfile": {
+                "id": 16168,
+                "profileName": "EGFR E746_A750del EGFR T790M MAPK1 amp"
+            },
+            "therapy": {
+                "id": 3351,
+                "therapyName": "Trametinib + WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4187,
+                    "pubMedId": 22961667,
+                    "title": "Reactivation of ERK signaling causes resistance to EGFR kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22961667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3813,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MAPK1 amplification conferred resistance to WZ4002 in non-small cell lung cancer cells harboring an EGFR E746_A750del/T790M double mutation in culture (PMID: 22961667).",
+            "molecularProfile": {
+                "id": 16168,
+                "profileName": "EGFR E746_A750del EGFR T790M MAPK1 amp"
+            },
+            "therapy": {
+                "id": 3075,
+                "therapyName": "WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4187,
+                    "pubMedId": 22961667,
+                    "title": "Reactivation of ERK signaling causes resistance to EGFR kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22961667"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4266,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ALW-II-41-27 reduced survival of a Tarceva (erlotinib)-resistant non-small cell lung cancer cell line harboring both EGFR E746_A750del and T790M and overexpressing EphA2 in culture, and inhibited tumor growth in cell line xenograft models (PMID: 26744526).",
+            "molecularProfile": {
+                "id": 17585,
+                "profileName": "EGFR E746_A750del EGFR T790M EPHA2 over exp"
+            },
+            "therapy": {
+                "id": 3274,
+                "therapyName": "ALW-II-41-27",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4472,
+                    "pubMedId": 26744526,
+                    "title": "EPHA2 Blockade Overcomes Acquired Resistance to EGFR Kinase Inhibitors in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4312,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEDI5117 in combination with Alimta (pemetrexed) inhibited tumor growth in xenograft models of non-small cell lung cancer cells harboring EGFR del E746-A750 and with intact autocrine IL6 signaling (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17709,
+                "profileName": "EGFR E746_A750del IL6 pos IL6R pos"
+            },
+            "therapy": {
+                "id": 3489,
+                "therapyName": "MEDI5117 + Pemetrexed",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4300,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEDI5117 in combination with Iressa (gefitinib) inhibited tumor growth more than either compound alone in xenograft models of non-small cell lung cancer cells harboring EGFR E746-A750del and with intact autocrine IL6 signaling (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17709,
+                "profileName": "EGFR E746_A750del IL6 pos IL6R pos"
+            },
+            "therapy": {
+                "id": 3483,
+                "therapyName": "Gefitinib + MEDI5117",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4299,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEDI5117 in combination with Taxol (paclitaxel) inhibited tumor growth and STAT signaling in non-small cell lung cancer cells harboring EGFR del E746-A750 and with intact autocrine IL6 signaling in xenograft models (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17709,
+                "profileName": "EGFR E746_A750del IL6 pos IL6R pos"
+            },
+            "therapy": {
+                "id": 3482,
+                "therapyName": "MEDI5117 + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4307,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEDI5117 in combination with Gemzar (gemcitabine) and Platinol (cisplatin) inhibited tumor growth more than MEDI5117 or gemcitabine with cisplatin in non-small cell lung cancer cells harboring EGFR E746-A750del with intact autocrine IL6 signaling in xenograft models (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17709,
+                "profileName": "EGFR E746_A750del IL6 pos IL6R pos"
+            },
+            "therapy": {
+                "id": 3486,
+                "therapyName": "Cisplatin + Gemcitabine + MEDI5117",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4298,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MEDI5117 inhibited tumor growth in xenograft models of non-small cell lung cancer cells harboring EGFR E746-A750del and with intact autocrine IL6 signaling (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17709,
+                "profileName": "EGFR E746_A750del IL6 pos IL6R pos"
+            },
+            "therapy": {
+                "id": 3481,
+                "therapyName": "MEDI5117",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4308,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gemzar (gemcitabine) and Platinol (cisplatin) inhibited tumor growth in non-small cell lung cancer cells harboring EGFR E746-A750del and with intact autocrine IL6 signaling in xenongraft models (PMID: 26744529).",
+            "molecularProfile": {
+                "id": 17709,
+                "profileName": "EGFR E746_A750del IL6 pos IL6R pos"
+            },
+            "therapy": {
+                "id": 1467,
+                "therapyName": "Cisplatin + Gemcitabine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4491,
+                    "pubMedId": 26744529,
+                    "title": "A Novel IL6 Antibody Sensitizes Multiple Tumor Types to Chemotherapy Including Trastuzumab-Resistant Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26744529"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6932,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ABT-414 demonstrated cytotoxicity against a lung adenocarcinoma cell line that harbored EGFR amplification and EGFR E746_A750del in culture and induced tumor regression in cell line xenograft models (PMID: 26846818).",
+            "molecularProfile": {
+                "id": 24031,
+                "profileName": "EGFR E746_A750del EGFR amp"
+            },
+            "therapy": {
+                "id": 976,
+                "therapyName": "Depatuxizumab mafodotin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5960,
+                    "pubMedId": 26846818,
+                    "title": "ABT-414, an Antibody-Drug Conjugate Targeting a Tumor-Selective EGFR Epitope.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26846818"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9060,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Xalkori (crizotinib) to treatment with WZ4002 delayed the onset of drug resistance in a non-small cell lung cancer cell line harboring EGFR E746_A750del and activation of HGF signaling (PMID: 26036643).",
+            "molecularProfile": {
+                "id": 26705,
+                "profileName": "EGFR E746_A750del HGF pos"
+            },
+            "therapy": {
+                "id": 4872,
+                "therapyName": "Crizotinib + WZ4002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6890,
+                    "pubMedId": 26036643,
+                    "title": "Combined EGFR/MEK Inhibition Prevents the Emergence of Resistance in EGFR-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26036643"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12157,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) did not demonstrate benefit in patient-derived xenograft (PDX) models derived from the brain metastasis of a lung adenocarcinoma patient with EGFR E746_A750del (referred to as K745_A750delinsK) and high level MET amplification, with all treated mice demonstrating progression (PMID: 28961841).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10116,
+                    "pubMedId": 28961841,
+                    "title": "Dual MET and ERBB inhibition overcomes intratumor plasticity in osimertinib-resistant-advanced non-small-cell lung cancer (NSCLC).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28961841"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12148,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Capmatinib (INC280) resulted in improved survival in patient-derived xenograft (PDX) models derived from the brain metastasis of a lung adenocarcinoma patient with EGFR E746_A750del (referred to as K745_A750delinsK) and high level MET amplification (PMID: 28961841).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10116,
+                    "pubMedId": 28961841,
+                    "title": "Dual MET and ERBB inhibition overcomes intratumor plasticity in osimertinib-resistant-advanced non-small-cell lung cancer (NSCLC).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28961841"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12147,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with metastatic lung adenocarcinoma harboring EGFR E746_A750del (referred to as K745_A750delinsK) and T790M demonstrated an initial response, but subsequent progression, of the brain metastasis following Tagrisso (osimertinib) treatment, and analysis of the brain metastasis showed loss of EGFR T790M as well as acquisition of high-level MET amplification, and resistance to Tagrisso (osimertinib) was recapitulated in a patient-derived xenograft (PDX) model (PMID: 28961841).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10116,
+                    "pubMedId": 28961841,
+                    "title": "Dual MET and ERBB inhibition overcomes intratumor plasticity in osimertinib-resistant-advanced non-small-cell lung cancer (NSCLC).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28961841"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9655,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of NPS-1034 to treatment with Iressa (gefitinib) overcame Iressa (gefitinib) resistance in a cell line xenograft model of non-small cell lung cancer reported to harbor EGFR E746_A750del (PMID: 23542356), which has acquired resistance to Iressa (gefitinib) due to MET amplification and over expression, resulting in tumor growth inhibition (PMID: 24165158).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 5116,
+                "therapyName": "Gefitinib + NPS-1034",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7367,
+                    "pubMedId": 24165158,
+                    "title": "MET and AXL inhibitor NPS-1034 exerts efficacy against lung cancer cells resistant to EGFR kinase inhibitors because of MET or AXL activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24165158"
+                },
+                {
+                    "id": 7368,
+                    "pubMedId": 23542356,
+                    "title": "Acquired resistance to EGFR inhibitors is associated with a manifestation of stem cell-like properties in cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23542356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9557,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquired amplification of MET conferred resistance to Iressa (gefitinib) in a non-small cell lung cancer cell line harboring EGFR E746_A750del in culture (PMID: 27612490).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7271,
+                    "pubMedId": 27612490,
+                    "title": "Acquired Resistance Mechanisms to Combination Met-TKI/EGFR-TKI Exposure in Met-Amplified EGFR-TKI-Resistant Lung Adenocarcinoma Harboring an Activating EGFR Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27612490"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12150,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Capmatinib (INC280) plus Gilotrif (afatinib) resulted in improved survival with no evidence of tumor 300 days post-transplantation in patient-derived xenograft (PDX) models derived from the brain metastasis of a lung adenocarcinoma patient with EGFR E746_A750del (referred to as K745_A750delinsK) and high level MET amplification (PMID: 28961841).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 6313,
+                "therapyName": "Afatinib + Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10116,
+                    "pubMedId": 28961841,
+                    "title": "Dual MET and ERBB inhibition overcomes intratumor plasticity in osimertinib-resistant-advanced non-small-cell lung cancer (NSCLC).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28961841"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9656,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of PHA-665752 and Iressa (gefitinib) overcame Iressa (gefitinib) resistance in a cell line xenograft model of non-small cell lung cancer reported to harbor EGFR E746_A750del (PMID: 23542356), which has acquired resistance to Iressa (gefitinib) due to MET amplification and over expression, resulting in tumor growth inhibition (PMID: 24165158).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 5094,
+                "therapyName": "Gefitinib + PHA-665752",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7367,
+                    "pubMedId": 24165158,
+                    "title": "MET and AXL inhibitor NPS-1034 exerts efficacy against lung cancer cells resistant to EGFR kinase inhibitors because of MET or AXL activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24165158"
+                },
+                {
+                    "id": 7368,
+                    "pubMedId": 23542356,
+                    "title": "Acquired resistance to EGFR inhibitors is associated with a manifestation of stem cell-like properties in cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23542356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9248,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Rociletinib (CO-1686) and Xalkori (crizotinib) overcame resistance to Rociletinib (CO-1686) in non-small cell lung cancer cell line harboring EGFR E746_A750del and MET amplification in culture (PMID: 27283993).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 4962,
+                "therapyName": "Crizotinib + Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7047,
+                    "pubMedId": 27283993,
+                    "title": "Circulating tumour DNA profiling reveals heterogeneity of EGFR inhibitor resistance mechanisms in lung cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27283993"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9247,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, emergence of MET amplification was associated with resistance to Rociletinib (CO1686) in non-small cell lung cancer cell line xenograft models harboring EGFR E746_A750del (PMID: 27283993).",
+            "molecularProfile": {
+                "id": 26798,
+                "profileName": "EGFR E746_A750del MET amp"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7047,
+                    "pubMedId": 27283993,
+                    "title": "Circulating tumour DNA profiling reveals heterogeneity of EGFR inhibitor resistance mechanisms in lung cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27283993"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9579,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BI 836845 and PHA-665752 inhibited AKT and ERK signaling and induced apoptosis in lung adenocarcinoma cell lines harboring EGFR E746_A750del and MET amplification with acquired resistance to Iressa (geftinib) and PHA-665752 combination therapy due to activation of IGF1R signaling (PMID: 27612490).",
+            "molecularProfile": {
+                "id": 26907,
+                "profileName": "EGFR E746_A750del IGF1R pos MET amp"
+            },
+            "therapy": {
+                "id": 5096,
+                "therapyName": "PHA-665752 + Xentuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7271,
+                    "pubMedId": 27612490,
+                    "title": "Acquired Resistance Mechanisms to Combination Met-TKI/EGFR-TKI Exposure in Met-Amplified EGFR-TKI-Resistant Lung Adenocarcinoma Harboring an Activating EGFR Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27612490"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9577,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Linsitinib (OSI-906) in combination with Iressa (gefitinib) and PHA-665752 decreased proliferation of lung adenocarcinoma cell lines harboring EGFR E746_A750del and MET amplification, with acquired resistance to Iressa (gefitinib) and PHA-665752 combination therapy due to activation of IGF1R signaling (PMID: 27612490).",
+            "molecularProfile": {
+                "id": 26907,
+                "profileName": "EGFR E746_A750del IGF1R pos MET amp"
+            },
+            "therapy": {
+                "id": 5095,
+                "therapyName": "Gefitinib + Linsitinib + PHA-665752",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7271,
+                    "pubMedId": 27612490,
+                    "title": "Acquired Resistance Mechanisms to Combination Met-TKI/EGFR-TKI Exposure in Met-Amplified EGFR-TKI-Resistant Lung Adenocarcinoma Harboring an Activating EGFR Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27612490"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9574,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung adenocarcinoma cell lines harboring EGFR E746_A750del and MET amplification acquired resistance to treatment with the combination of Iressa (gefitinib) and PHA-665752 due to bypass activation of IGF1R in culture (PMID: 27612490).",
+            "molecularProfile": {
+                "id": 26907,
+                "profileName": "EGFR E746_A750del IGF1R pos MET amp"
+            },
+            "therapy": {
+                "id": 5094,
+                "therapyName": "Gefitinib + PHA-665752",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 7271,
+                    "pubMedId": 27612490,
+                    "title": "Acquired Resistance Mechanisms to Combination Met-TKI/EGFR-TKI Exposure in Met-Amplified EGFR-TKI-Resistant Lung Adenocarcinoma Harboring an Activating EGFR Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27612490"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9657,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, NPS-1034 and Tarceva (erlotinib) in combination overcame Tarceva (erlotinib) resistance in a non-small cell lung cancer cell line reported to harbor EGFR E746_A750del (PMID: 23542356), with acquired resistance to Tarceva (erlotinib) due to AXL over expression and activation, resulting in inhibition of EGFR signaling and decreased viability in culture (PMID: 24165158).",
+            "molecularProfile": {
+                "id": 26947,
+                "profileName": "AXL over exp EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 5117,
+                "therapyName": "Erlotinib + NPS-1034",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7367,
+                    "pubMedId": 24165158,
+                    "title": "MET and AXL inhibitor NPS-1034 exerts efficacy against lung cancer cells resistant to EGFR kinase inhibitors because of MET or AXL activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24165158"
+                },
+                {
+                    "id": 7368,
+                    "pubMedId": 23542356,
+                    "title": "Acquired resistance to EGFR inhibitors is associated with a manifestation of stem cell-like properties in cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23542356"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9990,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR E746_A750del and EGFR L792F demonstrated decreased sensitivity to Gilotrif (afatinib) in culture compared to cells expressing E746_A750del alone (PMID: 27913578).",
+            "molecularProfile": {
+                "id": 27220,
+                "profileName": "EGFR E746_A750del EGFR L792F"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 7760,
+                    "pubMedId": 27913578,
+                    "title": "Characterization of EGFR T790M, L792F, and C797S Mutations as Mechanisms of Acquired Resistance to Afatinib in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27913578"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11909,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KEAP1 knockout resulted in decreased sensitivity to Tarceva (erlotinib) in a lung cancer cell line harboring EGFR E746_A750del in culture and in xenograft models (PMID: 28145866).",
+            "molecularProfile": {
+                "id": 28342,
+                "profileName": "EGFR E746_A750del KEAP1 loss"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9896,
+                    "pubMedId": 28145866,
+                    "title": "KEAP1 loss modulates sensitivity to kinase targeted therapy in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28145866"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11921,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of NFE2L2 (NRF2) D29H resulted in decreased sensitivity to Tarceva (erlotinib) in a lung cancer cell line harboring EGFR E746_A750del in culture (PMID: 28145866).",
+            "molecularProfile": {
+                "id": 28352,
+                "profileName": "EGFR E746_A750del NFE2L2 D29H NFE2L2 over exp"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9896,
+                    "pubMedId": 28145866,
+                    "title": "KEAP1 loss modulates sensitivity to kinase targeted therapy in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28145866"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 11916,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of wild-type NFE2L2 (NRF2) resulted in decreased sensitivity to Tarceva (erlotinib) in a lung cancer cell line harboring EGFR E746_A750del in culture (PMID: 28145866).",
+            "molecularProfile": {
+                "id": 28353,
+                "profileName": "EGFR E746_A750del NFE2L2 over exp"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9896,
+                    "pubMedId": 28145866,
+                    "title": "KEAP1 loss modulates sensitivity to kinase targeted therapy in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28145866"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12010,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination treatment of Iressa (gefitinib) and PHA-665752 failed to inhibit proliferation of non-small cell lung carcinoma cells harboring EGFR E746_A750del and overexpressing Crkl in culture (PMID: 22586683).",
+            "molecularProfile": {
+                "id": 28382,
+                "profileName": "CRKL over exp EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 5094,
+                "therapyName": "Gefitinib + PHA-665752",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9959,
+                    "pubMedId": 22586683,
+                    "title": "Amplification of CRKL induces transformation and epidermal growth factor receptor inhibitor resistance in human non-small cell lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22586683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12003,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of Crkl in non-small cell lung carcinoma cells harboring EGFR E746_A750del resulted in resistance to Iressa (gefitinib) in culture (PMID: 22586683).",
+            "molecularProfile": {
+                "id": 28382,
+                "profileName": "CRKL over exp EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 9959,
+                    "pubMedId": 22586683,
+                    "title": "Amplification of CRKL induces transformation and epidermal growth factor receptor inhibitor resistance in human non-small cell lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22586683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12014,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination treatment of Iressa (gefitinib) and LY294002 inhibited Pi3k activation, resulting in growth inhibition of non-small cell lung carcinoma cells harboring EGFR E746_A750del and overexpressing Crkl in culture (PMID: 22586683).",
+            "molecularProfile": {
+                "id": 28382,
+                "profileName": "CRKL over exp EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 6229,
+                "therapyName": "Gefitinib + LY294002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9959,
+                    "pubMedId": 22586683,
+                    "title": "Amplification of CRKL induces transformation and epidermal growth factor receptor inhibitor resistance in human non-small cell lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22586683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12009,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of Crkl in non-small cell lung carcinoma cells harboring EGFR E746_A750del resulted in decreased sensitivity to the combination treatment of Sprycel (dasatinib) and Iressa (gefitinib) in culture (PMID: 22586683).",
+            "molecularProfile": {
+                "id": 28382,
+                "profileName": "CRKL over exp EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 6226,
+                "therapyName": "Dasatinib + Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9959,
+                    "pubMedId": 22586683,
+                    "title": "Amplification of CRKL induces transformation and epidermal growth factor receptor inhibitor resistance in human non-small cell lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22586683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12008,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of Crkl in non-small cell lung carcinoma cells harboring EGFR E746_A750del resulted in decreased sensitivity to Sprycel (dasatinib) in culture (PMID: 22586683).",
+            "molecularProfile": {
+                "id": 28382,
+                "profileName": "CRKL over exp EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 9959,
+                    "pubMedId": 22586683,
+                    "title": "Amplification of CRKL induces transformation and epidermal growth factor receptor inhibitor resistance in human non-small cell lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22586683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 12013,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combination treatment of Iressa (gefitinib) and Pictilisib (GDC-0941) inhibited Pi3k activation, resulting in growth inhibition of non-small cell lung carcinoma cells harboring EGFR E746_A750del and overexpressing Crkl in culture (PMID: 22586683).",
+            "molecularProfile": {
+                "id": 28382,
+                "profileName": "CRKL over exp EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 6228,
+                "therapyName": "Gefitinib + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9959,
+                    "pubMedId": 22586683,
+                    "title": "Amplification of CRKL induces transformation and epidermal growth factor receptor inhibitor resistance in human non-small cell lung cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22586683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15115,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, CCDC6-RET was identified as an acquired resistance mutation in 2 patients with non-small cell lung cancer harboring EGFR E746_A750del, whose disease progressed after initial response to Tarceva (erlotinib) (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30759,
+                "profileName": "CCDC6 - RET EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15116,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, FGFR3-TACC3 was identified as an acquired resistance mutation in a patient with non-small cell lung cancer harboring EGFR E746_A750del, whose disease progressed after initial response to Tarceva (erlotinib) followed by Naquotinib (ASP8273) (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30760,
+                "profileName": "FGFR3 - TACC3 EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15121,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, FGFR3-TACC3 was identified as an acquired resistance mutation in a patient with non-small cell lung cancer harboring EGFR E746_A750del, whose disease progressed after initial response to Gilotrif (afatinib) (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30760,
+                "profileName": "FGFR3 - TACC3 EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15125,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, FGFR3-TACC3 was identified as an acquired resistance mutation in a patient with non-small cell lung cancer harboring EGFR E746_A750del, whose disease progressed after initial response to Tarceva (erlotinib), followed by Tagrisso (osimertinib) (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30760,
+                "profileName": "FGFR3 - TACC3 EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15120,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, EML4-ALK was identified as an acquired resistance mutation in a patient with non-small cell lung cancer harboring EGFR E746_A750del, whose disease progressed after initial response to Tarceva (erlotinib) followed by Tagrisso (osimertinib) (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30766,
+                "profileName": "EML4 - ALK EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15131,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer initially responded to Tarceva (erlotinib) followed by Tagrisso (osimertinib) with partial response for 13 months, EGFR E746_A750del, T790M, and TRIM24-RET were identified in post-progression tumor samples (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30776,
+                "profileName": "TRIM24 - RET EGFR E746_A750del EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15703,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined Tagrisso (osimertinib) and Selumetinib (AZD6244) treatment resulted in increased apoptosis and reduced proliferation in non-small cell lung cancer cells harboring EGFR E746_A750del, EGFR T790M, and KRAS amplification in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31153,
+                "profileName": "EGFR E746_A750del EGFR T790M KRAS amp"
+            },
+            "therapy": {
+                "id": 2225,
+                "therapyName": "Osimertinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15694,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquired KRAS amplification in a non-small cell lung cancer cell line harboring EGFR E746_A750del and EGFR T790M resulted in resistance to inhibition of EGFR pathway signaling and proliferation by Tagrisso (osimertinib) in culture, and resistance to tumor growth inhibition in xenograft models (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31153,
+                "profileName": "EGFR E746_A750del EGFR T790M KRAS amp"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15696,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) treatment did not reduce proliferation of non-small cell lung cancer cells harboring EGFR E746_A750del, EGFR T790M, and KRAS amplification in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31153,
+                "profileName": "EGFR E746_A750del EGFR T790M KRAS amp"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15698,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined Selumetinib (AZD6244) and Linsitinib (OSI-906) treatment resulted in more potent ERK and AKT inhibition, induction of apoptosis, and reduction of proliferation than Selumetinib (AZD6244) alone in non-small cell lung cancer cells harboring EGFR E746_A750del, EGFR T790M, and KRAS amplification in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31153,
+                "profileName": "EGFR E746_A750del EGFR T790M KRAS amp"
+            },
+            "therapy": {
+                "id": 7683,
+                "therapyName": "Linsitinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15697,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, KRAS amplification conferred resistance to inhibition of EGFR pathway signaling and profileration, and induction of apoptosis by Rociletinib (CO-1686) in non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31153,
+                "profileName": "EGFR E746_A750del EGFR T790M KRAS amp"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15702,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, combined Gilotrif (afatinib) and Selumetinib (AZD6244) treatment resulted in reduced proliferation, decreased EGFR, AKT, and ERK signaling, and induction of apoptosis in a non-small cell lung cancer cell line harboring EGFR E746_A750del, EGFR T790M, and KRAS amplification in culture relative to treatment with Gilotrif (afatinib) or Selumetinib (AZD6244) alone (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31153,
+                "profileName": "EGFR E746_A750del EGFR T790M KRAS amp"
+            },
+            "therapy": {
+                "id": 7684,
+                "therapyName": "Afatinib + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15699,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a Rociletinib (CO-1686)-resistant non-small cell lung cancer cell line harboring EGFR E746_A750del and EGFR T790M with EGFR amplification, which demonstrated reduced expression of EGFR E746_A750del and EGFR T790M relative to the parental cell line, exhibited reduced proliferation and increased apoptosis in response to combined Gilotrif (afatinib) and Erbitux (cetuximab) treatment relative to Gilotrif (afatinib) alone in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31154,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR amp"
+            },
+            "therapy": {
+                "id": 4190,
+                "therapyName": "Afatinib + Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15701,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, acquired resistance to Rociletinib (CO-1686) treatment in non-small cell lung cancer cells harboring EGFR E746_A750del and EGFR T790M in culture was associated with EGFR amplification and reduced expression of EGFR E746_A750del and EGFR T790M, and proliferation and EGFR pathway signaling were maintained upon Rociletinib (CO-1686) treatment in culture (PMID: 30322949).",
+            "molecularProfile": {
+                "id": 31154,
+                "profileName": "EGFR E746_A750del EGFR T790M EGFR amp"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13578,
+                    "pubMedId": 30322949,
+                    "title": "KRAS and EGFR Amplifications Mediate Resistance to Rociletinib and Osimertinib in Acquired Afatinib-Resistant NSCLC Harboring Exon 19 Deletion/T790M in EGFR.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30322949"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17381,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with advanced non-small cell lung cancer who lost EGFR T790M, but still harbors EGFR E746_A750del and acquired BRAF V600E demonstrated continued progression while being treated with the combination therapy of Sprycel (dabrafenib) and Mekinist (trametinib) (Journal of Clinical Oncology, 2019, 37, no. 15_suppl).",
+            "molecularProfile": {
+                "id": 32523,
+                "profileName": "BRAF V600E EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 1066,
+                "therapyName": "Dabrafenib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 15403,
+                    "pubMedId": null,
+                    "title": "Overcoming acquired osimertinib-resistance in EGFR-mutant advanced non-small lung cancer mediated by activating BRAF V600E mutation.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.e20682"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17382,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with advanced non-small cell lung cancer who lost EGFR T790M, but still harbors EGFR E746_A750del and acquired BRAF V600E demonstrated an improved metabolic response when treated with the combination therapy of Sprycel (dabrafenib) and Tagrisso (osimertinib) (Journal of Clinical Oncology, 2019, 37, no. 15_suppl).",
+            "molecularProfile": {
+                "id": 32523,
+                "profileName": "BRAF V600E EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 8472,
+                "therapyName": "Dabrafenib + Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15403,
+                    "pubMedId": null,
+                    "title": "Overcoming acquired osimertinib-resistance in EGFR-mutant advanced non-small lung cancer mediated by activating BRAF V600E mutation.",
+                    "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.e20682"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17650,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, Iressa (gefitinib) treatment resulted in a partial response with a progression-free survival of 13 months in a patient with non-small cell lung cancer harboring both EGFR G721D and EGFR E746_A750del (PMID: 31175009).",
+            "molecularProfile": {
+                "id": 32731,
+                "profileName": "EGFR G721D EGFR E746_A750del"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 15702,
+                    "pubMedId": 31175009,
+                    "title": "Clinical Impact of Rare and Compound Mutations of Epidermal Growth Factor Receptor in Patients With Non-Small-Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31175009"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18983,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A1118T and EGFR E746_A750del in cis demonstrated sensitivity to treatment with Tagrisso (osimertinib), but when expressed in trans, demonstrated resistance to treatment in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 33722,
+                "profileName": "EGFR E746_A750del EGFR A1118T"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18984,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A1118T and EGFR E746_A750del in cis and trans in culture demonstrated resistance to treatment with Erbitux (cetuximab) (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 33722,
+                "profileName": "EGFR E746_A750del EGFR A1118T"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18980,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A1118T and EGFR E746_A750del in cis demonstrated sensitivity to treatment with Iressa (gefitinib), but when expressed in trans, demonstrated resistance to treatment in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 33722,
+                "profileName": "EGFR E746_A750del EGFR A1118T"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18982,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Gilotrif (afatinib) resulted in decreased growth of transformed cells expressing EGFR A1118T and EGFR E746_A750del in cis and trans in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 33722,
+                "profileName": "EGFR E746_A750del EGFR A1118T"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18981,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR A1118T and EGFR E746_A750del in cis demonstrated sensitivity to treatment with Tarceva (erlotinib), but when expressed in trans, demonstrated resistance to treatment in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 33722,
+                "profileName": "EGFR E746_A750del EGFR A1118T"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19007,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AMG 510 did not inhibit Erk1/2 phosphorylation and viability of KRAS wild-type lung cancer cells harboring EGFR E746_A750del in culture (PMID: 31666701).",
+            "molecularProfile": {
+                "id": 33810,
+                "profileName": "EGFR E746_A750del KRAS wild-type"
+            },
+            "therapy": {
+                "id": 8435,
+                "therapyName": "AMG 510",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 16672,
+                    "pubMedId": 31666701,
+                    "title": "The clinical KRAS(G12C) inhibitor AMG 510 drives anti-tumour immunity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31666701"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 624,
+            "profileName": "EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1542,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR E746_A750del"
+                },
+                {
+                    "id": 1544,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR E746_A750del"
+                },
+                {
+                    "id": 1545,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR E746_A750del"
+                },
+                {
+                    "id": 4597,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR E746_A750del"
+                },
+                {
+                    "id": 1543,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR E746_A750del"
+                }
+            ]
+        },
+        {
+            "id": 9076,
+            "profileName": "EGFR E746_A750del SMO amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11380,
+            "profileName": "EGFR E746_A750del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11688,
+            "profileName": "EGFR E746_A750del EGFR T790M EGFR C797S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11689,
+            "profileName": "EGFR L718Q EGFR E746_A750del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11690,
+            "profileName": "EGFR E746_A750del EGFR T790M EGFR L844V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11691,
+            "profileName": "EGFR E746_A750del EGFR C797S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11692,
+            "profileName": "EGFR L718Q EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11693,
+            "profileName": "EGFR E746_A750del EGFR L844V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 11733,
+            "profileName": "EGFR E746_A750del EGFR T790M EGFR Q791R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 16168,
+            "profileName": "EGFR E746_A750del EGFR T790M MAPK1 amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 17585,
+            "profileName": "EGFR E746_A750del EGFR T790M EPHA2 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 17709,
+            "profileName": "EGFR E746_A750del IL6 pos IL6R pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 24031,
+            "profileName": "EGFR E746_A750del EGFR amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26705,
+            "profileName": "EGFR E746_A750del HGF pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26798,
+            "profileName": "EGFR E746_A750del MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26907,
+            "profileName": "EGFR E746_A750del IGF1R pos MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26947,
+            "profileName": "AXL over exp EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27220,
+            "profileName": "EGFR E746_A750del EGFR L792F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28342,
+            "profileName": "EGFR E746_A750del KEAP1 loss",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28352,
+            "profileName": "EGFR E746_A750del NFE2L2 D29H NFE2L2 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28353,
+            "profileName": "EGFR E746_A750del NFE2L2 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28382,
+            "profileName": "CRKL over exp EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30759,
+            "profileName": "CCDC6 - RET EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30760,
+            "profileName": "FGFR3 - TACC3 EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30766,
+            "profileName": "EML4 - ALK EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30776,
+            "profileName": "TRIM24 - RET EGFR E746_A750del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31153,
+            "profileName": "EGFR E746_A750del EGFR T790M KRAS amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31154,
+            "profileName": "EGFR E746_A750del EGFR T790M EGFR amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32523,
+            "profileName": "BRAF V600E EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 32731,
+            "profileName": "EGFR G721D EGFR E746_A750del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33722,
+            "profileName": "EGFR E746_A750del EGFR A1118T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33810,
+            "profileName": "EGFR E746_A750del KRAS wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135606,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174773_55174787del15",
+            "cDna": "c.2236_2250del15",
+            "protein": "p.E746_A750delELREA",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

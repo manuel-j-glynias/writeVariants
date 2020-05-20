@@ -1,0 +1,161 @@
+{
+    "id": 1089,
+    "fullName": "ARAF S214F",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ARAF S214F does not lie within any known functional domains of the Araf protein (UniProt.org). S214F confers a gain of function to the Araf protein as indicated by enhanced Mek phosphorylation, colony formation (PMID: 24569458), cell proliferation and viability in culture (PMID: 29533785), tumor formation in animal models, and confers resistance to Egfr inhibitors in culture (PMID: 27478040).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 251,
+                    "pubMedId": 24569458,
+                    "title": "Oncogenic and sorafenib-sensitive ARAF mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569458"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 8124,
+                    "pubMedId": 27478040,
+                    "title": "High-throughput Phenotyping of Lung Cancer Somatic Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27478040"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 369,
+        "geneSymbol": "ARAF",
+        "terms": [
+            "ARAF",
+            "A-RAF",
+            "ARAF1",
+            "PKS2",
+            "RAFA1"
+        ]
+    },
+    "variant": "S214F",
+    "createDate": "07/22/2014",
+    "updateDate": "08/23/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 90716,
+        "transcript": "NM_001654",
+        "gDna": "chrX:g.47566722C>T",
+        "cDna": "c.641C>T",
+        "protein": "p.S214F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2325,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nexavar (sorafenib) inhibited growth of transformed lung epithelial cells expressing ARAF S214F in culture (PMID: 24569458).",
+            "molecularProfile": {
+                "id": 1129,
+                "profileName": "ARAF S214F"
+            },
+            "therapy": {
+                "id": 920,
+                "therapyName": "Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 251,
+                    "pubMedId": 24569458,
+                    "title": "Oncogenic and sorafenib-sensitive ARAF mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569458"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8084,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) reduced Erk phosphorylation and inhibited growth of transformed lung epithelial cells expressing ARAF S214F in culture (PMID: 24569458).",
+            "molecularProfile": {
+                "id": 1129,
+                "profileName": "ARAF S214F"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 251,
+                    "pubMedId": 24569458,
+                    "title": "Oncogenic and sorafenib-sensitive ARAF mutations in lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24569458"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1129,
+            "profileName": "ARAF S214F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4395,
+                    "name": "RAF Inhibitor (Pan)",
+                    "profileName": "ARAF S214F"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 90716,
+            "transcript": "NM_001654",
+            "gDna": "chrX:g.47566722C>T",
+            "cDna": "c.641C>T",
+            "protein": "p.S214F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 90717,
+            "transcript": "XM_011543908",
+            "gDna": "chrX:g.47566722C>T",
+            "cDna": "c.641C>T",
+            "protein": "p.S214F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

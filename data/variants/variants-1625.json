@@ -1,0 +1,119 @@
+{
+    "id": 1625,
+    "fullName": "KIT W557G",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT W557G lies within the juxtamembrane domain (exon 11) of the Kit protein (PMID: 16226710). W557G results in constitutive phosphorylation of Kit in cell culture in one study (PMID: 23567324) and therefore, is predicted to lead to a gain of Kit protein function.",
+            "references": [
+                {
+                    "id": 647,
+                    "pubMedId": 23567324,
+                    "title": "Are two better than one? A novel double-mutant KIT in GIST that responds to Imatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23567324"
+                },
+                {
+                    "id": 648,
+                    "pubMedId": 16226710,
+                    "title": "Structure and regulation of Kit protein-tyrosine kinase--the stem cell factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16226710"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "W557G",
+    "createDate": "09/07/2014",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136902,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727437T>G",
+        "cDna": "c.1669T>G",
+        "protein": "p.W557G",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6878,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) inhibited Kit phosphorylation efficiently in transformed human cells over expressing KIT W557G in culture (PMID: 23567324).",
+            "molecularProfile": {
+                "id": 1639,
+                "profileName": "KIT W557G"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 647,
+                    "pubMedId": 23567324,
+                    "title": "Are two better than one? A novel double-mutant KIT in GIST that responds to Imatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23567324"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1639,
+            "profileName": "KIT W557G",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1917,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT W557G"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136902,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727437T>G",
+            "cDna": "c.1669T>G",
+            "protein": "p.W557G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136903,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727437T>G",
+            "cDna": "c.1669T>G",
+            "protein": "p.W557G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

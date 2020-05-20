@@ -1,0 +1,126 @@
+{
+    "id": 20841,
+    "fullName": "PAPSS1 - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PAPSS1-BRAF results from the fusion of PAPSS1 and BRAF, leads to increased phosphorylation of Mek and Erk, and confers resistance to Raf inhibitors in cell culture (PMID: 24345920), and therefore, is predicted to lead to a gain of function. PAPSS1-BRAF has been identified in melanoma (PMID: 24345920).",
+            "references": [
+                {
+                    "id": 5136,
+                    "pubMedId": 24345920,
+                    "title": "BRAF fusions define a distinct molecular subset of melanomas with potential sensitivity to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24345920"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 9061,
+        "geneSymbol": "PAPSS1",
+        "terms": [
+            "PAPSS1",
+            "ATPSK1",
+            "PAPSS",
+            "SK1"
+        ]
+    },
+    "variant": "PAPSS1 - BRAF",
+    "createDate": "04/08/2016",
+    "updateDate": "10/18/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 5659,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited downstream MAPK signaling in transformed human cells expressing PAPSS1-BRAF in culture (PMID: 24345920).",
+            "molecularProfile": {
+                "id": 21342,
+                "profileName": "PAPSS1 - BRAF"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5136,
+                    "pubMedId": 24345920,
+                    "title": "BRAF fusions define a distinct molecular subset of melanomas with potential sensitivity to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24345920"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5657,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) was incapable of suppressing MAPK signaling in transformed human cells expressing PAPSS1-BRAF in culture (PMID: 24345920).",
+            "molecularProfile": {
+                "id": 21342,
+                "profileName": "PAPSS1 - BRAF"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5136,
+                    "pubMedId": 24345920,
+                    "title": "BRAF fusions define a distinct molecular subset of melanomas with potential sensitivity to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24345920"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 21342,
+            "profileName": "PAPSS1 - BRAF",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

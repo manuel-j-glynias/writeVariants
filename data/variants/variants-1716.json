@@ -1,0 +1,267 @@
+{
+    "id": 1716,
+    "fullName": "KIT V559del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT V559del results in the deletion of an amino acid in the juxtamembrane domain (exon 11) of the Kit protein at amino acid 559 (PMID: 16226710). V559del confers a gain of function on Kit, resulting in constitutive, ligand independent phosphorylation of Kit and activation of Akt in cell culture (PMID: 15236194, PMID: 22282465).",
+            "references": [
+                {
+                    "id": 648,
+                    "pubMedId": 16226710,
+                    "title": "Structure and regulation of Kit protein-tyrosine kinase--the stem cell factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16226710"
+                },
+                {
+                    "id": 2056,
+                    "pubMedId": 22282465,
+                    "title": "KRAS and BRAF mutations predict primary resistance to imatinib in gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22282465"
+                },
+                {
+                    "id": 675,
+                    "pubMedId": 15236194,
+                    "title": "A new mutation in the KIT ATP pocket causes acquired resistance to imatinib in a gastrointestinal stromal tumor patient.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15236194"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "V559del",
+    "createDate": "09/15/2014",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136822,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727447_54727449delTTG",
+        "cDna": "c.1679_1681delTTG",
+        "protein": "p.V560delV",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11962,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of G007-LK and Gleevec (imatinib) demonstrated increased anti-tumor activity compared to either agent alone in a mouse model of gastrointestinal stromal tumor expressing Kit V558del (corresponding to human V559del) (PMID: 28611108).",
+            "molecularProfile": {
+                "id": 1699,
+                "profileName": "KIT V559del"
+            },
+            "therapy": {
+                "id": 6215,
+                "therapyName": "G007-LK + Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9934,
+                    "pubMedId": 28611108,
+                    "title": "Wnt/\u03b2-catenin Signaling Contributes to Tumor Malignancy and Is Targetable in Gastrointestinal Stromal Tumor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28611108"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9833,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Gleevec (imatinib) and a PD-1 antibody resulted in a greater decrease in tumor weight and increased apoptotic activity in a gastrointestinal stromal tumor mouse model harboring KIT V558del (corresponds to human KIT V559del, PMID: 12754375) and expressing PD-1 compared to Gleevec (imatinib) and control (PMID: 27470968).",
+            "molecularProfile": {
+                "id": 27131,
+                "profileName": "KIT V559del PDCD1 pos"
+            },
+            "therapy": {
+                "id": 5249,
+                "therapyName": "Imatinib + unspecified PD-1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7655,
+                    "pubMedId": 12754375,
+                    "title": "Gastrointestinal stromal tumors in a mouse model by targeted mutation of the Kit receptor tyrosine kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12754375"
+                },
+                {
+                    "id": 7656,
+                    "pubMedId": 27470968,
+                    "title": "PD-1/PD-L1 Blockade Enhances T-cell Activity and Antitumor Efficacy of Imatinib in Gastrointestinal Stromal Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27470968"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9832,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Gleevec (imatinib) and a PD-L1 antibody resulted in a greater decrease in tumor weight and increased apoptotic activity in a gastrointestinal stromal tumor mouse model harboring KIT V558del (corresponds to human KIT V559del, PMID: 12754375) and expressing PD-L1 compared to Gleevec (imatinib) and control (PMID: 27470968).",
+            "molecularProfile": {
+                "id": 27132,
+                "profileName": "CD274 pos KIT V559del"
+            },
+            "therapy": {
+                "id": 5250,
+                "therapyName": "Imatinib + unspecified PD-L1 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7655,
+                    "pubMedId": 12754375,
+                    "title": "Gastrointestinal stromal tumors in a mouse model by targeted mutation of the Kit receptor tyrosine kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12754375"
+                },
+                {
+                    "id": 7656,
+                    "pubMedId": 27470968,
+                    "title": "PD-1/PD-L1 Blockade Enhances T-cell Activity and Antitumor Efficacy of Imatinib in Gastrointestinal Stromal Tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27470968"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1699,
+            "profileName": "KIT V559del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1910,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT V559del"
+                }
+            ]
+        },
+        {
+            "id": 27131,
+            "profileName": "KIT V559del PDCD1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27132,
+            "profileName": "CD274 pos KIT V559del",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136822,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727447_54727449delTTG",
+            "cDna": "c.1679_1681delTTG",
+            "protein": "p.V560delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136826,
+            "transcript": "XM_017008179",
+            "gDna": "chr4:g.54727452_54727454delGAG",
+            "cDna": "c.1675_1677delGAG",
+            "protein": "p.E559delE",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136825,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54727440_54727442delAAG",
+            "cDna": "c.1675_1677delAAG",
+            "protein": "p.K559delK",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136827,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727447_54727449delTTG",
+            "cDna": "c.1679_1681delTTG",
+            "protein": "p.V560delV",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136828,
+            "transcript": "XM_017008180",
+            "gDna": "chr4:g.54727456_54727458delTAA",
+            "cDna": "c.1676_1678delTAA",
+            "protein": "p.I559delI",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136824,
+            "transcript": "XM_005265740",
+            "gDna": "chr4:g.54727440_54727442delAAG",
+            "cDna": "c.1675_1677delAAG",
+            "protein": "p.K559delK",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136829,
+            "transcript": "XM_005265742",
+            "gDna": "chr4:g.54727452_54727454delGAG",
+            "cDna": "c.1675_1677delGAG",
+            "protein": "p.E559delE",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136823,
+            "transcript": "NM_001093772",
+            "gDna": "chr4:g.54727456_54727458delTAA",
+            "cDna": "c.1676_1678delTAA",
+            "protein": "p.I559delI",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

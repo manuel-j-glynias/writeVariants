@@ -1,0 +1,129 @@
+{
+    "id": 14024,
+    "fullName": "TP53 dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 dec exp indicates decreased expression of the Tp53 protein. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "11/18/2015",
+    "updateDate": "08/29/2017",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3670,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, decreased expression of Tp53 in Plk1-over expressing prostate carcinoma cell lines resulted in decreased response to growth inhibition by the combination of BI2536 and Metformin in culture (PMID: 25505174).",
+            "molecularProfile": {
+                "id": 14282,
+                "profileName": "PLK1 over exp TP53 dec exp"
+            },
+            "therapy": {
+                "id": 3223,
+                "therapyName": "BI2536 + Metformin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10286,
+                "name": "prostate carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 3947,
+                    "pubMedId": 25505174,
+                    "title": "Inhibition of polo-like kinase 1 (Plk1) enhances the antineoplastic activity of metformin in prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25505174"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9470,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, shRNA knock-down of Tp53 in Met over-expressing gastric carcinoma cells enhanced sensitivity to the combination of EMD 1214063 and radiation in culture (PMID: 26358474).",
+            "molecularProfile": {
+                "id": 26857,
+                "profileName": "MET over exp TP53 dec exp"
+            },
+            "therapy": {
+                "id": 5024,
+                "therapyName": "EMD 1214063 + Radiotherapy",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5517,
+                "name": "stomach carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7198,
+                    "pubMedId": 26358474,
+                    "title": "Impact of p53 Status on Radiosensitization of Tumor Cells by MET Inhibition-Associated Checkpoint Abrogation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26358474"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 14281,
+            "profileName": "TP53 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 14282,
+            "profileName": "PLK1 over exp TP53 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26857,
+            "profileName": "MET over exp TP53 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

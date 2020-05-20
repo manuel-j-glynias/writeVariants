@@ -1,0 +1,561 @@
+{
+    "id": 25631,
+    "fullName": "MET L1195V",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "MET L1195V lies within the protein kinase domain of the Met protein (UniProt.org). L1195V results in increased substrate phosphorylation and is transforming in cell culture (PMID: 9826708), and has been demonstrated to confer Met inhibitor resistance in the context of a co-occurring Met exon 14 skipping mutation (PMID: 31279006).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 6847,
+                    "pubMedId": 9826708,
+                    "title": "Uncoupling signal transducers from oncogenic MET mutants abrogates cell transformation and inhibits invasive growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9826708"
+                },
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 4233,
+        "geneSymbol": "MET",
+        "terms": [
+            "MET",
+            "AUTS9",
+            "c-Met",
+            "DFNB97",
+            "HGFR",
+            "RCCP2"
+        ]
+    },
+    "variant": "L1195V",
+    "createDate": "10/25/2016",
+    "updateDate": "10/25/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 144765,
+        "transcript": "NM_000245",
+        "gDna": "chr7:g.116782048C>G",
+        "cDna": "c.3583C>G",
+        "protein": "p.L1195V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10115,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a TPR-MET fusion harboring MET L1195V demonstrated a decreased response to inhibition by AMG 458 in culture (PMID: 21697284).",
+            "molecularProfile": {
+                "id": 27249,
+                "profileName": "TPR - MET MET L1195V"
+            },
+            "therapy": {
+                "id": 2163,
+                "therapyName": "AMG 458",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 8018,
+                    "pubMedId": 21697284,
+                    "title": "A drug resistance screen using a selective MET inhibitor reveals a spectrum of mutations that partially overlap with activating mutations found in cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21697284"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 21108,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Capmatinib (INC280) treatment inhibited proliferation of a transformed human cell line expressing a TPR-MET fusion bearing MET L1195V in culture (PMID: 30674502).",
+            "molecularProfile": {
+                "id": 27249,
+                "profileName": "TPR - MET MET L1195V"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18298,
+                    "pubMedId": 30674502,
+                    "title": "Capmatinib (INC280) Is Active Against Models of Non-Small Cell Lung Cancer and Other Cancer Types with Defined Mechanisms of MET Activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30674502"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10105,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a TPR-MET fusion harboring MET L1195V demonstrated resistance to inhibition by NVP-BVU972 in culture (PMID: 21697284).",
+            "molecularProfile": {
+                "id": 27249,
+                "profileName": "TPR - MET MET L1195V"
+            },
+            "therapy": {
+                "id": 5378,
+                "therapyName": "NVP-BVU972",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8018,
+                    "pubMedId": 21697284,
+                    "title": "A drug resistance screen using a selective MET inhibitor reveals a spectrum of mutations that partially overlap with activating mutations found in cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21697284"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11787,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lung adenocarcinoma patient previously harboring MET amp, MET deletion exon 14, MET D1228N, MET Y1230H, MET Y1230S, and MET G1163R demonstrated a decrease in lesion size when treated with Glesatinib (MGCD265), however, progression ensued and plasma testing indicated the patient lost Y1230H and Y1230S, but acquired MET L1195V (PMID: 28765324).",
+            "molecularProfile": {
+                "id": 28246,
+                "profileName": "MET del exon14 MET G1163R MET L1195V MET D1228N MET amp"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9757,
+                    "pubMedId": 28765324,
+                    "title": "Glesatinib Exhibits Antitumor Activity in Lung Cancer Models and Patients Harboring MET Exon 14 Mutations and Overcomes Mutation-mediated Resistance to Type I MET Inhibitors in Nonclinical Models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28765324"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18251,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Capmatinib (INC280) inhibited growth of transformed cells expressing MET L1195V secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33013,
+                "profileName": "MET del exon14 MET L1195V"
+            },
+            "therapy": {
+                "id": 1065,
+                "therapyName": "Capmatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18252,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET L1195V secondary to a MET exon 14 skipping mutation in transformed cells resulted in decreased response to Tepotinib (MSC2156119J) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33013,
+                "profileName": "MET del exon14 MET L1195V"
+            },
+            "therapy": {
+                "id": 1398,
+                "therapyName": "Tepotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18250,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET L1195V secondary to a MET exon 14 skipping mutation in transformed cells conferred resistant to Xalkori (crizotinib) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33013,
+                "profileName": "MET del exon14 MET L1195V"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18253,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Savolitinib (AZD6094) inhibited growth of transformed cells expressing MET L1195V secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33013,
+                "profileName": "MET del exon14 MET L1195V"
+            },
+            "therapy": {
+                "id": 2161,
+                "therapyName": "Savolitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18254,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET L1195V secondary to a MET exon 14 skipping mutation in transformed cells resulted in decreased response to Cometriq (Cabometyx, cabozantinib) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33013,
+                "profileName": "MET del exon14 MET L1195V"
+            },
+            "therapy": {
+                "id": 998,
+                "therapyName": "Cabozantinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 18256,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, expression of MET L1195V secondary to a MET exon 14 skipping mutation in transformed cells conferred resistant to Glesatinib (MGCD265) in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33013,
+                "profileName": "MET del exon14 MET L1195V"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18255,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Merestinib (LY2801653) inhibited growth of transformed cells expressing MET L1195V secondary to a MET exon 14 skipping mutation in culture (PMID: 31279006).",
+            "molecularProfile": {
+                "id": 33013,
+                "profileName": "MET del exon14 MET L1195V"
+            },
+            "therapy": {
+                "id": 1030,
+                "therapyName": "Merestinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16006,
+                    "pubMedId": 31279006,
+                    "title": "Sensitivity and Resistance of MET Exon 14 Mutations in Lung Cancer to Eight MET Tyrosine Kinase Inhibitors In\u00a0Vitro.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31279006"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19109,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with cholangiocarcinoma harboring PLEKHA6-NTRK1 and MET amplification initially demonstrated sensitivity to the combination therapy of Xalkori (crizotinib) and LOXO-195, but progressed after 4.5 months and was found to have acquired 13 new MET missense mutations, MET D1228H, MET D1228N, MET Y1230H, MET Y1230S, MET Y1230N, MET D1228Y, MET G1090S, MET G1090A, MET R1227K, MET D1213H, MET 1195V, MET Y1230C, and MET V1092I (PMID: 31406350).",
+            "molecularProfile": {
+                "id": 33935,
+                "profileName": "PLEKHA6 - NTRK1 MET G1090A MET G1090S MET V1092I MET L1195V MET D1213H MET R1227K MET D1228H MET D1228N MET D1228Y MET Y1230C MET Y1230H MET Y1230N MET Y1230S MET amp"
+            },
+            "therapy": {
+                "id": 8913,
+                "therapyName": "Crizotinib + LOXO-195",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4947,
+                "name": "cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16397,
+                    "pubMedId": 31406350,
+                    "title": "Resistance to TRK inhibition mediated by convergent MAPK pathway activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31406350"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20337,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer harboring MET D1010H had stable disease for 21.2 months when treated with Glesatinib (MGCD265), but then progressed, and tissue testing revealed acquisition of MET H1112Y (also referred to as H1094Y) and PTEN E106* while plasma testing revealed acquisition of MET H1112Y and MET L1195V (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35127,
+                "profileName": "MET D1010H MET H1112Y MET L1195V PTEN E106*"
+            },
+            "therapy": {
+                "id": 809,
+                "therapyName": "Glesatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20338,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer treated with Xalkori (crizotinib) demonstrated resistance and plasma testing revealed MET D1010H, MET S997*, MET H1094Y (also referred to as H1112Y), and MET L1195V (PMID: 32034073).",
+            "molecularProfile": {
+                "id": 35129,
+                "profileName": "MET S997* MET D1010H MET H1112Y MET L1195V"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17807,
+                    "pubMedId": 32034073,
+                    "title": "Molecular mechanisms of acquired resistance to MET tyrosine kinase inhibitors in patients with MET exon 14 mutant NSCLC.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32034073"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26648,
+            "profileName": "MET L1195V",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10735,
+                    "name": "MET Inhibitor",
+                    "profileName": "MET L1195V"
+                }
+            ]
+        },
+        {
+            "id": 27249,
+            "profileName": "TPR - MET MET L1195V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 28246,
+            "profileName": "MET del exon14 MET G1163R MET L1195V MET D1228N MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33013,
+            "profileName": "MET del exon14 MET L1195V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33935,
+            "profileName": "PLEKHA6 - NTRK1 MET G1090A MET G1090S MET V1092I MET L1195V MET D1213H MET R1227K MET D1228H MET D1228N MET D1228Y MET Y1230C MET Y1230H MET Y1230N MET Y1230S MET amp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35127,
+            "profileName": "MET D1010H MET H1112Y MET L1195V PTEN E106*",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35129,
+            "profileName": "MET S997* MET D1010H MET H1112Y MET L1195V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144765,
+            "transcript": "NM_000245",
+            "gDna": "chr7:g.116782048C>G",
+            "cDna": "c.3583C>G",
+            "protein": "p.L1195V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

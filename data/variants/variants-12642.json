@@ -1,0 +1,135 @@
+{
+    "id": 12642,
+    "fullName": "RET S904F",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "RET S904F lies within the protein kinase domain of the Ret protein (UniProt.org). S904F has been associated with drug resistance in the context of CCDC6-RET (PMID: 29434222), and results in increased foci formation and autophosphorylation, but demonstrates cell proliferation similar to wild-type in culture (PMID: 21810974, PMID:29434222), and therefore, its effect on Ret protein function is unknown.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 14851,
+                    "pubMedId": 29434222,
+                    "title": "A secondary RET mutation in the activation loop conferring resistance to vandetanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29434222"
+                },
+                {
+                    "id": 2264,
+                    "pubMedId": 21810974,
+                    "title": "In silico and in vitro analysis of rare germline allelic variants of RET oncogene associated with medullary thyroid cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21810974"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5979,
+        "geneSymbol": "RET",
+        "terms": [
+            "RET",
+            "CDHF12",
+            "CDHR16",
+            "HSCR1",
+            "MEN2A",
+            "MEN2B",
+            "MTC1",
+            "PTC",
+            "RET-ELE1"
+        ]
+    },
+    "variant": "S904F",
+    "createDate": "09/30/2015",
+    "updateDate": "03/31/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 125392,
+        "transcript": "NM_020975",
+        "gDna": "chr10:g.43120184C>T",
+        "cDna": "c.2711C>T",
+        "protein": "p.S904F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 21258,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with lung adenocarcinoma harboring CCDC6-RET developed resistance to treatment with Caprelsa (vandetanib) after 38 weeks and was found to have acquired a secondary resistance mutation, RET S904F (PMID: 29434222).",
+            "molecularProfile": {
+                "id": 36036,
+                "profileName": "CCDC6 - RET RET S904F"
+            },
+            "therapy": {
+                "id": 953,
+                "therapyName": "Vandetanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14851,
+                    "pubMedId": 29434222,
+                    "title": "A secondary RET mutation in the activation loop conferring resistance to vandetanib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29434222"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 12789,
+            "profileName": "RET S904F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6913,
+                    "name": "RET Inhibitor",
+                    "profileName": "RET S904F"
+                }
+            ]
+        },
+        {
+            "id": 36036,
+            "profileName": "CCDC6 - RET RET S904F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 125392,
+            "transcript": "NM_020975",
+            "gDna": "chr10:g.43120184C>T",
+            "cDna": "c.2711C>T",
+            "protein": "p.S904F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 125393,
+            "transcript": "NM_020630",
+            "gDna": "chr10:g.43120184C>T",
+            "cDna": "c.2711C>T",
+            "protein": "p.S904F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

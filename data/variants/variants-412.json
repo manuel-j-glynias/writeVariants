@@ -1,0 +1,158 @@
+{
+    "id": 412,
+    "fullName": "KDR Q472H",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KDR (VEGFR2) Q472H does not lie within any known functional domains of the Kdr (Vegfr2) protein (UniProt.org). Q472H confers a gain of function to the Kdr (Vegfr2) protein, resulting in increased phosphorylation of Kdr (Vegfr2) in cell culture, increased serum VEGF levels, and increased microvessel density in tumor samples (PMID: 21712447, PMID: 26631613).",
+            "references": [
+                {
+                    "id": 4818,
+                    "pubMedId": 26631613,
+                    "title": "Identification of a Novel Pathogenic Germline KDR Variant in Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26631613"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 20,
+                    "pubMedId": 21712447,
+                    "title": "Novel functional germline variants in the VEGF receptor 2 gene and their effect on gene expression and microvessel density in lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21712447"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3791,
+        "geneSymbol": "KDR",
+        "terms": [
+            "KDR",
+            "CD309",
+            "FLK1",
+            "VEGFR",
+            "VEGFR2"
+        ]
+    },
+    "variant": "Q472H",
+    "createDate": "04/21/2014",
+    "updateDate": "09/13/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 102207,
+        "transcript": "NM_002253",
+        "gDna": "chr4:g.55106807T>A",
+        "cDna": "c.1416A>T",
+        "protein": "p.Q472H",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5324,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, human melanoma cells harboring KDR (VEGFR2) Q472H demonstrated increased sensitivity to treatment with a VEGFR2 (KDR) function-blocking antibody compared to cells with wild-type KDR (VEGFR), resulting in decreased proliferation and invasion in culture (PMID: 26631613).",
+            "molecularProfile": {
+                "id": 641,
+                "profileName": "KDR Q472H"
+            },
+            "therapy": {
+                "id": 3842,
+                "therapyName": "unspecified VEGFR2 antibody",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1909,
+                "name": "melanoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4818,
+                    "pubMedId": 26631613,
+                    "title": "Identification of a Novel Pathogenic Germline KDR Variant in Melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26631613"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7758,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In clinical case study, a patient with olfactory neuroblastoma harboring EGFR R521K, FGFR2 M186T, KDR Q472H, KDR V297I, and RET M1009T demonstrated sensitivity to the combination of Sutent (sunitinib) and Erbitux (cetuximab), resulting in a complete response (PMID: 27149458).",
+            "molecularProfile": {
+                "id": 26023,
+                "profileName": "EGFR R521K FGFR2 M186T KDR V297I KDR Q472H RET M1009T"
+            },
+            "therapy": {
+                "id": 4568,
+                "therapyName": "Cetuximab + Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 369,
+                "name": "olfactory neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6481,
+                    "pubMedId": 27149458,
+                    "title": "Recurrent Olfactory Neuroblastoma Treated With Cetuximab and Sunitinib: A Case Report.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27149458"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 641,
+            "profileName": "KDR Q472H",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 270,
+                    "name": "VEGFR Inhibitor (Pan)",
+                    "profileName": "KDR Q472H"
+                },
+                {
+                    "id": 261,
+                    "name": "VEGFR2 Inhibitor",
+                    "profileName": "KDR Q472H"
+                }
+            ]
+        },
+        {
+            "id": 26023,
+            "profileName": "EGFR R521K FGFR2 M186T KDR V297I KDR Q472H RET M1009T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102207,
+            "transcript": "NM_002253",
+            "gDna": "chr4:g.55106807T>A",
+            "cDna": "c.1416A>T",
+            "protein": "p.Q472H",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "id": 3137,
+    "fullName": "BRAF G464R",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF G464R (also reported as G463R) lies within the protein kinase domain of the Braf protein (UniProt.org). G464R results in increased Braf kinase activity, increased downstream Erk signaling (PMID: 15046639), and induces cell proliferation and cell viability in culture (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 1166,
+                    "pubMedId": 15046639,
+                    "title": "Constitutive activation of the Ras-Raf signaling pathway in metastatic melanoma is associated with poor prognosis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15046639"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "G464R",
+    "createDate": "02/16/2015",
+    "updateDate": "04/16/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109120,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140781618C>T",
+        "cDna": "c.1390G>A",
+        "protein": "p.G464R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9412,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) did not inhibit MEK and ERK activation in transformed cells over expressing the constitutively dimerized BRAF G464R (PMID: 26343582).",
+            "molecularProfile": {
+                "id": 2961,
+                "profileName": "BRAF G464R"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2961,
+            "profileName": "BRAF G464R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14430,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF G464R"
+                },
+                {
+                    "id": 14428,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF G464R"
+                },
+                {
+                    "id": 14427,
+                    "name": "LY3009120",
+                    "profileName": "BRAF G464R"
+                },
+                {
+                    "id": 14429,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF G464R"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109120,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140781618C>T",
+            "cDna": "c.1390G>A",
+            "protein": "p.G464R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109119,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140781618C>T",
+            "cDna": "c.1390G>A",
+            "protein": "p.G464R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

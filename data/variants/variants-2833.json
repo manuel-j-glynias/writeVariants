@@ -1,0 +1,318 @@
+{
+    "id": 2833,
+    "fullName": "PIK3CA Q546R",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PIK3CA Q546R lies within the helical domain of the Pik3ca protein (PMID: 24559118). Q546R has not been biochemically characterized, but is predicted to confer a gain of function to the Pik3ca protein as demonstrated by increased cell survival and transforming ability in cell culture (PMID: 26627007, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 4255,
+                    "pubMedId": 26627007,
+                    "title": "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26627007"
+                },
+                {
+                    "id": 1462,
+                    "pubMedId": 24559118,
+                    "title": "A functional proteogenomic analysis of endometrioid and clear cell carcinomas using reverse phase protein array and mutation analysis: protein expression is histotype-specific and loss of ARID1A/BAF250a is associated with AKT phosphorylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24559118"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5290,
+        "geneSymbol": "PIK3CA",
+        "terms": [
+            "PIK3CA",
+            "CLAPO",
+            "CLOVE",
+            "CWS5",
+            "MCAP",
+            "MCM",
+            "MCMTC",
+            "p110-alpha",
+            "PI3K",
+            "PI3K-alpha"
+        ]
+    },
+    "variant": "Q546R",
+    "createDate": "12/24/2014",
+    "updateDate": "09/14/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 172095,
+        "transcript": "NM_006218",
+        "gDna": "chr3:g.179218307A>G",
+        "cDna": "c.1637A>G",
+        "protein": "p.Q546R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2953,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, CH5132799 inhibited proliferation of prostate cancer cells harboring PIK3CA Q546R in culture (PMID: 21558396).",
+            "molecularProfile": {
+                "id": 2658,
+                "profileName": "PIK3CA Q546R"
+            },
+            "therapy": {
+                "id": 2152,
+                "therapyName": "CH5132799",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1985,
+                    "pubMedId": 21558396,
+                    "title": "The selective class I PI3K inhibitor CH5132799 targets human cancers harboring oncogenic PIK3CA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21558396"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7768,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, a patient with colorectal cancer harboring KRAS G12D and PIK3CA Q546R demonstrated sensitivity to treatment with the combination of Nexavar (sorafenib) and Avastin (bevacizumab), resulting in stable disease for more than 6 months (PMID: 25363205).",
+            "molecularProfile": {
+                "id": 27864,
+                "profileName": "KRAS G12D PIK3CA Q546R"
+            },
+            "therapy": {
+                "id": 4517,
+                "therapyName": "Bevacizumab + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6478,
+                    "pubMedId": 25363205,
+                    "title": "Dual antiangiogenic inhibition: a phase I dose escalation and expansion trial targeting VEGF-A and VEGFR in patients with advanced solid tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25363205"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 17131,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (SOLAR-1) that supported FDA approval, Piqray (Alpelisib) and Faslodex (fulvestrant) combination treatment resulted in improved median progression-free survival (11 vs 5.7 mo, HR=0.65, p<0.001) compared to Faslodex (fulvestrant) plus placebo in patients with advanced hormone-receptor positive, Erbb2 (Her2) negative breast cancer who had prior endocrine therapy and harboring PIK3CA mutations as detected by an FDA-approved test, including PIK3CA Q546R (PMID: 31091374; NCT02437318).",
+            "molecularProfile": {
+                "id": 34224,
+                "profileName": "ESR1 pos PIK3CA Q546R"
+            },
+            "therapy": {
+                "id": 5929,
+                "therapyName": "Alpelisib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15176,
+                    "pubMedId": 31091374,
+                    "title": "Alpelisib for PIK3CA-Mutated, Hormone Receptor-Positive Advanced Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31091374"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15447,
+                    "pubMedId": null,
+                    "title": "Piqray (alpelisib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 19583,
+            "approvalStatus": "FDA approved - On Companion Diagnostic",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase III trial (SOLAR-1) that supported FDA approval, Piqray (Alpelisib) and Faslodex (fulvestrant) combination treatment resulted in improved median progression-free survival (11 vs 5.7 mo, HR=0.65, p<0.001) compared to Faslodex (fulvestrant) plus placebo in patients with advanced hormone-receptor positive, Erbb2 (Her2) negative breast cancer who had prior endocrine therapy and harboring PIK3CA mutations as detected by an FDA-approved test, including PIK3CA Q546R (PMID: 31091374; NCT02437318).",
+            "molecularProfile": {
+                "id": 34239,
+                "profileName": "PGR pos PIK3CA Q546R"
+            },
+            "therapy": {
+                "id": 5929,
+                "therapyName": "Alpelisib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15176,
+                    "pubMedId": 31091374,
+                    "title": "Alpelisib for PIK3CA-Mutated, Hormone Receptor-Positive Advanced Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31091374"
+                },
+                {
+                    "id": 15430,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.fda.gov/medical-devices/vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-vitro-and-imaging-tools"
+                },
+                {
+                    "id": 15447,
+                    "pubMedId": null,
+                    "title": "Piqray (alpelisib) FDA Drug Label",
+                    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212526"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 2658,
+            "profileName": "PIK3CA Q546R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 17073,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PIK3CA Q546R"
+                },
+                {
+                    "id": 17076,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PIK3CA Q546R"
+                },
+                {
+                    "id": 17071,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "PIK3CA Q546R"
+                },
+                {
+                    "id": 17072,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PIK3CA Q546R"
+                },
+                {
+                    "id": 17074,
+                    "name": "PIK3CA inhibitor",
+                    "profileName": "PIK3CA Q546R"
+                },
+                {
+                    "id": 17078,
+                    "name": "mTOR Inhibitor",
+                    "profileName": "PIK3CA Q546R"
+                },
+                {
+                    "id": 17077,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PIK3CA Q546R"
+                },
+                {
+                    "id": 17075,
+                    "name": "mTORC2 Inhibitor",
+                    "profileName": "PIK3CA Q546R"
+                }
+            ]
+        },
+        {
+            "id": 26036,
+            "profileName": "KRAS Q61H PIK3CA Q546R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27864,
+            "profileName": "KRAS G12D PIK3CA Q546R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34224,
+            "profileName": "ESR1 pos PIK3CA Q546R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 34239,
+            "profileName": "PGR pos PIK3CA Q546R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 172095,
+            "transcript": "NM_006218",
+            "gDna": "chr3:g.179218307A>G",
+            "cDna": "c.1637A>G",
+            "protein": "p.Q546R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 172096,
+            "transcript": "XM_011512894",
+            "gDna": "chr3:g.179218307A>G",
+            "cDna": "c.1637A>G",
+            "protein": "p.Q546R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 172094,
+            "transcript": "XM_006713658",
+            "gDna": "chr3:g.179218307A>G",
+            "cDna": "c.1637A>G",
+            "protein": "p.Q546R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

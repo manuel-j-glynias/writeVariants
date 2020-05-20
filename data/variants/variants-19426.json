@@ -1,0 +1,301 @@
+{
+    "id": 19426,
+    "fullName": "BRAF N486_P490del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF N486_P490del results in the deletion of five amino acids near the alphaC-helix region of the kinase domain (PMID: 26732095). N486_P490del confers a gain of function to the Braf protein as indicated by activation of the MAPK signaling pathway and increased cell proliferation in culture (PMID: 26732095).",
+            "references": [
+                {
+                    "id": 4801,
+                    "pubMedId": 26732095,
+                    "title": "Oncogenic BRAF Deletions That Function as Homodimers and Are Sensitive to Inhibition by RAF Dimer Inhibitor LY3009120.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26732095"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "N486_P490del",
+    "createDate": "03/09/2016",
+    "updateDate": "03/09/2016",
+    "referenceTranscriptCoordinates": {
+        "id": 109248,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140778038_140778052del15",
+        "cDna": "c.1457_1471del15",
+        "protein": "p.N486_P490delNVTAP",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15628,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Mekinist (trametinib) treatment resulted in partial response in a patient with pancreatic ductal adenocarcinoma harboring BRAF N486_P490del 8 weeks after initiation of treatment and lasted for 6 months (PMID: 29903880).",
+            "molecularProfile": {
+                "id": 19833,
+                "profileName": "BRAF N486_P490del"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3498,
+                "name": "pancreatic ductal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13502,
+                    "pubMedId": 29903880,
+                    "title": "Real-time Genomic Characterization of Advanced Pancreatic Cancer to Enable Precision Medicine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29903880"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4919,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tafinlar (dabrafenib) resulted in minimal growth inhibitory activity of an ovarian cancer cell line harboring BRAF N486_P490del (PMID: 26732095).",
+            "molecularProfile": {
+                "id": 19833,
+                "profileName": "BRAF N486_P490del"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4801,
+                    "pubMedId": 26732095,
+                    "title": "Oncogenic BRAF Deletions That Function as Homodimers and Are Sensitive to Inhibition by RAF Dimer Inhibitor LY3009120.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26732095"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4916,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian cancer cell line harboring BRAF N486_P490del was sensitive to LY3009120, resulting in inhibition of cell growth and decreased phosphorylation of MEK and ERK in culture (PMID: 26732095).",
+            "molecularProfile": {
+                "id": 19833,
+                "profileName": "BRAF N486_P490del"
+            },
+            "therapy": {
+                "id": 3268,
+                "therapyName": "LY3009120",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4801,
+                    "pubMedId": 26732095,
+                    "title": "Oncogenic BRAF Deletions That Function as Homodimers and Are Sensitive to Inhibition by RAF Dimer Inhibitor LY3009120.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26732095"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4918,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian cancer cell line harboring BRAF N486_P490del was resistant to Zelboraf (vemurafenib), resulting in minimal inhibition of both cell growth and phosphorylation of MEK and ERK in culture (PMID: 26732095).",
+            "molecularProfile": {
+                "id": 19833,
+                "profileName": "BRAF N486_P490del"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4801,
+                    "pubMedId": 26732095,
+                    "title": "Oncogenic BRAF Deletions That Function as Homodimers and Are Sensitive to Inhibition by RAF Dimer Inhibitor LY3009120.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26732095"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4917,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ovarian cancer cell line harboring BRAF N486_P490del was sensitive to Mekinist (trametinib), resulting in inhibition of cell growth in culture (PMID: 26732095).",
+            "molecularProfile": {
+                "id": 19833,
+                "profileName": "BRAF N486_P490del"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4801,
+                    "pubMedId": 26732095,
+                    "title": "Oncogenic BRAF Deletions That Function as Homodimers and Are Sensitive to Inhibition by RAF Dimer Inhibitor LY3009120.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26732095"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18598,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with pancreatic cancer harboring BRAF N486_P490del had a partial response when treated with Tafinlar (dabrafenib), demonstrating a decrease in both the size of the primary and metastatic lesions and response duration of 6 months (PMID: 31519698).",
+            "molecularProfile": {
+                "id": 19833,
+                "profileName": "BRAF N486_P490del"
+            },
+            "therapy": {
+                "id": 3,
+                "therapyName": "Dabrafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16350,
+                    "pubMedId": 31519698,
+                    "title": "Identification of targetable BRAF \u0394N486_P490 variant by whole-genome sequencing leading to dabrafenib-induced remission of a BRAF-mutant pancreatic adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31519698"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 19833,
+            "profileName": "BRAF N486_P490del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14549,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF N486_P490del"
+                },
+                {
+                    "id": 14548,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF N486_P490del"
+                },
+                {
+                    "id": 14547,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF N486_P490del"
+                },
+                {
+                    "id": 14550,
+                    "name": "LY3009120",
+                    "profileName": "BRAF N486_P490del"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109248,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140778038_140778052del15",
+            "cDna": "c.1457_1471del15",
+            "protein": "p.N486_P490delNVTAP",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109245,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140778038_140778052del15",
+            "cDna": "c.1457_1471del15",
+            "protein": "p.N486_P490delNVTAP",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109247,
+            "transcript": "XM_017012558",
+            "gDna": "chr7:g.140781658_140781672del15",
+            "cDna": "c.1456_1470del15",
+            "protein": "p.S486_W490delSSDDW",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109246,
+            "transcript": "XM_017012559",
+            "gDna": "chr7:g.140781658_140781672del15",
+            "cDna": "c.1456_1470del15",
+            "protein": "p.S486_W490delSSDDW",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

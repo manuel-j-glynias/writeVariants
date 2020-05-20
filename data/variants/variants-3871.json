@@ -1,0 +1,685 @@
+{
+    "id": 3871,
+    "fullName": "EGFR L747_P753delinsS",
+    "impact": "indel",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR L747_P753delinsS results in a deletion of seven amino acids in the protein kinase domain of the Egfr protein from aa 747 to aa 753, combined with the insertion of a serine (S) at the same location (UniProt.org). L747_P753delinsS results in autophosphorylation of the Egfr protein and transformation of cultured cells (PMID: 19147750, PMID: 29533785).",
+            "references": [
+                {
+                    "id": 1890,
+                    "pubMedId": 19147750,
+                    "title": "Functional analysis of epidermal growth factor receptor (EGFR) mutations and potential implications for EGFR targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19147750"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "L747_P753delinsS",
+    "createDate": "03/18/2015",
+    "updateDate": "09/05/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135752,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174777_55174794del18",
+        "cDna": "c.2240_2257del18",
+        "protein": "p.L747_P753delinsS",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12541,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_P753delinsS were resistant to treatment with Erbitux (cetuximab) in culture (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12540,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_P753delinsS were sensitive to treatment with Rociletinib (CO-1686) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 1003,
+                "therapyName": "Rociletinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1838,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iressa (gefitinib) inhibited the growth of cultured cells expressing the EGFR exon 19 variant, L747_P753delinsS (PMID: 19147750).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1890,
+                    "pubMedId": 19147750,
+                    "title": "Functional analysis of epidermal growth factor receptor (EGFR) mutations and potential implications for EGFR targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19147750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1840,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AEE788 inhibited the growth of cultured cells expressing the EGFR exon 19 variant, L747_P753delinsS (PMID: 19147750).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 622,
+                "therapyName": "AEE788",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 1890,
+                    "pubMedId": 19147750,
+                    "title": "Functional analysis of epidermal growth factor receptor (EGFR) mutations and potential implications for EGFR targeted therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19147750"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12536,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_P753delinsS were sensitive to treatment with Tarceva (erlotinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12538,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_P753delinsS were sensitive to treatment with Tagrisso (osimertinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12537,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing EGFR L747_P753delinsS were sensitive to treatment with Gilotrif (afatinib) in culture, demonstrating reduced cell viability (PMID: 29141884).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10358,
+                    "pubMedId": 29141884,
+                    "title": "A method of high-throughput functional evaluation of EGFR gene variants of unknown significance in cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29141884"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13615,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Naquotinib (ASP8273) inhibited EGFR signaling and proliferation of transformed cells expressing EGFR L747_P753delinsS in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 3680,
+                "profileName": "EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12636,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of EGFR C797S in addition to EGFR L747_P753delinsS and T790M conferred resistance to Nazartinib (EGF816) in transformed cells in culture (PMID: 29285266).",
+            "molecularProfile": {
+                "id": 28797,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 1309,
+                "therapyName": "Nazartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10505,
+                    "pubMedId": 29285266,
+                    "title": "Characterization of the efficacies of osimertinib and nazartinib against cells expressing clinically relevant epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29285266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12633,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of EGFR C797S in addition to EGFR L747_P753delinsS and T790M conferred resistance to Tarceva (erlotinib) in transformed cells in culture (PMID: 29285266).",
+            "molecularProfile": {
+                "id": 28797,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10505,
+                    "pubMedId": 29285266,
+                    "title": "Characterization of the efficacies of osimertinib and nazartinib against cells expressing clinically relevant epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29285266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13627,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing a combination of EGFR C797S, EGFR L747_P753delinsS, and EGFR T790M were resistant to Naquotinib (ASP8273) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 28797,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12634,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of EGFR C797S in addition to EGFR L747_P753delinsS and T790M conferred resistance to Gilotrif (afatinib) in transformed cells in culture (PMID: 29285266).",
+            "molecularProfile": {
+                "id": 28797,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10505,
+                    "pubMedId": 29285266,
+                    "title": "Characterization of the efficacies of osimertinib and nazartinib against cells expressing clinically relevant epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29285266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12635,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, overexpression of EGFR C797S in addition to EGFR L747_P753delinsS and T790M conferred resistance to Tagrisso (osimertinib) in transformed cells in culture (PMID: 29285266).",
+            "molecularProfile": {
+                "id": 28797,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M EGFR C797S"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10505,
+                    "pubMedId": 29285266,
+                    "title": "Characterization of the efficacies of osimertinib and nazartinib against cells expressing clinically relevant epidermal growth factor receptor mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29285266"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13621,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited EGFR signaling and proliferation of transformed cells expressing both EGFR L747_P753delinsS and EGFR T790M in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 29165,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13622,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both EGFR L747_P753delinsS and EGFR T790M were resistant to Tarceva (erlotinib) in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 29165,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13619,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Naquotinib (ASP8273) inhibited EGFR signaling and proliferation of transformed cells expressing both EGFR L747_P753delinsS and EGFR T790M in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 29165,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M"
+            },
+            "therapy": {
+                "id": 1082,
+                "therapyName": "Naquotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13620,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tagrisso (osimertinib) inhibited EGFR signaling and proliferation of transformed cells expressing both EGFR L747_P753delinsS and EGFR T790M in culture (PMID: 29467275).",
+            "molecularProfile": {
+                "id": 29165,
+                "profileName": "EGFR L747_P753delinsS EGFR T790M"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11222,
+                    "pubMedId": 29467275,
+                    "title": "Pharmacological and Structural Characterizations of Naquotinib, a Novel Third-Generation EGFR Tyrosine Kinase Inhibitor, in EGFR-Mutated Non-Small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29467275"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15133,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer initially responded to Gilotrif (afatinib), EGFR L747_P753delinsS and EML4-ALK were identified in post-progression tumor samples (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30779,
+                "profileName": "EML4 - ALK EGFR L747_P753delinsS"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3680,
+            "profileName": "EGFR L747_P753delinsS",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4643,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR L747_P753delinsS"
+                },
+                {
+                    "id": 4647,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR L747_P753delinsS"
+                },
+                {
+                    "id": 4645,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR L747_P753delinsS"
+                },
+                {
+                    "id": 4646,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR L747_P753delinsS"
+                },
+                {
+                    "id": 4644,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR L747_P753delinsS"
+                }
+            ]
+        },
+        {
+            "id": 28797,
+            "profileName": "EGFR L747_P753delinsS EGFR T790M EGFR C797S",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 29165,
+            "profileName": "EGFR L747_P753delinsS EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30779,
+            "profileName": "EML4 - ALK EGFR L747_P753delinsS",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135752,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174777_55174794del18",
+            "cDna": "c.2240_2257del18",
+            "protein": "p.L747_P753delinsS",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

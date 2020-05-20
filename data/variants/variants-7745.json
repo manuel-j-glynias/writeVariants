@@ -1,0 +1,134 @@
+{
+    "id": 7745,
+    "fullName": "CTLA4 positive",
+    "impact": "unknown",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "CTLA4 positive indicates the presence of the CTLA4 gene, mRNA, and/or protein.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 1493,
+        "geneSymbol": "CTLA4",
+        "terms": [
+            "CTLA4",
+            "ALPS5",
+            "CD",
+            "CD152",
+            "CELIAC3",
+            "CTLA-4",
+            "GRD4",
+            "GSE",
+            "IDDM12"
+        ]
+    },
+    "variant": "positive",
+    "createDate": "06/16/2015",
+    "updateDate": "01/01/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20607,
+            "approvalStatus": "Phase Ib/II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase Ib trial, treatment with Toripalimab (JS001) resulted in a significantly greater objective response rate (42.9% vs 8.3%, P=0.034) and improved median overall survival (9.1 mo vs 7.2 mo) in patients with neuroendocrine tumors who were positive for CTLA4 (PD-L1 expression greater than or equal to 1%, n=14/38) compared to patients who were negative for CTLA4 (PD-L1 expression less than 1%, n=24/38) (PMID: 32086343; NCT03167853).",
+            "molecularProfile": {
+                "id": 7639,
+                "profileName": "CTLA4 positive"
+            },
+            "therapy": {
+                "id": 5891,
+                "therapyName": "Toripalimab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 169,
+                "name": "neuroendocrine tumor",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 17958,
+                    "pubMedId": 32086343,
+                    "title": "Efficacy, safety and biomarkers of toripalimab in patients with recurrent or metastatic neuroendocrine neoplasms: a multiple-center phase Ib trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32086343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16920,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, ATOR-1015 inhibited tumor growth in a syngeneic mouse model of colon carcinoma expressing human OX40 (TNFRSF4), with CTLA-4-expressing regulatory T-cells (PMID: 30975201).",
+            "molecularProfile": {
+                "id": 32239,
+                "profileName": "CTLA4 pos TNFRSF4 pos"
+            },
+            "therapy": {
+                "id": 8239,
+                "therapyName": "ATOR-1015",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15057,
+                    "pubMedId": 30975201,
+                    "title": "The CTLA-4 x OX40 bispecific antibody ATOR-1015 induces anti-tumor effects through tumor-directed immune activation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30975201"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 7639,
+            "profileName": "CTLA4 positive",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5379,
+                    "name": "Ipilimumab",
+                    "profileName": "CTLA4 positive"
+                },
+                {
+                    "id": 5378,
+                    "name": "Tremelimumab",
+                    "profileName": "CTLA4 positive"
+                }
+            ]
+        },
+        {
+            "id": 32239,
+            "profileName": "CTLA4 pos TNFRSF4 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "id": 20840,
+    "fullName": "TRIM24 - BRAF",
+    "impact": "fusion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TRIM24-BRAF results from the fusion of TRIM24 and BRAF, leads to increased Mek and Erk phosphorylation, but does not enhance proliferation and invasion in cell culture (PMID: 24345920, PMID: 30254212), and confers resistance to Raf inhibitors in culture (PMID: 24345920), and therefore, is predicted to lead to a gain of function. TRIM24-BRAF has been identified in melanoma (PMID: 24345920, PMID: 30254212).",
+            "references": [
+                {
+                    "id": 5136,
+                    "pubMedId": 24345920,
+                    "title": "BRAF fusions define a distinct molecular subset of melanomas with potential sensitivity to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24345920"
+                },
+                {
+                    "id": 12368,
+                    "pubMedId": 30254212,
+                    "title": "BRAF fusions identified in melanomas have variable treatment responses and phenotypes.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30254212"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 8805,
+        "geneSymbol": "TRIM24",
+        "terms": [
+            "TRIM24",
+            "hTIF1",
+            "PTC6",
+            "RNF82",
+            "TF1A",
+            "TIF1",
+            "TIF1A",
+            "TIF1ALPHA"
+        ]
+    },
+    "variant": "TRIM24 - BRAF",
+    "createDate": "04/08/2016",
+    "updateDate": "10/18/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        {
+            "gene": {
+                "id": 673,
+                "geneSymbol": "BRAF",
+                "terms": [
+                    "BRAF",
+                    "B-raf",
+                    "B-RAF1",
+                    "BRAF1",
+                    "NS7",
+                    "RAFB1"
+                ]
+            }
+        }
+    ],
+    "evidence": [
+        {
+            "id": 5658,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) inhibited downstream MAPK signaling in transformed human cells expressing TRIM24-BRAF in culture (PMID: 24345920).",
+            "molecularProfile": {
+                "id": 21339,
+                "profileName": "TRIM24 - BRAF"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 5136,
+                    "pubMedId": 24345920,
+                    "title": "BRAF fusions define a distinct molecular subset of melanomas with potential sensitivity to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24345920"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7551,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, U0126 inhibited Erk signaling and anchorage-independent growth of transformed cells over expressing TRIM24 - BRAF in culture (PMID: 24727320).",
+            "molecularProfile": {
+                "id": 21339,
+                "profileName": "TRIM24 - BRAF"
+            },
+            "therapy": {
+                "id": 2427,
+                "therapyName": "U0126",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6416,
+                    "pubMedId": 24727320,
+                    "title": "Druggable oncogene fusions in invasive mucinous lung adenocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24727320"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5656,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zelboraf (vemurafenib) was incapable of suppressing MAPK signaling in transformed human cells expressing TRIM24-BRAF in culture (PMID: 24345920).",
+            "molecularProfile": {
+                "id": 21339,
+                "profileName": "TRIM24 - BRAF"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5136,
+                    "pubMedId": 24345920,
+                    "title": "BRAF fusions define a distinct molecular subset of melanomas with potential sensitivity to MEK inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24345920"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20706,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a TRIM24-BRAF fusion was detected in a non-small cell lung cancer patient harboring EGFR L858R with acquired resistance to Tagrisso (osimertinib) (PMID: 31911548).",
+            "molecularProfile": {
+                "id": 35296,
+                "profileName": "TRIM24 - BRAF EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 17999,
+                    "pubMedId": 31911548,
+                    "title": "Tumor Analyses Reveal Squamous Transformation and Off-Target Alterations As Early Resistance Mechanisms to First-line Osimertinib in EGFR-Mutant Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31911548"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 21339,
+            "profileName": "TRIM24 - BRAF",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35296,
+            "profileName": "TRIM24 - BRAF EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

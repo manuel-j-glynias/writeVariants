@@ -1,0 +1,183 @@
+{
+    "id": 900,
+    "fullName": "BRAF L597R",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "BRAF L597R lies within the protein kinase domain of the Braf protein (UniProt.org). L597R results in activation of Braf as indicated by increased phosphorylation of Mek and Erk in cell culture (PMID: 22798288, PMID: 26343582), is associated with Erk activation in a patient tumor sample (PMID: 23715574), and in one of two cell lines, increased cell proliferation and cell viability compared to wild-type Braf (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 12177,
+                    "pubMedId": 23715574,
+                    "title": "Major clinical response to a BRAF inhibitor in a patient with a BRAF L597R-mutated melanoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23715574"
+                },
+                {
+                    "id": 3,
+                    "pubMedId": 22798288,
+                    "title": "BRAF(L597) mutations in melanoma are associated with sensitivity to MEK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22798288"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 7141,
+                    "pubMedId": 26343582,
+                    "title": "BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26343582"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 673,
+        "geneSymbol": "BRAF",
+        "terms": [
+            "BRAF",
+            "B-raf",
+            "B-RAF1",
+            "BRAF1",
+            "NS7",
+            "RAFB1"
+        ]
+    },
+    "variant": "L597R",
+    "createDate": "07/08/2014",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 109230,
+        "transcript": "NM_004333",
+        "gDna": "chr7:g.140753345A>C",
+        "cDna": "c.1790T>G",
+        "protein": "p.L597R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 693,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Preclinical studies demonstrated the MEK inhibitor, Mekinist (trametinib) caused decreased activation of MEK and ERK in cells expressing BRAF L597R (PMID: 22798288).",
+            "molecularProfile": {
+                "id": 992,
+                "profileName": "BRAF L597R"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3,
+                    "pubMedId": 22798288,
+                    "title": "BRAF(L597) mutations in melanoma are associated with sensitivity to MEK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22798288"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 694,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment of cells expressing BRAF L597R with the BRAF inhibitor, Zelboraf (vemurafenib), decreased activation of MEK and ERK (PMID: 22798288).",
+            "molecularProfile": {
+                "id": 992,
+                "profileName": "BRAF L597R"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3,
+                    "pubMedId": 22798288,
+                    "title": "BRAF(L597) mutations in melanoma are associated with sensitivity to MEK inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22798288"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 992,
+            "profileName": "BRAF L597R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 14351,
+                    "name": "MEK2 Inhibitor",
+                    "profileName": "BRAF L597R"
+                },
+                {
+                    "id": 14354,
+                    "name": "MEK1 Inhibitor",
+                    "profileName": "BRAF L597R"
+                },
+                {
+                    "id": 14353,
+                    "name": "LY3009120",
+                    "profileName": "BRAF L597R"
+                },
+                {
+                    "id": 14352,
+                    "name": "MEK inhibitor (Pan)",
+                    "profileName": "BRAF L597R"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 109230,
+            "transcript": "NM_004333",
+            "gDna": "chr7:g.140753345A>C",
+            "cDna": "c.1790T>G",
+            "protein": "p.L597R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 109229,
+            "transcript": "XM_005250045",
+            "gDna": "chr7:g.140753345A>C",
+            "cDna": "c.1790T>G",
+            "protein": "p.L597R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,548 @@
+{
+    "id": 11334,
+    "fullName": "ERBB2 V659E",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) V659E lies within the transmembrane domain of the Erbb2 (Her2) protein (PMID: 30449325). V659E results in constitutive phosphorylation of Erbb2 (Her2), activation of Src and Akt signaling in cell culture, and increased tumor metastasis in animal models (PMID: 16489002, PMID: 15753384), and leads to increased cell survival as compared to wild-type Erbb2 (Her2) in culture (PMID: 30449325), and in one of two cell lines, V659E increased cell proliferation and cell viability as compared to wild-type Erbb2 (Her2) (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 3590,
+                    "pubMedId": 15753384,
+                    "title": "ErbB2 promotes Src synthesis and stability: novel mechanisms of Src activation that confer breast cancer metastasis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15753384"
+                },
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                },
+                {
+                    "id": 3589,
+                    "pubMedId": 16489002,
+                    "title": "ErbB2 increases vascular endothelial growth factor protein synthesis via activation of mammalian target of rapamycin/p70S6K leading to increased angiogenesis and spontaneous metastasis of human breast cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16489002"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "V659E",
+    "createDate": "09/02/2015",
+    "updateDate": "10/21/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 170784,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39723348_39723349delTTinsAG",
+        "cDna": "c.1976_1977delTTinsAG",
+        "protein": "p.V659E",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15588,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) V659E demonstrated decreased cell proliferation and reduced survival when treated with Tykerb (lapatinib) in culture (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6971,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited Erbb2 (Her2) phosphorylation and downstream signaling in bronchial epithelial cells expressing ERBB2 (HER2) V659E in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6969,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, bronchial epithelial cells expressing ERBB2 (HER2) V659E did not demonstrate sensitivity to Iressa (gefitinib) in culture (PMID: 26545934).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 5974,
+                    "pubMedId": 26545934,
+                    "title": "Antitumor effect of afatinib, as a human epidermal growth factor receptor 2-targeted therapy, in lung cancers harboring HER2 oncogene alterations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26545934"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15438,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) V659E demonstrated decreased cell proliferation and reduced survival when treated with Herceptin (trastuzumab) in culture (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 947,
+                "therapyName": "Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15933,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, treatment with Kadcyla (trastuzumab emtansine) resulted in best overall responses of partial response in 44% (8/18) and stable disease in 39% (7/18), and median progression-free survival of 5 months in patients with lung adenocarcinoma harboring ERBB2 (HER2) activating mutations, and a subset of patients specifically harboring ERBB2 (HER2) V659E had a 50% (1/2) partial response rate (PMID: 29989854; NCT02675829).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 1402,
+                "therapyName": "Ado-trastuzumab emtansine",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 12393,
+                    "pubMedId": 29989854,
+                    "title": "Ado-Trastuzumab Emtansine for Patients With HER2-Mutant Lung Cancers: Results From a Phase II Basket Trial.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29989854"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15470,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) V659E did not benefit from treatment with Tarceva (erlotinib) in culture when compared to Erbb2 (Her2) inhibitors (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8843,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of 23814 and Tivozanib (AV-951) inhibited tumor growth in several transgenic mouse models of breast cancer expressing ERBB2 (HER2) V659E, including those with resistance to VEGFR inhibitors (PMID: 25995436).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 4824,
+                "therapyName": "23814 + Tivozanib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6764,
+                    "pubMedId": 25995436,
+                    "title": "23814, an Inhibitory Antibody of Ligand-Mediated Notch1 Activation, Modulates Angiogenesis and Inhibits Tumor Growth without Gastrointestinal Toxicity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25995436"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15476,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) V659E did not benefit from treatment with Iressa (gefitinib) in culture when compared to Erbb2 (Her2) inhibitors (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13197,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease with a progression-free survival of 11.1 months in a patient with biliary tract cancer harboring ERBB2 (HER2) V659E (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4607,
+                "name": "biliary tract cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15466,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) V659E demonstrated decreased cell proliferation and reduced survival when treated with Nerlynx (neratinib) in culture (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15455,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with Perjeta (pertuzumab) led to induced growth of cells expressing ERBB2 (HER2) V659E in culture (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 856,
+                "therapyName": "Pertuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13259,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in stable disease in two patients with non-small cell lung cancer harboring ERBB2 (HER2) V659E (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 15484,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) V659E demonstrated decreased cell proliferation and reduced survival when treated with Gilotrif (afatinib) in culture (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15459,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) V659E demonstrated resistance to treatment with Erbitux (cetuximab) in culture (PMID: 30449325).",
+            "molecularProfile": {
+                "id": 11379,
+                "profileName": "ERBB2 V659E"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13125,
+                    "pubMedId": 30449325,
+                    "title": "Actionable Activating Oncogenic ERBB2/HER2 Transmembrane and Juxtamembrane Domain Mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30449325"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 11379,
+            "profileName": "ERBB2 V659E",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6430,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 V659E"
+                },
+                {
+                    "id": 6429,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 V659E"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170785,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39723348_39723349delTTinsAG",
+            "cDna": "c.1976_1977delTTinsAG",
+            "protein": "p.V659E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170784,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39723348_39723349delTTinsAG",
+            "cDna": "c.1976_1977delTTinsAG",
+            "protein": "p.V659E",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

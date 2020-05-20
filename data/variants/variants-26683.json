@@ -1,0 +1,150 @@
+{
+    "id": 26683,
+    "fullName": "PPP2R1A L198V",
+    "impact": "missense",
+    "proteinEffect": "no effect - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "PPP2R1A L198V lies within the PP2A subunit B binding region and HEAT repeat 5 of the Ppp2r1a protein (UniProt.org). L198V has been demonstrated to confer resistance to small-molecule activators of PP2A, however, results in comparable growth and holoenzyme formation to wild-type Ppp2r1a, and retains phosphatase activity in culture (PMID: 28504649), and therefore, is predicted to have no effect on Ppp2r1a protein function.",
+            "references": [
+                {
+                    "id": 9273,
+                    "pubMedId": 28504649,
+                    "title": "Activation of tumor suppressor protein PP2A inhibits KRAS-driven tumor growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28504649"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5518,
+        "geneSymbol": "PPP2R1A",
+        "terms": [
+            "PPP2R1A",
+            "MRD36",
+            "PP2A-Aalpha",
+            "PP2AA",
+            "PP2AAALPHA",
+            "PR65A"
+        ]
+    },
+    "variant": "L198V",
+    "createDate": "07/06/2017",
+    "updateDate": "10/03/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 154443,
+        "transcript": "NM_014225",
+        "gDna": "chr19:g.52212774C>G",
+        "cDna": "c.592C>G",
+        "protein": "p.L198V",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11395,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Selumetinib (AZD6244) and MK2206 combination treatment inhibited Mapk signaling, induced apoptosis, resulted in tumor growth inhibition in cell line xenograft models of KRAS mutant lung cancer over expressing PPP2R1A L198V (PMID: 28504649).",
+            "molecularProfile": {
+                "id": 27983,
+                "profileName": "KRAS mut PPP2R1A L198V"
+            },
+            "therapy": {
+                "id": 1098,
+                "therapyName": "MK2206 + Selumetinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9273,
+                    "pubMedId": 28504649,
+                    "title": "Activation of tumor suppressor protein PP2A inhibits KRAS-driven tumor growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28504649"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11397,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the small-molecule activators of PP2A (SMAP) DT-061 failed to induce apoptosis, inhibit Mapk signaling and tumor growth in cell line xenograft models of KRAS mutant lung cancer over expressing PPP2R1A L198V (PMID: 28504649).",
+            "molecularProfile": {
+                "id": 27983,
+                "profileName": "KRAS mut PPP2R1A L198V"
+            },
+            "therapy": {
+                "id": 5969,
+                "therapyName": "DT-061",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9273,
+                    "pubMedId": 28504649,
+                    "title": "Activation of tumor suppressor protein PP2A inhibits KRAS-driven tumor growth.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28504649"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27980,
+            "profileName": "PPP2R1A L198V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27983,
+            "profileName": "KRAS mut PPP2R1A L198V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 154443,
+            "transcript": "NM_014225",
+            "gDna": "chr19:g.52212774C>G",
+            "cDna": "c.592C>G",
+            "protein": "p.L198V",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

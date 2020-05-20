@@ -1,0 +1,251 @@
+{
+    "id": 17308,
+    "fullName": "TP53 R280K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 R280K lies within the DNA-binding domain of the Tp53 protein (PMID: 22713868). R280K results in decreased activation and repression of wild-type Tp53 target genes (PMID: 17070499, PMID: 16322760, PMID: 18472962), as well as a gain-of-function in activation of novel targets, and leads to increased cell migration and invasion, and increased cell survival (PMID: 18472962, PMID: 24763051).",
+            "references": [
+                {
+                    "id": 4536,
+                    "pubMedId": 18472962,
+                    "title": "Different mutant/wild-type p53 combinations cause a spectrum of increased invasive potential in nonmalignant immortalized human mammary epithelial cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18472962"
+                },
+                {
+                    "id": 4476,
+                    "pubMedId": 24763051,
+                    "title": "A gain-of-function mutant p53-HSF1 feed forward circuit governs adaptation of cancer cells to proteotoxic stress.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24763051"
+                },
+                {
+                    "id": 12516,
+                    "pubMedId": 16322760,
+                    "title": "p53 modulates homologous recombination by transcriptional regulation of the RAD51 gene.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16322760"
+                },
+                {
+                    "id": 2397,
+                    "pubMedId": 22713868,
+                    "title": "Mutant p53: one name, many proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22713868"
+                },
+                {
+                    "id": 12515,
+                    "pubMedId": 17070499,
+                    "title": "Restoring wild-type conformation and DNA-binding activity of mutant p53 is insufficient for restoration of transcriptional activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17070499"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "R280K",
+    "createDate": "01/27/2016",
+    "updateDate": "10/09/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 95489,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7673781C>T",
+        "cDna": "c.839G>A",
+        "protein": "p.R280K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6021,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, YW3-56 inhibited proliferation of a human triple-negative breast cancer (TNBC) cell line harboring TP53 R280K in culture and inhibited tumor growth in TP53 R280K-mutant TNBC cell line xenograft models (PMID: 25612620).",
+            "molecularProfile": {
+                "id": 17595,
+                "profileName": "TP53 R280K"
+            },
+            "therapy": {
+                "id": 4006,
+                "therapyName": "YW3-56",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60081,
+                "name": "triple-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5233,
+                    "pubMedId": 25612620,
+                    "title": "ATF4 Gene Network Mediates Cellular Response to the Anticancer PAD Inhibitor YW3-56 in Triple-Negative Breast Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25612620"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 5012,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ganetespib inhibited growth of human breast cancer cells harboring TP53 R280K in culture (PMID: 26009011).",
+            "molecularProfile": {
+                "id": 17595,
+                "profileName": "TP53 R280K"
+            },
+            "therapy": {
+                "id": 745,
+                "therapyName": "Ganetespib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4831,
+                    "pubMedId": 26009011,
+                    "title": "Improving survival by exploiting tumour dependence on stabilized mutant p53 for treatment.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26009011"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9803,
+            "approvalStatus": "Preclinical - Patient cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of APR-246 and Platinol (cisplatin) worked synergistically in culture, resulting in reduced cell viability in patient derived ovarian cancer cells harboring TP53 R280K (PMID: 27179933).",
+            "molecularProfile": {
+                "id": 17595,
+                "profileName": "TP53 R280K"
+            },
+            "therapy": {
+                "id": 3443,
+                "therapyName": "APR-246 + Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7621,
+                    "pubMedId": 27179933,
+                    "title": "Strong synergy with APR-246 and DNA-damaging drugs in primary cancer cells from patients with TP53 mutant High-Grade Serous ovarian cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27179933"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10456,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, the combination of Afinitor (everolimus) and Taxol (paclitaxel) resulted in a partial response lasting over 13 months in a metastatic urothelial carcinoma patient harboring NF2 Y153fs*1, as well as ATM V2119fs*8, an ATR splice site mutation, and TP53 R280K, who had progressed on platinum-based chemotherapy and single agent Taxotere (docetaxel) therapy (PMID: 25630452).",
+            "molecularProfile": {
+                "id": 27471,
+                "profileName": "ATM V2119fs ATR mut NF2 Y153fs TP53 R280K"
+            },
+            "therapy": {
+                "id": 5505,
+                "therapyName": "Everolimus + Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2671,
+                "name": "transitional cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 8466,
+                    "pubMedId": 25630452,
+                    "title": "Exceptional Response on Addition of Everolimus to Taxane in Urothelial Carcinoma Bearing an NF2 Mutation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25630452"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 17595,
+            "profileName": "TP53 R280K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27471,
+            "profileName": "ATM V2119fs ATR mut NF2 Y153fs TP53 R280K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95491,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7673781C>T",
+            "cDna": "c.839G>A",
+            "protein": "p.R280K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95489,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7673781C>T",
+            "cDna": "c.839G>A",
+            "protein": "p.R280K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95488,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7673781C>T",
+            "cDna": "c.839G>A",
+            "protein": "p.R280K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95490,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7673781C>T",
+            "cDna": "c.839G>A",
+            "protein": "p.R280K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

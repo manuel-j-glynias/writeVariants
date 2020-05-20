@@ -1,0 +1,157 @@
+{
+    "id": 10004,
+    "fullName": "MCL1 dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "MCL1 dec exp indicates decreased expression of the Mcl1 protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 4170,
+        "geneSymbol": "MCL1",
+        "terms": [
+            "MCL1",
+            "bcl2-L-3",
+            "BCL2L3",
+            "EAT",
+            "Mcl-1",
+            "MCL1-ES",
+            "mcl1/EAT",
+            "MCL1L",
+            "MCL1S",
+            "TM"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "08/04/2015",
+    "updateDate": "10/08/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8235,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knocking down of Mcl1 expression via shRNA resensitized Venclexta (venetoclax)-resistant acute myeloid leukemia cells to Venclexta (venetoclax) in culture (PMID: 27103402).",
+            "molecularProfile": {
+                "id": 10007,
+                "profileName": "MCL1 dec exp"
+            },
+            "therapy": {
+                "id": 1562,
+                "therapyName": "Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6583,
+                    "pubMedId": 27103402,
+                    "title": "Binding of Released Bim to Mcl-1 is a Mechanism of Intrinsic Resistance to ABT-199 which can be Overcome by Combination with Daunorubicin or Cytarabine in AML Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27103402"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2682,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, knockdown of Mcl1 in cancer cell lines increased sensitivity to ABT-737 in culture (PMID: 22898329).",
+            "molecularProfile": {
+                "id": 10007,
+                "profileName": "MCL1 dec exp"
+            },
+            "therapy": {
+                "id": 1772,
+                "therapyName": "ABT-737",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3384,
+                    "pubMedId": 22898329,
+                    "title": "Understanding sensitivity to BH3 mimetics: ABT-737 as a case study to foresee the complexities of personalized medicine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22898329"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10098,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, MCL1 knockdown sensitized PIK3CA wild-type breast cancer cell lines to WEHI-539 in culture (PMID: 27974663).",
+            "molecularProfile": {
+                "id": 27251,
+                "profileName": "MCL1 dec exp PIK3CA wild-type"
+            },
+            "therapy": {
+                "id": 5373,
+                "therapyName": "WEHI-539",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8002,
+                    "pubMedId": 27974663,
+                    "title": "PIK3CA mutations enable targeting of a breast tumor dependency through mTOR-mediated MCL-1 translation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27974663"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10007,
+            "profileName": "MCL1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27251,
+            "profileName": "MCL1 dec exp PIK3CA wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

@@ -1,0 +1,452 @@
+{
+    "id": 1636,
+    "fullName": "KIT D816Y",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT D816Y lies within the tyrosine kinase domain 2 of the Kit protein (PMID: 21640708). D816Y results in constitutive phosphorylation of Kit, activation of Akt and Mapk pathways in cultured cells (PMID: 21640708, PMID: 16397263), and confers resistance to imatinib in culture (PMID: 16397263).",
+            "references": [
+                {
+                    "id": 657,
+                    "pubMedId": 16397263,
+                    "title": "Dasatinib (BMS-354825), a dual SRC/ABL kinase inhibitor, inhibits the kinase activity of wild-type, juxtamembrane, and activation loop mutant KIT isoforms associated with human malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16397263"
+                },
+                {
+                    "id": 659,
+                    "pubMedId": 21640708,
+                    "title": "Mechanism of activation of human c-KIT kinase by internal tandem duplications of the juxtamembrane domain and point mutations at aspartic acid 816.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21640708"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "D816Y",
+    "createDate": "09/09/2014",
+    "updateDate": "09/14/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 136094,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54733154G>T",
+        "cDna": "c.2446G>T",
+        "protein": "p.D816Y",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14346,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT D816Y were resistant to treatment with Sutent (sunitinib) in culture (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18571,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse mastocytoma cells harboring KIT D814Y (corresponds to D816Y in human) demonstrated reduced response to growth inhibition by Sutent (sunitinib) compared to GIST cells harboring KIT exon 11 deletion in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3664,
+                "name": "mast cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 14345,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT D816Y were resistant to treatment with Flumatinib in culture (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 3169,
+                "therapyName": "Flumatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14347,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT D816Y were resistant to treatment with Gleevec (imatinib) in culture (PMID: 24205792).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 663,
+                    "pubMedId": 24205792,
+                    "title": "Flumatinib, a selective inhibitor of BCR-ABL/PDGFR/KIT, effectively overcomes drug resistance of certain KIT mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24205792"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15026,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing KIT D816Y were resistant to Gleevec (imatinib mesylate) in culture (PMID: 16397263).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 657,
+                    "pubMedId": 16397263,
+                    "title": "Dasatinib (BMS-354825), a dual SRC/ABL kinase inhibitor, inhibits the kinase activity of wild-type, juxtamembrane, and activation loop mutant KIT isoforms associated with human malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16397263"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18573,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Rydapt (midostaurin) inhibited proliferation of mouse mastocytoma cells harboring KIT D814Y (corresponds to D816Y in human) in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 810,
+                "therapyName": "Midostaurin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3664,
+                "name": "mast cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12302,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ayvakit (avapritinib) inhibited Kit phosphorylation and proliferation of murine mastocytoma cells harboring KIT D814Y (corresponding to human D816Y) in culture, and resulted in tumor regression in allograft animal models (PMID: 29093181).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 2941,
+                "therapyName": "Avapritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3664,
+                "name": "mast cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10301,
+                    "pubMedId": 29093181,
+                    "title": "A precision therapy against cancers driven by KIT/PDGFRA mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29093181"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18572,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse mastocytoma cells harboring KIT D814Y (corresponds to D816Y in human) were resistant to Stivarga (regorafenib) in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3664,
+                "name": "mast cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18570,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, mouse mastocytoma cells harboring KIT D814Y (corresponds to D816Y in human) were resistant to Gleevec (imatinib) in culture (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3664,
+                "name": "mast cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8604,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ripretinib (DCC-2618) inhibited proliferation of a mouse mastocytosis cell line expressing KIT K816Y in culture (Cancer Res 2015;75(15 Suppl):Abstract nr 2690).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3664,
+                "name": "mast cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6694,
+                    "pubMedId": null,
+                    "title": "Abstract 2690: DCC-2618 is a potent inhibitor of wild-type and mutant KIT, including refractory Exon 17 D816 KIT mutations, and exhibits efficacy in refractory GIST and AML xenograft models",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/2690"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18569,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Ripretinib (DCC-2618) inhibited proliferation of mouse mastocytoma cells harboring KIT D814Y (corresponds to D816Y in human) in culture, and resulted in tumor growth inhibition in allograft models (PMID: 31085175).",
+            "molecularProfile": {
+                "id": 1649,
+                "profileName": "KIT D816Y"
+            },
+            "therapy": {
+                "id": 4316,
+                "therapyName": "Ripretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3664,
+                "name": "mast cell neoplasm",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16041,
+                    "pubMedId": 31085175,
+                    "title": "Ripretinib (DCC-2618) Is a Switch Control Kinase Inhibitor of a Broad Spectrum of Oncogenic and Drug-Resistant KIT and PDGFRA Variants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31085175"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1649,
+            "profileName": "KIT D816Y",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 6131,
+                    "name": "Avapritinib",
+                    "profileName": "KIT D816Y"
+                },
+                {
+                    "id": 1241,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT D816Y"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136095,
+            "transcript": "NM_001093772",
+            "gDna": "chr4:g.54733166G>T",
+            "cDna": "c.2446G>T",
+            "protein": "p.D816Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136094,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54733154G>T",
+            "cDna": "c.2446G>T",
+            "protein": "p.D816Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136097,
+            "transcript": "XM_017008179",
+            "gDna": "chr4:g.54733166G>T",
+            "cDna": "c.2446G>T",
+            "protein": "p.D816Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136096,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54733154G>T",
+            "cDna": "c.2446G>T",
+            "protein": "p.D816Y",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

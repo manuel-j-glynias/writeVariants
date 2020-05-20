@@ -1,0 +1,161 @@
+{
+    "id": 25278,
+    "fullName": "PAXIP1 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "PAXIP1 over exp indicates an over expression of the Paxip1 protein and/or mRNA. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 22976,
+        "geneSymbol": "PAXIP1",
+        "terms": [
+            "PAXIP1",
+            "CAGF28",
+            "CAGF29",
+            "PACIP1",
+            "PAXIP1L",
+            "PTIP",
+            "TNRC2"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "08/23/2016",
+    "updateDate": "07/30/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7913,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung cancer cells over expressing PAXIP1 were sensitive to treatment with Adavosertib (MK-1775) in culture, resulting in increased apoptotic activity (PMID: 27196765).",
+            "molecularProfile": {
+                "id": 26097,
+                "profileName": "PAXIP1 over exp"
+            },
+            "therapy": {
+                "id": 822,
+                "therapyName": "Adavosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6524,
+                    "pubMedId": 27196765,
+                    "title": "PAXIP1 Potentiates the Combination of WEE1 Inhibitor AZD1775 and Platinum Agents in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196765"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7915,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, lung cancer cells over expressing PAXIP1 and negative for WEE1 did not respond to treatment with Adavosertib (MK-1775) in culture, demonstrating no effect on apoptotic activity (PMID: 27196765).",
+            "molecularProfile": {
+                "id": 26103,
+                "profileName": "PAXIP1 over exp WEE1 neg"
+            },
+            "therapy": {
+                "id": 822,
+                "therapyName": "Adavosertib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6524,
+                    "pubMedId": 27196765,
+                    "title": "PAXIP1 Potentiates the Combination of WEE1 Inhibitor AZD1775 and Platinum Agents in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196765"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7914,
+            "approvalStatus": "Preclinical - Pdx & cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Adavosertib (MK-1775) and Platinol (cisplatin) resulted in a synergistic effect when treating lung cancer cells in culture and a patient derived xenograft (PDX) model of lung cancer, both harboring over expression of PAXIP1 and WEE1 (PMID: 27196765).",
+            "molecularProfile": {
+                "id": 26104,
+                "profileName": "PAXIP1 over exp WEE1 over exp"
+            },
+            "therapy": {
+                "id": 1725,
+                "therapyName": "Adavosertib + Cisplatin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6524,
+                    "pubMedId": 27196765,
+                    "title": "PAXIP1 Potentiates the Combination of WEE1 Inhibitor AZD1775 and Platinum Agents in Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196765"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26097,
+            "profileName": "PAXIP1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26103,
+            "profileName": "PAXIP1 over exp WEE1 neg",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26104,
+            "profileName": "PAXIP1 over exp WEE1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

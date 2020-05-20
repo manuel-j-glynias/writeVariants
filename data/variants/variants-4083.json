@@ -1,0 +1,295 @@
+{
+    "id": 4083,
+    "fullName": "MAP2K1 K57T",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "MAP2K1 K57T lies within the negative regulatory region of the Map2k1 protein (PMID: 24241536). K57T results in increased Erk1/2 phosphorylation in culture (PMID: 30341394), and has been demonstrated to occur as a secondary drug resistance mutation (PMID: 26644315, PMID: 28819429, PMID: 30341394), and therefore, is predicted to result in a gain of Map2k1 protein function.",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 13685,
+                    "pubMedId": 30341394,
+                    "title": "Targeting MEK in vemurafenib-resistant hairy cell leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30341394"
+                },
+                {
+                    "id": 10378,
+                    "pubMedId": 28819429,
+                    "title": "MAP2K1 Mutation in Colorectal Cancer Patients: Therapeutic Challenge Using Patient-Derived Tumor Cell Lines.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28819429"
+                },
+                {
+                    "id": 2325,
+                    "pubMedId": 24241536,
+                    "title": "High prevalence of MAP2K1 mutations in variant and IGHV4-34-expressing hairy-cell leukemias.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24241536"
+                },
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5604,
+        "geneSymbol": "MAP2K1",
+        "terms": [
+            "MAP2K1",
+            "CFC3",
+            "MAPKK1",
+            "MEK1",
+            "MKK1",
+            "PRKMK1"
+        ]
+    },
+    "variant": "K57T",
+    "createDate": "03/25/2015",
+    "updateDate": "01/25/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 173438,
+        "transcript": "NM_002755",
+        "gDna": "chr15:g.66435116A>C",
+        "cDna": "c.170A>C",
+        "protein": "p.K57T",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4425,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Erbitux (cetuximab) and Mekinist (trametinib) inhibited colorectal cancer cell lines expressing MAP2K1 K57T in culture (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 3890,
+                "profileName": "MAP2K1 K57T"
+            },
+            "therapy": {
+                "id": 3505,
+                "therapyName": "Cetuximab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4421,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a patient with colorectal cancer developed liver metastases harboring MAP2K1 K57T that were insensitive to Erbitux (cetuximab) treatment and the mutation was confirmed to cause resistance in human colorectal cancer cell lines in culture (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 3890,
+                "profileName": "MAP2K1 K57T"
+            },
+            "therapy": {
+                "id": 694,
+                "therapyName": "Cetuximab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4422,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a colorectal cancer cell line expressing MAP2K1 K57T was resistant to Vectibix (panitumumab) in culture (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 3890,
+                "profileName": "MAP2K1 K57T"
+            },
+            "therapy": {
+                "id": 845,
+                "therapyName": "Panitumumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 4428,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a combination of Vectibix (panitumumab) and Mekinist (trametinib) caused tumor regression in a patient\u2019s colorectal cancer metastases harboring MAP2K1 K57T after being identified pre-clinically as a combination likely to inhibit MAP2K1 K57T expressing colorectal cancer (PMID: 26644315).",
+            "molecularProfile": {
+                "id": 3890,
+                "profileName": "MAP2K1 K57T"
+            },
+            "therapy": {
+                "id": 1991,
+                "therapyName": "Panitumumab + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 4531,
+                    "pubMedId": 26644315,
+                    "title": "Tumor Heterogeneity and Lesion-Specific Response to Targeted Therapy in Colorectal Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26644315"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15710,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a single patient with hairy cell leukemia harboring BRAF V600E, who relapsed after a 38 week remission in response to Zelboraf (vemurafenib) treatment, was found to have acquired multiple clones with Mek/Erk activating mutations, of which the MAP2K1 K57T clone became dominant (PMID: 30341394).",
+            "molecularProfile": {
+                "id": 31172,
+                "profileName": "BRAF V600E MAP2K1 K57T"
+            },
+            "therapy": {
+                "id": 342,
+                "therapyName": "Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 285,
+                "name": "hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 13685,
+                    "pubMedId": 30341394,
+                    "title": "Targeting MEK in vemurafenib-resistant hairy cell leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30341394"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15709,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a single patient with hairy cell leukemia who relapsed after initial response to Zelboraf (vemurafenib) was found to have acquired multiple clones with Mek/Erk activating mutations, of which the MAP2K1 K57T clone became dominant, and demonstrated a sustained response greater than 12 months to combined Zelboraf (vemurafenib) and Cotellic (cobimetinib) treatment (PMID: 30341394).",
+            "molecularProfile": {
+                "id": 31172,
+                "profileName": "BRAF V600E MAP2K1 K57T"
+            },
+            "therapy": {
+                "id": 1657,
+                "therapyName": "Cobimetinib + Vemurafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 711,
+                "name": "refractory hairy cell leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13685,
+                    "pubMedId": 30341394,
+                    "title": "Targeting MEK in vemurafenib-resistant hairy cell leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30341394"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3890,
+            "profileName": "MAP2K1 K57T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31172,
+            "profileName": "BRAF V600E MAP2K1 K57T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 173438,
+            "transcript": "NM_002755",
+            "gDna": "chr15:g.66435116A>C",
+            "cDna": "c.170A>C",
+            "protein": "p.K57T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 173439,
+            "transcript": "XM_017022411",
+            "gDna": "chr15:g.66435116A>C",
+            "cDna": "c.170A>C",
+            "protein": "p.K57T",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

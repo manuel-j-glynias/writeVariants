@@ -1,0 +1,204 @@
+{
+    "id": 6771,
+    "fullName": "IGF1R over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "IGF1R over exp indicates an over expression of the Igf1r protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 3480,
+        "geneSymbol": "IGF1R",
+        "terms": [
+            "IGF1R",
+            "CD221",
+            "IGFIR",
+            "IGFR",
+            "JTK13"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "05/29/2015",
+    "updateDate": "11/29/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3953,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, colon carcinoma cells were sensitive to GSK1904529A in both culture and xenograft models, resulting in cell cycle arrest, decreased phosphorylation of Igf1r, and inhibition of tumor growth (PMID: 19383820).",
+            "molecularProfile": {
+                "id": 6626,
+                "profileName": "IGF1R over exp"
+            },
+            "therapy": {
+                "id": 2743,
+                "therapyName": "GSK1904529A",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1520,
+                "name": "colon carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 2857,
+                    "pubMedId": 19383820,
+                    "title": "Antitumor activity of GSK1904529A, a small-molecule inhibitor of the insulin-like growth factor-I receptor tyrosine kinase.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19383820"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3353,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I study, MM-141, in combination with Abraxane (nab-paclitaxel) and gemcitabine, displayed safety and preliminary efficacy in a variety of solid tumors with Erbb3 (Her3) and Igf1r overexpression (AACR; Cancer Res 2015;75(15 Suppl):Abstract nr CT237).",
+            "molecularProfile": {
+                "id": 13273,
+                "profileName": "ERBB3 over exp IGF1R over exp"
+            },
+            "therapy": {
+                "id": 1249,
+                "therapyName": "Gemcitabine + MM-141 + Nab-paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3758,
+                    "pubMedId": null,
+                    "title": "Preclinical characterization and first-in-human study of MM-141, a dual antibody inhibitor of IGF-1R and ErbB3",
+                    "url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/CT237?cited-by=yes&legid=canres;75/15_Supplement/CT237"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6093,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, prolonged exposure to Alecensa (alectinib) resulted in acquired resistance through over-expression of IGF1R and NRG1, and loss of EML4-ALK in a non-small cell lung carcinoma cell line originally harboring EML4-ALK in culture (PMID: 26719536).",
+            "molecularProfile": {
+                "id": 22703,
+                "profileName": "IGF1R over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 698,
+                "therapyName": "Alectinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 5313,
+                    "pubMedId": 26719536,
+                    "title": "Non-Small Cell Lung Cancer Cells Acquire Resistance to the ALK Inhibitor Alectinib by Activating Alternative Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26719536"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6095,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Linsitinib (OSI-906) and Tarceva (erlotinib) combination treatment inhibited growth of non-small cell lung carcinoma cell lines that acquired Alecensa (alectinib)-resistance through over-expression of IGF1R and NRG1 in culture (PMID: 26719536).",
+            "molecularProfile": {
+                "id": 22703,
+                "profileName": "IGF1R over exp NRG1 over exp"
+            },
+            "therapy": {
+                "id": 4041,
+                "therapyName": "Erlotinib + Linsitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5313,
+                    "pubMedId": 26719536,
+                    "title": "Non-Small Cell Lung Cancer Cells Acquire Resistance to the ALK Inhibitor Alectinib by Activating Alternative Receptor Tyrosine Kinases.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26719536"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 6626,
+            "profileName": "IGF1R over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 5006,
+                    "name": "IGF1R Antibody",
+                    "profileName": "IGF1R over exp"
+                },
+                {
+                    "id": 4997,
+                    "name": "IGF-1R Inhibitor",
+                    "profileName": "IGF1R over exp"
+                },
+                {
+                    "id": 14014,
+                    "name": "IGF1/2 Antibody",
+                    "profileName": "IGF1R over exp"
+                }
+            ]
+        },
+        {
+            "id": 13273,
+            "profileName": "ERBB3 over exp IGF1R over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22703,
+            "profileName": "IGF1R over exp NRG1 over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

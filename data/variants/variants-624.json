@@ -1,0 +1,503 @@
+{
+    "id": 624,
+    "fullName": "AR T878A",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "AR T878A (also reported as T877A) lies within the ligand binding region of the androgen receptor (UniProt.org). T878A may provide a selective growth advantage to prostate cancer cells (PMID: 8187068), causes promiscuous ligand agonist response, including to nonandrogenic steroids and an antiandrogen (PMID: 11888926, PMID: 26760770), and results in constitutive activity in vitro (PMID: 22403669).",
+            "references": [
+                {
+                    "id": 672,
+                    "pubMedId": 11888926,
+                    "title": "Functional analysis of 44 mutant androgen receptors from human prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11888926"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 673,
+                    "pubMedId": 22403669,
+                    "title": "The impact of point mutations in the human androgen receptor: classification of mutations on the basis of transcriptional activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22403669"
+                },
+                {
+                    "id": 11247,
+                    "pubMedId": 26760770,
+                    "title": "BAY 1024767 blocks androgen receptor mutants found in castration-resistant prostate cancer patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26760770"
+                },
+                {
+                    "id": 300,
+                    "pubMedId": 8187068,
+                    "title": "Frequent detection of codon 877 mutation in the androgen receptor gene in advanced prostate cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8187068"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 367,
+        "geneSymbol": "AR",
+        "terms": [
+            "AR",
+            "AIS",
+            "AR8",
+            "DHTR",
+            "HUMARA",
+            "HYSP1",
+            "KD",
+            "NR3C4",
+            "SBMA",
+            "SMAX1",
+            "TFM"
+        ]
+    },
+    "variant": "T878A",
+    "createDate": "05/27/2014",
+    "updateDate": "12/10/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 146268,
+        "transcript": "NM_000044",
+        "gDna": "chrX:g.67723710A>G",
+        "cDna": "c.2632A>G",
+        "protein": "p.T878A",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 1184,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical trials, AR T878A (previously reported as T877A) mutant cell lines demonstrated sensitivity to Bicalutamide (PMID: 9815822).",
+            "molecularProfile": {
+                "id": 729,
+                "profileName": "AR T878A"
+            },
+            "therapy": {
+                "id": 1507,
+                "therapyName": "Bicalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 776,
+                    "pubMedId": 9815822,
+                    "title": "Functional characterization of mutant androgen receptors from androgen-independent prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9815822"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1047,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In preclinical studies, the antiandrogen Eulexin (flutamide) was reported to inhibit cells expressing AR T878A (aka T877A) in one study (PMID: 19389135), but others found that it activated the mutant receptor (PMID: 9815822, PMID: 10363963).",
+            "molecularProfile": {
+                "id": 729,
+                "profileName": "AR T878A"
+            },
+            "therapy": {
+                "id": 742,
+                "therapyName": "Flutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "conflicting",
+            "references": [
+                {
+                    "id": 776,
+                    "pubMedId": 9815822,
+                    "title": "Functional characterization of mutant androgen receptors from androgen-independent prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9815822"
+                },
+                {
+                    "id": 777,
+                    "pubMedId": 10363963,
+                    "title": "Selection for androgen receptor mutations in prostate cancers treated with androgen antagonist.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10363963"
+                },
+                {
+                    "id": 15294,
+                    "pubMedId": 19389135,
+                    "title": "Suppression of mutant androgen receptors by flutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19389135"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 13820,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, seven metastatic castration-resistant prostate cancer patients with AR H875Y (reported as H874Y) or T878A (reported as T877A) detected in cell-free DNA had progressed on or had received prior treatment with Zytiga (abiraterone) (PMID: 25712683).",
+            "molecularProfile": {
+                "id": 729,
+                "profileName": "AR T878A"
+            },
+            "therapy": {
+                "id": 1805,
+                "therapyName": "Abiraterone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4735,
+                    "pubMedId": 25712683,
+                    "title": "Androgen Receptor Gene Aberrations in Circulating Cell-Free DNA: Biomarkers of Therapeutic Resistance in Castration-Resistant Prostate Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25712683"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6942,
+            "approvalStatus": "Clinical Study - Cohort",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, prostate cancer patients harboring either AR amplification or AR T878A or AR L702H prior to Zytiga (abiraterone) treatment demonstrated they were less likely to experience a greater than or equal to 50% to 90% PSA decline and showed a worse overall survial (HR=7.33) and progression-free survival (HR=3.73) (PMID: 26537258).",
+            "molecularProfile": {
+                "id": 729,
+                "profileName": "AR T878A"
+            },
+            "therapy": {
+                "id": 1805,
+                "therapyName": "Abiraterone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 5973,
+                    "pubMedId": 26537258,
+                    "title": "Plasma AR and abiraterone-resistant prostate cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26537258"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 1046,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, AR T878A (previously reported as T877A) was activated rather than inhibited by nilutamide in prostate cancer (PMID: 17373727).",
+            "molecularProfile": {
+                "id": 729,
+                "profileName": "AR T878A"
+            },
+            "therapy": {
+                "id": 1506,
+                "therapyName": "Nilutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 775,
+                    "pubMedId": 17373727,
+                    "title": "Effects of steroidal and non-steroidal antiandrogens on wild-type and mutant androgen receptors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17373727"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13951,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, the AR T878A variant was not associated with de novo or acquired resistance to Erleada (apalutamide) in patients with castration-resistant prostate cancer, based on its low frequency at baseline and progression (PMID: 28633425; NCT01171898).",
+            "molecularProfile": {
+                "id": 729,
+                "profileName": "AR T878A"
+            },
+            "therapy": {
+                "id": 1947,
+                "therapyName": "Apalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 10026,
+                    "pubMedId": 28633425,
+                    "title": "Androgen receptor mutations in patients with castration-resistant prostate cancer treated with apalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28633425"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 9698,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mivebresib (ABBV-075) decreased expression of KLK3 and UBE2C and inhibited proliferation of a prostate cancer cell line with acquired resistance to Xtandi (enzalutamide) harboring both AR T878A and AR F877L, in culture (PMID: 27707886).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 4028,
+                "therapyName": "Mivebresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7485,
+                    "pubMedId": 27707886,
+                    "title": "Exploitation of Castration-Resistant Prostate Cancer Transcription Factor Dependencies by the Novel BET Inhibitor ABBV-075.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27707886"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8844,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xtandi (enzalutamide) demonstrated increased binding affinity for the AR T878A/F877L double mutant, acted as a full agonist for androgen-receptor signaling, and did not inhibit proliferation of prostate cancer cells expressing the AR T878A/F877L double mutant in culture (PMID: 27196756).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 1262,
+                "therapyName": "Enzalutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6007,
+                    "pubMedId": 27196756,
+                    "title": "The Effect of F877L and T878A Mutations on Androgen Receptor Response to Enzalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8846,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, prostate cancer cells expressing the AR F877L/T878A double mutant were resistant to growth inhibition by hydroxyflutamide in culture (PMID: 27196756).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 742,
+                "therapyName": "Flutamide",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6007,
+                    "pubMedId": 27196756,
+                    "title": "The Effect of F877L and T878A Mutations on Androgen Receptor Response to Enzalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8845,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Zytiga (abiratirone) inhibited proliferation of prostate cancer cells expressing the AR T878A/L877L double mutant in culture (PMID: 27196756).",
+            "molecularProfile": {
+                "id": 26464,
+                "profileName": "AR F877L AR T878A"
+            },
+            "therapy": {
+                "id": 1805,
+                "therapyName": "Abiraterone",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6007,
+                    "pubMedId": 27196756,
+                    "title": "The Effect of F877L and T878A Mutations on Androgen Receptor Response to Enzalutamide.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27196756"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9696,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mivebresib (ABBV-075) inhibited AR and ETS-family target gene expression in a hormone-dependent prostate cancer cell line harboring AR T878A and an ETV1 fusion in culture, and inhibited tumor growth in xenograft models (PMID: 27707886).",
+            "molecularProfile": {
+                "id": 26984,
+                "profileName": "ETV1 fusion AR T878A"
+            },
+            "therapy": {
+                "id": 4028,
+                "therapyName": "Mivebresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7485,
+                    "pubMedId": 27707886,
+                    "title": "Exploitation of Castration-Resistant Prostate Cancer Transcription Factor Dependencies by the Novel BET Inhibitor ABBV-075.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27707886"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 9701,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mivebresib (ABBV-075) inhibited ETS-family target gene expression and proliferation of an Xtandi (enzalutamide)-resistant prostate cancer cell line harboring AR T878A and AR L702H as well as an ETV1 fusion in culture (PMID: 27707886).",
+            "molecularProfile": {
+                "id": 26987,
+                "profileName": "ETV1 fusion AR L702H AR T878A"
+            },
+            "therapy": {
+                "id": 4028,
+                "therapyName": "Mivebresib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10283,
+                "name": "prostate cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 7485,
+                    "pubMedId": 27707886,
+                    "title": "Exploitation of Castration-Resistant Prostate Cancer Transcription Factor Dependencies by the Novel BET Inhibitor ABBV-075.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27707886"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 729,
+            "profileName": "AR T878A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26464,
+            "profileName": "AR F877L AR T878A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26984,
+            "profileName": "ETV1 fusion AR T878A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26987,
+            "profileName": "ETV1 fusion AR L702H AR T878A",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 146268,
+            "transcript": "NM_000044",
+            "gDna": "chrX:g.67723710A>G",
+            "cDna": "c.2632A>G",
+            "protein": "p.T878A",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

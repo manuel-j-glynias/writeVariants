@@ -1,0 +1,149 @@
+{
+    "id": 17257,
+    "fullName": "TP53 C176F",
+    "impact": "missense",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 C176F lies within a zinc binding residue in the DNA-binding region of the Tp53 protein (UniProt.org). C176F is predicted to confer a loss of function to the Tp53 protein, as demonstrated by the inability to induce CDKN1A (p21) transcription in cell culture (PMID: 22090360).",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 4462,
+                    "pubMedId": 22090360,
+                    "title": "TP53 disruptive mutations lead to head and neck cancer treatment failure through inhibition of radiation-induced senescence.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22090360"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "C176F",
+    "createDate": "01/26/2016",
+    "updateDate": "10/03/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 94000,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7675085C>A",
+        "cDna": "c.527G>T",
+        "protein": "p.C176F",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 4737,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Xalkori (crizotinib) did not demonstrate synergy with the combination of Topotecan and Cytoxan (cyclophosphamide) on growth inhibition in neuroblastoma cell lines harboring wild-tpye Alk and TP53 C176F in culture (PMID: 26438783).",
+            "molecularProfile": {
+                "id": 18880,
+                "profileName": "ALK wild-type TP53 C176F"
+            },
+            "therapy": {
+                "id": 3601,
+                "therapyName": "Crizotinib + Cyclophosphamide + Topotecan",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 769,
+                "name": "neuroblastoma",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 4681,
+                    "pubMedId": 26438783,
+                    "title": "Crizotinib Synergizes with Chemotherapy in Preclinical Models of Neuroblastoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26438783"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 17542,
+            "profileName": "TP53 C176F",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7607,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 C176F"
+                },
+                {
+                    "id": 7606,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 C176F"
+                }
+            ]
+        },
+        {
+            "id": 18880,
+            "profileName": "ALK wild-type TP53 C176F",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 94001,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7675085C>A",
+            "cDna": "c.527G>T",
+            "protein": "p.C176F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 93999,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7675085C>A",
+            "cDna": "c.527G>T",
+            "protein": "p.C176F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94002,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7675085C>A",
+            "cDna": "c.527G>T",
+            "protein": "p.C176F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 94000,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7675085C>A",
+            "cDna": "c.527G>T",
+            "protein": "p.C176F",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

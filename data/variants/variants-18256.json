@@ -1,0 +1,1091 @@
+{
+    "id": 18256,
+    "fullName": "ERBB2 L869R",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "ERBB2 (HER2) L869R lies within the protein kinase domain of the Erbb2 (Her2) protein (UniProt.org). L869R results in constitutive Erbb2 (Her2) phosphorylation, activation of downstream signaling, transformation of cultured cells (PMID: 31588020), enhanced tumor formation and metastasis in animal models (PMID: 27900369), and confers resistance to selected tyrosine kinase inhibitors (PMID: 31588020).",
+            "references": [
+                {
+                    "id": 8396,
+                    "pubMedId": 27900369,
+                    "title": "Genomic profiling of multiple sequentially acquired tumor metastatic sites from an \"exceptional responder\" lung adenocarcinoma patient reveals extensive genomic heterogeneity and novel somatic variants driving treatment response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27900369"
+                },
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 2064,
+        "geneSymbol": "ERBB2",
+        "terms": [
+            "ERBB2",
+            "CD340",
+            "HER-2",
+            "HER-2/neu",
+            "HER2",
+            "MLN 19",
+            "NEU",
+            "NGL",
+            "TKR1"
+        ]
+    },
+    "variant": "L869R",
+    "createDate": "02/17/2016",
+    "updateDate": "11/12/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 170625,
+        "transcript": "NM_004448",
+        "gDna": "chr17:g.39725161T>G",
+        "cDna": "c.2606T>G",
+        "protein": "p.L869R",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 11221,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited ERBB2 (HER2) phosphorylation and growth of transformed breast epithelial cells expressing ERBB2 (HER2) L869R in culture (PMID: 28274957).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9156,
+                    "pubMedId": 28274957,
+                    "title": "An Acquired HER2T798I Gatekeeper Mutation Induces Resistance to Neratinib in a Patient with HER2 Mutant-Driven Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28274957"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19189,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) L869R were resistant to Tykerb (lapatinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20668,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Vizimpro (dacomitinib) inhibited survival of transformed cells expressing ERBB2 (HER2) L869R in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 714,
+                "therapyName": "Dacomitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20367,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gilotrif (afatinib) inhibited survival of transformed cells expressing ERBB2 (HER2) L869R in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 623,
+                "therapyName": "Afatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10405,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, ERBB2 (HER2) L869R was identified in the lymph node metastasis from a lung adenocarcinoma patient that progressed on Tykerb (lapatinib) therapy (PMID: 27900369).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 8396,
+                    "pubMedId": 27900369,
+                    "title": "Genomic profiling of multiple sequentially acquired tumor metastatic sites from an \"exceptional responder\" lung adenocarcinoma patient reveals extensive genomic heterogeneity and novel somatic variants driving treatment response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27900369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 13223,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (SUMMIT), Nerlynx (neratinib) treatment resulted in partial response with a progression-free survival of 3.6 months in a patient with Erbb2 (Her2) receptor negative (non-amplified) breast cancer harboring ERBB2 (HER2) L869R (PMID: 29420467; NCT01953926).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60080,
+                "name": "Her2-receptor negative breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10997,
+                    "pubMedId": 29420467,
+                    "title": "HER kinase inhibition in patients with HER2- and HER3-mutant cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29420467"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11641,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Nerlynx (neratinib) demonstrated activity in metastatic breast cancer patients harboring ERBB2 (HER2) mutations, resulting in a clinical benefit rate of 31% (5/16), with 1 complete response, 1 partial response, and 3 patients achieving stable disease for 24 weeks or more, which included a patient harboring ERBB2 (HER2) L869R (PMID: 28679771).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9679,
+                    "pubMedId": 28679771,
+                    "title": "Neratinib Efficacy and Circulating Tumor DNA Detection of HER2 Mutations in HER2 Nonamplified Metastatic Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28679771"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 11220,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nerlynx (neratinib) inhibited ERBB2 (HER2) phosphorylation and growth of transformed breast epithelial cells expressing ERBB2 (HER2) L869R in culture (PMID: 28274957).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9156,
+                    "pubMedId": 28274957,
+                    "title": "An Acquired HER2T798I Gatekeeper Mutation Induces Resistance to Neratinib in a Patient with HER2 Mutant-Driven Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28274957"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20392,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Nazartinib (EGF816) inhibited survival of transformed cells expressing ERBB2 (HER2) L869R in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 1309,
+                "therapyName": "Nazartinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19986,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Poziotinib (HM781-36B) inhibited survival of transformed cells expressing ERBB2 (HER2) L755S in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 1042,
+                "therapyName": "Poziotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19157,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) L869R were resistant to Sapitinib (AZD8931) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 910,
+                "therapyName": "Sapitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20291,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) L869R were resistant to Tagrisso (osimertinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10402,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed breast cancer cells over expressing ERBB2 (HER2) L869R were resistant to Tykerb (lapatinib) in culture, formed tumors and metastasized readily in xenograft animal models (PMID: 27900369).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 8396,
+                    "pubMedId": 27900369,
+                    "title": "Genomic profiling of multiple sequentially acquired tumor metastatic sites from an \"exceptional responder\" lung adenocarcinoma patient reveals extensive genomic heterogeneity and novel somatic variants driving treatment response.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27900369"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 16774,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a colorectal carcinoma patient who initially achieved stable disease following treatment with Tykerb (lapatinib) and Herceptin (trastuzumab) developed secondary resistance, presenting with a brain metastasis, and ERBB2 (HER2) L869R was identified in the brain lesion (PMID: 29941010).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 1414,
+                "therapyName": "Lapatinib + Trastuzumab",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50861,
+                "name": "colorectal adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 14900,
+                    "pubMedId": 29941010,
+                    "title": "Targeting ERBB2 mutations in solid tumors: biological and clinical implications.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29941010"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20548,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Tarloxotinib (TRLX) inhibited survival of transformed cells expressing ERBB2 (HER2) L869R in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 6986,
+                "therapyName": "Tarloxotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20418,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ERBB2 (HER2) L869R were resistant to Imbruvica (ibrutinib) in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 768,
+                "therapyName": "Ibrutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20534,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pyrotinib inhibited survival of transformed cells expressing ERBB2 (HER2) L869R in culture (PMID: 31588020).",
+            "molecularProfile": {
+                "id": 18584,
+                "profileName": "ERBB2 L869R"
+            },
+            "therapy": {
+                "id": 3082,
+                "therapyName": "Pyrotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 16758,
+                    "pubMedId": 31588020,
+                    "title": "Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a Clinically Active Inhibitor and Enhancer of T-DM1 Activity.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31588020"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11218,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lobular breast carcinoma patient harboring ERBB2 (HER2) L869R and ERBB3 (HER3) E928G achieved a clinical response following treatment with Nerlynx (neratinib), and sensitivity to Nerlynx (neratinib) was also demonstrated in cells expressing ERBB2 (HER2) L869R and ERBB3 (HER3) E928G in culture (PMID: 28274957).",
+            "molecularProfile": {
+                "id": 27927,
+                "profileName": "ERBB2 L869R ERBB3 E928G"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50938,
+                "name": "breast lobular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 9156,
+                    "pubMedId": 28274957,
+                    "title": "An Acquired HER2T798I Gatekeeper Mutation Induces Resistance to Neratinib in a Patient with HER2 Mutant-Driven Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28274957"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11219,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, a lobular breast carcinoma patient harboring ERBB2 L869R and ERBB3 E928G demonstrated an initial response to treatment with Nerlynx (neratinib), but subsequently developed resistance, which was associated with acquisition of ERBB2 T798I (PMID: 28274957).",
+            "molecularProfile": {
+                "id": 27928,
+                "profileName": "ERBB2 T798I ERBB2 L869R ERBB3 E928G"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 50938,
+                "name": "breast lobular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 9156,
+                    "pubMedId": 28274957,
+                    "title": "An Acquired HER2T798I Gatekeeper Mutation Induces Resistance to Neratinib in a Patient with HER2 Mutant-Driven Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28274957"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15767,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Nerlynx (neratinib) results in restored sensitivity to Faslodex (fulvestrant) in estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 5705,
+                "therapyName": "Fulvestrant + Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15971,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, the addition of Faslodex (fulvestrant) to therapy with Nerlynx (neratinib) following progression on Nerlynx (neratinib) therapy resulted in prolonged tumor regression in a patient with estrogen-receptor (ESR1)-positive breast cancer harboring ERBB2 (HER2) L869R (PMID: 30314968).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 5705,
+                "therapyName": "Fulvestrant + Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13816,
+                    "pubMedId": 30314968,
+                    "title": "Combined Blockade of Activating ERBB2 Mutations and ER Results in Synthetic Lethality of ER+/HER2 Mutant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30314968"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15851,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of VX-11e did not restore sensitivity to Faslodex (fulvestrant) in estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 7755,
+                "therapyName": "Fulvestrant + VX-11e",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15888,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Afinitor (everolimus) did not restore sensitivity to Faslodex (fulvestrant) in estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 1589,
+                "therapyName": "Everolimus + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15756,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R demonstrated resistance when treated with GDC-0810 in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 2150,
+                "therapyName": "GDC-0810",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15881,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Capivasertib (AZD5363) did not restore sensitivity to Faslodex (fulvestrant) in estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 4452,
+                "therapyName": "Capivasertib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15972,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical case study, Nerlynx (neratinib) therapy resulted in clinical response in a patient with estrogen-receptor (ESR1)-positive breast cancer harboring ERBB2 (HER2) L869R (PMID: 30314968).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 828,
+                "therapyName": "Neratinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 13816,
+                    "pubMedId": 30314968,
+                    "title": "Combined Blockade of Activating ERBB2 Mutations and ER Results in Synthetic Lethality of ER+/HER2 Mutant Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30314968"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15752,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R demonstrated resistance when treated with Faslodex (fulvestrant) in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 744,
+                "therapyName": "Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15858,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Alpelisib (BYL719) did not restore sensitivity to Faslodex (fulvestrant) in estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 5929,
+                "therapyName": "Alpelisib + Fulvestrant",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15834,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R were resistant to the combination therapy of Faslodex (fulvestrant) and Ibrance (palbociclib) in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 3205,
+                "therapyName": "Fulvestrant + Palbociclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15843,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the addition of Mekinist (trametinib) did not restore sensitivity to Faslodex (fulvestrant) in estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 7754,
+                "therapyName": "Fulvestrant + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 15748,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, estrogen-receptor positive breast cancer cells expressing ERBB2 (HER2) L869R demonstrated resistance when treated with Nolvadex (tamoxifen) in culture (PMID: 30531871).",
+            "molecularProfile": {
+                "id": 31192,
+                "profileName": "ERBB2 L869R ESR1 pos"
+            },
+            "therapy": {
+                "id": 1456,
+                "therapyName": "Tamoxifen",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60075,
+                "name": "estrogen-receptor positive breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 13733,
+                    "pubMedId": 30531871,
+                    "title": "Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen receptor-directed therapies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30531871"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 18584,
+            "profileName": "ERBB2 L869R",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 10966,
+                    "name": "HER2 Inhibitor",
+                    "profileName": "ERBB2 L869R"
+                },
+                {
+                    "id": 10965,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "ERBB2 L869R"
+                }
+            ]
+        },
+        {
+            "id": 27926,
+            "profileName": "ERBB2 T798I ERBB2 L869R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27927,
+            "profileName": "ERBB2 L869R ERBB3 E928G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27928,
+            "profileName": "ERBB2 T798I ERBB2 L869R ERBB3 E928G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 31192,
+            "profileName": "ERBB2 L869R ESR1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 170626,
+            "transcript": "NM_001289937",
+            "gDna": "chr17:g.39725161T>G",
+            "cDna": "c.2606T>G",
+            "protein": "p.L869R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 170625,
+            "transcript": "NM_004448",
+            "gDna": "chr17:g.39725161T>G",
+            "cDna": "c.2606T>G",
+            "protein": "p.L869R",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

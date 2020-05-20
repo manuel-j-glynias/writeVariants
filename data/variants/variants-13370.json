@@ -1,0 +1,1092 @@
+{
+    "id": 13370,
+    "fullName": "ABL1 F317L",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ABL1 F317L lies within the protein kinase domain of the Abl1 protein (UniProt.org). F317L has been demonstrated to occur as a secondary drug resistance mutation in the context of BCR-ABL1 (PMID: 21562040), and demonstrates reduced Abl1 kinase activity and transformation activity in the context of BCR-ABL1 compared to wild-type BCR-ABL1 (PMID: 17164333), but has not been individually characterized and therefore, its effect on Abl1 protein function is unknown (PubMed, Oct 2019).",
+            "references": [
+                {
+                    "id": 16349,
+                    "pubMedId": 17164333,
+                    "title": "Phosphorylation of the ATP-binding loop directs oncogenicity of drug-resistant BCR-ABL mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17164333"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 3828,
+                    "pubMedId": 21562040,
+                    "title": "BCR-ABL kinase domain mutation analysis in chronic myeloid leukemia patients treated with tyrosine kinase inhibitors: recommendations from an expert panel on behalf of European LeukemiaNet.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21562040"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 25,
+        "geneSymbol": "ABL1",
+        "terms": [
+            "ABL1",
+            "ABL",
+            "BCR-ABL",
+            "bcr/abl",
+            "c-ABL",
+            "c-ABL1",
+            "CHDSKM",
+            "JTK7",
+            "p150",
+            "v-abl"
+        ]
+    },
+    "variant": "F317L",
+    "createDate": "10/29/2015",
+    "updateDate": "10/10/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 119168,
+        "transcript": "NM_005157",
+        "gDna": "chr9:g.130872901T>C",
+        "cDna": "c.949T>C",
+        "protein": "p.F317L",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 6248,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Iclusig (ponatinib) resulted in major cytogenetic response in 45% (13/29) of chronic myeloid leukemia patients harboring ABL1 F317L in the context of BCR-ABL1, that had failed prior therapies targeting BCR-ALB1 (PMID: 26603839).",
+            "molecularProfile": {
+                "id": 22836,
+                "profileName": "BCR - ABL1 ABL1 F317L"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 18907,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Sprycel (dasatinib) is not indicated for use in chronic myeloid leukemia patients with BCR-ABL1 harboring ABL1 F317L (NCCN.org).",
+            "molecularProfile": {
+                "id": 22836,
+                "profileName": "BCR - ABL1 ABL1 F317L"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20944,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing ABL1 F317L in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 22836,
+                "profileName": "BCR - ABL1 ABL1 F317L"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 18900,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Bosulif (bosutinib) is not indicated for use in chronic myeloid leukemia patients with BCR-ABL1 harboring ABL1 F317L (NCCN.org).",
+            "molecularProfile": {
+                "id": 22836,
+                "profileName": "BCR - ABL1 ABL1 F317L"
+            },
+            "therapy": {
+                "id": 690,
+                "therapyName": "Bosutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20126,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Sprycel (dasatinib) is not indicated for use in acute lymphoblastic leukemia patients with BCR-ABL1 harboring ABL1 F317L (NCCN.org).",
+            "molecularProfile": {
+                "id": 22836,
+                "profileName": "BCR - ABL1 ABL1 F317L"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9952,
+                "name": "acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20923,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ABL1 F317L in the context of BCR-ABL1 were resistant to Inlyta (axitinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 22836,
+                "profileName": "BCR - ABL1 ABL1 F317L"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20123,
+            "approvalStatus": "Guideline",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "Bosulif (bosutinib) is not indicated for use in acute lymphoblastic leukemia patients with BCR-ABL1 harboring ABL1 F317L (NCCN.org).",
+            "molecularProfile": {
+                "id": 22836,
+                "profileName": "BCR - ABL1 ABL1 F317L"
+            },
+            "therapy": {
+                "id": 690,
+                "therapyName": "Bosutinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9952,
+                "name": "acute lymphoblastic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10889,
+                    "pubMedId": null,
+                    "title": "NCCN.org",
+                    "url": "https://www.nccn.org/professionals/physician_gls/default.aspx"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "A",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 6375,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II clinical trial, Iclusig (ponatinib) resulted in a partial cytogenic regression in a patient with heavily pretreated chronic myeloid leukemia expressing BCR-ABL1, ABL1 F317L, and E450G in a majority of BCR-ABL1 positive clones (PMID: 26603839).",
+            "molecularProfile": {
+                "id": 22977,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 E450G"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 20917,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 F317L and E549K in the context of BCR-ABL1 were resistant to Inlyta (axitinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 23131,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 E459K"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20960,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 E459K and F317L in the context of BCR-ABL1 were resistant to Iclusig (ponatinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 23131,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 E459K"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7996,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PACE), Iclusig (ponatinib) treatment resulted in a major molecular response in 2 chronic myeloid leukemia patients harboring compound mutations including ABL1 F317L/E459K in the context of BCR-ABL1, although further analysis suggested no correlation between mutation profile and Iclusig (ponatinib) response (PMID: 26603839; NCT01207440).",
+            "molecularProfile": {
+                "id": 23131,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 E459K"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19161,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing BCR-ABL1 with ABL1 F359C demonstrated resistance to Asciminib (ABL001) in culture (PMID: 31543464).",
+            "molecularProfile": {
+                "id": 23152,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359C"
+            },
+            "therapy": {
+                "id": 2484,
+                "therapyName": "Asciminib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16762,
+                    "pubMedId": 31543464,
+                    "title": "Combining the Allosteric Inhibitor Asciminib with Ponatinib Suppresses Emergence of and Restores Efficacy against Highly Resistant BCR-ABL1 Mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31543464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7983,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PACE), Iclusig (ponatinib) treatment resulted in complete cytogenetic response in a chronic myeloid leukemia patient harboring compound mutations including ABL1 T315I/F317L (34%) and T315I (1%) in the context of BCR-ABL1, although further analysis suggested no correlation between mutation profile and Iclusig (ponatinib) response (PMID: 26603839; NCT01207440).",
+            "molecularProfile": {
+                "id": 23154,
+                "profileName": "BCR - ABL1 ABL1 T315I ABL1 F317L"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7981,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PACE), Iclusig (ponatinib) treatment did not result in a clinical response in a chronic myeloid leukemia patient harboring compound mutations including ABL1 F359C/F317L (73%), F359C/T315I (21%), and F359C (3%) in the context of BCR-ABL1, although further analysis suggested no correlation between mutation profile and Iclusig (ponatinib) response (PMID: 26603839; NCT01207440).",
+            "molecularProfile": {
+                "id": 26125,
+                "profileName": "BCR - ABL1 ABL1 T315I ABL1 F317L ABL1 F359C"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7982,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PACE), Iclusig (ponatinib) treatment did not result in clinical response in a chronic myeloid leukemia patient harboring compound mutations consisted of ABL1 Y253H (94%), and G250E/F317L (1%) in the context of BCR-ABL1, although further analysis suggested no correlation between mutation profile and Iclusig (ponatinib) response (PMID: 26603839; NCT01207440).",
+            "molecularProfile": {
+                "id": 26126,
+                "profileName": "BCR - ABL1 ABL1 G250E ABL1 Y253H ABL1 F317L"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7984,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PACE), Iclusig (ponatinib) resulted in a major molecular response in a chronic myeloid leukemia patient harboring compound mutations including ABL1 F317L/H396R (75%), F317L/E279K (20%), F317L/E281K (2%), and F317L (1%) in the context of BCR-ABL1, although further analysis suggested no correlation between mutation profile and Iclusig (ponatinib) response (PMID: 26603839; NCT01207440).",
+            "molecularProfile": {
+                "id": 26127,
+                "profileName": "BCR - ABL1 ABL1 E279K ABL1 E281K ABL1 F317L ABL1 H396R"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 7991,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial (PACE), Iclusig (ponatinib) treatment resulted in a partial cytogenetic response in a chronic myeloid leukemia patient harboring compound mutations including ABL1 F317L/E450G (92%) and F359V (6%) in the context of BCR-ABL1, although further analysis suggested no correlation between mutation profile and Iclusig (ponatinib) response (PMID: 26603839; NCT01207440).",
+            "molecularProfile": {
+                "id": 26129,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359V ABL1 E450G"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 8552,
+                "name": "chronic myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "unknown",
+            "references": [
+                {
+                    "id": 5509,
+                    "pubMedId": 26603839,
+                    "title": "Compound mutations in BCR-ABL1 are not major drivers of primary or secondary resistance to ponatinib in CP-CML patients.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26603839"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 19196,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing ABL1 F317L and V299L in the context of BCR-ABL1 demonstrated resistance to Asciminib (ABL001) in culture (PMID: 31543464).",
+            "molecularProfile": {
+                "id": 33949,
+                "profileName": "BCR - ABL1 ABL1 V299L ABL1 F317L"
+            },
+            "therapy": {
+                "id": 2484,
+                "therapyName": "Asciminib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16762,
+                    "pubMedId": 31543464,
+                    "title": "Combining the Allosteric Inhibitor Asciminib with Ponatinib Suppresses Emergence of and Restores Efficacy against Highly Resistant BCR-ABL1 Mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31543464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20963,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing both ABL1 F317L and V299L in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 33949,
+                "profileName": "BCR - ABL1 ABL1 V299L ABL1 F317L"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19197,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, cells expressing ABL1 F317L and F359V in the context of BCR-ABL1 demonstrated resistance to Asciminib (ABL001) in culture (PMID: 31543464).",
+            "molecularProfile": {
+                "id": 33950,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359V"
+            },
+            "therapy": {
+                "id": 2484,
+                "therapyName": "Asciminib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 16762,
+                    "pubMedId": 31543464,
+                    "title": "Combining the Allosteric Inhibitor Asciminib with Ponatinib Suppresses Emergence of and Restores Efficacy against Highly Resistant BCR-ABL1 Mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31543464"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20919,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 F317L and F359V in the context of BCR-ABL1 were resistant to Inlyta (axitinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 33950,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359V"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20958,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 F359V and F317L in the context of BCR-ABL1 were resistant to Iclusig (ponatinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 33950,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359V"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20918,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 F317L and L384M in the context of BCR-ABL1 were resistant to Inlyta (axitinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35405,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 L384M"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20959,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 L384M and F317L in the context of BCR-ABL1 were resistant to Iclusig (ponatinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35405,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 L384M"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20957,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 E255V and F317L in the context of BCR-ABL1 were resistant to Iclusig (ponatinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35406,
+                "profileName": "BCR - ABL1 ABL1 E255V ABL1 F317L"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20920,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing both ABL1 F317L and E255V in the context of BCR-ABL1 were resistant to Inlyta (axitinib) in cell culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35406,
+                "profileName": "BCR - ABL1 ABL1 E255V ABL1 F317L"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20961,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing both ABL1 F317L and L387M in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35462,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 L387M"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20962,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Iclusig (ponatinib) inhibited survival of transformed cells expressing both ABL1 F317L and M351T in the context of BCR-ABL1 in culture (PMID: 28983061).",
+            "molecularProfile": {
+                "id": 35463,
+                "profileName": "BCR - ABL1 ABL1 F317L ABL1 M351T"
+            },
+            "therapy": {
+                "id": 877,
+                "therapyName": "Ponatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 18128,
+                    "pubMedId": 28983061,
+                    "title": "BCR-ABL1 compound mutants display differential and dose-dependent responses to ponatinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28983061"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 13556,
+            "profileName": "ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22836,
+            "profileName": "BCR - ABL1 ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 22977,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 E450G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23131,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 E459K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23152,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23153,
+            "profileName": "BCR - ABL1 ABL1 G250E ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23154,
+            "profileName": "BCR - ABL1 ABL1 T315I ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23155,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 H396R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23156,
+            "profileName": "BCR - ABL1 ABL1 E279K ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23163,
+            "profileName": "BCR - ABL1 ABL1 E281K ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26125,
+            "profileName": "BCR - ABL1 ABL1 T315I ABL1 F317L ABL1 F359C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26126,
+            "profileName": "BCR - ABL1 ABL1 G250E ABL1 Y253H ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26127,
+            "profileName": "BCR - ABL1 ABL1 E279K ABL1 E281K ABL1 F317L ABL1 H396R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26129,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359V ABL1 E450G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33949,
+            "profileName": "BCR - ABL1 ABL1 V299L ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33950,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 F359V",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35405,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 L384M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35406,
+            "profileName": "BCR - ABL1 ABL1 E255V ABL1 F317L",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35462,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 L387M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35463,
+            "profileName": "BCR - ABL1 ABL1 F317L ABL1 M351T",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 119168,
+            "transcript": "NM_005157",
+            "gDna": "chr9:g.130872901T>C",
+            "cDna": "c.949T>C",
+            "protein": "p.F317L",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

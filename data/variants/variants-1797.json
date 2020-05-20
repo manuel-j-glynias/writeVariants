@@ -1,0 +1,335 @@
+{
+    "id": 1797,
+    "fullName": "BCL2 over exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "BCL2 over exp indicates an over expression of the Bcl2 protein. However, the mechanism causing the over expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 596,
+        "geneSymbol": "BCL2",
+        "terms": [
+            "BCL2",
+            "Bcl-2",
+            "PPP1R50"
+        ]
+    },
+    "variant": "over exp",
+    "createDate": "09/18/2014",
+    "updateDate": "05/15/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 5229,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed human lymphocytes over expressing Bcl2 demonstrated reduced sensitivity to Taxol (paclitaxel) induced apoptosis in culture (PMID: 10432288).",
+            "molecularProfile": {
+                "id": 1785,
+                "profileName": "BCL2 over exp"
+            },
+            "therapy": {
+                "id": 1103,
+                "therapyName": "Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2531,
+                "name": "hematologic cancer",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 4932,
+                    "pubMedId": 10432288,
+                    "title": "Bcl-2-mediated drug resistance: inhibition of apoptosis by blocking nuclear factor of activated T lymphocytes (NFAT)-induced Fas ligand transcription.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10432288"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 5225,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BCL2 over expression was associated with Taxol (paclitaxel) resistance in a panel of tumor cell lines through multiple factor analysis, and was predictive of Taxol (paclitaxel)-resistance in patient samples (PMID: 26372358).",
+            "molecularProfile": {
+                "id": 1785,
+                "profileName": "BCL2 over exp"
+            },
+            "therapy": {
+                "id": 1103,
+                "therapyName": "Paclitaxel",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 4931,
+                    "pubMedId": 26372358,
+                    "title": "Genomic signatures for paclitaxel and gemcitabine resistance in breast cancer derived by machine learning.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26372358"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3377,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of ABT-737 and Zolinza (vorinostat) synergized to decrease viability of Zolinza (vorinostat)-resistant Bcl2-over-expressing human head and neck squamous cell carcinoma cell lines in culture and to reduce tumor volume in xenografts (PMID: 23274910).",
+            "molecularProfile": {
+                "id": 1785,
+                "profileName": "BCL2 over exp"
+            },
+            "therapy": {
+                "id": 3132,
+                "therapyName": "ABT-737 + Vorinostat",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 570,
+                    "pubMedId": 23274910,
+                    "title": "Mcl-1 and FBW7 control a dominant survival pathway underlying HDAC and Bcl-2 inhibitor synergy in squamous cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23274910"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12593,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, Venclexta (venetoclax) treatment resulted in an overall response rate of 21% (14/66) in patients with relapsed or refractory multiple myeloma, with 86% (12/14) of responses observed in patients harboring t(11; 14), which lead to higher Bcl2 expression level compared to Bcl2l1 and Mcl1 (PMID: 29018077; NCT01794520).",
+            "molecularProfile": {
+                "id": 1785,
+                "profileName": "BCL2 over exp"
+            },
+            "therapy": {
+                "id": 1562,
+                "therapyName": "Venetoclax",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9538,
+                "name": "multiple myeloma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10464,
+                    "pubMedId": 29018077,
+                    "title": "Efficacy of venetoclax as targeted therapy for relapsed/refractory t(11;14) multiple myeloma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29018077"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 8191,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a transgenic lymphoma mouse model, over expressing MYC and BCL2, treated with JQ1 resulted in a decreased response as indicated by reduced survival (PMID: 27406984).",
+            "molecularProfile": {
+                "id": 26192,
+                "profileName": "BCL2 over exp MYC over exp"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "decreased response",
+            "references": [
+                {
+                    "id": 6567,
+                    "pubMedId": 27406984,
+                    "title": "BET Inhibition Induces Apoptosis in Aggressive B-Cell Lymphoma via Epigenetic Regulation of BCL-2 Family Members.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27406984"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "NA",
+            "ampCapAscoInferredTier": "NA"
+        },
+        {
+            "id": 8196,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transgenic murine MYC over expressing lymphoma cells harboring NRAS Q61K demonstrated over expression of BCL2, which resulted in resistance to treatment with JQ1 in culture (PMID: 27406984).",
+            "molecularProfile": {
+                "id": 26193,
+                "profileName": "BCL2 over exp MYC over exp NRAS Q61K"
+            },
+            "therapy": {
+                "id": 1574,
+                "therapyName": "JQ1",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 60058,
+                "name": "lymphoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6567,
+                    "pubMedId": 27406984,
+                    "title": "BET Inhibition Induces Apoptosis in Aggressive B-Cell Lymphoma via Epigenetic Regulation of BCL-2 Family Members.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27406984"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 19076,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Venclexta (venetoclax) and VU661013 combination therapy induced apoptosis and reduced tumor burden in a patient-derived xenograft (PDX) model of MCL1-positive and BCL2-dependent disseminated acute myeloid leukemia, however, did not exhibit synergistic effects compared to Venclexta (venetoclax) treatment (PMID: 30185627).",
+            "molecularProfile": {
+                "id": 33893,
+                "profileName": "BCL2 over exp MCL1 pos"
+            },
+            "therapy": {
+                "id": 8905,
+                "therapyName": "Venetoclax + VU661013",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9119,
+                "name": "acute myeloid leukemia",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 16724,
+                    "pubMedId": 30185627,
+                    "title": "A Novel MCL1 Inhibitor Combined with Venetoclax Rescues Venetoclax-Resistant Acute Myelogenous Leukemia.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30185627"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20780,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, chronic lymphocytic leukemia cells harboring XPO1 E571K with BCL2 overexpression were sensitive to Xpovio (selinexor) treatment in culture and when engrafted into secondary recipients in mouse models (PMID: 31285298).",
+            "molecularProfile": {
+                "id": 35333,
+                "profileName": "BCL2 over exp XPO1 E571K"
+            },
+            "therapy": {
+                "id": 1749,
+                "therapyName": "Selinexor",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1040,
+                "name": "chronic lymphocytic leukemia",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17771,
+                    "pubMedId": 31285298,
+                    "title": "Altered Nuclear Export Signal Recognition as a Driver of Oncogenesis.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31285298"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1785,
+            "profileName": "BCL2 over exp",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16599,
+                    "name": "BCL2 inhibitor",
+                    "profileName": "BCL2 over exp"
+                },
+                {
+                    "id": 132,
+                    "name": "BCL2 Family Inhibitor",
+                    "profileName": "BCL2 over exp"
+                }
+            ]
+        },
+        {
+            "id": 26192,
+            "profileName": "BCL2 over exp MYC over exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26193,
+            "profileName": "BCL2 over exp MYC over exp NRAS Q61K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 33893,
+            "profileName": "BCL2 over exp MCL1 pos",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35333,
+            "profileName": "BCL2 over exp XPO1 E571K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

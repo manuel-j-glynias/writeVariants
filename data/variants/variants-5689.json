@@ -1,0 +1,183 @@
+{
+    "id": 5689,
+    "fullName": "SRC E527K",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "SRC E527K does not lie within any known functional domains of the Src protein (UniProt.org). E527K results in resistance of Src to phosphorylation and inactivation by CSK, increased Src kinase activity and phosphorylation in culture, leading to blood and bone pathologies in animal models (PMID: 7592628, PMID: 26936507), and is associated with drug resistance in culture (PMID: 25350844).",
+            "references": [
+                {
+                    "id": 2646,
+                    "pubMedId": 7592628,
+                    "title": "Characterization of two activated mutants of human pp60c-src that escape c-Src kinase regulation by distinct mechanisms.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7592628"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 10818,
+                    "pubMedId": 25350844,
+                    "title": "Src mutation induces acquired lapatinib resistance in ERBB2-amplified human gastroesophageal adenocarcinoma models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25350844"
+                },
+                {
+                    "id": 12741,
+                    "pubMedId": 26936507,
+                    "title": "A dominant gain-of-function mutation in universal tyrosine kinase SRC causes thrombocytopenia, myelofibrosis, bleeding, and bone pathologies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26936507"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6714,
+        "geneSymbol": "SRC",
+        "terms": [
+            "SRC",
+            "ASV",
+            "c-SRC",
+            "p60-Src",
+            "SRC1",
+            "THC6"
+        ]
+    },
+    "variant": "E527K",
+    "createDate": "05/04/2015",
+    "updateDate": "08/19/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 162214,
+        "transcript": "NM_198291",
+        "gDna": "chr20:g.37403347G>A",
+        "cDna": "c.1579G>A",
+        "protein": "p.E527K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12867,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Tykerb (lapatinib) and Saracatinib (AZD0530) inhibited growth of ERBB2 (HER2)-amplified gastroesophageal adenocarcinoma cells harboring SRC E527K in culture (PMID: 25350844).",
+            "molecularProfile": {
+                "id": 28944,
+                "profileName": "ERBB2 amp SRC E527K"
+            },
+            "therapy": {
+                "id": 6686,
+                "therapyName": "Lapatinib + Saracatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 10818,
+                    "pubMedId": 25350844,
+                    "title": "Src mutation induces acquired lapatinib resistance in ERBB2-amplified human gastroesophageal adenocarcinoma models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25350844"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 12866,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, an ERBB2 (HER2)-amplified gastroesophageal cancer cell line initially sensitive to treatment with Tykerb (lapatinib) in culture developed resistance and was subsequently found to have acquired a secondary drug resistant mutation, SRC E527K (PMID: 25350844).",
+            "molecularProfile": {
+                "id": 28944,
+                "profileName": "ERBB2 amp SRC E527K"
+            },
+            "therapy": {
+                "id": 787,
+                "therapyName": "Lapatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4944,
+                "name": "gastroesophageal junction adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 10818,
+                    "pubMedId": 25350844,
+                    "title": "Src mutation induces acquired lapatinib resistance in ERBB2-amplified human gastroesophageal adenocarcinoma models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25350844"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 5522,
+            "profileName": "SRC E527K",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16917,
+                    "name": "Bosutinib",
+                    "profileName": "SRC E527K"
+                },
+                {
+                    "id": 16916,
+                    "name": "Dasatinib",
+                    "profileName": "SRC E527K"
+                }
+            ]
+        },
+        {
+            "id": 28944,
+            "profileName": "ERBB2 amp SRC E527K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162213,
+            "transcript": "XM_011529013",
+            "gDna": "chr20:g.37403347G>A",
+            "cDna": "c.1579G>A",
+            "protein": "p.E527K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 162212,
+            "transcript": "NM_005417",
+            "gDna": "chr20:g.37403347G>A",
+            "cDna": "c.1579G>A",
+            "protein": "p.E527K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 162214,
+            "transcript": "NM_198291",
+            "gDna": "chr20:g.37403347G>A",
+            "cDna": "c.1579G>A",
+            "protein": "p.E527K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

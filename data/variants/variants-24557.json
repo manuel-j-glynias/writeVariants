@@ -1,0 +1,147 @@
+{
+    "id": 24557,
+    "fullName": "SRC T341I",
+    "impact": "missense",
+    "proteinEffect": "gain of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "SRC T341I lies within the protein kinase domain of the Src protein (UniProt.org). T341I results in increased Src autophosphorylation, substrate phosphorylation, and cell survival in culture (PMID: 18794843, PMID: 29930727) and demonstrates resistance to Src inhibition in cell culture (PMID: 29930727, PMID: 19098899).",
+            "references": [
+                {
+                    "id": 845,
+                    "pubMedId": 19098899,
+                    "title": "Bead-based profiling of tyrosine kinase phosphorylation identifies SRC as a potential target for glioblastoma therapy.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19098899"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 644,
+                    "pubMedId": 18794843,
+                    "title": "Activation of tyrosine kinases by mutation of the gatekeeper threonine.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18794843"
+                },
+                {
+                    "id": 16028,
+                    "pubMedId": 29930727,
+                    "title": "A tightly controlled Src-YAP signaling axis determines therapeutic response to dasatinib in renal cell carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29930727"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6714,
+        "geneSymbol": "SRC",
+        "terms": [
+            "SRC",
+            "ASV",
+            "c-SRC",
+            "p60-Src",
+            "SRC1",
+            "THC6"
+        ]
+    },
+    "variant": "T341I",
+    "createDate": "07/19/2016",
+    "updateDate": "08/21/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 162276,
+        "transcript": "NM_198291",
+        "gDna": "chr20:g.37400277_37400278delCGinsTC",
+        "cDna": "c.1022_1023delCGinsTC",
+        "protein": "p.T341I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7355,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, intrahepatic cholangiocarcinoma cells harboring IDH1 R132S acquired resistance to Sprycel (dasatinib) after over expressing SRC T341I in culture (PMID: 27231123).",
+            "molecularProfile": {
+                "id": 25297,
+                "profileName": "IDH1 R132C SRC T341I"
+            },
+            "therapy": {
+                "id": 717,
+                "therapyName": "Dasatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 4928,
+                "name": "intrahepatic cholangiocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6322,
+                    "pubMedId": 27231123,
+                    "title": "Isocitrate Dehydrogenase Mutations Confer Dasatinib Hypersensitivity and SRC Dependence in Intrahepatic Cholangiocarcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27231123"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25296,
+            "profileName": "SRC T341I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16920,
+                    "name": "Bosutinib",
+                    "profileName": "SRC T341I"
+                }
+            ]
+        },
+        {
+            "id": 25297,
+            "profileName": "IDH1 R132C SRC T341I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 162275,
+            "transcript": "XM_011529013",
+            "gDna": "chr20:g.37400277_37400278delCGinsTC",
+            "cDna": "c.1022_1023delCGinsTC",
+            "protein": "p.T341I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 162274,
+            "transcript": "NM_005417",
+            "gDna": "chr20:g.37400277_37400278delCGinsTC",
+            "cDna": "c.1022_1023delCGinsTC",
+            "protein": "p.T341I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 162276,
+            "transcript": "NM_198291",
+            "gDna": "chr20:g.37400277_37400278delCGinsTC",
+            "cDna": "c.1022_1023delCGinsTC",
+            "protein": "p.T341I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

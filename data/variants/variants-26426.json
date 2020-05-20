@@ -1,0 +1,98 @@
+{
+    "id": 26426,
+    "fullName": "HDAC1 dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "HDAC1 dec exp indicates decreased expression of the Hdac1 protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 3065,
+        "geneSymbol": "HDAC1",
+        "terms": [
+            "HDAC1",
+            "GON-10",
+            "HD1",
+            "KDAC1",
+            "RPD3",
+            "RPD3L1"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "04/20/2017",
+    "updateDate": "01/21/2019",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 10604,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, a gastric cancer cell line with decreased expression of HDAC1 and ATM was sensitive to AZD6738, demonstrating inhibition of cell-cycle progression, apoptosis, and DNA damage accumulation in culture, and decreased tumor volume and increased apoptotic activity in xenograft models (PMID: 28138034).",
+            "molecularProfile": {
+                "id": 27649,
+                "profileName": "ATM dec exp HDAC1 dec exp"
+            },
+            "therapy": {
+                "id": 2881,
+                "therapyName": "AZD6738",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10534,
+                "name": "stomach cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8664,
+                    "pubMedId": 28138034,
+                    "title": "AZD6738, A Novel Oral Inhibitor of ATR, Induces Synthetic Lethality with ATM Deficiency in Gastric Cancer Cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28138034"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 27647,
+            "profileName": "HDAC1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27648,
+            "profileName": "ATM dec exp ATR pos HDAC1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 27649,
+            "profileName": "ATM dec exp HDAC1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

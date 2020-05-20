@@ -1,0 +1,164 @@
+{
+    "id": 28874,
+    "fullName": "EGFR C797G",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR C797G lies within the ATP-binding pocket in the protein kinase domain of the Egfr protein (PMID: 25964297). C797G has been demonstrated to confer resistance to third-generation EGFR inhibitors (PMID: 25964297, PMID: 29807405), and results in reduced palmitoylation, loss of constitutive activation and loss of ability to form dimers upon ligand stimulation compared to wild-type EGFR as demonstrated by reduced phosphorylation of Egfr in culture (PMID: 26378037).",
+            "references": [
+                {
+                    "id": 14939,
+                    "pubMedId": 26378037,
+                    "title": "Intracellular activation of EGFR by fatty acid synthase dependent palmitoylation.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26378037"
+                },
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 3620,
+                    "pubMedId": 25964297,
+                    "title": "The Allelic Context of the C797S Mutation Acquired upon Treatment with Third-Generation EGFR Inhibitors Impacts Sensitivity to Subsequent Treatment Strategies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25964297"
+                },
+                {
+                    "id": 12676,
+                    "pubMedId": 29807405,
+                    "title": "Rare Mechanism of Acquired Resistance to Osimertinib in Korean Patients with EGFR-mutated Non-small Cell Lung Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29807405"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "C797G",
+    "createDate": "10/25/2018",
+    "updateDate": "05/02/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 177572,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55181398T>G",
+        "cDna": "c.2389T>G",
+        "protein": "p.C797G",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 15134,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a clinical study, a patient with non-small cell lung cancer initially responded to Tagrisso (osimertinib), and EGFR C797G, C797S, L858R, L781Q, T790M, and TFG-ALK were identified in post-progression tumor samples (PMID: 29883838).",
+            "molecularProfile": {
+                "id": 30781,
+                "profileName": "TFG - ALK EGFR L718Q EGFR T790M EGFR C797G EGFR C797S EGFR L858R"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 12672,
+                    "pubMedId": 29883838,
+                    "title": "Receptor Tyrosine Kinase Fusions and BRAF Kinase Fusions are Rare but Actionable Resistance Mechanisms to EGFR Tyrosine Kinase Inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29883838"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20733,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, EGFR C797S in cis with EGFR T790M were identified in 3 of 100 patients with non-small cell lung cancer at treatment discontinuation of Tagrisso (osimertinib) (PMID: 31839416).",
+            "molecularProfile": {
+                "id": 35317,
+                "profileName": "EGFR T790M EGFR C797G"
+            },
+            "therapy": {
+                "id": 660,
+                "therapyName": "Osimertinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 18023,
+                    "pubMedId": 31839416,
+                    "title": "Next-generation sequencing based mutation profiling reveals heterogeneity of clinical response and resistance to osimertinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31839416"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 30780,
+            "profileName": "EGFR C797G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 30781,
+            "profileName": "TFG - ALK EGFR L718Q EGFR T790M EGFR C797G EGFR C797S EGFR L858R",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 35317,
+            "profileName": "EGFR T790M EGFR C797G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 177572,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55181398T>G",
+            "cDna": "c.2389T>G",
+            "protein": "p.C797G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

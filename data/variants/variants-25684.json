@@ -1,0 +1,113 @@
+{
+    "id": 25684,
+    "fullName": "VHL V155fs",
+    "impact": "frameshift",
+    "proteinEffect": "loss of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "VHL V155fs results in a change in the amino acid sequence of the Vhl protein beginning at aa 155 of 213, likely resulting in premature truncation of the functional protein (UniProt.org). Due to the loss of the Elongin BC complex-binding region (UniProt.org), V155fs is predicted to lead to a loss of Vhl function.",
+            "references": [
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7428,
+        "geneSymbol": "VHL",
+        "terms": [
+            "VHL",
+            "HRCA1",
+            "pVHL",
+            "RCA1",
+            "VHL1"
+        ]
+    },
+    "variant": "V155fs",
+    "createDate": "10/28/2016",
+    "updateDate": "10/11/2017",
+    "referenceTranscriptCoordinates": {
+        "id": 144402,
+        "transcript": "NM_000551",
+        "gDna": "chr3:g.(10146635_10146636)",
+        "cDna": "c.(463_462)",
+        "protein": "p.V155fs",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 9079,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of Mekinist (trametinib) and Sutent (sunitinib) inhibited tumor growth in patient-derived xenograft models of renal cancer harboring VHL V155fs (referred to as V155fs*4) (PMID: 26487278).",
+            "molecularProfile": {
+                "id": 26715,
+                "profileName": "VHL V155fs"
+            },
+            "therapy": {
+                "id": 4874,
+                "therapyName": "Sunitinib + Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 263,
+                "name": "kidney cancer",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 6896,
+                    "pubMedId": 26487278,
+                    "title": "Preclinical Evidence That Trametinib Enhances the Response to Antiangiogenic Tyrosine Kinase Inhibitors in Renal Cell Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26487278"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26715,
+            "profileName": "VHL V155fs",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16376,
+                    "name": "mTORC1 Inhibitor",
+                    "profileName": "VHL V155fs"
+                },
+                {
+                    "id": 16377,
+                    "name": "VEGFR Inhibitor (Pan)",
+                    "profileName": "VHL V155fs"
+                },
+                {
+                    "id": 16378,
+                    "name": "VEGFR2 Inhibitor",
+                    "profileName": "VHL V155fs"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 144402,
+            "transcript": "NM_000551",
+            "gDna": "chr3:g.(10146635_10146636)",
+            "cDna": "c.(463_462)",
+            "protein": "p.V155fs",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

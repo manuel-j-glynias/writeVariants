@@ -1,0 +1,241 @@
+{
+    "id": 4369,
+    "fullName": "PTEN R130Q",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "PTEN R130Q lies within the phosphatase tensin-type domain of the Pten protein (UniProt.org). R130Q confers a loss of function to the Pten protein as demonstrated by loss of phosphatase activity (PMID: 10866302) and increased transformation ability in two different cell lines, as compared to wild-type Pten (PMID: 29533785).",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 2304,
+                    "pubMedId": 10866302,
+                    "title": "Functional evaluation of PTEN missense mutations using in vitro phosphoinositide phosphatase assay.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10866302"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5728,
+        "geneSymbol": "PTEN",
+        "terms": [
+            "PTEN",
+            "10q23del",
+            "BZS",
+            "CWS1",
+            "DEC",
+            "GLM2",
+            "MHAM",
+            "MMAC1",
+            "PTEN1",
+            "PTENbeta",
+            "TEP1"
+        ]
+    },
+    "variant": "R130Q",
+    "createDate": "04/02/2015",
+    "updateDate": "05/01/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 169562,
+        "transcript": "NM_000314",
+        "gDna": "chr10:g.87933148G>A",
+        "cDna": "c.389G>A",
+        "protein": "p.R130Q",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 12185,
+            "approvalStatus": "Phase II",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase II trial, a patient with head and neck squamous cell carcinoma harboring PTEN R130Q demonstrated a partial response when treated with the combination of Torisel (temsirolimus), Paraplatin (carboplatin), and Taxol (paclitaxel) (PMID: 28961834).",
+            "molecularProfile": {
+                "id": 4174,
+                "profileName": "PTEN R130Q"
+            },
+            "therapy": {
+                "id": 6333,
+                "therapyName": "Carboplatin + Paclitaxel + Temsirolimus",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 5520,
+                "name": "head and neck squamous cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 10139,
+                    "pubMedId": 28961834,
+                    "title": "A phase II study of temsirolimus added to low-dose weekly carboplatin and paclitaxel for patients with recurrent and/or metastatic (R/M) head and neck squamous cell carcinoma (HNSCC).",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28961834"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "B",
+            "ampCapAscoInferredTier": "I"
+        },
+        {
+            "id": 10777,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Pictilisib (GDC-0941) resulted in a synergistic effect, demonstrating inhibition of cell proliferation, decreased colony formation, and cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 5613,
+                "therapyName": "BGJ398 + Pictilisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10780,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Alpelisib (BYL719) resulted in a synergistic effect, demonstrating inhibition of cell proliferation and induced cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 1293,
+                "therapyName": "Alpelisib + BGJ398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 10778,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, the combination of BGJ398 and Buparlisib (BKM120) resulted in a synergistic effect, demonstrating inhibition of cell proliferation, decreased colony formation, and cell death in an endometrial cancer cell line harboring FGFR2 N550K, PIK3CA I20M and P539R, and PTEN R130Q and T321fs*23 in culture (PMID: 28119489).",
+            "molecularProfile": {
+                "id": 27771,
+                "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs"
+            },
+            "therapy": {
+                "id": 5612,
+                "therapyName": "BGJ398 + Buparlisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1380,
+                "name": "endometrial cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 8811,
+                    "pubMedId": 28119489,
+                    "title": "PI3K Inhibitors Synergize with FGFR Inhibitors to Enhance Antitumor Responses in FGFR2mutant Endometrial Cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28119489"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4174,
+            "profileName": "PTEN R130Q",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 12962,
+                    "name": "PIK3CB inhibitor",
+                    "profileName": "PTEN R130Q"
+                },
+                {
+                    "id": 12960,
+                    "name": "Akt1 Inhibitor",
+                    "profileName": "PTEN R130Q"
+                },
+                {
+                    "id": 12959,
+                    "name": "Akt2 Inhibitor",
+                    "profileName": "PTEN R130Q"
+                },
+                {
+                    "id": 12958,
+                    "name": "Akt Inhibitor (Pan)",
+                    "profileName": "PTEN R130Q"
+                },
+                {
+                    "id": 12961,
+                    "name": "PI3K Inhibitor (Pan)",
+                    "profileName": "PTEN R130Q"
+                }
+            ]
+        },
+        {
+            "id": 27771,
+            "profileName": "FGFR2 N550K PIK3CA I20M PIK3CA P539R PTEN R130Q PTEN T321fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 169562,
+            "transcript": "NM_000314",
+            "gDna": "chr10:g.87933148G>A",
+            "cDna": "c.389G>A",
+            "protein": "p.R130Q",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

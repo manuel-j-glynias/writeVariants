@@ -1,0 +1,156 @@
+{
+    "id": 25487,
+    "fullName": "PTEN E307K",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "PTEN E307K lies within the C2 tensin-type domain of the Pten protein (UniProt.org). E307K results in similar phosphatase activity as wild-type Pten, but leads to increased polyubiquitination and membrane localization and decreased nuclear localization of Pten in cell culture (PMID: 22103913), and therefore, its effect on Pten protein function is unknown.",
+            "references": [
+                {
+                    "id": 6762,
+                    "pubMedId": 22103913,
+                    "title": "Characterization of a novel PTEN mutation in MDA-MB-453 breast carcinoma cell line.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22103913"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 5728,
+        "geneSymbol": "PTEN",
+        "terms": [
+            "PTEN",
+            "10q23del",
+            "BZS",
+            "CWS1",
+            "DEC",
+            "GLM2",
+            "MHAM",
+            "MMAC1",
+            "PTEN1",
+            "PTENbeta",
+            "TEP1"
+        ]
+    },
+    "variant": "E307K",
+    "createDate": "10/12/2016",
+    "updateDate": "10/08/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 169331,
+        "transcript": "NM_000314",
+        "gDna": "chr10:g.87961011G>A",
+        "cDna": "c.919G>A",
+        "protein": "p.E307K",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 8819,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, BAY1125976 inhibited proliferation of a breast cancer cell line harboring PIK3CA H1047R and PTEN E307K in culture (PMID: 27699769).",
+            "molecularProfile": {
+                "id": 26449,
+                "profileName": "PIK3CA H1047R PTEN E307K"
+            },
+            "therapy": {
+                "id": 994,
+                "therapyName": "BAY1125976",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6757,
+                    "pubMedId": 27699769,
+                    "title": "BAY 1125976, a selective allosteric AKT1/2 inhibitor, exhibits high efficacy on AKT signaling-dependent tumor growth in mouse models.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27699769"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8900,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Pim1 over expression in breast cancer cells harboring PIK3CA H1047R and PTEN E307K resulted in resistance to Alpelisib (BYL719) in culture (PMID: 27604488).",
+            "molecularProfile": {
+                "id": 26530,
+                "profileName": "PIK3CA H1047R PIM1 over exp PTEN E307K"
+            },
+            "therapy": {
+                "id": 691,
+                "therapyName": "Alpelisib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 6782,
+                    "pubMedId": 27604488,
+                    "title": "Systematic Functional Characterization of Resistance to PI3K Inhibition in Breast Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27604488"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 26449,
+            "profileName": "PIK3CA H1047R PTEN E307K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26451,
+            "profileName": "PTEN E307K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 26530,
+            "profileName": "PIK3CA H1047R PIM1 over exp PTEN E307K",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 169331,
+            "transcript": "NM_000314",
+            "gDna": "chr10:g.87961011G>A",
+            "cDna": "c.919G>A",
+            "protein": "p.E307K",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

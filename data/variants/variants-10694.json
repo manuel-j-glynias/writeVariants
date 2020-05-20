@@ -1,0 +1,152 @@
+{
+    "id": 10694,
+    "fullName": "ROS1 E1935G",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 E1935G lies within the cytoplasmic domain of the Ros1 protein (UniProt.org). E1935G has been demonstrated to confer resistance to Ros1 tyrosine kinase inhibitors in the context of Ros1 fusions in culture (PMID: 24218589), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown (PubMed, Feb 2020).",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "E1935G",
+    "createDate": "08/17/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102289,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117320004T>C",
+        "cDna": "c.5804A>G",
+        "protein": "p.E1935G",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 2811,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Foretinib (GSK1363089) inhibited growth of transformed cells expressing ROS1 E1935G in the context of GOPC-ROS1 (referred to as FIG-ROS1) in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10704,
+                "profileName": "GOPC - ROS1 ROS1 E1935G"
+            },
+            "therapy": {
+                "id": 743,
+                "therapyName": "Foretinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 2805,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells overexpressing ROS1 E1935G in the context of GOPC-ROS1 (referred to as FIG-ROS1) were resistant to Xalkori (crizotinib)-mediated growth inhibition in culture (PMID: 24218589).",
+            "molecularProfile": {
+                "id": 10704,
+                "profileName": "GOPC - ROS1 ROS1 E1935G"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 3476,
+                    "pubMedId": 24218589,
+                    "title": "Foretinib is a potent inhibitor of oncogenic ROS1 fusion proteins.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218589"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 10704,
+            "profileName": "GOPC - ROS1 ROS1 E1935G",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16946,
+                    "name": "Foretinib",
+                    "profileName": "GOPC - ROS1 ROS1 E1935G"
+                }
+            ]
+        },
+        {
+            "id": 10705,
+            "profileName": "ROS1 E1935G",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102289,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117320004T>C",
+            "cDna": "c.5804A>G",
+            "protein": "p.E1935G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

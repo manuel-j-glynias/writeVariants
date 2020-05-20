@@ -1,0 +1,200 @@
+{
+    "id": 5151,
+    "fullName": "EGFR L747_S752del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "EGFR L747_S752del results in the deletion of six amino acids in the protein kinase domain of the Egfr protein from amino acids 747 to 752 (UniProt.org). L747_E752del results in increased transformation ability in two different cell lines in one study (PMID: 29533785) and therefore, is predicted to lead to a gain of Egfr protein function.",
+            "references": [
+                {
+                    "id": 11238,
+                    "pubMedId": 29533785,
+                    "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29533785"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 1956,
+        "geneSymbol": "EGFR",
+        "terms": [
+            "EGFR",
+            "ERBB",
+            "ERBB1",
+            "HER1",
+            "mENA",
+            "NISBD2",
+            "PIG61"
+        ]
+    },
+    "variant": "L747_S752del",
+    "createDate": "04/21/2015",
+    "updateDate": "09/11/2018",
+    "referenceTranscriptCoordinates": {
+        "id": 135753,
+        "transcript": "NM_005228",
+        "gDna": "chr7:g.55174776_55174793del18",
+        "cDna": "c.2239_2256del18",
+        "protein": "p.L747_S752delLREATS",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 3052,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, a patient with lung adenocarcinoma harboring EGFR L747_S752del had a complete response with a 24-month progression-free survival in response to Iressa (gefitinib) therapy (PMID: 18981003).",
+            "molecularProfile": {
+                "id": 4963,
+                "profileName": "EGFR L747_S752del"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - sensitive",
+            "references": [
+                {
+                    "id": 3591,
+                    "pubMedId": 18981003,
+                    "title": "Effects of erlotinib in EGFR mutated non-small cell lung cancers with resistance to gefitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18981003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3056,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, a patient with lung adenocarcinoma harboring EGFR L747_S752del and EGFR T790M, who was found to have acquired an EGFR T790M mutation upon disease progression on Iressa (gefitinib), had rapid disease progression in response to Tarceva (erlotinib) therapy (PMID: 18981003).",
+            "molecularProfile": {
+                "id": 11381,
+                "profileName": "EGFR L747_S752del EGFR T790M"
+            },
+            "therapy": {
+                "id": 4,
+                "therapyName": "Erlotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3591,
+                    "pubMedId": 18981003,
+                    "title": "Effects of erlotinib in EGFR mutated non-small cell lung cancers with resistance to gefitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18981003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 3055,
+            "approvalStatus": "Case Reports/Case Series",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a retrospective analysis, a patient with lung adenocarcinoma harboring EGFR L747_S752del that developed Iressa (gefitinib) resistance after an initial response was demonstrated to have acquired an EGFR T790M mutation (PMID: 18981003).",
+            "molecularProfile": {
+                "id": 11381,
+                "profileName": "EGFR L747_S752del EGFR T790M"
+            },
+            "therapy": {
+                "id": 751,
+                "therapyName": "Gefitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3910,
+                "name": "lung adenocarcinoma",
+                "source": "DOID"
+            },
+            "responseType": "predicted - resistant",
+            "references": [
+                {
+                    "id": 3591,
+                    "pubMedId": 18981003,
+                    "title": "Effects of erlotinib in EGFR mutated non-small cell lung cancers with resistance to gefitinib.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18981003"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 4963,
+            "profileName": "EGFR L747_S752del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 4691,
+                    "name": "EGFR Inhibitor 3rd gen",
+                    "profileName": "EGFR L747_S752del"
+                },
+                {
+                    "id": 4690,
+                    "name": "EGFR Inhibitor 2nd gen",
+                    "profileName": "EGFR L747_S752del"
+                },
+                {
+                    "id": 4692,
+                    "name": "HER inhibitor (Pan)",
+                    "profileName": "EGFR L747_S752del"
+                },
+                {
+                    "id": 4689,
+                    "name": "EGFR Inhibitor 1st gen",
+                    "profileName": "EGFR L747_S752del"
+                },
+                {
+                    "id": 4688,
+                    "name": "EGFR Inhibitor (Pan)",
+                    "profileName": "EGFR L747_S752del"
+                }
+            ]
+        },
+        {
+            "id": 11381,
+            "profileName": "EGFR L747_S752del EGFR T790M",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 135753,
+            "transcript": "NM_005228",
+            "gDna": "chr7:g.55174776_55174793del18",
+            "cDna": "c.2239_2256del18",
+            "protein": "p.L747_S752delLREATS",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

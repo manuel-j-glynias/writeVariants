@@ -1,0 +1,119 @@
+{
+    "id": 3465,
+    "fullName": "KIT V559G",
+    "impact": "missense",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT V559G lies within the juxtamembrane domain (exon 11) of the Kit protein (PMID: 12879016). V559G results in constitutive phosphorylation of Kit in patient sample in one stufy (PMID: 15897563) and therefore, is predicted to lead to a gain of Kit protein function.",
+            "references": [
+                {
+                    "id": 2055,
+                    "pubMedId": 12879016,
+                    "title": "Signal transduction by several KIT juxtamembrane domain mutations.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12879016"
+                },
+                {
+                    "id": 728,
+                    "pubMedId": 15897563,
+                    "title": "Analysis of KIT mutations in sporadic and familial gastrointestinal stromal tumors: therapeutic implications through protein modeling.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15897563"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "V559G",
+    "createDate": "03/03/2015",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 136782,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727444T>G",
+        "cDna": "c.1676T>G",
+        "protein": "p.V559G",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 17526,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Inlyta (axitinib) inhibited KIT phosphorylation and proliferation of transformed cells expressing KIT V559G in culture (PMID: 31205508).",
+            "molecularProfile": {
+                "id": 3271,
+                "profileName": "KIT V559G"
+            },
+            "therapy": {
+                "id": 649,
+                "therapyName": "Axitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 15597,
+                    "pubMedId": 31205508,
+                    "title": "Axitinib overcomes multiple imatinib resistant cKIT mutations including the gatekeeper mutation T670I in gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31205508"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3271,
+            "profileName": "KIT V559G",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 1980,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT V559G"
+                }
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 136783,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727444T>G",
+            "cDna": "c.1676T>G",
+            "protein": "p.V559G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 136782,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727444T>G",
+            "cDna": "c.1676T>G",
+            "protein": "p.V559G",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

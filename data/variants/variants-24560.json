@@ -1,0 +1,202 @@
+{
+    "id": 24560,
+    "fullName": "FGFR1 dec exp",
+    "impact": "none",
+    "proteinEffect": "no effect",
+    "geneVariantDescriptions": [
+        {
+            "description": "FGFR1 dec exp indicates decreased expression of the Fgfr1 protein and/or mRNA. However, the mechanism causing the decreased expression is unspecified.",
+            "references": [
+                {
+                    "id": 275,
+                    "pubMedId": null,
+                    "title": "External Reference Not Available (N/A)",
+                    "url": "https://ckb.jax.org/about/glossaryOfTerms"
+                }
+            ]
+        }
+    ],
+    "type": "non-specific",
+    "gene": {
+        "id": 2260,
+        "geneSymbol": "FGFR1",
+        "terms": [
+            "FGFR1",
+            "bFGF-R-1",
+            "BFGFR",
+            "CD331",
+            "CEK",
+            "ECCL",
+            "FGFBR",
+            "FGFR-1",
+            "FLG",
+            "FLT-2",
+            "FLT2",
+            "HBGFR",
+            "HH2",
+            "HRTFDS",
+            "KAL2",
+            "N-SAM",
+            "OGD"
+        ]
+    },
+    "variant": "dec exp",
+    "createDate": "07/19/2016",
+    "updateDate": "04/18/2018",
+    "referenceTranscriptCoordinates": null,
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7365,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) treatment demonstrated enhanced growth inhibition of KRAS mutant pancreatic cancer cells with decreased Fgfr1 expression through shRNA knockdown in culture (PMID: 27338794).",
+            "molecularProfile": {
+                "id": 25304,
+                "profileName": "FGFR1 dec exp KRAS mut"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1793,
+                "name": "pancreatic cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6325,
+                    "pubMedId": 27338794,
+                    "title": "A combinatorial strategy for treating KRAS-mutant lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27338794"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7360,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Mekinist (trametinib) treatment demonstrated enhanced growth inhibition in KRAS mutant lung cancer cells with decreased Fgfr1 expression through shRNA knockdown in culture, and tumor regression in xenograft models (PMID: 27338794).",
+            "molecularProfile": {
+                "id": 25304,
+                "profileName": "FGFR1 dec exp KRAS mut"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6325,
+                    "pubMedId": 27338794,
+                    "title": "A combinatorial strategy for treating KRAS-mutant lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27338794"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7366,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knocking down of Fgfr1 through shRNA did not sensitize KRAS mutant colorectal cancer cells to Mekinist (trametinib) induced growth inhibition in culture (PMID: 27338794).",
+            "molecularProfile": {
+                "id": 25304,
+                "profileName": "FGFR1 dec exp KRAS mut"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9256,
+                "name": "colorectal cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6325,
+                    "pubMedId": 27338794,
+                    "title": "A combinatorial strategy for treating KRAS-mutant lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27338794"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7364,
+            "approvalStatus": "Preclinical",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, knocking down of Fgfr1 through shRNA did not sensitize KRAS wild-type lung cancer cells to Mekinist (trametinib) induced growth inhibition in culture (PMID: 27338794).",
+            "molecularProfile": {
+                "id": 25310,
+                "profileName": "FGFR1 dec exp KRAS wild-type"
+            },
+            "therapy": {
+                "id": 2,
+                "therapyName": "Trametinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1324,
+                "name": "lung cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 6325,
+                    "pubMedId": 27338794,
+                    "title": "A combinatorial strategy for treating KRAS-mutant lung cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27338794"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 25303,
+            "profileName": "FGFR1 dec exp",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25304,
+            "profileName": "FGFR1 dec exp KRAS mut",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 25310,
+            "profileName": "FGFR1 dec exp KRAS wild-type",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        
+    ]
+}

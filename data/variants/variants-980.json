@@ -1,0 +1,385 @@
+{
+    "id": 980,
+    "fullName": "TP53 Y220C",
+    "impact": "missense",
+    "proteinEffect": "loss of function",
+    "geneVariantDescriptions": [
+        {
+            "description": "TP53 Y220C is a hotspot mutation that lies within the DNA-binding domain (PMID: 17401432). Y220C results in decreased DNA binding, reduced Tp53 transcriptional activity, leads to resistance to apoptosis and failure of G1 arrest in cell culture (PMID: 16861262, PMID: 23630318, PMID: 31395785).",
+            "references": [
+                {
+                    "id": 2163,
+                    "pubMedId": 17401432,
+                    "title": "Structure-function-rescue: the diverse nature of common p53 cancer mutants.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17401432"
+                },
+                {
+                    "id": 17772,
+                    "pubMedId": 31395785,
+                    "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31395785"
+                },
+                {
+                    "id": 4410,
+                    "pubMedId": 23630318,
+                    "title": "Small molecule induced reactivation of mutant p53 in cancer cells.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23630318"
+                },
+                {
+                    "id": 411,
+                    "pubMedId": 16861262,
+                    "title": "Inactive full-length p53 mutants lacking dominant wild-type p53 inhibition highlight loss of heterozygosity as an important aspect of p53 status in human cancers.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16861262"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 7157,
+        "geneSymbol": "TP53",
+        "terms": [
+            "TP53",
+            "BCC7",
+            "BMFS5",
+            "LFS1",
+            "P53",
+            "TRP53"
+        ]
+    },
+    "variant": "Y220C",
+    "createDate": "07/14/2014",
+    "updateDate": "02/11/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 95955,
+        "transcript": "NM_000546",
+        "gDna": "chr17:g.7674872T>C",
+        "cDna": "c.659A>G",
+        "protein": "p.Y220C",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 20165,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SLMP53-2 inhibited growth of a non-small cell lung carcinoma cell line expressing TP53 Y220C in culture (PMID: 31405179).",
+            "molecularProfile": {
+                "id": 1043,
+                "profileName": "TP53 Y220C"
+            },
+            "therapy": {
+                "id": 9281,
+                "therapyName": "SLMP53-2",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17718,
+                    "pubMedId": 31405179,
+                    "title": "SLMP53-2 Restores Wild-Type-Like Function to Mutant p53 through Hsp70: Promising Activity in Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405179"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20169,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with the combination of SLMP53-2 and Nexavar (sorafenib) inhibited growth of a hepatocellular carcinoma cell line harboring TP53 Y220C in culture, and resulted in increased inhibition compared to Nexavar (sorafenib) alone (PMID: 31405179).",
+            "molecularProfile": {
+                "id": 1043,
+                "profileName": "TP53 Y220C"
+            },
+            "therapy": {
+                "id": 9282,
+                "therapyName": "SLMP53-2 + Sorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17718,
+                    "pubMedId": 31405179,
+                    "title": "SLMP53-2 Restores Wild-Type-Like Function to Mutant p53 through Hsp70: Promising Activity in Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405179"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 11745,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, non-small cell lung carcinoma cells overexpressing TP53 Y220C were resistant to Roscovotine (seliciclib) induced apoptosis in culture (PMID: 22862161).",
+            "molecularProfile": {
+                "id": 1043,
+                "profileName": "TP53 Y220C"
+            },
+            "therapy": {
+                "id": 1129,
+                "therapyName": "Seliciclib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3908,
+                "name": "lung non-small cell carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 609,
+                    "pubMedId": 22862161,
+                    "title": "Roscovitine-induced apoptosis of H1299 cells depends on functional status of p53.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22862161"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 8984,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with CP-31398 resulted in decreased proliferation, increased apoptosis, and cell-cycle arrest in a hepatocellular carcinoma cell line harboring TP53 Y220C in culture (PMID: 26250460).",
+            "molecularProfile": {
+                "id": 1043,
+                "profileName": "TP53 Y220C"
+            },
+            "therapy": {
+                "id": 3404,
+                "therapyName": "CP-31398",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 6838,
+                    "pubMedId": 26250460,
+                    "title": "CP-31398 inhibits the growth of p53-mutated liver cancer cells in vitro and in vivo.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26250460"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20167,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, SLMP53-2 treatment inhibited growth of a breast ductal carcinoma cell line harboring TP53 Y220C and resulted in increased expression of the Tp53 targets MDM2, p21, and KILLER and decreased expression of Survivin and VEGF in culture (PMID: 31405179).",
+            "molecularProfile": {
+                "id": 1043,
+                "profileName": "TP53 Y220C"
+            },
+            "therapy": {
+                "id": 9281,
+                "therapyName": "SLMP53-2",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 3007,
+                "name": "breast ductal carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17718,
+                    "pubMedId": 31405179,
+                    "title": "SLMP53-2 Restores Wild-Type-Like Function to Mutant p53 through Hsp70: Promising Activity in Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405179"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 20168,
+            "approvalStatus": "Preclinical - Cell line xenograft",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, treatment with SLMP53-2 induced cell-cycle arrest and apoptosis and inhibited growth, and resulted in restored Tp53 transcriptional activity in a hepatocellular carcinoma cell line harboring TP53 Y220C in culture, and inhibited tumor growth in xenograft models (PMID: 31405179).",
+            "molecularProfile": {
+                "id": 1043,
+                "profileName": "TP53 Y220C"
+            },
+            "therapy": {
+                "id": 9281,
+                "therapyName": "SLMP53-2",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 684,
+                "name": "hepatocellular carcinoma",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 17718,
+                    "pubMedId": 31405179,
+                    "title": "SLMP53-2 Restores Wild-Type-Like Function to Mutant p53 through Hsp70: Promising Activity in Hepatocellular Carcinoma.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31405179"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 745,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I clinical trial, a breast cancer patient carrying TP53 P72R and Y220C mutations demonstrated incomplete response to treatment with an Ellence (epirubicin)-Cytoxan (cyclophosphamide) combination regimen (PMID: 17388661).",
+            "molecularProfile": {
+                "id": 1050,
+                "profileName": "TP53 P72R TP53 Y220C"
+            },
+            "therapy": {
+                "id": 1087,
+                "therapyName": "Cyclophosphamide + Epirubicin",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 1612,
+                "name": "breast cancer",
+                "source": "DOID"
+            },
+            "responseType": "no benefit",
+            "references": [
+                {
+                    "id": 446,
+                    "pubMedId": 17388661,
+                    "title": "Exquisite sensitivity of TP53 mutant and basal breast cancers to a dose-dense epirubicin-cyclophosphamide regimen.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17388661"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 6711,
+            "approvalStatus": "Phase I",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a Phase I trial, VX-970 and Paraplatin (carboplatin) combination treatment resulted in partial response for 6 months in a PARP inhibitor-resistant ovarian cancer patient harboring a germline BRCA1 mutation and TP53 Y220C (J Clin Oncol 34, 2016 (suppl; abstr 2504)).",
+            "molecularProfile": {
+                "id": 23675,
+                "profileName": "BRCA1 mut TP53 Y220C"
+            },
+            "therapy": {
+                "id": 4253,
+                "therapyName": "Carboplatin + VX-970",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 2394,
+                "name": "ovarian cancer",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 5761,
+                    "pubMedId": null,
+                    "title": "Phase I trial of a first-in-class ATR inhibitor VX-970 as monotherapy (mono) or in combination (combo) with carboplatin (CP) incorporating pharmacodynamics (PD) studies.",
+                    "url": "http://abstracts.asco.org/176/AbstView_176_165738.html"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "C",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 1043,
+            "profileName": "TP53 Y220C",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7599,
+                    "name": "p53 Gene Therapy",
+                    "profileName": "TP53 Y220C"
+                },
+                {
+                    "id": 7600,
+                    "name": "p53 Activator",
+                    "profileName": "TP53 Y220C"
+                }
+            ]
+        },
+        {
+            "id": 1050,
+            "profileName": "TP53 P72R TP53 Y220C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        },
+        {
+            "id": 23675,
+            "profileName": "BRCA1 mut TP53 Y220C",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 95954,
+            "transcript": "NM_001126112",
+            "gDna": "chr17:g.7674872T>C",
+            "cDna": "c.659A>G",
+            "protein": "p.Y220C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95955,
+            "transcript": "NM_000546",
+            "gDna": "chr17:g.7674872T>C",
+            "cDna": "c.659A>G",
+            "protein": "p.Y220C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95957,
+            "transcript": "NM_001126114",
+            "gDna": "chr17:g.7674872T>C",
+            "cDna": "c.659A>G",
+            "protein": "p.Y220C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 95956,
+            "transcript": "NM_001126113",
+            "gDna": "chr17:g.7674872T>C",
+            "cDna": "c.659A>G",
+            "protein": "p.Y220C",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,279 @@
+{
+    "id": 3388,
+    "fullName": "KIT Y570_L576del",
+    "impact": "deletion",
+    "proteinEffect": "gain of function - predicted",
+    "geneVariantDescriptions": [
+        {
+            "description": "KIT Y570_L576del results in the deletion of seven amino acids in the juxtamembrane domain (exon 11) of the Kit protein from amino acids 570 to 576 (PMID: 16226710). Y570_L576del has not been characterized, however similar Kit exon 11 deletions are activating, thus Y570_L576del is predicted to lead to a gain of Kit protein function (PMID: 9438854, PMID: 15365079).",
+            "references": [
+                {
+                    "id": 648,
+                    "pubMedId": 16226710,
+                    "title": "Structure and regulation of Kit protein-tyrosine kinase--the stem cell factor receptor.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16226710"
+                },
+                {
+                    "id": 2054,
+                    "pubMedId": 15365079,
+                    "title": "Biology of gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15365079"
+                },
+                {
+                    "id": 650,
+                    "pubMedId": 9438854,
+                    "title": "Gain-of-function mutations of c-kit in human gastrointestinal stromal tumors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9438854"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 3815,
+        "geneSymbol": "KIT",
+        "terms": [
+            "KIT",
+            "C-Kit",
+            "CD117",
+            "MASTC",
+            "PBT",
+            "SCFR"
+        ]
+    },
+    "variant": "Y570_L576del",
+    "createDate": "02/26/2015",
+    "updateDate": "05/14/2019",
+    "referenceTranscriptCoordinates": {
+        "id": 137012,
+        "transcript": "NM_000222",
+        "gDna": "chr4:g.54727476_54727496del21",
+        "cDna": "c.1708_1728del21",
+        "protein": "p.Y570_L576delYIDPTQL",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 14372,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Sutent (sunitinib) demonstrated limited inhibition of Kit, Erk, and Mtor signaling and resulted in minimal (22.9%) tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 930,
+                "therapyName": "Sunitinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14382,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) in combination with LY394002 resulted in enhanced tumor growth inhibition compared to monotherapy in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 7087,
+                "therapyName": "Imatinib + LY294002",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14373,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Stivarga (regorafenib) inhibited Kit, Erk, and Mtor signaling, resulted in tumor growth inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 890,
+                "therapyName": "Regorafenib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 14371,
+            "approvalStatus": "Preclinical - Pdx",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, Gleevec (imatinib mesylate) did not inhibit Kit, Erk, or Mtor signaling and resulted in minimal tumor inhibition in patient-derived xenograft (PDX) model of gastrointestinal stromal tumor harboring KIT D816E, KIT Y570_L576del, and PTEN T321fs, which was established from a patient who did not respond to Gleevec (imatinib mesylate), Sutent (sunitinib), and Nexavar (sorafenib) (PMID: 29100343).",
+            "molecularProfile": {
+                "id": 29990,
+                "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs"
+            },
+            "therapy": {
+                "id": 770,
+                "therapyName": "Imatinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 9253,
+                "name": "gastrointestinal stromal tumor",
+                "source": "DOID"
+            },
+            "responseType": "resistant",
+            "references": [
+                {
+                    "id": 11624,
+                    "pubMedId": 29100343,
+                    "title": "Establishment and characterization of patient-derived xenograft models of gastrointestinal stromal tumor resistant to standard tyrosine kinase inhibitors.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29100343"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 3197,
+            "profileName": "KIT Y570_L576del",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 7710,
+                    "name": "KIT Inhibitor",
+                    "profileName": "KIT Y570_L576del"
+                }
+            ]
+        },
+        {
+            "id": 29990,
+            "profileName": "KIT Y570_L576del KIT D816E PTEN T321fs",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 137012,
+            "transcript": "NM_000222",
+            "gDna": "chr4:g.54727476_54727496del21",
+            "cDna": "c.1708_1728del21",
+            "protein": "p.Y570_L576delYIDPTQL",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137016,
+            "transcript": "XM_017008179",
+            "gDna": "chr4:g.54727486_54727506del21",
+            "cDna": "c.1709_1729del21",
+            "protein": "p.P570_D576delPTQLPYD",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137015,
+            "transcript": "XM_005265741",
+            "gDna": "chr4:g.54727473_54727493del21",
+            "cDna": "c.1708_1728del21",
+            "protein": "p.V570_Q576delVYIDPTQ",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137017,
+            "transcript": "XM_017008178",
+            "gDna": "chr4:g.54727476_54727496del21",
+            "cDna": "c.1708_1728del21",
+            "protein": "p.Y570_L576delYIDPTQL",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137018,
+            "transcript": "XM_017008180",
+            "gDna": "chr4:g.54727489_54727509del21",
+            "cDna": "c.1709_1729del21",
+            "protein": "p.T570_H576delTQLPYDH",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137014,
+            "transcript": "XM_005265740",
+            "gDna": "chr4:g.54727473_54727493del21",
+            "cDna": "c.1708_1728del21",
+            "protein": "p.V570_Q576delVYIDPTQ",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137019,
+            "transcript": "XM_005265742",
+            "gDna": "chr4:g.54727486_54727506del21",
+            "cDna": "c.1709_1729del21",
+            "protein": "p.P570_D576delPTQLPYD",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        },
+        {
+            "id": 137013,
+            "transcript": "NM_001093772",
+            "gDna": "chr4:g.54727489_54727509del21",
+            "cDna": "c.1709_1729del21",
+            "protein": "p.T570_H576delTQLPYDH",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "id": 9850,
+    "fullName": "ROS1 K2003I",
+    "impact": "missense",
+    "proteinEffect": "unknown",
+    "geneVariantDescriptions": [
+        {
+            "description": "ROS1 K2003I lies within the protein kinase domain of the Ros1 protein (UniProt.org). K2003I has been identified in the scientific literature (PMID: 25351743), but has not been biochemically characterized and therefore, its effect on Ros1 protein function is unknown.",
+            "references": [
+                {
+                    "id": 285,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed"
+                },
+                {
+                    "id": 295,
+                    "pubMedId": null,
+                    "title": null,
+                    "url": "https://www.uniprot.org"
+                },
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ]
+        }
+    ],
+    "type": null,
+    "gene": {
+        "id": 6098,
+        "geneSymbol": "ROS1",
+        "terms": [
+            "ROS1",
+            "c-ros-1",
+            "MCF3",
+            "ROS"
+        ]
+    },
+    "variant": "K2003I",
+    "createDate": "07/31/2015",
+    "updateDate": "02/21/2020",
+    "referenceTranscriptCoordinates": {
+        "id": 102361,
+        "transcript": "NM_002944",
+        "gDna": "chr6:g.117317270T>A",
+        "cDna": "c.6008A>T",
+        "protein": "p.K2003I",
+        "sourceDb": "RefSeq",
+        "refGenomeBuild": "GRCh38/hg38"
+    },
+    "partnerGenes": [
+        
+    ],
+    "evidence": [
+        {
+            "id": 7341,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ROS1 K2003I in the context of CD74-ROS1 were sensitive to Zykadia (ceritinib) in culture (PMID: 25351743).",
+            "molecularProfile": {
+                "id": 9847,
+                "profileName": "CD74 - ROS1 ROS1 K2003I"
+            },
+            "therapy": {
+                "id": 789,
+                "therapyName": "Ceritinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        },
+        {
+            "id": 7340,
+            "approvalStatus": "Preclinical - Cell culture",
+            "evidenceType": "Actionable",
+            "efficacyEvidence": "In a preclinical study, transformed cells expressing ROS1 K2003I in the context of CD74-ROS1 were sensitive to Xalkori (crizotinib) in culture (PMID: 25351743).",
+            "molecularProfile": {
+                "id": 9847,
+                "profileName": "CD74 - ROS1 ROS1 K2003I"
+            },
+            "therapy": {
+                "id": 706,
+                "therapyName": "Crizotinib",
+                "synonyms": null
+            },
+            "indication": {
+                "id": 10000003,
+                "name": "Advanced Solid Tumor",
+                "source": "JAX"
+            },
+            "responseType": "sensitive",
+            "references": [
+                {
+                    "id": 3339,
+                    "pubMedId": 25351743,
+                    "title": "Cabozantinib overcomes crizotinib resistance in ROS1 fusion-positive cancer.",
+                    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25351743"
+                }
+            ],
+            "ampCapAscoEvidenceLevel": "D",
+            "ampCapAscoInferredTier": "II"
+        }
+    ],
+    "molecularProfiles": [
+        {
+            "id": 9847,
+            "profileName": "CD74 - ROS1 ROS1 K2003I",
+            "profileTreatmentApproaches": [
+                {
+                    "id": 16956,
+                    "name": "Ceritinib",
+                    "profileName": "CD74 - ROS1 ROS1 K2003I"
+                },
+                {
+                    "id": 16957,
+                    "name": "Crizotinib",
+                    "profileName": "CD74 - ROS1 ROS1 K2003I"
+                }
+            ]
+        },
+        {
+            "id": 25221,
+            "profileName": "ROS1 K2003I",
+            "profileTreatmentApproaches": [
+                
+            ]
+        }
+    ],
+    "allTranscriptCoordinates": [
+        {
+            "id": 102361,
+            "transcript": "NM_002944",
+            "gDna": "chr6:g.117317270T>A",
+            "cDna": "c.6008A>T",
+            "protein": "p.K2003I",
+            "sourceDb": "RefSeq",
+            "refGenomeBuild": "GRCh38/hg38"
+        }
+    ]
+}
