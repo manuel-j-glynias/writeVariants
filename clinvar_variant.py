@@ -152,6 +152,7 @@ def parse_xml_file(my_db,my_cursor,path):
     my_db.commit()
 
 def clinvar_fetcher(filename):
+    print('downloading ' + filename)
     ftp = FTP('ftp.ncbi.nlm.nih.gov')
     ftp.login()
     ftp.cwd('pub/clinvar/xml/clinvar_variation')
@@ -161,6 +162,7 @@ def clinvar_fetcher(filename):
     localfile.close()
 
 def uncompress_clinvar(filename,outfilename):
+    print('uncompressing ' + filename)
     with gzip.open(filename, 'rb') as f_in:
         with open(outfilename, 'wb') as f_out:
             shutil.copyfileobj(f_in, f_out)
@@ -228,6 +230,5 @@ def create_clinvar_db():
 
 
 if __name__ == "__main__":
-    clinvar_is_current()
-    # create_clinvar_db()
+    create_clinvar_db()
 
