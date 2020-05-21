@@ -35,7 +35,7 @@ def does_db_exist(my_cursor,db_name):
     exists = False
     my_cursor.execute("SHOW DATABASES")
     for x in my_cursor:
-        if x[0] == db_name:
+        if x[0].lower() == db_name.lower():
             exists = True
             break
     return exists
